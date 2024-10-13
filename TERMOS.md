@@ -7,6 +7,8 @@
 - `Goal` _Objetivo_
 - `Venue` _Palco_
 - `Setlist` _Repertório_
+- `Big Rock Ending` _Final Triunfante_
+
 # Modos do jogo
 
 - `Audition Mode` _Modo Audition_

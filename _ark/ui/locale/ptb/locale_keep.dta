@@ -431,7 +431,7 @@
 (acc_band_rb3_get5stars_desc
    "Conquiste 5 <alt>*</alt> nas seguintes músicas:")
 (acc_band_rb3_getpoints
-   "Banda de um Milhão de Pontes")
+   "Banda de um Milhão de Pontos")
 (acc_band_rb3_getpoints_desc
    "Conquiste uma pontuação de carreira de 1,000,000 como integrante de um grupo.")
 (acc_band_rb3_getunison
@@ -4643,15 +4643,15 @@
 (aztecleggings_hide_desc
    "When the battle lust takes you, you'll want to be wearing these leggings designed for an Aztec warrior goddess.")
 (back
-   "BACK")
+   "VOLTAR")
 (background_music
-   "Background Music")
+   "Música de Fundo")
 (back_off
-   "back off!")
+   "para trás!")
 (bad_solo
    "Okay Solo")
 (band
-   "Band")
+   "Banda")
 (bandfirstname_1
    "The Jaundiced")
 (bandfirstname_10
@@ -4870,37 +4870,37 @@
    "   ")
 #ifdef HX_XBOX
 (band_chooser_find
-   "Find Xbox LIVE Players")
+   "Encontrar Jogadores da Xbox LIVE")
 #endif
 #ifdef HX_PS3
 (band_chooser_find
-   "Find Online Players")
+   "Encontrar Jogadores Online")
 #endif
 #ifdef HX_WII
 (band_chooser_find
-   "Find Online Players")
+   "Encontrar Jogadores Online")
 #endif
 #ifdef HX_PC
 (band_chooser_find
-   "Find Xbox LIVE Players")
+   "Encontrar Jogadores da Xbox LIVE")
 #endif
 (band_chooser_find_desc
    " ")
 #ifdef HX_XBOX
 (band_chooser_join
-   "Find Xbox LIVE Players")
+   "Encontrar Jogadores da Xbox LIVE")
 #endif
 #ifdef HX_PS3
 (band_chooser_join
-   "Find Online Players")
+   "Encontrar Jogadores Online")
 #endif
 #ifdef HX_WII
 (band_chooser_join
-   "Find Online Players")
+   "Encontrar Jogadores Online")
 #endif
 #ifdef HX_PC
 (band_chooser_join
-   "Find Xbox LIVE Players")
+   "Encontrar Jogadores da Xbox LIVE")
 #endif
 (band_chooser_join_desc
    " ")
@@ -4915,13 +4915,13 @@
 (band_chooser_profile_header
    "%s's Bands")
 (band_chooser_skip
-   "Quickplay")
+   "Jogo Rápido")
 (band_chooser_skip_desc
    "   ")
 (band_chooser_skip_desc_2
    "Player Statistics...")
 (band_coop
-   "Quickplay")
+   "Jogo Rápido")
 (band_default_name
    "%s's band")
 (band_emptyname
@@ -5293,29 +5293,29 @@
 (basketballsneaks_custom_desc
    "Your sneakers say a lot about you. These ones say \qYeah!\q")
 (bass
-   "Bass")
+   "Baixo")
 (bass_boost
    "Bass Boost")
 (bass_enters
    "Bass enters")
 (bass_intro
-   "Bass intro")
+   "Introd. do Baixo")
 (bass_riff
-   "Bass riff")
+   "Riff de Baixo")
 (bass_solo
-   "Bass solo")
+   "Solo de Baixo")
 (bass_solo_1
-   "Bass solo 1")
+   "Solo de Baixo 1")
 (bass_solo_2
-   "Bass solo 2")
+   "Solo de Baixo 2")
 (bass_solo_3
-   "Bass solo 3")
+   "Solo de Baixo 3")
 (bass_solo_a
-   "Bass solo a")
+   "Solo de Baixo a")
 (bass_solo_b
-   "Bass solo b")
+   "Solo de Baixo b")
 (bass_solo_c
-   "Bass solo c")
+   "Solo de Baixo c")
 (bass_streak
    "Bass Groove")
 (bass_super_streak
@@ -5423,7 +5423,7 @@
 (beta87_resource_desc
    "In addition to having particularly smooth frequency response, the Shure Beta 87A operates on phantom power, which should add a little mystery and intrigue to even the most straightforward performance. Phantom power!")
 (bigger_riff
-   "Bigger riff")
+   "O Melhor riff")
 (bigstraps_rubber
    "Back in Straps")
 (bigstraps_rubber_desc
@@ -5435,11 +5435,11 @@
 (big_club
    "Big Club")
 (big_riff_1
-   "Big riff 1")
+   "Riff grande 1")
 (big_riff_2
-   "Big riff 2")
+   "Riff grande 2")
 (big_rock_ending
-   "Big Rock Ending!")
+   "Final Triunfante!")
 (bikershortsflannel_spandex
    "Short Pants O' Mine")
 (bikershortsflannel_spandex_desc
@@ -5691,45 +5691,45 @@
 (breeches_wool_desc
    "Just having the audacity to wear these pants proves that fame has gone to your head. That, and the fact that you hired someone to read this for you.")
 (bridge
-   "Bridge")
+   "Ponte")
 (bridge_1
-   "Bridge 1")
+   "Ponte 1")
 (bridge_1a
-   "Bridge 1a")
+   "Ponte 1a")
 (bridge_1b
-   "Bridge 1b")
+   "Ponte 1b")
 (bridge_2
-   "Bridge 2")
+   "Ponte 2")
 (bridge_2a
-   "Bridge 2a")
+   "Ponte 2a")
 (bridge_2b
-   "Bridge 2b")
+   "Ponte 2b")
 (bridge_2c
-   "Bridge 2c")
+   "Ponte 2c")
 (bridge_3
-   "Bridge 3")
+   "Ponte 3")
 (bridge_3a
-   "Bridge 3a")
+   "Ponte 3a")
 (bridge_3b
-   "Bridge 3b")
+   "Ponte 3b")
 (bridge_3c
-   "Bridge 3c")
+   "Ponte 3c")
 (bridge_4
-   "Bridge 4")
+   "Ponte 4")
 (bridge_4a
-   "Bridge 4a")
+   "Ponte 4a")
 (bridge_4b
-   "Bridge 4b")
+   "Ponte 4b")
 (bridge_4c
-   "Bridge 4c")
+   "Ponte 4c")
 (bridge_a
-   "Bridge a")
+   "Ponte a")
 (bridge_b
-   "Bridge b")
+   "Ponte b")
 (bridge_c
-   "Bridge c")
+   "Ponte c")
 (bridge_d
-   "Bridge d")
+   "Ponte d")
 (brokenmic_resource
    "Sonic Transducer")
 (brokenmic_resource_desc
@@ -5739,7 +5739,7 @@
 (buckletank_leather_desc
    "This tough look is a hit if you're under more pressure than usual... 'cause there's just something about a spiked gauntlet that really mellows you out.")
 (buildup
-   "Build up")
+   "Ascensão")
 (bulkycamopants_camo
    "Tough Guy Camos")
 (bulkycamopants_camo_desc
@@ -5815,29 +5815,29 @@
 (bx3_resource_desc
    "Want a true organ sound with contemporary options? This double manual organ, with its two sets of \qlive\q drawbars, is a great performance instrument, guaranteed to attract envy and attention.")
 (by_artist
-   "Artist")
+   "Artista")
 (by_date
    "Date")
 (by_difficulty
-   "Song Difficulty")
+   "Dificuldade")
 (by_length
-   "Length")
+   "Duração")
 (by_location
    "Location")
 (by_pack
-   "By Song Pack")
+   "Por Pack de Música")
 (by_plays
-   "Play Count")
+   "Vezes Tocada")
 (by_rank
-   "Leaderboard Rank")
+   "Ranque no Leaderboard")
 (by_recent
-   "Date Acquired")
+   "Data Adquirida")
 (by_review
-   "Review")
+   "Crítica")
 (by_song
-   "Song Name")
+   "Nome da Música")
 (by_stars
-   "Stars")
+   "Estrelas")
 (c20bass
    "Jackson<sup>TM</sup> C20 Concert<sup>TM</sup> Bass")
 (c20bass_desc
@@ -6449,11 +6449,11 @@
 (change_speed
    "Change Speed")
 (chant_1
-   "Chant 1")
+   "Coro 1")
 (chant_2
-   "Chant 2")
+   "Coro 2")
 (chant_3
-   "Chant 3")
+   "Coro 3")
 (chaps_leather
    "Chapped Legs")
 (chaps_leather_desc
@@ -6971,15 +6971,15 @@
 (chorus_9c
    "Chorus 9c")
 (chorus_break
-   "Chorus break")
+   "Pausa do Refrão")
 (chorus_riff
-   "Chorus riff")
+   "Riff do Refrão")
 (chorus_riff_1
-   "Chorus riff 1")
+   "Riff do Refrão 1")
 (chorus_riff_2
-   "Chorus riff 2")
+   "Riff do Refrão 2")
 (chorus_riff_3
-   "Chorus riff 3")
+   "Riff do Refrão 3")
 (chrome
    "Chrome")
 (chucktaylor_folded
@@ -7275,31 +7275,31 @@
 (create_char_facial_hair
    "Facial Hair")
 (create_char_finish
-   "FINISH")
+   "Concluir")
 (create_char_gender
-   "Gender")
+   "Gênero")
 (create_char_genre
-   "GENRE")
+   "GÊNERO")
 (create_char_glasses
-   "Glasses")
+   "Óculos")
 (create_char_hair
-   "Hair")
+   "Cabelo")
 (create_char_head
    "MODIFY HEAD")
 (create_char_height
-   "HEIGHT")
+   "ALTURA")
 (create_char_hometown
    "HOMETOWN")
 (create_char_makeup
    "MAKEUP")
 (create_char_name
-   "NAME")
+   "NOME")
 (create_char_options
-   "CHARACTER OPTIONS")
+   "OPÇÕES DE PERSONAGEM")
 (create_char_outfit
    "OUTFIT")
 (create_char_skintone
-   "SKIN TONE")
+   "TOM DE PELE")
 (create_char_title
    "ROCKER MAKER")
 (create_char_vk_desc
@@ -7775,11 +7775,11 @@
 (drugrug_poncho_desc
    "Perfect for Deadheads and Reed students, this poncho will ensure that no one finds out that you come from money. Your secret is safe, Junior!")
 (drum
-   "Drum")
+   "Bateria")
 (drumandbass
    "Drum and Bass")
 (drums
-   "Drums")
+   "Bateria")
 (drums_enter
    "Drums enter")
 (drum_advanced_beats
@@ -10407,17 +10407,17 @@
 (filter_world
    "World")
 (finding_additional_content
-   "Finding Downloaded Content...")
+   "Encontrando músicas baixadas...")
 (finding_additional_progress
-   "%s Found")
+   "Encontrado: %s")
 (finding_invite
-   "Joining Session")
+   "Unindo a Sessão")
 (finding_players
-   "Finding Players")
+   "Encontrando Jogadores")
 (finding_players_continue
-   "Continue Without Leader")
+   "Continuar Sem Líder")
 (finding_players_retry
-   "Retry Join")
+   "Tentar Juntar de novo")
 (finding_presence_all_guests
    "Cannot accept invite when the only players in the session are guests.")
 (finding_presence_auto_vocals
@@ -10465,7 +10465,7 @@
 (finding_presence_wrong_mode
    "This session is playing a different game mode than you.")
 (find_players_quickplay_band
-   "Quickplay")
+   "Jogo Rápido")
 (find_players_title
    "Find a Band")
 (find_players_tour_band
@@ -10473,7 +10473,7 @@
 (find_redeemed
    "Previously Redeemed Codes")
 (finish
-   "Finish")
+   "Concluir")
 (finish_editing
    "FINISH EDITING")
 (fittedpants2_snake
@@ -10535,7 +10535,7 @@
 (floppyboots_leather_desc
    "Wade through seas of sweaty fans or just stomp your way through festival mud pits in these well-worn leather boots.")
 (fmp_back
-   "BACK")
+   "VOLTAR")
 (fmp_continue
    "PLAY WITH CURRENT LINEUP")
 #ifdef HX_XBOX
@@ -11179,7 +11179,7 @@
 (guide_pitch_off
    "GUIDE PITCH OFF")
 (guitar
-   "Guitar")
+   "Guitarra")
 (guitar_lessons
    "Guitar Lessons")
 (guitar_pad_lost
@@ -11281,7 +11281,7 @@
 (help_accept
    "ACCEPT")
 (help_back
-   "BACK")
+   "VOLTAR")
 (help_cancel
    "CANCEL")
 (help_confirm
@@ -11441,7 +11441,7 @@
 (house
    "House")
 (how_to_back
-   "BACK")
+   "VOLTAR")
 #ifdef HX_PS3
 (how_to_chat
    "")
@@ -11773,7 +11773,7 @@
 (keyboard_solo
    "Keyboard solo")
 (keys
-   "Keys")
+   "Teclado")
 (keys_pad_lost
    "keys controller")
 (kick2
@@ -16187,7 +16187,7 @@
 (plug_in_calbert
    "In order to select the Automatic Calibration option, you need to use a guitar controller with an automatic calibration device. Otherwise you can use Manual Calibration to determine your system's ideal settings, or select Enter Calibration Numbers if you already know what your delay settings should be.")
 (pn_submenu_quickplay
-   "Quickplay")
+   "Jogo Rápido")
 (points
    "points")
 (points_caps
@@ -16221,35 +16221,35 @@
 (popup_help_intro_keys
    "Play on C to G")
 (postchorus_1
-   "Post-chorus 1")
+   "Pós-Refrão 1")
 (postchorus_2
-   "Post-chorus 2")
+   "Pós-Refrão 2")
 (postchorus_3
-   "Post-chorus 3")
+   "Pós-Refrão 3")
 (postchorus_4
-   "Post-chorus 4")
+   "Pós-Refrão 4")
 (postchorus_5
-   "Post-chorus 5")
+   "Pós-Refrão 5")
 (postrock
    "Post-rock")
 (postverse_1
-   "Post-verse 1")
+   "Pós-Verso 1")
 (postverse_2
-   "Post-verse 2")
+   "Pós-Verso 2")
 (postverse_3
-   "Post-verse 3")
+   "Pós-Verso 3")
 (postverse_4
-   "Post-verse 4")
+   "Pós-Verso 4")
 (postverse_5
-   "Post-verse 5")
+   "Pós-Verso 5")
 (power
    "Power")
 (practice_mode
-   "practice mode")
+   "modo prática")
 (practice_new_section
-   "Practice New Section")
+   "Praticar Nova Sessão")
 (practice_or_train_song
-   "Practice/Train Song")
+   "Praticar/Treinar Música")
 (practice_panel_best
    "Best")
 (practice_panel_slower_faster
@@ -16277,335 +16277,335 @@
 (prayer
    "Prayer")
 (prc_a
-   "A section")
+   "Sessão A")
 (prc_a1
-   "A section 1")
+   "Sessão A1")
 (prc_a2
-   "A section 2")
+   "Sessão A2")
 (prc_a3
-   "A section 3")
+   "Sessão A3")
 (prc_a4
-   "A section 4")
+   "Sessão A4")
 (prc_a5
-   "A section 5")
+   "Sessão A5")
 (prc_a6
-   "A section 6")
+   "Sessão A6")
 (prc_a7
-   "A section 7")
+   "Sessão A7")
 (prc_a8
-   "A section 8")
+   "Sessão A8")
 (prc_a9
-   "A section 9")
+   "Sessão A9")
 (prc_ah
    "Ah!")
 (prc_alt_chorus
-   "Alt chorus")
+   "Refrão Alt.")
 (prc_alt_chorus_a
-   "Alt chorus a")
+   "Refrão Alt. a")
 (prc_alt_chorus_b
-   "Alt chorus b")
+   "Refrão Alt. b")
 (prc_alt_chorus_c
-   "Alt chorus c")
+   "Refrão Alt. c")
 (prc_alt_chorus_d
-   "Alt chorus d")
+   "Refrão Alt. d")
 (prc_alt_verse
-   "Alt verse")
+   "Verso Alt.")
 (prc_alt_verse_a
-   "Alt verse a")
+   "Verso Alt. a")
 (prc_alt_verse_b
-   "Alt verse b")
+   "Verso Alt. b")
 (prc_alt_verse_c
-   "Alt verse c")
+   "Verso Alt. c")
 (prc_alt_verse_d
-   "Alt verse d")
+   "Verso Alt. d")
 (prc_b
-   "B section")
+   "Sessão B")
 (prc_b1
-   "B section 1")
+   "Sessão B1")
 (prc_b2
-   "B section 2")
+   "Sessão B2")
 (prc_b3
-   "B section 3")
+   "Sessão B3")
 (prc_b4
-   "B section 4")
+   "Sessão B4")
 (prc_b5
-   "B section 5")
+   "Sessão B5")
 (prc_b6
-   "B section 6")
+   "Sessão B6")
 (prc_b7
-   "B section 7")
+   "Sessão B7")
 (prc_b8
-   "B section 8")
+   "Sessão B8")
 (prc_b9
-   "B section 9")
+   "Sessão B9")
 (prc_band_enters
-   "Band enters")
+   "Entrada da Banda")
 (prc_bass_break
-   "Bass break")
+   "Pausa do Baixo")
 (prc_bass_break_1
-   "Bass break 1")
+   "Pausa do Baixo 1")
 (prc_bass_break_1a
-   "Bass break 1a")
+   "Pausa do Baixo 1a")
 (prc_bass_break_1b
-   "Bass break 1b")
+   "Pausa do Baixo 1b")
 (prc_bass_break_1c
-   "Bass break 1c")
+   "Pausa do Baixo 1c")
 (prc_bass_break_1d
-   "Bass break 1d")
+   "Pausa do Baixo 1d")
 (prc_bass_break_2
-   "Bass break 2")
+   "Pausa do Baixo 2")
 (prc_bass_break_2a
-   "Bass break 2a")
+   "Pausa do Baixo 2a")
 (prc_bass_break_2b
-   "Bass break 2b")
+   "Pausa do Baixo 2b")
 (prc_bass_break_2c
-   "Bass break 2c")
+   "Pausa do Baixo 2c")
 (prc_bass_break_2d
-   "Bass break 2d")
+   "Pausa do Baixo 2d")
 (prc_bass_break_3
-   "Bass break 3")
+   "Pausa do Baixo 3")
 (prc_bass_break_3a
-   "Bass break 3a")
+   "Pausa do Baixo 3a")
 (prc_bass_break_3b
-   "Bass break 3b")
+   "Pausa do Baixo 3b")
 (prc_bass_break_3c
-   "Bass break 3c")
+   "Pausa do Baixo 3c")
 (prc_bass_break_3d
-   "Bass break 3d")
+   "Pausa do Baixo 3d")
 (prc_bass_break_4
-   "Bass break 4")
+   "Pausa do Baixo 4")
 (prc_bass_break_4a
-   "Bass break 4a")
+   "Pausa do Baixo 4a")
 (prc_bass_break_4b
-   "Bass break 4b")
+   "Pausa do Baixo 4b")
 (prc_bass_break_4c
-   "Bass break 4c")
+   "Pausa do Baixo 4c")
 (prc_bass_break_4d
-   "Bass break 4d")
+   "Pausa do Baixo 4d")
 (prc_bass_break_a
-   "Bass break a")
+   "Pausa do Baixo a")
 (prc_bass_break_b
-   "Bass break b")
+   "Pausa do Baixo b")
 (prc_bass_break_c
-   "Bass break c")
+   "Pausa do Baixo c")
 (prc_bass_break_d
-   "Bass break d")
+   "Pausa do Baixo d")
 (prc_bass_enters
-   "Bass enters")
+   "Entrada do Baixo")
 (prc_bass_intro
-   "Bass intro")
+   "Introd. do Baixo")
 (prc_bass_intro_a
-   "Bass intro a")
+   "Introd. do Baixo a")
 (prc_bass_intro_b
-   "Bass intro b")
+   "Introd. do Baixo b")
 (prc_bass_intro_c
-   "Bass intro c")
+   "Introd. do Baixo c")
 (prc_bass_intro_d
-   "Bass intro d")
+   "Introd. do Baixo d")
 (prc_bass_riff
-   "Bass riff")
+   "Riff de Baixo")
 (prc_bass_riff_1
-   "Bass riff 1")
+   "Riff de Baixo 1")
 (prc_bass_riff_1a
-   "Bass riff 1a")
+   "Riff de Baixo 1a")
 (prc_bass_riff_1b
-   "Bass riff 1b")
+   "Riff de Baixo 1b")
 (prc_bass_riff_1c
-   "Bass riff 1c")
+   "Riff de Baixo 1c")
 (prc_bass_riff_1d
-   "Bass riff 1d")
+   "Riff de Baixo 1d")
 (prc_bass_riff_2
-   "Bass riff 2")
+   "Riff de Baixo 2")
 (prc_bass_riff_2a
-   "Bass riff 2a")
+   "Riff de Baixo 2a")
 (prc_bass_riff_2b
-   "Bass riff 2b")
+   "Riff de Baixo 2b")
 (prc_bass_riff_2c
-   "Bass riff 2c")
+   "Riff de Baixo 2c")
 (prc_bass_riff_2d
-   "Bass riff 2d")
+   "Riff de Baixo 2d")
 (prc_bass_riff_3
-   "Bass riff 3")
+   "Riff de Baixo 3")
 (prc_bass_riff_3a
-   "Bass riff 3a")
+   "Riff de Baixo 3a")
 (prc_bass_riff_3b
-   "Bass riff 3b")
+   "Riff de Baixo 3b")
 (prc_bass_riff_3c
-   "Bass riff 3c")
+   "Riff de Baixo 3c")
 (prc_bass_riff_3d
-   "Bass riff 3d")
+   "Riff de Baixo 3d")
 (prc_bass_riff_4
-   "Bass riff 4")
+   "Riff de Baixo 4")
 (prc_bass_riff_4a
-   "Bass riff 4a")
+   "Riff de Baixo 4a")
 (prc_bass_riff_4b
-   "Bass riff 4b")
+   "Riff de Baixo 4b")
 (prc_bass_riff_4c
-   "Bass riff 4c")
+   "Riff de Baixo 4c")
 (prc_bass_riff_4d
-   "Bass riff 4d")
+   "Riff de Baixo 4d")
 (prc_bass_riff_a
-   "Bass riff a")
+   "Riff de Baixo a")
 (prc_bass_riff_b
-   "Bass riff b")
+   "Riff de Baixo b")
 (prc_bass_riff_c
-   "Bass riff c")
+   "Riff de Baixo c")
 (prc_bass_riff_d
-   "Bass riff d")
+   "Riff de Baixo d")
 (prc_bass_solo
-   "Bass solo")
+   "Solo de Baixo")
 (prc_bass_solo_1
-   "Bass solo 1")
+   "Solo de Baixo 1")
 (prc_bass_solo_1a
-   "Bass solo 1a")
+   "Solo de Baixo 1a")
 (prc_bass_solo_1b
-   "Bass solo 1b")
+   "Solo de Baixo 1b")
 (prc_bass_solo_1c
-   "Bass solo 1c")
+   "Solo de Baixo 1c")
 (prc_bass_solo_1d
-   "Bass solo 1d")
+   "Solo de Baixo 1d")
 (prc_bass_solo_2
-   "Bass solo 2")
+   "Solo de Baixo 2")
 (prc_bass_solo_2a
-   "Bass solo 2a")
+   "Solo de Baixo 2a")
 (prc_bass_solo_2b
-   "Bass solo 2b")
+   "Solo de Baixo 2b")
 (prc_bass_solo_2c
-   "Bass solo 2c")
+   "Solo de Baixo 2c")
 (prc_bass_solo_2d
-   "Bass solo 2d")
+   "Solo de Baixo 2d")
 (prc_bass_solo_3
-   "Bass solo 3")
+   "Solo de Baixo 3")
 (prc_bass_solo_3a
-   "Bass solo 3a")
+   "Solo de Baixo 3a")
 (prc_bass_solo_3b
-   "Bass solo 3b")
+   "Solo de Baixo 3b")
 (prc_bass_solo_3c
-   "Bass solo 3c")
+   "Solo de Baixo 3c")
 (prc_bass_solo_3d
-   "Bass solo 3d")
+   "Solo de Baixo 3d")
 (prc_bass_solo_4
-   "Bass solo 4")
+   "Solo de Baixo 4")
 (prc_bass_solo_4a
-   "Bass solo 4a")
+   "Solo de Baixo 4a")
 (prc_bass_solo_4b
-   "Bass solo 4b")
+   "Solo de Baixo 4b")
 (prc_bass_solo_4c
-   "Bass solo 4c")
+   "Solo de Baixo 4c")
 (prc_bass_solo_4d
-   "Bass solo 4d")
+   "Solo de Baixo 4d")
 (prc_bass_solo_a
-   "Bass solo a")
+   "Solo de Baixo a")
 (prc_bass_solo_b
-   "Bass solo b")
+   "Solo de Baixo b")
 (prc_bass_solo_c
-   "Bass solo c")
+   "Solo de Baixo c")
 (prc_bass_solo_d
-   "Bass solo d")
+   "Solo de Baixo d")
 (prc_bigger_riff
-   "Bigger riff")
+   "O Melhor riff")
 (prc_bigger_riff_1
-   "Bigger riff 1")
+   "O Melhor riff 1")
 (prc_bigger_riff_1a
-   "Bigger riff 1a")
+   "O Melhor riff 1a")
 (prc_bigger_riff_1b
-   "Bigger riff 1b")
+   "O Melhor riff 1b")
 (prc_bigger_riff_1c
-   "Bigger riff 1c")
+   "O Melhor riff 1c")
 (prc_bigger_riff_1d
-   "Bigger riff 1d")
+   "O Melhor riff 1d")
 (prc_bigger_riff_2
-   "Bigger riff 2")
+   "O Melhor riff 2")
 (prc_bigger_riff_2a
-   "Bigger riff 2a")
+   "O Melhor riff 2a")
 (prc_bigger_riff_2b
-   "Bigger riff 2b")
+   "O Melhor riff 2b")
 (prc_bigger_riff_2c
-   "Bigger riff 2c")
+   "O Melhor riff 2c")
 (prc_bigger_riff_2d
-   "Bigger riff 2d")
+   "O Melhor riff 2d")
 (prc_bigger_riff_3
-   "Bigger riff 3")
+   "O Melhor riff 3")
 (prc_bigger_riff_3a
-   "Bigger riff 3a")
+   "O Melhor riff 3a")
 (prc_bigger_riff_3b
-   "Bigger riff 3b")
+   "O Melhor riff 3b")
 (prc_bigger_riff_3c
-   "Bigger riff 3c")
+   "O Melhor riff 3c")
 (prc_bigger_riff_3d
-   "Bigger riff 3d")
+   "O Melhor riff 3d")
 (prc_bigger_riff_4
-   "Bigger riff 4")
+   "O Melhor riff 4")
 (prc_bigger_riff_4a
-   "Bigger riff 4a")
+   "O Melhor riff 4a")
 (prc_bigger_riff_4b
-   "Bigger riff 4b")
+   "O Melhor riff 4b")
 (prc_bigger_riff_4c
-   "Bigger riff 4c")
+   "O Melhor riff 4c")
 (prc_bigger_riff_4d
-   "Bigger riff 4d")
+   "O Melhor riff 4d")
 (prc_bigger_riff_a
-   "Bigger riff a")
+   "O Melhor riff a")
 (prc_bigger_riff_b
-   "Bigger riff b")
+   "O Melhor riff b")
 (prc_bigger_riff_c
-   "Bigger riff c")
+   "O Melhor riff c")
 (prc_bigger_riff_d
-   "Bigger riff d")
+   "O Melhor riff d")
 (prc_big_riff
-   "Big riff")
+   "Riff grande")
 (prc_big_riff_1
-   "Big riff 1")
+   "Riff grande 1")
 (prc_big_riff_1a
-   "Big riff 1a")
+   "Riff grande 1a")
 (prc_big_riff_1b
-   "Big riff 1b")
+   "Riff grande 1b")
 (prc_big_riff_1c
-   "Big riff 1c")
+   "Riff grande 1c")
 (prc_big_riff_1d
-   "Big riff 1d")
+   "Riff grande 1d")
 (prc_big_riff_2
-   "Big riff 2")
+   "Riff grande 2")
 (prc_big_riff_2a
-   "Big riff 2a")
+   "Riff grande 2a")
 (prc_big_riff_2b
-   "Big riff 2b")
+   "Riff grande 2b")
 (prc_big_riff_2c
-   "Big riff 2c")
+   "Riff grande 2c")
 (prc_big_riff_2d
-   "Big riff 2d")
+   "Riff grande 2d")
 (prc_big_riff_3
-   "Big riff 3")
+   "Riff grande 3")
 (prc_big_riff_3a
-   "Big riff 3a")
+   "Riff grande 3a")
 (prc_big_riff_3b
-   "Big riff 3b")
+   "Riff grande 3b")
 (prc_big_riff_3c
-   "Big riff 3c")
+   "Riff grande 3c")
 (prc_big_riff_3d
-   "Big riff 3d")
+   "Riff grande 3d")
 (prc_big_riff_4
-   "Big riff 4")
+   "Riff grande 4")
 (prc_big_riff_4a
-   "Big riff 4a")
+   "Riff grande 4a")
 (prc_big_riff_4b
-   "Big riff 4b")
+   "Riff grande 4b")
 (prc_big_riff_4c
-   "Big riff 4c")
+   "Riff grande 4c")
 (prc_big_riff_4d
-   "Big riff 4d")
+   "Riff grande 4d")
 (prc_big_riff_a
-   "Big riff a")
+   "Riff grande a")
 (prc_big_riff_b
-   "Big riff b")
+   "Riff grande b")
 (prc_big_riff_c
-   "Big riff c")
+   "Riff grande c")
 (prc_big_riff_d
-   "Big riff d")
+   "Riff grande d")
 (prc_bre
-   "Big Rock Ending!")
+   "Final Triunfante!")
 (prc_break
-   "Break")
+   "Pausa")
 (prc_breakdown
    "Breakdown")
 (prc_breakdown_1
@@ -16655,445 +16655,445 @@
 (prc_breakdown_c
    "Breakdown c")
 (prc_breakdown_chorus
-   "Breakdown chorus")
+   "Breakdown Refrão")
 (prc_breakdown_chorus_a
-   "Breakdown chorus a")
+   "Breakdown Refrão a")
 (prc_breakdown_chorus_b
-   "Breakdown chorus b")
+   "Breakdown Refrão b")
 (prc_breakdown_chorus_c
-   "Breakdown chorus c")
+   "Breakdown Refrão c")
 (prc_breakdown_chorus_d
-   "Breakdown chorus d")
+   "Breakdown Refrão d")
 (prc_breakdown_d
    "Breakdown d")
 (prc_break_1
-   "Break 1")
+   "Pausa 1")
 (prc_break_1a
-   "Break 1a")
+   "Pausa 1a")
 (prc_break_1b
-   "Break 1b")
+   "Pausa 1b")
 (prc_break_1c
-   "Break 1c")
+   "Pausa 1c")
 (prc_break_1d
-   "Break 1d")
+   "Pausa 1d")
 (prc_break_2
-   "Break 2")
+   "Pausa 2")
 (prc_break_2a
-   "Break 2a")
+   "Pausa 2a")
 (prc_break_2b
-   "Break 2b")
+   "Pausa 2b")
 (prc_break_2c
-   "Break 2c")
+   "Pausa 2c")
 (prc_break_2d
-   "Break 2d")
+   "Pausa 2d")
 (prc_break_3
-   "Break 3")
+   "Pausa 3")
 (prc_break_3a
-   "Break 3a")
+   "Pausa 3a")
 (prc_break_3b
-   "Break 3b")
+   "Pausa 3b")
 (prc_break_3c
-   "Break 3c")
+   "Pausa 3c")
 (prc_break_3d
-   "Break 3d")
+   "Pausa 3d")
 (prc_break_4
-   "Break 4")
+   "Pausa 4")
 (prc_break_4a
-   "Break 4a")
+   "Pausa 4a")
 (prc_break_4b
-   "Break 4b")
+   "Pausa 4b")
 (prc_break_4c
-   "Break 4c")
+   "Pausa 4c")
 (prc_break_4d
-   "Break 4d")
+   "Pausa 4d")
 (prc_break_a
-   "Break a")
+   "Pausa a")
 (prc_break_b
-   "Break b")
+   "Pausa b")
 (prc_break_c
-   "Break c")
+   "Pausa c")
 (prc_break_d
-   "Break d")
+   "Pausa d")
 (prc_bridge
-   "Bridge")
+   "Ponte")
 (prc_bridge_1
-   "Bridge 1")
+   "Ponte 1")
 (prc_bridge_1a
-   "Bridge 1a")
+   "Ponte 1a")
 (prc_bridge_1b
-   "Bridge 1b")
+   "Ponte 1b")
 (prc_bridge_1c
-   "Bridge 1c")
+   "Ponte 1c")
 (prc_bridge_1d
-   "Bridge 1d")
+   "Ponte 1d")
 (prc_bridge_2
-   "Bridge 2")
+   "Ponte 2")
 (prc_bridge_2a
-   "Bridge 2a")
+   "Ponte 2a")
 (prc_bridge_2b
-   "Bridge 2b")
+   "Ponte 2b")
 (prc_bridge_2c
-   "Bridge 2c")
+   "Ponte 2c")
 (prc_bridge_2d
-   "Bridge 2d")
+   "Ponte 2d")
 (prc_bridge_3
-   "Bridge 3")
+   "Ponte 3")
 (prc_bridge_3a
-   "Bridge 3a")
+   "Ponte 3a")
 (prc_bridge_3b
-   "Bridge 3b")
+   "Ponte 3b")
 (prc_bridge_3c
-   "Bridge 3c")
+   "Ponte 3c")
 (prc_bridge_3d
-   "Bridge 3d")
+   "Ponte 3d")
 (prc_bridge_4
-   "Bridge 4")
+   "Ponte 4")
 (prc_bridge_4a
-   "Bridge 4a")
+   "Ponte 4a")
 (prc_bridge_4b
-   "Bridge 4b")
+   "Ponte 4b")
 (prc_bridge_4c
-   "Bridge 4c")
+   "Ponte 4c")
 (prc_bridge_4d
-   "Bridge 4d")
+   "Ponte 4d")
 (prc_bridge_5
-   "Bridge 5")
+   "Ponte 5")
 (prc_bridge_5a
-   "Bridge 5a")
+   "Ponte 5a")
 (prc_bridge_5b
-   "Bridge 5b")
+   "Ponte 5b")
 (prc_bridge_5c
-   "Bridge 5c")
+   "Ponte 5c")
 (prc_bridge_5d
-   "Bridge 5d")
+   "Ponte 5d")
 (prc_bridge_6
-   "Bridge 6")
+   "Ponte 6")
 (prc_bridge_6a
-   "Bridge 6a")
+   "Ponte 6a")
 (prc_bridge_6b
-   "Bridge 6b")
+   "Ponte 6b")
 (prc_bridge_6c
-   "Bridge 6c")
+   "Ponte 6c")
 (prc_bridge_6d
-   "Bridge 6d")
+   "Ponte 6d")
 (prc_bridge_7
-   "Bridge 7")
+   "Ponte 7")
 (prc_bridge_7a
-   "Bridge 7a")
+   "Ponte 7a")
 (prc_bridge_7b
-   "Bridge 7b")
+   "Ponte 7b")
 (prc_bridge_7c
-   "Bridge 7c")
+   "Ponte 7c")
 (prc_bridge_7d
-   "Bridge 7d")
+   "Ponte 7d")
 (prc_bridge_8
-   "Bridge 8")
+   "Ponte 8")
 (prc_bridge_8a
-   "Bridge 8a")
+   "Ponte 8a")
 (prc_bridge_8b
-   "Bridge 8b")
+   "Ponte 8b")
 (prc_bridge_8c
-   "Bridge 8c")
+   "Ponte 8c")
 (prc_bridge_8d
-   "Bridge 8d")
+   "Ponte 8d")
 (prc_bridge_9
-   "Bridge 9")
+   "Ponte 9")
 (prc_bridge_9a
-   "Bridge 9a")
+   "Ponte 9a")
 (prc_bridge_9b
-   "Bridge 9b")
+   "Ponte 9b")
 (prc_bridge_9c
-   "Bridge 9c")
+   "Ponte 9c")
 (prc_bridge_9d
-   "Bridge 9d")
+   "Ponte 9d")
 (prc_bridge_a
-   "Bridge a")
+   "Ponte a")
 (prc_bridge_b
-   "Bridge b")
+   "Ponte b")
 (prc_bridge_c
-   "Bridge c")
+   "Ponte c")
 (prc_bridge_d
-   "Bridge d")
+   "Ponte d")
 (prc_build_up
-   "Build up")
+   "Ascensão")
 (prc_build_up_1
-   "Build up 1")
+   "Ascensão 1")
 (prc_build_up_1a
-   "Build up 1a")
+   "Ascensão 1a")
 (prc_build_up_1b
-   "Build up 1b")
+   "Ascensão 1b")
 (prc_build_up_1c
-   "Build up 1c")
+   "Ascensão 1c")
 (prc_build_up_1d
-   "Build up 1d")
+   "Ascensão 1d")
 (prc_build_up_2
-   "Build up 2")
+   "Ascensão 2")
 (prc_build_up_2a
-   "Build up 2a")
+   "Ascensão 2a")
 (prc_build_up_2b
-   "Build up 2b")
+   "Ascensão 2b")
 (prc_build_up_2c
-   "Build up 2c")
+   "Ascensão 2c")
 (prc_build_up_2d
-   "Build up 2d")
+   "Ascensão 2d")
 (prc_build_up_3
-   "Build up 3")
+   "Ascensão 3")
 (prc_build_up_3a
-   "Build up 3a")
+   "Ascensão 3a")
 (prc_build_up_3b
-   "Build up 3b")
+   "Ascensão 3b")
 (prc_build_up_3c
-   "Build up 3c")
+   "Ascensão 3c")
 (prc_build_up_3d
-   "Build up 3d")
+   "Ascensão 3d")
 (prc_build_up_4
-   "Build up 4")
+   "Ascensão 4")
 (prc_build_up_4a
-   "Build up 4a")
+   "Ascensão 4a")
 (prc_build_up_4b
-   "Build up 4b")
+   "Ascensão 4b")
 (prc_build_up_4c
-   "Build up 4c")
+   "Ascensão 4c")
 (prc_build_up_4d
-   "Build up 4d")
+   "Ascensão 4d")
 (prc_build_up_a
-   "Build up a")
+   "Ascensão a")
 (prc_build_up_b
-   "Build up b")
+   "Ascensão b")
 (prc_build_up_c
-   "Build up c")
+   "Ascensão c")
 (prc_build_up_d
-   "Build up d")
+   "Ascensão d")
 (prc_c
-   "C section")
+   "Sessão C")
 (prc_c1
-   "C section 1")
+   "Sessão C1")
 (prc_c2
-   "C section 2")
+   "Sessão C2")
 (prc_c3
-   "C section 3")
+   "Sessão C3")
 (prc_c4
-   "C section 4")
+   "Sessão C4")
 (prc_c5
-   "C section 5")
+   "Sessão C5")
 (prc_c6
-   "C section 6")
+   "Sessão C6")
 (prc_c7
-   "C section 7")
+   "Sessão C7")
 (prc_c8
-   "C section 8")
+   "Sessão C8")
 (prc_c9
-   "C section 9")
+   "Sessão C9")
 (prc_chant
-   "Chant")
+   "Coro")
 (prc_chant_1
-   "Chant 1")
+   "Coro 1")
 (prc_chant_1a
-   "Chant 1a")
+   "Coro 1a")
 (prc_chant_1b
-   "Chant 1b")
+   "Coro 1b")
 (prc_chant_1c
-   "Chant 1c")
+   "Coro 1c")
 (prc_chant_1d
-   "Chant 1d")
+   "Coro 1d")
 (prc_chant_2
-   "Chant 2")
+   "Coro 2")
 (prc_chant_2a
-   "Chant 2a")
+   "Coro 2a")
 (prc_chant_2b
-   "Chant 2b")
+   "Coro 2b")
 (prc_chant_2c
-   "Chant 2c")
+   "Coro 2c")
 (prc_chant_2d
-   "Chant 2d")
+   "Coro 2d")
 (prc_chant_3
-   "Chant 3")
+   "Coro 3")
 (prc_chant_3a
-   "Chant 3a")
+   "Coro 3a")
 (prc_chant_3b
-   "Chant 3b")
+   "Coro 3b")
 (prc_chant_3c
-   "Chant 3c")
+   "Coro 3c")
 (prc_chant_3d
-   "Chant 3d")
+   "Coro 3d")
 (prc_chant_4
-   "Chant 4")
+   "Coro 4")
 (prc_chant_4a
-   "Chant 4a")
+   "Coro 4a")
 (prc_chant_4b
-   "Chant 4b")
+   "Coro 4b")
 (prc_chant_4c
-   "Chant 4c")
+   "Coro 4c")
 (prc_chant_4d
-   "Chant 4d")
+   "Coro 4d")
 (prc_chant_a
-   "Chant a")
+   "Coro a")
 (prc_chant_b
-   "Chant b")
+   "Coro b")
 (prc_chant_c
-   "Chant c")
+   "Coro c")
 (prc_chant_d
-   "Chant d")
+   "Coro d")
 (prc_chorus
-   "Chorus")
+   "Refrão")
 (prc_chorus_1
-   "Chorus 1")
+   "Refrão 1")
 (prc_chorus_1a
-   "Chorus 1a")
+   "Refrão 1a")
 (prc_chorus_1b
-   "Chorus 1b")
+   "Refrão 1b")
 (prc_chorus_1c
-   "Chorus 1c")
+   "Refrão 1c")
 (prc_chorus_1d
-   "Chorus 1d")
+   "Refrão 1d")
 (prc_chorus_2
-   "Chorus 2")
+   "Refrão 2")
 (prc_chorus_2a
-   "Chorus 2a")
+   "Refrão 2a")
 (prc_chorus_2b
-   "Chorus 2b")
+   "Refrão 2b")
 (prc_chorus_2c
-   "Chorus 2c")
+   "Refrão 2c")
 (prc_chorus_2d
-   "Chorus 2d")
+   "Refrão 2d")
 (prc_chorus_3
-   "Chorus 3")
+   "Refrão 3")
 (prc_chorus_3a
-   "Chorus 3a")
+   "Refrão 3a")
 (prc_chorus_3b
-   "Chorus 3b")
+   "Refrão 3b")
 (prc_chorus_3c
-   "Chorus 3c")
+   "Refrão 3c")
 (prc_chorus_3d
-   "Chorus 3d")
+   "Refrão 3d")
 (prc_chorus_4
-   "Chorus 4")
+   "Refrão 4")
 (prc_chorus_4a
-   "Chorus 4a")
+   "Refrão 4a")
 (prc_chorus_4b
-   "Chorus 4b")
+   "Refrão 4b")
 (prc_chorus_4c
-   "Chorus 4c")
+   "Refrão 4c")
 (prc_chorus_4d
-   "Chorus 4d")
+   "Refrão 4d")
 (prc_chorus_5
-   "Chorus 5")
+   "Refrão 5")
 (prc_chorus_5a
-   "Chorus 5a")
+   "Refrão 5a")
 (prc_chorus_5b
-   "Chorus 5b")
+   "Refrão 5b")
 (prc_chorus_5c
-   "Chorus 5c")
+   "Refrão 5c")
 (prc_chorus_5d
-   "Chorus 5d")
+   "Refrão 5d")
 (prc_chorus_6
-   "Chorus 6")
+   "Refrão 6")
 (prc_chorus_6a
-   "Chorus 6a")
+   "Refrão 6a")
 (prc_chorus_6b
-   "Chorus 6b")
+   "Refrão 6b")
 (prc_chorus_6c
-   "Chorus 6c")
+   "Refrão 6c")
 (prc_chorus_6d
-   "Chorus 6d")
+   "Refrão 6d")
 (prc_chorus_7
-   "Chorus 7")
+   "Refrão 7")
 (prc_chorus_7a
-   "Chorus 7a")
+   "Refrão 7a")
 (prc_chorus_7b
-   "Chorus 7b")
+   "Refrão 7b")
 (prc_chorus_7c
-   "Chorus 7c")
+   "Refrão 7c")
 (prc_chorus_7d
-   "Chorus 7d")
+   "Refrão 7d")
 (prc_chorus_8
-   "Chorus 8")
+   "Refrão 8")
 (prc_chorus_8a
-   "Chorus 8a")
+   "Refrão 8a")
 (prc_chorus_8b
-   "Chorus 8b")
+   "Refrão 8b")
 (prc_chorus_8c
-   "Chorus 8c")
+   "Refrão 8c")
 (prc_chorus_8d
-   "Chorus 8d")
+   "Refrão 8d")
 (prc_chorus_9
-   "Chorus 9")
+   "Refrão 9")
 (prc_chorus_9a
-   "Chorus 9a")
+   "Refrão 9a")
 (prc_chorus_9b
-   "Chorus 9b")
+   "Refrão 9b")
 (prc_chorus_9c
-   "Chorus 9c")
+   "Refrão 9c")
 (prc_chorus_9d
-   "Chorus 9d")
+   "Refrão 9d")
 (prc_chorus_a
-   "Chorus a")
+   "Refrão a")
 (prc_chorus_b
-   "Chorus b")
+   "Refrão b")
 (prc_chorus_break
-   "Chorus break")
+   "Pausa do Refrão")
 (prc_chorus_break_a
-   "Chorus break a")
+   "Pausa do Refrão a")
 (prc_chorus_break_b
-   "Chorus break b")
+   "Pausa do Refrão b")
 (prc_chorus_break_c
-   "Chorus break c")
+   "Pausa do Refrão c")
 (prc_chorus_break_d
-   "Chorus break d")
+   "Pausa do Refrão d")
 (prc_chorus_c
-   "Chorus c")
+   "Refrão c")
 (prc_chorus_d
-   "Chorus d")
+   "Refrão d")
 (prc_chorus_riff
-   "Chorus riff")
+   "Riff do Refrão")
 (prc_chorus_riff_1
-   "Chorus riff 1")
+   "Riff do Refrão 1")
 (prc_chorus_riff_1a
-   "Chorus riff 1a")
+   "Riff do Refrão 1a")
 (prc_chorus_riff_1b
-   "Chorus riff 1b")
+   "Riff do Refrão 1b")
 (prc_chorus_riff_1c
-   "Chorus riff 1c")
+   "Riff do Refrão 1c")
 (prc_chorus_riff_1d
-   "Chorus riff 1d")
+   "Riff do Refrão 1d")
 (prc_chorus_riff_2
-   "Chorus riff 2")
+   "Riff do Refrão 2")
 (prc_chorus_riff_2a
-   "Chorus riff 2a")
+   "Riff do Refrão 2a")
 (prc_chorus_riff_2b
-   "Chorus riff 2b")
+   "Riff do Refrão 2b")
 (prc_chorus_riff_2c
-   "Chorus riff 2c")
+   "Riff do Refrão 2c")
 (prc_chorus_riff_2d
-   "Chorus riff 2d")
+   "Riff do Refrão 2d")
 (prc_chorus_riff_3
-   "Chorus riff 3")
+   "Riff do Refrão 3")
 (prc_chorus_riff_3a
-   "Chorus riff 3a")
+   "Riff do Refrão 3a")
 (prc_chorus_riff_3b
-   "Chorus riff 3b")
+   "Riff do Refrão 3b")
 (prc_chorus_riff_3c
-   "Chorus riff 3c")
+   "Riff do Refrão 3c")
 (prc_chorus_riff_3d
-   "Chorus riff 3d")
+   "Riff do Refrão 3d")
 (prc_chorus_riff_4
-   "Chorus riff 4")
+   "Riff do Refrão 4")
 (prc_chorus_riff_4a
-   "Chorus riff 4a")
+   "Riff do Refrão 4a")
 (prc_chorus_riff_4b
-   "Chorus riff 4b")
+   "Riff do Refrão 4b")
 (prc_chorus_riff_4c
-   "Chorus riff 4c")
+   "Riff do Refrão 4c")
 (prc_chorus_riff_4d
-   "Chorus riff 4d")
+   "Riff do Refrão 4d")
 (prc_chorus_riff_a
-   "Chorus riff a")
+   "Riff do Refrão a")
 (prc_chorus_riff_b
-   "Chorus riff b")
+   "Riff do Refrão b")
 (prc_chorus_riff_c
-   "Chorus riff c")
+   "Riff do Refrão c")
 (prc_chorus_riff_d
-   "Chorus riff d")
+   "Riff do Refrão d")
 (prc_chunky_riff
    "Chunky riff")
 (prc_chunky_riff_1
@@ -17197,23 +17197,23 @@
 (prc_d
    "D section")
 (prc_d1
-   "D section 1")
+   "Sessão D1")
 (prc_d2
-   "D section 2")
+   "Sessão D2")
 (prc_d3
-   "D section 3")
+   "Sessão D3")
 (prc_d4
-   "D section 4")
+   "Sessão D4")
 (prc_d5
-   "D section 5")
+   "Sessão D5")
 (prc_d6
-   "D section 6")
+   "Sessão D6")
 (prc_d7
-   "D section 7")
+   "Sessão D7")
 (prc_d8
-   "D section 8")
+   "Sessão D8")
 (prc_d9
-   "D section 9")
+   "Sessão D9")
 (prc_dj_break
    "DJ break")
 (prc_dj_intro_a
@@ -19883,125 +19883,125 @@
 (prc_piano_solo_d
    "Piano solo d")
 (prc_postchorus
-   "Post-chorus")
+   "Pós-Refrão")
 (prc_postchorus_1
-   "Post-chorus 1")
+   "Pós-Refrão 1")
 (prc_postchorus_1a
-   "Post-chorus 1a")
+   "Pós-Refrão 1a")
 (prc_postchorus_1b
-   "Post-chorus 1b")
+   "Pós-Refrão 1b")
 (prc_postchorus_1c
-   "Post-chorus 1c")
+   "Pós-Refrão 1c")
 (prc_postchorus_1d
-   "Post-chorus 1d")
+   "Pós-Refrão 1d")
 (prc_postchorus_2
-   "Post-chorus 2")
+   "Pós-Refrão 2")
 (prc_postchorus_2a
-   "Post-chorus 2a")
+   "Pós-Refrão 2a")
 (prc_postchorus_2b
-   "Post-chorus 2b")
+   "Pós-Refrão 2b")
 (prc_postchorus_2c
-   "Post-chorus 2c")
+   "Pós-Refrão 2c")
 (prc_postchorus_2d
-   "Post-chorus 2d")
+   "Pós-Refrão 2d")
 (prc_postchorus_3
-   "Post-chorus 3")
+   "Pós-Refrão 3")
 (prc_postchorus_3a
-   "Post-chorus 3a")
+   "Pós-Refrão 3a")
 (prc_postchorus_3b
-   "Post-chorus 3b")
+   "Pós-Refrão 3b")
 (prc_postchorus_3c
-   "Post-chorus 3c")
+   "Pós-Refrão 3c")
 (prc_postchorus_3d
-   "Post-chorus 3d")
+   "Pós-Refrão 3d")
 (prc_postchorus_4
-   "Post-chorus 4")
+   "Pós-Refrão 4")
 (prc_postchorus_4a
-   "Post-chorus 4a")
+   "Pós-Refrão 4a")
 (prc_postchorus_4b
-   "Post-chorus 4b")
+   "Pós-Refrão 4b")
 (prc_postchorus_4c
-   "Post-chorus 4c")
+   "Pós-Refrão 4c")
 (prc_postchorus_4d
-   "Post-chorus 4d")
+   "Pós-Refrão 4d")
 (prc_postchorus_5
-   "Post-chorus 5")
+   "Pós-Refrão 5")
 (prc_postchorus_5a
-   "Post-chorus 5a")
+   "Pós-Refrão 5a")
 (prc_postchorus_5b
-   "Post-chorus 5b")
+   "Pós-Refrão 5b")
 (prc_postchorus_5c
-   "Post-chorus 5c")
+   "Pós-Refrão 5c")
 (prc_postchorus_5d
-   "Post-chorus 5d")
+   "Pós-Refrão 5d")
 (prc_postchorus_a
-   "Post-chorus a")
+   "Pós-Refrão a")
 (prc_postchorus_b
-   "Post-chorus b")
+   "Pós-Refrão b")
 (prc_postchorus_c
-   "Post-chorus c")
+   "Pós-Refrão c")
 (prc_postchorus_d
-   "Post-chorus d")
+   "Pós-Refrão d")
 (prc_postverse
-   "Post-verse")
+   "Pós-Verso")
 (prc_postverse_1
-   "Post-verse 1")
+   "Pós-Verso 1")
 (prc_postverse_1a
-   "Post-verse 1a")
+   "Pós-Verso 1a")
 (prc_postverse_1b
-   "Post-verse 1b")
+   "Pós-Verso 1b")
 (prc_postverse_1c
-   "Post-verse 1c")
+   "Pós-Verso 1c")
 (prc_postverse_1d
-   "Post-verse 1d")
+   "Pós-Verso 1d")
 (prc_postverse_2
-   "Post-verse 2")
+   "Pós-Verso 2")
 (prc_postverse_2a
-   "Post-verse 2a")
+   "Pós-Verso 2a")
 (prc_postverse_2b
-   "Post-verse 2b")
+   "Pós-Verso 2b")
 (prc_postverse_2c
-   "Post-verse 2c")
+   "Pós-Verso 2c")
 (prc_postverse_2d
-   "Post-verse 2d")
+   "Pós-Verso 2d")
 (prc_postverse_3
-   "Post-verse 3")
+   "Pós-Verso 3")
 (prc_postverse_3a
-   "Post-verse 3a")
+   "Pós-Verso 3a")
 (prc_postverse_3b
-   "Post-verse 3b")
+   "Pós-Verso 3b")
 (prc_postverse_3c
-   "Post-verse 3c")
+   "Pós-Verso 3c")
 (prc_postverse_3d
-   "Post-verse 3d")
+   "Pós-Verso 3d")
 (prc_postverse_4
-   "Post-verse 4")
+   "Pós-Verso 4")
 (prc_postverse_4a
-   "Post-verse 4a")
+   "Pós-Verso 4a")
 (prc_postverse_4b
-   "Post-verse 4b")
+   "Pós-Verso 4b")
 (prc_postverse_4c
-   "Post-verse 4c")
+   "Pós-Verso 4c")
 (prc_postverse_4d
-   "Post-verse 4d")
+   "Pós-Verso 4d")
 (prc_postverse_5
-   "Post-verse 5")
+   "Pós-Verso 5")
 (prc_postverse_5a
-   "Post-verse 5a")
+   "Pós-Verso 5a")
 (prc_postverse_5b
-   "Post-verse 5b")
+   "Pós-Verso 5b")
 (prc_postverse_5c
-   "Post-verse 5c")
+   "Pós-Verso 5c")
 (prc_postverse_5d
-   "Post-verse 5d")
+   "Pós-Verso 5d")
 (prc_postverse_a
-   "Post-verse a")
+   "Pós-Verso a")
 (prc_postverse_b
-   "Post-verse b")
+   "Pós-Verso b")
 (prc_postverse_c
-   "Post-verse c")
+   "Pós-Verso c")
 (prc_postverse_d
-   "Post-verse d")
+   "Pós-Verso d")
 (prc_prayer
    "Prayer")
 (prc_prayer_1
@@ -21487,7 +21487,7 @@
 (pro_drum_lessons
    "Pro Drum Lessons")
 (pro_guitar
-   "Pro Guitar")
+   "Guitarra PRO")
 (pro_guitar_lessons
    "Learn Pro Guitar")
 (pro_guitar_songs
@@ -21733,15 +21733,15 @@
 (rbsoulfunk
    "R&B/Soul/Funk")
 (real_bass
-   "Pro Bass")
+   "Baixo PRO")
 (real_drum
-   "Pro Drums")
+   "Bateria PRO")
 (real_guitar
-   "Pro Guitar")
+   "Guitarra PRO")
 (real_guitar_pad_lost
    "pro guitar controller")
 (real_keys
-   "Pro Keys")
+   "Teclado PRO")
 (recently_acquired
    "Newly Acquired")
 (recordlabelfirstname_1
@@ -23571,9 +23571,9 @@
 (studdedshoe_leather_desc
    "Even if you're not listed in the playbill, the spotlight will still be on you in these studded booties.")
 (st_harmony
-   "Harmonies")
+   "Harmonia")
 (st_vocals
-   "Vocals")
+   "Vocal Solo")
 (subgenre_acapella
    "A capella")
 (subgenre_acidjazz
@@ -24733,7 +24733,7 @@
 (tour_hub_customizechar
    "Customize Character")
 (tour_hub_quickplay_button
-   "Music Library")
+   "Biblioteca de Música")
 (tour_hub_shop_button
    "Customize")
 (tour_hub_tour_button
@@ -25519,7 +25519,7 @@
 (trainer_drums
    "<alt>D</alt> DRUMS")
 (trainer_gemprev_finish
-   "Finish")
+   "Concluir")
 (trainer_gemprev_start
    "Start")
 (trainer_gemprev_timeline
@@ -27345,7 +27345,7 @@
 (vneck_cotton_desc
    "Comfortable and flattering while sending the message that you most definitely did NOT get arrested for stealing your old boss's car and filling it with mini marshmallows.")
 (vocals
-   "vocals")
+   "vocal solo")
 (vocalstyle_scrolling
    "Scrolling")
 (vocalstyle_static
