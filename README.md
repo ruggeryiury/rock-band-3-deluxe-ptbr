@@ -1,4 +1,9 @@
+- [Quantidade de linhas traduzidas](#quantidade-de-linhas-traduzidas)
 - [Termos utilizados](#termos-utilizados)
+
+# Quantidade de linhas traduzidas
+
+- 444/27734 linhas (1,6%)
 
 # Termos utilizados
 

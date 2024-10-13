@@ -1,12 +1,12 @@
 (heading
-   "CRÉDITOS: ROCK BAND 3 DELUXE")
+   "ROCK BAND 3 DELUXE CREDITS")
 ()
 (heading
-   "UM PROJETO DO GRUPO MILOHAX")
+   "A MILOHAX TEAM PROJECT")
 ()
 ()
 (heading2
-   "DIRETORES DE TRADUÇÃO")
+   "BRAZILIAN PORTUGUESE LOCALIZATION PROJECT LEAD")
 (title_name
    ""
    "Ruggy")
@@ -14,12 +14,12 @@
    ""
    "raphaelgoulart")
 (heading2
-   "DIRETOR DO PROJETO MILOHAX")
+   "MILOHAX PROJECT LEAD")
 (title_name
    ""
    "jnack")
 (heading2
-   "CONTRIBUIDORES DO PROJETO MILOHAX")
+   "CONTRIBUTORS")
 (title_name
    ""
    "AchillesPDX")
@@ -121,7 +121,7 @@
    "Vois30")
 ()
 (heading2
-   "AGRADECIMENTOS ESPECIAIS")
+   "SPECIAL THANKS")
 (title_name
    ""
    "Acai")

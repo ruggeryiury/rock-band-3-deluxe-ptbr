@@ -1,11 +1,18 @@
+- [Termos Gerais](#termos-gerais)
 - [Modos do jogo](#modos-do-jogo)
 - [Instrumentos](#instrumentos)
 
+# Termos Gerais
+
+- `Goal` _Objetivo_
+- `Venue` _Palco_
+- `Setlist` _Repertório_
 # Modos do jogo
 
 - `Audition Mode` _Modo Audition_
 - `Practice Mode` _Modo Prática_
 - `Quickplay` _Jogo Rápido_
+- `Trainer Mode` _Modo Treino_
 
 # Instrumentos
 
