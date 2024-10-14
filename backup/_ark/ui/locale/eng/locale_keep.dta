@@ -1,27 +1,27 @@
 (123_nonalpha_group
    "123")
 (1_song
-   "1 música")
+   "1 Song")
 (1_star
    "*")
 (2bandsolid
-   "Sólido em espiral 2")
+   "Solid 2 Band Swirl")
 (2bandtrans
-   "Transparente em espiral 2")
+   "Transparent 2 Band Swirl")
 (2_star
    "**")
 (3bandsolid
-   "Sólido em espiral 3")
+   "Solid 3 Band Swirl")
 (3bandtrans
-   "Transparente em espiral 3")
+   "Transparent 3 Band Swirl")
 (3rainbowsolid
-   "Sólido em arco-íris 3")
+   "Solid 3 Band Rainbow")
 (3rainbowtrans
-   "Transparente em arco-íris 3")
+   "Transparent 3 Band Rainbow")
 (3strapheels_patenleather
-   "Botas de Lenore")
+   "Lenore's Heels")
 (3strapheels_patenleather_desc
-   "Estas palavras são um requiem para as botas mais preciosas que você já vestiu.")
+   "These words are a requiem for the loveliest boots that ever you did wear.")
 (3_star
    "***__")
 (4_star
@@ -31,209 +31,209 @@
 (51squier
    "Squier<sup>TM</sup> '51")
 (51squier_desc
-   "Gastou todo seu dinheiro com besteirol e não-tão-besteirol? Esta guitarra com um bom custo-benefício te proporcionará um grande controle de som sem reduzir suas economias.")
+   "Spent all your cash on tablature books and microwave burritos? This value-priced Squier<sup>TM</sup> will give you great tone control without cutting into your gas budget.")
 (5rainbowsolid
-   "Sólido em arco-íris 5")
+   "Solid 5 Band Rainbow")
 (5rainbowtrans
-   "Transparence em arco-íris 5")
+   "Transparent 5 Band Rainbow")
 (5string
-   "Baixo de 5 cordas Fender<sup>TM</sup>")
+   "Fender<sup>TM</sup> 5-String Bass")
 (5string_desc
-   "Este baixo sexy e raro contém 5 cordas, porém apenas 15 trastes. A quinta corda permite que o baixista toque notas altas sem ser mover muito. Ideal para os baixistas preguiçosos!")
+   "This sexy, unusual instrument features 5 strings but only 15 frets. The high C-string allows players to hit high notes without much movement -- perfect for the lazy bassist in your life!")
 (5_star
    "*****")
 (6_star
    "D")
 (about_to_delete_songs
-   "Você está prestes a deletar %i músicas da sua biblioteca. Você pode baixas estas músicas novamente e instalar elas novamente a qualquer momento.")
+   "You're about to delete %i songs from your library. You can re-download these songs from the Rock Band Music Store at any time.")
 (acapella
-   "A cappella")
+   "A Cappella")
 #ifdef HX_PS3
 (accomplishments
-   "Meus Objetivos")
+   "My Goals")
 #endif
 #ifdef HX_XBOX
 (accomplishments
-   "Meus Objetivos")
+   "My Goals")
 #endif
 #ifdef HX_PC
 (accomplishments
-   "Meus Objetivos")
+   "My Goals")
 #endif
 (accomplishments_need_signin
-   "Você deve estar conectado para iniciar uma Meta.")
+   "You must be signed in to launch a goal.")
 #ifdef HX_XBOX
 (accomplishments_no_launch_when_online
-   "Foi mal aí! Você não pode iniciar um objetivo específico em uma sessão da Xbox LIVE. Tente desconectar os jogadores da sua sessão da Xbox LIVE e tente novamente.")
+   "Sorry! You can't launch a specific goal while in an Xbox LIVE session. Try kicking the Xbox LIVE players in your session and try again.")
 #endif
 #ifdef HX_PS3
 (accomplishments_no_launch_when_online
-   "Foi mal aí! Você não pode iniciar um objetivo específico em uma sessão online. Tente desconectar os jogadores da sua sessão e tente novamente.")
+   "Sorry! You can't launch a specific goal while in an online session. Try kicking the online people in your session and try again.")
 #endif
 #ifdef HX_WII
 (accomplishments_no_launch_when_online
-   "Foi mal aí! Você não pode iniciar um objetivo específico em uma sessão online. Tente desconectar os jogadores da sua sessão e tente novamente.")
+   "Sorry! You can't launch a specific goal while in an online session. Try kicking the online people in your session and try again.")
 #endif
 #ifdef HX_PC
 (accomplishments_no_launch_when_online
-   "Foi mal aí! Você não pode iniciar um objetivo específico em uma sessão da Xbox LIVE. Tente desconectar os jogadores da sua sessão da Xbox LIVE e tente novamente.")
+   "Sorry! You can't launch a specific goal while in an Xbox LIVE session. Try kicking the Xbox LIVE players in your session and try again.")
 #endif
 (accomplishments_title
-   "Meus Objetivos")
+   "My Goals")
 #ifdef HX_XBOX
 (accomplishments_wrong_user
-   "Você está tentando inicial um dos objetivos do usuário %s! Para inicial teus objetivos, veja o progresso da sua banda voltando o menu e tente iniciar o objetivo novamente.")
+   "You're currently trying to launch one of %s's goals! To launch your goals, view your band's progress by pressing Back, then try launching again.")
 #endif
 #ifdef HX_PS3
 (accomplishments_wrong_user
-   "Apenas o Controle 1 pode iniciar objetivos aqui. Para iniciar objetivos, mude para um controle cuja opção de salvar esteja habilitada.")
+   "Only Controller 1 can launch goals here. Switch to a save-enabled controller to launch goals.")
 #endif
 #ifdef HX_WII
 (accomplishments_wrong_user
-   "Apenas o Controle 1 pode iniciar objetivos aqui. Para iniciar objetivos, mude para um controle cuja opção de salvar esteja habilitada.")
+   "Only Controller 1 can launch goals here. Switch to a save-enabled controller to launch goals.")
 #endif
 #ifdef HX_PC
 (accomplishments_wrong_user
-   "Você está tentando inicial um dos objetivos do usuário %s! Para inicial teus objetivos, veja o progresso da sua banda voltando o menu e tente iniciar o objetivo novamente.")
+   "You're currently trying to launch one of %s's goals! To launch your goals, view your band's progress by pressing Back, then try launching again.")
 #endif
 (accomplishment_bestscore
    "%s %s")
 (accomplishment_cant_launch_band_creator
-   "Você não tem nenhum espaço livre de banda!")
+   "You do not have any free band slots!")
 (accomplishment_cant_launch_character_creator
-   "Foi mal aí, você alcançou o número máximo de personagens permitidos para teu perfil! Tente deletar um personagem e tente novamente.")
+   "Sorry, you have the maximum amount of characters for your profile! Try deleting a character and trying again.")
 (accomplishment_categories_progress
    "%i/%i")
 (accomplishment_help_details
-   "DETALHES DO OBJETIVO")
+   "GOAL DETAILS")
 (accomplishment_help_hidedetails
-   "ENCONDER DETALHES")
+   "HIDE DETAILS")
 (accomplishment_help_launch
-   "INICIAR OBJETIVO")
+   "PLAY GOAL")
 (accomplishment_help_playsong
-   "TOCAR MÚSICA")
+   "PLAY SONG")
 #ifdef HX_XBOX
 (accomplishment_launch_wrong_instrument
-   "Você está tentando iniciar um objetivo que não é para o instrumento que tu está tocando. Toque para o instrumento certo e tente novamente.")
+   "You're trying to play a goal that isn't meant for your instrument! Switch to the appropriate instrument and try again.")
 #endif
 #ifdef HX_WII
 (accomplishment_launch_wrong_instrument
-   "Você está tentando iniciar um objetivo que não é para o instrumento que tu está tocando. Toque para o instrumento certo e tente novamente.")
+   "You're trying to play a goal that isn't meant for your instrument! Switch to the appropriate instrument and try again.")
 #endif
 #ifdef HX_PS3
 (accomplishment_launch_wrong_instrument
-   "Você não pode iniciar este objetivo porque a combinação errada de instrumentos esta salvando o progresso de carreira! Certifique-se que os instrumentos certos estão salvando o progresso de carreira e tente iniciar este objetivo novamente.")
+   "You can't play this goal because the wrong instrument combination is saving Career progress! Make sure that the right instruments are saving Career progress and try launching the goal again.")
 #endif
 #ifdef HX_PC
 (accomplishment_launch_wrong_instrument
-   "Você está tentando iniciar um objetivo que não é para o instrumento que tu está tocando. Toque para o instrumento certo e tente novamente.")
+   "You're trying to play a goal that isn't meant for your instrument! Switch to the appropriate instrument and try again.")
 #endif
 (accomplishment_launch_wrong_playercount
-   "Sinto muito, você precisa de mais jogadores contigo para tentar concluir este objetivo!")
+   "Sorry! You need more people playing with you to beat this goal!")
 (accomplishment_newaward_title
-   "Você ganhou umas paradas novas!")
+   "You won some new stuff!")
 #ifdef HX_XBOX
 (accomplishment_no_launch_when_online
-   "Tu não pode iniciar este objetivo estando conectado por um usuário via Xbox LIVE.")
+   "You are unable to launch into this goal while connected to a player via Xbox LIVE.")
 #endif
 #ifdef HX_PS3
 (accomplishment_no_launch_when_online
-   "Tu não pode iniciar este objetivo estando conectado a um usuário remoto.")
+   "You are unable to launch into this goal while connected to a remote player.")
 #endif
 #ifdef HX_WII
 (accomplishment_no_launch_when_online
-   "Tu não pode iniciar este objetivo estando conectado a um usuário remoto.")
+   "You are unable to launch into this goal while connected to a remote player.")
 #endif
 #ifdef HX_PC
 (accomplishment_no_launch_when_online
-   "Tu não pode iniciar este objetivo estando conectado por um usuário via Xbox LIVE.")
+   "You are unable to launch into this goal while connected to a player via Xbox LIVE.")
 #endif
 (accomplishment_secret_title
-   "Secreto")
+   "Secret")
 (accomplishment_songs_title
-   "Temas de Carreira")
+   "Career Songs")
 (accuracy_focus_tracker_progress
-   "<alt>%s</alt> acertou a sessão!")
+   "<alt>%s</alt> nailed the section!")
 (accuracy_tracker_label
-   "Medidor de precisão")
+   "Accuracy Tracker")
 (acc_3starprobass
-   "3 <alt>*</alt> Baixo PRO")
+   "3 <alt>*</alt> Pro Bass")
 (acc_3starprobass_desc
-   "Conquiste pelo menos 3 <alt>*</alt> em qualquer música no Baixo PRO.")
+   "Earn at least 3 <alt>*</alt> on any song on Pro Bass.")
 (acc_3starproguitar
-   "3 <alt>*</alt> Guitar PRO")
+   "3 <alt>*</alt> Pro Guitar")
 (acc_3starproguitar_desc
-   "Conquiste pelo menos 3 <alt>*</alt> em qualquer música na Guitarra PRO.")
+   "Earn at least 3 <alt>*</alt> on any song on Pro Guitar.")
 (acc_4starvocals
-   "4 <alt>*</alt> Vocal Solo")
+   "4 <alt>*</alt> Vocals")
 (acc_4starvocals_desc
-   "Conquiste 4 <alt>*</alt> em qualquer música no Vocal Solo.")
+   "Earn 4 <alt>*</alt> on any song on Vocals.")
 (acc_5starvocals
-   "Bom vocalista")
+   "Nice Vocals")
 (acc_5starvocalsexpert
-   "Vocalista de Respeito")
+   "Killer Vocals")
 (acc_5starvocalsexpert_desc
-   "Conquiste 5 <alt>*</alt> em qualquer música no Vocal Solo na dificuldade Expert.")
+   "Earn 5 <alt>*</alt> on any song on Expert Vocals.")
 (acc_5starvocals_desc
-   "Conquiste 5 <alt>*</alt> em qualquer música no Vocal Solo.")
+   "Earn 5 <alt>*</alt> on any song on Vocals.")
 (acc_accountlink
-   "Bem conectado")
+   "Well Connected")
 #ifdef HX_XBOX
 (acc_accountlink_desc
-   "Introduza seu código web (em Opções/Extras) em www.rockband.com to compartilhar repertórios, estatísticas de trilhas, e muito mais!")
+   "Enter your web code (in Options/Extras) at www.rockband.com to share setlists, track stats, and more!")
 #endif
 #ifdef HX_PS3
 (acc_accountlink_desc
-   "Introduza seu código web (em Opções/Extras) em www.rockband.com to compartilhar repertórios, estatísticas de trilhas, e muito mais!")
+   "Enter your web code (in Options/Extras) at www.rockband.com to share setlists, track stats, and more!")
 #endif
 #ifdef HX_WII
 (acc_accountlink_desc
-   "Introduza seu código web (em Opções/Extras) em www.rockband.com to compartilhar repertórios, estatísticas de trilhas, e muito mais!")
+   "Enter your web code (in Options/Extras) at the Rock Band website to share setlists, track stats, and more!")
 #endif
 #ifdef HX_PC
 (acc_accountlink_desc
-   "Introduza seu código web (em Opções/Extras) em www.rockband.com to compartilhar repertórios, estatísticas de trilhas, e muito mais!")
+   "Enter your web code (in Options/Extras) at www.rockband.com to share setlists, track stats, and more!")
 #endif
 (acc_accuracydrums
-   "Bateria Perfeita")
+   "Flawless Drums")
 (acc_accuracydrums_desc
-   "Acerte 100% das notas em uma música na Bateria.")
+   "Hit 100% of the notes in a song on Drums.")
 (acc_accuracyguitar
-   "Guitarra Perfeita")
+   "Flawless Guitar")
 (acc_accuracyguitar80
-   "80% Guitarra")
+   "80% Guitar")
 (acc_accuracyguitar80hard
-   "80% Guitarra no Difícil")
+   "80% Hard Guitar")
 (acc_accuracyguitar80hard_desc
-   "Acerte pelo menos 80% das notas em uma música na dificuldade Difícil.")
+   "Hit at least 80% of the notes in a song on Hard Guitar.")
 (acc_accuracyguitar80medium
-   "80% Guitarra no Médio")
+   "80% Medium Guitar")
 (acc_accuracyguitar80medium_desc
-   "Acerte pelo menos 80% das notas em uma música na dificuldade Médio.")
+   "Hit at least 80% of the notes in a song on Medium Guitar.")
 (acc_accuracyguitar80_desc
-   "Acerte pelo menos 80% das notas em uma música na Guitarra.")
+   "Hit at least 80% of the notes in a song on Guitar.")
 (acc_accuracyguitar90expert
-   "90% Guitarra no Expert")
+   "90% Expert Guitar")
 (acc_accuracyguitar90expert_desc
-   "Acerte pelo menos 90% das notas em 3 músicas na Guitarra na dificuldade Expert.")
+   "Hit at least 90% of the notes in 3 songs on Expert Guitar.")
 (acc_accuracyguitar90hard
    "90% Hard Guitar")
 (acc_accuracyguitar90hard_desc
-   "Acerte pelo menos 90% das notas in 6 songs on Hard Guitar.")
+   "Hit at least 90% of the notes in 6 songs on Hard Guitar.")
 (acc_accuracyguitar90medium
    "90% Medium Guitar")
 (acc_accuracyguitar90medium_desc
-   "Acerte pelo menos 90% das notas in 12 songs on Medium Guitar.")
+   "Hit at least 90% of the notes in 12 songs on Medium Guitar.")
 (acc_accuracyguitarhard
    "Flawless Hard Guitar")
 (acc_accuracyguitarhard_desc
-   "Hit 100% das notas em uma música on Hard Guitar.")
+   "Hit 100% of the notes in a song on Hard Guitar.")
 (acc_accuracyguitarmedium
    "Flawless Medium Guitar")
 (acc_accuracyguitarmedium_desc
-   "Hit 100% das notas em uma música on Medium Guitar.")
+   "Hit 100% of the notes in a song on Medium Guitar.")
 (acc_accuracyguitar_desc
-   "Hit 100% das notas em uma música on Guitar.")
+   "Hit 100% of the notes in a song on Guitar.")
 (acc_accuracyharmony
    "90% Harmonies")
 (acc_accuracyharmonyexpert
@@ -253,47 +253,47 @@
 (acc_accuracykeyseasy
    "Flawless Keys")
 (acc_accuracykeyseasy_desc
-   "Hit 100% das notas em uma música on Keys.")
+   "Hit 100% of the notes in a song on Keys.")
 (acc_accuracykeysexpert
    "90% Expert Keys")
 (acc_accuracykeysexpert_desc
-   "Acerte pelo menos 90% das notas in 3 songs on Expert Keys.")
+   "Hit at least 90% of the notes in 3 songs on Expert Keys.")
 (acc_accuracykeyshard
    "90% Hard Keys")
 (acc_accuracykeyshard_desc
-   "Acerte pelo menos 90% das notas in 6 songs on Hard Keys.")
+   "Hit at least 90% of the notes in 6 songs on Hard Keys.")
 (acc_accuracykeysmedium
    "90% Medium Keys")
 (acc_accuracykeysmedium_desc
-   "Acerte pelo menos 90% das notas in 12 songs on Medium Keys.")
+   "Hit at least 90% of the notes in 12 songs on Medium Keys.")
 (acc_accuracyprobass100
    "Flawless Pro Bass")
 (acc_accuracyprobass100_desc
-   "Hit 100% das notas em uma música on Pro Bass.")
+   "Hit 100% of the notes in a song on Pro Bass.")
 (acc_accuracyprobass80
    "80% Pro Bass")
 (acc_accuracyprobass80_desc
-   "Acerte pelo menos 80% das notas em uma música on Pro Bass.")
+   "Hit at least 80% of the notes in a song on Pro Bass.")
 (acc_accuracyprobass90
    "90% Pro Bass")
 (acc_accuracyprobass90_desc
-   "Acerte pelo menos 90% das notas em uma música on Pro Bass.")
+   "Hit at least 90% of the notes in a song on Pro Bass.")
 (acc_accuracyprobassexpert
    "90% Expert Pro Bass")
 (acc_accuracyprobassexperthundred
    "Flawless Expert Pro Bass")
 (acc_accuracyprobassexperthundred_desc
-   "Hit 100% das notas em uma música on Expert Pro Bass.")
+   "Hit 100% of the notes in a song on Expert Pro Bass.")
 (acc_accuracyprobassexpert_desc
-   "Acerte pelo menos 90% das notas em uma música on Expert Pro Bass.")
+   "Hit at least 90% of the notes in a song on Expert Pro Bass.")
 (acc_accuracyprobasshard
    "90% Hard Pro Bass")
 (acc_accuracyprobasshard_desc
-   "Acerte pelo menos 90% das notas em uma música on Hard Pro Bass.")
+   "Hit at least 90% of the notes in a song on Hard Pro Bass.")
 (acc_accuracyprobassmedium
    "90% Medium Pro Bass")
 (acc_accuracyprobassmedium_desc
-   "Acerte pelo menos 90% das notas em uma música on Medium Pro Bass.")
+   "Hit at least 90% of the notes in a song on Medium Pro Bass.")
 (acc_accuracyprodrums
    "Flawless Pro Drums")
 (acc_accuracyprodrums90
@@ -301,147 +301,147 @@
 (acc_accuracyprodrums90expert
    "90% Expert Pro Drums")
 (acc_accuracyprodrums90expert_desc
-   "Acerte pelo menos 90% das notas in 3 songs on Expert Pro Drums.")
+   "Hit at least 90% of the notes in 3 songs on Expert Pro Drums.")
 (acc_accuracyprodrums90hard
    "90% Hard Pro Drums")
 (acc_accuracyprodrums90hard_desc
-   "Acerte pelo menos 90% das notas in 6 songs on Hard Pro Drums.")
+   "Hit at least 90% of the notes in 6 songs on Hard Pro Drums.")
 (acc_accuracyprodrums90_desc
-   "Acerte pelo menos 90% das notas in 12 songs on Medium Pro Drums.")
+   "Hit at least 90% of the notes in 12 songs on Medium Pro Drums.")
 (acc_accuracyprodrums_desc
-   "Hit 100% das notas em uma música on Pro Drums.")
+   "Hit 100% of the notes in a song on Pro Drums.")
 (acc_accuracyproguitar100
    "Flawless Pro Guitar")
 (acc_accuracyproguitar100_desc
-   "Hit 100% das notas em uma música on Pro Guitar.")
+   "Hit 100% of the notes in a song on Pro Guitar.")
 (acc_accuracyproguitar80
    "80% Pro Guitar")
 (acc_accuracyproguitar80_desc
-   "Acerte pelo menos 80% das notas em uma música on Pro Guitar.")
+   "Hit at least 80% of the notes in a song on Pro Guitar.")
 (acc_accuracyproguitar90
    "90% Pro Guitar")
 (acc_accuracyproguitar90_desc
-   "Acerte pelo menos 90% das notas em uma música on Pro Guitar.")
+   "Hit at least 90% of the notes in a song on Pro Guitar.")
 (acc_accuracyproguitarexpert
    "90% Expert Pro Guitar")
 (acc_accuracyproguitarexpert_desc
-   "Acerte pelo menos 90% das notas em uma música on Expert Pro Guitar.")
+   "Hit at least 90% of the notes in a song on Expert Pro Guitar.")
 (acc_accuracyproguitarhard
-   "90% Guitarra PRO no Difícil")
+   "90% Hard Pro Guitar")
 (acc_accuracyproguitarhard_desc
-   "Acerte pelo menos 90% das notas em uma música na Guitarra PRO na dificuldade Difícil.")
+   "Hit at least 90% of the notes in a song on Hard Pro Guitar.")
 (acc_accuracyproguitarmedium
-   "90% Guitarra PRO no Médio")
+   "90% Medium Pro Guitar")
 (acc_accuracyproguitarmedium_desc
-   "Acerte pelo menos 90% das notas em uma música na Guitarra PRO na dificuldade Médio.")
+   "Hit at least 90% of the notes in a song on Medium Pro Guitar.")
 (acc_accuracyproguitarperfect
-   "Profeccionista")
+   "Profectionist")
 (acc_accuracyproguitarperfect_desc
-   "Acerte 100% das notas em uma música na Guitarra PRO na dificuldade Expert.")
+   "Hit 100% of the notes in a Pro Guitar song on Expert.")
 (acc_accuracyprokeyseasy
-   "90% Teclado PRO no Fácil")
+   "90% Easy Pro Keys")
 (acc_accuracyprokeyseasy_desc
-   "Acerte pelo menos 90% das notas em 20 músicas no Teclado PRO na dificuldade Fácil.")
+   "Hit at least 90% of the notes in 20 songs on Easy Pro Keys.")
 (acc_accuracyprokeysexpert
-   "90% Teclado PRO no Expert")
+   "90% Expert Pro Keys")
 (acc_accuracyprokeysexpert_desc
-   "Acerte pelo menos 90% das notas em 3 músicas no Teclado PRO na dificuldade Expert.")
+   "Hit at least 90% of the notes in 3 songs on Expert Pro Keys.")
 (acc_accuracyprokeyshard
-   "90% Teclado PRO no Difícil")
+   "90% Hard Pro Keys")
 (acc_accuracyprokeyshard_desc
-   "Acerte pelo menos 90% das notas em 6 músicas no Teclado PRO na dificuldade Difícil.")
+   "Hit at least 90% of the notes in 6 songs on Hard Pro Keys.")
 (acc_accuracyprokeyshundred
-   "Teclado PRO Perfeito")
+   "Flawless Pro Keys")
 (acc_accuracyprokeyshundred_desc
-   "Acerte 100% das notas em uma música no Teclado PRO.")
+   "Hit 100% of the notes in a song on Pro Keys.")
 (acc_accuracyprokeysmedium
-   "90% Teclado PRO no Médio")
+   "90% Medium Pro Keys")
 (acc_accuracyprokeysmedium_desc
-   "Acerte pelo menos 90% das notas em 12 músicas no Teclado PRO na dificuldade Médio.")
+   "Hit at least 90% of the notes in 12 songs on Medium Pro Keys.")
 (acc_accuracyvocals
-   "Vocais Perfeitos")
+   "Flawless Vocals")
 (acc_accuracyvocalseightyfive
-   "85% Vocal Solo")
+   "85% Vocals")
 (acc_accuracyvocalseightyfive_desc
-   "Arrase em pelo menos 85% das frases numa música no Vocal Solo.")
+   "Nail at least 85% of the phrases in a song on Vocals.")
 (acc_accuracyvocalsexpert
-   "90% Vocal Solo no Expert")
+   "90% Expert Vocals")
 (acc_accuracyvocalsexpert_desc
-   "Consiga uma qualificação Incrível em pelo menos 90% das frases em 3 músicas no Vocal Solo na dificuldade Expert.")
+   "Earn an Awesome rating on at least 90% of the phrases in 3 songs on Expert Vocals.")
 (acc_accuracyvocalshard
-   "90% Vocal Solo no Difícil")
+   "90% Hard Vocals")
 (acc_accuracyvocalshard_desc
-   "Consiga uma qualificação Incrível em pelo menos 90% das frases em 6 músicas no Vocal Solo na dificuldade Difícil.")
+   "Earn an Awesome rating on at least 90% of the phrases in 6 songs on Hard Vocals.")
 (acc_accuracyvocalsmedium
-   "90% Vocal Solo no Médio")
+   "90% Medium Vocals")
 (acc_accuracyvocalsmedium_desc
-   "Acerte pelo menos 90% das frases em 12 músicas no Vocal Solo na dificuldade Médio.")
+   "Nail at least 90% of the phrases in 12 songs on Medium Vocals.")
 (acc_accuracyvocals_desc
-   "Acerte 100% das frases em uma música no Vocal Solo.")
+   "Nail 100% of the phrases on a song on Vocals.")
 (acc_acdc_donedirtcheap
    "Done Dirt Cheap")
 (acc_acdc_donedirtcheap_desc
-   "Conquiste 5 <alt>*</alt> na música \qDirty Deeds Done Dirt Cheap (Live)\q na Bateria.")
+   "Earn 5 <alt>*</alt> on \qDirty Deeds Done Dirt Cheap (Live)\q on Drums.")
 (acc_acdc_everyacdcsong
-   "Até de Manhã!")
+   "ALLLLLLLL Night Long!")
 (acc_acdc_everyacdcsong_desc
-   "Complete todas as músicas do AC/DC Live Rock Band Track Pack.")
+   "Beat all the songs from the AC/DC Live Rock Band Track Pack.")
 (acc_acdc_thunderstruck
    "Thunderstruck!")
 (acc_acdc_thunderstruck_desc
-   "Conquiste 5 <alt>*</alt> na música \qThunderstruck (Live)\q na Guitarra.")
+   "Earn 5 <alt>*</alt> on \qThunderstruck (Live)\q on Guitar.")
 (acc_acdc_watchmeexplode
    "Watch Me Explode")
 (acc_acdc_watchmeexplode_desc
-   "Conquiste 5<alt>*</alt> na música \qT.N.T. (Live)\q no Baixo.")
+   "Earn 5<alt>*</alt> on \qT.N.T. (Live)\q on Bass.")
 (acc_acdc_youshookme
    "Fighting for Air")
 (acc_acdc_youshookme_desc
-   "Conquiste 5 <alt>*</alt> na música \qYou Shook Me All Night Long (Live)\q no Vocal Solo.")
+   "Earn 5 <alt>*</alt> on \qYou Shook Me All Night Long (Live)\q on Vocals.")
 (acc_bandcreate
-   "Melhor. Nome de Banda. De todos.")
+   "Best. Name. Ever.")
 (acc_bandcreate_desc
-   "Renomeie sua banda.")
+   "Rename your band.")
 (acc_bandlogo
-   "Logotipo da Banda")
+   "Band Logo")
 (acc_bandlogo_desc
-   "Crie um logotipo para sua banda.")
+   "Create a logo for your band.")
 (acc_band_dlc_contactus
-   "Buscador de Peças de Colecionador")
+   "Rare Music Finder")
 (acc_band_dlc_contactus_desc
-   "Toque as seguintes jóias raras da biblioteca do Rock Band:")
+   "Play the following rare gems from the Rock Band music library:")
 (acc_band_dlc_davegrohl
-   "Bandas do Dave Grohl")
+   "Dave Grohl Band")
 (acc_band_dlc_davegrohl_desc
-   "Complete 5 músicas de qualquer banda que teve o Dave Grohl como membro.")
+   "Beat 5 songs by any band that has had Dave Grohl as a member.")
 (acc_band_dlc_elitist
-   "Oi pai, Olá mãe")
+   "Hello Daddy, Hello Mom")
 (acc_band_dlc_elitist_desc
-   "Acerte 100% das notas na música \qCherry Bomb\q, popularizado pelo The Runaways.")
+   "Hit 100% of the notes on \qCherry Bomb\q as made famous by The Runaways.")
 (acc_band_dlc_populist
-   "Aficcionado por Downloads")
+   "Download Populist")
 (acc_band_dlc_populist_desc
-   "Conquiste 5 <alt>=</alt> nas 5 músicas mais baixadas da biblioteca do Rock Band: \qAll the Small Things,\q \qMove Along,\q \qDon't Stop Believing,\q \qSmells Like Teen Spirit,\q and \qBuddy Holly.\q")
+   "Earn 5 <alt>=</alt> on 5 of the best-selling Rock Band downloadable tracks: \qAll the Small Things,\q \qMove Along,\q \qDon't Stop Believing,\q \qSmells Like Teen Spirit,\q and \qBuddy Holly.\q")
 (acc_band_rb3_bohemianfullband
-   "Boêmio de Coração")
+   "Bohemian as Intended")
 (acc_band_rb3_bohemianfullband_desc
-   "Conquiste pelo menos 2 <alt>*</alt> na música \qBohemian Rhapsody\q, da banda Queen como menbro de um grupo com ao menos 4 membros.")
+   "Earn at least 2 <alt>*</alt> on \qBohemian Rhapsody\q by Queen as part of a band with at least 4 members.")
 (acc_band_rb3_get5stars
-   "Caminho para Perfeição")
+   "Path to Perfection")
 (acc_band_rb3_get5stars_desc
-   "Conquiste 5 <alt>*</alt> nas seguintes músicas:")
+   "Earn 5 <alt>*</alt> on the following songs:")
 (acc_band_rb3_getpoints
-   "Banda de um Milhão de Pontos")
+   "Million Point Band")
 (acc_band_rb3_getpoints_desc
-   "Conquiste uma pontuação de carreira de 1,000,000 como integrante de um grupo.")
+   "Earn a Career score of 1,000,000 as part of a band.")
 (acc_band_rb3_getunison
-   "A União Faz a Força!")
+   "More In Unison")
 (acc_band_rb3_getunison_desc
-   "Acerte 4 Frases em Harmonia como integrante de um grupo nas seguintes músicas:")
+   "Nail 4 Unison Phrases as part of a band in each of the following songs:")
 (acc_barre_chords
-   "Pestanas")
+   "Barre Chords")
 (acc_barre_chords_desc
-   "Complete a lição sobre Pestanas no Treino de Guitarra PRO.")
+   "Complete the Barre Chords lesson in the Pro Guitar trainer.")
 (acc_bassbossexpert
    "Expert Hall of Fame Induction")
 (acc_bassbossexpert_desc
@@ -461,11 +461,11 @@
 (acc_bassnintypercentexpert
    "90% Expert Bass")
 (acc_bassnintypercentexpert_desc
-   "Acerte pelo menos 90% das notas in 3 songs on Expert Bass.")
+   "Hit at least 90% of the notes in 3 songs on Expert Bass.")
 (acc_bassnintypercenthard
    "90% Hard Bass")
 (acc_bassnintypercenthard_desc
-   "Acerte pelo menos 90% das notas in 6 songs on Hard Bass.")
+   "Hit at least 90% of the notes in 6 songs on Hard Bass.")
 (acc_basspeak
    "Bass to the Max")
 (acc_basspeak_desc
@@ -495,19 +495,19 @@
 (acc_bassupstrumshalf
    "50% Upstrums")
 (acc_bassupstrumshalf_desc
-   "Play at least 50% das notas em uma música using upstrums on Bass.")
+   "Play at least 50% of the notes in a song using upstrums on Bass.")
 (acc_bassupstrumshard
    "100% Hard Upstrums")
 (acc_bassupstrumshard_desc
-   "Hit 100% das notas em uma música, only strumming up, on Hard Bass.")
+   "Hit 100% of the notes in a song, only strumming up, on Hard Bass.")
 (acc_bassupstrumsmedium
    "90% Medium Upstrums")
 (acc_bassupstrumsmedium_desc
-   "Play at least 90% das notas em uma música using upstrums on Medium Bass.")
+   "Play at least 90% of the notes in a song using upstrums on Medium Bass.")
 (acc_bassupstrumsninty
    "90% Upstrums")
 (acc_bassupstrumsninty_desc
-   "Play at least 90% das notas em uma música using upstrums on Bass.")
+   "Play at least 90% of the notes in a song using upstrums on Bass.")
 (acc_bassupstrums_desc
    "Play a song using only upstrums on Bass.")
 (acc_bass_dlc_funk49
@@ -517,7 +517,7 @@
 (acc_bass_rb3_fchardestbutton
    "That's One Tricky Button")
 (acc_bass_rb3_fchardestbutton_desc
-   "Hit 100% das notas in \qThe Hardest Button to Button\q by The White Stripes on Expert Bass.")
+   "Hit 100% of the notes in \qThe Hardest Button to Button\q by The White Stripes on Expert Bass.")
 (acc_bass_rb3_streak
    "Bass Streaker")
 (acc_bass_rb3_streak_desc
@@ -987,7 +987,7 @@
 (acc_dlc_closer
    "The Right Direction")
 (acc_dlc_closer_desc
-   "Hit 100% das notas in \qCloser\q by Lacuna Coil on Bass.")
+   "Hit 100% of the notes in \qCloser\q by Lacuna Coil on Bass.")
 (acc_dlc_doitformutt
    "Do It for Mutt")
 (acc_dlc_doitformutt_desc
@@ -1191,7 +1191,7 @@
 (acc_drummachine
    "Better Than a Drum Machine")
 (acc_drummachine_desc
-   "Acerte pelo menos 90% das notas on the following songs featuring drum machines on Medium, Hard, or Expert Drums.")
+   "Hit at least 90% of the notes on the following songs featuring drum machines on Medium, Hard, or Expert Drums.")
 (acc_drumpeak
    "Drums to the Max")
 (acc_drumpeak_desc
@@ -1243,7 +1243,7 @@
 (acc_drums_rb3_percentage
    "Top Tier Drummer")
 (acc_drums_rb3_percentage_desc
-   "Acerte pelo menos 90% das notas on the following songs on Drums:")
+   "Hit at least 90% of the notes on the following songs on Drums:")
 (acc_drums_rb3_streak
    "Consistent Drummer")
 (acc_drums_rb3_streak_desc
@@ -1607,7 +1607,7 @@
 (acc_eightypercentbass
    "Perfect Accuracy")
 (acc_eightypercentbass_desc
-   "Hit 100% das notas em uma música on Bass.")
+   "Hit 100% of the notes in a song on Bass.")
 (acc_endlesssetlist
    "The Endless Setlist III")
 (acc_endlesssetlist_desc
@@ -1811,7 +1811,7 @@
 (acc_expertpercent
    "Flawless Expert")
 (acc_expertpercent_desc
-   "Hit 100% das notas or phrases on any instrument on Expert.")
+   "Hit 100% of the notes or phrases on any instrument on Expert.")
 (acc_expertprobassteir1
    "Expert Warmup Pro Bass")
 (acc_expertprobassteir1_desc
@@ -1955,7 +1955,7 @@
 (acc_fastestdrummer
    "An Epic Blur")
 (acc_fastestdrummer_desc
-   "Acerte pelo menos 90% das notas in these extremely fast songs on Expert Drums.")
+   "Hit at least 90% of the notes in these extremely fast songs on Expert Drums.")
 (acc_firstprokeys
    "4 <alt>*</alt> Pro Keys")
 (acc_firstprokeys_desc
@@ -2059,7 +2059,7 @@
 (acc_fullcombo
    "O.M.G. Full Combo!")
 (acc_fullcombo_desc
-   "Hit 100% das notas em uma música on Expert without ever breaking your streak.")
+   "Hit 100% of the notes in a song on Expert without ever breaking your streak.")
 (acc_gd_5stareverysong
    "5 <alt>*</alt> Green Day: Rock Band")
 (acc_gd_5stareverysong_desc
@@ -2067,7 +2067,7 @@
 (acc_gd_abilitytooperatemachinery
    "In the Land of Make Believe")
 (acc_gd_abilitytooperatemachinery_desc
-   "Hit 100% das notas in the Guitar solo in \qJesus of Suburbia.\q")
+   "Hit 100% of the notes in the Guitar solo in \qJesus of Suburbia.\q")
 (acc_gd_americanunity
    "American Unity")
 (acc_gd_americanunity_desc
@@ -2079,7 +2079,7 @@
 (acc_gd_burningdrums
    "Burning Drums")
 (acc_gd_burningdrums_desc
-   "Acerte pelo menos 99% das notas in the following songs on Drums:")
+   "Hit at least 99% of the notes in the following songs on Drums:")
 (acc_gd_everysong
    "Beat Green Day: Rock Band")
 (acc_gd_everysong_desc
@@ -2091,21 +2091,21 @@
 (acc_goldkeys
    "Flawless Keys")
 (acc_goldkeys_desc
-   "Hit 100% das notas em uma música on Expert Keys.")
+   "Hit 100% of the notes in a song on Expert Keys.")
 (acc_goldprokeys
    "Flawless Pro Keys")
 (acc_goldprokeys_desc
-   "Hit 100% das notas em uma música on Expert Pro Keys.")
+   "Hit 100% of the notes in a song on Expert Pro Keys.")
 (acc_goldstar
    "100% Expert Guitar")
 (acc_goldstarbass
    "100% Expert Bass")
 (acc_goldstarbass_desc
-   "Hit 100% das notas em uma música on Expert Bass.")
+   "Hit 100% of the notes in a song on Expert Bass.")
 (acc_goldstardrums
    "Flawless Drumming")
 (acc_goldstardrums_desc
-   "Hit 100% das notas em uma música on Expert Drums.")
+   "Hit 100% of the notes in a song on Expert Drums.")
 (acc_goldstarharmonies
    "Flawless Vocal Harmonies")
 (acc_goldstarharmonies_desc
@@ -2117,7 +2117,7 @@
 (acc_goldstarprodrums
    "Flawless Expert Pro Drums")
 (acc_goldstarprodrums_desc
-   "Hit 100% das notas em uma música on Expert Pro Drums.")
+   "Hit 100% of the notes in a song on Expert Pro Drums.")
 (acc_goldstarproguitar
    "5 <alt>=</alt> Pro Guitar")
 (acc_goldstarproguitar_desc
@@ -2135,7 +2135,7 @@
 (acc_goldstarvox_desc
    "Nail 100% of the phrases on a song on Expert Vocals.")
 (acc_goldstar_desc
-   "Hit 100% das notas in any song on Expert Guitar.")
+   "Hit 100% of the notes in any song on Expert Guitar.")
 (acc_grp_band
    "Rock Band")
 (acc_grp_bass
@@ -2179,15 +2179,15 @@
 (acc_guitarsolo85
    "Starter Guitar Solo")
 (acc_guitarsolo85_desc
-   "Acerte pelo menos 80% das notas in a Guitar solo.")
+   "Hit at least 80% of the notes in a Guitar solo.")
 (acc_guitarsoloall
    "Guitar Solo Legend")
 (acc_guitarsoloall_desc
-   "Hit 100% das notas in every Guitar solo in Rock Band 3.")
+   "Hit 100% of the notes in every Guitar solo in Rock Band 3.")
 (acc_guitarsoloany
    "Flawless Guitar Solo")
 (acc_guitarsoloany_desc
-   "Hit 100% das notas in any Guitar solo.")
+   "Hit 100% of the notes in any Guitar solo.")
 (acc_guitarsoloeightyfive
    "90% Medium Guitar Solo")
 (acc_guitarsoloeightyfive_desc
@@ -2195,7 +2195,7 @@
 (acc_guitarsoloexpert
    "Flawless Expert Guitar Solo")
 (acc_guitarsoloexpert_desc
-   "Hit 100% das notas in any solo on Expert Guitar.")
+   "Hit 100% of the notes in any solo on Expert Guitar.")
 (acc_guitarsologame
    "Bleeding Fingers")
 (acc_guitarsologame_desc
@@ -2203,15 +2203,15 @@
 (acc_guitarsolohard
    "Flawless Hard Guitar Solo")
 (acc_guitarsolohard_desc
-   "Hit 100% das notas in any solo on Hard Guitar.")
+   "Hit 100% of the notes in any solo on Hard Guitar.")
 (acc_guitarsoloimpossible
    "The Impossible Solos")
 (acc_guitarsoloimpossible_desc
-   "Hit 100% das notas in all the Guitar solos on all the songs in the Impossible difficulty tier.")
+   "Hit 100% of the notes in all the Guitar solos on all the songs in the Impossible difficulty tier.")
 (acc_guitarsolomedium
    "Flawless Medium Guitar Solo")
 (acc_guitarsolomedium_desc
-   "Hit 100% das notas in any solo on Medium Guitar.")
+   "Hit 100% of the notes in any solo on Medium Guitar.")
 (acc_guitarsolonintyexpert
    "90% Expert Guitar Solo")
 (acc_guitarsolonintyexpert_desc
@@ -2225,17 +2225,17 @@
 (acc_guitarsolosixtyhard
    "60% Hard Guitar Solo")
 (acc_guitarsolosixtyhard_desc
-   "Acerte pelo menos 60% das notas in a solo on Hard Guitar.")
+   "Hit at least 60% of the notes in a solo on Hard Guitar.")
 (acc_guitarsolosixtymedium
    "60% Medium Guitar Solo")
 (acc_guitarsolosixtymedium_desc
-   "Acerte pelo menos 60% das notas in a solo on Medium Guitar.")
+   "Hit at least 60% of the notes in a solo on Medium Guitar.")
 (acc_guitarsolosixty_desc
-   "Acerte pelo menos 60% das notas in a Guitar solo.")
+   "Hit at least 60% of the notes in a Guitar solo.")
 (acc_guitarsoloveryhard
    "The Very Tricky Solos")
 (acc_guitarsoloveryhard_desc
-   "Hit 100% das notas in the following very tricky Guitar solos:")
+   "Hit 100% of the notes in the following very tricky Guitar solos:")
 (acc_guitarstreak
    "Guitar Streak 100")
 (acc_guitarstreaklarge
@@ -2271,7 +2271,7 @@
 (acc_guitar_rb3_allsolos
    "Guitar Solo Master")
 (acc_guitar_rb3_allsolos_desc
-   "Acerte pelo menos 85% das notas in every Guitar solo in Rock Band 3 on Hard or Expert.")
+   "Hit at least 85% of the notes in every Guitar solo in Rock Band 3 on Hard or Expert.")
 (acc_guitar_rb3_beatbeginner
    "Growing Guitarist")
 (acc_guitar_rb3_beatbeginner_desc
@@ -2279,7 +2279,7 @@
 (acc_guitar_rb3_crazytrainsolo
    "Crazier Train")
 (acc_guitar_rb3_crazytrainsolo_desc
-   "Hit 85% das notas in the \qCrazy Train\q Guitar solo.")
+   "Hit 85% of the notes in the \qCrazy Train\q Guitar solo.")
 (acc_guitar_rb3_fivestars
    "5 <alt>*</alt> Guitar")
 (acc_guitar_rb3_fivestars_desc
@@ -2747,7 +2747,7 @@
 (acc_keys_rb3_feelinalright
    "Feelin' Alright")
 (acc_keys_rb3_feelinalright_desc
-   "Acerte pelo menos 90% das notas on \qFeelin' Alright\q by Traffic on Keys.")
+   "Hit at least 90% of the notes on \qFeelin' Alright\q by Traffic on Keys.")
 (acc_keys_rb3_getfivestars
    "5 <alt>*</alt> Keys")
 (acc_keys_rb3_getfivestars_desc
@@ -2755,11 +2755,11 @@
 (acc_keys_rb3_thebeautifulpeoplefc
    "The Beautiful Combo")
 (acc_keys_rb3_thebeautifulpeoplefc_desc
-   "Hit 100% das notas in \qThe Beautiful People\q by Marilyn Manson on Expert Keys.")
+   "Hit 100% of the notes in \qThe Beautiful People\q by Marilyn Manson on Expert Keys.")
 (acc_kickpercenteightyfive
    "Fast Feet")
 (acc_kickpercenteightyfive_desc
-   "Acerte pelo menos 85% of the kick drum notes in a song.")
+   "Hit at least 85% of the kick drum notes in a song.")
 (acc_kickpercenthundred
    "Quite a Kick")
 (acc_kickpercenthundred_desc
@@ -2771,7 +2771,7 @@
 (acc_kickpercentnintymedium
    "Faster Feet")
 (acc_kickpercentnintymedium_desc
-   "Acerte pelo menos 90% of the kick drum notes in a song on Medium Drums.")
+   "Hit at least 90% of the kick drum notes in a song on Medium Drums.")
 (acc_lrb_5stareverysong
    "5 <alt>*</alt> LEGO Rock Band")
 (acc_lrb_5stareverysong_desc
@@ -2791,7 +2791,7 @@
 (acc_lrb_finalcountdownsolo
    "Heading to Venus")
 (acc_lrb_finalcountdownsolo_desc
-   "Hit 100% das notas in the \qThe Final Countdown\q Guitar solo.")
+   "Hit 100% of the notes in the \qThe Final Countdown\q Guitar solo.")
 (acc_lrb_guiltypleasures
    "Can't Help Lovin' You")
 (acc_lrb_guiltypleasures_desc
@@ -3155,31 +3155,31 @@
 (acc_nintypercentdrumsexpert
    "90% Expert Drums")
 (acc_nintypercentdrumsexpert_desc
-   "Hit 90% das notas in 3 songs on Expert Drums.")
+   "Hit 90% of the notes in 3 songs on Expert Drums.")
 (acc_nintypercentdrumshard
    "90% Hard Drums")
 (acc_nintypercentdrumshard_desc
-   "Acerte pelo menos 90% das notas in 6 songs on Hard Drums.")
+   "Hit at least 90% of the notes in 6 songs on Hard Drums.")
 (acc_nintypercentdrumsmedium
    "90% Medium Drums")
 (acc_nintypercentdrumsmedium_desc
-   "Acerte pelo menos 90% das notas in 12 songs on Medium Drums.")
+   "Hit at least 90% of the notes in 12 songs on Medium Drums.")
 (acc_nintypercentdrums_desc
-   "Hit 100% das notas em uma música on Drums.")
+   "Hit 100% of the notes in a song on Drums.")
 (acc_nintypercentmedium
    "90% Medium Bass")
 (acc_nintypercentmedium_desc
-   "Acerte pelo menos 90% das notas in 12 songs on Medium Bass.")
+   "Hit at least 90% of the notes in 12 songs on Medium Bass.")
 (acc_nintypercent_desc
-   "Acerte pelo menos 90% das notas or phrases in a song on any instrument.")
+   "Hit at least 90% of the notes or phrases in a song on any instrument.")
 (acc_nintyprodrumshard
    "90% Hard Pro Drums")
 (acc_nintyprodrumshard_desc
-   "Acerte pelo menos 90% das notas em uma música on Hard Pro Drums.")
+   "Hit at least 90% of the notes in a song on Hard Pro Drums.")
 (acc_nintyprodrumsmedium
    "90% Medium Pro Drums")
 (acc_nintyprodrumsmedium_desc
-   "Acerte pelo menos 90% das notas em uma música on Medium Pro Drums.")
+   "Hit at least 90% of the notes in a song on Medium Pro Drums.")
 (acc_notebasics
    "Note Basics")
 (acc_notebasics_desc
@@ -3211,19 +3211,19 @@
 (acc_percussionninty
    "90% Tambourine")
 (acc_percussionninty_desc
-   "Acerte pelo menos 90% das notas in a percussion section.")
+   "Hit at least 90% of the notes in a percussion section.")
 (acc_percussionperfect
    "Tambourine Master")
 (acc_percussionperfect_desc
-   "Hit 100% das notas in a percussion section.")
+   "Hit 100% of the notes in a percussion section.")
 (acc_perfectexpertaccuracybass
    "Flawless Expert Bass")
 (acc_perfectexpertaccuracybass_desc
-   "Hit 100% das notas em uma música on Expert Bass.")
+   "Hit 100% of the notes in a song on Expert Bass.")
 (acc_perfectexpertaccuracyguitar
    "Flawless Expert Guitar")
 (acc_perfectexpertaccuracyguitar_desc
-   "Hit 100% das notas in any song on Expert Guitar.")
+   "Hit 100% of the notes in any song on Expert Guitar.")
 (acc_perfectperformancesong
    "Friends Say It's Good")
 (acc_perfectperformancesong_desc
@@ -3363,7 +3363,7 @@
 (acc_proguitar_rb3_passallsolos
    "Solo Survivor")
 (acc_proguitar_rb3_passallsolos_desc
-   "Acerte pelo menos 60% das notas in every Pro Guitar solo in Rock Band 3.")
+   "Hit at least 60% of the notes in every Pro Guitar solo in Rock Band 3.")
 (acc_prokeysbossexpert
    "Expert Hall of Fame Induction")
 (acc_prokeysbossexpert_desc
@@ -3415,11 +3415,11 @@
 (acc_prokeys_rb3_allsolos
    "Pro Keys Solo Master")
 (acc_prokeys_rb3_allsolos_desc
-   "Acerte pelo menos 85% das notas in every Pro Keys solo in Rock Band 3.")
+   "Hit at least 85% of the notes in every Pro Keys solo in Rock Band 3.")
 (acc_prokeys_rb3_shiftmaster
    "Kinda Shifty")
 (acc_prokeys_rb3_shiftmaster_desc
-   "Acerte pelo menos 90% das notas on the following shift-heavy songs on Pro Keys:")
+   "Hit at least 90% of the notes on the following shift-heavy songs on Pro Keys:")
 (acc_prokeys_rb3_sisterchristianstreak
    "Your Price for Flight")
 (acc_prokeys_rb3_sisterchristianstreak_desc
@@ -3987,7 +3987,7 @@
 (acc_solobuttons
    "Tiny Buttons")
 (acc_solobuttons_desc
-   "Acerte pelo menos 85% das notas in a Guitar solo using only the solo buttons.")
+   "Hit at least 85% of the notes in a Guitar solo using only the solo buttons.")
 (acc_songfivefinish
    "Final Hard Song Test")
 (acc_songfivefinish_desc
@@ -4339,7 +4339,7 @@
 (acc_vox_dlc_morethanafeeling
    "That Old Song They Used to Play")
 (acc_vox_dlc_morethanafeeling_desc
-   "Acerte pelo menos 95% of the phrases on \qMore Than A Feeling\q by Boston on Vocals.")
+   "Hit at least 95% of the phrases on \qMore Than A Feeling\q by Boston on Vocals.")
 (acc_vox_rb3_bohemiantripleawesomes
    "Is This Just Fantasy?")
 (acc_vox_rb3_bohemiantripleawesomes_desc
@@ -4643,15 +4643,15 @@
 (aztecleggings_hide_desc
    "When the battle lust takes you, you'll want to be wearing these leggings designed for an Aztec warrior goddess.")
 (back
-   "VOLTAR")
+   "BACK")
 (background_music
-   "Música de Fundo")
+   "Background Music")
 (back_off
-   "para trás!")
+   "back off!")
 (bad_solo
    "Okay Solo")
 (band
-   "Banda")
+   "Band")
 (bandfirstname_1
    "The Jaundiced")
 (bandfirstname_10
@@ -4870,37 +4870,37 @@
    "   ")
 #ifdef HX_XBOX
 (band_chooser_find
-   "Encontrar Jogadores da Xbox LIVE")
+   "Find Xbox LIVE Players")
 #endif
 #ifdef HX_PS3
 (band_chooser_find
-   "Encontrar Jogadores Online")
+   "Find Online Players")
 #endif
 #ifdef HX_WII
 (band_chooser_find
-   "Encontrar Jogadores Online")
+   "Find Online Players")
 #endif
 #ifdef HX_PC
 (band_chooser_find
-   "Encontrar Jogadores da Xbox LIVE")
+   "Find Xbox LIVE Players")
 #endif
 (band_chooser_find_desc
    " ")
 #ifdef HX_XBOX
 (band_chooser_join
-   "Encontrar Jogadores da Xbox LIVE")
+   "Find Xbox LIVE Players")
 #endif
 #ifdef HX_PS3
 (band_chooser_join
-   "Encontrar Jogadores Online")
+   "Find Online Players")
 #endif
 #ifdef HX_WII
 (band_chooser_join
-   "Encontrar Jogadores Online")
+   "Find Online Players")
 #endif
 #ifdef HX_PC
 (band_chooser_join
-   "Encontrar Jogadores da Xbox LIVE")
+   "Find Xbox LIVE Players")
 #endif
 (band_chooser_join_desc
    " ")
@@ -4915,13 +4915,13 @@
 (band_chooser_profile_header
    "%s's Bands")
 (band_chooser_skip
-   "Jogo Rápido")
+   "Quickplay")
 (band_chooser_skip_desc
    "   ")
 (band_chooser_skip_desc_2
    "Player Statistics...")
 (band_coop
-   "Jogo Rápido")
+   "Quickplay")
 (band_default_name
    "%s's band")
 (band_emptyname
@@ -5293,29 +5293,29 @@
 (basketballsneaks_custom_desc
    "Your sneakers say a lot about you. These ones say \qYeah!\q")
 (bass
-   "Baixo")
+   "Bass")
 (bass_boost
    "Bass Boost")
 (bass_enters
    "Bass enters")
 (bass_intro
-   "Introd. do Baixo")
+   "Bass intro")
 (bass_riff
-   "Riff de Baixo")
+   "Bass riff")
 (bass_solo
-   "Solo de Baixo")
+   "Bass solo")
 (bass_solo_1
-   "Solo de Baixo 1")
+   "Bass solo 1")
 (bass_solo_2
-   "Solo de Baixo 2")
+   "Bass solo 2")
 (bass_solo_3
-   "Solo de Baixo 3")
+   "Bass solo 3")
 (bass_solo_a
-   "Solo de Baixo a")
+   "Bass solo a")
 (bass_solo_b
-   "Solo de Baixo b")
+   "Bass solo b")
 (bass_solo_c
-   "Solo de Baixo c")
+   "Bass solo c")
 (bass_streak
    "Bass Groove")
 (bass_super_streak
@@ -5423,7 +5423,7 @@
 (beta87_resource_desc
    "In addition to having particularly smooth frequency response, the Shure Beta 87A operates on phantom power, which should add a little mystery and intrigue to even the most straightforward performance. Phantom power!")
 (bigger_riff
-   "O Melhor riff")
+   "Bigger riff")
 (bigstraps_rubber
    "Back in Straps")
 (bigstraps_rubber_desc
@@ -5435,11 +5435,11 @@
 (big_club
    "Big Club")
 (big_riff_1
-   "Riff grande 1")
+   "Big riff 1")
 (big_riff_2
-   "Riff grande 2")
+   "Big riff 2")
 (big_rock_ending
-   "Final Triunfante!")
+   "Big Rock Ending!")
 (bikershortsflannel_spandex
    "Short Pants O' Mine")
 (bikershortsflannel_spandex_desc
@@ -5691,45 +5691,45 @@
 (breeches_wool_desc
    "Just having the audacity to wear these pants proves that fame has gone to your head. That, and the fact that you hired someone to read this for you.")
 (bridge
-   "Ponte")
+   "Bridge")
 (bridge_1
-   "Ponte 1")
+   "Bridge 1")
 (bridge_1a
-   "Ponte 1a")
+   "Bridge 1a")
 (bridge_1b
-   "Ponte 1b")
+   "Bridge 1b")
 (bridge_2
-   "Ponte 2")
+   "Bridge 2")
 (bridge_2a
-   "Ponte 2a")
+   "Bridge 2a")
 (bridge_2b
-   "Ponte 2b")
+   "Bridge 2b")
 (bridge_2c
-   "Ponte 2c")
+   "Bridge 2c")
 (bridge_3
-   "Ponte 3")
+   "Bridge 3")
 (bridge_3a
-   "Ponte 3a")
+   "Bridge 3a")
 (bridge_3b
-   "Ponte 3b")
+   "Bridge 3b")
 (bridge_3c
-   "Ponte 3c")
+   "Bridge 3c")
 (bridge_4
-   "Ponte 4")
+   "Bridge 4")
 (bridge_4a
-   "Ponte 4a")
+   "Bridge 4a")
 (bridge_4b
-   "Ponte 4b")
+   "Bridge 4b")
 (bridge_4c
-   "Ponte 4c")
+   "Bridge 4c")
 (bridge_a
-   "Ponte a")
+   "Bridge a")
 (bridge_b
-   "Ponte b")
+   "Bridge b")
 (bridge_c
-   "Ponte c")
+   "Bridge c")
 (bridge_d
-   "Ponte d")
+   "Bridge d")
 (brokenmic_resource
    "Sonic Transducer")
 (brokenmic_resource_desc
@@ -5739,7 +5739,7 @@
 (buckletank_leather_desc
    "This tough look is a hit if you're under more pressure than usual... 'cause there's just something about a spiked gauntlet that really mellows you out.")
 (buildup
-   "Ascensão")
+   "Build up")
 (bulkycamopants_camo
    "Tough Guy Camos")
 (bulkycamopants_camo_desc
@@ -5815,29 +5815,29 @@
 (bx3_resource_desc
    "Want a true organ sound with contemporary options? This double manual organ, with its two sets of \qlive\q drawbars, is a great performance instrument, guaranteed to attract envy and attention.")
 (by_artist
-   "Artista")
+   "Artist")
 (by_date
    "Date")
 (by_difficulty
-   "Dificuldade")
+   "Song Difficulty")
 (by_length
-   "Duração")
+   "Length")
 (by_location
    "Location")
 (by_pack
-   "Por Pack de Música")
+   "By Song Pack")
 (by_plays
-   "Vezes Tocada")
+   "Play Count")
 (by_rank
-   "Ranque no Leaderboard")
+   "Leaderboard Rank")
 (by_recent
-   "Data Adquirida")
+   "Date Acquired")
 (by_review
-   "Crítica")
+   "Review")
 (by_song
-   "Nome da Música")
+   "Song Name")
 (by_stars
-   "Estrelas")
+   "Stars")
 (c20bass
    "Jackson<sup>TM</sup> C20 Concert<sup>TM</sup> Bass")
 (c20bass_desc
@@ -6449,11 +6449,11 @@
 (change_speed
    "Change Speed")
 (chant_1
-   "Coro 1")
+   "Chant 1")
 (chant_2
-   "Coro 2")
+   "Chant 2")
 (chant_3
-   "Coro 3")
+   "Chant 3")
 (chaps_leather
    "Chapped Legs")
 (chaps_leather_desc
@@ -6971,15 +6971,15 @@
 (chorus_9c
    "Chorus 9c")
 (chorus_break
-   "Pausa do Refrão")
+   "Chorus break")
 (chorus_riff
-   "Riff do Refrão")
+   "Chorus riff")
 (chorus_riff_1
-   "Riff do Refrão 1")
+   "Chorus riff 1")
 (chorus_riff_2
-   "Riff do Refrão 2")
+   "Chorus riff 2")
 (chorus_riff_3
-   "Riff do Refrão 3")
+   "Chorus riff 3")
 (chrome
    "Chrome")
 (chucktaylor_folded
@@ -7275,31 +7275,31 @@
 (create_char_facial_hair
    "Facial Hair")
 (create_char_finish
-   "Concluir")
+   "FINISH")
 (create_char_gender
-   "Gênero")
+   "Gender")
 (create_char_genre
-   "GÊNERO")
+   "GENRE")
 (create_char_glasses
-   "Óculos")
+   "Glasses")
 (create_char_hair
-   "Cabelo")
+   "Hair")
 (create_char_head
    "MODIFY HEAD")
 (create_char_height
-   "ALTURA")
+   "HEIGHT")
 (create_char_hometown
    "HOMETOWN")
 (create_char_makeup
    "MAKEUP")
 (create_char_name
-   "NOME")
+   "NAME")
 (create_char_options
-   "OPÇÕES DE PERSONAGEM")
+   "CHARACTER OPTIONS")
 (create_char_outfit
    "OUTFIT")
 (create_char_skintone
-   "TOM DE PELE")
+   "SKIN TONE")
 (create_char_title
    "ROCKER MAKER")
 (create_char_vk_desc
@@ -7775,11 +7775,11 @@
 (drugrug_poncho_desc
    "Perfect for Deadheads and Reed students, this poncho will ensure that no one finds out that you come from money. Your secret is safe, Junior!")
 (drum
-   "Bateria")
+   "Drum")
 (drumandbass
    "Drum and Bass")
 (drums
-   "Bateria")
+   "Drums")
 (drums_enter
    "Drums enter")
 (drum_advanced_beats
@@ -10407,17 +10407,17 @@
 (filter_world
    "World")
 (finding_additional_content
-   "Encontrando músicas baixadas...")
+   "Finding Downloaded Content...")
 (finding_additional_progress
-   "Encontrado: %s")
+   "%s Found")
 (finding_invite
-   "Unindo a Sessão")
+   "Joining Session")
 (finding_players
-   "Encontrando Jogadores")
+   "Finding Players")
 (finding_players_continue
-   "Continuar Sem Líder")
+   "Continue Without Leader")
 (finding_players_retry
-   "Tentar Juntar de novo")
+   "Retry Join")
 (finding_presence_all_guests
    "Cannot accept invite when the only players in the session are guests.")
 (finding_presence_auto_vocals
@@ -10465,7 +10465,7 @@
 (finding_presence_wrong_mode
    "This session is playing a different game mode than you.")
 (find_players_quickplay_band
-   "Jogo Rápido")
+   "Quickplay")
 (find_players_title
    "Find a Band")
 (find_players_tour_band
@@ -10473,7 +10473,7 @@
 (find_redeemed
    "Previously Redeemed Codes")
 (finish
-   "Concluir")
+   "Finish")
 (finish_editing
    "FINISH EDITING")
 (fittedpants2_snake
@@ -10535,7 +10535,7 @@
 (floppyboots_leather_desc
    "Wade through seas of sweaty fans or just stomp your way through festival mud pits in these well-worn leather boots.")
 (fmp_back
-   "VOLTAR")
+   "BACK")
 (fmp_continue
    "PLAY WITH CURRENT LINEUP")
 #ifdef HX_XBOX
@@ -11179,7 +11179,7 @@
 (guide_pitch_off
    "GUIDE PITCH OFF")
 (guitar
-   "Guitarra")
+   "Guitar")
 (guitar_lessons
    "Guitar Lessons")
 (guitar_pad_lost
@@ -11281,7 +11281,7 @@
 (help_accept
    "ACCEPT")
 (help_back
-   "VOLTAR")
+   "BACK")
 (help_cancel
    "CANCEL")
 (help_confirm
@@ -11333,7 +11333,7 @@
 (hint_careerlaunch
    "Career Launch")
 (hint_careerlaunch_desc
-   "Welcome back!\n\nDon't forget to check out the rest of \qMeus Objetivos\q to find other cool ways to increase your fans and progress as a musician!")
+   "Welcome back!\n\nDon't forget to check out the rest of \qMy Goals\q to find other cool ways to increase your fans and progress as a musician!")
 (hint_career_desc
    "Welcome to the Rock Band 3 Career!\n\nYour progress as a musician is measured by goals. As you get better at a particular instrument, you'll beat more goals for that instrument. Beating goals is a big deal; goals can give you more fans, more clothing, and even better transportation to travel around in!")
 (hint_career_halloffame
@@ -11343,7 +11343,7 @@
 (hint_goalcomplete
    "First Goal Complete!")
 (hint_goalcomplete_desc
-   "Congratulations, you completed your first goal!\n\nBeating goals is kind of a big deal; goals can give you more fans, more clothing, and even better transportation to travel around in!\n\nYou can check out which goals are available by viewing \qMeus Objetivos\q in the Career.")
+   "Congratulations, you completed your first goal!\n\nBeating goals is kind of a big deal; goals can give you more fans, more clothing, and even better transportation to travel around in!\n\nYou can check out which goals are available by viewing \qMy Goals\q in the Career.")
 (hint_prodrums_desc
    "Welcome to the Pro Drum Trainer!\n\nThis trainer is intended for Pro Drum kits with 3 cymbals attached. If you don't have 3 cymbals connected to your kit, check out the regular Drum Trainer instead!")
 (hipclipspants_leather
@@ -11441,7 +11441,7 @@
 (house
    "House")
 (how_to_back
-   "VOLTAR")
+   "BACK")
 #ifdef HX_PS3
 (how_to_chat
    "")
@@ -11773,7 +11773,7 @@
 (keyboard_solo
    "Keyboard solo")
 (keys
-   "Teclado")
+   "Keys")
 (keys_pad_lost
    "keys controller")
 (kick2
@@ -12449,7 +12449,7 @@
 (main_hub_goals_leaderboard
    "My Rankings")
 (main_hub_goals_progress
-   "Meus Objetivos")
+   "My Goals")
 (main_hub_goals_songs
    "My Song Progress")
 (main_hub_less_info
@@ -16187,7 +16187,7 @@
 (plug_in_calbert
    "In order to select the Automatic Calibration option, you need to use a guitar controller with an automatic calibration device. Otherwise you can use Manual Calibration to determine your system's ideal settings, or select Enter Calibration Numbers if you already know what your delay settings should be.")
 (pn_submenu_quickplay
-   "Jogo Rápido")
+   "Quickplay")
 (points
    "points")
 (points_caps
@@ -16221,35 +16221,35 @@
 (popup_help_intro_keys
    "Play on C to G")
 (postchorus_1
-   "Pós-Refrão 1")
+   "Post-chorus 1")
 (postchorus_2
-   "Pós-Refrão 2")
+   "Post-chorus 2")
 (postchorus_3
-   "Pós-Refrão 3")
+   "Post-chorus 3")
 (postchorus_4
-   "Pós-Refrão 4")
+   "Post-chorus 4")
 (postchorus_5
-   "Pós-Refrão 5")
+   "Post-chorus 5")
 (postrock
    "Post-rock")
 (postverse_1
-   "Pós-Verso 1")
+   "Post-verse 1")
 (postverse_2
-   "Pós-Verso 2")
+   "Post-verse 2")
 (postverse_3
-   "Pós-Verso 3")
+   "Post-verse 3")
 (postverse_4
-   "Pós-Verso 4")
+   "Post-verse 4")
 (postverse_5
-   "Pós-Verso 5")
+   "Post-verse 5")
 (power
    "Power")
 (practice_mode
-   "modo prática")
+   "practice mode")
 (practice_new_section
-   "Praticar Nova Sessão")
+   "Practice New Section")
 (practice_or_train_song
-   "Praticar/Treinar Música")
+   "Practice/Train Song")
 (practice_panel_best
    "Best")
 (practice_panel_slower_faster
@@ -16277,335 +16277,335 @@
 (prayer
    "Prayer")
 (prc_a
-   "Sessão A")
+   "A section")
 (prc_a1
-   "Sessão A1")
+   "A section 1")
 (prc_a2
-   "Sessão A2")
+   "A section 2")
 (prc_a3
-   "Sessão A3")
+   "A section 3")
 (prc_a4
-   "Sessão A4")
+   "A section 4")
 (prc_a5
-   "Sessão A5")
+   "A section 5")
 (prc_a6
-   "Sessão A6")
+   "A section 6")
 (prc_a7
-   "Sessão A7")
+   "A section 7")
 (prc_a8
-   "Sessão A8")
+   "A section 8")
 (prc_a9
-   "Sessão A9")
+   "A section 9")
 (prc_ah
    "Ah!")
 (prc_alt_chorus
-   "Refrão Alt.")
+   "Alt chorus")
 (prc_alt_chorus_a
-   "Refrão Alt. a")
+   "Alt chorus a")
 (prc_alt_chorus_b
-   "Refrão Alt. b")
+   "Alt chorus b")
 (prc_alt_chorus_c
-   "Refrão Alt. c")
+   "Alt chorus c")
 (prc_alt_chorus_d
-   "Refrão Alt. d")
+   "Alt chorus d")
 (prc_alt_verse
-   "Verso Alt.")
+   "Alt verse")
 (prc_alt_verse_a
-   "Verso Alt. a")
+   "Alt verse a")
 (prc_alt_verse_b
-   "Verso Alt. b")
+   "Alt verse b")
 (prc_alt_verse_c
-   "Verso Alt. c")
+   "Alt verse c")
 (prc_alt_verse_d
-   "Verso Alt. d")
+   "Alt verse d")
 (prc_b
-   "Sessão B")
+   "B section")
 (prc_b1
-   "Sessão B1")
+   "B section 1")
 (prc_b2
-   "Sessão B2")
+   "B section 2")
 (prc_b3
-   "Sessão B3")
+   "B section 3")
 (prc_b4
-   "Sessão B4")
+   "B section 4")
 (prc_b5
-   "Sessão B5")
+   "B section 5")
 (prc_b6
-   "Sessão B6")
+   "B section 6")
 (prc_b7
-   "Sessão B7")
+   "B section 7")
 (prc_b8
-   "Sessão B8")
+   "B section 8")
 (prc_b9
-   "Sessão B9")
+   "B section 9")
 (prc_band_enters
-   "Entrada da Banda")
+   "Band enters")
 (prc_bass_break
-   "Pausa do Baixo")
+   "Bass break")
 (prc_bass_break_1
-   "Pausa do Baixo 1")
+   "Bass break 1")
 (prc_bass_break_1a
-   "Pausa do Baixo 1a")
+   "Bass break 1a")
 (prc_bass_break_1b
-   "Pausa do Baixo 1b")
+   "Bass break 1b")
 (prc_bass_break_1c
-   "Pausa do Baixo 1c")
+   "Bass break 1c")
 (prc_bass_break_1d
-   "Pausa do Baixo 1d")
+   "Bass break 1d")
 (prc_bass_break_2
-   "Pausa do Baixo 2")
+   "Bass break 2")
 (prc_bass_break_2a
-   "Pausa do Baixo 2a")
+   "Bass break 2a")
 (prc_bass_break_2b
-   "Pausa do Baixo 2b")
+   "Bass break 2b")
 (prc_bass_break_2c
-   "Pausa do Baixo 2c")
+   "Bass break 2c")
 (prc_bass_break_2d
-   "Pausa do Baixo 2d")
+   "Bass break 2d")
 (prc_bass_break_3
-   "Pausa do Baixo 3")
+   "Bass break 3")
 (prc_bass_break_3a
-   "Pausa do Baixo 3a")
+   "Bass break 3a")
 (prc_bass_break_3b
-   "Pausa do Baixo 3b")
+   "Bass break 3b")
 (prc_bass_break_3c
-   "Pausa do Baixo 3c")
+   "Bass break 3c")
 (prc_bass_break_3d
-   "Pausa do Baixo 3d")
+   "Bass break 3d")
 (prc_bass_break_4
-   "Pausa do Baixo 4")
+   "Bass break 4")
 (prc_bass_break_4a
-   "Pausa do Baixo 4a")
+   "Bass break 4a")
 (prc_bass_break_4b
-   "Pausa do Baixo 4b")
+   "Bass break 4b")
 (prc_bass_break_4c
-   "Pausa do Baixo 4c")
+   "Bass break 4c")
 (prc_bass_break_4d
-   "Pausa do Baixo 4d")
+   "Bass break 4d")
 (prc_bass_break_a
-   "Pausa do Baixo a")
+   "Bass break a")
 (prc_bass_break_b
-   "Pausa do Baixo b")
+   "Bass break b")
 (prc_bass_break_c
-   "Pausa do Baixo c")
+   "Bass break c")
 (prc_bass_break_d
-   "Pausa do Baixo d")
+   "Bass break d")
 (prc_bass_enters
-   "Entrada do Baixo")
+   "Bass enters")
 (prc_bass_intro
-   "Introd. do Baixo")
+   "Bass intro")
 (prc_bass_intro_a
-   "Introd. do Baixo a")
+   "Bass intro a")
 (prc_bass_intro_b
-   "Introd. do Baixo b")
+   "Bass intro b")
 (prc_bass_intro_c
-   "Introd. do Baixo c")
+   "Bass intro c")
 (prc_bass_intro_d
-   "Introd. do Baixo d")
+   "Bass intro d")
 (prc_bass_riff
-   "Riff de Baixo")
+   "Bass riff")
 (prc_bass_riff_1
-   "Riff de Baixo 1")
+   "Bass riff 1")
 (prc_bass_riff_1a
-   "Riff de Baixo 1a")
+   "Bass riff 1a")
 (prc_bass_riff_1b
-   "Riff de Baixo 1b")
+   "Bass riff 1b")
 (prc_bass_riff_1c
-   "Riff de Baixo 1c")
+   "Bass riff 1c")
 (prc_bass_riff_1d
-   "Riff de Baixo 1d")
+   "Bass riff 1d")
 (prc_bass_riff_2
-   "Riff de Baixo 2")
+   "Bass riff 2")
 (prc_bass_riff_2a
-   "Riff de Baixo 2a")
+   "Bass riff 2a")
 (prc_bass_riff_2b
-   "Riff de Baixo 2b")
+   "Bass riff 2b")
 (prc_bass_riff_2c
-   "Riff de Baixo 2c")
+   "Bass riff 2c")
 (prc_bass_riff_2d
-   "Riff de Baixo 2d")
+   "Bass riff 2d")
 (prc_bass_riff_3
-   "Riff de Baixo 3")
+   "Bass riff 3")
 (prc_bass_riff_3a
-   "Riff de Baixo 3a")
+   "Bass riff 3a")
 (prc_bass_riff_3b
-   "Riff de Baixo 3b")
+   "Bass riff 3b")
 (prc_bass_riff_3c
-   "Riff de Baixo 3c")
+   "Bass riff 3c")
 (prc_bass_riff_3d
-   "Riff de Baixo 3d")
+   "Bass riff 3d")
 (prc_bass_riff_4
-   "Riff de Baixo 4")
+   "Bass riff 4")
 (prc_bass_riff_4a
-   "Riff de Baixo 4a")
+   "Bass riff 4a")
 (prc_bass_riff_4b
-   "Riff de Baixo 4b")
+   "Bass riff 4b")
 (prc_bass_riff_4c
-   "Riff de Baixo 4c")
+   "Bass riff 4c")
 (prc_bass_riff_4d
-   "Riff de Baixo 4d")
+   "Bass riff 4d")
 (prc_bass_riff_a
-   "Riff de Baixo a")
+   "Bass riff a")
 (prc_bass_riff_b
-   "Riff de Baixo b")
+   "Bass riff b")
 (prc_bass_riff_c
-   "Riff de Baixo c")
+   "Bass riff c")
 (prc_bass_riff_d
-   "Riff de Baixo d")
+   "Bass riff d")
 (prc_bass_solo
-   "Solo de Baixo")
+   "Bass solo")
 (prc_bass_solo_1
-   "Solo de Baixo 1")
+   "Bass solo 1")
 (prc_bass_solo_1a
-   "Solo de Baixo 1a")
+   "Bass solo 1a")
 (prc_bass_solo_1b
-   "Solo de Baixo 1b")
+   "Bass solo 1b")
 (prc_bass_solo_1c
-   "Solo de Baixo 1c")
+   "Bass solo 1c")
 (prc_bass_solo_1d
-   "Solo de Baixo 1d")
+   "Bass solo 1d")
 (prc_bass_solo_2
-   "Solo de Baixo 2")
+   "Bass solo 2")
 (prc_bass_solo_2a
-   "Solo de Baixo 2a")
+   "Bass solo 2a")
 (prc_bass_solo_2b
-   "Solo de Baixo 2b")
+   "Bass solo 2b")
 (prc_bass_solo_2c
-   "Solo de Baixo 2c")
+   "Bass solo 2c")
 (prc_bass_solo_2d
-   "Solo de Baixo 2d")
+   "Bass solo 2d")
 (prc_bass_solo_3
-   "Solo de Baixo 3")
+   "Bass solo 3")
 (prc_bass_solo_3a
-   "Solo de Baixo 3a")
+   "Bass solo 3a")
 (prc_bass_solo_3b
-   "Solo de Baixo 3b")
+   "Bass solo 3b")
 (prc_bass_solo_3c
-   "Solo de Baixo 3c")
+   "Bass solo 3c")
 (prc_bass_solo_3d
-   "Solo de Baixo 3d")
+   "Bass solo 3d")
 (prc_bass_solo_4
-   "Solo de Baixo 4")
+   "Bass solo 4")
 (prc_bass_solo_4a
-   "Solo de Baixo 4a")
+   "Bass solo 4a")
 (prc_bass_solo_4b
-   "Solo de Baixo 4b")
+   "Bass solo 4b")
 (prc_bass_solo_4c
-   "Solo de Baixo 4c")
+   "Bass solo 4c")
 (prc_bass_solo_4d
-   "Solo de Baixo 4d")
+   "Bass solo 4d")
 (prc_bass_solo_a
-   "Solo de Baixo a")
+   "Bass solo a")
 (prc_bass_solo_b
-   "Solo de Baixo b")
+   "Bass solo b")
 (prc_bass_solo_c
-   "Solo de Baixo c")
+   "Bass solo c")
 (prc_bass_solo_d
-   "Solo de Baixo d")
+   "Bass solo d")
 (prc_bigger_riff
-   "O Melhor riff")
+   "Bigger riff")
 (prc_bigger_riff_1
-   "O Melhor riff 1")
+   "Bigger riff 1")
 (prc_bigger_riff_1a
-   "O Melhor riff 1a")
+   "Bigger riff 1a")
 (prc_bigger_riff_1b
-   "O Melhor riff 1b")
+   "Bigger riff 1b")
 (prc_bigger_riff_1c
-   "O Melhor riff 1c")
+   "Bigger riff 1c")
 (prc_bigger_riff_1d
-   "O Melhor riff 1d")
+   "Bigger riff 1d")
 (prc_bigger_riff_2
-   "O Melhor riff 2")
+   "Bigger riff 2")
 (prc_bigger_riff_2a
-   "O Melhor riff 2a")
+   "Bigger riff 2a")
 (prc_bigger_riff_2b
-   "O Melhor riff 2b")
+   "Bigger riff 2b")
 (prc_bigger_riff_2c
-   "O Melhor riff 2c")
+   "Bigger riff 2c")
 (prc_bigger_riff_2d
-   "O Melhor riff 2d")
+   "Bigger riff 2d")
 (prc_bigger_riff_3
-   "O Melhor riff 3")
+   "Bigger riff 3")
 (prc_bigger_riff_3a
-   "O Melhor riff 3a")
+   "Bigger riff 3a")
 (prc_bigger_riff_3b
-   "O Melhor riff 3b")
+   "Bigger riff 3b")
 (prc_bigger_riff_3c
-   "O Melhor riff 3c")
+   "Bigger riff 3c")
 (prc_bigger_riff_3d
-   "O Melhor riff 3d")
+   "Bigger riff 3d")
 (prc_bigger_riff_4
-   "O Melhor riff 4")
+   "Bigger riff 4")
 (prc_bigger_riff_4a
-   "O Melhor riff 4a")
+   "Bigger riff 4a")
 (prc_bigger_riff_4b
-   "O Melhor riff 4b")
+   "Bigger riff 4b")
 (prc_bigger_riff_4c
-   "O Melhor riff 4c")
+   "Bigger riff 4c")
 (prc_bigger_riff_4d
-   "O Melhor riff 4d")
+   "Bigger riff 4d")
 (prc_bigger_riff_a
-   "O Melhor riff a")
+   "Bigger riff a")
 (prc_bigger_riff_b
-   "O Melhor riff b")
+   "Bigger riff b")
 (prc_bigger_riff_c
-   "O Melhor riff c")
+   "Bigger riff c")
 (prc_bigger_riff_d
-   "O Melhor riff d")
+   "Bigger riff d")
 (prc_big_riff
-   "Riff grande")
+   "Big riff")
 (prc_big_riff_1
-   "Riff grande 1")
+   "Big riff 1")
 (prc_big_riff_1a
-   "Riff grande 1a")
+   "Big riff 1a")
 (prc_big_riff_1b
-   "Riff grande 1b")
+   "Big riff 1b")
 (prc_big_riff_1c
-   "Riff grande 1c")
+   "Big riff 1c")
 (prc_big_riff_1d
-   "Riff grande 1d")
+   "Big riff 1d")
 (prc_big_riff_2
-   "Riff grande 2")
+   "Big riff 2")
 (prc_big_riff_2a
-   "Riff grande 2a")
+   "Big riff 2a")
 (prc_big_riff_2b
-   "Riff grande 2b")
+   "Big riff 2b")
 (prc_big_riff_2c
-   "Riff grande 2c")
+   "Big riff 2c")
 (prc_big_riff_2d
-   "Riff grande 2d")
+   "Big riff 2d")
 (prc_big_riff_3
-   "Riff grande 3")
+   "Big riff 3")
 (prc_big_riff_3a
-   "Riff grande 3a")
+   "Big riff 3a")
 (prc_big_riff_3b
-   "Riff grande 3b")
+   "Big riff 3b")
 (prc_big_riff_3c
-   "Riff grande 3c")
+   "Big riff 3c")
 (prc_big_riff_3d
-   "Riff grande 3d")
+   "Big riff 3d")
 (prc_big_riff_4
-   "Riff grande 4")
+   "Big riff 4")
 (prc_big_riff_4a
-   "Riff grande 4a")
+   "Big riff 4a")
 (prc_big_riff_4b
-   "Riff grande 4b")
+   "Big riff 4b")
 (prc_big_riff_4c
-   "Riff grande 4c")
+   "Big riff 4c")
 (prc_big_riff_4d
-   "Riff grande 4d")
+   "Big riff 4d")
 (prc_big_riff_a
-   "Riff grande a")
+   "Big riff a")
 (prc_big_riff_b
-   "Riff grande b")
+   "Big riff b")
 (prc_big_riff_c
-   "Riff grande c")
+   "Big riff c")
 (prc_big_riff_d
-   "Riff grande d")
+   "Big riff d")
 (prc_bre
-   "Final Triunfante!")
+   "Big Rock Ending!")
 (prc_break
-   "Pausa")
+   "Break")
 (prc_breakdown
    "Breakdown")
 (prc_breakdown_1
@@ -16655,445 +16655,445 @@
 (prc_breakdown_c
    "Breakdown c")
 (prc_breakdown_chorus
-   "Breakdown Refrão")
+   "Breakdown chorus")
 (prc_breakdown_chorus_a
-   "Breakdown Refrão a")
+   "Breakdown chorus a")
 (prc_breakdown_chorus_b
-   "Breakdown Refrão b")
+   "Breakdown chorus b")
 (prc_breakdown_chorus_c
-   "Breakdown Refrão c")
+   "Breakdown chorus c")
 (prc_breakdown_chorus_d
-   "Breakdown Refrão d")
+   "Breakdown chorus d")
 (prc_breakdown_d
    "Breakdown d")
 (prc_break_1
-   "Pausa 1")
+   "Break 1")
 (prc_break_1a
-   "Pausa 1a")
+   "Break 1a")
 (prc_break_1b
-   "Pausa 1b")
+   "Break 1b")
 (prc_break_1c
-   "Pausa 1c")
+   "Break 1c")
 (prc_break_1d
-   "Pausa 1d")
+   "Break 1d")
 (prc_break_2
-   "Pausa 2")
+   "Break 2")
 (prc_break_2a
-   "Pausa 2a")
+   "Break 2a")
 (prc_break_2b
-   "Pausa 2b")
+   "Break 2b")
 (prc_break_2c
-   "Pausa 2c")
+   "Break 2c")
 (prc_break_2d
-   "Pausa 2d")
+   "Break 2d")
 (prc_break_3
-   "Pausa 3")
+   "Break 3")
 (prc_break_3a
-   "Pausa 3a")
+   "Break 3a")
 (prc_break_3b
-   "Pausa 3b")
+   "Break 3b")
 (prc_break_3c
-   "Pausa 3c")
+   "Break 3c")
 (prc_break_3d
-   "Pausa 3d")
+   "Break 3d")
 (prc_break_4
-   "Pausa 4")
+   "Break 4")
 (prc_break_4a
-   "Pausa 4a")
+   "Break 4a")
 (prc_break_4b
-   "Pausa 4b")
+   "Break 4b")
 (prc_break_4c
-   "Pausa 4c")
+   "Break 4c")
 (prc_break_4d
-   "Pausa 4d")
+   "Break 4d")
 (prc_break_a
-   "Pausa a")
+   "Break a")
 (prc_break_b
-   "Pausa b")
+   "Break b")
 (prc_break_c
-   "Pausa c")
+   "Break c")
 (prc_break_d
-   "Pausa d")
+   "Break d")
 (prc_bridge
-   "Ponte")
+   "Bridge")
 (prc_bridge_1
-   "Ponte 1")
+   "Bridge 1")
 (prc_bridge_1a
-   "Ponte 1a")
+   "Bridge 1a")
 (prc_bridge_1b
-   "Ponte 1b")
+   "Bridge 1b")
 (prc_bridge_1c
-   "Ponte 1c")
+   "Bridge 1c")
 (prc_bridge_1d
-   "Ponte 1d")
+   "Bridge 1d")
 (prc_bridge_2
-   "Ponte 2")
+   "Bridge 2")
 (prc_bridge_2a
-   "Ponte 2a")
+   "Bridge 2a")
 (prc_bridge_2b
-   "Ponte 2b")
+   "Bridge 2b")
 (prc_bridge_2c
-   "Ponte 2c")
+   "Bridge 2c")
 (prc_bridge_2d
-   "Ponte 2d")
+   "Bridge 2d")
 (prc_bridge_3
-   "Ponte 3")
+   "Bridge 3")
 (prc_bridge_3a
-   "Ponte 3a")
+   "Bridge 3a")
 (prc_bridge_3b
-   "Ponte 3b")
+   "Bridge 3b")
 (prc_bridge_3c
-   "Ponte 3c")
+   "Bridge 3c")
 (prc_bridge_3d
-   "Ponte 3d")
+   "Bridge 3d")
 (prc_bridge_4
-   "Ponte 4")
+   "Bridge 4")
 (prc_bridge_4a
-   "Ponte 4a")
+   "Bridge 4a")
 (prc_bridge_4b
-   "Ponte 4b")
+   "Bridge 4b")
 (prc_bridge_4c
-   "Ponte 4c")
+   "Bridge 4c")
 (prc_bridge_4d
-   "Ponte 4d")
+   "Bridge 4d")
 (prc_bridge_5
-   "Ponte 5")
+   "Bridge 5")
 (prc_bridge_5a
-   "Ponte 5a")
+   "Bridge 5a")
 (prc_bridge_5b
-   "Ponte 5b")
+   "Bridge 5b")
 (prc_bridge_5c
-   "Ponte 5c")
+   "Bridge 5c")
 (prc_bridge_5d
-   "Ponte 5d")
+   "Bridge 5d")
 (prc_bridge_6
-   "Ponte 6")
+   "Bridge 6")
 (prc_bridge_6a
-   "Ponte 6a")
+   "Bridge 6a")
 (prc_bridge_6b
-   "Ponte 6b")
+   "Bridge 6b")
 (prc_bridge_6c
-   "Ponte 6c")
+   "Bridge 6c")
 (prc_bridge_6d
-   "Ponte 6d")
+   "Bridge 6d")
 (prc_bridge_7
-   "Ponte 7")
+   "Bridge 7")
 (prc_bridge_7a
-   "Ponte 7a")
+   "Bridge 7a")
 (prc_bridge_7b
-   "Ponte 7b")
+   "Bridge 7b")
 (prc_bridge_7c
-   "Ponte 7c")
+   "Bridge 7c")
 (prc_bridge_7d
-   "Ponte 7d")
+   "Bridge 7d")
 (prc_bridge_8
-   "Ponte 8")
+   "Bridge 8")
 (prc_bridge_8a
-   "Ponte 8a")
+   "Bridge 8a")
 (prc_bridge_8b
-   "Ponte 8b")
+   "Bridge 8b")
 (prc_bridge_8c
-   "Ponte 8c")
+   "Bridge 8c")
 (prc_bridge_8d
-   "Ponte 8d")
+   "Bridge 8d")
 (prc_bridge_9
-   "Ponte 9")
+   "Bridge 9")
 (prc_bridge_9a
-   "Ponte 9a")
+   "Bridge 9a")
 (prc_bridge_9b
-   "Ponte 9b")
+   "Bridge 9b")
 (prc_bridge_9c
-   "Ponte 9c")
+   "Bridge 9c")
 (prc_bridge_9d
-   "Ponte 9d")
+   "Bridge 9d")
 (prc_bridge_a
-   "Ponte a")
+   "Bridge a")
 (prc_bridge_b
-   "Ponte b")
+   "Bridge b")
 (prc_bridge_c
-   "Ponte c")
+   "Bridge c")
 (prc_bridge_d
-   "Ponte d")
+   "Bridge d")
 (prc_build_up
-   "Ascensão")
+   "Build up")
 (prc_build_up_1
-   "Ascensão 1")
+   "Build up 1")
 (prc_build_up_1a
-   "Ascensão 1a")
+   "Build up 1a")
 (prc_build_up_1b
-   "Ascensão 1b")
+   "Build up 1b")
 (prc_build_up_1c
-   "Ascensão 1c")
+   "Build up 1c")
 (prc_build_up_1d
-   "Ascensão 1d")
+   "Build up 1d")
 (prc_build_up_2
-   "Ascensão 2")
+   "Build up 2")
 (prc_build_up_2a
-   "Ascensão 2a")
+   "Build up 2a")
 (prc_build_up_2b
-   "Ascensão 2b")
+   "Build up 2b")
 (prc_build_up_2c
-   "Ascensão 2c")
+   "Build up 2c")
 (prc_build_up_2d
-   "Ascensão 2d")
+   "Build up 2d")
 (prc_build_up_3
-   "Ascensão 3")
+   "Build up 3")
 (prc_build_up_3a
-   "Ascensão 3a")
+   "Build up 3a")
 (prc_build_up_3b
-   "Ascensão 3b")
+   "Build up 3b")
 (prc_build_up_3c
-   "Ascensão 3c")
+   "Build up 3c")
 (prc_build_up_3d
-   "Ascensão 3d")
+   "Build up 3d")
 (prc_build_up_4
-   "Ascensão 4")
+   "Build up 4")
 (prc_build_up_4a
-   "Ascensão 4a")
+   "Build up 4a")
 (prc_build_up_4b
-   "Ascensão 4b")
+   "Build up 4b")
 (prc_build_up_4c
-   "Ascensão 4c")
+   "Build up 4c")
 (prc_build_up_4d
-   "Ascensão 4d")
+   "Build up 4d")
 (prc_build_up_a
-   "Ascensão a")
+   "Build up a")
 (prc_build_up_b
-   "Ascensão b")
+   "Build up b")
 (prc_build_up_c
-   "Ascensão c")
+   "Build up c")
 (prc_build_up_d
-   "Ascensão d")
+   "Build up d")
 (prc_c
-   "Sessão C")
+   "C section")
 (prc_c1
-   "Sessão C1")
+   "C section 1")
 (prc_c2
-   "Sessão C2")
+   "C section 2")
 (prc_c3
-   "Sessão C3")
+   "C section 3")
 (prc_c4
-   "Sessão C4")
+   "C section 4")
 (prc_c5
-   "Sessão C5")
+   "C section 5")
 (prc_c6
-   "Sessão C6")
+   "C section 6")
 (prc_c7
-   "Sessão C7")
+   "C section 7")
 (prc_c8
-   "Sessão C8")
+   "C section 8")
 (prc_c9
-   "Sessão C9")
+   "C section 9")
 (prc_chant
-   "Coro")
+   "Chant")
 (prc_chant_1
-   "Coro 1")
+   "Chant 1")
 (prc_chant_1a
-   "Coro 1a")
+   "Chant 1a")
 (prc_chant_1b
-   "Coro 1b")
+   "Chant 1b")
 (prc_chant_1c
-   "Coro 1c")
+   "Chant 1c")
 (prc_chant_1d
-   "Coro 1d")
+   "Chant 1d")
 (prc_chant_2
-   "Coro 2")
+   "Chant 2")
 (prc_chant_2a
-   "Coro 2a")
+   "Chant 2a")
 (prc_chant_2b
-   "Coro 2b")
+   "Chant 2b")
 (prc_chant_2c
-   "Coro 2c")
+   "Chant 2c")
 (prc_chant_2d
-   "Coro 2d")
+   "Chant 2d")
 (prc_chant_3
-   "Coro 3")
+   "Chant 3")
 (prc_chant_3a
-   "Coro 3a")
+   "Chant 3a")
 (prc_chant_3b
-   "Coro 3b")
+   "Chant 3b")
 (prc_chant_3c
-   "Coro 3c")
+   "Chant 3c")
 (prc_chant_3d
-   "Coro 3d")
+   "Chant 3d")
 (prc_chant_4
-   "Coro 4")
+   "Chant 4")
 (prc_chant_4a
-   "Coro 4a")
+   "Chant 4a")
 (prc_chant_4b
-   "Coro 4b")
+   "Chant 4b")
 (prc_chant_4c
-   "Coro 4c")
+   "Chant 4c")
 (prc_chant_4d
-   "Coro 4d")
+   "Chant 4d")
 (prc_chant_a
-   "Coro a")
+   "Chant a")
 (prc_chant_b
-   "Coro b")
+   "Chant b")
 (prc_chant_c
-   "Coro c")
+   "Chant c")
 (prc_chant_d
-   "Coro d")
+   "Chant d")
 (prc_chorus
-   "Refrão")
+   "Chorus")
 (prc_chorus_1
-   "Refrão 1")
+   "Chorus 1")
 (prc_chorus_1a
-   "Refrão 1a")
+   "Chorus 1a")
 (prc_chorus_1b
-   "Refrão 1b")
+   "Chorus 1b")
 (prc_chorus_1c
-   "Refrão 1c")
+   "Chorus 1c")
 (prc_chorus_1d
-   "Refrão 1d")
+   "Chorus 1d")
 (prc_chorus_2
-   "Refrão 2")
+   "Chorus 2")
 (prc_chorus_2a
-   "Refrão 2a")
+   "Chorus 2a")
 (prc_chorus_2b
-   "Refrão 2b")
+   "Chorus 2b")
 (prc_chorus_2c
-   "Refrão 2c")
+   "Chorus 2c")
 (prc_chorus_2d
-   "Refrão 2d")
+   "Chorus 2d")
 (prc_chorus_3
-   "Refrão 3")
+   "Chorus 3")
 (prc_chorus_3a
-   "Refrão 3a")
+   "Chorus 3a")
 (prc_chorus_3b
-   "Refrão 3b")
+   "Chorus 3b")
 (prc_chorus_3c
-   "Refrão 3c")
+   "Chorus 3c")
 (prc_chorus_3d
-   "Refrão 3d")
+   "Chorus 3d")
 (prc_chorus_4
-   "Refrão 4")
+   "Chorus 4")
 (prc_chorus_4a
-   "Refrão 4a")
+   "Chorus 4a")
 (prc_chorus_4b
-   "Refrão 4b")
+   "Chorus 4b")
 (prc_chorus_4c
-   "Refrão 4c")
+   "Chorus 4c")
 (prc_chorus_4d
-   "Refrão 4d")
+   "Chorus 4d")
 (prc_chorus_5
-   "Refrão 5")
+   "Chorus 5")
 (prc_chorus_5a
-   "Refrão 5a")
+   "Chorus 5a")
 (prc_chorus_5b
-   "Refrão 5b")
+   "Chorus 5b")
 (prc_chorus_5c
-   "Refrão 5c")
+   "Chorus 5c")
 (prc_chorus_5d
-   "Refrão 5d")
+   "Chorus 5d")
 (prc_chorus_6
-   "Refrão 6")
+   "Chorus 6")
 (prc_chorus_6a
-   "Refrão 6a")
+   "Chorus 6a")
 (prc_chorus_6b
-   "Refrão 6b")
+   "Chorus 6b")
 (prc_chorus_6c
-   "Refrão 6c")
+   "Chorus 6c")
 (prc_chorus_6d
-   "Refrão 6d")
+   "Chorus 6d")
 (prc_chorus_7
-   "Refrão 7")
+   "Chorus 7")
 (prc_chorus_7a
-   "Refrão 7a")
+   "Chorus 7a")
 (prc_chorus_7b
-   "Refrão 7b")
+   "Chorus 7b")
 (prc_chorus_7c
-   "Refrão 7c")
+   "Chorus 7c")
 (prc_chorus_7d
-   "Refrão 7d")
+   "Chorus 7d")
 (prc_chorus_8
-   "Refrão 8")
+   "Chorus 8")
 (prc_chorus_8a
-   "Refrão 8a")
+   "Chorus 8a")
 (prc_chorus_8b
-   "Refrão 8b")
+   "Chorus 8b")
 (prc_chorus_8c
-   "Refrão 8c")
+   "Chorus 8c")
 (prc_chorus_8d
-   "Refrão 8d")
+   "Chorus 8d")
 (prc_chorus_9
-   "Refrão 9")
+   "Chorus 9")
 (prc_chorus_9a
-   "Refrão 9a")
+   "Chorus 9a")
 (prc_chorus_9b
-   "Refrão 9b")
+   "Chorus 9b")
 (prc_chorus_9c
-   "Refrão 9c")
+   "Chorus 9c")
 (prc_chorus_9d
-   "Refrão 9d")
+   "Chorus 9d")
 (prc_chorus_a
-   "Refrão a")
+   "Chorus a")
 (prc_chorus_b
-   "Refrão b")
+   "Chorus b")
 (prc_chorus_break
-   "Pausa do Refrão")
+   "Chorus break")
 (prc_chorus_break_a
-   "Pausa do Refrão a")
+   "Chorus break a")
 (prc_chorus_break_b
-   "Pausa do Refrão b")
+   "Chorus break b")
 (prc_chorus_break_c
-   "Pausa do Refrão c")
+   "Chorus break c")
 (prc_chorus_break_d
-   "Pausa do Refrão d")
+   "Chorus break d")
 (prc_chorus_c
-   "Refrão c")
+   "Chorus c")
 (prc_chorus_d
-   "Refrão d")
+   "Chorus d")
 (prc_chorus_riff
-   "Riff do Refrão")
+   "Chorus riff")
 (prc_chorus_riff_1
-   "Riff do Refrão 1")
+   "Chorus riff 1")
 (prc_chorus_riff_1a
-   "Riff do Refrão 1a")
+   "Chorus riff 1a")
 (prc_chorus_riff_1b
-   "Riff do Refrão 1b")
+   "Chorus riff 1b")
 (prc_chorus_riff_1c
-   "Riff do Refrão 1c")
+   "Chorus riff 1c")
 (prc_chorus_riff_1d
-   "Riff do Refrão 1d")
+   "Chorus riff 1d")
 (prc_chorus_riff_2
-   "Riff do Refrão 2")
+   "Chorus riff 2")
 (prc_chorus_riff_2a
-   "Riff do Refrão 2a")
+   "Chorus riff 2a")
 (prc_chorus_riff_2b
-   "Riff do Refrão 2b")
+   "Chorus riff 2b")
 (prc_chorus_riff_2c
-   "Riff do Refrão 2c")
+   "Chorus riff 2c")
 (prc_chorus_riff_2d
-   "Riff do Refrão 2d")
+   "Chorus riff 2d")
 (prc_chorus_riff_3
-   "Riff do Refrão 3")
+   "Chorus riff 3")
 (prc_chorus_riff_3a
-   "Riff do Refrão 3a")
+   "Chorus riff 3a")
 (prc_chorus_riff_3b
-   "Riff do Refrão 3b")
+   "Chorus riff 3b")
 (prc_chorus_riff_3c
-   "Riff do Refrão 3c")
+   "Chorus riff 3c")
 (prc_chorus_riff_3d
-   "Riff do Refrão 3d")
+   "Chorus riff 3d")
 (prc_chorus_riff_4
-   "Riff do Refrão 4")
+   "Chorus riff 4")
 (prc_chorus_riff_4a
-   "Riff do Refrão 4a")
+   "Chorus riff 4a")
 (prc_chorus_riff_4b
-   "Riff do Refrão 4b")
+   "Chorus riff 4b")
 (prc_chorus_riff_4c
-   "Riff do Refrão 4c")
+   "Chorus riff 4c")
 (prc_chorus_riff_4d
-   "Riff do Refrão 4d")
+   "Chorus riff 4d")
 (prc_chorus_riff_a
-   "Riff do Refrão a")
+   "Chorus riff a")
 (prc_chorus_riff_b
-   "Riff do Refrão b")
+   "Chorus riff b")
 (prc_chorus_riff_c
-   "Riff do Refrão c")
+   "Chorus riff c")
 (prc_chorus_riff_d
-   "Riff do Refrão d")
+   "Chorus riff d")
 (prc_chunky_riff
    "Chunky riff")
 (prc_chunky_riff_1
@@ -17197,23 +17197,23 @@
 (prc_d
    "D section")
 (prc_d1
-   "Sessão D1")
+   "D section 1")
 (prc_d2
-   "Sessão D2")
+   "D section 2")
 (prc_d3
-   "Sessão D3")
+   "D section 3")
 (prc_d4
-   "Sessão D4")
+   "D section 4")
 (prc_d5
-   "Sessão D5")
+   "D section 5")
 (prc_d6
-   "Sessão D6")
+   "D section 6")
 (prc_d7
-   "Sessão D7")
+   "D section 7")
 (prc_d8
-   "Sessão D8")
+   "D section 8")
 (prc_d9
-   "Sessão D9")
+   "D section 9")
 (prc_dj_break
    "DJ break")
 (prc_dj_intro_a
@@ -19883,125 +19883,125 @@
 (prc_piano_solo_d
    "Piano solo d")
 (prc_postchorus
-   "Pós-Refrão")
+   "Post-chorus")
 (prc_postchorus_1
-   "Pós-Refrão 1")
+   "Post-chorus 1")
 (prc_postchorus_1a
-   "Pós-Refrão 1a")
+   "Post-chorus 1a")
 (prc_postchorus_1b
-   "Pós-Refrão 1b")
+   "Post-chorus 1b")
 (prc_postchorus_1c
-   "Pós-Refrão 1c")
+   "Post-chorus 1c")
 (prc_postchorus_1d
-   "Pós-Refrão 1d")
+   "Post-chorus 1d")
 (prc_postchorus_2
-   "Pós-Refrão 2")
+   "Post-chorus 2")
 (prc_postchorus_2a
-   "Pós-Refrão 2a")
+   "Post-chorus 2a")
 (prc_postchorus_2b
-   "Pós-Refrão 2b")
+   "Post-chorus 2b")
 (prc_postchorus_2c
-   "Pós-Refrão 2c")
+   "Post-chorus 2c")
 (prc_postchorus_2d
-   "Pós-Refrão 2d")
+   "Post-chorus 2d")
 (prc_postchorus_3
-   "Pós-Refrão 3")
+   "Post-chorus 3")
 (prc_postchorus_3a
-   "Pós-Refrão 3a")
+   "Post-chorus 3a")
 (prc_postchorus_3b
-   "Pós-Refrão 3b")
+   "Post-chorus 3b")
 (prc_postchorus_3c
-   "Pós-Refrão 3c")
+   "Post-chorus 3c")
 (prc_postchorus_3d
-   "Pós-Refrão 3d")
+   "Post-chorus 3d")
 (prc_postchorus_4
-   "Pós-Refrão 4")
+   "Post-chorus 4")
 (prc_postchorus_4a
-   "Pós-Refrão 4a")
+   "Post-chorus 4a")
 (prc_postchorus_4b
-   "Pós-Refrão 4b")
+   "Post-chorus 4b")
 (prc_postchorus_4c
-   "Pós-Refrão 4c")
+   "Post-chorus 4c")
 (prc_postchorus_4d
-   "Pós-Refrão 4d")
+   "Post-chorus 4d")
 (prc_postchorus_5
-   "Pós-Refrão 5")
+   "Post-chorus 5")
 (prc_postchorus_5a
-   "Pós-Refrão 5a")
+   "Post-chorus 5a")
 (prc_postchorus_5b
-   "Pós-Refrão 5b")
+   "Post-chorus 5b")
 (prc_postchorus_5c
-   "Pós-Refrão 5c")
+   "Post-chorus 5c")
 (prc_postchorus_5d
-   "Pós-Refrão 5d")
+   "Post-chorus 5d")
 (prc_postchorus_a
-   "Pós-Refrão a")
+   "Post-chorus a")
 (prc_postchorus_b
-   "Pós-Refrão b")
+   "Post-chorus b")
 (prc_postchorus_c
-   "Pós-Refrão c")
+   "Post-chorus c")
 (prc_postchorus_d
-   "Pós-Refrão d")
+   "Post-chorus d")
 (prc_postverse
-   "Pós-Verso")
+   "Post-verse")
 (prc_postverse_1
-   "Pós-Verso 1")
+   "Post-verse 1")
 (prc_postverse_1a
-   "Pós-Verso 1a")
+   "Post-verse 1a")
 (prc_postverse_1b
-   "Pós-Verso 1b")
+   "Post-verse 1b")
 (prc_postverse_1c
-   "Pós-Verso 1c")
+   "Post-verse 1c")
 (prc_postverse_1d
-   "Pós-Verso 1d")
+   "Post-verse 1d")
 (prc_postverse_2
-   "Pós-Verso 2")
+   "Post-verse 2")
 (prc_postverse_2a
-   "Pós-Verso 2a")
+   "Post-verse 2a")
 (prc_postverse_2b
-   "Pós-Verso 2b")
+   "Post-verse 2b")
 (prc_postverse_2c
-   "Pós-Verso 2c")
+   "Post-verse 2c")
 (prc_postverse_2d
-   "Pós-Verso 2d")
+   "Post-verse 2d")
 (prc_postverse_3
-   "Pós-Verso 3")
+   "Post-verse 3")
 (prc_postverse_3a
-   "Pós-Verso 3a")
+   "Post-verse 3a")
 (prc_postverse_3b
-   "Pós-Verso 3b")
+   "Post-verse 3b")
 (prc_postverse_3c
-   "Pós-Verso 3c")
+   "Post-verse 3c")
 (prc_postverse_3d
-   "Pós-Verso 3d")
+   "Post-verse 3d")
 (prc_postverse_4
-   "Pós-Verso 4")
+   "Post-verse 4")
 (prc_postverse_4a
-   "Pós-Verso 4a")
+   "Post-verse 4a")
 (prc_postverse_4b
-   "Pós-Verso 4b")
+   "Post-verse 4b")
 (prc_postverse_4c
-   "Pós-Verso 4c")
+   "Post-verse 4c")
 (prc_postverse_4d
-   "Pós-Verso 4d")
+   "Post-verse 4d")
 (prc_postverse_5
-   "Pós-Verso 5")
+   "Post-verse 5")
 (prc_postverse_5a
-   "Pós-Verso 5a")
+   "Post-verse 5a")
 (prc_postverse_5b
-   "Pós-Verso 5b")
+   "Post-verse 5b")
 (prc_postverse_5c
-   "Pós-Verso 5c")
+   "Post-verse 5c")
 (prc_postverse_5d
-   "Pós-Verso 5d")
+   "Post-verse 5d")
 (prc_postverse_a
-   "Pós-Verso a")
+   "Post-verse a")
 (prc_postverse_b
-   "Pós-Verso b")
+   "Post-verse b")
 (prc_postverse_c
-   "Pós-Verso c")
+   "Post-verse c")
 (prc_postverse_d
-   "Pós-Verso d")
+   "Post-verse d")
 (prc_prayer
    "Prayer")
 (prc_prayer_1
@@ -21487,7 +21487,7 @@
 (pro_drum_lessons
    "Pro Drum Lessons")
 (pro_guitar
-   "Guitarra PRO")
+   "Pro Guitar")
 (pro_guitar_lessons
    "Learn Pro Guitar")
 (pro_guitar_songs
@@ -21733,15 +21733,15 @@
 (rbsoulfunk
    "R&B/Soul/Funk")
 (real_bass
-   "Baixo PRO")
+   "Pro Bass")
 (real_drum
-   "Bateria PRO")
+   "Pro Drums")
 (real_guitar
-   "Guitarra PRO")
+   "Pro Guitar")
 (real_guitar_pad_lost
    "pro guitar controller")
 (real_keys
-   "Teclado PRO")
+   "Pro Keys")
 (recently_acquired
    "Newly Acquired")
 (recordlabelfirstname_1
@@ -23571,9 +23571,9 @@
 (studdedshoe_leather_desc
    "Even if you're not listed in the playbill, the spotlight will still be on you in these studded booties.")
 (st_harmony
-   "Harmonia")
+   "Harmonies")
 (st_vocals
-   "Vocal Solo")
+   "Vocals")
 (subgenre_acapella
    "A capella")
 (subgenre_acidjazz
@@ -24733,7 +24733,7 @@
 (tour_hub_customizechar
    "Customize Character")
 (tour_hub_quickplay_button
-   "Biblioteca de Música")
+   "Music Library")
 (tour_hub_shop_button
    "Customize")
 (tour_hub_tour_button
@@ -25519,7 +25519,7 @@
 (trainer_drums
    "<alt>D</alt> DRUMS")
 (trainer_gemprev_finish
-   "Concluir")
+   "Finish")
 (trainer_gemprev_start
    "Start")
 (trainer_gemprev_timeline
@@ -27345,7 +27345,7 @@
 (vneck_cotton_desc
    "Comfortable and flattering while sending the message that you most definitely did NOT get arrested for stealing your old boss's car and filling it with mini marshmallows.")
 (vocals
-   "vocal solo")
+   "vocals")
 (vocalstyle_scrolling
    "Scrolling")
 (vocalstyle_static
