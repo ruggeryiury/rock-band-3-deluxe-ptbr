@@ -1,6 +1,5 @@
 ; Estas linhas irão popular os textos com a linguagem original do jogo para textos que não foram traduzidos
 #include ../../../dx/locale/dx_locale_updates.dta
-;#include dx_locale_updates_assets.dta
 (token_redemption_error
    "Desculpe, ocorreu um erro durante o resgate do token.  Por favor, tente novamente mais tarde.")
 #ifdef HX_PS3
@@ -169,7 +168,7 @@
 (ugc_not_allowed_in_trainers
    "O Modo Treino não está disponível para músicas com formato RBN")
 (bad_review_showing
-   "Mostrar Músicas com Críticas Ruins")
+   "Músicas com Críticas Ruins")
    
 ; Adicionais com a tradução
 ; Sources
@@ -178,13 +177,26 @@
 
 ; Gêneros
 (axe "Axé")
+(subgenre_axe "Axé")
 (bossanova "Bossa Nova")
+(subgenre_bossanova "Bossa Nova")
 (bregatechnobrega "Brega/Techno Brega")
+(subgenre_bregatechnobrega "Brega/Techno Brega")
 (forro "Forró")
+(subgenre_forro "Forró")
 (funkbr "Funk Brasileiro")
+(subgenre_funkbr "Funk Brasileiro")
+(subgenre_funkmelody "Funk Melody")
 (gospel "Gospel")
+(subgenre_gospel "Gospel")
 (mpb "MPB")
+(subgenre_mpb "MPB")
 (pagode "Pagode")
+(subgenre_pagode "Pagode")
 (samba "Samba")
+(subgenre_samba "Samba")
 (sertanejo "Sertanejo")
+(subgenre_sertanejo "Sertanejo")
 (sertanejo_u "Sertanejo Universitário")
+(subgenre_sertanejo_u "Sertanejo Universitário")
+#include dx_locale_updates.dta

@@ -161,7 +161,7 @@
 (acc_3starprobass_desc
    "Conquiste pelo menos 3 <alt>*</alt> em qualquer música no Baixo PRO.")
 (acc_3starproguitar
-   "3 <alt>*</alt> Guitar PRO")
+   "3 <alt>*</alt> Guitarra PRO")
 (acc_3starproguitar_desc
    "Conquiste pelo menos 3 <alt>*</alt> em qualquer música na Guitarra PRO.")
 (acc_4starvocals
@@ -637,7 +637,7 @@
 (acc_cat_country
    "Country Track Pack")
 (acc_cat_drums
-   "Drums")
+   "Bateria")
 (acc_cat_drums1
    "Easy Song Progress")
 (acc_cat_drums2
@@ -2141,7 +2141,7 @@
 (acc_grp_bass
    "Bass")
 (acc_grp_drums
-   "Drums")
+   "Bateria")
 (acc_grp_guitar
    "Guitar")
 (acc_grp_harmonyvox
@@ -4379,7 +4379,7 @@
 (alexjacket_leather_desc
    "Everyone will swoon at your fashion sense, and your enormous bankroll, in this \qcorporate badboy\q style.")
 (all
-   "All Songs")
+   "Todas as Músicas")
 (all_albums
    "Albums")
 (all_artists
@@ -4481,7 +4481,7 @@
 (audio_latency_heading
    "Adjust Audio/Video Sync")
 (audio_latency_heading_generic
-   "Calibrate System")
+   "Calibrar Sistema")
 #ifdef HX_PS3
 (audio_latency_instructions
    "Press the right button to move the target all the way to the right.  Note on the screen where you hear the click.  Then press the left button and right button to align the target with the click. When ready, hit OK to continue.")
@@ -4979,7 +4979,7 @@
 (band_info_title
    "Band Info")
 (band_info_total_score
-   "Total Score: %s")
+   "Pontuação Total: %s")
 (band_info_view_roster
    "View/Edit Roster")
 (band_info_view_stats
@@ -4993,7 +4993,7 @@
 (band_multiplier_value_x
    "x")
 (band_practice
-   "Practice")
+   "Praticar")
 (band_profile_career_score
    "%s Career Score")
 (band_profile_confirm_demote
@@ -5805,7 +5805,7 @@
 (buy_more_songs
    "(Buy More Music)")
 (buy_more_songs_by_line
-   "Add more music to the Music Library")
+   "Adicione mais músicas à sua Biblioteca de Músicas")
 (buzzsawpads_wrecked
    "Lawless Pauldrons")
 (buzzsawpads_wrecked_desc
@@ -5843,7 +5843,7 @@
 (c20bass_desc
    "Trying to shake the paint off your mom's station wagon? This solid bass, with its Indian cedro body and rosewood fingerboard, will get the job done.")
 (calibrate_av_button
-   "CALIBRATE SYSTEM")
+   "CALIBRAR SISTEMA")
 (calibrate_av_offset
    "A/V Sync Offset: %3.0f ms")
 (calibrate_go
@@ -5861,11 +5861,11 @@
 (calibration
    "calibration settings")
 (calibration_calibrate
-   "Calibrate System")
+   "Calibrar Sistema")
 (calibration_countdown_go
    "Calibration Go!")
 (calibration_finished
-   "Congratulations, your TV is now calibrated to play Rock Band 3! Come back at any time if you feel like your playing is out of sync with the TV.")
+   "Parabéns! Sua TV está calibrada para jogar Rock Band 3! Você pode voltar neste menu a qualquer momento quando você sentir que sua jogada está fora de sincronização com sua TV.")
 (calibration_msg
    "Want to Calibrate your system? Calibrating ensures that what you see and hear line up with what you're playing. This is especially important if you have an HDTV system or complicated stereo setup.")
 (calibration_notice
@@ -5915,7 +5915,7 @@
 (cal_audio_title
    "Audio Calibration")
 (cal_auto
-   "Calibrate Automatically")
+   "Calibrar Automaticamente")
 (cal_complete_text
    "Congratulations, your TV is now calibrated to play Rock Band 3! Come back at any time if you feel like your playing is out of sync with the TV.")
 (cal_complete_title
@@ -5931,7 +5931,7 @@
 (cal_hw_video_title
    "Autocalibration")
 (cal_manual
-   "Calibrate Manually")
+   "Calibrar Manualmente")
 (cal_manualaudio_title
    "Manually Calibrate Audio")
 (cal_manualvideo_title
@@ -5939,26 +5939,26 @@
 (cal_manual_offset
    "Current Offset: %d MS")
 (cal_need_calbert
-   "To continue with Automatic Calibration, you must use a controller with an automatic calibration device.")
+   "Para continuar com a Calibração Automática, você deve utilizar um controle com um dispositivo de calibragem automática.")
 (cal_numbers
-   "Enter Calibration Numbers")
+   "Colocar os Números de Calibragem")
 (cal_test_settings
    "Test these settings?")
 (cal_to_auto_all
-   "Calibrate Automatically")
+   "Calibrar Automaticamente")
 (cal_to_manual_all
-   "Calibrate Manually")
+   "Calibrar Manualmente")
 (cal_to_manual_audio
    "Set Lag Manually")
 (cal_to_manual_video
    "Set Lag Manually")
 #ifdef HX_XBOX
 (cal_video_desc
-   "This test determines the amount of Video Latency in your system. When you see the needle hit either side of the meter, either strum or press the A button.")
+   "Este teste determinará a quantidade de Latência do Vídeo no seu sistema. Quando você ver a agulha encostar em cada lado do medidor, palhete a guitarra ou pressione o botão A.")
 #endif
 #ifdef HX_PC
 (cal_video_desc
-   "This test determines the amount of Video Latency in your system. When you see the needle hit either side of the meter, either strum or press the A button.")
+   "Este teste determinará a quantidade de Latência do Vídeo no seu sistema. Quando você ver a agulha encostar em cada lado do medidor, palhete a guitarra ou pressione o botão A.")
 #endif
 #ifdef HX_XBOX
 (cal_video_desc_calbert
@@ -5977,20 +5977,20 @@
    "Video calibration: Hold your controller up close to the TV, with the front of the controller facing the TV, then press the Green Fret or A to continue.")
 #endif
 (cal_video_desc_drum
-   "This test determines the amount of Video Latency in your system. When you see the needle hit either side of the meter, hit the green pad.")
+   "Este teste determinará a quantidade de Latência do Vídeo no seu sistema. Quando você ver a agulha encostar em cada lado do medidor, bata no pad verde.")
 (cal_video_desc_guitar
-   "This test determines the amount of Video Latency in your system. When you see the needle hit either side of the meter, strum.")
+   "Este teste determinará a quantidade de Latência do Vídeo no seu sistema. Quando você ver a agulha encostar em cada lado do medidor, palhete a guitarra.")
 #ifdef HX_PS3
 (cal_video_desc_pad
-   "This test determines the amount of Video Latency in your system. When you see the needle hit either side of the meter, press the X button.")
+   "Este teste determinará a quantidade de Latência do Vídeo no seu sistema. Quando você ver a agulha encostar em cada lado do medidor, palhete a guitarra ou pressione o botão X.")
 #endif
 #ifdef HX_XBOX
 (cal_video_desc_pad
-   "This test determines the amount of Video Latency in your system. When you see the needle hit either side of the meter, press the A button.")
+   "Este teste determinará a quantidade de Latência do Vídeo no seu sistema. Quando você ver a agulha encostar em cada lado do medidor, pressione o botão A.")
 #endif
 #ifdef HX_PC
 (cal_video_desc_pad
-   "This test determines the amount of Video Latency in your system. When you see the needle hit either side of the meter, press the A button.")
+   "Este teste determinará a quantidade de Latência do Vídeo no seu sistema. Quando você ver a agulha encostar em cada lado do medidor, pressione o botão A.")
 #endif
 (cal_video_fail_calbert
    "We couldn't get a reliable video reading. Please ensure that the guitar controller is held facing the center of the TV and try again. Video calibration works best in a dark room - turn the lights down or off for best results.")
@@ -6015,9 +6015,9 @@
 (cal_video_title
    "Video Calibration")
 (cal_welcome_text
-   "Do you have a fancy HDTV, or feel like the notes aren't matching up to the music when you're playing?\n\nOver the next few screens, you're going to calibrate your television, controller, and audio system to all be synchronized with each other.")
+   "Você tem uma TV bonita, porém maluca, ou você sentiu que as notas não estão sincronizadas com a música que você está tocando?\n\nNas próximas telas, você vai calibrar sua TV, seu controle, e o sistema de áudio para tudo ficar sincronizado.")
 (cal_welcome_title
-   "Calibrate System")
+   "Calibrar Sistema")
 (camopants_canvas
    "Guerilla Pantsfare")
 (camopants_canvas_desc
@@ -6175,7 +6175,7 @@
 (campaign_career_leaderboard
    "Rock Band 3 Rankings")
 (campaign_career_score
-   "Total Score: %s")
+   "Pontuação Total: %s")
 (campaign_category_details_help
    "Toggle Browse Details")
 (campaign_category_header
@@ -6263,9 +6263,9 @@
 (campaign_nextrank
    "Next Rank: %s")
 (campaign_songinfo_launch
-   "GO TO MUSIC LIBRARY")
+   "IR PARA A BIBLIOTECA DE MÚSICAS")
 (campaign_songprogress
-   "%i/%i Songs")
+   "%i/%i Músicas")
 (campaign_song_goal_header
    "%s: %i/%i")
 (campaign_viewgoal
@@ -6433,7 +6433,7 @@
 (change_camera_angle
    "CHANGE CAMERA")
 (change_difficulty
-   "change difficulty")
+   "mudar dificuldade")
 (change_edit_mode
    "SWITCH TO: %s")
 (change_filter
@@ -6773,7 +6773,7 @@
 (character_emptyname
    "Enter Name")
 (charcreator_appearence_return
-   "Return")
+   "Retornar")
 #ifdef HX_XBOX
 (charcreator_full_profile_fmt
    "Your gamer profile already owns the maximum of %d characters. If you want this gamer profile to own a new character, you'll have to first delete an old one.")
@@ -6875,13 +6875,13 @@
 (choose_city
    "Choose City")
 (choose_difficulty
-   "Choose Difficulty")
+   "Escolher Dificuldade")
 (choose_exit
    "Exit to Main Menu")
 (choose_setlist
-   "Play a Setlist")
+   "Tocar um Repertório")
 (choose_song
-   "Choose Song")
+   "Escolher Música")
 (choose_venue
    "Choose Venue")
 (choosing
@@ -7123,7 +7123,7 @@
    "Are you sure you want to forfeit?  If you leave, this match will be recorded as a loss, and your opponent will have the option to record negative feedback against you.")
 #endif
 (confirm_quit
-   "You will lose all unsaved progress if you continue. Are you sure you want to continue?")
+   "Você irá perder qualquer progresso não salvo se continuar. Você tem certeza que quer continuar?")
 (confirm_quit_online
    "You will leave this session and lose all unsaved progress if you continue. Are you sure you want to continue?")
 (confirm_randomize_face
@@ -7159,7 +7159,7 @@
    "This song is disabled due to parental control restrictions on your Xbox 360 console. You are not allowed to access this song.")
 #endif
 (continue
-   "CONTINUE")
+   "CONTINUAR")
 (controller
    "Controller")
 (controller_loss
@@ -7247,7 +7247,7 @@
 (create_battle_success
    "Your battle was successfully created and sent to your friends list.  You can play the battle or check its leaderboard at any time from the Setlist Browser.")
 (create_character
-   "Create Character")
+   "Criar Personagem")
 (create_character_must_signin
    "You must sign into a gamer profile to create a character.")
 (create_char_attitude
@@ -7319,7 +7319,7 @@
 (create_setlist_success
    "Your setlist was successfully saved.  You can play it at any time from the Setlist Browser.")
 (credits
-   "credits")
+   "créditos")
 (credits_pause_skip
    "SKIP")
 (creepersneakers_plaid
@@ -7367,7 +7367,7 @@
 (current_band
    "Current Band: %s")
 (current_lag_setting
-   "Current delay is %d ms")
+   "O atraso atual é de %d ms")
 (customize_accessories
    "Accessories")
 (customize_add_art
@@ -7383,7 +7383,7 @@
 (customize_by_body_part
    "By Body Part")
 (customize_character
-   "Customize Character")
+   "Personalizar Personagem")
 (customize_clothing
    "Clothing")
 (customize_clothing_by_body_part
@@ -7399,7 +7399,7 @@
 (customize_customizable
    "Customizable")
 (customize_drums
-   "Drums")
+   "Bateria")
 (customize_earrings
    "Earrings")
 (customize_error_downloading
@@ -7491,7 +7491,7 @@
 (customleatherjacket_old_desc
    "You got a guitar. You learned to make it talk. Slip on this jacket if you're ready for the long walk.")
 (customzize_band
-   "Customize Band")
+   "Personalizar Banda")
 (cutoffjeanjacket_denim
    "DIY Vest")
 (cutoffjeanjacket_denim_desc
@@ -7581,7 +7581,7 @@
 (delete_setlist
    "Delete Setlist")
 (delete_song
-   "Delete Song")
+   "Deletar Música")
 (delete_song_cancel
    "Cancel Deletion")
 (delete_song_confirm
@@ -7669,7 +7669,7 @@
 (destroyedchucks_var2_desc
    "Dornholes have always been known for their classic street style. This pair features some contemporary artwork.")
 (details
-   "VIEW MORE INFO")
+   "VER MAIS INFORMAÇÕES")
 (diamond
    "Diamond Pearl")
 (did_plug_in_calbert
@@ -7677,7 +7677,7 @@
 (difficulty
    "Difficulty")
 (difficulty_medium
-   "MEDIUM")
+   "MÉDIO")
 (dinky01
    "Jackson<sup>TM</sup> DK1 Dinky<sup>TM</sup>")
 (dinky01_desc
@@ -7803,7 +7803,7 @@
 (drum_category_medium
    "Intermediate Lessons")
 (drum_freestyle_wrong_controller
-   "You can only play Drum Freestyle with a Drum Controller.")
+   "Você só pode entrar no modo Freestyle de Bateria com uma bateria como controle.")
 (drum_hard_beats
    "Hard Beats")
 (drum_hard_fills
@@ -8197,7 +8197,7 @@
 (e935_resource_desc
    "Sennheiser created the e 935 microphone to ensure your vocals cut through the mix with authority. With its sleek black handle and gunmetal grey basket, this microphone is almost as sexy as you are.")
 (easy
-   "EASY")
+   "FÁCIL")
 (easy_short
    "E")
 (edit_art
@@ -8271,7 +8271,7 @@
 (emo
    "Emo")
 (enable_popup_help
-   "Beginner Tutorials")
+   "Tutoriais p/ Iniciantes")
 (endgame_avg_multiplier
    "%sx Avg. Multiplier")
 #ifdef HX_PS3
@@ -8287,7 +8287,7 @@
    "VIEW GAMER CARD")
 #endif
 (endgame_hb_finishsong
-   "Continue")
+   "Continuar")
 (endgame_hb_leave_session
    "Leave Session")
 (endgame_hit_count
@@ -10279,13 +10279,13 @@
 (femrockvest_leather_desc
    "This vest looks best when back-lit by massive pyrotechnic displays while you stand on a floating riser shaped like the Statue of Liberty.")
 (filters
-   "Filters")
+   "Filtros")
 (filter_3vocalparts
-   "3-Part Harmony")
+   "Harmonia (3 partes)")
 (filter_alphabetic_band
-   "by band")
+   "pela banda")
 (filter_alphabetic_song
-   "by song")
+   "pelo nome da música")
 (filter_alternative
    "Alternative")
 (filter_any
@@ -10293,23 +10293,23 @@
 (filter_blues
    "Blues")
 (filter_classical
-   "Classical")
+   "Música Clássica")
 (filter_classicrock
-   "Classic Rock")
+   "Rock Clássico")
 (filter_country
    "Country")
 (filter_decade
-   "by decade")
+   "por décadas")
 (filter_difficulty
-   "by difficulty")
+   "por dificuldade")
 (filter_dlc
-   "Downloaded Songs")
+   "Músicas Baixadas")
 (filter_emo
    "Emo")
 (filter_fmt
-   "SHOWING:")
+   "MOSTRANDO:")
 (filter_friends
-   "friends")
+   "amigos")
 (filter_fusion
    "Fusion")
 (filter_gamer
@@ -10329,35 +10329,35 @@
 (filter_jrock
    "J-Rock")
 (filter_latin
-   "Latin")
+   "Latina")
 (filter_lego
    "LEGO Rock Band")
 (filter_local
-   "local players")
+   "jogadores locais")
 (filter_longsongs
-   "Long Song")
+   "Música Longa")
 (filter_metal
    "Metal")
 (filter_new_wave
    "New Wave")
 (filter_none
-   "All")
+   "Todas as Músicas")
 (filter_novelty
-   "Novelty")
+   "Novidade")
 (filter_numetal
    "Nu-Metal")
 (filter_other
-   "Other")
+   "Outros")
 (filter_pop
    "Pop")
 (filter_popdanceelectronic
-   "Pop/Dance/Electronic")
+   "Pop/Dance/Electrônica")
 (filter_prog
-   "Prog")
+   "Progressivo")
 (filter_punk
    "Punk")
 (filter_rank
-   "all players")
+   "todos os jogadores")
 (filter_rb1
    "RB1")
 (filter_rb2
@@ -10369,25 +10369,25 @@
 (filter_rock
    "Rock")
 (filter_setting_decades
-   "Decades")
+   "Décadas")
 (filter_setting_difficulties
-   "Song Difficulties")
+   "Dificuldades das Músicas")
 (filter_setting_genres
-   "Genres")
+   "Gêneros Musicais")
 (filter_setting_keys
-   "Keys Support")
+   "Suporte ao Teclado")
 (filter_setting_lengths
-   "Song Lengths")
+   "Duração das Músicas")
 (filter_setting_pro_guitar
-   "Pro Guitar/Bass Support")
+   "Suporte à Guitarra/Baixo PRO")
 (filter_setting_ratings
    "Song Ratings")
 (filter_setting_sources
-   "Song Source")
+   "Source da Música")
 (filter_setting_vocal_parts
-   "Number Of Vocal Parts")
+   "Quantidade de Partes de Vocal")
 (filter_shortsongs
-   "Short Song")
+   "Música Curta")
 (filter_southernrock
    "Southern Rock")
 (filter_the00s
@@ -10461,13 +10461,13 @@
 (finding_presence_session_busy
    "Unable to join the session at this time.  Please try again.")
 (finding_presence_success
-   "Success!")
+   "Sucesso!")
 (finding_presence_wrong_mode
    "This session is playing a different game mode than you.")
 (find_players_quickplay_band
    "Jogo Rápido")
 (find_players_title
-   "Find a Band")
+   "Encontre uma Banda")
 (find_players_tour_band
    "Road Challenge")
 (find_redeemed
@@ -10475,7 +10475,7 @@
 (finish
    "Concluir")
 (finish_editing
-   "FINISH EDITING")
+   "TERMINAR EDIÇÃO")
 (fittedpants2_snake
    "Boa Constrictors")
 (fittedpants2_snake_desc
@@ -10619,7 +10619,7 @@
 (full_setlist_warning
    "Your setlist is full!  Choose \qFinish Setlist\q to continue.")
 (full_song
-   "Full Song")
+   "Música Completa")
 (funk
    "Funk")
 (furbikini_cheetah
@@ -10663,11 +10663,11 @@
 (fx_chorus
    "Chorus")
 (fx_distortion
-   "DISTORTION")
+   "DISTORÇÃO")
 (fx_echo
-   "Echo")
+   "Eco")
 (fx_empty
-   "Empty")
+   "Nenhum")
 (fx_flanger
    "Flanger")
 (fx_reverb
@@ -10685,22 +10685,22 @@
 (g6128b_desc
    "Whoa! What was that sound? Is the world ending? No, it's just the thunderous sound of the G6128B, with its newly designed Bass Space Control<sup>TM</sup> bridge and TV Jones® Thunder'Tron<sup>TM</sup> pickups!")
 (gameplay
-   "gameplay settings")
+   "opções de gameplay")
 (gameplay_settings
-   "Gameplay Settings")
+   "Opções de Gameplay")
 (game_bandcoop
-   "Online Multiplayer")
+   "Multiplayer Online")
 (game_local
-   "Local Multiplayer")
+   "Multiplayer Local")
 (game_local_hth
-   "Local Multiplayer")
+   "Multiplayer Local")
 #ifdef HX_XBOX
 (game_online
    "Player Match")
 #endif
 #ifdef HX_PS3
 (game_online
-   "Online Multiplayer")
+   "Multiplayer Online")
 #endif
 #ifdef HX_PC
 (game_online
@@ -10739,21 +10739,21 @@
 (generic_string
    "%s")
 (generic_tier1
-   "Warmup")
+   "Aquecimento")
 (generic_tier2
-   "Apprentice")
+   "Aprendiz")
 (generic_tier3
-   "Solid")
+   "Sólido")
 (generic_tier4
-   "Moderate")
+   "Moderado")
 (generic_tier6
-   "Challenging")
+   "Desafiador")
 (generic_tier8
-   "Nightmare")
+   "Pesadelo")
 (generic_tier9
-   "Impossible")
+   "Impossível")
 (genre_song
-   "Genre:")
+   "Gênero Musical:")
 (giantkillerarmor_metal
    "Giant Killer Armor")
 (giantkillerarmor_metal_desc
@@ -10817,9 +10817,9 @@
 (global_options_button_corrupt_overwrite
    "Overwrite")
 (global_options_button_create
-   "Create audio/video settings")
+   "Criar config. de áudio e vídeo")
 (global_options_cache_name
-   "Rock Band 3 Audio/Video Settings")
+   "Opções de Áudio e Vídeo do Rock Band 3")
 (global_options_corrupt
    "The Rock Band 3 audio/video settings file is corrupt. Rock Band 3 needs to delete the corrupted file in order to save these settings in the future.  Would you like to overwrite the existing corrupted file with a new file, or would you like to proceed without saving this file?")
 (global_options_create
@@ -11167,29 +11167,29 @@
 (gtr_solo_s
    "Gtr solo s")
 (guest_cannot_be_first
-   "Guest cannot be first to join session")
+   "Um Visitante não pode ser o primeiro a se juntar à sessão.")
 (guide_pitch_composite
-   "GUIDE PITCH ON")
+   "GUIA DE NOTA ON")
 (guide_pitch_harmony1
-   "GUIDE PITCH HARMONY 1")
+   "GUIA DE NOTA HARMONIA 1")
 (guide_pitch_harmony2
-   "GUIDE PITCH HARMONY 2")
+   "GUIA DE NOTA HARMONIA 2")
 (guide_pitch_lead
-   "GUIDE PITCH LEAD")
+   "GUIA DE NOTA VOC. PRINCIPAL")
 (guide_pitch_off
-   "GUIDE PITCH OFF")
+   "GUIA DE NOTA OFF")
 (guitar
    "Guitarra")
 (guitar_lessons
-   "Guitar Lessons")
+   "Lições de Guitarra")
 (guitar_pad_lost
-   "guitar controller")
+   "guitarra/controle")
 (gx1_resource
    "Yamaha GX-1")
 (gx1_resource_desc
    "The console alone weighs over 650 pounds. It's rumored that fewer than 100 were ever made. It cost $60,000 at launch. So yeah... you pretty much NEED this synthesizer.")
 (hair
-   "Hair")
+   "Cabelo")
 (halfboots_solidshiny
    "Teddy Boy Boots")
 (halfboots_solidshiny_desc
@@ -11229,7 +11229,7 @@
 (harajukucutoffs_denim_desc
    "Keep your shadow close and stay young forever in these short pants.")
 (hard
-   "HARD")
+   "DIFÍCIL")
 (hardcore
    "Hardcore")
 (hardcoredance
@@ -11271,35 +11271,35 @@
 (header_performance
    "Performance")
 (height
-   "Height")
+   "Altura")
 (height_average
-   "Average")
+   "Mediana")
 (height_short
-   "Short")
+   "Baixo")
 (height_tall
-   "Tall")
+   "Alto")
 (help_accept
-   "ACCEPT")
+   "ACEITAR")
 (help_back
    "VOLTAR")
 (help_cancel
-   "CANCEL")
+   "CANCELAR")
 (help_confirm
-   "CONFIRM")
+   "CONFIRMAR")
 (help_continue
-   "CONTINUE")
+   "CONTINUAR")
 (help_deleteletter
-   "DELETE")
+   "DELETAR")
 (help_nextletter
-   "NEXT")
+   "PRÓXIMO")
 (help_onoff
    "ON/OFF")
 (help_select
-   "SELECT")
+   "SELECIONAR")
 (help_updown
-   "UP/DOWN")
+   "PRA CIMA/PRA BAIXO")
 (hide_details
-   "Hide Details")
+   "Enconder Detalhes")
 (highchucks_solid
    "Hightop Dornholes")
 (highchucks_solid_desc
@@ -11329,7 +11329,7 @@
 (highwaterjeans_ripped_desc
    "These ripped and rolled jeans are perfect for a day at the beach or your next mud-drenched outdoor gig.")
 (hint_career
-   "Welcome to Career!")
+   "Bem-vindo à sua Carreira!")
 (hint_careerlaunch
    "Career Launch")
 (hint_careerlaunch_desc
@@ -11361,11 +11361,11 @@
 (hi_melody
    "High melody")
 (hold_finish_setlist
-   "HOLD TO FINISH SETLIST")
+   "SEGURE PARA TERMINAR REPERTÓRIO")
 (hold_for_shortcuts
-   "HOLD FOR SHORTCUTS")
+   "SEGURE PARA VER ATALHOS")
 (hold_make_setlist
-   "HOLD TO MAKE SETLIST")
+   "SEGURE PARA FAZER UM REPERTÓRIO")
 (honkytonk
    "Honky Tonk")
 (hoodedsweatshirt_moscowsputnik
@@ -11455,35 +11455,35 @@
    "Pull to chat (in Xbox LIVE games only)")
 #endif
 (how_to_down
-   "Down")
+   "Para baixo")
 (how_to_drum
-   "How to use your Drum Controller")
+   "Como utilizar sua Bateria como Controle")
 (how_to_drums
-   "Drum Controller")
+   "Bateria/Controle")
 (how_to_forward
-   "Forward")
+   "Frente")
 (how_to_guitar
-   "Guitar Controller")
+   "Guitarra/Controle")
 #ifdef HX_PS3
 (how_to_microphone
-   "Microphone & wireless controller")
+   "Microfone e Controle Wireless")
 #endif
 #ifdef HX_XBOX
 (how_to_microphone
-   "Microphone & Xbox 360 Controller")
+   "Microfone e Controle do Xbox 360")
 #endif
 #ifdef HX_PC
 (how_to_microphone
-   "Microphone & Xbox 360 Controller")
+   "Microfone e Controle do Xbox 360")
 #endif
 (how_to_navigate
-   "How to navigate using your")
+   "Como navegar utilizando seu:")
 (how_to_strum
-   "Up/down")
+   "Pra cima/Pra baixo")
 (how_to_up
-   "Up")
+   "Para cima")
 (how_to_vocals
-   "How to use your Vocal Controller")
+   "Como utilizar seu Microfone/Controle")
 (how_to_wear_guitar
    "Attach the strap to your guitar and sling it over your shoulder and behind your back as pictured.")
 (hvy_part
@@ -11501,7 +11501,7 @@
 (inline_help_fmt
    "<alt>%s</alt> %s")
 (inspirational
-   "Inspirational")
+   "Inspiracional")
 (instarank_friend_beat
    "You beat %s's <alt>%s</alt> score!")
 (instarank_friend_beat_and_more
@@ -11537,13 +11537,13 @@
 (instarank_rival_topscore
    "Top <alt>%s</alt> score worldwide!")
 (instruments
-   "Instruments")
+   "Instrumentos")
 (instrument_basic
-   "basic")
+   "básico")
 (instrument_pro
    "pro")
 (instrument_specific
-   "RESULTS")
+   "RESULTADOS")
 (intro
    "Intro")
 (intro_a
@@ -11581,27 +11581,27 @@
 (intro_verse_a
    "Intro verse a")
 (invalid_song
-   "You can't play this song until all players in your session purchase it!")
+   "Você não pode jogar esta música até que todos os jogadores da sua sessão a tenha também!")
 (invalid_version
-   "To play this song, you need the latest update for Rock Band 3. Please make sure you have downloaded all updates for this title.")
+   "Para jogar esta música, você precisa da atualização mais recente do Rock Band 3. Por favor, certifique-se que você baixou todos as atualizações deste título.")
 #ifdef HX_XBOX
 (invite_body
-   "Press START to open the menu, choose \qPlay on Xbox LIVE,\q then \qXbox LIVE Options,\q then \qCheck Invites\q to connect to friends.")
+   "Pressione START para abrir o menu, escolha 'Jogar no Xbox LIVE', e então 'Opções Xbox LIVE', e então 'Verificar Convites' para conectar ao seus amigos.")
 #endif
 #ifdef HX_PS3
 (invite_body
-   "Press the START button to open the menu, choose \qPlay Online,\q then \qOnline Options,\q then \qCheck Invites\q to connect to friends.")
+   "Pressione START para abrir o menu, escolha 'Jogar Online', e então 'Opções Online', e então then 'Verificar Convites' para conectar ao seus amigos.")
 #endif
 #ifdef HX_WII
 (invite_body
-   "Press + Button to open the menu, choose \qPlay Online,\q then \qOnline Options,\q then \qCheck Invites\q to connect to friends.")
+   "Pressione + para abrir o menu, escolha 'Jogar Online', e então 'Opções Online', e então then 'Verificar Convites' para conectar ao seus amigos.")
 #endif
 #ifdef HX_PC
 (invite_body
-   "Press START to open the menu, choose \qPlay on Xbox LIVE,\q then \qXbox LIVE Options,\q then \qCheck Invites\q to connect to friends.")
+   "Pressione START para abrir o menu, escolha 'Jogar no Xbox LIVE', e então 'Opções Xbox LIVE', e então 'Verificar Convites' para conectar ao seus amigos.")
 #endif
 (invite_friend
-   "Invite Friends")
+   "Convidar Amigos")
 (invite_subject
    "Rock Band 3")
 (iron
@@ -11713,7 +11713,7 @@
 (jetdoubleneck_paint_desc
    "Why choose between a 6-string and a Baritone guitar when you can have both? Sure, it might be tough to actually lift the sucker, but that's a small price to pay for an axe this sweet.")
 (join_band
-   "Join Band")
+   "Juntar-se à Banda")
 (jp80
    "Fender<sup>TM</sup> JP80")
 (jp80_desc
@@ -11725,7 +11725,7 @@
 (js_desc
    "Featuring a mahogany body and rosewood fingerboard, this classy bass says, \qI'm a person of taste and refinement. I only rarely shout obscenities at drive-thru workers or throw paint at my bandmates.\q")
 (jukebox_random_band
-   "Random Band")
+   "Banda Aleatória")
 (jumpsuitpants_nylon
    "Might As Well Jumpsuit Slacks")
 (jumpsuitpants_nylon_desc
@@ -11749,7 +11749,7 @@
 (jupiter_resource_desc
    "The legendary Billy F Gibbons of ZZ Top, whose guitar playing is as recognizable as his look, designed this axe based on Bo Diddley's custom Gretsch<sup>TM</sup>. Note: playing this guitar may give you an awesome beard!")
 (just_waiting
-   "WAITING")
+   "AGUARDANDO")
 (keffiyehmale_cotton
    "Out of Your Headscarf")
 (keffiyehmale_cotton_desc
@@ -11771,11 +11771,11 @@
 (kelly04_desc
    "Talk about edgy, this mainstay of metal can cost you an eyeball if you aren't careful. Its jagged shape offers easy access to the high frets for showing up your guitarist with a few choice licks of your own.")
 (keyboard_solo
-   "Keyboard solo")
+   "Solo de Teclado")
 (keys
    "Teclado")
 (keys_pad_lost
-   "keys controller")
+   "controle teclado")
 (kick2
    "2 lane")
 (kick3
@@ -11891,19 +11891,19 @@
 (ladykeffiyeh_cotton_desc
    "This scarf is one of those things that you'll want to have on you every day of your life... this scarf, some cash, and a \qbuy 8 burritos, get a free soda\q card.")
 (lag_38ms
-   "(-38ms) CRT, LCD and Plasma TVs (default)")
+   "(-38ms) CRT, LCD e TVs de Plasma (padrão)")
 (lag_68ms
    "(-68ms) Rear Projection TVs")
 (lag_8ms
-   "(-8ms) CRT, LCD and Plasma TVs with Surround")
+   "(-8ms) CRT, LCD e TVs de Plasma com Som Surround")
 (lag_98ms
    "(-98ms) DLP TVs")
 (lag_button_calibrate
-   "Calibrate")
+   "Calibrar")
 (lag_button_recalibrate
-   "Recalibrate")
+   "Recalibrar")
 (lag_button_reset
-   "Reset to 0 ms")
+   "Resetar para 0 ms")
 (lag_crt
    "Standard (CRT) TV")
 (lag_custom
@@ -11911,9 +11911,9 @@
 (lag_dlp
    "DLP<sup>®</sup> TV")
 (lag_go
-   "GO!")
+   "VAI!")
 (lag_info_failure
-   "Sorry, we couldn't get an accurate reading from your results. Please try again!")
+   "Desculpe, nós não conseguimos obter uma leitura precisa dos seus resultados. Por favor tente novamente!")
 #ifdef HX_PS3
 (lag_info_why
    "")
@@ -11951,7 +11951,7 @@
 (lag_setting
    "Current delay is %3.1f ms")
 (lag_success
-   "Lag Calibration Successful")
+   "Sucesso na Calibração de Latência")
 (lag_title
    "Lag Compensation")
 (lamepants_basicshiny
@@ -11965,7 +11965,7 @@
 (latexwarrior_pvc_desc
    "You'll be the invincible triumphator in this terrifying top. Should you get covered in a heretic's blood, just grab a damp paper towel -- clean-up is a snap!")
 (latin
-   "Latin")
+   "Música Latina")
 (layeredlacedpants_leather
    "Your Mama Don't Pants")
 (layeredlacedpants_leather_desc
@@ -11979,11 +11979,11 @@
 (layeredtanktop_threelayers_desc
    "This sweet tank and camisole combo will carry you through any hot summer show.")
 (layer_options
-   "VIEW LAYER OPTIONS")
+   "VER OPÇÕES CAMADA")
 (lazyhawk_resource
    "Lazyhawk")
 (lb_band
-   "band")
+   "banda")
 (lb_error
    "Not connected to the Rock Central game servers. Please try again later.")
 #ifdef HX_XBOX
@@ -11999,47 +11999,47 @@
    "You need to be signed into Xbox LIVE to access the leaderboards.")
 #endif
 (lb_friends
-   "Friends")
+   "Amigos")
 (lb_global
-   "Everyone")
+   "Global")
 (lb_nopercentile
    "There are not enough scores posted yet to generate the Overview leaderboard.  Try the Friends or Top 1% leaderboards for now.")
 (lb_noresults
-   "No Results")
+   "Sem Resultados")
 (lb_options
-   "leaderboard options")
+   "opções leaderboard")
 (lb_solo
    "solo")
 (lb_waiting
-   "Loading...")
+   "Carregando...")
 (leader
-   "Leader")
+   "Líder")
 (leaderboard
    "Leaderboard")
 (leaderboards
    "Leaderboards")
 (leaderboards_band
-   "<alt>GBDV</alt> Band")
+   "<alt>GBBV</alt> Banda")
 (leaderboards_bass
-   "<alt>B</alt> Bass")
+   "<alt>B</alt> Baixo")
 (leaderboards_bass_on_keys
-   "<alt>B</alt> Bass on Keys")
+   "<alt>B</alt> Baixo no Teclado")
 (leaderboards_drums
-   "<alt>D</alt> Drums")
+   "<alt>B</alt> Bateria")
 (leaderboards_get_better
    "You Need to Do Better To Show Up Here, Y'all")
 (leaderboards_guitar
-   "<alt>G</alt> Guitar")
+   "<alt>G</alt> Guitarra")
 (leaderboards_guitar_on_keys
-   "<alt>G</alt> Guitar on Keys")
+   "<alt>G</alt> Guitarra no Teclado")
 (leaderboards_harmony_vocals
-   "<alt>V</alt> Harmony Vocals")
+   "<alt>V</alt> Harmonia")
 (leaderboards_keys
-   "<alt>G</alt> Keys")
+   "<alt>T</alt> Teclado")
 (leaderboards_menu_by_fans
-   "BAND BY FANS")
+   "BANDA POR FÃS")
 (leaderboards_menu_by_song
-   "BAND BY SONG")
+   "BANDA POR MÚSICA")
 (leaderboards_menu_solo
    "SOLO")
 (leaderboards_menu_title
@@ -12063,19 +12063,19 @@
 (leaderboards_no_local_bands
    "There are no local scores.")
 (leaderboards_pro_bass
-   "<alt>B</alt> Pro Bass")
+   "<alt>B</alt> Baixo PRO")
 (leaderboards_pro_drums
-   "<alt>D</alt> Pro Drums")
+   "<alt>B</alt> Bateria PRO")
 (leaderboards_pro_guitar
-   "<alt>G</alt> Pro Guitar")
+   "<alt>G</alt> Guitarra PRO")
 (leaderboards_pro_keys
-   "<alt>G</alt> Pro Keys")
+   "<alt>T</alt> Teclado PRO")
 (leaderboards_select_part
-   "SELECT INSTRUMENT")
+   "SELECIONAR INSTRUMENTO")
 (leaderboards_solo_vocals
-   "<alt>V</alt> Vocals")
+   "<alt>V</alt> Vocal Solo")
 (leaderboard_changefilter
-   "Change Filter")
+   "Mudar Filtro")
 (leaderboard_connection_error
    "Failed to connect to the Rock Central game servers.")
 (leaderboard_cycle_mode
@@ -12091,24 +12091,24 @@
 (leaderboard_no_ranked_friends
    "You currently have no ranked friends.")
 (leader_hb_changefilter
-   "Change Filter")
+   "Mudar Filtro")
 (leader_hb_choosesong
-   "Choose Song")
+   "Escolher Música")
 (leader_hb_songfilter
-   "Change Sorting")
+   "Mudar Ordem")
 (leader_hb_viewband
-   "View Band Profile")
+   "Ver o Profile da Banda")
 #ifdef HX_PS3
 (leader_hb_viewgamercard
-   "View Details")
+   "Ver Detalhes")
 #endif
 #ifdef HX_XBOX
 (leader_hb_viewgamercard
-   "View gamer card")
+   "Ver Card do Jogo")
 #endif
 #ifdef HX_PC
 (leader_hb_viewgamercard
-   "View gamer card")
+   "Ver Card do Jogo")
 #endif
 (leader_party_shuffle_warning
    "Sorry, only the leader of this game can choose Party Shuffle.")
@@ -12143,15 +12143,15 @@
 (leathervest_studded_desc
    "Hey Stray Cat, don't bother chasin' mice around. They'll be after you when you wear this studded vest.")
 (leave_town
-   "leave town")
+   "deixar a cidade")
 (lefty_flip
-   "LEFTY MODE")
+   "MODO CANHOTO")
 (lefty_mode
-   "LEFTY MODE")
+   "MODO CANHOTO")
 (left_shoulder
-   "Left Shoulder")
+   "Ombro Esquerdo")
 (legal_text
-   "© 2007-2010 Harmonix Music Systems, Inc. All Rights Reserved. Harmonix, Rock Band and all related titles and logos are trademarks of Harmonix Music Systems, Inc., an MTV Networks company. Rock Band developed by Harmonix Music Systems, Inc. MTV: Music Television, MTV Games and all related titles and logos are trademarks of MTV Networks, a division of Viacom International Inc. Protected by United States Patent Nos. 6,429,863, 6,482,087 and 7,164,076.  Other domestic and foreign patent applications pending.")
+   "© 2007-2010 Harmonix Music Systems, Inc. Todos os direitos reservados. Harmonix, Rock Band e todos os títulos e logotipos relacionados são marcas registradas da Harmonix Music Systems, Inc., uma empresa da MTV Networks. MTV: Music Television, MTV Games e todos os títulos e logotipos relacionados são marcas registradas da MTV Networks, uma divisão da Viacom International Inc. Protegido pela patente dos Estados Unidos da América Nos. 6,429,863, 6,482,087 e 7,164,076.  Outros pedidos de patentes nacionais e estrangeiras estão pendentes.")
 (leggings_shiny
    "Heartbreaker Leggings")
 (leggings_shiny_desc
@@ -12165,17 +12165,17 @@
 (leopard
    "Leopard")
 (lesson1
-   "Lesson 1")
+   "Lição 1")
 (lesson2
-   "Lesson 2")
+   "Lição 2")
 (lesson3
-   "Lesson 3")
+   "Lição 3")
 (lesson4
-   "Lesson 4")
+   "Lição 4")
 (lessons
-   "Lessons")
+   "Lição")
 (lesson_restrictions
-   "Lesson Restrictions:")
+   "Restrições da Lição:")
 (lightsanimated_plastic
    "The Independent Party")
 (lightsanimated_plastic_desc
@@ -12219,11 +12219,11 @@
 (load
    "load")
 (loading
-   "Loading...")
+   "Carregando...")
 (loading_additional_content
-   "Loading New Downloaded Content...")
+   "Carregando Conteúdos Baixados...")
 (loading_additional_progress
-   "%s/%s Loaded")
+   "%s de %s Carregados")
 (locale_currency
    "$")
 (locale_decimal_separator
@@ -12231,11 +12231,11 @@
 (locale_separator
    ",")
 (local_multi_scoreduel
-   "local multiplayer")
+   "multiplayer local")
 (local_multi_tow
-   "local multiplayer")
+   "multiplayer local")
 (locked_label
-   "Locked!")
+   "Bloqueado!")
 (lofi
    "Lo-fi")
 (loincloth_metal
@@ -12247,7 +12247,7 @@
 (lolitatop_cotton_desc
    "For the sewing machine never seams without bringing you dreams of the beautiful Annabelle Lee.")
 (london
-   "London")
+   "Londres")
 (longgloves_leather
    "Whole Lotta Gloves")
 (longgloves_leather_desc
@@ -12331,7 +12331,7 @@
 (losangeles
    "Los Angeles")
 (lose_practice
-   "Practice")
+   "Praticar")
 (loudleggings_acidwash
    "Acid Flashback Leggings")
 (loudleggings_acidwash_desc
@@ -12437,83 +12437,83 @@
 (maidenstraps_studded_desc
    "Thy fans shall adore every moment of your gruesomely twisted performance... or said fans shall incur thy UNYIELDING WRATH!")
 (main_cheat_msg_fmt
-   "GAME MODIFIER UNLOCKED: %s")
+   "MODIFICADOR DESBLOQUEADO: %s")
 (main_hub_band_practice
-   "Practice")
+   "Praticar")
 (main_hub_continue_tour
-   "Resume last Road Challenge")
+   "Voltar ao último Road Challenge")
 (main_hub_drum_freestyle
-   "Drum Freestyle")
+   "Freestyle de Bateria")
 (main_hub_goals
    "Carreira")
 (main_hub_goals_leaderboard
-   "My Rankings")
+   "Meu Ranking")
 (main_hub_goals_progress
    "Meus Objetivos")
 (main_hub_goals_songs
    "Meu Progresso Musical")
 (main_hub_less_info
-   "LESS INFO")
+   "OCULTAR INFORMAÇÕES")
 (main_hub_message_count
-   "Latest News")
+   "Últimas Notícias")
 (main_hub_more_info
-   "MORE INFO")
+   "MAIS INFORMAÇÕES")
 (main_hub_new_tour
-   "Choose a Road Challenge")
+   "Escolher um Road Challenge")
 (main_hub_next_message
    "PRÓXIMA MENSAGEM (%i/%i)")
 (main_hub_pro_song_lessons
-   "Learn A Song")
+   "Aprender uma Música")
 (main_hub_trainers
-   "Learn An Instrument")
+   "Aprender um Instrumento")
 (main_leaderboards_button
    "Leaderboards")
 (main_leaderboard_cancel_button
-   "Continue")
+   "Continuar")
 (main_leaderboard_need_to_signin
    "Unless you sign in to a gamer profile you can only see local leaderboards.\n")
 (main_leaderboard_signin_button
-   "Sign in")
+   "Conectar")
 #ifdef HX_XBOX
 (main_menu_finding
-   "Finding Xbox LIVE players...")
+   "Encontrando jogadores do Xbox LIVE...")
 #endif
 #ifdef HX_PS3
 (main_menu_finding
-   "Finding online players...")
+   "Encontrando jogadores online...")
 #endif
 #ifdef HX_WII
 (main_menu_finding
-   "Finding online players...")
+   "Encontrando jogadores online...")
 #endif
 #ifdef HX_PC
 (main_menu_finding
-   "Finding Xbox LIVE players...")
+   "Encontrando jogadores do Xbox LIVE...")
 #endif
 (main_menu_pool_label_temp
-   "Available Players")
+   "Jogadores Disponíveis")
 #ifdef HX_XBOX
 (main_menu_waiting
-   "Waiting for Xbox LIVE Players...")
+   "Esperando por jogadores do Xbox LIVE...")
 #endif
 #ifdef HX_PS3
 (main_menu_waiting
-   "Waiting for online players...")
+   "Esperando por jogadores online...")
 #endif
 #ifdef HX_WII
 (main_menu_waiting
-   "Waiting for online players...")
+   "Esperando por jogadores online...")
 #endif
 #ifdef HX_PC
 (main_menu_waiting
-   "Waiting for Xbox LIVE Players...")
+   "Esperando por jogadores do Xbox LIVE...")
 #endif
 (main_menu_waiting_on_leader
-   "Waiting for %s to continue...")
+   "Esperando pelo(a) %s para continuar...")
 (main_menu_welcome
    "Welcome to Rock Band 3!  Your band is ready to begin its career. You can customize its name and appearance now, or you can skip right to the action instead (you can always go back to customize later).")
 (main_playerprofile_button
-   "My Band")
+   "Minha Banda")
 (main_riff
    "Main riff")
 (main_riff_1
@@ -12531,13 +12531,13 @@
 (main_riff_7
    "Main riff 7")
 (main_solo_qp_signin_not_guest
-   "You are currently signed in as a Guest.  Please sign out of the Guest profile to continue.\n")
+   "Você está conectado como Visitante.  Por favor, desconecte do perfil de Visitante para continuar.\n")
 (make_a_setlist
-   "Make A Setlist")
+   "Criar um Repertório")
 (make_a_setlist_by_line
-   "Write up a setlist to play!")
+   "Escreva um Repertório para jogar!")
 (making_setlist
-   "Making Setlist")
+   "Fazendo um Repertório")
 (malcolm
    "Gretsch® Malcolm Young I")
 (malcolm_desc
@@ -14023,7 +14023,7 @@
    "Please sign into a gamer profile to manage your band.")
 #endif
 (manage_band_title
-   "Customize Band")
+   "Personalizar Banda")
 (manage_friends
    "Manage Friends")
 (manage_staff
@@ -14047,87 +14047,87 @@
 (matadorpants_bedazzled_desc
    "Because, as a female rock musician, you are gonna be dealing with a lot of bull.")
 (matchmaker_character_hint_title
-   "band charaters:")
+   "pensonagems da banda:")
 (matchmaker_choose_gender
-   "Choose Gender")
+   "Escolher Gênero")
 (matchmaker_choose_part
-   "Choose Instrument")
+   "Escolher Instrumento")
 (matchmaker_confirm_no_leader
    "The band owner is not in this session.  If you proceed, you will not be able to play the game.  Are you sure you want to continue?")
 (matchmaker_continue
-   "Continue")
+   "Continuar")
 (matchmaker_female
-   "female")
+   "feminino")
 (matchmaker_find_bandmates
-   "Find Players")
+   "Encontrar Jogadores")
 (matchmaker_gamertag_list
    "")
 (matchmaker_gamertag_pad_num_fmt
    "%d")
 (matchmaker_instrument
-   "INSTRUMENT")
+   "INSTRUMENTO")
 (matchmaker_invite
-   "Invite Friends")
+   "Convidar Amigos")
 (matchmaker_invite_join_band
-   "Join Band")
+   "Juntar à Banda")
 (matchmaker_invite_join_game
-   "Join Game")
+   "Juntar ao Jogo")
 (matchmaker_join_in
-   "Se Juntar")
+   "Juntar")
 (matchmaker_join_remote_searching
-   "Searching...")
+   "Buscando...")
 (matchmaker_kick
-   "Kick Player")
+   "Expulsar Jogador")
 (matchmaker_leader
-   "LEADER")
+   "LÍDER")
 #ifdef HX_PS3
 (matchmaker_live_enabled
    "")
 #endif
 #ifdef HX_XBOX
 (matchmaker_live_enabled
-   "Xbox LIVE ENABLED")
+   "Xbox LIVE HABILITADO")
 #endif
 #ifdef HX_PC
 (matchmaker_live_enabled
-   "Xbox LIVE ENABLED")
+   "Xbox LIVE HABILITADO")
 #endif
 (matchmaker_loading
-   "Loading...")
+   "Carregando...")
 (matchmaker_male
-   "male")
+   "masculino")
 (matchmaker_player
-   "Player")
+   "Jogador")
 (matchmaker_please_wait
-   "Please Wait...")
+   "Por favor, aguarde...")
 (matchmaker_ranked_hidden_character
    "???")
 (matchmaker_ranked_hidden_player
    "???")
 (matchmaker_search_band
-   "Find Players")
+   "Encontrar Jogadores")
 (matchmaker_search_cancel
-   "Cancel Search")
+   "Cancelar Busca")
 (matchmaking_connect_controller
    "Conectar Controle")
 (matchmaking_loading
-   "Loading")
+   "Carregando")
 (matchmaking_pick
-   "Pick Character")
+   "Selecionar Personagem")
 #ifdef HX_PS3
 (matchmaking_pressstart
-   "Press START button to Continue")
+   "Pressione o botão START para Continuar")
 #endif
 #ifdef HX_XBOX
 (matchmaking_pressstart
-   "Press Start to Continue")
+   "Pressione START para Continuar")
 #endif
 #ifdef HX_PC
 (matchmaking_pressstart
-   "Press Start to Continue")
+   "Pressione START para Continuar")
 #endif
 (matchmaking_remote_only
-   "Remote Player Only")
+   "Apenas Jogador Remoto")
 (mathrock
    "Math Rock")
 (mb4
@@ -14209,11 +14209,11 @@
 (mc_auto_warning
    "This game saves data automatically at certain points. While the HDD access indicator is flashing, data is being saved. Do not switch off the power when the HDD access indicator is flashing.")
 (mc_button_cancel
-   "Cancel")
+   "Cancelar")
 (mc_button_choose_device
    "Select a Device")
 (mc_button_continue
-   "Continue")
+   "Continuar")
 (mc_button_continue_no_save
    "Continue Without Saving")
 (mc_button_create_data
@@ -14337,7 +14337,7 @@
 (md441u_resource_desc
    "A studio staple used by countless legends, the Sennheiser MD 441 will make you sound like you actually do those warm-up vocal exercises like you're supposed to.")
 (medium
-   "MEDIUM")
+   "MÉDIO")
 (medium_short
    "M")
 (melody_1
@@ -14345,7 +14345,7 @@
 (melody_2
    "Melody 2")
 (menu_drumtrainer
-   "Drum Trainer")
+   "Treino de Bateria")
 (message_band_summary
    "You're currently %s amongst your friends on the Rock Band 3 Total Score leaderboard.")
 (message_band_summary_global
@@ -14417,7 +14417,7 @@
 (metaloading
    "PREPARING TO ROCK")
 (metaloading_waitingforplayers
-   "Waiting for other players...")
+   "Esperando pelos outros jogadores...")
 (metaltop_gold
    "Metropolicious Top")
 (metaltop_gold_desc
@@ -14427,11 +14427,11 @@
 (metaltri_leather_desc
    "This geometric jacket will get you into some complex romantic situations... but hopefully not as complex as your break-up with the pizza delivery driver.")
 (meta_loading_text
-   "LOADING . . .")
+   "CARREGANDO . . .")
 (meter_progress
    "%s/%s")
 (meter_progress_fans
-   "%s/%s Fans")
+   "%s/%s Fãs")
 (meter_progress_generic_wrapper
    "%s")
 (meter_progress_no_denominator
@@ -14439,7 +14439,7 @@
 (meter_progress_percent
    "%i%%")
 (me_notes_hit
-   "Notes Hit")
+   "Notas Acertadas")
 (me_percent_format
    "%d%%")
 (mic1_clear
@@ -14468,22 +14468,22 @@
    "Quoth the Raven, \qNice skirt!\q")
 #ifdef HX_PS3
 (mics_changed_desc
-   "A microphone has been disconnected from your system! Please test to check that your microphone works before continuing.")
+   "Um microfone foi desconectado do seu sistema! Por favor, teste para checar se seu microfone está funcionando antes de continuar.")
 #endif
 #ifdef HX_XBOX
 (mics_changed_desc
-   "A microphone has been disconnected from the Xbox 360 console! Please test to check that your microphone works before continuing.")
+   "Um microfone foi desconectado do seu Xbox 360! Por favor, teste para checar se seu microfone está funcionando antes de continuar.")
 #endif
 #ifdef HX_PC
 (mics_changed_desc
-   "A microphone has been disconnected from the Xbox 360 console! Please test to check that your microphone works before continuing.")
+   "Um microfone foi desconectado do seu Xbox 360! Por favor, teste para checar se seu microfone está funcionando antes de continuar.")
 #endif
 (mics_changed_header
-   "Can't hear you!")
+   "Não consigo te ouvir!")
 (mics_changed_msg
-   "Test your Microphone!")
+   "Testar seu Microfone!")
 (mics_changed_test
-   "Can't hear you!")
+   "Não consigo te ouvir!")
 (mics_player_name00
    "-")
 (mics_player_name01
@@ -14493,11 +14493,11 @@
 (mics_player_name03
    "-")
 (mic_1_gain
-   "Mic 1 Volume")
+   "Volume Mic. 1")
 (mic_2_gain
-   "Mic 2 Volume")
+   "Volume Mic. 2")
 (mic_3_gain
-   "Mic 3 Volume")
+   "Volume Mic. 3")
 (midcalfplatform_leather
    "Stand & Deliver Platforms")
 (midcalfplatform_leather_desc
@@ -14539,11 +14539,11 @@
 (miniskirt_leopard_desc
    "Hello, Bling Kitty! This tricked-out mini is cute as a button.")
 (mini_leaderboards_pending
-   "Waiting for Server")
+   "Esperando pelo Servidor")
 (mini_leaderboards_title_friends
-   "Friend Rankings")
+   "Ranque dos seus Amigos")
 (mini_leaderboards_title_global
-   "Global Rankings")
+   "Ranque Global")
 (misc_blue
    "misc")
 (misc_orange
@@ -14551,11 +14551,11 @@
 (misc_yellow
    "misc")
 (missing_bass
-   "Bass")
+   "Baixo")
 (missing_drum
-   "Drum")
+   "Bateria")
 (missing_guitar
-   "Guitar")
+   "Guitarra")
 (missing_parts_error
    "Sorry! This song isn't available for your band to play, as it doesn't have a part for one of your band members. Remove the following instruments and try again:")
 (missing_setlist_songs
@@ -14587,17 +14587,17 @@
    "You must be connected to Xbox LIVE and signed-in to an Xbox LIVE enabled gamer profile to purchase this song.")
 #endif
 (ml_year
-   "Released:")
+   "Lançamento:")
 (mm_cannot_continue
    "A remote player is not ready to continue.")
 (mm_confirm_back_msg
    "Are you sure you want to leave and abandon your session?")
 (mm_hb_fmp
-   "Find More Players")
+   "Encontrar Mais Jogadores")
 (mm_hb_fmp_cancel
    "Cancel Find")
 (mm_hb_net_options
-   "Multiplayer Options")
+   "Opções Multiplayer")
 (mm_need_a_profile_band_guest_msg
    "You are currently signed into a Guest gamer profile.  In order to join this session, the gamer profile of whom you are a Guest must join first.")
 (mm_need_a_profile_cancel
@@ -14615,10 +14615,10 @@
    "In order to play on Xbox LIVE, you need to be signed into an Xbox LIVE enabled gamer profile with Xbox LIVE multiplayer privileges enabled, and connected to Xbox LIVE.")
 #endif
 (mm_need_a_profile_signin
-   "Sign in")
+   "Conectar")
 #ifdef HX_PS3
 (mm_net_option3
-   "Mute Player")
+   "Mutar Jogador")
 #endif
 #ifdef HX_XBOX
 (mm_net_option3
@@ -14653,18 +14653,18 @@
 (modernsuit_cotton_desc
    "You get up at seven and go to work at nine. You've got no time for living, but at least you're looking fine!")
 (modifer_mode_denied
-   "This mode is disabled due to modifiers.")
+   "Este modo está desabilitado por causa de algum modificador(es).")
 #ifdef HX_PS3
 (modifier_achievements_feature
-   "Trophies")
+   "Troféis")
 #endif
 #ifdef HX_XBOX
 (modifier_achievements_feature
-   "Achievements")
+   "Conquistas")
 #endif
 #ifdef HX_PC
 (modifier_achievements_feature
-   "Achievements")
+   "Conquistas")
 #endif
 (modifier_confirm_msg
    "Activating this modifier will disable the following features:\n%s.\nAre you sure?")
@@ -14675,7 +14675,7 @@
 (modifier_enter_msg
    "Type in an unlock code here to unlock it on the Game Modifiers screen.")
 (modifier_locked_name
-   "LOCKED")
+   "BLOQUEADO")
 #ifdef HX_PS3
 (modifier_online_feature
    "Online Play")
@@ -14689,7 +14689,7 @@
    "Xbox LIVE Play")
 #endif
 (modifier_saving_feature
-   "Saving")
+   "Salvando")
 (modifier_unlocked_fmt
    "Modifier Unlocked:\n%s")
 (modify_game
@@ -14705,19 +14705,19 @@
 (modsuitjacket_sharkskin_desc
    "This tailored suit tells the world that you are a modern hombre who has a retirement account and uses expensive body wash.")
 (mod_auto_vocals
-   "All Instruments Mode")
+   "Modo All Instruments")
 (mod_awesome
-   "Awesomeness Detection")
+   "Detecção de Pessoa Incrível")
 (mod_awesome_desc
-   "Let Harmonix know that you are really awesome!")
+   "Deixe a Harmonix saber que você é uma pessoa incrível!")
 (mod_awesome_obtain
    "")
 (mod_choose_venue
-   "Select Venue Screen")
+   "Selec. Palco")
 (mod_choose_venue_desc
-   "Choose a venue to play in Quickplay.")
+   "Selecione um palco para jogar noo modo Jogo Rápido.")
 (mod_chord_numbers
-   "Chord Numbering")
+   "Numerar Acordes")
 (mod_demomode
    "Stage Mode")
 (mod_demomode_desc
@@ -14725,41 +14725,41 @@
 (mod_demomode_obtain
    "")
 (mod_doublespeed
-   "Breakneck Speed")
+   "Velocidade Suicída")
 (mod_doublespeed_desc
-   "Increase the scrolling speed of instrument tracks!")
+   "Aumente a velocidade das trilhas dos instrumentos!")
 (mod_doublespeed_obtain
    "(bug, should be available by default)")
 (mod_drum_fills
-   "Drum Fills")
+   "Viradas de Bateria")
 (mod_drum_surface_navigation
-   "Drum Navigation")
+   "Navegar com a Bateria")
 (mod_independent_track_speeds
-   "Indiv. Track Speeds")
+   "Veloc. Indiv. Faixas")
 (mod_miss_sounds
-   "Miss Sounds")
+   "Som ao Errar Notas")
 (mod_newvenuesonly
-   "New Venues Only")
+   "Apenas Palcos Novos")
 (mod_newvenuesonly_desc
-   "Only show Rock Band 3 venues")
+   "Mostra apenas palcos do Rock Band 3")
 (mod_newvenuesonly_obtain
    "")
 (mod_nofail
-   "No-Fail Mode")
+   "Modo No-Fail")
 (mod_nofail_desc
-   "Never fail out of a song!")
+   "Nunca falhe em uma música!")
 (mod_nofail_obtain
-   "(bug, should be available by default)")
+   "(bug, deveria estar disponível por padrão)")
 (mod_nohud
-   "Performance Mode")
+   "Modo Performance")
 (mod_nohud_desc
-   "Play the game without a track!")
+   "Jogue o jogo sem ver as pistas!")
 (mod_nohud_obtain
-   "(bug, should be available by default)")
+   "(bug, deveria estar disponível por padrão)")
 (mod_no_fail_band
-   "No-Fail Mode")
+   "Modo No-Fail")
 (mod_no_fail_solo
-   "No-Fail Mode")
+   "Modo No-Fail")
 (mod_pressmode
    "Press Mode")
 (mod_pressmode_desc
@@ -14767,41 +14767,41 @@
 (mod_pressmode_obtain
    "")
 (mod_unlockall
-   "Unlock All Songs")
+   "Destrav. Todas as Músicas")
 (mod_unlockall_desc
-   "Unlock every song in the game!")
+   "Destrava todas as músicas do jogo!")
 (mod_unlockall_obtain
    "")
 (mono
    "MONO")
 (month_april
-   "April")
+   "Abril")
 (month_august
-   "August")
+   "Agosto")
 (month_december
-   "December")
+   "Dezembro")
 (month_february
-   "February")
+   "Fevereiro")
 (month_january
-   "January")
+   "Janeiro")
 (month_july
-   "July")
+   "Julho")
 (month_june
-   "June")
+   "Junho")
 (month_march
-   "March")
+   "Março")
 (month_may
-   "May")
+   "Maio")
 (month_november
-   "November")
+   "Novembro")
 (month_october
-   "October")
+   "Outubro")
 (month_september
-   "September")
+   "Setembro")
 (montreal
    "Montréal")
 (more_details
-   "Show Details")
+   "Mostrar detalhes")
 (more_details_panel_title
    "View gamer card")
 (moscow
@@ -14837,25 +14837,25 @@
 (motown
    "Motown")
 (move
-   "Move")
+   "Mover")
 #ifdef HX_XBOX
 (movie_pause_hint
-   "Press START to pause")
+   "Pressione START para pausar")
 #endif
 #ifdef HX_PS3
 (movie_pause_hint
-   "Press START button to pause")
+   "Pressione START para pausar")
 #endif
 #ifdef HX_WII
 (movie_pause_hint
-   "Press + Button to pause")
+   "Pressione + para pausar")
 #endif
 #ifdef HX_PC
 (movie_pause_hint
-   "Press START to pause")
+   "Pressione START para pausar")
 #endif
 (mtv_splash_legal
-   "Harmonix, Rock Band and all related titles and logos are trademarks of Harmonix Music Systems, Inc., an MTV Networks company. MTV: Music Television, MTV Games and all related titles and logos are trademarks of MTV Networks, a division of Viacom International Inc.")
+   "Harmonix, Rock Band e todos os títulos e logotipos relacionados são marcas registradas da Harmonix Music Systems, Inc., uma empresa da MTV Networks. MTV: Music Television, MTV Games e todos os títulos e logotipos relacionados são marcas registradas da MTV Networks, uma divisão da Viacom International Inc.")
 (multiplier_format
    "%dX")
 (mummyjacket_cotton
@@ -14867,7 +14867,7 @@
 (mummyleggings_cotton_desc
    "Complete with a reusable ancient curse, this skirt and leggings set is as retro as you can get.")
 (musiclibrary_careerscore
-   "Career Score: 12,345,678")
+   "Pontuação de Carreira: 12,345,678")
 (musiclibrary_comparesong
    "get 1,234 more to steal 1st from")
 (musiclibrary_comparesummary
@@ -14875,21 +14875,21 @@
 (musiclibrary_myperformance
    "My Performance:")
 (music_library
-   "Music Library")
+   "Biblioteca de Músicas")
 (music_library_filtered_fmt
    "Mostrando %i DE %i MÚSICAS, Sorteado por %s")
 (music_library_unfiltered_fmt
    "Mostrando TODAS AS %i MÚSICAS, Sorteado por %s")
 (music_library_upsell
-   "Show Song Recommendations")
+   "Mostrar Recomendações")
 (music_library_upsell_indicator
-   "Recommended")
+   "Recomendado")
 (music_library_upsell_off
-   "Hide")
+   "Esconder")
 (music_library_upsell_on
-   "Show")
+   "Mostrar")
 (music_store
-   "Get More Songs")
+   "Adquirir Mais Músicas")
 (mustang01
    "Fender<sup>TM</sup> Classic Mustang<sup>TM</sup> Bass")
 (mustang01_desc
@@ -14971,33 +14971,33 @@
 (newport_desc
    "Got a big photo shoot comin' up? This beautiful guitar, with classic f-holes and a dramatic bridge design, is the one you're gonna wanna pose with while hanging \qcasually\q at the abandoned warehouse.")
 (newyork
-   "New York")
+   "Nova Iorque")
 (new_customize
-   "new")
+   "novo")
 (new_patch
    "New Patch")
 (new_releases
-   "New Releases")
+   "Novos Lançamentos")
 (new_releases_fmt
-   "%s New Releases")
+   "%s Novos Lançamentos")
 (new_release_albums
-   "Albums")
+   "Álbums")
 (new_release_packs
-   "Song Packs")
+   "Packs de Música")
 (new_release_songs
-   "Individual Songs")
+   "Músicas Individuais")
 (new_setlist_vk_desc
-   "Enter the name of your custom setlist.")
+   "Coloque o nome do seu repertório personalizado.")
 (new_setlist_vk_title
-   "Create A Custom Setlist")
+   "Criar um Repertório Personalizado")
 (new_song
-   "NEW SONG")
+   "NOVA MÚSICA")
 (new_wave
    "New Wave")
 (next
-   "NEXT")
+   "PRÓXIMO")
 (next_heading
-   "NEXT HEADING")
+   "PRÓXIMO CABEÇALHO")
 (next_rank
    "Next Rank:")
 (next_task
@@ -15063,27 +15063,27 @@
 (not_yet_acquired
    "Not Yet Acquired")
 (novelty
-   "Novelty")
+   "Novidade")
 (no_controller
    "YOU ARE OUT OF CONTROL!")
 (no_details_stars
    "Sign in to a gamer profile to view performance data.")
 (no_fail_mode_band
-   "No-Fail Mode")
+   "Modo No-Fail")
 (no_fail_mode_solo
-   "No-Fail Mode")
+   "Modo No-Fail")
 (no_filters_offline
    "Local Scores")
 (no_fmp_when_full
    "You have a full session, you cannot search for any more players.")
 (no_part
-   "No Part")
+   "Sem Parte")
 (no_patch
    "Remove All Patches")
 (no_profile
    "(Sign In for more information)")
 (no_results
-   "No Results")
+   "Sem Resultados")
 (no_songs_apply
    "No songs remaining are suitable for random selection.")
 (no_trainers_in_some_modes
@@ -15173,7 +15173,7 @@
 (opentoe_leather_desc
    "The sickness? A habit of getting involved with other musicians. The cure? A fine pair of heels for showing off your cute toes and kicking your date in the shins.")
 (options
-   "OPTIONS")
+   "OPÇÕES")
 (options_audio
    "Audio Settings")
 (options_autosave_confirm
@@ -15193,7 +15193,7 @@
 (options_char_data
    "CHARACTER DATA")
 (options_credits_button
-   "CREDITS")
+   "CRÉDITOS")
 (options_gameplay_title
    "GAMEPLAY OPTIONS")
 (options_load
@@ -15267,7 +15267,7 @@
 (ornatecoat_bejewelled_desc
    "Wear this ornate, bejeweled creation and lead the unwashed masses by example.")
 (other
-   "Other")
+   "Outros")
 (outlaw
    "Outlaw")
 (outro
@@ -15311,21 +15311,21 @@
 (overdrive_tracker_success
    "Deployed Overdrive for %d:%02d! Challenge success!")
 (overshell_audio_bg_music
-   "BG Music Volume")
+   "Vol. Música de Fundo")
 (overshell_audio_crowd
-   "Crowd Volume")
+   "Vol. da Platéia")
 (overshell_audio_instruments
-   "Instruments Volume")
+   "Vol. dos Instrumentos")
 (overshell_audio_options
-   "Audio Options")
+   "Opções de Áudio")
 (overshell_audio_sfx
-   "SFX Volume")
+   "Vol. dos Ef. Áudio")
 (overshell_audio_voice_chat
    "Voice Chat")
 (overshell_audition
    "Audition Mode")
 (overshell_autosave_enabled
-   "Autosave Enabled")
+   "Autosave Habilitado")
 (overshell_auto_sign_in_rock_central
    "Connecting to the Rock Central game servers...")
 (overshell_auto_sign_in_sony_help
@@ -15367,7 +15367,7 @@
 (overshell_blue_cym
    "Blue Cymbal")
 (overshell_calibration
-   "Calibration")
+   "Calibração")
 #ifdef HX_XBOX
 (overshell_calibration_denial_remote_players
    "Sorry, you can't calibrate while you're playing in an Xbox LIVE session.")
@@ -15395,7 +15395,7 @@
 (overshell_change_character
    "Characters")
 (overshell_change_diff
-   "Change Difficulty")
+   "Mudar Dificuldade")
 #ifdef HX_XBOX
 (overshell_char_creator_denial_remote_players
    "Sorry, you can't create a new character while you're playing in an Xbox LIVE session.")
@@ -15415,13 +15415,13 @@
 (overshell_check_invites
    "Check Invites")
 (overshell_choose_contribute
-   "Você quer que seu progresso individual seja salvo neste sessão?")
+   "Você quer que seu progresso individual seja salvo nesta sessão?")
 (overshell_choose_cymbals
    "You must choose cymbals to play Pro Drums")
 (overshell_choose_diff
-   "Choose Difficulty")
+   "Escolher Dificuldade")
 (overshell_choose_part
-   "Choose Instrument")
+   "Escolher Instrumento")
 (overshell_choose_part_denial
    "This part is not available for the selected song.")
 (overshell_choose_part_denial_no_part
@@ -15469,17 +15469,17 @@
    "Are you sure you want to stop playing on Xbox LIVE? You will lose any unsaved progress.")
 #endif
 (overshell_confirm_remove_user_in_song
-   "You will lose all unsaved game progress if you drop out of the song. Would you like to drop out?")
+   "Você irá perder qualquer progresso não salvo se você abandonar esta música. Você gostaria de abandonar esta música?")
 (overshell_confirm_swap_profile
    "Choosing this gamer profile will drop its controller's current progress from the session. Are you sure?")
 (overshell_confirm_yes
    "Sim")
 (overshell_continue
-   "Continue")
+   "Continuar")
 (overshell_continue_without_profile
    "No Profile")
 (overshell_credits
-   "Credits")
+   "Créditos")
 #ifdef HX_XBOX
 (overshell_credits_denial_remote_players
    "Sorry, you can't view the credits while playing on Xbox LIVE.")
@@ -15497,7 +15497,7 @@
    "Sorry, you can't view the credits while playing on Xbox LIVE.")
 #endif
 (overshell_cymbals_continue
-   "Continue")
+   "Continuar")
 (overshell_cymbals_in_options_message
    "Congratulations on setting up Pro Drums! You can change these options at any time by choosing \qDrum Options\q from your menu.")
 (overshell_cymbals_in_options_msg
@@ -15519,7 +15519,7 @@
 (overshell_dolby
    "Dolby Digital")
 (overshell_drums
-   "Drums")
+   "Bateria")
 (overshell_drums_pro
    "Pro Drums")
 (overshell_drum_message
@@ -15527,13 +15527,13 @@
 (overshell_drum_options
    "Drum Options")
 (overshell_easy
-   "Easy")
+   "Fácil")
 (overshell_enable_hihat
    "Enable Hi Hat Pedal")
 (overshell_end_game
    "End Song")
 (overshell_enter_calibration
-   "Calibrate your system? Any unsaved progress will be lost.")
+   "Calibrar seu sistema? Qualquer processo não salvo será perdido.")
 (overshell_enter_charactercreator
    "Enter Character Creator? Any unsaved progress will be lost.")
 (overshell_enter_credits
@@ -15549,13 +15549,13 @@
 (overshell_gamercard_users
    "View Gamer Card")
 (overshell_game_options
-   "Options")
+   "Opções")
 (overshell_green_cym
    "Green Cymbal")
 (overshell_guitar
    "Guitar")
 (overshell_hard
-   "Hard")
+   "Difícil")
 (overshell_invite
    "Invite Friends")
 (overshell_invite_friends
@@ -15563,7 +15563,7 @@
 (overshell_invite_xbox_party
    "Invite Xbox LIVE Party")
 (overshell_keys
-   "Keys")
+   "Teclado")
 (overshell_kick
    "Kick Player")
 (overshell_kick_confirmation
@@ -15571,19 +15571,19 @@
 (overshell_kick_users
    "Kick Player")
 (overshell_leave
-   "Drop Out")
+   "Abandonar")
 (overshell_lefty_flip
    "LEFTY MODE")
 (overshell_linking_code
    "Account-linking Code")
 (overshell_medium
-   "Medium")
+   "Médio")
 (overshell_metronome
    "Metronome")
 (overshell_metronome_volume
    "Metronome Volume")
 (overshell_modifiers
-   "Modifiers")
+   "Modificadores")
 (overshell_mute
    "Mute Player")
 (overshell_mute_users
@@ -15617,7 +15617,7 @@
 (overshell_practice_new_section
    "Practice New Section")
 (overshell_quit
-   "Back to Music Library")
+   "Voltar à Biblioteca de Músicas")
 (overshell_quit_campaign
    "Back to Goals Menu")
 (overshell_quit_freestyle
@@ -15689,9 +15689,9 @@
 (overshell_rename_character
    "Rename Character")
 (overshell_restart
-   "Restart")
+   "Reiniciar")
 (overshell_return
-   "Return")
+   "Retornar")
 (overshell_righty_flip
    "RIGHTY MODE")
 (overshell_score_warning
@@ -15699,13 +15699,13 @@
 (overshell_second_time_rg
    "The Career can ALSO help you with more advanced Pro Guitar techniques. Visit the Career?")
 (overshell_setlist_difficulty
-   "Song Difficulty")
+   "Dificuldade da Música")
 (overshell_sign_in
    "Sign In")
 (overshell_sign_in_cancel
    "Cancel")
 (overshell_sign_in_continue
-   "Continue")
+   "Continuar")
 (overshell_sign_in_create_character
    "Sign in to create a character")
 (overshell_sign_in_fail_retry
@@ -15725,7 +15725,7 @@
 (overshell_swap_profile
    "Swap to %s")
 (overshell_synapse
-   "Pitch Correction")
+   "AUTO-TUNE")
 (overshell_system_options
    "Game Options")
 (overshell_toggle_no_fail_denial
@@ -15733,15 +15733,15 @@
 (overshell_vocals_mode_scrolling
    "SCROLLING VOCALS")
 (overshell_vocals_mode_static
-   "STATIC VOCALS")
+   "LETRAS ESTÁTICAS")
 (overshell_vocal_harmony
-   "Harmony")
+   "Harmonia")
 (overshell_vocal_options
-   "Vocal Options")
+   "Opções de Vocais")
 (overshell_vocal_solo
-   "Solo")
+   "Vocal Solo")
 (overshell_vocal_track_vol
-   "Vocal Track Volume")
+   "Vol. Faixa de Vocal")
 (overshell_yellow_cym
    "Yellow Cymbal")
 (overskirt_leather
@@ -15797,11 +15797,11 @@
 (parkinglot_resource
    "Tailgater")
 (party_setlist
-   "Party Shuffle")
+   "Repertório Aleatório")
 (party_setlist_by_line
    "Play your music without interruptions!")
 (party_shuffle
-   "PARTY SHUFFLE")
+   "REPERTÓRIO ALEATÓRIO")
 (party_shuffle_start
    "Play \qParty Shuffle\q setlist")
 (passive_message_accomplishment_step
@@ -15997,13 +15997,13 @@
 (paused
    "PAUSED")
 (pause_difficulty
-   "CHANGE DIFFICULTY")
+   "MUDAR DIFICULDADE")
 (pause_hb_returntogame
    "Return to Game")
 (pause_quit
-   "Back to Music Library")
+   "Voltar à Biblioteca de Músicas")
 (pause_restart
-   "RESTART")
+   "REINICIAR")
 (pause_resume
    "RESUME")
 (pause_song
@@ -16167,7 +16167,7 @@
 (player_song
    "Solo %s")
 (play_all
-   "PLAY ALL")
+   "TOCAR TODAS AS MÚSICAS")
 (play_harder_for_more_fans
    "HIGHER DIFFICULTIES = BIGGER FAN AMOUNTS")
 (play_local_game
@@ -16179,7 +16179,7 @@
 (play_setlist_by_line
    "Finalize and play the setlist.")
 (play_song
-   "PLAY SONG")
+   "TOCAR MÚSICA")
 (pleatedskirt_vinyl
    "Nonsense and Sensibility")
 (pleatedskirt_vinyl_desc
@@ -16215,7 +16215,7 @@
 (pop
    "Pop")
 (popdanceelectronic
-   "Pop/Dance/Electronic")
+   "Pop/Dance/Electrônica")
 (poprock
    "Pop-Rock")
 (popup_help_intro_keys
@@ -16261,7 +16261,7 @@
 (practice_select_start
    "Select Start Section")
 (practice_song
-   "Practice Song")
+   "Praticar Música")
 (practice_speed_0
    "Full Speed")
 (practice_speed_1
@@ -20053,125 +20053,125 @@
 (prc_prayer_d
    "Prayer d")
 (prc_prechorus
-   "Pre-chorus")
+   "Pré-Coro")
 (prc_prechorus_1
-   "Pre-chorus 1")
+   "Pré-Coro 1")
 (prc_prechorus_1a
-   "Pre-chorus 1a")
+   "Pré-Coro 1a")
 (prc_prechorus_1b
-   "Pre-chorus 1b")
+   "Pré-Coro 1b")
 (prc_prechorus_1c
-   "Pre-chorus 1c")
+   "Pré-Coro 1c")
 (prc_prechorus_1d
-   "Pre-chorus 1d")
+   "Pré-Coro 1d")
 (prc_prechorus_2
-   "Pre-chorus 2")
+   "Pré-Coro 2")
 (prc_prechorus_2a
-   "Pre-chorus 2a")
+   "Pré-Coro 2a")
 (prc_prechorus_2b
-   "Pre-chorus 2b")
+   "Pré-Coro 2b")
 (prc_prechorus_2c
-   "Pre-chorus 2c")
+   "Pré-Coro 2c")
 (prc_prechorus_2d
-   "Pre-chorus 2d")
+   "Pré-Coro 2d")
 (prc_prechorus_3
-   "Pre-chorus 3")
+   "Pré-Coro 3")
 (prc_prechorus_3a
-   "Pre-chorus 3a")
+   "Pré-Coro 3a")
 (prc_prechorus_3b
-   "Pre-chorus 3b")
+   "Pré-Coro 3b")
 (prc_prechorus_3c
-   "Pre-chorus 3c")
+   "Pré-Coro 3c")
 (prc_prechorus_3d
-   "Pre-chorus 3d")
+   "Pré-Coro 3d")
 (prc_prechorus_4
-   "Pre-chorus 4")
+   "Pré-Coro 4")
 (prc_prechorus_4a
-   "Pre-chorus 4a")
+   "Pré-Coro 4a")
 (prc_prechorus_4b
-   "Pre-chorus 4b")
+   "Pré-Coro 4b")
 (prc_prechorus_4c
-   "Pre-chorus 4c")
+   "Pré-Coro 4c")
 (prc_prechorus_4d
-   "Pre-chorus 4d")
+   "Pré-Coro 4d")
 (prc_prechorus_5
-   "Pre-chorus 5")
+   "Pré-Coro 5")
 (prc_prechorus_5a
-   "Pre-chorus 5a")
+   "Pré-Coro 5a")
 (prc_prechorus_5b
-   "Pre-chorus 5b")
+   "Pré-Coro 5b")
 (prc_prechorus_5c
-   "Pre-chorus 5c")
+   "Pré-Coro 5c")
 (prc_prechorus_5d
-   "Pre-chorus 5d")
+   "Pré-Coro 5d")
 (prc_prechorus_a
-   "Pre-chorus a")
+   "Pré-Coro a")
 (prc_prechorus_b
-   "Pre-chorus b")
+   "Pré-Coro b")
 (prc_prechorus_c
-   "Pre-chorus c")
+   "Pré-Coro c")
 (prc_prechorus_d
-   "Pre-chorus d")
+   "Pré-Coro d")
 (prc_preverse
-   "Pre-verse")
+   "Pré-Verso")
 (prc_preverse_1
-   "Pre-verse 1")
+   "Pré-Verso 1")
 (prc_preverse_1a
-   "Pre-verse 1a")
+   "Pré-Verso 1a")
 (prc_preverse_1b
-   "Pre-verse 1b")
+   "Pré-Verso 1b")
 (prc_preverse_1c
-   "Pre-verse 1c")
+   "Pré-Verso 1c")
 (prc_preverse_1d
-   "Pre-verse 1d")
+   "Pré-Verso 1d")
 (prc_preverse_2
-   "Pre-verse 2")
+   "Pré-Verso 2")
 (prc_preverse_2a
-   "Pre-verse 2a")
+   "Pré-Verso 2a")
 (prc_preverse_2b
-   "Pre-verse 2b")
+   "Pré-Verso 2b")
 (prc_preverse_2c
-   "Pre-verse 2c")
+   "Pré-Verso 2c")
 (prc_preverse_2d
-   "Pre-verse 2d")
+   "Pré-Verso 2d")
 (prc_preverse_3
-   "Pre-verse 3")
+   "Pré-Verso 3")
 (prc_preverse_3a
-   "Pre-verse 3a")
+   "Pré-Verso 3a")
 (prc_preverse_3b
-   "Pre-verse 3b")
+   "Pré-Verso 3b")
 (prc_preverse_3c
-   "Pre-verse 3c")
+   "Pré-Verso 3c")
 (prc_preverse_3d
-   "Pre-verse 3d")
+   "Pré-Verso 3d")
 (prc_preverse_4
-   "Pre-verse 4")
+   "Pré-Verso 4")
 (prc_preverse_4a
-   "Pre-verse 4a")
+   "Pré-Verso 4a")
 (prc_preverse_4b
-   "Pre-verse 4b")
+   "Pré-Verso 4b")
 (prc_preverse_4c
-   "Pre-verse 4c")
+   "Pré-Verso 4c")
 (prc_preverse_4d
-   "Pre-verse 4d")
+   "Pré-Verso 4d")
 (prc_preverse_5
-   "Pre-verse 5")
+   "Pré-Verso 5")
 (prc_preverse_5a
-   "Pre-verse 5a")
+   "Pré-Verso 5a")
 (prc_preverse_5b
-   "Pre-verse 5b")
+   "Pré-Verso 5b")
 (prc_preverse_5c
-   "Pre-verse 5c")
+   "Pré-Verso 5c")
 (prc_preverse_5d
-   "Pre-verse 5d")
+   "Pré-Verso 5d")
 (prc_preverse_a
-   "Pre-verse a")
+   "Pré-Verso a")
 (prc_preverse_b
-   "Pre-verse b")
+   "Pré-Verso b")
 (prc_preverse_c
-   "Pre-verse c")
+   "Pré-Verso c")
 (prc_preverse_d
-   "Pre-verse d")
+   "Pré-Verso d")
 (prc_quiet_intro
    "Quiet intro")
 (prc_quiet_intro_a
@@ -21059,181 +21059,181 @@
 (prc_vamp_d
    "Vamp d")
 (prc_verse
-   "Verse")
+   "Verso")
 (prc_verse_1
-   "Verse 1")
+   "Verso 1")
 (prc_verse_1a
-   "Verse 1a")
+   "Verso 1a")
 (prc_verse_1b
-   "Verse 1b")
+   "Verso 1b")
 (prc_verse_1c
-   "Verse 1c")
+   "Verso 1c")
 (prc_verse_1d
-   "Verse 1d")
+   "Verso 1d")
 (prc_verse_1e
-   "Verse 1e")
+   "Verso 1e")
 (prc_verse_1f
-   "Verse 1f")
+   "Verso 1f")
 (prc_verse_2
-   "Verse 2")
+   "Verso 2")
 (prc_verse_2a
-   "Verse 2a")
+   "Verso 2a")
 (prc_verse_2b
-   "Verse 2b")
+   "Verso 2b")
 (prc_verse_2c
-   "Verse 2c")
+   "Verso 2c")
 (prc_verse_2d
-   "Verse 2d")
+   "Verso 2d")
 (prc_verse_2e
-   "Verse 2e")
+   "Verso 2e")
 (prc_verse_2f
-   "Verse 2f")
+   "Verso 2f")
 (prc_verse_3
-   "Verse 3")
+   "Verso 3")
 (prc_verse_3a
-   "Verse 3a")
+   "Verso 3a")
 (prc_verse_3b
-   "Verse 3b")
+   "Verso 3b")
 (prc_verse_3c
-   "Verse 3c")
+   "Verso 3c")
 (prc_verse_3d
-   "Verse 3d")
+   "Verso 3d")
 (prc_verse_3e
-   "Verse 3e")
+   "Verso 3e")
 (prc_verse_3f
-   "Verse 3f")
+   "Verso 3f")
 (prc_verse_4
-   "Verse 4")
+   "Verso 4")
 (prc_verse_4a
-   "Verse 4a")
+   "Verso 4a")
 (prc_verse_4b
-   "Verse 4b")
+   "Verso 4b")
 (prc_verse_4c
-   "Verse 4c")
+   "Verso 4c")
 (prc_verse_4d
-   "Verse 4d")
+   "Verso 4d")
 (prc_verse_5
-   "Verse 5")
+   "Verso 5")
 (prc_verse_5a
-   "Verse 5a")
+   "Verso 5a")
 (prc_verse_5b
-   "Verse 5b")
+   "Verso 5b")
 (prc_verse_5c
-   "Verse 5c")
+   "Verso 5c")
 (prc_verse_5d
-   "Verse 5d")
+   "Verso 5d")
 (prc_verse_6
-   "Verse 6")
+   "Verso 6")
 (prc_verse_6a
-   "Verse 6a")
+   "Verso 6a")
 (prc_verse_6b
-   "Verse 6b")
+   "Verso 6b")
 (prc_verse_6c
-   "Verse 6c")
+   "Verso 6c")
 (prc_verse_6d
-   "Verse 6d")
+   "Verso 6d")
 (prc_verse_7
-   "Verse 7")
+   "Verso 7")
 (prc_verse_7a
-   "Verse 7a")
+   "Verso 7a")
 (prc_verse_7b
-   "Verse 7b")
+   "Verso 7b")
 (prc_verse_7c
-   "Verse 7c")
+   "Verso 7c")
 (prc_verse_7d
-   "Verse 7d")
+   "Verso 7d")
 (prc_verse_8
-   "Verse 8")
+   "Verso 8")
 (prc_verse_8a
-   "Verse 8a")
+   "Verso 8a")
 (prc_verse_8b
-   "Verse 8b")
+   "Verso 8b")
 (prc_verse_8c
-   "Verse 8c")
+   "Verso 8c")
 (prc_verse_8d
-   "Verse 8d")
+   "Verso 8d")
 (prc_verse_9
-   "Verse 9")
+   "Verso 9")
 (prc_verse_9a
-   "Verse 9a")
+   "Verso 9a")
 (prc_verse_9b
-   "Verse 9b")
+   "Verso 9b")
 (prc_verse_9c
-   "Verse 9c")
+   "Verso 9c")
 (prc_verse_9d
-   "Verse 9d")
+   "Verso 9d")
 (prc_verse_a
-   "Verse a")
+   "Verso a")
 (prc_verse_b
-   "Verse b")
+   "Verso b")
 (prc_verse_c
-   "Verse c")
+   "Verso c")
 (prc_verse_d
-   "Verse d")
+   "Verso d")
 (prc_verse_e
-   "Verse e")
+   "Verso e")
 (prc_verse_f
-   "Verse f")
+   "Verso f")
 (prc_verse_riff
-   "Verse riff")
+   "Riff do Verso")
 (prc_verse_riff_1
-   "Verse riff 1")
+   "Riff do Verso 1")
 (prc_verse_riff_1a
-   "Verse riff 1a")
+   "Riff do Verso 1a")
 (prc_verse_riff_1b
-   "Verse riff 1b")
+   "Riff do Verso 1b")
 (prc_verse_riff_1c
-   "Verse riff 1c")
+   "Riff do Verso 1c")
 (prc_verse_riff_1d
-   "Verse riff 1d")
+   "Riff do Verso 1d")
 (prc_verse_riff_2
-   "Verse riff 2")
+   "Riff do Verso 2")
 (prc_verse_riff_2a
-   "Verse riff 2a")
+   "Riff do Verso 2a")
 (prc_verse_riff_2b
-   "Verse riff 2b")
+   "Riff do Verso 2b")
 (prc_verse_riff_2c
-   "Verse riff 2c")
+   "Riff do Verso 2c")
 (prc_verse_riff_2d
-   "Verse riff 2d")
+   "Riff do Verso 2d")
 (prc_verse_riff_3
-   "Verse riff 3")
+   "Riff do Verso 3")
 (prc_verse_riff_3a
-   "Verse riff 3a")
+   "Riff do Verso 3a")
 (prc_verse_riff_3b
-   "Verse riff 3b")
+   "Riff do Verso 3b")
 (prc_verse_riff_3c
-   "Verse riff 3c")
+   "Riff do Verso 3c")
 (prc_verse_riff_3d
-   "Verse riff 3d")
+   "Riff do Verso 3d")
 (prc_verse_riff_4
-   "Verse riff 4")
+   "Riff do Verso 4")
 (prc_verse_riff_4a
-   "Verse riff 4a")
+   "Riff do Verso 4a")
 (prc_verse_riff_4b
-   "Verse riff 4b")
+   "Riff do Verso 4b")
 (prc_verse_riff_4c
-   "Verse riff 4c")
+   "Riff do Verso 4c")
 (prc_verse_riff_4d
-   "Verse riff 4d")
+   "Riff do Verso 4d")
 (prc_verse_riff_a
-   "Verse riff a")
+   "Riff do Verso a")
 (prc_verse_riff_b
-   "Verse riff b")
+   "Riff do Verso b")
 (prc_verse_riff_c
-   "Verse riff c")
+   "Riff do Verso c")
 (prc_verse_riff_d
-   "Verse riff d")
+   "Riff do Verso d")
 (prc_violin_intro
-   "Violin intro")
+   "Intro Violino")
 (prc_violin_intro_a
-   "Violin intro a")
+   "Intro Violino a")
 (prc_violin_intro_b
-   "Violin intro b")
+   "Intro Violino b")
 (prc_violin_intro_c
-   "Violin intro c")
+   "Intro Violino c")
 (prc_violin_intro_d
-   "Violin intro d")
+   "Intro Violino d")
 (prc_vocal_break
    "Vocal break")
 (prc_vocal_break_1
@@ -21297,15 +21297,15 @@
 (prc_yeah
    "Yeah!")
 (prechorus_1
-   "Pre-chorus 1")
+   "Pré-Coro 1")
 (prechorus_2
-   "Pre-chorus 2")
+   "Pré-Coro 2")
 (prechorus_3
-   "Pre-chorus 3")
+   "Pré-Coro 3")
 (prechorus_4
-   "Pre-chorus 4")
+   "Pré-Coro 4")
 (prechorus_5
-   "Pre-chorus 5")
+   "Pré-Coro 5")
 (precision01
    "Fender<sup>TM</sup> American Vintage 1962 Precision Bass<sup>TM</sup>")
 (precision01_desc
@@ -21413,23 +21413,23 @@
 (premium_asset_price
    "<alt>-</alt> %d")
 (press_any_button
-   "PRESS ANY BUTTON")
+   "PRESSIONE QUALQUER BOTÃO")
 (preverse_1
-   "Pre-verse 1")
+   "Pré-Verso 1")
 (preverse_2
-   "Pre-verse 2")
+   "Pré-Verso 2")
 (preverse_3
-   "Pre-verse 3")
+   "Pré-Verso 3")
 (preverse_4
-   "Pre-verse 4")
+   "Pré-Verso 4")
 (preverse_5
-   "Pre-verse 5")
+   "Pré-Verso 5")
 (previously_acquired
-   "Previously Acquired")
+   "Adquirido Previamente")
 (profile_bands
-   "Bands")
+   "Bandas")
 (profile_logo
-   "Logo")
+   "Logotipos")
 (profile_quote
    "Quote")
 (profile_roster
@@ -21439,9 +21439,9 @@
 (profile_summary
    "SUMMARY")
 (prog
-   "Prog")
+   "Progressivo")
 (progrock
-   "Prog Rock")
+   "Rock Progressivo")
 (proj9_menu
    "")
 (projet
@@ -21453,63 +21453,63 @@
 (prophet_resource_desc
    "With an arpeggiator and gated 16 x 4 step sequencer, this 8-voice analog synth is more than a vintage reissue. And unlike your acid-washed cut-offs, this keyboard's looks remain modern.")
 (pro_drum_advanced_beats
-   "Advanced Beats")
+   "Batidas Avançadas")
 (pro_drum_advanced_fills
-   "Advanced Fills")
+   "Viradas Avançadas")
 (pro_drum_advanced_techniques
-   "Advanced Techniques")
+   "Técnicas Avançadas")
 (pro_drum_basicfills
-   "Basic Fills")
+   "Viradas Básicas")
 (pro_drum_basic_beats
-   "Basic Beats")
+   "Batidas Básicas")
 (pro_drum_category_easy
-   "Easy Lessons")
+   "Lições Fáceis")
 (pro_drum_category_expert
-   "Expert Lessons")
+   "Lições Expert")
 (pro_drum_category_hard
-   "Hard Lessons")
+   "Lições Difíceis")
 (pro_drum_category_medium
-   "Intermediate Lessons")
+   "Lições Moderadas")
 (pro_drum_hard_beats
-   "Hard Beats")
+   "Batidas Difíceis")
 (pro_drum_hard_fills
-   "Hard Fills")
+   "Viradas Difíceis")
 (pro_drum_hard_techniques
-   "Hard Techniques")
+   "Técnicas Difíceis")
 (pro_drum_intermediate_beats
-   "Intermediate Beats")
+   "Batidas Moderadas")
 (pro_drum_intermediate_fills
-   "Intermediate Fills")
+   "Viradas Moderadas")
 (pro_drum_intermediate_techniques
-   "Intermediate Techniques")
+   "Técnicas Moderadas")
 (pro_drum_kit_intro
-   "Introduction to the Kit")
+   "Introdução ao kit")
 (pro_drum_lessons
-   "Pro Drum Lessons")
+   "Lições de Bateria PRO")
 (pro_guitar
    "Guitarra PRO")
 (pro_guitar_lessons
-   "Learn Pro Guitar")
+   "Aprenda Guitarra PRO")
 (pro_guitar_songs
-   "Pro Guitar Songs")
+   "Músicas com Guitarra PRO")
 (pro_keyboard
-   "Pro Keys")
+   "Teclado PRO")
 (pro_keyboard_category_easy
-   "Easy Lessons")
+   "Lições Fáceis")
 (pro_keyboard_category_expert
-   "Expert Lessons")
+   "Lições Expert")
 (pro_keyboard_category_hard
-   "Hard Lessons")
+   "Lições Difíceis")
 (pro_keyboard_category_medium
-   "Medium Lessons")
+   "Lições Moderadas")
 (pro_keyboard_lessons
-   "Pro Keys Lessons")
+   "Lições de Teclado PRO")
 (pro_keyboard_songs
-   "Pro Keys Songs")
+   "Músicas com Teclado PRO")
 (pro_song_lessons_wrong_controller
-   "You can only Learn a Song on Pro Guitar, Pro Bass, or Pro Keys.")
+   "Você só pode aprender uma música na Guitarra PRO, Baixo PRO, ou Teclado PRO.")
 (psychadelic
-   "Psychedelic")
+   "Psicodélico")
 (puffedsleeves_leather
    "Pretty in Black")
 (puffedsleeves_leather_desc
@@ -21553,9 +21553,9 @@
 (qp_submenu_find_players
    "FIND PLAYERS")
 (qp_submenu_party_shuffle
-   "Party Shuffle")
+   "Repertório Aleatório")
 (qp_submenu_quickplay
-   "Choose Songs")
+   "Escolher Músicas")
 (qst_tier1_accuracyfocus
    "In the Spotlight")
 (qst_tier1_accuracyfocus_desc
@@ -21657,7 +21657,7 @@
 (quiet_verse
    "Quiet verse")
 (quit
-   "Back to Music Library")
+   "Voltar à Biblioteca de Músicas")
 (radias_resource
    "Korg RADIAS")
 (radias_resource_desc
@@ -21679,7 +21679,7 @@
 (ramskullarmor_metal_desc
    "Sometimes you have to be subtle. And other times you have to make your point by wearing a metal ram skull bustier.")
 (random_song
-   "Random Song")
+   "Música Aleatória")
 (random_song_by_line
    "Let the crowd decide your next song!")
 #ifdef HX_XBOX
@@ -21711,19 +21711,19 @@
 (rank_ranked
    "Ranked")
 (rank_sort_wait
-   "Waiting for rank information...")
+   "Aguardando informações dos ranques...")
 (rank_unranked
    "Unranked")
 (rap
    "Rap")
 (rating_1
-   "Family Friendly")
+   "Para Todos os Públicos")
 (rating_2
-   "Supervision Recommended")
+   "Supervisão Recomendada")
 (rating_3
-   "Mature Content")
+   "Conteúdo para Adultos")
 (rating_4
-   "Unrated")
+   "Sem Classificação")
 (rb1
    "Rock Band")
 (rb2
@@ -21743,7 +21743,7 @@
 (real_keys
    "Teclado PRO")
 (recently_acquired
-   "Newly Acquired")
+   "Adquirido Recentemente")
 (recordlabelfirstname_1
    "Sloppy")
 (recordlabelfirstname_2
@@ -21871,7 +21871,7 @@
 (reset_all_settings
    "RESET ALL SETTINGS")
 (restart
-   "RESTART")
+   "REINICIAR")
 (results_leaderboard_section
    "LEADERBOARD INFO")
 (resume
@@ -21879,9 +21879,9 @@
 (retry
    "retry")
 (return
-   "return")
+   "retornar")
 (return_to_music_library
-   "Return To Music Library")
+   "Retornar à Biblioteca de Músicas")
 (review_0_desc
    "Songs with no review are treated like songs with a three-lighter review. Give them a review rating to impact how often they appear!")
 (review_1
@@ -22325,13 +22325,13 @@
 (seldiff_as_made_famous
    "As made famous by...")
 (seldiff_bass
-   "BASS")
+   "BAIXO")
 (seldiff_battle_type
    "<alt>%s</alt> - %s")
 (seldiff_guitar
-   "GUITAR")
+   "GUITARRA")
 (select
-   "SELECT")
+   "SELECIONAR")
 (select_band_only_local_leader
    "Sorry, only the leader of this game can choose the band that's playing.")
 (select_finish
@@ -22533,21 +22533,21 @@
 (set_lag_manually
    "Manually Set")
 (set_list_named_title
-   "%s <alt>%i songs</alt>")
+   "%s <alt>%i músicas</alt>")
 (set_list_named_title_singular
-   "%s <alt>1 song</alt>")
+   "%s <alt>1 música</alt>")
 (set_list_partyshuffle_title
-   "PARTY SHUFFLE <alt>%i songs</alt>")
+   "REPERTÓRIO ALEATÓRIO <alt>%i músicas</alt>")
 (set_list_partyshuffle_title_singular
-   "PARTY SHUFFLE <alt>1 song</alt>")
+   "REPERTÓRIO ALEATÓRIO <alt>1 música</alt>")
 (set_list_song_count
-   "%s songs")
+   "%s músicas")
 (set_list_title
-   "SETLIST <alt>(%i songs)</alt>")
+   "REPERTÓRIO <alt>(%i músicas)</alt>")
 (set_list_tour_title
-   "%s SETLIST <alt>%i songs</alt>")
+   "REPERTÓRIO: %s <alt>%i músicas</alt>")
 (set_list_tour_title_singular
-   "%s SETLIST <alt>1 song</alt>")
+   "REPERTÓRIO: %s <alt>1 música</alt>")
 (sexyshorts_cotton
    "Long Story Shorts")
 (sexyshorts_cotton_desc
@@ -22627,9 +22627,9 @@
 (shell_char_rename
    "Rename")
 (shell_choose_difficulty
-   "CHOOSE DIFFICULTY")
+   "ESCOLHER DIFICULDADE")
 (shell_choose_guitar_part
-   "Choose Instrument")
+   "Escolher Instrumento")
 (shell_createband_no_name
    "You must name your band before it can be created.")
 (shell_delete_patch
@@ -22945,13 +22945,13 @@
 (song_info_cache_search
    "Searching for Rock Band 3 Song Cache...")
 (song_length_1_short
-   "Short Songs")
+   "Músicas Curtas")
 (song_length_2_medium
-   "Medium Length Songs")
+   "Músicas com Duração Normal")
 (song_length_3_long
-   "Long Songs")
+   "Músicas Longas")
 (song_length_4_marathon
-   "Neverending Epic Songs")
+   "Músicas Épicas Intermináveis")
 (song_length_fmt
    "{int::minutes}:{int:02:seconds}")
 (song_mgr_full_warning_fmt
@@ -22965,101 +22965,101 @@
    "Sorry, Rock Band is limited to a max of %d songs available in-game, which you have reached. Until you get back below this limit, some songs may not load. You can remove the songs that Rock Band has already loaded by going to the Music Library and selecting song details on the song you wish to remove.  You can also remove any song, pack, or album from the Xbox Dashboard.  If you later wish to restore a removed song, you can always re-download from the Music Store (you do not have to re-purchase a song you have already purchased).")
 #endif
 (song_select
-   "Select Song")
+   "Selecionar Música")
 (song_select_clear_setlist
-   "Do you want to clear your setlist?")
+   "Você quer esvaziar seu repertório?")
 (song_select_disc_song_count
-   "%s Disc Songs")
+   "%s Músicas do Jogo")
 (song_select_downloading
-   "Downloading...")
+   "Baixando...")
 (song_select_download_song_count
-   "%s Download Songs")
+   "%s Músicas Baixadas")
 (song_select_functions
-   "Functions")
+   "Funções")
 (song_select_play_all
-   "(Play All)")
+   "(Jogar Todas as Músicas)")
 (song_select_song
-   "%s Song")
+   "%s Música")
 (song_select_songs
-   "%s Songs")
+   "%s Músicas")
 (song_select_song_count
-   "%s Songs")
+   "%s Músicas")
 (song_select_user
-   "%s is choosing song")
+   "%s está escolhendo uma música")
 (song_track_fmt
    "%i.")
 (song_trainer_key_1
-   "Song Lesson 1")
+   "Lição 1")
 (song_trainer_key_10
-   "Song Lesson 10")
+   "Lição 10")
 (song_trainer_key_10_desc
    "")
 (song_trainer_key_11
-   "Song Lesson 11")
+   "Lição 11")
 (song_trainer_key_11_desc
    "")
 (song_trainer_key_12
-   "Song Lesson 12")
+   "Lição 12")
 (song_trainer_key_12_desc
    "")
 (song_trainer_key_13
-   "Song Lesson 13")
+   "Lição 13")
 (song_trainer_key_13_desc
    "")
 (song_trainer_key_14
-   "Song Lesson 14")
+   "Lição 14")
 (song_trainer_key_14_desc
    "")
 (song_trainer_key_15
-   "Song Lesson 15")
+   "Lição 15")
 (song_trainer_key_15_desc
    "")
 (song_trainer_key_1_desc
    "")
 (song_trainer_key_2
-   "Song Lesson 2")
+   "Lição 2")
 (song_trainer_key_2_desc
    "")
 (song_trainer_key_3
-   "Song Lesson 3")
+   "Lição 3")
 (song_trainer_key_3_desc
    "")
 (song_trainer_key_4
-   "Song Lesson 4")
+   "Lição 4")
 (song_trainer_key_4_desc
    "")
 (song_trainer_key_5
-   "Song Lesson 5")
+   "Lição 5")
 (song_trainer_key_5_desc
    "")
 (song_trainer_key_6
-   "Song Lesson 6")
+   "Lição 6")
 (song_trainer_key_6_desc
    "")
 (song_trainer_key_7
-   "Song Lesson 7")
+   "Lição 7")
 (song_trainer_key_7_desc
    "")
 (song_trainer_key_8
-   "Song Lesson 8")
+   "Lição 8")
 (song_trainer_key_8_desc
    "")
 (song_trainer_key_9
-   "Song Lesson 9")
+   "Lição 9")
 (song_trainer_key_9_desc
    "")
 (song_trainer_pg_1
-   "Song Lesson 1")
+   "Lição 1")
 (song_trainer_pg_10
-   "Song Lesson 10")
+   "Lição 10")
 (song_trainer_pg_10_desc
    "")
 (song_trainer_pg_11
-   "Song Lesson 11")
+   "Lição 11")
 (song_trainer_pg_11_desc
    "")
 (song_trainer_pg_12
-   "Song Lesson 12")
+   "Lição 12")
 (song_trainer_pg_12_desc
    "")
 (song_trainer_pg_13_desc
@@ -23071,41 +23071,41 @@
 (song_trainer_pg_1_desc
    "")
 (song_trainer_pg_2
-   "Song Lesson 2")
+   "Lição 2")
 (song_trainer_pg_2_desc
    "")
 (song_trainer_pg_3
-   "Song Lesson 3")
+   "Lição 3")
 (song_trainer_pg_3_desc
    "")
 (song_trainer_pg_4
-   "Song Lesson 4")
+   "Lição 4")
 (song_trainer_pg_4_desc
    "")
 (song_trainer_pg_5
-   "Song Lesson 5")
+   "Lição 5")
 (song_trainer_pg_5_desc
    "")
 (song_trainer_pg_6
-   "Song Lesson 6")
+   "Lição 6")
 (song_trainer_pg_6_desc
    "")
 (song_trainer_pg_7
-   "Song Lesson 7")
+   "Lição 7")
 (song_trainer_pg_7_desc
    "")
 (song_trainer_pg_8
-   "Song Lesson 8")
+   "Lição 8")
 (song_trainer_pg_8_desc
    "")
 (song_trainer_pg_9
-   "Song Lesson 9")
+   "Lição 9")
 (song_trainer_pg_9_desc
    "")
 (sop_not_enough_money
-   "You don't have enough money to buy this!")
+   "Você não tem dinheiro suficiente para comprar isso!")
 (sort_setting
-   "Sorted By")
+   "Sorteado Por")
 (soul
    "Soul")
 (southernrock
@@ -23203,7 +23203,7 @@
 (spiraltrans
    "Transparent Spiral")
 (splash_loading
-   "Loading...")
+   "Carregando...")
 (sportbikeboots_leather
    "Hanzo Boots")
 (sportbikeboots_leather_desc
@@ -23225,7 +23225,7 @@
 (standins_help
    "Stand-ins play in your band when members are absent!")
 (standins_select_character
-   "Select Character")
+   "Selecionar Personagem")
 (starcaster
    "Fender<sup>TM</sup> Starcaster<sup>TM</sup>")
 (starcaster_desc
@@ -23253,7 +23253,7 @@
 (static_tip_practice_mode
    "")
 (statistics
-   "STATISTICS")
+   "ESTATÍSTICAS")
 (steel
    "Steel")
 (step_1
@@ -23263,7 +23263,7 @@
 (step_3
    "Step 3. Right Hand+ Left Hand + Foot Grooving")
 (stockholm
-   "Stockholm")
+   "Estocolmo")
 (stompershoes_leather
    "Tommy Stompers")
 (stompershoes_leather_desc
@@ -23277,9 +23277,9 @@
 (store_back_song
    "Back to \q%s\q")
 (store_buy_now
-   "Purchase")
+   "Comprar")
 (store_buy_upgrade
-   "Purchase Pro Guitar Upgrade")
+   "Comprar Upgrade de Guitarra PRO")
 #ifdef HX_PS3
 (store_buy_warning_ps3
    "NOTE: Many Rock Band 3 tracks are available as both singles and packs sold at a discounted rate over individual purchases. These tracks are exactly the same (unless otherwise noted).")
@@ -23289,9 +23289,9 @@
    "NOTE: Many Rock Band 3 tracks are available as both singles and packs sold at a discounted rate over individual purchases. These tracks are exactly the same (unless otherwise noted).")
 #endif
 (store_cancel_button
-   "Cancel")
+   "Cancelar")
 (store_coming_soon
-   "Coming Soon")
+   "Em Breve")
 (store_coming_soon_fmt
    "%s (%s)")
 (store_currency
@@ -23301,13 +23301,13 @@
 (store_decade
    "%is")
 (store_downloading
-   "Downloading Preview...")
+   "Baixando Prévia...")
 (store_download_again
-   "Download Again")
+   "Baixar Novamente")
 (store_download_demo
-   "Download Demo")
+   "Baixar Demo")
 (store_download_upgrade_again
-   "Download Pro Guitar Upgrade Again")
+   "Baixar Upgrade de Guitarra PRO Novamente")
 (store_easy
    "Beginner")
 #ifdef HX_PS3
@@ -23345,11 +23345,11 @@
 (store_error_store_server
    "Unable to connect to the Music Store server at this time. Please try again later.")
 (store_esrb_everyone
-   "Everyone")
+   "Livre para Todos os Públicos")
 (store_esrb_everyone10
-   "Everyone 10+")
+   "10+")
 (store_esrb_teen
-   "Teen")
+   "14+")
 (store_famous_by
    "As Made Famous By")
 (store_filter_crumb_join
@@ -23371,15 +23371,15 @@
 (store_medium
    "Intermediate")
 (store_more_info
-   "More Info")
+   "Mais Informações")
 (store_need_to_signin
    "To visit the Rock Band 3 Music Store, you must be signed into an Xbox LIVE enabled gamer profile and connected to Xbox LIVE.")
 (store_need_to_signin_not_guest
    "To visit the Rock Band 3 Music Store, you must be signed into an Xbox LIVE enabled gamer profile and connected to Xbox LIVE. Guests cannot visit the Music Store.")
 (store_new
-   "NEW!")
+   "NOVO!")
 (store_new_release
-   "new release!")
+   "novo lançamento!")
 (store_next_chunk
    "Next Set")
 (store_nonalpha_group
@@ -23427,9 +23427,9 @@
 (store_warning_no_part
    "Não")
 (story_movie_pause_resume
-   "Resume")
+   "Voltar")
 (story_movie_pause_skip
-   "Skip")
+   "Pular")
 (straitjacket_tattered
    "Fashionable but Irrational")
 (straitjacket_tattered_desc
@@ -23579,11 +23579,11 @@
 (subgenre_acidjazz
    "Acid Jazz")
 (subgenre_acoustic
-   "Acoustic")
+   "Acústico")
 (subgenre_alternative
-   "Alternative")
+   "Alternativo")
 (subgenre_alternativerap
-   "Alternative Rap")
+   "Rap Alternativo")
 (subgenre_ambient
    "Ambient")
 (subgenre_arena
@@ -23603,15 +23603,15 @@
 (subgenre_classic
    "Classic")
 (subgenre_classical
-   "Classical")
+   "Música Clássica")
 (subgenre_classicrock
-   "Classic Rock")
+   "Rock Clássico")
 (subgenre_college
-   "College")
+   "Universitário")
 (subgenre_contemporary
-   "Contemporary")
+   "Contemporâneo")
 (subgenre_contemporaryfolk
-   "Contemporary Folk")
+   "Folk Contemporâneo")
 (subgenre_core
    "Core")
 (subgenre_country
@@ -23693,7 +23693,7 @@
 (subgenre_noise
    "Noise")
 (subgenre_novelty
-   "Novelty")
+   "Novidade")
 (subgenre_numetal
    "Nu-Metal")
 (subgenre_oldies
@@ -23701,7 +23701,7 @@
 (subgenre_oldschoolhiphop
    "Old School Hip Hop")
 (subgenre_other
-   "Other")
+   "Outros")
 (subgenre_outlaw
    "Outlaw")
 (subgenre_pop
@@ -23711,11 +23711,11 @@
 (subgenre_power
    "Power")
 (subgenre_prog
-   "Prog")
+   "Progressivo")
 (subgenre_progrock
-   "Prog Rock")
+   "Rock Progressivo")
 (subgenre_psychadelic
-   "Psychedelic")
+   "Psicodélico")
 (subgenre_ragtime
    "Ragtime")
 (subgenre_rap
@@ -23879,17 +23879,17 @@
 (tallgogos_vinyl_desc
    "You'll put the boom-boom into their hearts with these fierce retro go gos.")
 (tamb_rating_1
-   "IDLE")
+   "PÉSSIMO")
 (tamb_rating_2
-   "MESSY")
+   "CONFUSO")
 (tamb_rating_3
-   "WEAK")
+   "FRACO")
 (tamb_rating_4
-   "OKAY")
+   "OK")
 (tamb_rating_5
-   "STRONG")
+   "DEDICADO")
 (tamb_rating_6
-   "AWESOME")
+   "INCRÍVEL")
 (tanktopscarf_unionjack
    "Negative Union")
 (tanktopscarf_unionjack_desc
@@ -23995,7 +23995,7 @@
 (techno
    "Techno")
 (teen
-   "Teen")
+   "Adolescente")
 (telebass
    "Squier<sup>TM</sup> Vintage Modified Precision Bass® TB")
 (telebass_desc
@@ -24025,7 +24025,7 @@
 (telecaster06_desc
    "Some say the secret to the inimitable twang of the golden-era Tele<sup>TM</sup> lies in some alchemical influence of the ferrous \qashtray\q bridge cover on the magnetic field surrounding the bridge pickup.")
 (temp_artist
-   "Artist Name")
+   "Nome do Artista")
 (temp_fakestats
    "%#3")
 (temp_gamertag
@@ -24039,37 +24039,37 @@
 (temp_mainmenumessage
    "You're close to earning a van in your Career!")
 (temp_moreinfo
-   "More Info")
+   "Mais Informações")
 (temp_score
    "12,345")
 (temp_scoreplaceholder
    "0/500")
 (the00s
-   "'00s Hits")
+   "Hits dos anos 1900")
 (the10s
-   "'10s Hits")
+   "Hits dos anos 10")
 (the1960s
-   "'60s Songs")
+   "Década de 60")
 (the1970s
-   "'70s Songs")
+   "Década de 70")
 (the1980s
-   "'80s Songs")
+   "Década de 80")
 (the1990s
-   "'90s Songs")
+   "Década de 90")
 (the2000s
-   "'00s Songs")
+   "Anos 2000")
 (the2010s
-   "'10s Songs")
+   "Anos 2010")
 (the20s
-   "'20s Hits")
+   "Hits dos anos 20")
 (the60s
-   "'60s Hits")
+   "Hits dos anos 60")
 (the70s
-   "'70s Hits")
+   "Hits dos anos 70")
 (the80s
-   "'80s Hits")
+   "Hits dos anos 80")
 (the90s
-   "'90s Hits")
+   "Hits dos anos 90")
 (theater
    "Theater")
 (thehandbass_resource
@@ -24280,22 +24280,22 @@
    "The offer for this token has expired.")
 #ifdef HX_XBOX
 (token_redemption_wrong_platform
-   "This token is not valid on the Xbox 360 console.")
+   "Este token não é válido no Xbox 360.")
 #endif
 #ifdef HX_PS3
 (token_redemption_wrong_platform
-   "This token is not valid on the PlayStation®3 system.")
+   "Este token não é válido no PlayStation®3.")
 #endif
 #ifdef HX_WII
 (token_redemption_wrong_platform
-   "This token is not valid on the Wii console.")
+   "Este token não é válido no Wii.")
 #endif
 #ifdef HX_PC
 (token_redemption_wrong_platform
-   "This token is not valid on the Xbox 360 console.")
+   "Este token não é válido no Xbox 360.")
 #endif
 (tokyo
-   "Tokyo")
+   "Tóquio")
 (tom_blue
    "tom")
 (tom_orange
@@ -24307,9 +24307,9 @@
 (toronado_desc
    "Introduced in 1998, the Toronado<sup>TM</sup> offers knobs and a selector switch built directly in to the body for an entirely distinct and frills-free appearance.")
 (torso_l_shoulder
-   "Left Shoulder")
+   "Ombro Esquerdo")
 (torso_r_shoulder
-   "Right Shoulder")
+   "Ombro Direito")
 (total_earned_for_event
    "Total Earned:")
 (total_header_score
@@ -24337,15 +24337,15 @@
 (tourdesc_stars_needed
    "%i <alt>c</alt>")
 (tourdifficulty_easy
-   "Easy")
+   "Fácil")
 (tourdifficulty_expert
    "Expert")
 (tourdifficulty_hard
-   "Hard")
+   "Difícil")
 (tourdifficulty_medium
-   "Medium")
+   "Médio")
 (tourinfo_bandname
-   "Band Info")
+   "Informação da Banda")
 (tourproperty_addformat
    "+ %.1f")
 (tourproperty_divideformat
@@ -24591,11 +24591,11 @@
 (tour_current_setlist
    "Setlist: %s (%i song set)")
 (tour_customize_title
-   "Choose a Road Challenge")
+   "Escolher um Road Challenge")
 (tour_custom_song
    "(Your choice)")
 (tour_desc_songcount
-   "%i songs")
+   "%i músicas")
 (tour_desc_starcount
    "%i <alt>*</alt> needed to win")
 (tour_desc_unlockinfo
@@ -24729,15 +24729,15 @@
 (tour_hub_band_space_button
    "Treinamento")
 (tour_hub_customizeband
-   "Customize Band")
+   "Personalizar Banda")
 (tour_hub_customizechar
-   "Customize Character")
+   "Personalizar Personagem")
 (tour_hub_quickplay_button
    "Biblioteca de Música")
 (tour_hub_shop_button
    "Personalizar")
 (tour_hub_tour_button
-   "Start a Road Challenge")
+   "Iniciar um Road Challenge")
 (tour_hub_tour_button_continue
    "Continue Tour")
 (tour_hub_travel_button
@@ -24811,31 +24811,31 @@
 (tour_notavailable_msg
    "%s: To unlock this Road Challenge, you'll need more fans!  You can earn more fans by completing goals.  Visit Career for more details!")
 (tour_no_band
-   "Your Band")
+   "Sua Banda")
 (tour_placeholder_rival_1
    "bchan wii60")
 (tour_progress_next_status
    "You are %i <alt>*</alt> from %s")
 (tour_property_fans
-   "Fans")
+   "Fãs")
 (tour_property_fans_amount
-   "Fans - %i")
+   "Fãs - %i")
 (tour_property_money
-   "Money")
+   "Dinheiro")
 (tour_property_money_amount
-   "Money - %i")
+   "Dinheiro - %i")
 (tour_property_reputation
-   "Reputation")
+   "Reputação")
 (tour_property_reputation_amount
-   "Reputation - %i")
+   "Reputação - %i")
 (tour_questfilters_bonus
    "(+<alt>F</alt>%i)")
 (tour_quest_description
-   "Description")
+   "Descrição")
 (tour_quest_progress
    "Gig %i of %i")
 (tour_random_song
-   "(Randomly selected)")
+   "(Selec. Aleatóriamente)")
 (tour_regional1
    "Wicked Awesome Trip")
 (tour_regional1_conclusion
@@ -24867,15 +24867,15 @@
 (tour_results_base_fans
    "%i")
 (tour_results_button
-   "Continue")
+   "Continuar")
 (tour_results_current_status
    "Status: %s")
 (tour_results_difficulty_label
-   "Difficulty")
+   "Dificuldade")
 (tour_results_fans
    "%i")
 (tour_results_fansearned_label
-   "Fans Earned")
+   "Fãs Conquistados")
 (tour_results_fans_total
    "Fans Earned This Gig")
 (tour_results_fan_entry
@@ -24885,27 +24885,27 @@
 (tour_results_leaderboard
    "Leaderboard")
 (tour_results_next_status
-   "Next: %s (%i more fans)")
+   "Próximo: %s (+%i fãs)")
 (tour_results_progress
-   "Song")
+   "Música")
 (tour_results_quest_fans
    "%i")
 (tour_results_quest_fans_label
-   "[%s] completed for all songs")
+   "[%s] completado para todas as músicas")
 (tour_results_quest_label
    "Band Challenge")
 (tour_results_title
    "The Band Names improved their reputation")
 (tour_results_title2
-   "More opportunities are now available for the band!")
+   "Mais oportunidades estão disponíveis para a banda!")
 (tour_results_total_fans
    "<alt>F</alt> %i")
 (tour_results_youve_earned
-   "You've Earned")
+   "Você Ganhou")
 (tour_reward
-   "Reward:")
+   "Prêmio:")
 (tour_select_description
-   "Play songs to win <alt>c</alt> and fabulous prizes!")
+   "Jogue músicas para ganhar <alt>c</alt> e prêmios fabulosos!")
 (tour_setlist_custom
    "Custom %s Setlist")
 (tour_setlist_fixed
@@ -24965,7 +24965,7 @@
 (tour_wicked_05_flavor
    "Welcome to Boston: home of the lobster roll, surly pub crowds, and dudes named \qSully.\q")
 (to_play_here_you_need
-   "To Play Here You Need:")
+   "Para tocar aqui você precisa:")
 (to_view_set_details
    "TO VIEW SET DETAILS")
 (tracker_integer
@@ -24997,19 +24997,19 @@
 (trackshorts_stripe_desc
    "It's a butterfly... It's a train... Nope! It's just you in these keen track shorts.")
 (track_bass
-   "Bass")
+   "Baixo")
 (track_drum
-   "Drums")
+   "Bateria")
 (track_guitar
-   "Guitar")
+   "Guitarra")
 (track_vocals
-   "Vocals")
+   "Vocais")
 (traditionalfolk
    "Traditional Folk")
 (trainer_a
    "A")
 (trainer_begin
-   "BEGIN")
+   "COMEÇAR")
 (trainer_bpm
    "BPM")
 (trainer_drm_16thdoublekicks1
@@ -26407,25 +26407,25 @@
 (trainer_prokey_whammy_1_1_info
    "While playing the sustained note, use the touch strip to modulate the sound. You can do this on any sustained note. You can also obtain more Overdrive while modulating sustained notes on Energy phrases.")
 (trainer_pro_drums
-   "<alt>d</alt> PRO DRUMS")
+   "<alt>d</alt> BATERIA PRO")
 (trainer_pro_keyboard
-   "<alt>k</alt> PRO KEYS")
+   "<alt>k</alt> TECLADO PRO")
 (trainer_real_guitar
-   "<alt>g</alt> PRO GUITAR")
+   "<alt>g</alt> GUITARRA PRO")
 (trainer_trainers
-   "Instrument Trainers")
+   "Treinos de Instrumento")
 (trainer_vocals
-   "<alt>V</alt> VOCALS")
+   "<alt>V</alt> VOCAL SOLO")
 (trainer_wrong_instrument
-   "You must use the instrument associated with this Trainer.")
+   "Você deve utilizar o instrumento associado à este treino.")
 (training
-   "TRAINING")
+   "TREINAMENTO")
 (training_menu_drums
-   "DRUMS TRAINING")
+   "TREINAMENTO DE BATERIA")
 (training_menu_practice
    "PRACTICE MODE")
 (train_song
-   "Train Song")
+   "Treinar Música")
 (trance
    "Trance")
 (trash
@@ -26755,37 +26755,37 @@
 (ugc
    "Rock Band Network")
 (ugc_country_australia
-   "Australia")
+   "Austrália")
 (ugc_country_canada
-   "Canada")
+   "Canadá")
 (ugc_country_denmark
-   "Denmark")
+   "Dinamarca")
 (ugc_country_france
-   "France")
+   "França")
 (ugc_country_germany
-   "Germany")
+   "Alemanha")
 (ugc_country_ireland
-   "Ireland")
+   "Irlanda")
 (ugc_country_italy
-   "Italy")
+   "Itália")
 (ugc_country_japan
-   "Japan")
+   "Japão")
 (ugc_country_netherlands
    "Netherlands")
 (ugc_country_newzealand
-   "New Zealand")
+   "Nova Zelândia")
 (ugc_country_norway
-   "Norway")
+   "Noruega")
 (ugc_country_singapore
-   "Singapore")
+   "Singapura")
 (ugc_country_spain
-   "Spain")
+   "Espanha")
 (ugc_country_sweden
-   "Sweden")
+   "Suíça")
 (ugc_country_uk
-   "United Kingdom")
+   "Reino Unido")
 (ugc_country_us
-   "United States")
+   "Estados Unidos")
 (ugc_demo
    "Demo")
 (ugc_demo_mode_warning
@@ -26801,15 +26801,15 @@
 (ugc_demo_setlist_warning
    "Demos can't be played as part of a setlist.")
 (ugc_lang_english
-   "English")
+   "Inglês")
 (ugc_lang_french
-   "French")
+   "Francês")
 (ugc_lang_italian
-   "Italian")
+   "Italiano")
 (ugc_lang_multiple
-   "Multiple")
+   "Multiplas")
 (ugc_lang_spanish
-   "Spanish")
+   "Espanhol")
 (ugc_section_10_0
    "0% - 10%")
 (ugc_section_10_10
@@ -26901,19 +26901,19 @@
 (unison_bonus
    "UNISON BONUS")
 (unison_phrase
-   "UNISON PHRASE")
+   "FRASE EM HARMONIA")
 (unison_stat_tracker_contribution
    "Hit %0.0f unison phrases.")
 (units_lessons_singular
-   "Lesson")
+   "Lição")
 (unit_awesomes
    "Awesome Harmonies")
 (unit_awesomes_singular
    "Awesome")
 (unit_bre_plural
-   "Big Rock Endings")
+   "Finais Triunfantes")
 (unit_bre_singular
-   "Big Rock Ending")
+   "Final Triunfante")
 (unit_deploy_plural
    "Deploy")
 (unit_deploy_singular
@@ -26923,17 +26923,17 @@
 (unit_fills_singular
    "Fill")
 (unit_gems_plural
-   "Notes")
+   "Notas")
 (unit_gems_singular
-   "Note")
+   "Nota")
 (unit_lessons_plural
-   "Lessons")
+   "Lições")
 (unit_percent
    "%")
 (unit_phrases_plural
-   "Phrases")
+   "Frases")
 (unit_phrases_singular
-   "Phrase")
+   "Frase")
 (unit_rolls_plural
    "Rolls")
 (unit_rolls_singular
@@ -26943,17 +26943,17 @@
 (unit_saves_singular
    "Save")
 (unit_seconds_plural
-   "Seconds")
+   "Segundos")
 (unit_seconds_singular
-   "Second")
+   "Segundo")
 (unit_songs_plural
-   "Songs")
+   "Músicas")
 (unit_songs_singular
-   "Song")
+   "Música")
 (unit_stars_plural
-   "Stars")
+   "Estrelas")
 (unit_stars_singular
-   "Star")
+   "Estrela")
 (unit_tourstars_plural
    "<alt>c</alt>")
 (unit_tourstars_singular
@@ -26963,9 +26963,9 @@
 (unit_tours_singular
    "Tour")
 (unknown_song
-   "(Unknown Song)")
+   "(Mús. Desconhecida)")
 (unreviewed
-   "no review")
+   "sem review")
 (unshare_setlist
    "Unshare Setlist")
 (untiedankleboots_leather
@@ -26973,13 +26973,13 @@
 (untiedankleboots_leather_desc
    "These boots can carry you from breakfast to the clubs with ease.")
 (upload_button_return
-   "Return")
+   "Retornar")
 (upload_button_view_first
-   "View First Error")
+   "Ver o Primeiro Erro")
 (upload_button_view_next
-   "View Next Error")
+   "Ver Próximo Erro")
 (upload_button_view_prev
-   "View Previous Error")
+   "Ver Erro Anterior")
 #ifdef HX_PS3
 (upload_error_band_motto_ip
    "\q%s\q's greeting message is not allowed, and will not be viewable online unless it is changed.")
@@ -27133,121 +27133,121 @@
 (velocity_desc
    "The striking Velocity 2 bass has a lightweight, solid ash body. So you won't even get back pain after the fortieth time your singer insists on practicing your latest 8-minute \qjazz fusion\q opus.")
 (venue
-   "VENUE")
+   "PALCO")
 (venuesize
-   "venue size")
+   "tamanho do palco")
 (verse
-   "Verse")
+   "Verso")
 (verse_1
-   "Verse 1")
+   "Verso 1")
 (verse_1a
-   "Verse 1a")
+   "Verso 1a")
 (verse_1b
-   "Verse 1b")
+   "Verso 1b")
 (verse_1c
-   "Verse 1c")
+   "Verso 1c")
 (verse_1d
-   "Verse 1d")
+   "Verso 1d")
 (verse_1e
-   "Verse 1e")
+   "Verso 1e")
 (verse_1f
-   "Verse 1f")
+   "Verso 1f")
 (verse_2
-   "Verse 2")
+   "Verso 2")
 (verse_2a
-   "Verse 2a")
+   "Verso 2a")
 (verse_2b
-   "Verse 2b")
+   "Verso 2b")
 (verse_2c
-   "Verse 2c")
+   "Verso 2c")
 (verse_2d
-   "Verse 2d")
+   "Verso 2d")
 (verse_2e
-   "Verse 2e")
+   "Verso 2e")
 (verse_2f
-   "Verse 2f")
+   "Verso 2f")
 (verse_3
-   "Verse 3")
+   "Verso 3")
 (verse_3a
-   "Verse 3a")
+   "Verso 3a")
 (verse_3b
-   "Verse 3b")
+   "Verso 3b")
 (verse_3c
-   "Verse 3c")
+   "Verso 3c")
 (verse_3d
-   "Verse 3d")
+   "Verso 3d")
 (verse_3e
-   "Verse 3e")
+   "Verso 3e")
 (verse_3f
-   "Verse 3f")
+   "Verso 3f")
 (verse_4
-   "Verse 4")
+   "Verso 4")
 (verse_4a
-   "Verse 4a")
+   "Verso 4a")
 (verse_4b
-   "Verse 4b")
+   "Verso 4b")
 (verse_4c
-   "Verse 4c")
+   "Verso 4c")
 (verse_4d
-   "Verse 4d")
+   "Verso 4d")
 (verse_5
-   "Verse 5")
+   "Verso 5")
 (verse_5a
-   "Verse 5a")
+   "Verso 5a")
 (verse_5b
-   "Verse 5b")
+   "Verso 5b")
 (verse_5c
-   "Verse 5c")
+   "Verso 5c")
 (verse_5d
-   "Verse 5d")
+   "Verso 5d")
 (verse_6
-   "Verse 6")
+   "Verso 6")
 (verse_6a
-   "Verse 6a")
+   "Verso 6a")
 (verse_6b
-   "Verse 6b")
+   "Verso 6b")
 (verse_6c
-   "Verse 6c")
+   "Verso 6c")
 (verse_6d
-   "Verse 6d")
+   "Verso 6d")
 (verse_7
-   "Verse 7")
+   "Verso 7")
 (verse_7a
-   "Verse 7a")
+   "Verso 7a")
 (verse_7b
-   "Verse 7b")
+   "Verso 7b")
 (verse_7c
-   "Verse 7c")
+   "Verso 7c")
 (verse_7d
-   "Verse 7d")
+   "Verso 7d")
 (verse_8
-   "Verse 8")
+   "Verso 8")
 (verse_8a
-   "Verse 8a")
+   "Verso 8a")
 (verse_8b
-   "Verse 8b")
+   "Verso 8b")
 (verse_8c
-   "Verse 8c")
+   "Verso 8c")
 (verse_8d
-   "Verse 8d")
+   "Verso 8d")
 (verse_9
-   "Verse 9")
+   "Verso 9")
 (verse_9a
-   "Verse 9a")
+   "Verso 9a")
 (verse_9b
-   "Verse 9b")
+   "Verso 9b")
 (verse_9c
-   "Verse 9c")
+   "Verso 9c")
 (verse_9d
-   "Verse 9d")
+   "Verso 9d")
 (verse_riff
-   "Verse riff")
+   "Verso riff")
 (verse_riff_1
-   "Verse riff 1")
+   "Verso riff 1")
 (verse_riff_2
-   "Verse riff 2")
+   "Verso riff 2")
 (verse_riff_3
-   "Verse riff 3")
+   "Verso riff 3")
 (versityjacket_leather
    "Varsity Jacket")
 (versityjacket_leather_desc
@@ -27305,13 +27305,13 @@
 (view_record_label
    "View Record Label Details")
 (view_setlists
-   "Setlists")
+   "Repertórios")
 (view_setlists_by_line
    "Create a setlist, or browse saved setlists from you and your friends.")
 (view_songs
-   "Songs")
+   "Músicas")
 (view_statistics
-   "View Statistics")
+   "Ver Estatísticas")
 (vignetteviewer_hidden_title
    "???")
 (vignetteviewer_locked
@@ -27331,11 +27331,11 @@
 (vignetteviewer_rv7
    "The End?")
 (vignetteviewer_seebandhistory
-   "View Band History")
+   "Ver História da Banda")
 (violin_intro
-   "Violin intro")
+   "Intro Violino")
 (visible_scores
-   "Instrument Scores")
+   "Pontuações dos Instrumentos")
 (vneckmale_cotton
    "Good Guy V-neck")
 (vneckmale_cotton_desc
@@ -27347,28 +27347,28 @@
 (vocals
    "vocal solo")
 (vocalstyle_scrolling
-   "Scrolling")
+   "Em Rolo")
 (vocalstyle_static
-   "Static")
+   "Estático")
 (vocals_connect_a_mic
-   "Connect a Mic")
+   "Conecte um Mic.")
 (vocals_mics_disconnected
-   "Mic(s) Disconnected")
+   "Mic(s) Desconectado(s)")
 #ifdef HX_XBOX
 (vocals_pad_lost
-   "Xbox 360 controller")
+   "Controle de Xbox 360")
 #endif
 #ifdef HX_PS3
 (vocals_pad_lost
-   "wireless controller")
+   "Controle Wireless")
 #endif
 #ifdef HX_WII
 (vocals_pad_lost
-   "Wii Remote")
+   "Controle de Wii")
 #endif
 #ifdef HX_PC
 (vocals_pad_lost
-   "Xbox 360 controller")
+   "Controle de Xbox 360")
 #endif
 (vocal_break
    "Vocal break")
@@ -27379,25 +27379,25 @@
 (vocal_break_3
    "Vocal break 3")
 (vocal_hud
-   "STATIC VOCAL STYLE")
+   "ESTILO VOCAL ESTÁTICO")
 (vocal_intro
    "Vocal intro")
 (vocal_lessons
-   "Vocal Lessons")
+   "Lições de Vocal")
 (vocal_options
-   "Vocal Options")
+   "Opções de Vocal")
 (vocal_parts
    "Instruments")
 (vocal_parts_1
-   "Solo Vocals")
+   "Vocal Solo")
 (vocal_parts_2
-   "2-Part Harmony")
+   "Harmonia (2 partes)")
 (vocal_parts_3
-   "3-Part Harmony")
+   "Harmonia (3 partes)")
 (vocal_pitch_correction_on
-   "Pitch Correction: ON")
+   "Auto-Tune: ON")
 (vocal_volume
-   "Vocalist Volume")
+   "Vol. Vocalista")
 (voice_chat_disabled
    "Chat is disabled on your PlayStation®Network account due to chat restrictions.")
 (vox_practice_percent
