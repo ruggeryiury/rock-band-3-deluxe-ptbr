@@ -8211,15 +8211,15 @@
 (edit_setlist
    "Edit Setlist Info")
 (edit_setlist_art
-   "Edit Setlist Art")
+   "Editar Arte do Repertório")
 (edit_setlist_description
-   "Edit Description")
+   "Edit Descrição")
 (edit_setlist_duration
    "Edit Duration")
 (edit_setlist_instrument
    "Edit Instrument")
 (edit_setlist_name
-   "Edit Name")
+   "Editar Nome")
 (edit_setlist_success
    "Your setlist was successfully edited.")
 (eg_key_format
@@ -8319,9 +8319,9 @@
 (end_game_vox
    "Keep Singing!")
 (enqueue_all
-   "ADD ALL TO SETLIST")
+   "ADICIONAR TODAS AO REPERTÓRIO")
 (enqueue_song
-   "ADD SONG TO SETLIST")
+   "ADICIONAR MÚSICA AO REPERTÓRIO")
 #ifdef HX_PS3
 (error_abandoned
    "Your online band session has ended.")
@@ -11361,11 +11361,11 @@
 (hi_melody
    "High melody")
 (hold_finish_setlist
-   "SEGURE PARA TERMINAR REPERTÓRIO")
+   "SEGURAR: CONCLUIR\nREPERTÓRIO")
 (hold_for_shortcuts
-   "SEGURE PARA VER ATALHOS")
+   "SEGURAR: VER ATALHOS")
 (hold_make_setlist
-   "SEGURE PARA FAZER UM REPERTÓRIO")
+   "SEGURAR: FAZER UM REPERTÓRIO")
 (honkytonk
    "Honky Tonk")
 (hoodedsweatshirt_moscowsputnik
@@ -16175,7 +16175,7 @@
 (play_set
    "PLAY SETLIST")
 (play_setlist
-   "Finish Setlist")
+   "Concluir Repertório")
 (play_setlist_by_line
    "Finalize and play the setlist.")
 (play_song
@@ -22247,7 +22247,7 @@
 (save_game
    "Save Game")
 (save_setlist_before_playing
-   "Now that you've built a setlist, what would you like to do with it?")
+   "Agora que você criou um repertório, o que gostaria de fazer com ele?")
 (savior
    "SAVIOR")
 (sax_solo
@@ -22369,7 +22369,7 @@
 (setlist_bassbossmedium
    "Hall of Fame Induction Setlist")
 (setlist_browser
-   "Setlist Browser")
+   "Repertórios")
 #ifdef HX_PS3
 (setlist_content_restricted
    "One or more songs in this setlist is disabled due to parental control restrictions on your PlayStation®3 system. You are not allowed to access this setlist.")
@@ -22387,9 +22387,9 @@
    "One or more songs in this setlist is disabled due to parental control restrictions on your Xbox 360 console. You are not allowed to access this setlist.")
 #endif
 (setlist_default_desc
-   "Description of my custom setlist.")
+   "Descrição do Meu Repertório.")
 (setlist_default_name
-   "My Custom Setlist")
+   "Meu Repertório")
 (setlist_done_fmt
    "%s: %i songs selected (done)")
 (setlist_doolittle
@@ -22401,9 +22401,9 @@
 (setlist_drumsbossmedium
    "Hall of Fame Induction Setlist")
 (setlist_drumsongs
-   "Drummer's Delight")
+   "Deleites Baterísticos")
 (setlist_drumsongs_desc
-   "Pound the skins of your drum pads along to these fun drum songs!")
+   "Diminua a vida útil dos pads da sua bateria com estas músicas!")
 (setlist_endless
    "The Endless Setlist")
 (setlist_endless3
@@ -22419,9 +22419,9 @@
 (setlist_guitarbossmedium
    "Hall of Fame Induction Setlist")
 (setlist_guitarsongs
-   "Guitar Shredders")
+   "Quebra Tudo, Guitarrista!")
 (setlist_guitarsongs_desc
-   "Melt faces with these awesome songs")
+   "Deixe algumas pessoas de queixo caído tocando estes hits!")
 (setlist_harmonix
    "Harmonix Recommends")
 (setlist_harmonyvocalsbossexpert
@@ -22433,11 +22433,11 @@
 (setlist_header_battles
    "Battles")
 (setlist_header_custom
-   "Custom Setlists")
+   "Repertórios Personalizados")
 (setlist_header_internal
-   "Built-In Setlists")
+   "Repertórios do Jogo")
 (setlist_internal
-   "Built-In Setlist")
+   "Repertório do Jogo")
 (setlist_keysbossexpert
    "Hall of Fame Induction Setlist")
 (setlist_keysbosshard
@@ -22507,11 +22507,11 @@
 (setlist_save_battle
    "Submit As Battle")
 (setlist_save_local
-   "Save Locally")
+   "Salvar Localmente")
 (setlist_save_share
-   "Save and Share with Friends")
+   "Salvar e Compartilhar com Amigos")
 (setlist_save_unsaved
-   "Play Without Saving")
+   "Jogar Sem Salvar")
 (setlist_secretshames
    "Your Secret Shames")
 (setlist_secretshames_desc
@@ -26771,7 +26771,7 @@
 (ugc_country_japan
    "Japão")
 (ugc_country_netherlands
-   "Netherlands")
+   "Países-Baixos")
 (ugc_country_newzealand
    "Nova Zelândia")
 (ugc_country_norway
