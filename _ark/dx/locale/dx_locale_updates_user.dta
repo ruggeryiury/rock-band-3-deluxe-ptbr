@@ -1,7 +1,3 @@
-;DO NOT MAKE COMMITS TO THIS FILE ON GITHUB
-;put your own custom locale strings here
-;ex.
-;(overshell_rb3esettings "FART Settings")
 (axebr "Axé")
 (bossanova "Bossa Nova")
 (bregatechnobrega "Brega/Techno Brega")
@@ -26,12 +22,13 @@
 (subgenre_sertanejo "Sertanejo")
 (subgenre_sertanejo_u "Sertanejo Universitário")
 
+; DX Locales
 #ifdef RB3E
 (main_menu_welcome
-   "Bem-vindo ao Rock Band 3 Deluxe + RB3Enhanced!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe e RB3Enhanced são MODs gratuítos, se você pagou por estes MODs, você foi vítima de um golpe!")
+   "Bem-vindo(a) ao Rock Band 3 Deluxe + RB3Enhanced!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe e RB3Enhanced são MODs gratuítos, se você pagou por estes MODs, você foi vítima de um golpe!")
 #else
 (main_menu_welcome
-   "Bem-vindo ao Rock Band 3 Deluxe!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe é um MOD desenvolvido pelo grupo MiloHax, se você pagou por estes MODs, você foi vítima de um golpe!")
+   "Bem-vindo(a) ao Rock Band 3 Deluxe!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe é um MOD desenvolvido pelo grupo MiloHax, se você pagou por estes MODs, você foi vítima de um golpe!")
 #endif
 (relative_writes_warn
    "AVISO\n\nRock Band 3 Deluxe não poderá salvar apropriadamente suas configurações porque a opção de escrever arquivos relativos ao caminho do seu PC está desabilitado no Xenia.\n\nVá no arquivo de configuração do Xenia (xenia-canary.config.toml) e mude o valor da chave 'allow_game_relative_writes' para TRUE (verdadeiro).")
@@ -63,7 +60,7 @@
    "Este teste determina a quantidade de Latência no Áudio do seu sistema. Toda vez que você ouvir um tique, pressione o botão A.")
 #endif
 (dx_track_speed_locked "O Menu de Vel. Trilha não pode ser acessado jogando online.")
-(dx_track_speed_desc "A Velocidade Suicída é equivamente à 150% de Velocidade da Trilha.")
+(dx_track_speed_desc "A Velocidade Suicída é equivamente à 150% de Velocidade da Trilha")
 ;server stuff
 ;gocentral
 (go_overshell_register_online "Jogar no GoCentral")
@@ -311,9 +308,9 @@
 (os_reboot "Reiniciar Jogo")
 (os_reboot_desc "Reinicie completamente o jogo")
 ;set speeds
-(os_track_speeds "Vol. das Trilhas")
-(os_acceleration_mode "Modo Acceleration")
-(os_song_speed "- Vol. da Música: %d% +")
+(os_track_speeds "Vel. das Trilhas")
+(os_acceleration_mode "Modo Aceleração")
+(os_song_speed "- Vel. da Música: %d% +")
 ;track speeds
 (all_instruments "- Todos os Instrum. +")
 (os_trkspd_guitar "- Guitarra: %d% +")
@@ -331,8 +328,8 @@
 (os_exit_cal_one "Pressione START para")
 (os_exit_cal_two "sair deste menu")
 ;acceleration mode
-(os_fastermode_on "Modo Acceleration: ON")
-(os_fastermode_off "Modo Acceleration: OFF")
+(os_fastermode_on "Modo Aceleração: ON")
+(os_fastermode_off "Modo Aceleração: OFF")
 (os_max_speed "- Vel. Máxima: %d% +")
 (os_song_rings_on "Icon. Diff.: Anéis")
 (os_song_rings_off "Icon. Diff.: Bolinhas")
@@ -348,7 +345,7 @@
 (os_menu_backgrounds "BG dos Menus...")
 (os_menu_backgrounds_desc "Mude os BGs dos menus")
 (os_venue "Selecionar Palco...")
-(os_venue_desc "Escolha aonde botar pra quebrar ou foque com um fundo vazio")
+(os_venue_desc "Escolha aonde você vai botar pra quebrar ou fique focado com nenhum BG")
 (os_venue_desc_report "Palco Atual Selecionado:\n%s")
 (os_venue_intro_on "Venue Intro: ON")
 (os_venue_intro_on_desc "Plays the establishing shot before the song starts")
@@ -372,11 +369,11 @@
 (os_nobg_off "[Habilitar Todos]")
 (os_nobg_off_desc "Reabilite os BGs dos menus")
 (os_main_menu "Menu Principal")
-(os_main_menu_desc "Backgrounds for the main menu")
+(os_main_menu_desc "Backgrounds para o menu principal")
 (os_song_select "Biblio. de Música")
-(os_song_select_desc "Backgrounds for the music library")
+(os_song_select_desc "Backgrounds para o Biblioteca de Músicas")
 (os_load_song "Trans. de Músicas")
-(os_load_song_desc "Transitions going to and from a song")
+(os_load_song_desc "Transições indo de uma música para outra")
 ;track theme
 (leave_customizer "[Leave Customizer]")
 (realtime_customize "[Enter Customizer]")
@@ -742,7 +739,7 @@
    "Welcome to the Rock Band 3 Deluxe Career!\n\nYour progress as a musician is measured by goals. As you get better at a particular instrument, you'll beat more goals for that instrument. Beating goals is a big deal; goals can give you more fans, more clothing, and even better transportation to travel around in!")
 (vocal_parts_0 "No Vocals")
 (by_recent "Source")
-(overshell_rb3esettings "Deluxe Settings")
+(overshell_rb3esettings "Opções Deluxe")
 (trackspeed_msg "NOTE SPEED: %d%%")
 (speed_msg "SONG SPEED: %d%%")
 (speedcap_msg "MAX SONG SPEED: %d%%")
@@ -751,7 +748,7 @@
 (settings_save "Successfully saved Deluxe Settings and additional Modifiers to dx.dta, mod.dta, and val.dta")
 (settings_error "There was an error saving your settings, please ensure game relative writes are enabled in Xenia.")
 (os_writesettings "[Save Settings]")
-(os_welcome_msg "Welcome to Deluxe Settings")
+(os_welcome_msg "Bem-vindo(a) ")
 (os_fps "Venue FPS is set to %d\n\n(Going above 30 is not recommended for Console)")
 (os_speed "Song Speed is set to %d%%")
 (os_speed_deny "Song Speed cannot be changed mid-song.")
@@ -784,12 +781,12 @@
 (os_star_gold_fill_off "Gold Star Progress: OFF")
 (os_star_gold_fill_on_desc "Show how close you are to gold stars!")
 (os_star_gold_fill_off_desc "Show how close you are to gold stars!")
-(os_none "[None]")
+(os_none "[Nenhum]")
 (os_nobg_wii "Off")
 (os_yesbg "On")
 (os_blnk " ")
 (dx_choose_profile "CHOOSE PROFILE")
-(music_store "Play A Show <gtr>NEW!</gtr>")
+(music_store "Play A Show <gtr>NOVO!</gtr>")
 (os_bg2 "Loja de Música")
 (os_bg4 "Tour Van")
 (os_bg5 "Training Lounge")
@@ -897,15 +894,15 @@
 (os_voxarrow "Vocal Arrows")
 
 ;track themes
-(os_thmreset "[Reset]")
-(os_rb3thm "[Default]")
+(os_thmreset "[Resetar]")
+(os_rb3thm "[Padrão]")
 (os_rb4thm "Rock Band 4")
 (os_rb2thm "Rock Band 2")
 (os_rb2dxthm "Rock Band 2 DX")
 (os_tbrbthm "The Beatles: Rock Band")
 (os_rb4legacythm "RB4 (Legacy)")
 (os_yargthm "YARG")
-(os_settex "[Customize]")
+(os_settex "[Personalizar]")
 (os_thm_cherrycola "Cherry Cola")
 (os_thm_chill "Chill")
 (os_thm_outrun "Outrun")
@@ -986,7 +983,7 @@
 (os_stars "Stars")
 (os_font "Font")
 (os_solo_box "Solo Box")
-(_none "[None]")
+(_none "[Nenhum]")
 (os_odbar "Overdrive Bar")
 (os_multiring "Multiplier Ring")
 (os_crowdmeter "Crowd Meter")
@@ -1004,7 +1001,7 @@
 (os_pad_mapping "Remap pad controls")
 (os_pad_mapping_desc "Useful when using an instrument from a another console")
 (os_pad_mapping_select_desc "Select the controls you would like to remap to")
-(os_pad "Pad (Default)")
+(os_pad "Pad (Padrão)")
 (os_rbguitar "Rock Band Guitar")
 (os_ghguitar "Guitar Hero Guitar")
 (os_rbdrums "Rock Band 1 Drums")
@@ -1095,7 +1092,7 @@
 (breakneck_warning
   "Please disable other breakneck speed modifiers before enabling this one.")
 (autoplay_warning
-  "This modifer is intended to be used for authors demonstrating their charts. Saving will be disabled until you restart if you enable this.")
+  "Este modificador tem como propósito para gravar demonstrações de charts. Você não poderá salvar o jogo até você reiniciar o jogo.")
 (postfx_warning
   "Post Processing will not always completely take effect until loading into a new scene. Return to main menu now?")
 (fakejuke_warning
@@ -1109,13 +1106,13 @@
 (swap_gender_warning
    "This option will allow you to equip cosmetic items not originally supported on the current body type. Requires Reboot. Continue?")
 (saving_disabled
-   "Saving is disabled for the remainder of this session")
+   "Progressos não serão salvos até o fim desta sessão")
 (modifier_song_load
    "This modifier will not take effect until you back out start a new song. Back out now?")
 (nice_solo
-   "Nice")
+   "69 hehehe")
 (choke_solo
-   "Awesome Choke!")
+   "Quase ein!")
 ; prefab names
 (prefab_altbass "Sonic Edge")
 (prefab_altdrums "Rhythm Pulse")
@@ -1259,15 +1256,15 @@
 (os_keysod
    "Keys")
 (load_theme
-   "[Load Theme]")
+   "[Carregar Tema]")
 (save_theme
-   "[Save Theme]")
+   "[Salvar Tema]")
 (track_theme_overwrite_warning
    "Entered theme already exists.\nOverwrite?")
 (os_overwrite
    "Overwrite Theme")
 (track_theme_successfully_loaded
-   "Track Theme applied!")
+   "Tema de trilhas aplicado!")
 (no_track_theme_found
    "Track Theme failed to load from disk!")
 (track_theme_successfully_written
@@ -1316,7 +1313,7 @@
 
 ;streaks
 
-(_1_none "[None]")
+(_1_none "[Nenhum]")
 
 (_1_rb3_guitarbass "RB3 Guitar/Bass")
 (_rb3_drums "RB3 Drums")
@@ -1396,7 +1393,7 @@
 
 ;overdrive
 
-(_1_none "[None]")
+(_1_none "[Nenhum]")
 (_1_rb3_guitar "RB3 Guitar")
 (_rb3_bass "RB3 Bass")
 (_rb3_drums "RB3 Drums")
@@ -1461,7 +1458,7 @@
 (os_color_g "G")
 (os_color_b "B")
 (color_msg "Current Color:\n")
-(os_default "[Default]")
+(os_default "[Padrão]")
 (author "Author")
 (section "Section")
 (time_remaining "Time Remaining")
@@ -1520,8 +1517,8 @@
 (os_total_time_on_desc "Show the full song length on the in-game timer")
 (os_total_time_off_desc "Show the full song length on the in-game timer")
 (os_countdown_warn "Note: Pausing mid run will throw off the countdown.")
-(dx_none "[None]")
-(goul-nug_fc "[Default]")
+(dx_none "[Nenhum]")
+(goul-nug_fc "[Padrão]")
 (overshell_dx_bot_settings "Autoplay Settings")
 (os_dx_bot_skill "Accuracy")
 (os_dx_auto_endgame_on "Auto Next: Yes")
@@ -1543,8 +1540,8 @@
 (os_dx_bot_overdrive_off "Overdrive: No")
 (os_dx_bot_overdrive_drain "Overdrive: Drain")
 
-(overshell_real_guitar_22 "Pro Guitar 22")
-(overshell_real_bass_22 "Pro Bass 22")
+(overshell_real_guitar_22 "Guitarra PRO 22")
+(overshell_real_bass_22 "Baixo PRO 22")
 
 
 ;color selector options
@@ -1819,23 +1816,23 @@
 (pos_interval_7 "Position Interval: 100")
 ; Custom Goal Category Locale
 (acc_cat_guitar_dx
-   "Deluxe Goals")
+   "Objetivos Deluxe")
 (acc_cat_bass_dx
-   "Deluxe Goals")
+   "Objetivos Deluxe")
 (acc_cat_band_dx
-   "Deluxe Goals")
+   "Objetivos Deluxe")
 (acc_cat_vox_dx
-   "Deluxe Goals")
+   "Objetivos Deluxe")
 (acc_cat_drums_dx
-   "Deluxe Goals")
+   "Objetivos Deluxe")
 (acc_cat_prodrums_dx
-   "Deluxe Goals")
+   "Objetivos Deluxe")
 (acc_cat_prokeys_dx
-   "Deluxe Goals")
+   "Objetivos Deluxe")
 (acc_cat_prokeys_dx
-   "Deluxe Goals")
+   "Objetivos Deluxe")
 (acc_cat_harmonyvox_dx
-   "Deluxe Goals")
+   "Objetivos Deluxe")
 (acc_cat_band_trackpack
    "Track Packs")
 ;Custom Band Goals
@@ -6356,8 +6353,8 @@
 (reboot_warning "Are you sure you want to reboot the game?")
 #endif
 (overshell_reboot "Reboot Game")
-(reboot_theme_warning_rb3e "Default theme wont load properly until game reboot if you have already played a song.\nReboot now?")
-(reboot_theme_warning "Default theme wont load properly until game reboot if you have already played a song.\n Reboot Suggested")
+(reboot_theme_warning_rb3e "O tema padrão não irá carregar apropriadamente se você já jogou uma música até você reiniciar o jogo.\nDeseja reiniciar o jogo agora?")
+(reboot_theme_warning "O tema padrão não irá carregar apropriadamente se você já jogou uma música até você reiniciar o jogo.\nÉ recomendado reiniciar o jogo.")
 (refresh_library "Refresh Library")
 (os_button_remapper "Pad Button Remap")
 (os_button_remapper_desc "Remap in game buttons for pad play")

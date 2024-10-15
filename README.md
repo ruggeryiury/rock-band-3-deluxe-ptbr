@@ -1,10 +1,13 @@
-- [Quantidade de linhas traduzidas](#quantidade-de-linhas-traduzidas)
-- [Termos utilizados](#termos-utilizados)
+# English Guide
 
-# Quantidade de linhas traduzidas
+## About
 
-- 444/27734 linhas (1,6%)
+This is a fan localization of the Rock Band 3 Deluxe title.
 
-# Termos utilizados
+All texts were placed manually.
 
-Clique [aqui](./TERMOS.md) para acessar um documento com os termos mais comuns utilizado na localização.
+## Instalation
+
+- Download and extract the Rock Band 3 Deluxe repository somewhere in your computer.
+- Copy the `_ark` folder and replace the `_ark` folder of the Rock Band 3 Deluxe repository.
+- Build the patch and install it on your system.
