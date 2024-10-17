@@ -4389,13 +4389,13 @@
 (all_song_packs
    "Song Packs")
 (alternative
-   "Alternative")
+   "Alternativo")
 (alternativerap
-   "Alternative Rap")
+   "Rap Alternativo")
 (ambient
-   "Ambient")
+   "Ambiente")
 (amsterdam
-   "Amsterdam")
+   "Amsterdã")
 (any
    "-")
 (aodaishirt_smoke
@@ -5815,29 +5815,29 @@
 (bx3_resource_desc
    "Want a true organ sound with contemporary options? This double manual organ, with its two sets of \qlive\q drawbars, is a great performance instrument, guaranteed to attract envy and attention.")
 (by_artist
-   "Artista")
+   "Por Artista/Banda")
 (by_date
-   "Date")
+   "Pela Data")
 (by_difficulty
-   "Dificuldade")
+   "Pela Dificuldade")
 (by_length
-   "Duração")
+   "Pela Duração")
 (by_location
-   "Location")
+   "Pela Localidade")
 (by_pack
    "Por Pack de Música")
 (by_plays
-   "Vezes Tocada")
+   "Por Vezes Tocada")
 (by_rank
-   "Ranque no Leaderboard")
+   "Pela Ranque na Leaderboard")
 (by_recent
-   "Data Adquirida")
+   "Pela Data Adquirida")
 (by_review
-   "Crítica")
+   "Pela Resenha")
 (by_song
-   "Nome da Música")
+   "Pelo Nome da Música")
 (by_stars
-   "Estrelas")
+   "Por Estrelas Conquistadas")
 (c20bass
    "Jackson<sup>TM</sup> C20 Concert<sup>TM</sup> Bass")
 (c20bass_desc
@@ -5847,7 +5847,7 @@
 (calibrate_av_offset
    "A/V Sync Offset: %3.0f ms")
 (calibrate_go
-   "GO!")
+   "VAI!")
 (calibrate_lag_offset
    "Lag Offset: %3.0f ms")
 (calibrate_manual_heading
@@ -5855,11 +5855,11 @@
 (calibrate_ok
    "ok")
 (calibrate_overscan
-   "Video Overscan")
+   "Overscan do Vídeo")
 (calibrate_video_button
    "CALIBRATE VIDEO OFFSET")
 (calibration
-   "calibration settings")
+   "opções de calibragem")
 (calibration_calibrate
    "Calibrar Sistema")
 (calibration_countdown_go
@@ -5867,9 +5867,9 @@
 (calibration_finished
    "Parabéns! Sua TV está calibrada para jogar Rock Band 3! Você pode voltar neste menu a qualquer momento quando você sentir que sua jogada está fora de sincronização com sua TV.")
 (calibration_msg
-   "Want to Calibrate your system? Calibrating ensures that what you see and hear line up with what you're playing. This is especially important if you have an HDTV system or complicated stereo setup.")
+   "Você deseja calibrar o seu sistema? A calibragem vai certificar que o que você ouve estará sincronizado com o que você toca. Isto é especialmente importante se você tiver um sistema complicado de áudio ou uma televisão HD/Full HD.")
 (calibration_notice
-   "Some TVs can introduce a delay between when you hit a note and when you hear the music. If you experience this while playing, choose 'Calibration Settings' from the Options menu.")
+   "Algumas TVs pode colocar um atraso entre o que você ouve e o que você toca. Se você estiver experienciando isto enquanto estiver jogando, acesse as opções do sistema e selecione 'Calibragem'.")
 (calibration_options
    "DEBUG DA OPÇÕES DE CALIBRAGEM")
 (calibration_skip
@@ -5893,7 +5893,7 @@
    "Este teste determinará a quantidade de Latência de Áudio no seu sistema. Toda vez que ouvir uma batida, pressione o botão A.")
 #endif
 (cal_audio_fail_calbert
-   "We couldn't get a reliable audio reading. Please ensure the guitar controller is in front of a speaker and try again.\n\nIf you are in a room with a lot of echo, try lowering the volume of your speakers and try again.")
+   "Não conseguimos ter uma leitura boa da calibragem do áudio. Por favor, certifique-se que a guitarra está sendo segurada na frente do speaker aonde sai o som e tente novamente. Se você estiver numa sala com muito eco/reverbação, tente diminuir o volume dos seus speakers e tente novamente.")
 #ifdef HX_PS3
 (cal_audio_manual_instructions
    "Ajuste manualmente a quantidade de Latência de Áudio pressionado o botão direito ou esquerdo.")
@@ -5993,7 +5993,7 @@
    "Este teste determinará a quantidade de Latência do Vídeo no seu sistema. Quando você ver a agulha encostar em cada lado do medidor, pressione o botão A.")
 #endif
 (cal_video_fail_calbert
-   "Não conseguimos ter uma leitura boa do vídeo. Por favor, certifique-se que a guitarra está sendo segurada virada para o centro da TV e tente novamente. A Calibragem de Vídeo funciona melhor numa sala escura - diminua ou até mesmo desligue as luzes para um melhor resultado.")
+   "Não conseguimos ter uma leitura boa da calibragem de vídeo. Por favor, certifique-se que a guitarra está sendo segurada virada para o centro da TV e tente novamente. A Calibragem de Vídeo funciona melhor numa sala escura - diminua ou até mesmo desligue as luzes para um melhor resultado.")
 #ifdef HX_PS3
 (cal_video_manual_instructions
    "Ajuste manualmente a quantidade de Latência do Vídeo pressionado o botão direito ou esquerdo.")
@@ -7005,13 +7005,13 @@
 (classic
    "Classic")
 (classical
-   "Classical")
+   "Música Clássica")
 (classicmodslacks_cotton
    "Flashback Slacks")
 (classicmodslacks_cotton_desc
    "Flashback to the swingin' '60s in these classic mod trousers.")
 (classicrock
-   "Classic Rock")
+   "Rock Clássico")
 (cleanminiskirt_solid
    "Molly's Mini")
 (cleanminiskirt_solid_desc
@@ -10287,7 +10287,7 @@
 (filter_alphabetic_song
    "pelo nome da música")
 (filter_alternative
-   "Alternative")
+   "Alternativo")
 (filter_any
    "Open")
 (filter_blues
@@ -10321,7 +10321,7 @@
 (filter_hiphoprap
    "Hip-Hop/Rap")
 (filter_indierock
-   "Indie Rock")
+   "Rock Indie")
 (filter_inspirational
    "Inspirational")
 (filter_jazz
@@ -10381,9 +10381,9 @@
 (filter_setting_pro_guitar
    "Suporte à Guitarra/Baixo PRO")
 (filter_setting_ratings
-   "Song Ratings")
+   "Classificações")
 (filter_setting_sources
-   "Source da Música")
+   "Fonte da Música")
 (filter_setting_vocal_parts
    "Quantidade de Partes de Vocal")
 (filter_shortsongs
@@ -11235,7 +11235,7 @@
 (hardcoredance
    "Hardcore Dance")
 (hardcorerap
-   "Hardcore Rap")
+   "Rap Hardcore")
 (hardrock
    "Hard Rock")
 (hard_short
@@ -11495,7 +11495,7 @@
 (indianchest_bone_desc
    "A spiritual guru has advised you that your drum circle skills will really come together in this top. You should meditate on it.")
 (indierock
-   "Indie Rock")
+   "Rock Indie")
 (industrial
    "Industrial")
 (inline_help_fmt
@@ -14073,7 +14073,7 @@
 (matchmaker_invite_join_game
    "Juntar ao Jogo")
 (matchmaker_join_in
-   "Juntar")
+   "Entrar")
 (matchmaker_join_remote_searching
    "Buscando...")
 (matchmaker_kick
@@ -14753,7 +14753,7 @@
 (mod_nohud
    "Modo Performance")
 (mod_nohud_desc
-   "Jogue o jogo sem ver as pistas!")
+   "Jogue o jogo sem ver as trilhas!")
 (mod_nohud_obtain
    "(bug, deveria estar disponível por padrão)")
 (mod_no_fail_band
@@ -14803,9 +14803,9 @@
 (more_details
    "Mostrar detalhes")
 (more_details_panel_title
-   "View gamer card")
+   "Ver Card do Jogo")
 (moscow
-   "Moscow")
+   "Moscou")
 #ifdef HX_XBOX
 (motd_not_signed_in
    "You must be connected to Xbox LIVE and signed-in to an Xbox LIVE enabled gamer profile to connect to the Rock Central game servers.")
@@ -14877,9 +14877,9 @@
 (music_library
    "Biblioteca de Músicas")
 (music_library_filtered_fmt
-   "Mostrando %i DE %i MÚSICAS, Sorteado por %s")
+   "Mostrando %i DE %i MÚSICAS, Sorteado %s")
 (music_library_unfiltered_fmt
-   "Mostrando TODAS AS %i MÚSICAS, Sorteado por %s")
+   "Mostrando TODAS AS %i MÚSICAS, Sorteado %s")
 (music_library_upsell
    "Mostrar Recomendações")
 (music_library_upsell_indicator
@@ -15323,41 +15323,41 @@
 (overshell_audio_voice_chat
    "Voice Chat")
 (overshell_audition
-   "Audition Mode")
+   "Modo Audition")
 (overshell_autosave_enabled
    "Autosave Habilitado")
 (overshell_auto_sign_in_rock_central
-   "Connecting to the Rock Central game servers...")
+   "Conectando aos servidores do Rock Central...")
 (overshell_auto_sign_in_sony_help
-   "You must be signed into the PlayStation®Network to access online multiplayer.")
+   "Você deve estar conectado ao PlayStation®Network para acessar o modo online.")
 (overshell_auto_sign_in_sony_restricted_privilege
-   "Online Multiplayer is disabled on your PlayStation®Network account due to parental control restrictions.")
+   "O Modo Online está desabilitado na sua conta da PlayStation®Network devido às restrições de controle parental.")
 #ifdef HX_XBOX
 (overshell_auto_vocals_confirm
-   "\qAll Instruments Mode\q allows all five instrument types to be playing at once!\n\nEnabling this will turn on Karaoke (no controller) vocals, disable Xbox LIVE play, and require you to power off the vocalist's controller. Are you sure?")
+   "O \qModo All Instruments\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online pelo Xbox LIVE. Você tem certeza que quer continuar?")
 #endif
 #ifdef HX_PS3
 (overshell_auto_vocals_confirm
-   "\qAll Instruments Mode\q allows all five instrument types to be playing at once!\n\nEnabling this will turn on Karaoke (no controller) vocals, disable online play, and require you to power off the vocalist's controller. Are you sure?")
+   "O \qModo All Instruments\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online. Você tem certeza que quer continuar?")
 #endif
 #ifdef HX_WII
 (overshell_auto_vocals_confirm
-   "\qAll Instruments Mode\q allows all five instrument types to be playing at once!\n\nEnabling this will turn on Karaoke (no controller) vocals, disable online play, and require you to power off the vocalist's controller. Are you sure?")
+   "O \qModo All Instruments\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online. Você tem certeza que quer continuar?")
 #endif
 #ifdef HX_PC
 (overshell_auto_vocals_confirm
-   "\qAll Instruments Mode\q allows all five instrument types to be playing at once!\n\nEnabling this will turn on Karaoke (no controller) vocals, disable Xbox LIVE play, and require you to power off the vocalist's controller. Are you sure?")
+   "O \qModo All Instruments\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online pelo Xbox LIVE. Você tem certeza que quer continuar?")
 #endif
 (overshell_auto_vocals_denial_generic
    "Desculpe, você não pode ativar o Modo All Instruments neste momento.")
 (overshell_auto_vocals_denial_in_game
-   "Desculpe, você não pode ativar o Modo All Instruments aqui. Por favor, tente novamente quando você deixar o palco.")
+   "Desculpe, você não pode ativar o Modo All Instruments por aqui. Por favor, tente novamente quando você deixar o palco.")
 (overshell_auto_vocals_denial_lone_vocalist
    "Desculpe, você precisa de mais de um vocalista para ativar o Modo All Instruments.")
 (overshell_auto_vocals_denial_non_vocalist
-   "DesculpeSorry, you can't deactivate All Instruments Mode while a complete band is in session. Try dropping out of the third player slot and trying again.")
+   "Desculpe, você não pode desabilitar o Modo All Instruments enquanto uma banda completa estiver nesta sessão. Tente desconectar o slot do terceiro jogador e tente novamente.")
 (overshell_auto_vocals_denial_widescreen
-   "Sorry, All Instruments Mode is only supported on widescreen TVs.")
+   "Desculpe, o Modo All Instruments só está disponível em TVs Widescreen.")
 (overshell_av_settings
    "Opções do Sistema")
 (overshell_bass
@@ -15477,7 +15477,7 @@
 (overshell_continue
    "Continuar")
 (overshell_continue_without_profile
-   "No Profile")
+   "Sem Profile")
 (overshell_credits
    "Créditos")
 #ifdef HX_XBOX
@@ -15499,23 +15499,23 @@
 (overshell_cymbals_continue
    "Continuar")
 (overshell_cymbals_in_options_message
-   "Congratulations on setting up Pro Drums! You can change these options at any time by choosing \qDrum Options\q from your menu.")
+   "Parabéns, você configurou sua Bateria PRO! Você pode mudar estas opções a qualquer momento indo nas \qOpções de Bateria\q no seu menu.")
 (overshell_cymbals_in_options_msg
-   "You can change your cymbal configuration in the options menu.")
+   "Você pode mudar as configurações dos seus pratos de bateria no Menu de Opções.")
 (overshell_cymbal_configuration
-   "Configure Cymbals")
+   "Config. Pratos de Bateria")
 (overshell_cymbal_message
-   "You must select which cymbals you own in order to play Pro Drums.")
+   "Você deve selecionar quais pratos de bateria você possui para jogar com a Bateria PRO.")
 (overshell_delete_character
-   "Delete Character")
+   "Apagar Personagem")
 (overshell_delete_character_confirmation
-   "Are you sure you want to delete this character?")
+   "Você tem certeza que deseja apagar este personagem?")
 (overshell_delete_char_denial
-   "Cannot delete this character while a player is using it.")
+   "Você não pode apagar este personagem enquanto um(a) jogador(a) estiver usando ele(a).")
 (overshell_difficulty_confirm
-   "Changing your difficulty will earn you no score for this song, unless you restart!")
+   "Mudar a dificuldade da música irá desabilitar a pontuação desta música até você recomeçar-lá!")
 (overshell_disconnect
-   "Play Locally")
+   "Jogar Localmente")
 (overshell_dolby
    "Dolby Digital")
 (overshell_drums
@@ -15523,15 +15523,15 @@
 (overshell_drums_pro
    "Bateria PRO")
 (overshell_drum_message
-   "Configure your drum kit:")
+   "Configure seu kit de bateria:")
 (overshell_drum_options
-   "Drum Options")
+   "Opções de Bateria")
 (overshell_easy
    "Fácil")
 (overshell_enable_hihat
-   "Enable Hi Hat Pedal")
+   "Habilitar Pedal Hi-Hat")
 (overshell_end_game
-   "End Song")
+   "Terminar Música")
 (overshell_enter_calibration
    "Calibrar seu sistema? Qualquer processo não salvo será perdido.")
 (overshell_enter_charactercreator
@@ -15543,39 +15543,39 @@
 (overshell_extras
    "Extras")
 (overshell_first_time_rg
-   "The Career features video tutorials, lessons, and more to help you learn Pro Guitar. Visit the Career?")
+   "O Modo Carreira contêm tutoriais em vídeo, lições, e mais para ajudar você a aprender a jogar na Guitarra/Baixo PRO. Deseja visitar o Modo Carreira?")
 (overshell_gamercard
-   "View Gamer Card")
+   "Ver Card do Jogo")
 (overshell_gamercard_users
-   "View Gamer Card")
+   "Ver Card do Jogo")
 (overshell_game_options
    "Opções")
 (overshell_green_cym
-   "Green Cymbal")
+   "Prato Verde")
 (overshell_guitar
    "Guitarra")
 (overshell_hard
    "Difícil")
 (overshell_invite
-   "Invite Friends")
+   "Convidar Amigos")
 (overshell_invite_friends
-   "Invite Friends")
+   "Convidar Amigos")
 (overshell_invite_xbox_party
-   "Invite Xbox LIVE Party")
+   "Convidar Party do Xbox LIVE")
 (overshell_keys
    "Teclado")
 (overshell_kick
    "Expulsar Jogador(a)")
 (overshell_kick_confirmation
-   "Are you sure you want to kick this player from your current session?")
+   "Você tem certeza que deseja expulsar este(a) jogador(a) da sua sessão atual?")
 (overshell_kick_users
    "Expulsar Jogador(a)")
 (overshell_leave
-   "Abandonar")
+   "Abandonar Instrumento")
 (overshell_lefty_flip
    "MODO CANHOTO")
 (overshell_linking_code
-   "Account-linking Code")
+   "Conectar Conta com Código")
 (overshell_medium
    "Médio")
 (overshell_metronome
@@ -15591,7 +15591,7 @@
 (overshell_not_battle_part_warn
    "This part will not contribute to a score for this Battle.  Are you sure you want to continue?")
 (overshell_no_join_in_game
-   "Finish Set Before Joining")
+   "Terminar Set Antes de Entrar")
 #ifdef HX_XBOX
 (overshell_online_options
    "Opções Xbox LIVE")
@@ -15613,7 +15613,7 @@
 (overshell_overscan
    "Overscan")
 (overshell_parental_controls
-   "Parental Controls")
+   "Control. Parentais")
 (overshell_practice_new_section
    "Praticar Nova Sessão")
 (overshell_quit
@@ -15636,35 +15636,35 @@
    "(Reconectar Controle)")
 #ifdef HX_XBOX
 (overshell_registering_online
-   "Registering on Xbox LIVE")
+   "Registrando no Xbox LIVE")
 #endif
 #ifdef HX_PS3
 (overshell_registering_online
-   "Registering Online")
+   "Registrando Sessão Online")
 #endif
 #ifdef HX_WII
 (overshell_registering_online
-   "Registering Online")
+   "Registrando Sessão Online")
 #endif
 #ifdef HX_PC
 (overshell_registering_online
-   "Registering on Xbox LIVE")
+   "Registrando no Xbox LIVE")
 #endif
 #ifdef HX_XBOX
 (overshell_register_online
-   "Play on Xbox LIVE")
+   "Jogar no Xbox LIVE")
 #endif
 #ifdef HX_PS3
 (overshell_register_online
-   "Play Online")
+   "Jogar Online")
 #endif
 #ifdef HX_WII
 (overshell_register_online
-   "Play Online")
+   "Jogar Online")
 #endif
 #ifdef HX_PC
 (overshell_register_online
-   "Play on Xbox LIVE")
+   "Jogar no Xbox LIVE")
 #endif
 #ifdef HX_XBOX
 (overshell_register_online_denial_auto_vocals
@@ -15687,7 +15687,7 @@
 (overshell_remove_user_denial_failure_on
    "Cannot drop out unless No-Fail is enabled.")
 (overshell_rename_character
-   "Rename Character")
+   "Renomear Personagem")
 (overshell_restart
    "Reiniciar")
 (overshell_return
@@ -15701,23 +15701,23 @@
 (overshell_setlist_difficulty
    "Dificuldade da Música")
 (overshell_sign_in
-   "Sign In")
+   "Conectar")
 (overshell_sign_in_cancel
-   "Cancel")
+   "Cancelar")
 (overshell_sign_in_continue
    "Continuar")
 (overshell_sign_in_create_character
-   "Sign in to create a character")
+   "Conecte-se para criar um personagem")
 (overshell_sign_in_fail_retry
-   "Failed to Register Session.")
+   "Erro ao Registrar Sessão Online.")
 (overshell_sign_in_retry
-   "Retry")
+   "Tentar Novamente")
 (overshell_sign_in_to_register
-   "Please Sign In")
+   "Por favor, conecte-se")
 (overshell_sign_in_wait
-   "Waiting on Others")
+   "Esperando pelos jogadores")
 (overshell_skip_song
-   "Skip Song")
+   "Pular Música")
 (overshell_song_difficulty
    "Dificul. da Música")
 (overshell_song_options_in_game
@@ -15727,7 +15727,7 @@
 (overshell_synapse
    "AUTO-TUNE")
 (overshell_system_options
-   "Game Options")
+   "Opções de Jogo")
 (overshell_toggle_no_fail_denial
    "Only the leader can change the No Fail setting.")
 (overshell_vocals_mode_scrolling
@@ -15743,7 +15743,7 @@
 (overshell_vocal_track_vol
    "Vol. Faixa de Vocal")
 (overshell_yellow_cym
-   "Yellow Cymbal")
+   "Prato Amarelo")
 (overskirt_leather
    "Bandito Minito")
 (overskirt_leather_desc
@@ -15905,7 +15905,7 @@
 (patch_help_editing_move
    "MOVER")
 (patch_help_editing_rotate
-   "RODAR")
+   "GIRAR")
 (patch_help_editing_scale
    "ESCALAR")
 (patch_help_editing_warp
@@ -21857,11 +21857,11 @@
 (remote_status_waiting_tour_find_players
    "Waiting to Find More Players for Road Challenges")
 (rename_band_vk_desc
-   "Enter the new name of your band")
+   "Entre com o nome da sua nova banda")
 (rename_char_vk_desc
-   "Enter the new name of your character")
+   "Entre com o nome do seu novo personagem")
 (rename_label
-   "Rename Label")
+   "Renomear Label")
 (rennboots_leather
    "Maid Marion Boots")
 (rennboots_leather_desc
@@ -21869,43 +21869,43 @@
 (reorder
    "Re-order")
 (reset_all_settings
-   "RESET ALL SETTINGS")
+   "RESETAR TODAS CONFIGS.")
 (restart
    "REINICIAR")
 (results_leaderboard_section
-   "LEADERBOARD INFO")
+   "INFO DA LEADERBOARD")
 (resume
    "Continuar Jogando")
 (retry
    "recomeçar")
 (return
-   "Voltar")
+   "voltar")
 (return_to_music_library
    "Voltar à Biblioteca de Músicas")
 (review_0_desc
-   "Músicas sem classificação são tratadas como músicas com classificação de três isqueiros. Dê uma classificação para impactar na frequência que esta música aparece!")
+   "Músicas sem resenha são tratadas como músicas com resenhas de três isqueiros. Dê uma resenha para impactar na frequência que esta música aparece!")
 (review_1
-   "Classificação: 1")
+   "Resenha: 1")
 (review_1_desc
-   "Músicas classificadas com um isqueiro são músicas que você nunca vai querer jogar.  Elas nunca vão aparecer num repertório aleatório (à menos que não tenha outra escolha).")
+   "Músicas com resenha de um isqueiro são músicas que você nunca vai querer jogar.  Elas nunca vão aparecer num repertório aleatório (à menos que não tenha outra escolha).")
 (review_2
-   "Classificação: 2")
+   "Resenha: 2")
 (review_2_desc
-   "Músicas classificadas com dois isqueiros são aquelas que você quer que apareça raramente.  São menos improváveis de aparecer como as músicas classificadas com três isqueiros.")
+   "Músicas com resenha de dois isqueiros são aquelas que você quer que apareça raramente.  São menos improváveis de aparecer como as músicas com resenha de três isqueiros.")
 (review_3
-   "Classificação: 3")
+   "Resenha: 3")
 (review_3_desc
-   "Músicas classificadas com três isqueiros são as músicas medianas.  Utilize esta classificação na maioria das suas músicas para manter as coisas balanceadas.")
+   "Músicas com resenha de três isqueiros são as músicas medianas.  Utilize esta resenha na maioria das suas músicas para manter as coisas balanceadas.")
 (review_4
-   "Classificação: 4")
+   "Resenha: 4")
 (review_4_desc
-   "Músicas classificadas com quatro isqueiros são melhores que o resto das músicas!  Elas tem bem mais chance de aparecer em seleções aleatórias que músicas classificas com três isqueiros.")
+   "Músicas com resenha de quatro isqueiros são melhores que o resto das músicas!  Elas tem bem mais chance de aparecer em seleções aleatórias que músicas com resenha com três isqueiros.")
 (review_5
-   "Classificação: 5")
+   "Resenha: 5")
 (review_5_desc
-   "Músicas classificadas com cinco isqueiros são as músicas que você gosta de coração!  Elas aparecem 200% mais em seleções aleatórias que uma música sem classificação (ou músicas classificadas com três isqueiros).")
+   "Músicas com resenhas de cinco isqueiros são as músicas que você gosta de coração!  Elas aparecem 200% mais em seleções aleatórias que uma música sem resenha (ou músicas com resenha de três isqueiros).")
 (review_song
-   "CLASSIFICAR MÚSICA")
+   "RESENHAR MÚSICA")
 (rewarddrumclear
    "Clear Kit")
 (rewarddrumclear_desc
@@ -22095,7 +22095,7 @@
 (romantigothvest_cotton_desc
    "A fine undercoat for your casual evenings posturing about the castle.")
 (rome
-   "Rome")
+   "Roma")
 (romperbottom_solid
    "Romp Le Monde Bottoms")
 (romperbottom_solid_desc
@@ -22167,7 +22167,7 @@
 (roster_sort_vocals_title
    "Vocals Score")
 (rotate
-   "Rotate")
+   "Girar")
 (roundtopdress_polkadot
    "Polka Dot Pin-up")
 (roundtopdress_polkadot_desc
@@ -22947,11 +22947,11 @@
 (song_length_1_short
    "Músicas Curtas")
 (song_length_2_medium
-   "Músicas com Duração Normal")
+   "Mús. com Duração Normal")
 (song_length_3_long
    "Músicas Longas")
 (song_length_4_marathon
-   "Músicas Épicas Intermináveis")
+   "Mús. Intermináveis")
 (song_length_fmt
    "{int::minutes}:{int:02:seconds}")
 (song_mgr_full_warning_fmt
@@ -23667,7 +23667,7 @@
 (subgenre_hardcoredance
    "Hardcore Dance")
 (subgenre_hardcorerap
-   "Hardcore Rap")
+   "Rap Hardcore")
 (subgenre_hardrock
    "Hard Rock")
 (subgenre_hiphop
@@ -23677,7 +23677,7 @@
 (subgenre_house
    "House")
 (subgenre_indierock
-   "Indie Rock")
+   "Rock Indie")
 (subgenre_industrial
    "Industrial")
 (subgenre_lofi
@@ -26965,7 +26965,7 @@
 (unknown_song
    "(Mús. Desconhecida)")
 (unreviewed
-   "sem classificação")
+   "sem resenha")
 (unshare_setlist
    "Unshare Setlist")
 (untiedankleboots_leather
@@ -27297,13 +27297,13 @@
 (vest_vest_desc
    "Your behavior is frequently questionable (no, you weren't \qjust borrowing\q that police car) but this vest is always the right decision.")
 (video_lag
-   "video lag")
+   "lag do vídeo")
 (video_overscan_text
-   "On some TV's, you may see a black border around the screen. To remove this border, check \qVideo Overscan\q below. If this screen looks okay, just hit \qNext\q to continue!")
+   "Em algumas TVs, você pode ver uma borda preta ao redor da tela. Para remover esta borda, dê uma olhada no \qOverscan do Vídeo\q abaixo. Se a tela estiver OK, apenas selectione \qPróximo\q para continuar!")
 (video_overscan_title
-   "SET VIDEO OVERSCAN")
+   "CONFIG. OVERSCAN DO VÍDEO")
 (view_record_label
-   "View Record Label Details")
+   "Ver Detalhes da Gravadora")
 (view_setlists
    "Repertórios")
 (view_setlists_by_line
@@ -27315,7 +27315,7 @@
 (vignetteviewer_hidden_title
    "???")
 (vignetteviewer_locked
-   "Play more to unlock this milestone!")
+   "Jogue mais para destravar esta meta!")
 (vignetteviewer_rv1
    "O Humilde Começo")
 (vignetteviewer_rv2
@@ -27347,9 +27347,9 @@
 (vocals
    "vocal solo")
 (vocalstyle_scrolling
-   "Em Rolo")
+   "Rolantes")
 (vocalstyle_static
-   "Estático")
+   "Estáticos")
 (vocals_connect_a_mic
    "Conecte um Mic.")
 (vocals_mics_disconnected
@@ -27371,17 +27371,17 @@
    "Controle de Xbox 360")
 #endif
 (vocal_break
-   "Vocal break")
+   "Pausa do Vocal")
 (vocal_break_1
-   "Vocal break 1")
+   "Pausa do Vocal 1")
 (vocal_break_2
-   "Vocal break 2")
+   "Pausa do Vocal 2")
 (vocal_break_3
-   "Vocal break 3")
+   "Pausa do Vocal 3")
 (vocal_hud
    "ESTILO VOCAL ESTÁTICO")
 (vocal_intro
-   "Vocal intro")
+   "Intro Vocal")
 (vocal_lessons
    "Lições de Vocal")
 (vocal_options
@@ -27399,23 +27399,23 @@
 (vocal_volume
    "Vol. Vocalista")
 (voice_chat_disabled
-   "Chat is disabled on your PlayStation®Network account due to chat restrictions.")
+   "O chat está desabilitado na sua conta PlayStation®Network devido à restrições do chat.")
 (vox_practice_percent
    "%s - %0.0f%%")
 (vox_rating_0
-   "MESSY")
+   "PÉSSIMO")
 (vox_rating_1
-   "WEAK")
+   "FRACO")
 (vox_rating_2
-   "OKAY")
+   "OK")
 (vox_rating_3
-   "STRONG")
+   "FORTE")
 (vox_rating_4
-   "AWESOME!")
+   "INCRÍVEL!")
 (vox_rating_5
-   "DOUBLE AWESOME!")
+   "2X INCRÍVEL!")
 (vox_rating_6
-   "TRIPLE AWESOME!")
+   "3X INCRÍVEL!")
 (vox_resource
    "VOX Continental")
 (vox_resource_desc
@@ -27425,22 +27425,22 @@
 (vtank_spandex_desc
    "Your fans will be wrestling with their own feelings once they see you in this macho, Greco-Roman uni-tank.")
 (waiting
-   "waiting")
+   "esperando")
 #ifdef HX_XBOX
 (waiting_for_remote_players
-   "Waiting for Xbox LIVE players...")
+   "Esperando por jogadores do Xbox LIVE...")
 #endif
 #ifdef HX_PS3
 (waiting_for_remote_players
-   "Waiting for online players...")
+   "Esperando por jogadores online...")
 #endif
 #ifdef HX_WII
 (waiting_for_remote_players
-   "Waiting for online players...")
+   "Esperando por jogadores online...")
 #endif
 #ifdef HX_PC
 (waiting_for_remote_players
-   "Waiting for Xbox LIVE players...")
+   "Esperando por jogadores do Xbox LIVE...")
 #endif
 (wambam
    "Wam-Bam")
@@ -27465,11 +27465,11 @@
 (warrior03_desc
    "Crafted from quality basswood, the X Series offers chrome hardware, double humbucking pickups, and maximum attitude.")
 (webcode_ps3
-   "get webcode")
+   "Obter webcode")
 (website_code_msg
-   "Your website code is: %s")
+   "Seu código do website é: %s")
 (weight
-   "Weight")
+   "Peso")
 (westernfringe_applique
    "Achy Breaky Shirt")
 (westernfringe_applique_desc
@@ -27543,11 +27543,11 @@
 (wings_resource_desc
    "Add a healthy dose of maudlin drama to your music with this beautifully carved work of art.")
 (winner
-   "WINNER!")
+   "VENCEDOR!")
 (win_congrats
-   "Congratulations!")
+   "Parabéns!")
 (with
-   "with")
+   "com")
 (wizardpants_dragons
    "Dungarees and Dragons")
 (wizardpants_dragons_desc
@@ -27569,7 +27569,7 @@
 (workpants_grimey_desc
    "Straight from the factory onto the stage.")
 (world
-   "World")
+   "Mundial")
 (wornleatherpants_worn
    "Mole Skin Leather Pants")
 (wornleatherpants_worn_desc
@@ -27701,21 +27701,21 @@
 (xk3_resource_desc
    "The XK-3c packs all the power and soul of the classic B-3 in an easy to move, portable package. It's old school and new class at the same time.")
 (x_of_y
-   "%d /%d")
+   "%d de %d")
 (yeah
-   "Yeah!")
+   "Isso aí!")
 (yellow
    "normal")
 (yes
    "sim")
 (you_each_won
-   "You each won")
+   "Você ganhou")
 (you_each_won_x
-   "$%d earned!")
+   "$%d conquistados!")
 (you_earned
-   "You've earned")
+   "Você conquistou ")
 (you_lost
-   "You've lost")
+   "Você perdeu")
 (zebra
    "Zebra")
 (zebrachoptop_silk

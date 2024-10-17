@@ -166,5 +166,5 @@
 (ugc_not_allowed_in_trainers
    "O Modo Treino não está disponível para músicas com formato RBN")
 (bad_review_showing
-   "Músicas com Críticas Ruins")
+   "Músicas com Resenhas Baixas")
 #include ../../../dx/locale/dx_locale_updates.dta
