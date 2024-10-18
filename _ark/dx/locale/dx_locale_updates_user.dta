@@ -579,21 +579,21 @@
 (os_player_icons_off "Ícones Jogador(a): OFF")
 (os_player_icons_off_desc "Esconde seu ícone no menu do(a) jogador(a)")
 #ifdef HX_XBOX
-(os_menu_color_ps3_desc "Change the player menu strip color. Does not show when not signed into a Gamer Profile")
+(os_menu_color_ps3_desc "Alterar a cor da faixa do menu do(a) jogador(a). Não exibe se não estiver conectado em um perfil")
 #else
-(os_menu_color_ps3_desc "Change the player menu strip color")
+(os_menu_color_ps3_desc "Alterar a cor da faixa do menu do(a) jogador(a)")
 #endif
-(os_menu_color_xbox "Color: Xbox")
+(os_menu_color_xbox "Cor: Xbox")
 #ifdef HX_XBOX
-(os_menu_color_xbox_desc "Change the player menu strip color. Does not show when not signed into a Gamer Profile")
+(os_menu_color_xbox_desc "Alterar a cor da faixa do menu do(a) jogador(a). Não exibe se não estiver conectado em um perfil")
 #else
-(os_menu_color_xbox_desc "Change the player menu strip color")
+(os_menu_color_xbox_desc "Alterar a cor da faixa do menu do(a) jogador(a)")
 #endif
-(os_menu_color_wii "Color: Wii")
+(os_menu_color_wii "Cor: Wii")
 #ifdef HX_XBOX
-(os_menu_color_wii_desc "Change the player menu strip color. Does not show when not signed into a Gamer Profile")
+(os_menu_color_wii_desc "Alterar a cor da faixa do menu do(a) jogador(a). Não exibe se não estiver conectado em um perfil")
 #else
-(os_menu_color_wii_desc "Change the player menu strip color")
+(os_menu_color_wii_desc "Alterar a cor da faixa do menu do(a) jogador(a)")
 #endif
 (os_rb3_menu_theme "Rock Band 3")
 (os_rb3_menu_theme_desc "O tema original do menu do Rock Band 3")
@@ -606,53 +606,53 @@
 (os_menu_color_g "- G: %d%% +")
 (os_menu_color_b "- B: %d%% +")
 ;functional options
-(os_prompt_save_on "Confirm DX Settings Save: ON")
-(os_prompt_save_off "Confirm DX Settings Save: OFF")
-(os_prompt_save_on_desc "Asks you if you want to save Deluxe Settings when exiting")
-(os_prompt_save_off_desc "Always autosaves Deluxe Settings when disabled")
-(os_dx_mic_od_1 "Mic Deploy Sens: 1")
-(os_dx_mic_od_2 "Mic Deploy Sens: 2")
-(os_dx_mic_od_3 "Mic Deploy Sens: 3")
-(os_dx_mic_od_4 "Mic Deploy Sens: 4")
-(os_dx_mic_od_5 "Mic Deploy Sens: 5")
-(os_dx_mic_od_1_desc "Microphone is at lowest sensitivity threshold to activate Overdrive")
-(os_dx_mic_od_2_desc "Microphone is at low sensitivity threshold to activate Overdrive")
-(os_dx_mic_od_3_desc "Microphone is at medium sensitivity threshold to activate Overdrive")
-(os_dx_mic_od_4_desc "Microphone is at default sensitivity threshold to activate Overdrive")
-(os_dx_mic_od_5_desc "Microphone is at highest sensitivity threshold to activate Overdrive")
-(os_songdelay_on "Song Load Delay: ON")
-(os_songdelay_off "Song Load Delay: OFF")
+(os_prompt_save_on "Confirmar Alterações DX: ON")
+(os_prompt_save_off "Confirmar Alterações DX: OFF")
+(os_prompt_save_on_desc "Pergunta se você quer salvar as Configurações Deluxe ao sair")
+(os_prompt_save_off_desc "Sempre salva as Configurações Deluxe se desativado.")
+(os_dx_mic_od_1 "Sens. Ativ. Mic: 1")
+(os_dx_mic_od_2 "Sens. Ativ. Mic: 2")
+(os_dx_mic_od_3 "Sens. Ativ. Mic: 3")
+(os_dx_mic_od_4 "Sens. Ativ. Mic: 4")
+(os_dx_mic_od_5 "Sens. Ativ. Mic: 5")
+(os_dx_mic_od_1_desc "Microfone está na menor sensibilidade para ativar Overdrive")
+(os_dx_mic_od_2_desc "Microfone está na sensibilidade baixa para ativar Overdrive")
+(os_dx_mic_od_3_desc "Microfone está na sensibilidade média para ativar Overdrive")
+(os_dx_mic_od_4_desc "Microfone está na sensibilidade alta para ativar Overdrive")
+(os_dx_mic_od_5_desc "Microfone está na maior sensibilidade para ativar Overdrive")
+(os_songdelay_on "Atraso ao carregar: ON")
+(os_songdelay_off "Atraso ao carregar: OFF")
 #ifdef HX_PS3
-(os_songdelay_on_desc "Adds an extra 2 seconds of loading time before the song starts, fixes a major bug on RPCS3 when enabled")
-(os_songdelay_off_desc "Adds an extra 2 seconds of loading time before the song starts, fixes a major bug on RPCS3 when enabled")
+(os_songdelay_on_desc "Adiciona 2 segundos no carregamento antes da música consertar, conserta um bug do RPCS3 quando ativo")
+(os_songdelay_off_desc "Adiciona 2 segundos no carregamento antes da música consertar, conserta um bug do RPCS3 quando ativo")
 #else
-(os_songdelay_on_desc "Adds an extra 2 seconds of loading time before the song starts, fixes a major bug on RPCS3 but this may not be necessary on Xbox")
-(os_songdelay_off_desc "Adds an extra 2 seconds of loading time before the song starts, fixes a major bug on RPCS3 but this may not be necessary on Xbox")
+(os_songdelay_on_desc "Adiciona 2 segundos no carregamento antes da música consertar, conserta um bug do RPCS3 quando ativo mas não é necessário no Xbox")
+(os_songdelay_off_desc "Adiciona 2 segundos no carregamento antes da música consertar, conserta um bug do RPCS3 quando ativo mas não é necessário no Xbox")
 #endif
 (os_intro_deluxe "Intro Movie: DELUXE")
-(os_intro_deluxe_desc "Shows the Rock Band 3 Deluxe intro video on boot")
+(os_intro_deluxe_desc "Exibe a intro do Rock Band 3 Deluxe ao inicializar")
 (os_intro_vanilla "Intro Movie: VANILLA")
-(os_intro_vanilla_desc "Shows the vanilla Rock Band 3 intro video on boot")
+(os_intro_vanilla_desc "Exibe a intro padrão Do Rock Band 3 ao inicializar")
 (os_intro_off "Intro Movie: OFF")
-(os_intro_off_desc "Does not show any intro video on boot")
+(os_intro_off_desc "NÃO exibe nenhuma intro ao inicializar")
 (os_splash_on "Title Screen: ON")
-(os_splash_on_desc "Shows the main title screen on startup")
+(os_splash_on_desc "Exibe a tela de início ao iniciar")
 (os_splash_off "Title Screen: OFF")
-(os_splash_off_desc "Does NOT show the main title screen on startup")
-(os_confirm_songcount_on "High Song Count Warning: ON")
-(os_confirm_songcount_on_desc "Shows a warning if you have more than ~4500 songs")
-(os_confirm_songcount_off "High Song Count Warning: OFF")
-(os_confirm_songcount_off_desc "Does NOT show a warning if you have more than ~4500 songs")
+(os_splash_off_desc "NÃO Exibe a tela de início ao iniciar")
+(os_confirm_songcount_on "Aviso de Alta Qtd. de Música: ON")
+(os_confirm_songcount_on_desc "Exibe um aviso se você tiver mais que ~4500 músicas")
+(os_confirm_songcount_off "Aviso de Alta Qtd. de Música: OFF")
+(os_confirm_songcount_off_desc "NÃO Exibe um aviso se você tiver mais que ~4500 músicas")
 
 (dx_warn_sdmode
-   "WARNING:\n Rock Band 3 typically does not allow enabling\nSD Card Mode when the NAND is full.\nThis feature can however be useful with\nDolphin Emulator, to easily transfer songs from\nNAND to SD card, without external tools.\nTransfer content from NAND to SD Card?\nIf you do not know what this means, press \qNO\q.")
+   "AVISO:\n Rock Band 3 geralmente não permite ativar\no Modo SD Card quando a NAND está cheia.\nPorém, esse recurso poder útil no\nDolphin, para transferir músicas da\nNAND para o SD, sem outras ferramentas.\nTransferir conteúdo do NAND para o SD?\nSe não souber o que isso faz, aperte \qNÃO\q.")
 
 (overshell_freecam
- "Cycle Camera")
+ "Alternar Câmera")
 (overshell_freecam_desc
- "Cycle through debug camera settings while in-game")
-(overshell_postproc "Post Processing")
-(overshell_postproc_desc "Control specific post processing and camera settings")
+ "Alterna entre ajustes de câmera debug em jogo")
+(overshell_postproc "Pós-Processamento")
+(overshell_postproc_desc "Controla alguns ajustes de pós-processamento e câmera")
 (the20s
    "'20s Hits")
 (the2020s
@@ -660,64 +660,64 @@
 ;
 #ifdef HX_PS3
 (community_no_server_warning
-   "Couldn't connect to the game servers. \n\nYou won't be able to access the online leaderboards.  Continue anyway?")
+   "Incapaz de conectar aos servidores. \n\nVocê não poderá acessar os Leaderboards.  Continuar mesmo assim?")
 #endif
 #ifdef HX_XBOX
 (community_no_server_warning
-   "Couldn't connect to the game servers.\n\nYou won't be able to access the Xbox LIVE leaderboards.  Continue anyway?")
+   "Incapaz de conectar aos servidores. \n\nVocê não poderá acessar os Leaderboards da XBOX Live.  Continuar mesmo assim?")
 #endif
 #ifdef HX_PC
 (community_no_server_warning
-   "Couldn't connect to the game servers.\n\nYou won't be able to access the Xbox LIVE leaderboards.  Continue anyway?")
+   "Incapaz de conectar aos servidores. \n\nVocê não poderá acessar os Leaderboards da XBOX Live.  Continuar mesmo assim?")
 #endif
 (connecting_server
-   "Connecting to the game servers...")
+   "Conectando aos servidores...")
 (error_lost_server
-   "You have lost contact with the game servers.")
+   "Você perdeu a conexão com os servidores.")
 (lb_error
-   "Not connected to the game servers. Please try again later.")
+   "Não conectado aos servidores. Tente novamente mais tarde.")
 (leaderboards_not_available_rock_central
-   "You will only be able to see local leaderboards while logged out or offline.")
+   "Você só poderá ver os leaderboards locais enquanto deslogado ou offline.")
 (leaderboard_connection_error
-   "Failed to connect to the game servers.")
+   "Falha ao conectar com os servidores.")
 (linking_code_connect_error
-   "You need to be connected to the game servers in order to see an account-linking code.")
+   "Você deve estar conectado aos servidores para ver o código de conexão de conta.")
 #ifdef HX_XBOX
 (motd_not_signed_in
-   "You must be connected to Xbox LIVE and signed-in to an Xbox LIVE enabled gamer profile to connect to the game servers.")
+   "Você deve estar conectado ao Xbox LIVE e registrado para conectar aos servidores.")
 #endif
 #ifdef HX_PC
 (motd_not_signed_in
-   "You must be connected to Xbox LIVE and signed-in to an Xbox LIVE enabled gamer profile to connect to the game servers.")
+   "Você deve estar conectado ao Xbox LIVE e registrado para conectar aos servidores.")
 #endif
 (motd_no_rock_central
-   "Attempting to connect to the game servers...")
+   "Tentando se conectar aos servidores...")
 (motd_online_disabled
-   "Cannot connect to the game servers while modifiers are enabled.")
+   "Não é possível se conectar aos servidores enquanto modificadores estão ativos.")
 #ifdef HX_XBOX
 (net_setlists_connect
-   "You must be signed into an Xbox LIVE enabled gamer profile and connected to the game servers to get additional setlists.")
+   "Você deve estar conectado a um perfil com Xbox LIVE e conectado aos servidores para obter repertórios adicionais.")
 #endif
 #ifdef HX_PS3
 (net_setlists_connect
-   "You must be connected to the game servers to get additional setlists.")
+   "Você deve estar conectado aos servidores para obter repertórios adicionais.")
 #endif
 #ifdef HX_WII
 (net_setlists_connect
-   "You must be connected to the game servers to get additional setlists.")
+   "Você deve estar conectado aos servidores para obter repertórios adicionais.")
 #endif
 #ifdef HX_PC
 (net_setlists_connect
-   "You must be signed into an Xbox LIVE enabled gamer profile and connected to the game servers to get additional setlists.")
+   "Você deve estar conectado a um perfil com Xbox LIVE e conectado aos servidores para obter repertórios adicionais.")
 #endif
 (net_setlists_error
-   "There was a problem getting setlists from the game servers. Please try again later.")
+   "Houve um problema ao obter repertórios dos servidores. Tente novamente mais tarde.")
 (net_setlists_getting
-   "Getting setlists from the game servers...")
+   "Obtendo repertórios dos servidores...")
 (overshell_auto_sign_in_rock_central
-   "Connecting to the game servers...")
+   "Conectando aos servidores...")
 (record_label_connection_required
-   "You must be connected to the game servers to use this feature.")
+   "Você deve estar conectado aos servidores para utilizar este recurso.")
 (record_label_registering
    "Registering Record Label with the game servers...")
 (shell_network_busy
