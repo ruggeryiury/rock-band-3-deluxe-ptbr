@@ -134,19 +134,19 @@
    "Você ganhou umas paradas novas!")
 #ifdef HX_XBOX
 (accomplishment_no_launch_when_online
-   "Você não pode iniciar este objetivo estando conectado por um usuário via Xbox LIVE.")
+   "Você não pode iniciar este objetivo estando conectado(a) por um perfil via Xbox LIVE.")
 #endif
 #ifdef HX_PS3
 (accomplishment_no_launch_when_online
-   "Você não pode iniciar este objetivo estando conectado a um usuário remoto.")
+   "Você não pode iniciar este objetivo estando conectado(a) a um perfil remoto.")
 #endif
 #ifdef HX_WII
 (accomplishment_no_launch_when_online
-   "Você não pode iniciar este objetivo estando conectado a um usuário remoto.")
+   "Você não pode iniciar este objetivo estando conectado(a) a um perfil remoto.")
 #endif
 #ifdef HX_PC
 (accomplishment_no_launch_when_online
-   "Você não pode iniciar este objetivo estando conectado por um usuário via Xbox LIVE.")
+   "Você não pode iniciar este objetivo estando conectado(a) por um perfil via Xbox LIVE.")
 #endif
 (accomplishment_secret_title
    "Secreto")
@@ -531,7 +531,7 @@
 (acc_bretotal_desc
    "Arrase e conquiste em um 50 Finals Triunfantes.")
 (acc_calibrate
-   "Afinação")
+   "Bem Afinado")
 (acc_calibrate_desc
    "Calibre o áudio/vídeo para otimizar sua experiência jogando Rock Band 3.")
 (acc_careersaves
@@ -879,7 +879,7 @@
 (acc_cat_vox_rb3
    "Rock Band 3")
 (acc_charactercreate
-   "Seu(ua) Próprio(a) Criador(a)")
+   "Sua Criação")
 (acc_charactercreate_desc
    "Crie um personagem.")
 (acc_complex_chords
@@ -4353,7 +4353,7 @@
 (acc_vox_rb3_tripleawesomes_desc
    "Earn a Triple Awesome rating on at least 90% of the Vocal Harmony phrases in the following songs:")
 (achievement_progress
-   "Goals Completed")
+   "Objetivos Conquistados")
 (acidjazz
    "Acid Jazz")
 (acoustic
@@ -4545,13 +4545,13 @@
 (award_flawless
    "Flawless")
 (award_gamestop
-   "Pre-order Bonus Unlocked!")
+   "Bônus da Pré-Compra Desbloqueado!")
 (award_gamestop_desc
-   "Thanks for pre-ordering Rock Band 3! Your dedication means a lot -- thanks, from the whole crew at Harmonix!")
+   "Obrigado pela pré-compra do Rock Band 3! Sua dedicação significa o mundo para nós! Um grande abraço e obrigado pelo time da Harmonix!")
 (award_generic
-   "New Customization Options Available!")
+   "Novas Opções de Personalização Disponíveis!")
 (award_genericdesc
-   "You can wear and use items earned by choosing \qCustomize Character\q from the Customize section of the Main Menu.")
+   "Você pode vestir e utilizar os items ganhados indo em \qPersonalizar Personagem\q You can wear and use items earned by choosing \qCustomize Character\q from the Customize section of the Main Menu.")
 (award_halloffame
    "You've reached the Hall of Fame!")
 (award_halloffame_desc
@@ -4575,9 +4575,9 @@
 (award_real_bassist
    "Authentic Strummer")
 (award_renameband
-   "You've named your band!")
+   "Você Decidiu um Nome para sua Banda!")
 (award_renameband_desc
-   "Congrats, you decided on a name! Since choosing a band name is officially the hardest part about playing in a band, it should all be smooth sailing from here on out.")
+   "Parabéns, você conseguiu escolher um nome para sua banda! Como escolher o nome da banda é oficialmente a parte mais difícil de todo progresso, você deve conseguir tudo facilmente daqui pra frente.")
 (award_savior
    "Savior")
 (award_secret_title
@@ -4913,7 +4913,7 @@
 (band_chooser_not_signed_in_desc
    "(You must be signed into a gamer profile to view its bands)")
 (band_chooser_profile_header
-   "%s's Bands")
+   "Banda do(a) %s")
 (band_chooser_skip
    "Jogo Rápido")
 (band_chooser_skip_desc
@@ -4923,9 +4923,9 @@
 (band_coop
    "Jogo Rápido")
 (band_default_name
-   "%s's band")
+   "%s: Bandas")
 (band_emptyname
-   "Enter Name")
+   "Coloque o Nome")
 (band_enters
    "Band enters")
 (band_fans
@@ -5025,7 +5025,7 @@
 (band_song
    "Band by Song")
 (band_user_provider_empty
-   "[none]")
+   "[nenhum]")
 (band_vocalist_needs_mic
    "No microphone has been detected. Please connect a microphone to play as a vocalist.")
 (barbarianbelt_iron
@@ -6073,13 +6073,13 @@
 (campaignlevel_advancedtitles_earned
    "You are now a Rock Legend!")
 (campaignlevel_artmaker
-   "Rank: Local Favorites")
+   "Ranque: Favorita Local")
 (campaignlevel_artmaker_ad
-   "You're close to becoming a Local Favorite!")
+   "Sua banda está bem perto de se tornar uma Favorita Local!")
 (campaignlevel_artmaker_earned
-   "You are now a Local Favorite!")
+   "Sua banda é agora uma Favorita Local!")
 (campaignlevel_basictitle
-   "Rank: Opening Act")
+   "Ranque: Ato de Abertura")
 (campaignlevel_basictitle_ad
    "You're close to becoming an Opening Act! Check out your Career for more information.")
 (campaignlevel_basictitle_earned
@@ -6161,19 +6161,19 @@
 (campaign_1fan
    "1 Fan")
 (campaign_award_earned_by_category
-   "By completing all of the goals in \q%s,\q you have earned:")
+   "Por ter completado todos os objetivos, você ganhou:")
 (campaign_award_earned_by_goal
-   "By completing the \q%s\q goal, you have earned:")
+   "Por ter completado o objetivo \q%s\q, você ganhou:")
 (campaign_award_earned_by_group
-   "By completing all of the %s goals, you have earned:")
+   "Por ter completado todos os objetivos de %s, você ganhou:")
 (campaign_award_earned_by_level
    "%s reached! You have new stuff:")
 (campaign_award_reason_preorder
-   "Thanks for pre-ordering! Here's an award for being so awesome:")
+   "Obrigado pela pré-compra do jogo! Aqui está um prêmio especial para você:")
 (campaign_careerdlc_leaderboard
-   "Total Score Rankings")
+   "Ranque de Pontuação Total")
 (campaign_career_leaderboard
-   "Rock Band 3 Rankings")
+   "Ranques do Rock Band 3")
 (campaign_career_score
    "Pontuação Total: %s")
 (campaign_category_details_help
@@ -6181,19 +6181,19 @@
 (campaign_category_header
    "%s: %i/%i")
 (campaign_currentrank
-   "Rank: %s")
+   "Ranque: %s")
 (campaign_endgame_goal_complete
-   "You completed %s!")
+   "Você completou o objetivo \q%s\q!")
 (campaign_endgame_goal_complete_and1more
-   "You completed %s and 1 other goal!")
+   "Você completou o objetivo \q%s\q e mais 1 objetivo!")
 (campaign_endgame_goal_complete_andmore
-   "You completed %s and %i other goals!")
+   "Você completou o objetivo \q%s\q e mais %i outros objetivos!")
 (campaign_endgame_goal_complete_reward
-   "You completed %s! You won a new reward!")
+   "Você completou o objetivo \q%s\q! Você ganhou um novo prêmio!")
 (campaign_endgame_goal_noprogress
-   "You didn't make any progress on \q%s.\q You should try again!")
+   "Você não fez progresso no objetivo \q%s\q. Não desista e tente novamente!")
 (campaign_endgame_goal_progress
-   "You completed a part of %s! Only %i %s to go!")
+   "Você completou uma parte do objetivo %s! Only %i %s to go!")
 (campaign_endgame_goal_progress_reward
    "You completed a part of %s! Only %i %s to go to win more stuff!")
 (campaign_endgame_goal_suggest
@@ -6201,33 +6201,33 @@
 (campaign_endgame_goal_suggest_reward
    "You haven't completed %s yet. Complete it to earn more cool things!")
 (campaign_endgame_user_congrats
-   "Congratulations %s!")
+   "Parabéns, %s!")
 (campaign_endgame_user_noprogress
    "%s")
 (campaign_endgame_user_progress
    "%s")
 (campaign_endscreen_return
-   "Return to Career")
+   "Retornar ao Modo Carreira")
 (campaign_fans
-   "%s Fans")
+   "%s Fãs")
 (campaign_fantotal
-   "1 Million")
+   "1 Milhão")
 (campaign_gamertag
-   "%s's career")
+   "Carreira do(a) %s")
 (campaign_goals_leaderboard
    "My Goal Rankings")
 (campaign_goalunits_default
-   "points")
+   "pontos")
 (campaign_goalunits_singular_default
-   "point")
+   "ponto")
 (campaign_goal_status
-   "Career Goal: %s - Complete!")
+   "Objetivos de Carreira: %s - Completado!")
 (campaign_goal_value
-   "%i,000 fans")
+   "%i,000 fãs")
 (campaign_header
    "Carreira")
 (campaign_hometown_title
-   "Choose your hometown")
+   "Escolha sua cidade natal")
 (campaign_hub_compare
    "Compare Fame")
 (campaign_hub_index
@@ -6431,7 +6431,7 @@
 (change_art
    "Mudar Arte")
 (change_camera_angle
-   "MUDAR ANG. CÂMERA")
+   "MUDAR ÂNGULO DA CÂMERA")
 (change_difficulty
    "mudar dificuldade")
 (change_edit_mode
@@ -6459,9 +6459,9 @@
 (chaps_leather_desc
    "Protect your legs from demon fans with these sturdy coverings.")
 (charactercreator_create
-   "Are you sure you want to create this character? You can edit this character later by choosing \qCustomize\q from the Main Menu.")
+   "Você tem certeza que deseja criar este(a) personagem? Você pode editar este(a) personagem indo na opção \qPersonalizar\q no Menu Principal.")
 (charactercreator_leave
-   "Are you sure you want to leave the Character Creator? Any unsaved changes will be lost.")
+   "Você tem certeza que desejar sair do Criador de Personagem? Qualquer progresso não salvo será perdido.")
 (charactercreator_title
    "Criador de Personagem")
 (charactername_female_1
@@ -6771,7 +6771,7 @@
 (character_data
    "Character Data")
 (character_emptyname
-   "Enter Name")
+   "Coloque o Nome")
 (charcreator_appearence_return
    "Retornar")
 #ifdef HX_XBOX
@@ -7093,9 +7093,9 @@
 (community_website_code
    "Obter Código do Website")
 (completed_double_harmonies
-   "%d of %d Double Harmonies")
+   "%d de %d Frases com Harmonia Dupla")
 (completed_triple_harmonies
-   "%d of %d Triple Harmonies")
+   "%d de %d Frases com Harmonia Tripla")
 (complete_ranked_song_results
    "RESULTADOS")
 (comp_new_match
@@ -7173,7 +7173,7 @@
 (coop_widget_award
    "Coop Award Section")
 (copy
-   "Copy")
+   "Copiar")
 (corduroypants_worn
    "Worn Cords")
 (corduroypants_worn_desc
@@ -7297,7 +7297,7 @@
 (create_char_options
    "OPÇÕES DE PERSONAGEM")
 (create_char_outfit
-   "OUTFIT")
+   "VESTIMENTAS")
 (create_char_skintone
    "TOM DE PELE")
 (create_char_title
@@ -7421,7 +7421,7 @@
 (customize_face_paint_locked
    "Pinturas Faciais <alt>L</alt>")
 (customize_facial_hair
-   "Pêlos Faciais")
+   "Pelos Faciais")
 (customize_feet
    "Pés")
 (customize_glasses_and_masks
@@ -8273,7 +8273,7 @@
 (enable_popup_help
    "Tutoriais p/ Iniciantes")
 (endgame_avg_multiplier
-   "%sx Avg. Multiplier")
+   "Média do Multiplier: %sx")
 #ifdef HX_PS3
 (endgame_hb_details
    "MORE DETAILS")
@@ -8291,7 +8291,7 @@
 (endgame_hb_leave_session
    "Leave Session")
 (endgame_hit_count
-   "%s Notes Hit")
+   "%s Notas Acertadas")
 (endgame_next_song
    "Next Song")
 (endgame_note_streak
@@ -8299,7 +8299,7 @@
 (endgame_percent_complete
    "Percent Complete")
 (endgame_phrase_streak
-   "%s Phrase Streak")
+   "%s Frases Acertadas")
 (endgame_player_noteshit_fmt
    "%d%%")
 (endgame_song_failed
@@ -8324,18 +8324,18 @@
    "ADICIONAR MÚSICA AO REPERTÓRIO")
 #ifdef HX_PS3
 (error_abandoned
-   "Your online band session has ended.")
+   "Sua sessão online da banda foi encerrada.")
 #endif
 #ifdef HX_XBOX
 (error_abandoned
-   "Your Xbox LIVE band session has ended.")
+   "Sua sessão online da banda pela Xbox LIVE foi encerrada.")
 #endif
 #ifdef HX_PC
 (error_abandoned
-   "Your Xbox LIVE band session has ended.")
+   "Sua sessão online da banda pela Xbox LIVE foi encerrada.")
 #endif
 (error_abandon_session
-   "Abandon Session")
+   "Abandonar Sessão")
 #ifdef HX_PS3
 (error_band_owner_signed_out
    "The Record Label owner has signed out or switched profiles!\n")
@@ -8349,40 +8349,40 @@
    "The Record Label owner has signed out or switched gamer profile!\n")
 #endif
 (error_battle_description_profane
-   "The description you've input is not what most would describe as \qclassy.\q Please change it to continue.")
+   "A descrição que você colocou é considerada como imprópria. Por favor, mude-a para continuar.")
 (error_battle_limit_reached
    "You have created too many battles.  Wait for one you've created to expire before creating a new one.")
 (error_battle_title_profane
-   "The title you've input is not what most would describe as \qclassy.\q Please change the title to continue.")
+   "O título que você colocou é considerado como impróprio. Por favor, mude-o para continuar.")
 #ifdef HX_PS3
 (error_cannot_accept_invite
-   "You cannot accept invites because a game modifier is disabling online play.")
+   "Você não pode aceitar convites porque um Modificador do jogo está desabilitando o modo online.")
 #endif
 #ifdef HX_XBOX
 (error_cannot_accept_invite
-   "You cannot accept invites because a game modifier is disabling Xbox LIVE play.")
+   "Você não pode aceitar convites porque um Modificador do jogo está desabilitando o modo online do Xbox LIVE.")
 #endif
 #ifdef HX_PC
 (error_cannot_accept_invite
-   "You cannot accept invites because a game modifier is disabling Xbox LIVE play.")
+   "Você não pode aceitar convites porque um Modificador do jogo está desabilitando o modo online do Xbox LIVE.")
 #endif
 (error_cannot_choose_char_while_editing
-   "Cannot change characters at this time.")
+   "Você não pode mudar personagens no momento.")
 #ifdef HX_XBOX
 (error_career_nobody_signedin
-   "Please sign into a gamer profile to access Career.")
+   "Por favor, conecte-se à um perfil para acessar o Modo Carreira.")
 #endif
 #ifdef HX_PS3
 (error_career_nobody_signedin
-   "Please sign into a profile to access Career.")
+   "Por favor, conecte-se à um perfil para acessar o Modo Carreira.")
 #endif
 #ifdef HX_WII
 (error_career_nobody_signedin
-   "Please sign into a profile to access Career.")
+   "Por favor, conecte-se à um perfil para acessar o Modo Carreira.")
 #endif
 #ifdef HX_PC
 (error_career_nobody_signedin
-   "Please sign into a gamer profile to access Career.")
+   "Por favor, conecte-se à um perfil para acessar o Modo Carreira.")
 #endif
 #ifdef HX_PS3
 (error_cheating
@@ -8408,7 +8408,7 @@
 #endif
 #ifdef HX_PS3
 (error_ethernet_unplugged
-   "There is no ethernet cable connected.")
+   "Não tem um cabo Ethernet conectado.")
 #endif
 #ifdef HX_PC
 (error_ethernet_unplugged
@@ -8431,11 +8431,11 @@
    "Sorry, you can't find Xbox LIVE players while All Instruments Mode is on.")
 #endif
 (error_invite_expired
-   "Could not connect to the session.  This invitation may have expired.")
+   "Não foi possível conectar com a sessão.  Este convite pode estar expirado.")
 (error_invite_no_friends
-   "You have no friends to invite.")
+   "Você não tem amigos(as) para convidar.")
 (error_kicked
-   "You have been kicked.")
+   "Você foi expulso da sessão.")
 (error_local_user_signed_out
    "An important gamer profile has signed out! Sorry, but you can't continue without that gamer profile in this mode.")
 (error_lose_practice_no_part
@@ -8651,19 +8651,19 @@
 (face_maker_change_brows
    "Eyebrows")
 (face_maker_change_cheeks
-   "Cheeks")
+   "Bochechas")
 (face_maker_change_chin
-   "Chin")
+   "Queixo")
 (face_maker_change_eyebrows
-   "Eyebrows")
+   "Sobrancelhas")
 (face_maker_change_eyes
-   "Eyes")
+   "Olhos")
 (face_maker_change_jaw
-   "Jaw")
+   "Mendíbula")
 (face_maker_change_mouth
-   "Mouth")
+   "Boca")
 (face_maker_change_nose
-   "Nose")
+   "Nariz")
 (face_maker_choose_cheeks
    "Choose Cheeks")
 (face_maker_choose_chin
@@ -8693,7 +8693,7 @@
 (face_maker_modify_nose
    "Modify Nose")
 (face_maker_randomize
-   "Randomize")
+   "Randomizar")
 (face_maker_rotate_eyes
    "Rotate Eyes")
 (face_maker_title
@@ -9721,7 +9721,7 @@
 (female_hands_long_leather_desc
    "While you're coolin', the fans will be droolin' in this full leather look.")
 (female_hands_naked
-   "[none]")
+   "[nenhum]")
 (female_hands_naked_desc
    " ")
 (female_hands_skeletongloves_desc
@@ -11343,7 +11343,7 @@
 (hint_goalcomplete
    "Primeiro Objetivo Conquistado!")
 (hint_goalcomplete_desc
-   "Parabéns, você conquistou seu primeiro objetivo!\n\nConquistar objetivos é uma conquista e tanto! Estas conquistas lhe trará mais fãs, mais vestimentas, a até mesmo um meio de transporte melhor para você viajar por aí tocando sua música!\n\nVocê pode dar uma olhada em quais objetivos podem ser conquistados indo em \qMeus Objetivos\q no Menu de Carreira.")
+   "Parabéns, você conquistou seu primeiro objetivo!\n\nConquistar objetivos é uma conquista e tanto! Estas conquistas lhe trará mais fãs, mais vestimentas, e até mesmo um meio de transporte melhor para você viajar por aí tocando sua música!\n\nVocê pode dar uma olhada em quais objetivos podem ser conquistados indo em \qMeus Objetivos\q no Menu de Carreira.")
 (hint_prodrums_desc
    "Bem-vindo(a) ao Treino de Bateria PRO!\n\nEste treino é para kits de Bateria PRO, com os 3 pratos conectados. Se você não tiver todos os 3 pratos conectados ao seu kit, dê uma olhada nos Treinos de Bateria básica!")
 (hipclipspants_leather
@@ -11513,7 +11513,7 @@
 (instarank_highscore_percentile
    "Ranked in the top %i%% of the <alt>%s</alt> leaderboard!")
 (instarank_highscore_rank
-   "Ranked #%s on the <alt>%s</alt> leaderboard!")
+   "<alt>%s</alt> Você conquistou o #%i no Leaderboard!")
 (instarank_highscore_solo
    "Solo High Score")
 (instarank_nofriend_beat
@@ -11521,11 +11521,11 @@
 (instarank_percentile
    "(Top %i%%)")
 (instarank_previousbest
-   "Previous Best: <alt>%s</alt> %s")
+   "Melhor Pontuação Anterior: <alt>%s</alt> %s")
 (instarank_previousbest_percentile
-   "Previous Best: <alt>%s</alt> %s (Top %i%%)")
+   "Melhor Pontuação Anterior: <alt>%s</alt> %s (Top %i%%)")
 (instarank_previousbest_rank
-   "Previous Best: <alt>%s</alt> %s (#%s)")
+   "Melhor Pontuação Anterior: <alt>%s</alt> %s (#%s)")
 (instarank_rank
    "(# %s)")
 (instarank_rival_close
@@ -11557,13 +11557,13 @@
 (intro_e
    "Intro e")
 (intro_fast
-   "Intro fast")
+   "Intro rápida")
 (intro_heavy
-   "Intro heavy")
+   "Intro pesada")
 (intro_heavy_a
-   "Intro heavy a")
+   "Intro pesada a")
 (intro_heavy_b
-   "Intro heavy b")
+   "Intro pesada b")
 (intro_hook
    "Intro hook")
 (intro_riff
@@ -11575,18 +11575,18 @@
 (intro_riff_c
    "Intro riff c")
 (intro_slow
-   "Intro slow")
+   "Intro devagar")
 (intro_verse
-   "Intro verse")
+   "Intro verso")
 (intro_verse_a
-   "Intro verse a")
+   "Intro verso a")
 (invalid_song
    "Você não pode jogar esta música até que todos os jogadores da sua sessão a tenha também!")
 (invalid_version
    "Para jogar esta música, você precisa da atualização mais recente do Rock Band 3. Por favor, certifique-se que você baixou todos as atualizações deste título.")
 #ifdef HX_XBOX
 (invite_body
-   "Pressione START para abrir o menu, escolha 'Jogar no Xbox LIVE', e então 'Opções Xbox LIVE', e então 'Verificar Convites' para conectar ao seus amigos.")
+   "Pressione START para abrir o menu, escolha 'Jogar pela Xbox LIVE', e então 'Opções Xbox LIVE', e então 'Verificar Convites' para conectar ao seus amigos.")
 #endif
 #ifdef HX_PS3
 (invite_body
@@ -11598,7 +11598,7 @@
 #endif
 #ifdef HX_PC
 (invite_body
-   "Pressione START para abrir o menu, escolha 'Jogar no Xbox LIVE', e então 'Opções Xbox LIVE', e então 'Verificar Convites' para conectar ao seus amigos.")
+   "Pressione START para abrir o menu, escolha 'Jogar pela Xbox LIVE', e então 'Opções Xbox LIVE', e então 'Verificar Convites' para conectar ao seus amigos.")
 #endif
 (invite_friend
    "Convidar Amigos")
@@ -12111,9 +12111,9 @@
    "Ver Card do Jogo")
 #endif
 (leader_party_shuffle_warning
-   "Sorry, only the leader of this game can choose Party Shuffle.")
+   "Desculpe, apenas o(a) líder desta sessão pode escolher repertórios aleatórios.")
 (leader_setlist_warning
-   "Sorry, only the leader of this game can select a setlist to play.")
+   "Desculpe, apenas o(a) líder desta sessão pode selecionar um repertório para jogar.")
 (leatherjacket_clean
    "Defiant Leathers")
 (leatherjacket_clean_desc
@@ -12349,11 +12349,11 @@
 (loudleggings_solid_desc
    "Rest your voice from yelling at the sound guy; let your gams do all the talking for you!")
 (loud_part
-   "Loud part")
+   "Parte alta")
 (loud_part_1
-   "Loud part 1")
+   "Parte alta 1")
 (loud_part_2
-   "Loud part 2")
+   "Parte alta 2")
 (lowchucks_skullprint
    "Skully Dornholes")
 (lowchucks_skullprint_desc
@@ -13567,7 +13567,7 @@
 (male_hands_leathergloves_leather_desc
    "While you're coolin', the fans will be droolin' in this full leather look.")
 (male_hands_naked
-   "[none]")
+   "[nenhum]")
 (male_hands_naked_desc
    " ")
 (male_hands_skeletongloves_skeleton
@@ -14705,7 +14705,7 @@
 (modsuitjacket_sharkskin_desc
    "This tailored suit tells the world that you are a modern hombre who has a retirement account and uses expensive body wash.")
 (mod_auto_vocals
-   "Modo All Instruments")
+   "Modo Todos Intrumentos")
 (mod_awesome
    "Detecção de Pessoa Incrível")
 (mod_awesome_desc
@@ -15013,29 +15013,29 @@
 (noise_solo
    "Noise solo")
 (none
-   "[none]")
+   "[nenhum]")
 (none_bandana
-   "[none]")
+   "[nenhum]")
 (none_bandana_desc
    " ")
 (none_earrings
-   "[none]")
+   "[nenhum]")
 (none_earrings_desc
    " ")
 (none_eyebrows
-   "[none]")
+   "[nenhum]")
 (none_eyebrows_desc
    " ")
 (none_facehair
    "Clean Shave")
 (none_glasses
-   "[none]")
+   "[nenhum]")
 (none_glasses_desc
    " ")
 (none_hair
    "Chrome Dome")
 (none_hat
-   "[none]")
+   "[nenhum]")
 (none_hat_desc
    " ")
 (none_makeup
@@ -15043,15 +15043,15 @@
 (none_makeup_desc
    "Au yeah!")
 (none_piercings
-   "[none]")
+   "[nenhum]")
 (none_piercings_desc
    " ")
 (none_rings
-   "[none]")
+   "[nenhum]")
 (none_rings_desc
    " ")
 (none_wrists
-   "[none]")
+   "[nenhum]")
 (none_wrists_desc
    " ")
 (not_on_board
@@ -15334,30 +15334,30 @@
    "O Modo Online está desabilitado na sua conta da PlayStation®Network devido às restrições de controle parental.")
 #ifdef HX_XBOX
 (overshell_auto_vocals_confirm
-   "O \qModo All Instruments\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online pelo Xbox LIVE. Você tem certeza que quer continuar?")
+   "O \qModo Todos Intrumentos\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online pelo Xbox LIVE. Você tem certeza que quer continuar?")
 #endif
 #ifdef HX_PS3
 (overshell_auto_vocals_confirm
-   "O \qModo All Instruments\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online. Você tem certeza que quer continuar?")
+   "O \qModo Todos Intrumentos\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online. Você tem certeza que quer continuar?")
 #endif
 #ifdef HX_WII
 (overshell_auto_vocals_confirm
-   "O \qModo All Instruments\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online. Você tem certeza que quer continuar?")
+   "O \qModo Todos Intrumentos\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online. Você tem certeza que quer continuar?")
 #endif
 #ifdef HX_PC
 (overshell_auto_vocals_confirm
-   "O \qModo All Instruments\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online pelo Xbox LIVE. Você tem certeza que quer continuar?")
+   "O \qModo Todos Intrumentos\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online pelo Xbox LIVE. Você tem certeza que quer continuar?")
 #endif
 (overshell_auto_vocals_denial_generic
-   "Desculpe, você não pode ativar o Modo All Instruments neste momento.")
+   "Desculpe, você não pode ativar o Modo Todos Intrumentos neste momento.")
 (overshell_auto_vocals_denial_in_game
-   "Desculpe, você não pode ativar o Modo All Instruments por aqui. Por favor, tente novamente quando você deixar o palco.")
+   "Desculpe, você não pode ativar o Modo Todos Intrumentos por aqui. Por favor, tente novamente quando você deixar o palco.")
 (overshell_auto_vocals_denial_lone_vocalist
-   "Desculpe, você precisa de mais de um vocalista para ativar o Modo All Instruments.")
+   "Desculpe, você precisa de mais de um vocalista para ativar o Modo Todos Intrumentos.")
 (overshell_auto_vocals_denial_non_vocalist
-   "Desculpe, você não pode desabilitar o Modo All Instruments enquanto uma banda completa estiver nesta sessão. Tente desconectar o slot do terceiro jogador e tente novamente.")
+   "Desculpe, você não pode desabilitar o Modo Todos Intrumentos enquanto uma banda completa estiver nesta sessão. Tente desconectar o slot do terceiro jogador e tente novamente.")
 (overshell_auto_vocals_denial_widescreen
-   "Desculpe, o Modo All Instruments só está disponível em TVs Widescreen.")
+   "Desculpe, o Modo Todos Intrumentos só está disponível em TVs Widescreen.")
 (overshell_av_settings
    "Opções do Sistema")
 (overshell_bass
@@ -15429,7 +15429,7 @@
 (overshell_choose_part_warn
    "Umas das músicas do repertório não possui parte para este instrumento. Você tem certeza que deseja continuar?")
 (overshell_choose_profile
-   "Escolher Profile")
+   "Escolher Perfil")
 #ifdef HX_XBOX
 (overshell_confirm_disconnect
    "Você quer cancelar esta sessão do Xbox LIVE?")
@@ -15451,22 +15451,22 @@
 (overshell_confirm_ok
    "Ok")
 (overshell_confirm_remove_critical_user
-   "Abandonar este Profile fará o jogo retornar ao Menu Principal, perdendo qualquer progresso não salvo. Você tem certeza que deseja continuar?")
+   "Abandonar este perfil fará o jogo retornar ao Menu Principal, perdendo qualquer progresso não salvo. Você tem certeza que deseja continuar?")
 #ifdef HX_XBOX
 (overshell_confirm_remove_user
-   "Você tem certeza que deseja para de jogar no Xbox LIVE? Você irá perder qualquer progresso não salvo.")
+   "Você tem certeza que deseja parar de jogar pela Xbox LIVE? Você irá perder qualquer progresso não salvo.")
 #endif
 #ifdef HX_PS3
 (overshell_confirm_remove_user
-   "Você tem certeza que deseja para de jogar online? Você irá perder qualquer progresso não salvo.")
+   "Você tem certeza que deseja parar de jogar online? Você irá perder qualquer progresso não salvo.")
 #endif
 #ifdef HX_WII
 (overshell_confirm_remove_user
-   "Você tem certeza que deseja para de jogar online? Você irá perder qualquer progresso não salvo.")
+   "Você tem certeza que deseja parar de jogar online? Você irá perder qualquer progresso não salvo.")
 #endif
 #ifdef HX_PC
 (overshell_confirm_remove_user
-   "Você tem certeza que deseja para de jogar no Xbox LIVE? Você irá perder qualquer progresso não salvo.")
+   "Você tem certeza que deseja parar de jogar pela Xbox LIVE? Você irá perder qualquer progresso não salvo.")
 #endif
 (overshell_confirm_remove_user_in_song
    "Você irá perder qualquer progresso não salvo se você abandonar esta música. Você gostaria de abandonar esta música?")
@@ -15477,12 +15477,12 @@
 (overshell_continue
    "Continuar")
 (overshell_continue_without_profile
-   "Sem Profile")
+   "Sem Perfil")
 (overshell_credits
    "Créditos")
 #ifdef HX_XBOX
 (overshell_credits_denial_remote_players
-   "Desculpe, você não pode ver seus créditos enquanto estiver jogando no Xbox LIVE.")
+   "Desculpe, você não pode ver seus créditos enquanto estiver jogando pela Xbox LIVE.")
 #endif
 #ifdef HX_PS3
 (overshell_credits_denial_remote_players
@@ -15494,7 +15494,7 @@
 #endif
 #ifdef HX_PC
 (overshell_credits_denial_remote_players
-   "Desculpe, você não pode ver seus créditos enquanto estiver jogando no Xbox LIVE.")
+   "Desculpe, você não pode ver seus créditos enquanto estiver jogando pela Xbox LIVE.")
 #endif
 (overshell_cymbals_continue
    "Continuar")
@@ -15636,7 +15636,7 @@
    "(Reconectar Controle)")
 #ifdef HX_XBOX
 (overshell_registering_online
-   "Registrando no Xbox LIVE")
+   "Registrando pela Xbox LIVE")
 #endif
 #ifdef HX_PS3
 (overshell_registering_online
@@ -15648,11 +15648,11 @@
 #endif
 #ifdef HX_PC
 (overshell_registering_online
-   "Registrando no Xbox LIVE")
+   "Registrando pela Xbox LIVE")
 #endif
 #ifdef HX_XBOX
 (overshell_register_online
-   "Jogar no Xbox LIVE")
+   "Jogar pela Xbox LIVE")
 #endif
 #ifdef HX_PS3
 (overshell_register_online
@@ -15664,23 +15664,23 @@
 #endif
 #ifdef HX_PC
 (overshell_register_online
-   "Jogar no Xbox LIVE")
+   "Jogar pela Xbox LIVE")
 #endif
 #ifdef HX_XBOX
 (overshell_register_online_denial_auto_vocals
-   "Sorry, you can't play on Xbox LIVE while All Instruments Mode is enabled")
+   "Desculpe, você não pode jogar pela Xbox LIVE enquanto o Modo Todos Intrumentos estiver habilitado")
 #endif
 #ifdef HX_PS3
 (overshell_register_online_denial_auto_vocals
-   "Sorry, you can't play online while All Instruments Mode is enabled")
+   "Desculpe, você não pode jogar online enquanto o Modo Todos Intrumentos estiver habilitado")
 #endif
 #ifdef HX_WII
 (overshell_register_online_denial_auto_vocals
-   "Sorry, you can't play online while All Instruments Mode is enabled")
+   "Desculpe, você não pode jogar online enquanto o Modo Todos Intrumentos estiver habilitado")
 #endif
 #ifdef HX_PC
 (overshell_register_online_denial_auto_vocals
-   "Sorry, you can't play on Xbox LIVE while All Instruments Mode is enabled")
+   "Desculpe, você não pode jogar pela Xbox LIVE enquanto o Modo Todos Intrumentos estiver habilitado")
 #endif
 (overshell_relearn_chords
    "Relearn Chords")
@@ -15689,7 +15689,7 @@
 (overshell_rename_character
    "Renomear Personagem")
 (overshell_restart
-   "Reiniciar")
+   "Recomeçar")
 (overshell_return
    "Retornar")
 (overshell_righty_flip
@@ -15799,47 +15799,47 @@
 (party_setlist
    "Repertório Aleatório")
 (party_setlist_by_line
-   "Play your music without interruptions!")
+   "Jogue sua música sem interrupções!")
 (party_shuffle
    "REPERTÓRIO ALEATÓRIO")
 (party_shuffle_start
-   "Play \qParty Shuffle\q setlist")
+   "Jogar um \qRepertório Aleatório\q")
 (passive_message_accomplishment_step
    "(%s) %s:")
 (passive_message_auto_join_failed
-   "One or more local players could not be joined")
+   "Um ou mais jogadores locais não pôde se juntar ao jogo")
 (passive_message_completed_accomplishment_category
-   "\q%s\q Completed!")
+   "\q%s\q Completado!")
 (passive_message_completed_accomplishment_group
-   "\q%s\q Completed!")
+   "\q%s\q Completado!")
 (passive_message_demoted
-   "%s has been removed from the record label's lineup.")
+   "%s foi removido(a) do lineup da label da gravadora.")
 (passive_message_earned_accomplishment
-   "\q%s\q Unlocked!")
+   "\q%s\q Desbloqueado!")
 (passive_message_earned_accomplishments
-   "%i goals completed!")
+   "%i objetivos completados!")
 (passive_message_earned_avatarasset
-   "%s unlocked an avatar award!")
+   "%s desbloqueou um prêmio de avatar!")
 (passive_message_earned_award
-   "You unlocked \q%s\q!")
+   "Você desbloqueou \q%s\q!")
 (passive_message_earned_campaign_level
    "%s")
 (passive_message_earned_gamerpic
-   "%s unlocked a gamer picture!")
+   "%s desbloqueou uma foto de jogador(a)!")
 (passive_message_invite_failed
-   "Someone you invited wants to play with you! Return to the Main Menu to let them in.")
+   "Alguém que você convidou quer jogar com você! Retorne ao Menu Principal para deixar ele(a) entrar.")
 (passive_message_invite_sent_success
-   "Invite sent!")
+   "Convite enviado!")
 (passive_message_mid_song_join
-   "%s will join for the next song")
+   "%s irá se juntar na próxima música")
 (passive_message_new_remote_user
-   "%s has entered")
+   "%s entrou")
 (passive_message_preload_failed
-   "Unable to load song, skipping...")
+   "Esta música não pôde ser carregada, pulando a música...")
 (passive_message_promoted
-   "%s has been added to the band's lineup!")
+   "%s foi adicionado(a) ao lineup da banda!")
 (passive_message_remote_user_left
-   "%s has left")
+   "%s se desconectou")
 (patchcreator_title
    "Criador de Arte")
 (patch_anchor
@@ -15949,7 +15949,7 @@
 (patch_murakami
    "Reiko Murakami")
 (patch_new
-   "Adicionar Nova Camada")
+   "+ Camada")
 (patch_newyork
    "New York Adorned Tattoo")
 (patch_new_art
@@ -15969,7 +15969,7 @@
 (patch_roan
    "Kerry Roan")
 (patch_sailor_gothic
-   "Messy Sailor Gothic Typeface")
+   "Fonte: Messy Sailor Gothic")
 (patch_sinclair
    "SINC")
 (patch_skineffects
@@ -16029,7 +16029,7 @@
 (percentile_fmt
    "Top %i%%")
 (percent_complete_format
-   "%d%% complete")
+   "%d%% completado")
 (perfect_harmony
    "Perfect Harmony!")
 (perfect_overdrive_tracker_contribution_format
@@ -16071,7 +16071,7 @@
 (perfect_section_tracker_success
    "%d choruses played accurately! Challenge success!")
 (perfect_solo
-   "Perfect Solo!")
+   "Solo Perfeito!")
 (perferatedshoes_metallic
    "Tin Men")
 (perferatedshoes_metallic_desc
@@ -16079,7 +16079,7 @@
 (performance
    "Performance")
 (performance_awards
-   "AWARDS")
+   "PRÊMIOS")
 (perf_diff
    "Diff.")
 #ifdef HX_XBOX
@@ -16088,11 +16088,11 @@
 #endif
 #ifdef HX_PS3
 (perf_name
-   "PSN ID")
+   "ID da PSN")
 #endif
 #ifdef HX_WII
 (perf_name
-   "Wii Name")
+   "Nome de Usuário Wii")
 #endif
 #ifdef HX_PC
 (perf_name
@@ -18835,25 +18835,25 @@
 (prc_intro_e
    "Intro e")
 (prc_intro_fast
-   "Intro fast")
+   "Intro rápida")
 (prc_intro_fast_a
-   "Intro fast a")
+   "Intro rápida a")
 (prc_intro_fast_b
-   "Intro fast b")
+   "Intro rápida b")
 (prc_intro_fast_c
-   "Intro fast c")
+   "Intro rápida c")
 (prc_intro_fast_d
-   "Intro fast d")
+   "Intro rápida d")
 (prc_intro_heavy
-   "Intro heavy")
+   "Intro pesada")
 (prc_intro_heavy_a
-   "Intro heavy a")
+   "Intro pesada a")
 (prc_intro_heavy_b
-   "Intro heavy b")
+   "Intro pesada b")
 (prc_intro_heavy_c
-   "Intro heavy c")
+   "Intro pesada c")
 (prc_intro_heavy_d
-   "Intro heavy d")
+   "Intro pesada d")
 (prc_intro_hook
    "Intro hook")
 (prc_intro_hook_a
@@ -18875,47 +18875,47 @@
 (prc_intro_riff_d
    "Intro riff d")
 (prc_intro_slow
-   "Intro slow")
+   "Intro devagar")
 (prc_intro_slow_1
-   "Intro slow 1")
+   "Intro devagar 1")
 (prc_intro_slow_a
-   "Intro slow a")
+   "Intro devagar a")
 (prc_intro_slow_b
-   "Intro slow b")
+   "Intro devagar b")
 (prc_intro_slow_c
-   "Intro slow c")
+   "Intro devagar c")
 (prc_intro_slow_d
-   "Intro slow d")
+   "Intro devagar d")
 (prc_intro_verse
-   "Intro verse")
+   "Intro verso")
 (prc_intro_verse_a
-   "Intro verse a")
+   "Intro verso a")
 (prc_intro_verse_b
-   "Intro verse b")
+   "Intro verso b")
 (prc_intro_verse_c
-   "Intro verse c")
+   "Intro verso c")
 (prc_intro_verse_d
-   "Intro verse d")
+   "Intro verso d")
 (prc_j
-   "J section")
+   "Sessão j")
 (prc_j1
-   "J section 1")
+   "Sessão j1")
 (prc_j2
-   "J section 2")
+   "Sessão j2")
 (prc_j3
-   "J section 3")
+   "Sessão j3")
 (prc_j4
-   "J section 4")
+   "Sessão j4")
 (prc_j5
-   "J section 5")
+   "Sessão j5")
 (prc_j6
-   "J section 6")
+   "Sessão j6")
 (prc_j7
-   "J section 7")
+   "Sessão j7")
 (prc_j8
-   "J section 8")
+   "Sessão j8")
 (prc_j9
-   "J section 9")
+   "Sessão j9")
 (prc_jam
    "Jam")
 (prc_jam_1
@@ -18967,189 +18967,189 @@
 (prc_jam_d
    "Jam d")
 (prc_k
-   "K section")
+   "Sessão k")
 (prc_k1
-   "K section 1")
+   "Sessão k1")
 (prc_k2
-   "K section 2")
+   "Sessão k2")
 (prc_k3
-   "K section 3")
+   "Sessão k3")
 (prc_k4
-   "K section 4")
+   "Sessão k4")
 (prc_k5
-   "K section 5")
+   "Sessão k5")
 (prc_k6
-   "K section 6")
+   "Sessão k6")
 (prc_k7
-   "K section 7")
+   "Sessão k7")
 (prc_k8
-   "K section 8")
+   "Sessão k8")
 (prc_k9
-   "K section 9")
+   "Sessão k9")
 (prc_keyboard_break
-   "Keyboard break")
+   "Parada do teclado")
 (prc_keyboard_break_1
-   "Keyboard break 1")
+   "Parada do teclado 1")
 (prc_keyboard_break_1a
-   "Keyboard break 1a")
+   "Parada do teclado 1a")
 (prc_keyboard_break_1b
-   "Keyboard break 1b")
+   "Parada do teclado 1b")
 (prc_keyboard_break_1c
-   "Keyboard break 1c")
+   "Parada do teclado 1c")
 (prc_keyboard_break_1d
-   "Keyboard break 1d")
+   "Parada do teclado 1d")
 (prc_keyboard_break_2
-   "Keyboard break 2")
+   "Parada do teclado 2")
 (prc_keyboard_break_2a
-   "Keyboard break 2a")
+   "Parada do teclado 2a")
 (prc_keyboard_break_2b
-   "Keyboard break 2b")
+   "Parada do teclado 2b")
 (prc_keyboard_break_2c
-   "Keyboard break 2c")
+   "Parada do teclado 2c")
 (prc_keyboard_break_2d
-   "Keyboard break 2d")
+   "Parada do teclado 2d")
 (prc_keyboard_break_3
-   "Keyboard break 3")
+   "Parada do teclado 3")
 (prc_keyboard_break_3a
-   "Keyboard break 3a")
+   "Parada do teclado 3a")
 (prc_keyboard_break_3b
-   "Keyboard break 3b")
+   "Parada do teclado 3b")
 (prc_keyboard_break_3c
-   "Keyboard break 3c")
+   "Parada do teclado 3c")
 (prc_keyboard_break_3d
-   "Keyboard break 3d")
+   "Parada do teclado 3d")
 (prc_keyboard_break_4
-   "Keyboard break 4")
+   "Parada do teclado 4")
 (prc_keyboard_break_4a
-   "Keyboard break 4a")
+   "Parada do teclado 4a")
 (prc_keyboard_break_4b
-   "Keyboard break 4b")
+   "Parada do teclado 4b")
 (prc_keyboard_break_4c
-   "Keyboard break 4c")
+   "Parada do teclado 4c")
 (prc_keyboard_break_4d
-   "Keyboard break 4d")
+   "Parada do teclado 4d")
 (prc_keyboard_break_a
-   "Keyboard break a")
+   "Parada do teclado a")
 (prc_keyboard_break_b
-   "Keyboard break b")
+   "Parada do teclado b")
 (prc_keyboard_break_c
-   "Keyboard break c")
+   "Parada do teclado c")
 (prc_keyboard_break_d
-   "Keyboard break d")
+   "Parada do teclado d")
 (prc_keyboard_intro
-   "Keyboard intro")
+   "Intro teclado")
 (prc_keyboard_intro_a
-   "Keyboard intro a")
+   "Intro teclado a")
 (prc_keyboard_intro_b
-   "Keyboard intro b")
+   "Intro teclado b")
 (prc_keyboard_intro_c
-   "Keyboard intro c")
+   "Intro teclado c")
 (prc_keyboard_intro_d
-   "Keyboard intro d")
+   "Intro teclado d")
 (prc_keyboard_solo
-   "Keyboard solo")
+   "Solo de teclado")
 (prc_keyboard_solo_1
-   "Keyboard solo 1")
+   "Solo de teclado 1")
 (prc_keyboard_solo_1a
-   "Keyboard solo 1a")
+   "Solo de teclado 1a")
 (prc_keyboard_solo_1b
-   "Keyboard solo 1b")
+   "Solo de teclado 1b")
 (prc_keyboard_solo_1c
-   "Keyboard solo 1c")
+   "Solo de teclado 1c")
 (prc_keyboard_solo_1d
-   "Keyboard solo 1d")
+   "Solo de teclado 1d")
 (prc_keyboard_solo_2
-   "Keyboard solo 2")
+   "Solo de teclado 2")
 (prc_keyboard_solo_2a
-   "Keyboard solo 2a")
+   "Solo de teclado 2a")
 (prc_keyboard_solo_2b
-   "Keyboard solo 2b")
+   "Solo de teclado 2b")
 (prc_keyboard_solo_2c
-   "Keyboard solo 2c")
+   "Solo de teclado 2c")
 (prc_keyboard_solo_2d
-   "Keyboard solo 2d")
+   "Solo de teclado 2d")
 (prc_keyboard_solo_3
-   "Keyboard solo 3")
+   "Solo de teclado 3")
 (prc_keyboard_solo_3a
-   "Keyboard solo 3a")
+   "Solo de teclado 3a")
 (prc_keyboard_solo_3b
-   "Keyboard solo 3b")
+   "Solo de teclado 3b")
 (prc_keyboard_solo_3c
-   "Keyboard solo 3c")
+   "Solo de teclado 3c")
 (prc_keyboard_solo_3d
-   "Keyboard solo 3d")
+   "Solo de teclado 3d")
 (prc_keyboard_solo_4
-   "Keyboard solo 4")
+   "Solo de teclado 4")
 (prc_keyboard_solo_4a
-   "Keyboard solo 4a")
+   "Solo de teclado 4a")
 (prc_keyboard_solo_4b
-   "Keyboard solo 4b")
+   "Solo de teclado 4b")
 (prc_keyboard_solo_4c
-   "Keyboard solo 4c")
+   "Solo de teclado 4c")
 (prc_keyboard_solo_4d
-   "Keyboard solo 4d")
+   "Solo de teclado 4d")
 (prc_keyboard_solo_a
-   "Keyboard solo a")
+   "Solo de teclado a")
 (prc_keyboard_solo_b
-   "Keyboard solo b")
+   "Solo de teclado b")
 (prc_keyboard_solo_c
-   "Keyboard solo c")
+   "Solo de teclado c")
 (prc_keyboard_solo_d
-   "Keyboard solo d")
+   "Solo de teclado d")
 (prc_keyb_enters
-   "Keyboard enters")
+   "Entrada do Teclado")
 (prc_kick_it
    "Kick It!")
 (prc_loud_part
-   "Loud part")
+   "Parte alta")
 (prc_loud_part_1
-   "Loud part 1")
+   "Parte alta 1")
 (prc_loud_part_1a
-   "Loud part 1a")
+   "Parte alta 1a")
 (prc_loud_part_1b
-   "Loud part 1b")
+   "Parte alta 1b")
 (prc_loud_part_1c
-   "Loud part 1c")
+   "Parte alta 1c")
 (prc_loud_part_1d
-   "Loud part 1d")
+   "Parte alta 1d")
 (prc_loud_part_2
-   "Loud part 2")
+   "Parte alta 2")
 (prc_loud_part_2a
-   "Loud part 2a")
+   "Parte alta 2a")
 (prc_loud_part_2b
-   "Loud part 2b")
+   "Parte alta 2b")
 (prc_loud_part_2c
-   "Loud part 2c")
+   "Parte alta 2c")
 (prc_loud_part_2d
-   "Loud part 2d")
+   "Parte alta 2d")
 (prc_loud_part_3
-   "Loud part 3")
+   "Parte alta 3")
 (prc_loud_part_3a
-   "Loud part 3a")
+   "Parte alta 3a")
 (prc_loud_part_3b
-   "Loud part 3b")
+   "Parte alta 3b")
 (prc_loud_part_3c
-   "Loud part 3c")
+   "Parte alta 3c")
 (prc_loud_part_3d
-   "Loud part 3d")
+   "Parte alta 3d")
 (prc_loud_part_4
-   "Loud part 4")
+   "Parte alta 4")
 (prc_loud_part_4a
-   "Loud part 4a")
+   "Parte alta 4a")
 (prc_loud_part_4b
-   "Loud part 4b")
+   "Parte alta 4b")
 (prc_loud_part_4c
-   "Loud part 4c")
+   "Parte alta 4c")
 (prc_loud_part_4d
-   "Loud part 4d")
+   "Parte alta 4d")
 (prc_loud_part_a
-   "Loud part a")
+   "Parte alta a")
 (prc_loud_part_b
-   "Loud part b")
+   "Parte alta b")
 (prc_loud_part_c
-   "Loud part c")
+   "Parte alta c")
 (prc_loud_part_d
-   "Loud part d")
+   "Parte alta d")
 (prc_lo_melody
    "Low melody")
 (prc_lo_melody_1
@@ -21867,11 +21867,11 @@
 (rennboots_leather_desc
    "If the boys give you any trouble, just show off your archery skills with a swift arrow-through-the-scally-cap.")
 (reorder
-   "Re-order")
+   "Reordenar")
 (reset_all_settings
    "RESETAR TODAS AS OPÇÕES")
 (restart
-   "REINICIAR")
+   "RECOMEÇAR")
 (results_leaderboard_section
    "INFO DA LEADERBOARD")
 (resume
@@ -22271,11 +22271,11 @@
 (schoolgirlshirt_dishevelled_desc
    "Maybe you don't need no education, but looking like you matriculated from Rockington Prep can't hurt.")
 (score_breakdown
-   "Score Breakdown")
+   "Pontuação da Música")
 (score_detail_accuracy
-   "Accuracy")
+   "Precisão")
 (score_detail_band
-   "Band")
+   "Banda")
 (score_detail_coda
    "BRE")
 (score_detail_harmony
@@ -22295,7 +22295,7 @@
 (score_detail_sustains
    "Sustain")
 (score_detail_tambourine
-   "Tambourine")
+   "Tamborim")
 (score_harmony1
    "HARMONY 1 ONLY")
 (score_harmony2
@@ -22313,7 +22313,7 @@
 (seattle
    "Seattle")
 (section_breakdown
-   "Section Breakdown")
+   "Sessões da Música")
 (section_complete
    "Section complete!")
 (seldiffpart_player_ready
@@ -22899,7 +22899,7 @@
 (solo_percent_fmt
    "%d%%")
 (solo_score
-   "SOLO SCORE")
+   "PONTUAÇÃO SOLO")
 (solo_vocalist_needs_mic
    "No microphone has been detected. Please connect a microphone to play this game mode as a vocalist.")
 (solo_win_text
@@ -22909,7 +22909,7 @@
 (songresults_header_continued
    "%s (%i)")
 (songresults_nodata
-   "(none)")
+   "(nenhum)")
 (song_artist_fmt
    "%s  <alt>%s</alt>")
 (song_artist_fmt_number
@@ -24357,7 +24357,7 @@
 (tourproperty_subtractformat
    "- %.1f")
 (tour_bandinfo_title
-   "Band Profile")
+   "Perfil da Banda")
 (tour_band_statistics
    "Band Stats: TBD")
 (tour_bonus_stars
@@ -24367,7 +24367,7 @@
 (tour_challenge_setlist
    "%i song challenge")
 (tour_chooseband_owner
-   "%s's Band")
+   "Banda do(a) %s")
 #ifdef HX_XBOX
 (tour_choose_band_online_no_connection
    "Sign into an Xbox LIVE enabled gamer profile to play on Xbox LIVE.")
@@ -25541,7 +25541,7 @@
 (trainer_music_theory
    "Observações")
 (trainer_must_signin
-   "Você deve estar conectado à um Profile para acessar os Treinos.")
+   "Você deve estar conectado à um perfil para acessar os Treinos.")
 (trainer_progress
    "%i/%i")
 (trainer_progressmeter_name

@@ -736,7 +736,7 @@
    "Communicating with the game servers...")
 ;
 (hint_career_desc
-   "Welcome to the Rock Band 3 Deluxe Career!\n\nYour progress as a musician is measured by goals. As you get better at a particular instrument, you'll beat more goals for that instrument. Beating goals is a big deal; goals can give you more fans, more clothing, and even better transportation to travel around in!")
+   "Bem-vindo(a) ao Modo Carreira do Rock Band 3 Deluxe!\n\nSeu progresso como musicista é metido por objetivos. Quanto melhor você tocar um instrumento, você irá conquistar mais objetivos deste instrumento. Conquistar objetivos é uma conquista e tanto! Estas conquistas lhe trará mais fãs, mais vestimentas, e até mesmo um meio de transporte melhor para você viajar por aí tocando sua música!")
 (vocal_parts_0 "Sem Vocais")
 (by_recent "Source")
 (overshell_rb3esettings "Opções Deluxe")
@@ -1153,13 +1153,13 @@
 (prefab_suitsvox "Elegant Voice")
 ; character creator
 (create_char_gender
-   "Body")
+   "CORPO")
 (matchmaker_choose_gender
-   "Select Body Type")
+   "Selecione o Tipo do Corpo")
 (male
-   "Masculine")
+   "Masculino")
 (female
-   "Feminine")
+   "Feminino")
 ; practice speeds
 (practice_speed_1
    "95% Speed")
