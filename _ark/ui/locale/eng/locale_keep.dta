@@ -6133,11 +6133,11 @@
 (campaignlevel_jet_required
    "To unlock this Road Challenge, you'll need more fans! Earn more by completing Career goals.")
 (campaignlevel_nothing
-   "Rank: Garage Band")
+   "Rank: Banda de Garagem")
 (campaignlevel_nothing_ad
-   "You're a garage band!")
+   "Você agora está numa banda de garagem!")
 (campaignlevel_nothing_earned
-   "You are now a Garage Band!")
+   "Você agora está numa Banda de Garagem!")
 (campaignlevel_specialtattoos
    "Rank: Road Warrior")
 (campaignlevel_specialtattoos_ad
@@ -11511,9 +11511,9 @@
 (instarank_highscore_band
    "Band High Score")
 (instarank_highscore_percentile
-   "Ranked in the top %i%% of the <alt>%s</alt> leaderboard!")
+   "Você conquistou o ranque top %i%% no Leaderboard! <alt>%s</alt>")
 (instarank_highscore_rank
-   "<alt>%s</alt> Você conquistou o #%i no Leaderboard!")
+   "Você conquistou o ranque #%s no Leaderboard! <alt>%s</alt>")
 (instarank_highscore_solo
    "Solo High Score")
 (instarank_nofriend_beat
