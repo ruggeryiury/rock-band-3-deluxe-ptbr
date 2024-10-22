@@ -203,27 +203,27 @@
 (acc_accuracyguitar80
    "80% Guitarra")
 (acc_accuracyguitar80hard
-   "80% Guitarra no Difícil")
+   "80% Guitarra: Difícil")
 (acc_accuracyguitar80hard_desc
    "Acerte pelo menos 80% das notas em uma música na dificuldade Difícil.")
 (acc_accuracyguitar80medium
-   "80% Guitarra no Médio")
+   "80% Guitarra: Médio")
 (acc_accuracyguitar80medium_desc
    "Acerte pelo menos 80% das notas em uma música na dificuldade Médio.")
 (acc_accuracyguitar80_desc
    "Acerte pelo menos 80% das notas em uma música na Guitarra.")
 (acc_accuracyguitar90expert
-   "90% Guitarra no Expert")
+   "90% Guitarra: Expert")
 (acc_accuracyguitar90expert_desc
    "Acerte pelo menos 90% das notas em 3 músicas na Guitarra na dificuldade Expert.")
 (acc_accuracyguitar90hard
-   "90% Hard Guitar")
+   "90% Guitarra: Difícil")
 (acc_accuracyguitar90hard_desc
    "Acerte pelo menos 90% das notas em 6 músicas na Guitarra na dificuldade Difícil.")
 (acc_accuracyguitar90medium
-   "90% Medium Guitar")
+   "90% Guitarra: Médio")
 (acc_accuracyguitar90medium_desc
-   "Acerte pelo menos 90% das notas in 12 músicas na Guitarra na dificuldade Médio.")
+   "Acerte pelo menos 90% das notas em 12 músicas na Guitarra na dificuldade Médio.")
 (acc_accuracyguitarhard
    "Flawless Hard Guitar")
 (acc_accuracyguitarhard_desc
@@ -327,11 +327,11 @@
 (acc_accuracyproguitarexpert_desc
    "Acerte pelo menos 90% das notas em uma música on Expert Pro Guitar.")
 (acc_accuracyproguitarhard
-   "90% Guitarra PRO no Difícil")
+   "90% Guitarra PRO: Difícil")
 (acc_accuracyproguitarhard_desc
    "Acerte pelo menos 90% das notas em uma música na Guitarra PRO na dificuldade Difícil.")
 (acc_accuracyproguitarmedium
-   "90% Guitarra PRO no Médio")
+   "90% Guitarra PRO: Médio")
 (acc_accuracyproguitarmedium_desc
    "Acerte pelo menos 90% das notas em uma música na Guitarra PRO na dificuldade Médio.")
 (acc_accuracyproguitarperfect
@@ -339,15 +339,15 @@
 (acc_accuracyproguitarperfect_desc
    "Acerte 100% das notas em uma música na Guitarra PRO na dificuldade Expert.")
 (acc_accuracyprokeyseasy
-   "90% Teclado PRO no Fácil")
+   "90% Teclado PRO: Fácil")
 (acc_accuracyprokeyseasy_desc
    "Acerte pelo menos 90% das notas em 20 músicas no Teclado PRO na dificuldade Fácil.")
 (acc_accuracyprokeysexpert
-   "90% Teclado PRO no Expert")
+   "90% Teclado PRO: Expert")
 (acc_accuracyprokeysexpert_desc
    "Acerte pelo menos 90% das notas em 3 músicas no Teclado PRO na dificuldade Expert.")
 (acc_accuracyprokeyshard
-   "90% Teclado PRO no Difícil")
+   "90% Teclado PRO: Difícil")
 (acc_accuracyprokeyshard_desc
    "Acerte pelo menos 90% das notas em 6 músicas no Teclado PRO na dificuldade Difícil.")
 (acc_accuracyprokeyshundred
@@ -355,7 +355,7 @@
 (acc_accuracyprokeyshundred_desc
    "Acerte 100% das notas em uma música no Teclado PRO.")
 (acc_accuracyprokeysmedium
-   "90% Teclado PRO no Médio")
+   "90% Teclado PRO: Médio")
 (acc_accuracyprokeysmedium_desc
    "Acerte pelo menos 90% das notas em 12 músicas no Teclado PRO na dificuldade Médio.")
 (acc_accuracyvocals
@@ -365,15 +365,15 @@
 (acc_accuracyvocalseightyfive_desc
    "Arrase em pelo menos 85% das frases numa música no Vocal Solo.")
 (acc_accuracyvocalsexpert
-   "90% Vocal Solo no Expert")
+   "90% Vocal Solo: Expert")
 (acc_accuracyvocalsexpert_desc
    "Consiga uma qualificação Incrível em pelo menos 90% das frases em 3 músicas no Vocal Solo na dificuldade Expert.")
 (acc_accuracyvocalshard
-   "90% Vocal Solo no Difícil")
+   "90% Vocal Solo: Difícil")
 (acc_accuracyvocalshard_desc
    "Consiga uma qualificação Incrível em pelo menos 90% das frases em 6 músicas no Vocal Solo na dificuldade Difícil.")
 (acc_accuracyvocalsmedium
-   "90% Vocal Solo no Médio")
+   "90% Vocal Solo: Médio")
 (acc_accuracyvocalsmedium_desc
    "Acerte pelo menos 90% das frases em 12 músicas no Vocal Solo na dificuldade Médio.")
 (acc_accuracyvocals_desc
@@ -425,7 +425,7 @@
 (acc_band_rb3_bohemianfullband
    "Boêmio de Coração")
 (acc_band_rb3_bohemianfullband_desc
-   "Conquiste pelo menos 2 <alt>*</alt> em \qBohemian Rhapsody\q, do Queen como menbro de um grupo com ao menos 4 membros.")
+   "Conquiste pelo menos 2 <alt>*</alt> em \qBohemian Rhapsody\q, do Queen como membro de um grupo com ao menos 4 membros.")
 (acc_band_rb3_get5stars
    "Caminho para Perfeição")
 (acc_band_rb3_get5stars_desc
@@ -525,11 +525,11 @@
 (acc_bresingle
    "Um Final Triunfante")
 (acc_bresingle_desc
-   "Arrase e conquiste em um Final Triunfante")
+   "Arrase e conquiste um Final Triunfante")
 (acc_bretotal
    "50 Finais Triunfantes!")
 (acc_bretotal_desc
-   "Arrase e conquiste em um 50 Finals Triunfantes.")
+   "Arrase e conquiste 50 Finals Triunfantes.")
 (acc_calibrate
    "Bem Afinado")
 (acc_calibrate_desc
@@ -797,13 +797,13 @@
 (acc_cat_proguitar4
    "Expert Song Progress")
 (acc_cat_proguitar5
-   "Introducing Pro Guitar")
+   "Introdução à Guitarra PRO")
 (acc_cat_proguitar6
-   "Introducing Pro Guitar Part 2")
+   "Introdução à Guitarra PRO Parte 2")
 (acc_cat_proguitar7
-   "Advanced Pro Guitar Techniques")
+   "Técnicas Avançadas da Guitarra PRO")
 (acc_cat_proguitar8
-   "Mastering Pro Guitar")
+   "Masterizando à Guitarra PRO")
 (acc_cat_proguitar9
    "General Pro Guitar Goals")
 (acc_cat_proguitartrainers
@@ -959,7 +959,7 @@
 (acc_dlc_addictedtodlcsongs
    "O(a) Baixador(a)")
 (acc_dlc_addictedtodlcsongs_desc
-   "Earn 2 <alt>*</alt> on 100 downloaded songs or songs from the Rock Band Network.")
+   "Conquiste 2 <alt>*</alt> em 100 músicas baixadas/músicas do Rock Band Network.")
 (acc_dlc_alltp2
    "Rock Band Track Pack Volume 2")
 (acc_dlc_alltp2_desc
@@ -1119,7 +1119,7 @@
 (acc_dlc_ugcindie
    "Turminha Indie")
 (acc_dlc_ugcindie_desc
-   "Conquiste 5 <alt>*</alt> em 5 músicas aleatórias da Rock Band Network/C3/RhythmVerse.")
+   "Conquiste 5 <alt>*</alt> em 5 músicas baixadas/da Rock Band Network do gênero Rock Indie.")
 (acc_dlc_ugcmetal
    "MORE METAL")
 (acc_dlc_ugcmetal_desc
@@ -1609,9 +1609,9 @@
 (acc_eightypercentbass_desc
    "Hit 100% das notas em uma música on Bass.")
 (acc_endlesssetlist
-   "\qO\q Repertório Número 3")
+   "Repertório Número 3")
 (acc_endlesssetlist_desc
-   "Jogue todas as músicas do Rock Band 3 num repertório só.")
+   "Jogue todas as músicas do Rock Band 3 de uma vez só.")
 (acc_expertbandteir1
    "Expert Warmup Band")
 (acc_expertbandteir1_desc
@@ -2145,9 +2145,9 @@
 (acc_grp_guitar
    "Guitarra")
 (acc_grp_harmonyvox
-   "Vocal Harmony")
+   "Harmonias")
 (acc_grp_keys
-   "Keyboard")
+   "Teclado")
 (acc_grp_probass
    "Baixo PRO")
 (acc_grp_prodrums
@@ -2155,11 +2155,11 @@
 (acc_grp_proguitar
    "Guitarra PRO")
 (acc_grp_prokeys
-   "Pro Keyboard")
+   "Teclado PRO")
 (acc_grp_tour
    "Road Challenges")
 (acc_grp_vox
-   "Vocais")
+   "Vocal Solo")
 (acc_guitarbossexpert
    "Expert Hall of Fame Induction")
 (acc_guitarbossexpert_desc
@@ -2185,9 +2185,9 @@
 (acc_guitarsoloall_desc
    "Hit 100% das notas in every Guitar solo in Rock Band 3.")
 (acc_guitarsoloany
-   "Flawless Guitar Solo")
+   "Solista de Guitarra Perfeito")
 (acc_guitarsoloany_desc
-   "Hit 100% das notas in any Guitar solo.")
+   "Hit 100% das notas em qualquer Solo de Guitarra.")
 (acc_guitarsoloeightyfive
    "90% Medium Guitar Solo")
 (acc_guitarsoloeightyfive_desc
@@ -2249,9 +2249,9 @@
 (acc_guitarstreak_desc
    "Play a 100-note streak on Guitar.")
 (acc_guitartutorial01
-   "Welcome to Pro Guitar")
+   "Introdução à Guitarra PRO")
 (acc_guitartutorial01_desc
-   "Check out the video on how to start playing your new Pro Guitar in Rock Band 3.")
+   "Veja o vídeo que mostra como jogar com sua nova Guitarra PRO no Rock Band 3.")
 (acc_guitartutorial02
    "Meet the Pro Guitar Trainer")
 (acc_guitartutorial02_desc
@@ -2269,17 +2269,17 @@
 (acc_guitar_dlc_shredderchallenge_desc
    "Beat any 3 Metal songs from the '80s on Guitar.")
 (acc_guitar_rb3_allsolos
-   "Guitar Solo Master")
+   "Mestre dos Solos de Guitarra")
 (acc_guitar_rb3_allsolos_desc
-   "Acerte pelo menos 85% das notas in every Guitar solo in Rock Band 3 on Hard or Expert.")
+   "Acerte pelo menos 85% das notas em cada Solo de Guitarra presente nas músicas do Rock Band 3 nas dificuldades Díficil ou Expert.")
 (acc_guitar_rb3_beatbeginner
    "Growing Guitarist")
 (acc_guitar_rb3_beatbeginner_desc
    "Beat any 6 songs in Rock Band 3 on Guitar.")
 (acc_guitar_rb3_crazytrainsolo
-   "Crazier Train")
+   "Trenzinho Maluco")
 (acc_guitar_rb3_crazytrainsolo_desc
-   "Hit 85% das notas in the \qCrazy Train\q Guitar solo.")
+   "Acerte 85% das notas no Solo de Guitarra na música \qCrazy Train\q.")
 (acc_guitar_rb3_fivestars
    "5 <alt>*</alt> Guitar")
 (acc_guitar_rb3_fivestars_desc
@@ -2789,9 +2789,9 @@
 (acc_lrb_everysong_desc
    "Beat all of the songs exported from LEGO Rock Band.")
 (acc_lrb_finalcountdownsolo
-   "Heading to Venus")
+   "Partindo para o Planeta Vênus")
 (acc_lrb_finalcountdownsolo_desc
-   "Hit 100% das notas in the \qThe Final Countdown\q Guitar solo.")
+   "Acerte 100% das notas no Solo de Guitarra da música \qThe Final Countdown\q.")
 (acc_lrb_guiltypleasures
    "Can't Help Lovin' You")
 (acc_lrb_guiltypleasures_desc
@@ -3465,17 +3465,17 @@
 (acc_rb1_dmsdftr_desc
    "Beat \q(Don't Fear) The Reaper\q on Hard or Expert Drums.")
 (acc_rb1_endlesssetlist
-   "\qO\q Repertório Original")
+   "Repertório Número 1")
 (acc_rb1_endlesssetlist_desc
-   "Jogue todas as músicas do Rock Band original em uma tacada só.")
+   "Jogue todas as músicas do Rock Band original numa tacada só.")
 (acc_rb1_fivestarall
    "5 <alt>*</alt> the Original Rock Band")
 (acc_rb1_fivestarall_desc
    "Earn 5 <alt>*</alt> on all of the songs from the original Rock Band.")
 (acc_rb1_gtrgreengrass
-   "The Longest Solo")
+   "O Maior Solo do Rock Band Original")
 (acc_rb1_gtrgreengrass_desc
-   "Relive the joy of getting 85% or more on \qGreen Grass and High Tides\q on Guitar.")
+   "Reviva a alegria de acertar 85% das notas ou mais do Solo de Guitarra da música \qGreen Grass and High Tides\q.")
 (acc_rb1_playall
    "Beat the Original")
 (acc_rb1_playall_desc
@@ -3485,9 +3485,9 @@
 (acc_rb1_voxfavourites_desc
    "Play these favorites from the original Rock Band on Vocals.")
 (acc_rb2_allbandbre
-   "Endings Don't Get Bigger")
+   "Cada Triunfo Não é o Suficiente")
 (acc_rb2_allbandbre_desc
-   "Nail all of the Big Rock Endings featured in Rock Band 2.")
+   "Conquiste todos os Finais Triunfantes presentes no repertório de músicas do Rock Band 2.")
 (acc_rb2_beatbeginner
    "Warmup Rock Band 2")
 (acc_rb2_beatbeginner_desc
@@ -3513,15 +3513,15 @@
 (acc_rb2_playall_desc
    "Earn at least 2 <alt>*</alt> on every song from Rock Band 2.")
 (acc_rb2_streaksongs
-   "Rock Band 2 Streak Challenge")
+   "Desafio de Streaks do Rock Band 2")
 (acc_rb2_streaksongs_desc
-   "Play a 150-note streak on any instrument in each of the following songs:")
+   "Acerte um Streak de 150 notas em qualquer instrumento em cada uma das seguintes músicas:")
 (acc_rb3_band_5stareasy
    "5 <alt>*</alt> Rock Band 3")
 (acc_rb3_band_5stareasyorbeatonhigher
-   "Rock Band 3 Easy Master")
+   "Mestre do Rock Band 3: Fácil")
 (acc_rb3_band_5stareasyorbeatonhigher_desc
-   "Earn 5 <alt>*</alt> on any 25 songs in Rock Band 3 on Easy (or earn 3 <alt>*</alt> on a higher difficulty).")
+   "Conquiste 5 <alt>*</alt> em 25 músicas aleatórias do Rock Band 3 na dificuldade Fácil (ou conquiste 3 <alt>*</alt> numa dificuldade maior).")
 (acc_rb3_band_5stareasytier1
    "5 <alt>*</alt> Warmup Band")
 (acc_rb3_band_5stareasytier1_desc
@@ -3553,25 +3553,25 @@
 (acc_rb3_band_5stareasy_desc
    "Conquiste 5 <alt>*</alt> em todas as músicas do Rock Band 3.")
 (acc_rb3_band_5starexpert
-   "Master do Rock Band 3: Expert")
+   "Mestre do Rock Band 3: Expert")
 (acc_rb3_band_5starexpert_desc
    "Conquiste 5 <alt>*</alt> em todas as músicas do Rock Band 3 na dificuldade Expert.")
 (acc_rb3_band_5starhard
-   "5 <alt>*</alt> Rock Band 3 Hard")
+   "5 <alt>*</alt> Rock Band 3: Difícil")
 (acc_rb3_band_5starhardorbeatonhigher
-   "Rock Band 3 Hard Master")
+   "Mestre do Rock Band 3: Difícil")
 (acc_rb3_band_5starhardorbeatonhigher_desc
-   "Earn 5 <alt>*</alt> on every song in Rock Band 3 on Hard (or earn 3 <alt>*</alt> on Expert).")
+   "Conquiste 5 <alt>*</alt> em todas as músicas do Rock Band 3 na dificuldade Difícil (ou conquiste 3 <alt>*</alt> na dificuldade Expert).")
 (acc_rb3_band_5starhard_desc
-   "5 <alt>*</alt> every song in Rock Band 3 on Hard.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas do Rock Band 3 na dificuldade Difícil.")
 (acc_rb3_band_5starmedium
-   "5 <alt>*</alt> Rock Band 3 Medium")
+   "5 <alt>*</alt> Rock Band 3: Médio")
 (acc_rb3_band_5starmediumorbeatonhigher
-   "Rock Band 3 Medium Master")
+   "Mestre do Rock Band 3: Médio")
 (acc_rb3_band_5starmediumorbeatonhigher_desc
-   "Earn 5 <alt>*</alt> on any 50 songs in Rock Band 3 on Medium (or earn 3 <alt>*</alt> on a higher difficulty).")
+   "Conquiste 5 <alt>*</alt> em 50 músicas aleatórias do Rock Band 3 na dificuldade Médio (ou conquiste 3 <alt>*</alt> numa dificuldade maior).")
 (acc_rb3_band_5starmedium_desc
-   "5 <alt>*</alt> every song in Rock Band 3 on Medium.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas do Rock Band 3 na dificuldade Médio.")
 (acc_rb3_band_bandtier1
    "Banda Aquecida")
 (acc_rb3_band_bandtier1_desc
@@ -3633,17 +3633,17 @@
 (acc_rb3_bass_getcareerscore_desc
    "Get over a million points on your career score.")
 (acc_rb3_beatadvanced
-   "Setlist Graduate")
+   "Repertório para Graduados")
 (acc_rb3_beatadvanced_desc
-   "Beat 10 of the most challenging songs from Rock Band 3.")
+   "Jogue 10 das músicas mais desafiadoras do Rock Band 3.")
 (acc_rb3_beatbeginner
-   "Setlist Initiate")
+   "Repertório Iniciante")
 (acc_rb3_beatbeginner_desc
-   "Beat 5 of the easier songs from Rock Band 3.")
+   "Jogue as 5 músicas mais fáceis do Rock Band 3.")
 (acc_rb3_beatintermediate
-   "Setlist Sophomore")
+   "Repertório do Ensino Médio")
 (acc_rb3_beatintermediate_desc
-   "Beat 15 songs from the middle tiers of Rock Band 3.")
+   "Jogue 15 músicas com dificuldade moderada do Rock Band 3.")
 (acc_rb3_crazycareerscore
    "Combinação de Mala")
 (acc_rb3_crazycareerscore_desc
@@ -3731,7 +3731,7 @@
 (acc_rb3_hiteverynote
    "Transtorno Obsessivo Compulsivo")
 (acc_rb3_hiteverynote_desc
-   "Acerte TODAS as notes em todas as músicas do Rock Band 3.")
+   "Acerte TODAS as notas em todas as músicas do Rock Band 3.")
 (acc_rb3_keyboards_5stareasy
    "Rock Band 3 Easy Keys Master")
 (acc_rb3_keyboards_5stareasy_desc
@@ -3973,9 +3973,9 @@
 (acc_rgmediumlessons_desc
    "Complete all of the Medium Pro Guitar Lessons.")
 (acc_secret
-   "Secret")
+   "Objetivo Secreto")
 (acc_secretdesc
-   "Earn more Fans to unlock these Goals!")
+   "Conquiste mais fãs para desbloquear este Objetivo!")
 (acc_sevenfiftypoints
    "Quase Um Milhão")
 (acc_sevenfiftypoints_desc
@@ -4289,7 +4289,7 @@
 (acc_unisonphraseall
    "Em União Perfeita")
 (acc_unisonphraseall_desc
-   "Conquiste todas as Frases Em Harmonia numa música sendo parte de uma banda.")
+   "Conquiste todas as Unison Phrases numa música sendo parte de uma banda.")
 (acc_unisonphraseguitar
    "Guitar in Unison")
 (acc_unisonphraseguitar_desc
@@ -4579,15 +4579,15 @@
 (award_renameband_desc
    "Parabéns, você conseguiu escolher um nome para sua banda! Como escolher o nome da banda é oficialmente a parte mais difícil de todo progresso, você deve conseguir tudo facilmente daqui pra frente.")
 (award_savior
-   "Savior")
+   "Salvador")
 (award_secret_title
-   "Secret")
+   "Secreto")
 (award_serious_skills
-   "Serious Skills")
+   "Habilidades Sérias")
 (award_serious_style_points
    "Most Energy")
 (award_spirited_survivor
-   "Spirited Survivor")
+   "Sobrevivente Espiritual")
 (award_tattoos
    "Tattoo Shop Available!")
 (award_tattoos_desc
@@ -5829,11 +5829,11 @@
 (by_plays
    "Por Vezes Tocada")
 (by_rank
-   "Pela Ranque na Leaderboard")
+   "Pelo Ranque no Leaderboard")
 (by_recent
    "Pela Data Adquirida")
 (by_review
-   "Pela Resenha")
+   "Pela Nota da Resenha")
 (by_song
    "Pelo Nome da Música")
 (by_stars
@@ -6133,7 +6133,7 @@
 (campaignlevel_jet_required
    "To unlock this Road Challenge, you'll need more fans! Earn more by completing Career goals.")
 (campaignlevel_nothing
-   "Rank: Banda de Garagem")
+   "Ranque: Banda de Garagem")
 (campaignlevel_nothing_ad
    "Você agora está numa banda de garagem!")
 (campaignlevel_nothing_earned
@@ -6217,9 +6217,9 @@
 (campaign_goals_leaderboard
    "My Goal Rankings")
 (campaign_goalunits_default
-   "pontos")
+   "Pontos")
 (campaign_goalunits_singular_default
-   "ponto")
+   "Ponto")
 (campaign_goal_status
    "Objetivos de Carreira: %s - Completado!")
 (campaign_goal_value
@@ -6867,17 +6867,17 @@
 (choose_band
    "Manage Band")
 (choose_band_my_bands
-   "My Bands")
+   "Minhas Bandas")
 (choose_band_prefab_bands
-   "Backup Bands")
+   "Bandas de Backup")
 (choose_category
-   "Choose Category")
+   "Escolher Categoria")
 (choose_city
-   "Choose City")
+   "Escolher Cidade")
 (choose_difficulty
    "Escolher Dificuldade")
 (choose_exit
-   "Exit to Main Menu")
+   "Voltar Ao Menu Principal")
 (choose_setlist
    "Tocar um Repertório")
 (choose_song
@@ -8319,9 +8319,9 @@
 (end_game_vox
    "Keep Singing!")
 (enqueue_all
-   "ADICIONAR TODAS AO REPERTÓRIO")
+   "ADICIONAR TODAS")
 (enqueue_song
-   "ADICIONAR MÚSICA AO REPERTÓRIO")
+   "ADICIONAR MÚSICA")
 #ifdef HX_PS3
 (error_abandoned
    "Sua sessão online da banda foi encerrada.")
@@ -10383,7 +10383,7 @@
 (filter_setting_ratings
    "Classificações")
 (filter_setting_sources
-   "Fonte da Música")
+   "Fonte (Source) da Música")
 (filter_setting_vocal_parts
    "Quantidade de Partes de Vocal")
 (filter_shortsongs
@@ -12033,7 +12033,7 @@
 (leaderboards_guitar_on_keys
    "<alt>G</alt> Guitarra no Teclado")
 (leaderboards_harmony_vocals
-   "<alt>V</alt> Harmonia")
+   "<alt>V</alt> Harmonias")
 (leaderboards_keys
    "<alt>K</alt> Teclado")
 (leaderboards_menu_by_fans
@@ -15735,7 +15735,7 @@
 (overshell_vocals_mode_static
    "LETRAS ESTÁTICAS")
 (overshell_vocal_harmony
-   "Harmonia")
+   "Harmonias")
 (overshell_vocal_options
    "Opções de Vocais")
 (overshell_vocal_solo
@@ -16173,11 +16173,11 @@
 (play_local_game
    "PLAY LOCAL GAME")
 (play_set
-   "PLAY SETLIST")
+   "JOGAR REPERTÓRIO")
 (play_setlist
    "Concluir Repertório")
 (play_setlist_by_line
-   "Finalize and play the setlist.")
+   "Finalize e jogue o repertório.")
 (play_song
    "TOCAR MÚSICA")
 (pleatedskirt_vinyl
@@ -21711,7 +21711,7 @@
 (rank_ranked
    "Ranked")
 (rank_sort_wait
-   "Aguardando informações dos ranques...")
+   "Este filtro não é suportado pelo servidor, escolha outra opção!")
 (rank_unranked
    "Unranked")
 (rap
@@ -22401,15 +22401,15 @@
 (setlist_drumsbossmedium
    "Hall of Fame Induction Setlist")
 (setlist_drumsongs
-   "Deleites Baterísticos")
+   "Deleites Percurssivos")
 (setlist_drumsongs_desc
    "Diminua a vida útil dos pads da sua bateria com estas músicas!")
 (setlist_endless
-   "The Endless Setlist")
+   "Repertório do Rock Band Original")
 (setlist_endless3
-   "The Endless Setlist III")
+   "Repertório do Rock Band 3")
 (setlist_endless3_desc
-   "The Endless Setlist is back. This time, it's personal.")
+   "O repertório de músicas da franquia Rock Band está de volta, e desta vez é pessoal...")
 (setlist_friend
    "Friend's Setlist")
 (setlist_guitarbossexpert
@@ -22445,9 +22445,9 @@
 (setlist_keysbossmedium
    "Hall of Fame Induction Setlist")
 (setlist_keyssongs
-   "Keyboard Night")
+   "Noite do Teclado")
 (setlist_keyssongs_desc
-   "These songs are really fun to play on a keyboard!")
+   "Estas músicas são uma delícia para jogar no teclado!")
 (setlist_length_long
    "1 Hour Or Less")
 (setlist_length_marathon
@@ -22459,13 +22459,13 @@
 (setlist_local
    "Local User's Setlist")
 (setlist_lrbendless
-   "LEGO Rock Band Endless Setlist")
+   "Repertório do LEGO Rock Band")
 (setlist_owner_fmt
    "%s's Battles")
 (setlist_partyfavourites
-   "Party Favorites")
+   "Favoritos da Festa")
 (setlist_partyfavourites_desc
-   "Kickstart any party with these surefire hits!")
+   "Apimente qualquer festa com esses hits!")
 (setlist_probassbossexpert
    "Hall of Fame Induction Setlist")
 (setlist_probassbosshard
@@ -22489,9 +22489,9 @@
 (setlist_proguitarbossmedium
    "Hall of Fame Induction Setlist")
 (setlist_proguitarsongs
-   "Starting out with Pro Guitar")
+   "Começando com a Guitarra PRO")
 (setlist_proguitarsongs_desc
-   "Just bought a Pro Guitar? Show off with these great starter songs!")
+   "Conseguiu obter uma Guitarra PRO? Começe jogando estas músicas!")
 (setlist_prokeys
    "Pro Keys Prototype Songs")
 (setlist_prokeysbossexpert
@@ -22501,9 +22501,9 @@
 (setlist_prokeysbossmedium
    "Hall of Fame Induction Setlist")
 (setlist_rb1endless
-   "The Endless Setlist I")
+   "Repertório do Rock Band Original")
 (setlist_rb2endless
-   "The Endless Setlist II")
+   "Repertório do Rock Band 2")
 (setlist_save_battle
    "Submit As Battle")
 (setlist_save_local
@@ -22513,15 +22513,15 @@
 (setlist_save_unsaved
    "Jogar Sem Salvar")
 (setlist_secretshames
-   "Your Secret Shames")
+   "Breguices")
 (setlist_secretshames_desc
-   "Sure, you pretend you don't like these songs, but we secretly all know that you hum along to them in the car.")
+   "Você só finge não gostar destas músicas, mas nós sabemos que você sabe e ama cantar todas!")
 (setlist_songs_removed
-   "%i songs were removed from your setlist.")
+   "%i músicas foram removidas do seu repertório")
 (setlist_song_fmt
    "%d. %s")
 (setlist_song_removed
-   "1 song was removed from your setlist.")
+   "1 música foi removida do seu repertório")
 (setlist_vocalsbossexpert
    "Hall of Fame Induction Setlist")
 (setlist_vocalsbosshard
@@ -22951,7 +22951,7 @@
 (song_length_3_long
    "Músicas Longas")
 (song_length_4_marathon
-   "Mús. Intermináveis")
+   "Músicas Intermináveis")
 (song_length_fmt
    "{int::minutes}:{int:02:seconds}")
 (song_mgr_full_warning_fmt
@@ -23571,7 +23571,7 @@
 (studdedshoe_leather_desc
    "Even if you're not listed in the playbill, the spotlight will still be on you in these studded booties.")
 (st_harmony
-   "Harmonia")
+   "Harmonias")
 (st_vocals
    "Vocal Solo")
 (subgenre_acapella
@@ -26901,27 +26901,27 @@
 (unison_bonus
    "UNISON BONUS")
 (unison_phrase
-   "FRASE EM HARMONIA")
+   "UNISON PHRASES")
 (unison_stat_tracker_contribution
    "Hit %0.0f unison phrases.")
 (units_lessons_singular
    "Lição")
 (unit_awesomes
-   "Awesome Harmonies")
+   "Harmonias Incríveis")
 (unit_awesomes_singular
-   "Awesome")
+   "Incrível")
 (unit_bre_plural
    "Finais Triunfantes")
 (unit_bre_singular
    "Final Triunfante")
 (unit_deploy_plural
-   "Deploy")
+   "Overdrive Ativado")
 (unit_deploy_singular
-   "Deploy")
+   "Overdrive Ativados")
 (unit_fills_plural
-   "Fills")
+   "Viradas")
 (unit_fills_singular
-   "Fill")
+   "Virada")
 (unit_gems_plural
    "Notas")
 (unit_gems_singular
@@ -26939,9 +26939,9 @@
 (unit_rolls_singular
    "Roll")
 (unit_saves_plural
-   "Saves")
+   "Salvamentos")
 (unit_saves_singular
-   "Save")
+   "Salvamento")
 (unit_seconds_plural
    "Segundos")
 (unit_seconds_singular
@@ -26967,7 +26967,7 @@
 (unreviewed
    "sem resenha")
 (unshare_setlist
-   "Unshare Setlist")
+   "Descompartilhar Repertório")
 (untiedankleboots_leather
    "Basket Case Boots")
 (untiedankleboots_leather_desc
