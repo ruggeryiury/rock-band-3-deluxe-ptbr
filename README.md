@@ -3,6 +3,10 @@
 </div>
 
 <div align=center>
+<img src='./assets/rockband3-icon.webp' width='36px' title='Rock Band Icon'/>
+</div>
+
+<div align=center>
 <img src='https://img.shields.io/github/last-commit/ruggeryiury/rock-band-3-deluxe-ptbr?color=%23DDD&style=for-the-badge' /> <img src='https://img.shields.io/github/repo-size/ruggeryiury/rock-band-3-deluxe-ptbr?style=for-the-badge' /> <img src='https://img.shields.io/github/issues/ruggeryiury/rock-band-3-deluxe-ptbr?style=for-the-badge' /> <img src='https://img.shields.io/github/package-json/v/ruggeryiury/rock-band-3-deluxe-ptbr?style=for-the-badge' /> <img src='https://img.shields.io/github/license/ruggeryiury/rock-band-3-deluxe-ptbr?style=for-the-badge' />
 </div>
 
