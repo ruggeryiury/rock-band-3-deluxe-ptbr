@@ -809,7 +809,7 @@
 (ingame_warning "this setting does not work ingame. please use the options from the \qingame settings\q menu.")
 (os_on "ON")
 (os_off "OFF")
-(no_fail_enabled "No Fail Enabled")
+(no_fail_enabled "Modo No Fail Habilitado")
 (os_gemcol "Notas")
 (os_cymcol "Pratos")
 (os_smashcol "Strikeline")
@@ -959,15 +959,15 @@
 (mod_dx_left_right_jump "Dpad Songlist Shortcuts")
 (mod_dx_left_right_jump_desc "Allows Left and Right on the dpad to jump up and down to the next section respectively")
 (mod_remote_texture_sync "Sincron. Texturas Online")
-(mod_remote_texture_sync_desc "Mostra o tela único de cada jogador(a) em sessões online")
-(os_gems "Gems")
+(mod_remote_texture_sync_desc "Mostra o tema único das trilhas de cada jogador(a) em sessões online")
+(os_gems "Notas")
 (os_sustains "Sustains")
 (os_setguitarcol "Guitar Colors")
 (os_setdrumcol "Drum Colors")
 (os_setprotarcol "Pro Guitar Gems")
 (os_smashers "Strikeline")
 (os_toms "Toms")
-(os_cymbals "Cymbals")
+(os_cymbals "Chimbais")
 (os_animatedsmashers "Animated Strikeline")
 (os_rails "Track Rails")
 (os_lanes "Lanes")
@@ -1010,7 +1010,7 @@
 (mod_ps3os "PS3")
 (mod_wiios "Wii")
 (mod_static_fills
-   "Drum Auto Deploy")
+   "Auto-Ativação na Bateria")
 (mod_dx_no_overdrive "Desativar Overdrive")
 (mod_songselectnoise
    "Song Select Ambience")
@@ -1156,43 +1156,43 @@
    "Feminino")
 ; practice speeds
 (practice_speed_1
-   "95% Speed")
+   "Vel.: 95%")
 (practice_speed_2
-   "90% Speed")
+   "Vel.: 90%")
 (practice_speed_3
-   "85% Speed")
+   "Vel.: 85%")
 (practice_speed_4
-   "80% Speed")
+   "Vel.: 80%")
 (practice_speed_5
-   "75% Speed")
+   "Vel.: 75%")
 (practice_speed_6
-   "70% Speed")
+   "Vel.: 70%")
 (practice_speed_7
-   "65% Speed")
+   "Vel.: 65%")
 (practice_speed_8
-   "60% Speed")
+   "Vel.: 60%")
 (practice_speed_9
-   "55% Speed")
+   "Vel.: 55%")
 (practice_speed_10
-   "50% Speed")
+   "Vel.: 50%")
 (practice_speed_11
-   "45% Speed")
+   "Vel.: 45%")
 (practice_speed_12
-   "40% Speed")
+   "Vel.: 40%")
 (practice_speed_13
-   "35% Speed")
+   "Vel.: 35%")
 (practice_speed_14
-   "30% Speed")
+   "Vel.: 30%")
 (practice_speed_15
-   "25% Speed")
+   "Vel.: 25%")
 (practice_speed_16
-   "20% Speed")
+   "Vel.: 20%")
 (practice_speed_17
-   "15% Speed")
+   "Vel.: 15%")
 (practice_speed_18
-   "10% Speed")
+   "Vel.: 10%")
 (practice_speed_19
-   "5% Speed")
+   "Vel.: 5%")
 (award_flawless
    "Full Combo")
 (full_combo_short
@@ -1200,7 +1200,7 @@
 (mod_fcclip
    "No Endgame Sounds")
 (mod_fastermode
-   "Acceleration Mode")
+   "Modo Aceleração")
 (mod_fastermode_topspeed
    "Top Speed")
 (os_enabled
@@ -1212,7 +1212,7 @@
 (os_disable
    "Disable")
 (os_fastermode
-   "Acceleration Mode")
+   "Modo Aceleração")
 (os_faster
    "Acceleration")
 (os_sngspdcap
@@ -1839,9 +1839,9 @@
    "You would have filled an average-sized SD card with songs by now! After playing them all, contact @deliciousbees on Twitter for a thank you prize!")
 #endif
 (acc_dx_coverband
-   "Cover Band")
+   "Banda Cover")
 (acc_dx_coverband_desc
-   "Earn 5 <alt>*</alt> on every official WaveGroup song.")
+   "Conquiste 5 <alt>*</alt> em cada música oficial do grupo WaveGroup.")
 (acc_dx_hourglass
    "Feeling like StephGH1")
 (acc_dx_hourglass_desc
@@ -1863,9 +1863,9 @@
 (acc_dx_beginning_desc
    "Earn 5 <alt>*</alt> on these songs from the start of Guitar Hero and Rock Band.")
 (acc_dx_panicswitch
-   "Don't Panic")
+   "Sem Pânico!..")
 (acc_dx_panicswitch_desc
-   "Play \qPanic Switch\q as a band.")
+   "Jogue a música \qPanic Switch\q com uma banda completa.")
 (acc_dx_chinesedemo
    "November Rain")
 (acc_dx_chinesedemo_desc
@@ -1879,25 +1879,25 @@
 (acc_dx_carlathf_desc
    "Make Carl Brutananadilewski proud by rocking out and getting 5 <alt>*</alt> on The Setlist of Ultimate Ultimateness!")
 (acc_dx_thegame
-   "You Just Lost.")
+   "Você Acabou de Perder...")
 (acc_dx_thegame_desc
-   "100% \qThe Game\q.")
+   "Acerte 100% das notas na música \qThe Game\q\n((O JOGO)).")
 (acc_dx_brony
    "Brony.")
 (acc_dx_brony_desc
    "Beat every song relating to My Little Pony.")
 (acc_dx_imagine
-   "Imagine all the people")
+   "Sério, Imagine TODAS as Pessoas...")
 (acc_dx_imagine_desc
-   "Earn 5 <alt>*</alt> on the entire \qImagine\q album.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas do álbum \qImagine\q, do John Lennon.")
 (acc_dx_speedingticket
    "Speeding Ticket")
 (acc_dx_speedingticket_desc
    "Earn 5 <alt>*</alt> on these slammin' tracks (and make sure to obey local speed regulations)!")
 (acc_dx_spongebob
-   "Who lives in a pineapple under the sea?")
+   "Vive no Abacaxi e Mora do Mar")
 (acc_dx_spongebob_desc
-   "Earn 5 <alt>*</alt> on all of the SpongeBob SquarePants songs.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas do BobEsponja CalçaQuadrada.")
 (acc_dx_southpark
    "...meet some friends of mine!")
 (acc_dx_southpark_desc
@@ -1907,9 +1907,9 @@
 (acc_dx_hugh_desc
    "Earn 5 <alt>=</alt> on these favorite songs of everybody's favorite rabble rousing rascal.")
 (acc_dx_deluxe
-   "Rock Band 3 De-luxe")
+   "De-luxe")
 (acc_dx_deluxe_desc
-   "Earn 5 <alt>*</alt> on \qDe-Luxe\q.")
+   "Conquiste 5 <alt>*</alt> na música \qDe-Luxe\q.")
 (acc_dx_bangcamaro
    "Banging in the Camaro")
 (acc_dx_bangcamaro_desc
@@ -1923,61 +1923,61 @@
 (acc_dx_fatkid_desc
    "Earn 5 <alt>*</alt> on \qFat Kid\q by \qNothing More\q.")
 (acc_dx_box
-   "What's in the Box?")
+   "O Que Há Dentro da Caixa?")
 (acc_dx_box_desc
-   "Earn 5 <alt>*</alt> on every song with \qbox\q in the title.")
+   "Conquiste 5 <alt>*</alt> em cada música com a palavra \qbox\q (caixa) no título.")
 (acc_dx_smashmouth
-   "...And they don't stop coming")
+   ".Banda da Música do Shrek")
 (acc_dx_smashmouth_desc
-   "Earn 5 <alt>*</alt> on every Smash Mouth song.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas da banda Smash Mouth.")
 (acc_dx_stoner
    "Smoke Sesh")
 (acc_dx_stoner_desc
    "Earn 5 <alt>*</alt> on the songs on every stoner's iPod Nano")
 (acc_dx_rb1wii
-   "Should have done it on Wii")
+   "Privilégios da Nintendo")
 (acc_dx_rb1wii_desc
-   "100% all the songs exclusive to Rock Band 1 Wii")
+   "Acerte 100% das notas em todas as músicas exclusivas do Rock Band original no Wii.")
 (acc_dx_rb3devkit
-   "$36 Club")
+   "O Valor de um Protótipo")
 (acc_dx_rb3devkit_desc
-   "Earn 5 <alt>=</alt> stars on all the prototype charts found on the Rock Band 3 Wii development kit!")
+   "Conquiste 5 <alt>=</alt> em todas as músicas protótipos encontradas no Development Kit do Rock Band 3 para o Wii!")
 (acc_dx_guitarssuck
    "Guitars Really Suck?")
 (acc_dx_guitarssuck_desc
-   "Earn 5 <alt>=</alt> stars on \qGuitars SUCK\q on any instrument except guitar.")
+   "Conquiste 5 <alt>=</alt> na música \qGuitars SUCK\q em qualquer instrumento que não seja a Guitarra.")
 (acc_dx_original
-   "Original goal")
+   "Objetivo das Músicas Originais")
 (acc_dx_original_desc
-   "Earn 5 <alt>*</alt> on all \qOriginal version\q songs on Expert.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas \qOriginal version\q na dificuldade Expert.")
 (acc_dx_feelgood
-   "I'm the one they call Dr. Feelgood")
+   "Se Sinta Bem")
 (acc_dx_feelgood_desc
-   "Embrace your inner Mick Mars and Earn 5 <alt>*</alt> on the \qDr. Feelgood\q Album.")
+   "Abraçe seu Mick Mars interior e conquiste 5 <alt>*</alt> em todas as músicas do álbum \qDr. Feelgood\q.")
 (acc_dx_blacksabbath
-   "The Birth of Metal")
+   "O Nascimento do Metal")
 (acc_dx_blacksabbath_desc
-   "Earn 5 <alt>*</alt> on all of the Black Sabbath Songs on Expert.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas do Black Sabbath na dificuldade Expert.")
 (acc_dx_proskater
-   "Pro Skater")
+   "Skatista Profisional")
 (acc_dx_proskater_desc
-   "Play all 19 songs featured in the \qTony Hawk's\q series of games.")
+   "Jogue todas as 19 músicas que aparecem como trilha sonora na franquia \qTony Hawk\q.")
 (acc_dx_ironmaiden
-   "Up the Irons!")
+   "Dama de Ferro")
 (acc_dx_ironmaiden_desc
-   "Earn 5 <alt>*</alt> on every Iron Maiden song.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas da banda Iron Maiden.")
 (acc_dx_peacesells
-   "Buy Peace Already!")
+   "Compre Sua Paz!")
 (acc_dx_peacesells_desc
-   "Earn 5 <alt>*</alt> on every song from the album \qPeace Sells... but Who's Buying?\q.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas do álbum \qPeace Sells... but Who's Buying?\q.")
 (acc_dx_dragonforce
-   "Legends of Rock")
+   "Lendas do Power Metal")
 (acc_dx_dragonforce_desc
-   "Earn 5 <alt>*</alt> on every DragonForce song.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas da banda DragonForce.")
 (acc_dx_greenstar
-   "Green Star!")
+   "A Estrela Verde!")
 (acc_dx_greenstar_desc
-   "Earn 5 <alt>=</alt> on \qGreen Grass and High Tides\q on Expert.")
+   "Conquiste 5 <alt>=</alt> na música \qGreen Grass and High Tides\q na dificuldade Expert.")
 (acc_dx_memes
    "You've been trolled")
 (acc_dx_memes_desc
@@ -1987,17 +1987,17 @@
 (acc_dx_bloodsugar_desc
    "Play the entire \qBlood Sugar Sex Magik\q album.")
 (acc_dx_4kingsofmetal
-   "The 4 Kings of Metal")
+   "Os 4 Reis do Metal")
 (acc_dx_4kingsofmetal_desc
-   "Earn 5 <alt>*</alt> on every song made by \qMetallica\q, \qMegadeth\q, \qAnthrax\q and \qSlayer\q.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas das bandas: \qMetallica\q, \qMegadeth\q, \qAnthrax\q, e \qSlayer\q.")
 (acc_dx_rbnmegamix
-   "Promoting new songs")
+   "Promovendo Novas Músicas")
 (acc_dx_rbnmegamix_desc
-   "Beat \qRock Band Network Megamix 01\q.")
+   "Complete a música \qRock Band Network Megamix 01\q.")
 (acc_dx_sixsixsix
-   "The Number of the Beast")
+   "O Número da Besta")
 (acc_dx_sixsixsix_desc
-   "Get a 666+ note streak on \q666\q.")
+   "Consiga um Streak de Notas de 666 ou mais na música\q666\q.")
 (acc_dx_2112
    "It Doesn't Fit The Plan")
 (acc_dx_2112_desc
@@ -2024,9 +2024,9 @@
 (acc_dx_kingofmetal_desc
    "Earn 5 <alt>*</alt> these classic Metal Songs on Expert Guitar.")
 (acc_dx_tweezer
-   "Uncle Ebenezer")
+   "Tio Ebenezer")
 (acc_dx_tweezer_desc
-   "95% or higher \qTweezer\q on Expert Guitar.")
+   "Acerte 95% ou mais na música \qTweezer\q na Guitarra na dificuldade Expert.")
 (acc_dx_gamewithzombies
    "Y0U C0MP1ETED A GAM3 W1TH Z0MB1ES 1N IT !!!1")
 (acc_dx_gamewithzombies_desc
@@ -2130,16 +2130,16 @@
 (mod_color_shuffle_desc "Randomizes the colors of gems!")
 (mod_gem_shuffle_desc "Completely random notes!")
 (mod_double_bass_desc "Enables double bass pedal on drums charts")
-(os_reboot "Reboot Game")
-(os_reboot_desc "Completely reboot Rock Band 3 Deluxe.")
-(reboot_warning "Are you sure you want to reboot the game?")
+(os_reboot "Reiniciar Jogo")
+(os_reboot_desc "Reinicia completamente o jogo.")
+(reboot_warning "Você tem certeza que deseja reiniciar o jogo?")
 #endif
-(overshell_reboot "Reboot Game")
+(overshell_reboot "Reiniciar Jogo")
 (reboot_theme_warning_rb3e "O tema padrão não irá carregar apropriadamente se você já jogou uma música até você reiniciar o jogo.\nDeseja reiniciar o jogo agora?")
 (reboot_theme_warning "O tema padrão não irá carregar apropriadamente se você já jogou uma música até você reiniciar o jogo.\nÉ recomendado reiniciar o jogo.")
 (refresh_library "Recarregar Músicas")
-(os_button_remapper "Pad Button Remap")
-(os_button_remapper_desc "Remap in game buttons for pad play")
+(os_button_remapper "Remapear Controle")
+(os_button_remapper_desc "Remapeie os botões para jogar no Controle")
 (mapped_button_0 "L2/LT")
 (mapped_button_1 "R2/RT")
 (mapped_button_2 "L1/LB")
@@ -2166,15 +2166,15 @@
 (play_a_show_welcome_text
    "Welcome to Play a Show!\nGrab your axe and give the crowd a great opener!")
 (dx_play_a_show_setlist_count
-   "\nSetlist: %i Song")
+   "\nRepertório: %i Música")
 (dx_play_a_show_setlist_counts
-   "\nSetlist: %i Songs")
+   "\nRepertório: %i Músicas")
 (play_a_show_get_songs
-   "Getting Songs")
+   "Obtendo Músicas")
 (play_a_show_pick_songs
-   "Picking Songs")
+   "Escolhendo Músicas")
 (play_a_show_waiting
-   "Waiting")
+   "Aguardando")
 (play_a_show_submitting
    "Submitting")
 (play_a_show_lock_in
@@ -2184,51 +2184,51 @@
 (play_a_show_refreshed
    "Options Refreshed")
 (play_a_show_refresh
-   "Refresh Options")
+   "Atualizar Opções")
 (play_a_show_missing_inst
    "this song is missing one of your instruments:")
 (play_a_show_bandvote
-   "Band Vote:")
+   "Voto da Banda:")
 (play_a_show_pressstart
-   "Press <alt>s</alt>\nto rock!")
+   "Pressione <alt>s</alt>\npara arrasar!")
 (play_a_show_genre
-   "A %s song")
+   "Uma música do gênero: %s")
 (play_a_show_year
-   "A song from %i")
+   "Uma música de %i")
 (play_a_show_year_decade
-   "A song from the %is")
+   "Uma música de uma década: %is")
 (play_a_show_source
-   "A song from %s")
+   "Uma música do: %s")
 (play_a_show_artist
-   "A song by %s")
+   "Uma música do artista/banda: %s")
 (play_a_show_diff
-   "A %s tier song")
+   "Uma música na dificuldade: %s")
 (play_a_show_diff_an
-   "An %s tier song")
+   "Uma música na dificuldade: %s")
 (play_a_show_author
-   "A song charted by %s")
+   "Uma música charteada por %s")
 (play_a_show_album
    "A song from %s <alt>%s</alt>")
 (play_a_show_really_long
-   "A REALLY long song")
+   "Uma música BEM longa")
 (play_a_show_long
-   "A long song")
+   "Uma música longa")
 (play_a_show_short
-   "A short song")
+   "Uma música curta")
 (play_a_show_really_short
-   "A REALLY short song")
+   "Uma música BEM curta")
 (play_a_show_slow
-   "A slow song")
+   "Uma música devagar")
 (play_a_show_med
-   "A completely random song")
+   "Uma música completamente aleatória")
 (play_a_show_fast
-   "A fast song")
+   "Uma música rápida")
 (play_a_show_woman
-   "A song with a woman as the vocalist")
+   "Uma música com uma vocalista feminina")
 (play_a_show_community
-   "A song from the community")
+   "Uma música da comunidade")
 (overshell_confirm_leaveashow
-   "Are you sure you want to leave Play a Show?\nYour setlist will be lost!")
+   "Você tem certeza que deseja sair do Modo Play a Show?\nSeu repertório será perdido!")
 (dx_play_a_show_intro
    "Bem-vindo(a) ao Modo Play a Show!\n\nComeçe escolhendo a música de abertura para seu repertório.\nDepois da música de abertura, você e sua banda votará juntos, moldando seu repertório por uma série de opções.\n\nDica: Agora é sua change de selecionar os filtros pelo botão [Select].")
 (meta_now_playing
@@ -2574,7 +2574,7 @@
 (forro
    "Forró")
 (funkbr
-   "Brazilian Funk")
+   "Funk Brasileiro")
 (funkmelody
    "Funk Melody")
 (gospel
@@ -2600,7 +2600,7 @@
 (subgenre_forro
    "Forró")
 (subgenre_funkbr
-   "Brazilian Funk")
+   "Funk Brasileiro")
 (subgenre_funkmelody
    "Funk Melody")
 (subgenre_gospel

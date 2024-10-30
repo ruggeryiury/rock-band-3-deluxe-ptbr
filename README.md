@@ -11,22 +11,23 @@
 </div>
 
 - [About](#about)
-- [Instalation](#instalation)
-- [Progress](#progress)
+- [Download](#download)
+- [Progress Overall](#progress-overall)
 
 ## About
 
-This project is a complete fan translation of the Rock Band 3 Deluxe title to brazilian portuguese. On this repository, you'll find only `.dta` files to replace in your Rock Band 3 Deluxe build's `_ark` folder, replacing the original english locales to brazilian ones (since the game doesn't have a language detection that works for brazilian portuguese consoles). All texts were meticulously translated and replaced manually and revised in-game before any commit (unless when noted).
+This project is a complete fan translation of the Rock Band 3 Deluxe title to brazilian portuguese. The translation also includes translation from the RB3DX additional options and features. On this repository, you'll only find files to replace in your Rock Band 3 Deluxe build's `_ark` folder, replacing the original english locales to brazilian ones (since the game doesn't have a language detection that supports brazilian portuguese consoles).
 
-## Instalation
+If you don't know how to build Rock Band 3 Deluxe patch, check the Download section below to use a manually-build version of Rock Band 3 Deluxe patch with built-in translation.
 
-- Download/clone the Rock Band 3 Deluxe repository somewhere in your computer.
-- Copy and paste the `_ark` folder from this repo, replacing the `_ark` folder of the Rock Band 3 Deluxe repository and all `.dta` files.
-- Build the patch and install it on your console/emulator.
+## Download
 
-## Progress
+You can download a manually-build `.pkg` file of Rock Band 3 Deluxe patch with built-in translation [here](https://drive.google.com/file/d/1C2B6k_aH3neda6rMpV0BygtdB5Kc_SZL/view?usp=sharing).
 
-- All menus are almost 100% translated.
-- Deluxe options are almost 100% translated.
-- Goals translation has already started.
+## Progress Overall
+
+- All menus are almost 100% translated!
+- Deluxe options is ~60% translated.
+- Goals translation has already started. About 5% completed.
 - The Character Editor items and the Road Challenges hasn't been started yet.
+- The Game Credits is about 3% translated

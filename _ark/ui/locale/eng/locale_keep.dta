@@ -227,7 +227,7 @@
 (acc_accuracyguitarhard
    "Flawless Hard Guitar")
 (acc_accuracyguitarhard_desc
-   "Acerte 100% das notas em uma música músicas na Guitarra na dificuldade Difícil.")
+   "Acerte 100% das notas em uma música na Guitarra na dificuldade Difícil.")
 (acc_accuracyguitarmedium
    "Flawless Medium Guitar")
 (acc_accuracyguitarmedium_desc
@@ -957,9 +957,9 @@
 (acc_dlc_5starmetaltp_desc
    "Earn at least 2 <alt>*</alt> on all 20 songs in the Rock Band Metal Track Pack.")
 (acc_dlc_addictedtodlcsongs
-   "O(a) Baixador(a)")
+   "Viciado em Downloads")
 (acc_dlc_addictedtodlcsongs_desc
-   "Conquiste 2 <alt>*</alt> em 100 músicas baixadas/músicas do Rock Band Network.")
+   "Conquiste 2 <alt>*</alt> em 100 músicas baixadas/da Rock Band Network.")
 (acc_dlc_alltp2
    "Rock Band Track Pack Volume 2")
 (acc_dlc_alltp2_desc
@@ -4371,9 +4371,9 @@
 (ah
    "Ah!")
 (album
-   "Album:")
+   "Álbum:")
 (album_song
-   "Album:")
+   "Álbum:")
 (alexjacket_leather
    "The CEO My Goodness Jacket")
 (alexjacket_leather_desc
@@ -4381,9 +4381,9 @@
 (all
    "Todas as Músicas")
 (all_albums
-   "Albums")
+   "Álbums")
 (all_artists
-   "Songs")
+   "Músicas")
 (all_singles
    "Singles")
 (all_song_packs
@@ -4411,7 +4411,7 @@
 (arena_1
    "Arena 1")
 (are_you_sure
-   "Are you sure?")
+   "Você tem certeza?")
 (armorleggings_nylon
    "Poleyn Leggings")
 (armorleggings_nylon_desc
@@ -4449,7 +4449,7 @@
 (asset_hint_goalgroup
    "complete all of the %s goals")
 (assign_standins
-   "Assign Stand-Ins")
+   "Designar Substitutos")
 (astrojet
    "Gretsch<sup>TM</sup> Astro-Jet<sup>TM</sup> w/ Vibrato Tailpiece")
 (astrojet_desc
@@ -4517,11 +4517,11 @@
    "This game uses an autosave system. Whenever you see this symbol, the game is saving. Please do not turn off your Xbox 360 console while this symbol is on the screen.")
 #endif
 (auto_cal_start
-   "Press Green to Start")
+   "Pressione o Botão Verde para Começar")
 (available_strength_star
    "a")
 (av_settings
-   "audio/video settings")
+   "configurações de áudio/vídeo")
 (award_awesome_solo
    "Awesome Solo")
 (award_band_savior
@@ -4551,7 +4551,7 @@
 (award_generic
    "Novas Opções de Personalização Disponíveis!")
 (award_genericdesc
-   "Você pode vestir e utilizar os items ganhados indo em \qPersonalizar Personagem\q You can wear and use items earned by choosing \qCustomize Character\q from the Customize section of the Main Menu.")
+   "Você pode vestir e utilizar os items ganhos indo em \qPersonalizar Personagem\q no menu Personalizar no Menu Principal.")
 (award_halloffame
    "You've reached the Hall of Fame!")
 (award_halloffame_desc
@@ -4861,11 +4861,11 @@
 (bandsecondname_9
    "Funk")
 (band_chooser_career_score
-   "Career Score")
+   "Pontuação de Carreira")
 (band_chooser_create_desc
    "  ")
 (band_chooser_existing
-   "My Bands [%i]")
+   "Minhas Bandas [%i]")
 (band_chooser_existing_desc
    "   ")
 #ifdef HX_XBOX
@@ -4905,13 +4905,13 @@
 (band_chooser_join_desc
    " ")
 (band_chooser_non_active_select
-   "To view this gamer profile's bands, please press a button on the controller they are currently signed into.")
+   "Para ver as bandas deste perfil, por favor pressione um botão no controle que este perfil está conectado.")
 (band_chooser_not_connected
    "Offline")
 (band_chooser_not_signed_in
-   "Sign In")
+   "Conectar")
 (band_chooser_not_signed_in_desc
-   "(You must be signed into a gamer profile to view its bands)")
+   "(Você deve estar conectado em um perfil para ver suas bandas)")
 (band_chooser_profile_header
    "Banda do(a) %s")
 (band_chooser_skip
@@ -4919,7 +4919,7 @@
 (band_chooser_skip_desc
    "   ")
 (band_chooser_skip_desc_2
-   "Player Statistics...")
+   "Estatísticas do(a) Jogador(a)Player Statistics...")
 (band_coop
    "Jogo Rápido")
 (band_default_name
@@ -4929,65 +4929,65 @@
 (band_enters
    "Band enters")
 (band_fans
-   "Band by Fans")
+   "Banda por Fãs")
 (band_info_add_member
-   "Invite Player to Label")
+   "Convidar Jogador(a) para a Label")
 (band_info_band_member
-   "Player")
+   "Jogador(a)")
 (band_info_change_name
-   "Change Name")
+   "Mudar Nome")
 (band_info_customize_appearance
-   "Customize Appearance")
+   "Personalizar Aparência")
 (band_info_date
-   "%m/%d/%Y")
+   "%d/%m/%Y")
 (band_info_disband_band
-   "Disband Band")
+   "Acabar com a Banda")
 (band_info_edit_logo
-   "Edit Logo")
+   "Editar Logo")
 (band_info_edit_quote
-   "Edit Greeting Message")
+   "Editar Mensagem de Boas Vindas")
 (band_info_founding_info
    "Founded by %s on %s.")
 (band_info_members
-   "Band Members")
+   "Membros da Banda")
 (band_info_rb3_score
-   "Rock Band 3 Score: %s")
+   "Pontuação no Rock Band 3: %s")
 (band_info_rb3_score_heading
-   "Rock Band 3 Score")
+   "Pontuação no Rock Band 3")
 (band_info_stats_best_performances
-   "Best Performances")
+   "Melhores Performances")
 (band_info_stats_favorite_songs
-   "Favorite Songs")
+   "Músicas Favoritas")
 #ifdef HX_PS3
 (band_info_stats_online_only
-   "Band Statistics are only accessible when you are online.")
+   "As Estatísticas da Banda só é acessível quando você estiver online.")
 #endif
 #ifdef HX_WII
 (band_info_stats_online_only
-   "Band Statistics are only accessible when you are online.")
+   "As Estatísticas da Banda só é acessível quando você estiver online.")
 #endif
 #ifdef HX_XBOX
 (band_info_stats_online_only
-   "Band Statistics are only accessible when you are connected to Xbox LIVE.")
+   "As Estatísticas da Banda só é acessível quando você estiver conectado à Xbox LIVE.")
 #endif
 #ifdef HX_PC
 (band_info_stats_online_only
-   "Band Statistics are only accessible when you are connected to Xbox LIVE.")
+   "As Estatísticas da Banda só é acessível quando você estiver conectado à Xbox LIVE.")
 #endif
 (band_info_stats_recent_activity
-   "Recent Activity")
+   "Atividade Recente")
 (band_info_title
-   "Band Info")
+   "Informações da Banda")
 (band_info_total_score
    "Pontuação Total: %s")
 (band_info_view_roster
    "View/Edit Roster")
 (band_info_view_stats
-   "View Statistics")
+   "Ver Estatísticas")
 (band_management
-   "Band Management")
+   "Gerenciamento da Banda")
 (band_members
-   "CHANGE BAND MEMBERS")
+   "MUDAR OS MEMBROS DA BANDA")
 (band_multiplier_value
    "%d")
 (band_multiplier_value_x
@@ -4995,7 +4995,7 @@
 (band_practice
    "Praticar")
 (band_profile_career_score
-   "%s Career Score")
+   "Pontuação de Carreira: %s")
 (band_profile_confirm_demote
    "You have chosen to kick %s from the band lineup. Since they're playing now, we'll let them know they are now a substitute.  Are you sure you want to do this?")
 (band_profile_confirm_demote_missing
@@ -5011,19 +5011,19 @@
 (band_profile_hometown_fmt
    "in %s")
 (band_profile_member
-   "Member")
+   "Membro")
 (band_profile_sub
    "Sub")
 (band_profile_total_score
-   "%s Total Score")
+   "Pontuação Total: %s")
 (band_profile_vk_motto_desc
    "Enter a greeting message for your label")
 (band_profile_vk_motto_title
    "Create Greeting Message")
 (band_quickplay
-   "band quickplay")
+   "jogo rápido de banda")
 (band_song
-   "Band by Song")
+   "Banda Pela Música")
 (band_user_provider_empty
    "[nenhum]")
 (band_vocalist_needs_mic
@@ -23221,9 +23221,9 @@
 (spurboots_leather_desc
    "The crowd will be kissing your boots of shiny, shiny leather.")
 (standins
-   "Stand-Ins")
+   "Sustitutos")
 (standins_help
-   "Stand-ins play in your band when members are absent!")
+   "Os Membros Substitutos tocam no seu grupo quando algum(a) jogador(a) falta.")
 (standins_select_character
    "Selecionar Personagem")
 (starcaster
