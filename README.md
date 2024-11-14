@@ -22,7 +22,7 @@ If you don't know how to build Rock Band 3 Deluxe patch, check the Download sect
 
 ## Download
 
-You can download a manually-build `.pkg` file of Rock Band 3 Deluxe patch with built-in translation [here](https://drive.google.com/file/d/1C2B6k_aH3neda6rMpV0BygtdB5Kc_SZL/view?usp=sharing).
+You can download a manually-build `.pkg` file of Rock Band 3 Deluxe patch with built-in translation [here](https://drive.google.com/file/d/1C2B6k_aH3neda6rMpV0BygtdB5Kc_SZL/view?usp=sharing). This translation is using the [this commit version](https://github.com/hmxmilohax/rock-band-3-deluxe/commit/98dd0d72b5292afac8c127156f81a103e86ef993)
 
 ## Progress Overall
 

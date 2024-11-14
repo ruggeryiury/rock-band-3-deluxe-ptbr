@@ -169,7 +169,7 @@
 (acc_4starvocals_desc
    "Conquiste 4 <alt>*</alt> em qualquer música no Vocal Solo.")
 (acc_5starvocals
-   "Bom vocalista")
+   "Um(a) Bom(oa) Vocalista")
 (acc_5starvocalsexpert
    "Vocalista de Respeito")
 (acc_5starvocalsexpert_desc
@@ -225,107 +225,107 @@
 (acc_accuracyguitar90medium_desc
    "Acerte pelo menos 90% das notas em 12 músicas na Guitarra na dificuldade Médio.")
 (acc_accuracyguitarhard
-   "Flawless Hard Guitar")
+   "Guitarra Perfeita: Difícil")
 (acc_accuracyguitarhard_desc
    "Acerte 100% das notas em uma música na Guitarra na dificuldade Difícil.")
 (acc_accuracyguitarmedium
-   "Flawless Medium Guitar")
+   "Guitarra Perfeita: Médio")
 (acc_accuracyguitarmedium_desc
-   "Acerte 100% das notas em uma música on Medium Guitar.")
+   "Acerte 100% das notas em uma música na Guitarra na dificuldade Médio.")
 (acc_accuracyguitar_desc
-   "Acerte 100% das notas em uma música on Guitar.")
+   "Acerte 100% das notas em uma música na Guitarra.")
 (acc_accuracyharmony
-   "90% Harmonies")
+   "90% Harmonias")
 (acc_accuracyharmonyexpert
-   "90% Expert Harmonies")
+   "90% Harmonias: Expert")
 (acc_accuracyharmonyexpert_desc
-   "Earn an Awesome rating on at least 90% of the phrases in a song on Expert Harmony Vocals.")
+   "Consiga pontuações \qIncríveis!\q na Harmonia Vocal em pelo menos 90% das frases em uma música na dificuldade Expert.")
 (acc_accuracyharmonyhard
-   "90% Hard Harmonies")
+   "90% Harmonias: Difícil")
 (acc_accuracyharmonyhard_desc
-   "Earn an Awesome rating on at least 90% of the phrases in a song on Hard Harmony Vocals.")
+   "Consiga pontuações \qIncríveis!\q na Harmonia Vocal em pelo menos 90% das frases em uma música na dificuldade Difícil.")
 (acc_accuracyharmonymedium
-   "90% Medium Harmonies")
+   "90% Harmonias: Médio")
 (acc_accuracyharmonymedium_desc
-   "Earn an Awesome rating on at least 90% of the phrases in a song on Medium Harmony Vocals.")
+   "Consiga pontuações \qIncríveis!\q na Harmonia Vocal em pelo menos 90% das frases em uma música na dificuldade Médio.")
 (acc_accuracyharmony_desc
-   "Earn an Awesome rating on at least 90% of the phrases in a song on Harmony Vocals.")
+   "Consiga pontuações \qIncríveis!\q na Harmonia Vocal em pelo menos 90% das frases em uma música.")
 (acc_accuracykeyseasy
-   "Flawless Keys")
+   "Teclado Perfeito")
 (acc_accuracykeyseasy_desc
-   "Hit 100% das notas em uma música on Keys.")
+   "Acerte 100% das notas em uma música no Teclado.")
 (acc_accuracykeysexpert
-   "90% Expert Keys")
+   "90% Teclado: Expert")
 (acc_accuracykeysexpert_desc
-   "Acerte pelo menos 90% das notas in 3 songs on Expert Keys.")
+   "Acerte pelo menos 90% das notas em 3 músicas no Teclado na dificuldade Expert.")
 (acc_accuracykeyshard
-   "90% Hard Keys")
+   "90% Teclado: Difícil")
 (acc_accuracykeyshard_desc
-   "Acerte pelo menos 90% das notas in 6 songs on Hard Keys.")
+   "Acerte pelo menos 90% das notas em 6 músicas no Teclado na dificuldade Difícil.")
 (acc_accuracykeysmedium
-   "90% Medium Keys")
+   "90% Teclado: Médio")
 (acc_accuracykeysmedium_desc
-   "Acerte pelo menos 90% das notas in 12 songs on Medium Keys.")
+   "Acerte pelo menos 90% das notas em 12 músicas no Teclado na dificuldade Médio.")
 (acc_accuracyprobass100
-   "Flawless Pro Bass")
+   "Baixo PRO Perfeito")
 (acc_accuracyprobass100_desc
-   "Hit 100% das notas em uma música on Pro Bass.")
+   "Acerte 100% das notas em uma música no Baixo PRO.")
 (acc_accuracyprobass80
-   "80% Pro Bass")
+   "80% Baixo PRO")
 (acc_accuracyprobass80_desc
    "Acerte pelo menos 80% das notas em uma música on Pro Bass.")
 (acc_accuracyprobass90
-   "90% Pro Bass")
+   "90% Baixo PRO")
 (acc_accuracyprobass90_desc
    "Acerte pelo menos 90% das notas em uma música on Pro Bass.")
 (acc_accuracyprobassexpert
-   "90% Expert Pro Bass")
+   "90% Baixo PRO: Expert")
 (acc_accuracyprobassexperthundred
-   "Flawless Expert Pro Bass")
+   "Baixo PRO Perfeito: Expert")
 (acc_accuracyprobassexperthundred_desc
-   "Hit 100% das notas em uma música on Expert Pro Bass.")
+   "Acerte 100% das notas em uma música no Baixo PRO na dificuldade Expert.")
 (acc_accuracyprobassexpert_desc
-   "Acerte pelo menos 90% das notas em uma música on Expert Pro Bass.")
+   "Acerte pelo menos 90% das notas em uma música no Baixo PRO na dificuldade Expert.")
 (acc_accuracyprobasshard
-   "90% Hard Pro Bass")
+   "90% Baixo PRO: Difícil")
 (acc_accuracyprobasshard_desc
-   "Acerte pelo menos 90% das notas em uma música on Hard Pro Bass.")
+   "Acerte pelo menos 90% das notas em uma música no Baixo PRO na dificuldade Difícil.")
 (acc_accuracyprobassmedium
-   "90% Medium Pro Bass")
+   "90% Baixo PRO: Médio")
 (acc_accuracyprobassmedium_desc
-   "Acerte pelo menos 90% das notas em uma música on Medium Pro Bass.")
+   "Acerte pelo menos 90% das notas em uma música no Baixo PRO na dificuldade Médio.")
 (acc_accuracyprodrums
-   "Flawless Pro Drums")
+   "Bateria PRO Perfeita")
 (acc_accuracyprodrums90
-   "90% Medium Pro Drums")
+   "90% Bateria PRO: Médio")
 (acc_accuracyprodrums90expert
-   "90% Expert Pro Drums")
+   "90% Bateria PRO: Expert")
 (acc_accuracyprodrums90expert_desc
-   "Acerte pelo menos 90% das notas in 3 songs on Expert Pro Drums.")
+   "Acerte pelo menos 90% das notas em 3 músicas na Bateria PRO na dificuldade Expert.")
 (acc_accuracyprodrums90hard
-   "90% Hard Pro Drums")
+   "90% Bateria PRO: Difícil")
 (acc_accuracyprodrums90hard_desc
-   "Acerte pelo menos 90% das notas in 6 songs on Hard Pro Drums.")
+   "Acerte pelo menos 90% das notas em 6 músicas na Bateria PRO na dificuldade Difícil.")
 (acc_accuracyprodrums90_desc
-   "Acerte pelo menos 90% das notas in 12 songs on Medium Pro Drums.")
+   "Acerte pelo menos 90% das notas em 12 músicas na Bateria PRO na dificuldade Médio.")
 (acc_accuracyprodrums_desc
-   "Hit 100% das notas em uma música on Pro Drums.")
+   "Acerte 100% das notas em uma música na Bateria PRO.")
 (acc_accuracyproguitar100
-   "Flawless Pro Guitar")
+   "Guitarra PRO Perfeita")
 (acc_accuracyproguitar100_desc
-   "Hit 100% das notas em uma música on Pro Guitar.")
+   "Acerte 100% das notas em uma música na Guitarra PRO.")
 (acc_accuracyproguitar80
-   "80% Pro Guitar")
+   "80% Guitarra PRO")
 (acc_accuracyproguitar80_desc
-   "Acerte pelo menos 80% das notas em uma música on Pro Guitar.")
+   "Acerte pelo menos 80% das notas em uma música na Guitarra PRO.")
 (acc_accuracyproguitar90
-   "90% Pro Guitar")
+   "90% Guitarra PRO")
 (acc_accuracyproguitar90_desc
-   "Acerte pelo menos 90% das notas em uma música on Pro Guitar.")
+   "Acerte pelo menos 90% das notas em uma música na Guitarra PRO.")
 (acc_accuracyproguitarexpert
-   "90% Expert Pro Guitar")
+   "90% Guitarra PRO: Expert")
 (acc_accuracyproguitarexpert_desc
-   "Acerte pelo menos 90% das notas em uma música on Expert Pro Guitar.")
+   "Acerte pelo menos 90% das notas em uma música na Guitarra PRO na dificuldade Expert.")
 (acc_accuracyproguitarhard
    "90% Guitarra PRO: Difícil")
 (acc_accuracyproguitarhard_desc
@@ -359,7 +359,7 @@
 (acc_accuracyprokeysmedium_desc
    "Acerte pelo menos 90% das notas em 12 músicas no Teclado PRO na dificuldade Médio.")
 (acc_accuracyvocals
-   "Vocais Perfeitos")
+   "Vocal Perfeito")
 (acc_accuracyvocalseightyfive
    "85% Vocal Solo")
 (acc_accuracyvocalseightyfive_desc
@@ -459,57 +459,57 @@
 (acc_basscareerscore_desc
    "Earn a Career score of at least 5,000,000 on Bass.")
 (acc_bassnintypercentexpert
-   "90% Expert Bass")
+   "90% Baixo: Expert")
 (acc_bassnintypercentexpert_desc
-   "Acerte pelo menos 90% das notas in 3 songs on Expert Bass.")
+   "Acerte pelo menos 90% das notas em 3 músicas no Baixo na dificuldade Expert.")
 (acc_bassnintypercenthard
-   "90% Hard Bass")
+   "90% Baixo: Difícil")
 (acc_bassnintypercenthard_desc
-   "Acerte pelo menos 90% das notas in 6 songs on Hard Bass.")
+   "Acerte pelo menos 90% das notas em 6 músicas no Baixo na dificuldade Difícil.")
 (acc_basspeak
-   "Bass to the Max")
+   "Baixo no Máximo")
 (acc_basspeak_desc
-   "Max out your score multiplier on Bass.")
+   "Maximize o Multiplicador de Pontos no Baixo.")
 (acc_bassstreak
-   "Bass Streak 100")
+   "100 Notas Consecutivas: Baixo")
 (acc_bassstreaklarge
-   "Bass Streak 500")
+   "500 Notas Consecutivas: Baixo")
 (acc_bassstreaklarge_desc
-   "Play a 500-note streak on Bass.")
+   "Acerte 500 notas consecutivas no Baixo.")
 (acc_bassstreakmedium
-   "Bass Streak 350")
+   "350 Notas Consecutivas: Baixo")
 (acc_bassstreakmedium_desc
-   "Play a 350-note streak on Bass.")
+   "Acerte 350 notas consecutivas no Baixo.")
 (acc_bassstreak_desc
-   "Play a 100-note streak on Bass.")
+   "Acerte 100 notas consecutivas no Baixo.")
 (acc_bassunison
-   "Bass in Perfect Unison")
+   "Baixo em União Perfeita")
 (acc_bassunison_desc
-   "Nail 35 Unison Phrases on Bass as part of a band.")
+   "Conquiste 35 Unison Phrases numa música no Baixo sendo parte de uma banda.")
 (acc_bassupstrums
-   "100% Upstrums")
+   "100% Palhetada Pra Cima")
 (acc_bassupstrumsexpert
-   "100% Expert Upstrums")
+   "100% Palhetada Pra Cima: Expert")
 (acc_bassupstrumsexpert_desc
-   "Play a song using only upstrums on Expert Bass.")
+   "Toque uma música dando apenas palhetadas pra cima no Baixo na dificuldade Expert.")
 (acc_bassupstrumshalf
-   "50% Upstrums")
+   "50% Palhetada Pra Cima")
 (acc_bassupstrumshalf_desc
-   "Play at least 50% das notas em uma música using upstrums on Bass.")
+   "Acerte pelo menos 50% das notas em uma música dando apenas palhetadas pra cima no Baixo.")
 (acc_bassupstrumshard
-   "100% Hard Upstrums")
+   "100% Palhetada Pra Cima: Difícil")
 (acc_bassupstrumshard_desc
-   "Hit 100% das notas em uma música, only strumming up, on Hard Bass.")
+   "Acerte 100% das notas em uma música dando apenas palhetadas pra cima no Baixo na dificuldade Difícil.")
 (acc_bassupstrumsmedium
-   "90% Medium Upstrums")
+   "90% Palhetada Pra Cima: Médio")
 (acc_bassupstrumsmedium_desc
-   "Play at least 90% das notas em uma música using upstrums on Medium Bass.")
+   "Acerte pelo menos 90% das notas em uma música dando apenas palhetadas pra cima no Baixo na dificuldade Médio.")
 (acc_bassupstrumsninty
-   "90% Upstrums")
+   "90% Palhetada Pra Cima")
 (acc_bassupstrumsninty_desc
-   "Play at least 90% das notas em uma música using upstrums on Bass.")
+   "Acerte pelo menos 90% das notas em uma música dando apenas palhetadas pra cima no Baixo.")
 (acc_bassupstrums_desc
-   "Play a song using only upstrums on Bass.")
+   "Jogue uma música dando apenas palhetadas pra cima no Baixo.")
 (acc_bass_dlc_funk49
    "Funk in Public")
 (acc_bass_dlc_funk49_desc
@@ -563,29 +563,29 @@
 (acc_careerstars_desc
    "Earn at least 250 Career <alt>*</alt>.")
 (acc_cat_band
-   "Full Band")
+   "Banda Completa")
 (acc_cat_band1
    "Progresso de Banda")
 (acc_cat_band2
-   "Medium Song Progress")
+   "Progresso: Médio")
 (acc_cat_band3
-   "Hard Song Progress")
+   "Progresso: Difícil")
 (acc_cat_band4
-   "Expert Song Progress")
+   "Progresso: Expert")
 (acc_cat_band_
    "Rock Band 3")
 (acc_cat_band_acdc
    "AC/DC LIVE")
 (acc_cat_band_acdc_desc
-   "Songs exported from AC/DC LIVE: Rock Band Track Pack")
+   "Músicas exportadas do AC/DC LIVE: Rock Band Track Pack")
 (acc_cat_band_dlc
    "Músicas Baixadas")
 (acc_cat_band_dlc_desc
-   "Songs downloaded from the Rock Band Music Store")
+   "Músicas baixadas da Rock Band Music Store ou Customs")
 (acc_cat_band_gd
    "Green Day: Rock Band")
 (acc_cat_band_gd_desc
-   "Songs exported from Green Day: Rock Band")
+   "Músicas exportadas do Green Day: Rock Band")
 (acc_cat_band_lrb
    "LEGO Rock Band")
 (acc_cat_band_lrb_desc
@@ -593,157 +593,157 @@
 (acc_cat_band_rb1
    "Rock Band")
 (acc_cat_band_rb1_desc
-   "Songs from the original Rock Band")
+   "Músicas do Rock Band original")
 (acc_cat_band_rb2
    "Rock Band 2")
 (acc_cat_band_rb2_desc
-   "Songs from the follow-up to the award winning Rock Band")
+   "Músicas do Rock Band 2")
 (acc_cat_band_rb3
    "Rock Band 3 Songs")
 (acc_cat_band_rb3_desc
-   "Songs on the Rock Band 3 disc")
+   "Músicas do Rock Band 3")
 (acc_cat_basics
    "Básico do Rock Band")
 (acc_cat_bass
    "Baixo")
 (acc_cat_bass1
-   "Easy Song Progress")
+   "Progresso: Fácil")
 (acc_cat_bass2
-   "Medium Song Progress")
+   "Progresso: Médio")
 (acc_cat_bass3
-   "Hard Song Progress")
+   "Progresso: Difícil")
 (acc_cat_bass4
-   "Expert Song Progress")
+   "Progresso: Expert")
 (acc_cat_bass5
-   "General Bass Goals")
+   "Objetivos Gerais de Baixo")
 (acc_cat_bass6
-   "Authentic Bass Goals")
+   "Objetivos Autênticos de Baixo")
 (acc_cat_bass7
-   "Hammer-On & Pull-Off Goals")
+   "Objetivos de Hammer-On & Pull-Off")
 (acc_cat_bass8
-   "Epic Bass Goals")
+   "Objetivos Épicos de Baixo")
 (acc_cat_bass_acdc
-   "AC/DC Live")
+   "AC/DC LIVE")
 (acc_cat_bass_acdc_desc
-   "TODO: match with master description")
+   "TODO: Combinar com a descrição principal")
 (acc_cat_bass_dlc
-   "Downloaded Song Goals")
+   "Objetivos de Músicas Baixadas")
 (acc_cat_bass_dlc_desc
-   "TODO: match with master description")
+   "TODO: Combinar com a descrição principal")
 (acc_cat_bass_rb3
    "Rock Band 3")
 (acc_cat_bass_rb3_desc
-   "TODO: match with master description")
+   "TODO: Combinar com a descrição principal")
 (acc_cat_country
    "Country Track Pack")
 (acc_cat_drums
    "Bateria")
 (acc_cat_drums1
-   "Easy Song Progress")
+   "Progresso: Fácil")
 (acc_cat_drums2
-   "Medium Song Progress")
+   "Progresso: Médio")
 (acc_cat_drums3
-   "Hard Song Progress")
+   "Progresso: Difícil")
 (acc_cat_drums4
-   "Expert Song Progress")
+   "Progresso: Expert")
 (acc_cat_drums5
-   "General Drum Goals")
+   "Objetivos Gerais de Bateria")
 (acc_cat_drums6
-   "Drum Trainer Goals")
+   "Objetivos de Treinamento de Bateria")
 (acc_cat_drums7
-   "Drum Roll and Kick Drum Goals")
+   "Objetivos de Drum Roll e Bumbo")
 (acc_cat_drums8
-   "Epic Drum Goals")
+   "Objetivos Épicos de Bateria")
 (acc_cat_drums_acdc
    "AC/DC LIVE")
 (acc_cat_drums_acdc_desc
-   "TODO: match with master description")
+   "TODO: Combinar com a descrição principal")
 (acc_cat_drums_dlc
-   "Downloaded Song Goals")
+   "Objetivos de Músicas Baixadas")
 (acc_cat_drums_dlc_desc
-   "TODO: match with master description")
+   "TODO: Combinar com a descrição principal")
 (acc_cat_drums_gd
    "Green Day: Rock Band")
 (acc_cat_drums_gd_desc
-   "TODO: match with master description")
+   "TODO: Combinar com a descrição principal")
 (acc_cat_drums_rb1
    "Rock Band 1")
 (acc_cat_drums_rb1_desc
-   "TODO: match with master description")
+   "TODO: Combinar com a descrição principal")
 (acc_cat_drums_rb3
    "Rock Band 3")
 (acc_cat_drums_rb3_desc
-   "TODO: match with master description")
+   "TODO: Combinar com a descrição principal")
 (acc_cat_gd
    "Green Day: Rock Band")
 (acc_cat_guitar
    "Guitarra")
 (acc_cat_guitar1
-   "Easy Song Progress")
+   "Progresso: Fácil")
 (acc_cat_guitar2
-   "Medium Song Progress")
+   "Progresso: Médio")
 (acc_cat_guitar3
-   "Hard Song Progress")
+   "Progresso: Difícil")
 (acc_cat_guitar4
-   "Expert Song Progress")
+   "Progresso: Expert")
 (acc_cat_guitar5
-   "General Guitar Goals")
+   "Objetivos Gerais de Guitarra")
 (acc_cat_guitar6
-   "Guitar Solo Goals")
+   "Objetivos de Solo de Guitarra")
 (acc_cat_guitar6a
-   "Hammer-On & Pull-Off Goals")
+   "Objetivos de Hammer-On & Pull-Off")
 (acc_cat_guitar7
-   "Epic Guitar Goals")
+   "Objetivos Épicos de Guitarra")
 (acc_cat_guitar_acdc
    "AC/DC LIVE")
 (acc_cat_guitar_dlc
-   "Downloaded Song Goals")
+   "Objetivos de Músicas Baixadas")
 (acc_cat_guitar_gd
    "Green Day: Rock Band")
 (acc_cat_guitar_lrb
    "LEGO Rock Band")
 (acc_cat_guitar_rb1
-   "Rock Band 1 Songs")
+   "Músicas do Rock Band 1")
 (acc_cat_guitar_rb3
-   "Rock Band 3 Songs")
+   "Músicas do Rock Band 3")
 (acc_cat_harmonyvocals
-   "General Vocal Harmony Goals")
+   "Objetivos Gerais de Harmonia Vocal")
 (acc_cat_harmonyvocals1
-   "Easy Song Progress")
+   "Progresso: Fácil")
 (acc_cat_harmonyvocals2
-   "Medium Song Progress")
+   "Progresso: Médio")
 (acc_cat_harmonyvocals3
-   "Hard Song Progress")
+   "Progresso: Difícil")
 (acc_cat_harmonyvocals4
-   "Expert Song Progress")
+   "Progresso: Expert")
 (acc_cat_harmonyvocals5
    "General Harmony Goals")
 (acc_cat_harmonyvocals6
-   "Epic Harmony Goals")
+   "Objetivos Épicos de Harmonia Vocal")
 (acc_cat_impossible
-   "Epic Goals")
+   "Objetivos Épicos")
 (acc_cat_impossiblerb3
    "Épico do Rock Band 3")
 (acc_cat_impossiblerb3_desc
-   "Only Rock Band 3 masters dare complete these goals")
+   "Apenas os(as) Masters de Rock Band 3 ousam completar estes objetivos")
 (acc_cat_keyboards
-   "Keyboard")
+   "Teclado")
 (acc_cat_keyboards1
-   "Easy Song Progress")
+   "Progresso: Fácil")
 (acc_cat_keyboards2
-   "Medium Song Progress")
+   "Progresso: Médio")
 (acc_cat_keyboards3
-   "Hard Song Progress")
+   "Progresso: Difícil")
 (acc_cat_keyboards4
-   "Expert Song Progress")
+   "Progresso: Expert")
 (acc_cat_keyboards5
-   "General Keyboard Goals")
+   "Objetivos Gerais de Teclado")
 (acc_cat_keyboards7
-   "Epic Keyboard Goals")
+   "Objetivos Épicos de Teclado")
 (acc_cat_keys_rb3
    "Rock Band 3")
 (acc_cat_keys_rb3_desc
-   "Songs from the Rock Band 3 disc")
+   "Músicas do Rock Band 3")
 (acc_cat_lrb
    "LEGO Rock Band")
 (acc_cat_metal
@@ -751,51 +751,51 @@
 (acc_cat_overdrive
    "Overdrive")
 (acc_cat_probass1
-   "Easy Song Progress")
+   "Progresso: Fácil")
 (acc_cat_probass2
-   "Medium Song Progress")
+   "Progresso: Médio")
 (acc_cat_probass3
-   "Hard Song Progress")
+   "Progresso: Difícil")
 (acc_cat_probass4
-   "Expert Song Progress")
+   "Progresso: Expert")
 (acc_cat_probass5
-   "General Pro Bass Goals")
+   "Objetivos Gerais de Baixo PRO")
 (acc_cat_probass6
-   "Epic Pro Bass Goals")
+   "Objetivos Épicos de Baixo PRO")
 (acc_cat_probasstrainers
-   "Pro Bass Trainer Goals")
+   "Objetivos do Treinamento de Baixo PRO")
 (acc_cat_prodrums
-   "General Pro Drums Goals")
+   "Objetivos Gerais de Baixo PRO")
 (acc_cat_prodrums1
-   "Easy Song Progress")
+   "Progresso: Fácil")
 (acc_cat_prodrums2
-   "Medium Song Progress")
+   "Progresso: Médio")
 (acc_cat_prodrums3
-   "Hard Song Progress")
+   "Progresso: Difícil")
 (acc_cat_prodrums4
-   "Expert Song Progress")
+   "Progresso: Expert")
 (acc_cat_prodrums5
-   "Pro Drum Trainer Goals")
+   "Objetivos do Treinamento de Bateria PRO")
 (acc_cat_prodrums6
-   "General Pro Drum Goals")
+   "Objetivos Gerais de Bateria PRO")
 (acc_cat_prodrums7
-   "Pro Drum Roll and Kick Drum Goals")
+   "Objetivos de Drum Roll e Bumbo")
 (acc_cat_prodrums8
-   "Epic Pro Drum Goals")
+   "Objetivos Épicos de Bateria PRO")
 (acc_cat_prodrums_rb3
    "Rock Band 3")
 (acc_cat_proguitar
    "Guitarra PRO")
 (acc_cat_proguitar1
-   "Easy Song Progress")
+   "Progresso: Fácil")
 (acc_cat_proguitar10
    "Epic Pro Guitar Goals")
 (acc_cat_proguitar2
-   "Medium Song Progress")
+   "Progresso: Médio")
 (acc_cat_proguitar3
-   "Hard Song Progress")
+   "Progresso: Difícil")
 (acc_cat_proguitar4
-   "Expert Song Progress")
+   "Progresso: Expert")
 (acc_cat_proguitar5
    "Introdução à Guitarra PRO")
 (acc_cat_proguitar6
@@ -805,27 +805,27 @@
 (acc_cat_proguitar8
    "Masterizando à Guitarra PRO")
 (acc_cat_proguitar9
-   "General Pro Guitar Goals")
+   "Objetivos Gerais de Guitarra PRO")
 (acc_cat_proguitartrainers
-   "Pro Guitar Trainer Goals")
+   "Objetivos do Treinamento de Guitarra PRO")
 (acc_cat_proguitar_rb3
    "Rock Band 3")
 (acc_cat_prokeyboards
-   "Pro Keyboard")
+   "Teclado PRO")
 (acc_cat_prokeys1
-   "Easy Song Progress")
+   "Progresso: Fácil")
 (acc_cat_prokeys2
-   "Medium Song Progress")
+   "Progresso: Médio")
 (acc_cat_prokeys3
-   "Hard Song Progress")
+   "Progresso: Difícil")
 (acc_cat_prokeys4
-   "Expert Song Progress")
+   "Progresso: Expert")
 (acc_cat_prokeys5
-   "General Pro Keyboard Goals")
+   "Objetivos Gerais de Teclado PRO")
 (acc_cat_prokeys6
-   "Lesson and Trainer Goals")
+   "Objetivos das Lições e Treinamento")
 (acc_cat_prokeys7
-   "Epic Pro Keyboard Goals")
+   "Objetivos Épicos de Teclado PRO")
 (acc_cat_prokeys_rb3
    "Rock Band 3")
 (acc_cat_realbass
@@ -835,9 +835,9 @@
 (acc_cat_score
    "Pontuação")
 (acc_cat_simplerb3
-   "Easy Song Progress")
+   "Progresso: Fácil")
 (acc_cat_songs
-   "Song Specific")
+   "Específicos de uma Música")
 (acc_cat_tour1
    "Subway Road Challenges")
 (acc_cat_tour2
@@ -849,39 +849,39 @@
 (acc_cat_tour5
    "Final Road Challenge")
 (acc_cat_trainers
-   "Trainers")
+   "Treinamentos")
 (acc_cat_vocals
    "Vocais")
 (acc_cat_vocals1
-   "Easy Song Progress")
+   "Progresso: Fácil")
 (acc_cat_vocals2
-   "Medium Song Progress")
+   "Progresso: Médio")
 (acc_cat_vocals3
-   "Hard Song Progress")
+   "Progresso: Difícil")
 (acc_cat_vocals4
-   "Expert Song Progress")
+   "Progresso: Expert")
 (acc_cat_vocals5
-   "General Vocals Goals")
+   "Objetivos Gerais de Vocal Solo")
 (acc_cat_vocals7
-   "Epic Vocals Goals")
+   "Objetivos Épicos de Vocal Solo")
 (acc_cat_vox_acdc
    "AC/DC LIVE")
 (acc_cat_vox_acdc_desc
-   "TODO: match with master description")
+   "TODO: Combinar com a descrição principal")
 (acc_cat_vox_dlc
-   "Downloaded Song Goals")
+   "Objetivos de Músicas Baixadas")
 (acc_cat_vox_dlc_desc
-   "TODO: match with master description")
+   "TODO: Combinar com a descrição principal")
 (acc_cat_vox_rb1
    "Rock Band 1")
 (acc_cat_vox_rb1_desc
-   "TODO: match with master description")
+   "TODO: Combinar com a descrição principal")
 (acc_cat_vox_rb3
    "Rock Band 3")
 (acc_charactercreate
    "Sua Criação")
 (acc_charactercreate_desc
-   "Crie um personagem.")
+   "Crie um(a) personagem.")
 (acc_complex_chords
    "More Chord Holding and Arpeggiation")
 (acc_complex_chords_desc
@@ -1071,7 +1071,7 @@
 (acc_dlc_playanyqueen
    "I Want It All")
 (acc_dlc_playanyqueen_desc
-   "Play a downloaded Queen song.")
+   "Jogue uma música baixada do Queen.")
 (acc_dlc_playrbnsong
    "Network Initiate")
 (acc_dlc_playrbnsong_desc
@@ -3515,7 +3515,7 @@
 (acc_rb2_streaksongs
    "Desafio de Streaks do Rock Band 2")
 (acc_rb2_streaksongs_desc
-   "Acerte um Streak de 150 notas em qualquer instrumento em cada uma das seguintes músicas:")
+   "Acerte consecutivamente 150 notas em qualquer instrumento em cada uma das seguintes músicas:")
 (acc_rb3_band_5stareasy
    "5 <alt>*</alt> Rock Band 3")
 (acc_rb3_band_5stareasyorbeatonhigher
@@ -4506,15 +4506,15 @@
 #endif
 #ifdef HX_WII
 (autosave_warning_msg
-   "This game uses an autosave system. Whenever you see this symbol, the game is saving. Please do not turn off your Wii console while this symbol is on the screen.")
+   "Este jogo usa um sistema de Autosave. Toda vez que tu ver este símbolo, o jogo está salvando seu progresso. Por favor, não desligue seu console Wii enquanto este símbolo estiver na tela.")
 #endif
 #ifdef HX_PS3
 (autosave_warning_msg
-   "This game uses an autosave system. Whenever you see this symbol, the game is saving. Please do not turn off your PlayStation®3 system while this symbol is on the screen.")
+   "Este jogo usa um sistema de Autosave. Toda vez que tu ver este símbolo, o jogo está salvando seu progresso. Por favor, não desligue seu PlayStation®3 enquanto este símbolo estiver na tela.")
 #endif
 #ifdef HX_PC
 (autosave_warning_msg
-   "This game uses an autosave system. Whenever you see this symbol, the game is saving. Please do not turn off your Xbox 360 console while this symbol is on the screen.")
+   "Este jogo usa um sistema de Autosave. Toda vez que tu ver este símbolo, o jogo está salvando seu progresso. Por favor, não desligue seu Xbox 360 enquanto este símbolo estiver na tela.")
 #endif
 (auto_cal_start
    "Pressione o Botão Verde para Começar")
@@ -4523,27 +4523,27 @@
 (av_settings
    "configurações de áudio/vídeo")
 (award_awesome_solo
-   "Awesome Solo")
+   "Solista Incrível")
 (award_band_savior
-   "Band Savior")
+   "Salvador da Banda")
 (award_blissful_groove
-   "Steady Eddie")
+   "Groovista Experiente")
 (award_boring
    "")
 (award_bus
-   "You won a Bus!")
+   "Você ganhou um Ônibus!")
 (award_bus_desc
-   "Congrats, you can now go tooling around in a sweet, fresh-smelling new Bus. Check out the new Road Challenges available to you!")
+   "Parabéns, agora sua banda vai viajar em um ônibus novinho em folha! Dê uma olhada nos novos Road Challenges disponíveis!")
 (award_facepaint
-   "Face Paint Unlocked")
+   "Pintura Facial Desbloqueada")
 (award_facepaint_desc
-   "You can now add Face Paint to your character. Select Customize Character to check out your new customization options.")
+   "Agora você pode adicionar Pinturas Faciais nos seus personagens. Dê uma olhada em \qPersonalizar Personagem\q no menu Personalizar no Menu Principal para ver as novas opções.")
 (award_firstgig
-   "Five Dollars and a Destiny")
+   "Cinco Dólares e um Destino!")
 (award_firstgig_desc
-   "While your first gig as a band may have only paid for pizza, it did earn you some fans! And that's what really matters... right?")
+   "Enquanto o cachê do seu primeiro show consegue te pagar apenas uma pizza, você também ganhou alguns fãs! E, no fim das contas, é isto que importa... certo?")
 (award_flawless
-   "Flawless")
+   "Impecável")
 (award_gamestop
    "Bônus da Pré-Compra Desbloqueado!")
 (award_gamestop_desc
@@ -4553,45 +4553,45 @@
 (award_genericdesc
    "Você pode vestir e utilizar os items ganhos indo em \qPersonalizar Personagem\q no menu Personalizar no Menu Principal.")
 (award_halloffame
-   "You've reached the Hall of Fame!")
+   "Você alcançou o Hall da Fama!")
 (award_halloffame_desc
-   "You've got enough fans to get invited to the Hall of Fame! Go to the Career and play the Hall of Fame setlist or play the final Road Challenge to get inducted!")
+   "Você conseguiu fãs suficientes para ser convidado ao Hall da Fama! Vá no modo Carreira o jogue o repertório do Hall da Fama ou jogue o último Road Challenge para ser empossado!")
 (award_hoarder
-   "Energy Hoarder")
+   "Acumulador de Overdrive")
 (award_jet
-   "You won a Jet!")
+   "Você ganhou um Jatinho!")
 (award_jet_desc
-   "Congrats, you're a pretty big deal with your fancy new Jet. Are you even reading this or did you hire an assistant to do it for you? New Road Challenges are now available!")
+   "Parabéns, você agora se tornou importante com seu novo e sofisticado Jatinho! Você sequer está lendo isso, ou contratou um(a) assistente para fazer isso por você? Novos Road Challenges já estão disponíveis!")
 (award_keysonguitar
-   "Keys on Guitar!")
+   "Teclado na Guitarra!")
 (award_keysonguitar_desc
-   "You can now play Keyboard parts using your Guitar controller! See if your legendary \qguitar solo face\q holds up...")
+   "Agora você pode jogar partes de Teclado usando sua Guitarra! Agora vamos ver se você realmente aguenta tocar as partes de teclado na guitarra...")
 (award_legend_solo
-   "Solo Legend")
+   "Solista Lendário(a)")
 (award_most_gutsy
-   "Most Gutsy")
+   "O(a) mais Corajoso(a)")
 (award_professional_streaker
-   "Longest Streak")
+   "Deus(a) das Notas Consecutivas")
 (award_real_bassist
-   "Authentic Strummer")
+   "Baixista Autêntico")
 (award_renameband
    "Você Decidiu um Nome para sua Banda!")
 (award_renameband_desc
    "Parabéns, você conseguiu escolher um nome para sua banda! Como escolher o nome da banda é oficialmente a parte mais difícil de todo progresso, você deve conseguir tudo facilmente daqui pra frente.")
 (award_savior
-   "Salvador")
+   "Salvador(a)")
 (award_secret_title
    "Secreto")
 (award_serious_skills
-   "Habilidades Sérias")
+   "Sérias Habilidades")
 (award_serious_style_points
-   "Most Energy")
+   "O Mais Energético(a)")
 (award_spirited_survivor
    "Sobrevivente Espiritual")
 (award_tattoos
-   "Tattoo Shop Available!")
+   "Loja de Tatuagem!")
 (award_tattoos_desc
-   "You now have enough cred to get a tattoo! Check out the Tattoos section of Customize Character.")
+   "Agora você tem credibilidade o suficiente para colocar uma tatuagem! Dê uma olhada na sessão de Tatuagens no menu de \qPersonalizar Personagem\q.")
 (award_test1
    "Placeholder Award 1")
 (award_test1_desc
@@ -4605,9 +4605,9 @@
 (award_test3_desc
    "You won a date with Dan Teasdale!")
 (award_top_performer
-   "Top Performer")
+   "Melhor Performer")
 (award_unconscious
-   "Unconscious")
+   "Inconsciente")
 (award_van
    "You won a Van!")
 (award_van_desc
@@ -5555,15 +5555,15 @@
 (bodiddley_resource_desc
    "\qThe originator\q of rock and roll, Bo Diddley revolutionized guitar playing and changed the course of music history. Show your respect with this faithful reproduction of his unique, rectangle-shaped 1958 Gretsch<sup>TM</sup>. RIP Bo Diddley.")
 (body_type_1
-   "Body Type 1")
+   "Tipo de Corpo 1")
 (body_type_2
-   "Body Type 2")
+   "Tipo de Corpo 2")
 (body_type_3
-   "Body Type 3")
+   "Tipo de Corpo 3")
 (body_type_4
-   "Body Type 4")
+   "Tipo de Corpo 4")
 (body_type_5
-   "Body Type 5")
+   "Tipo de Corpo 5")
 (boltbass_resource
    "Lightning Bolt! Bass")
 (boltbass_resource_desc
@@ -6401,13 +6401,13 @@
 (casualmodjacket_tweed_desc
    "You're caring, sensitive and understanding -- or at least, you're willing to fake it to get a second date.")
 (category1
-   "Category 1")
+   "Categoria 1")
 (category2
-   "Category 2")
+   "Categoria 2")
 (category3
-   "Category 3")
+   "Categoria 3")
 (category4
-   "Category 4")
+   "Categoria 4")
 (chainleggings_metal
    "Pelzgamaschen")
 (chainleggings_metal_desc
@@ -6437,7 +6437,7 @@
 (change_edit_mode
    "MUDAR PARA: %s")
 (change_filter
-   "Change")
+   "Mudar")
 (change_leaderboard
    "Mudar Leaderboard")
 (change_options
@@ -7479,7 +7479,7 @@
 (customize_tattoos
    "Tatuagens")
 (customize_tattoos_hint
-   "You need more fans before you have enough cred to get a tattoo.")
+   "Você precisa de mais fãs para ter credibilidade para colocar uma tatuagem.")
 (customize_tattoos_locked
    "Tatuagens <alt>L</alt>")
 (customize_torso
@@ -8209,7 +8209,7 @@
 (edit_record_label
    "Edit Label Details")
 (edit_setlist
-   "Edit Setlist Info")
+   "Editar Informações do Repertório")
 (edit_setlist_art
    "Editar Arte do Repertório")
 (edit_setlist_description
@@ -8221,19 +8221,19 @@
 (edit_setlist_name
    "Editar Nome")
 (edit_setlist_success
-   "Your setlist was successfully edited.")
+   "Seu repertório foi editado com sucesso.")
 (eg_key_format
-   "Key of: %s")
+   "Tom: %s")
 (eg_percent
-   "Notes Hit")
+   "Notas Acertadas")
 (eg_percent_format
    "%d%%")
 (eg_review
-   "Review")
+   "Resenha")
 (eg_score
-   "Score")
+   "Pontuação")
 (eg_streak_format
-   "%i Note Streak!")
+   "%i Notas Consecutivas!")
 (eightholedocs_checkered
    "Checkered Past Boots")
 (eightholedocs_checkered_desc
@@ -8273,51 +8273,51 @@
 (enable_popup_help
    "Tutoriais p/ Iniciantes")
 (endgame_avg_multiplier
-   "Média do Multiplier: %sx")
+   "Média do Multiplicador: %sx")
 #ifdef HX_PS3
 (endgame_hb_details
-   "MORE DETAILS")
+   "MAIS DETALHES")
 #endif
 #ifdef HX_XBOX
 (endgame_hb_details
-   "VIEW GAMER CARD")
+   "VER CARD DO(A) JOGADOR(A)")
 #endif
 #ifdef HX_PC
 (endgame_hb_details
-   "VIEW GAMER CARD")
+   "VER CARD DO(A) JOGADOR(A)")
 #endif
 (endgame_hb_finishsong
    "Continuar")
 (endgame_hb_leave_session
-   "Leave Session")
+   "Abandonar Sessão")
 (endgame_hit_count
    "%s Notas Acertadas")
 (endgame_next_song
-   "Next Song")
+   "Próxima Música")
 (endgame_note_streak
-   "%s Note Streak")
+   "%s Notas Consecutivas")
 (endgame_percent_complete
-   "Percent Complete")
+   "Porcentagem Completa")
 (endgame_phrase_streak
-   "%s Frases Acertadas")
+   "Notas Consecutivas: %s")
 (endgame_player_noteshit_fmt
    "%d%%")
 (endgame_song_failed
-   "Song Failed")
+   "Música Falida")
 (endgame_tie
    "TIE!")
 (endgame_winner
-   "WINNER!")
+   "VENCEDOR!")
 (ending
    "Final")
 (endingbonus
-   "Ending Bonus")
+   "Bônus Final")
 (ending_bonus
-   "ENDING BONUS")
+   "BÔNUS FINAL")
 (end_game
-   "Keep Playing!")
+   "Continuar Jogando!")
 (end_game_vox
-   "Keep Singing!")
+   "Continuar Cantando!")
 (enqueue_all
    "ADICIONAR TODAS")
 (enqueue_song
@@ -10419,51 +10419,51 @@
 (finding_players_retry
    "Tentar Juntar de novo")
 (finding_presence_all_guests
-   "Cannot accept invite when the only players in the session are guests.")
+   "Você não pode aceitar um convite quando os(as) únicos(as) jogadores(as) desta sessão são Visitantes.")
 (finding_presence_auto_vocals
-   "Sorry, can't join while All Instruments Mode is on.")
+   "Desculpe, você não pode juntar-se à sessão enquanto o Modo Todos Instrumentos estiver habilitado.")
 (finding_presence_cannot_connect
-   "Can't connect to the session.")
+   "Não foi possível conectar à esta sessão.")
 (finding_presence_empty_session
-   "Cannot accept invite when in an empty session.")
+   "Você não pode aceitar um convite quando estiver numa sessão vazia.")
 (finding_presence_joining
-   "Joining...")
+   "Juntando-se à sessão...")
 (finding_presence_joins_not_allowed
-   "Sorry, the player who invited you is no longer accepting your invite.")
+   "Desculpe, o(a) jogador(a) que lhe convidou não está mais aceitando seu convite.")
 (finding_presence_not_band_member
-   "You are no longer a member of this band.")
+   "Você não é mais membro desta banda.")
 (finding_presence_not_in_session
-   "The invited user could not be added to the session.")
+   "O(a) jogador(a) não pôde ser adicionado(a) para esta sessão.")
 (finding_presence_no_joining_allowed
-   "This session is no longer allowing players to join.")
+   "Esta sessão não esta mais aceitando jogadores(as) para se juntar.")
 #ifdef HX_PS3
 (finding_presence_no_multiplayer_privilege
-   "You must sign into the PlayStation®Network.")
+   "Você deve estar conectado ao PlayStation®Network.")
 #endif
 #ifdef HX_XBOX
 (finding_presence_no_multiplayer_privilege
-   "You must be signed into an Xbox LIVE enabled gamer profile with Xbox LIVE multiplayer privileges enabled and connected to Xbox LIVE.")
+   "Você deve estar num Perfil assinado com a Xbox LIVE, ter privilégios multiplayer e estar conectado à esta conta Xbox LIVE.")
 #endif
 #ifdef HX_PC
 (finding_presence_no_multiplayer_privilege
-   "You must be signed into an Xbox LIVE enabled gamer profile with Xbox LIVE multiplayer privileges enabled and connected to Xbox LIVE.")
+   "Você deve estar num Perfil assinado com a Xbox LIVE, ter privilégios multiplayer e estar conectado à esta conta Xbox LIVE.")
 #endif
 (finding_presence_no_room
-   "You cannot join this session because there would be more than 4 players total.")
+   "Você não pode se juntar à esta sessão pois ela está cheia.")
 (finding_presence_no_room_drums
-   "No more drummers can fit in this session.")
+   "Não há espaço para mais um(a) bateirista nesta sessão.")
 (finding_presence_no_room_guitar
-   "No more guitarists can fit in this session.")
+   "Não há espaço para mais um(a) guitarrista/baixista nesta sessão.")
 (finding_presence_no_room_keys
-   "No more keyboardists can fit in this session.")
+   "Não há espaço para mais um(a) tecladista nesta sessão.")
 (finding_presence_no_room_vocals
-   "No more vocalists can fit in this session.")
+   "Não há espaço para mais um(a) vocalista nesta sessão.")
 (finding_presence_session_busy
-   "Unable to join the session at this time.  Please try again.")
+   "Não foi possível juntar-se à esta sessão no momento.  Por favor, tente novamente mais tarde.")
 (finding_presence_success
    "Sucesso!")
 (finding_presence_wrong_mode
-   "This session is playing a different game mode than you.")
+   "Esta sessão está jogando um modo de jogo diferente de você.")
 (find_players_quickplay_band
    "Jogo Rápido")
 (find_players_title
@@ -10471,7 +10471,7 @@
 (find_players_tour_band
    "Road Challenge")
 (find_redeemed
-   "Previously Redeemed Codes")
+   "Códigos Previamente Utilizados")
 (finish
    "Concluir")
 (finish_editing
@@ -12111,7 +12111,7 @@
    "Ver Card do Jogo")
 #endif
 (leader_party_shuffle_warning
-   "Desculpe, apenas o(a) líder desta sessão pode escolher repertórios aleatórios.")
+   "Desculpe, apenas o(a) líder desta sessão pode escolher em tocar sessões aleatórias.")
 (leader_setlist_warning
    "Desculpe, apenas o(a) líder desta sessão pode selecionar um repertório para jogar.")
 (leatherjacket_clean
@@ -15387,9 +15387,9 @@
 (overshell_cancel
    "Cancelar")
 (overshell_cancel_song
-   "Are you sure you want to back out?")
+   "Você tem certeza que deseja sair?")
 (overshell_cancel_song_disconnect
-   "Are you sure you want to back out?  This will disconnect your session.")
+   "Você tem certeza que deseja sair?  Você será desconectado(a) desta sessão.")
 (overshell_cancel_song_party_shuffle
    "Tem certeza que você quer voltar ao Menu Principal?")
 (overshell_change_character
@@ -15417,7 +15417,7 @@
 (overshell_choose_contribute
    "Você quer que seu progresso individual seja salvo nesta sessão?")
 (overshell_choose_cymbals
-   "You must choose cymbals to play Pro Drums")
+   "Você deve escolher os chimbais para jogar Bateria PRO")
 (overshell_choose_diff
    "Escolher Dificuldade")
 (overshell_choose_part
@@ -15797,13 +15797,13 @@
 (parkinglot_resource
    "Tailgater")
 (party_setlist
-   "Repertório Aleatório")
+   "Sessão Aleatória")
 (party_setlist_by_line
-   "Jogue sua música sem interrupções!")
+   "Jogue músicas aleatórias sem interrupções!")
 (party_shuffle
-   "REPERTÓRIO ALEATÓRIO")
+   "SESSÃO ALEATÓRIA")
 (party_shuffle_start
-   "Jogar um \qRepertório Aleatório\q")
+   "Jogar uma \qSessão Aleatória\q")
 (passive_message_accomplishment_step
    "(%s) %s:")
 (passive_message_auto_join_failed
@@ -21553,7 +21553,7 @@
 (qp_submenu_find_players
    "FIND PLAYERS")
 (qp_submenu_party_shuffle
-   "Repertório Aleatório")
+   "Sessão Aleatória")
 (qp_submenu_quickplay
    "Escolher Músicas")
 (qst_tier1_accuracyfocus
@@ -21813,49 +21813,49 @@
 (release
    "Release")
 (remote_not_ready
-   "A remote player is still joining the session.")
+   "Um(a) jogador(a) remoto(a) ainda está se juntando à sessão.")
 (remote_status_campaign
-   "Viewing Goals")
+   "Vendo seus Objetivos")
 (remote_status_campaign_rankings
-   "Viewing Rankings")
+   "Vendo os Ranques")
 (remote_status_campaign_songs
-   "Viewing Song Progress")
+   "Vendo o Progresso da Música")
 (remote_status_choose_char
-   "Choosing Character")
+   "Escolhendo Personagem")
 (remote_status_customize_band
-   "Customizing Band")
+   "Personalizando sua Banda")
 (remote_status_customize_character
-   "Customizing Character")
+   "Personalizando um(a) Personagem")
 (remote_status_drum_options
-   "Configuring Pro Drums")
+   "Configurando Bateria PRO")
 (remote_status_join_invite
-   "Joining Session")
+   "Juntando-se à Sessão")
 (remote_status_leader_controlling
-   "Making a Selection")
+   "Fazendo uma Seleção")
 (remote_status_main_menu
-   "On the Main Menu")
+   "No Menu Principal")
 (remote_status_music_library
-   "Choosing Songs")
+   "Escolhendo Músicas")
 (remote_status_music_store
-   "In the Music Store")
+   "Na Music Store")
 (remote_status_songs_selected
-   "Ready!\n(%i Songs Selected)")
+   "Pronto(a)!\n(%i Músicas Selecionadas)")
 (remote_status_song_preview
-   "Previewing \q%s\q")
+   "Ouvindo \q%s\q")
 (remote_status_waiting_choose_setlist
-   "Waiting to Play a Setlist")
+   "Esperando para Jogar um Repertório")
 (remote_status_waiting_choose_song
-   "Waiting to Choose Songs")
+   "Esperando para Escolher Músicas")
 (remote_status_waiting_on_leader
-   "Waiting on the Leader to Make a Selection")
+   "Esperando o(a) líder para Fazer uma Seleção")
 (remote_status_waiting_party_shuffle
-   "Waiting for Party Shuffle")
+   "Esperando para Sessão Aleatória")
 (remote_status_waiting_qp_find_players
-   "Waiting to Find More Players for Quickplay")
+   "Esperando para Encontrar Mais Jogadores(as) para o Jogo Rápido")
 (remote_status_waiting_tour
-   "Waiting on Road Challenge")
+   "Esperando pelo Road Challenge")
 (remote_status_waiting_tour_find_players
-   "Waiting to Find More Players for Road Challenges")
+   "Esperando para Encontrar Mais Jogadores(as) para o Road Challenges")
 (rename_band_vk_desc
    "Entre com o nome da sua nova banda")
 (rename_char_vk_desc
@@ -22537,9 +22537,9 @@
 (set_list_named_title_singular
    "%s <alt>1 música</alt>")
 (set_list_partyshuffle_title
-   "REPERTÓRIO ALEATÓRIO <alt>%i músicas</alt>")
+   "SESSÃO ALEATÓRIA <alt>%i músicas</alt>")
 (set_list_partyshuffle_title_singular
-   "REPERTÓRIO ALEATÓRIO <alt>1 música</alt>")
+   "SESSÃO ALEATÓRIA <alt>1 música</alt>")
 (set_list_song_count
    "%s músicas")
 (set_list_title
@@ -22553,99 +22553,99 @@
 (sexyshorts_cotton_desc
    "If you're neither a rock star nor a basketball player in 1973, the choice to sport these skimpy shorts might require a lengthy explanation.")
 (sfx
-   "Sound Effects")
+   "Efeitos Sonoros")
 (share_setlist
-   "Share Setlist")
+   "Compartilhar Repertório")
 (shearlingcoat_corduroy
    "Brokeback Jacket")
 (shearlingcoat_corduroy_desc
    "This warm shearling coat wishes it could quit you.")
 (shell_banddelete_cancel
-   "Are you sure you want to delete this band?")
+   "Você tem certeza que deseja deletar esta banda?")
 (shell_bandquit_cancel
-   "Are you sure you want to quit this band?")
+   "Você tem certeza que deseja sair desta banda?")
 (shell_bandremove_cancel
-   "Are you sure you want to remove this member?")
+   "Você tem certeza que deseja remover este membro?")
 (shell_band_delete
-   "Delete Band")
+   "Deletar Banda")
 (shell_band_name_chosen
-   "Band Name Chosen")
+   "Nome da Banda Escolhido")
 (shell_band_name_not_unique
-   "You already have a band with that name! Please choose another name.")
+   "Você já tem uma banda com este nome! Por favor, escolha outro nome.")
 (shell_band_options_title
-   "Do what to this band?")
+   "O que deseja fazer com esta banda?")
 (shell_band_remove_char
-   "Remove Member")
+   "Removeer Membro")
 (shell_band_remove_character
-   "Remove Character")
+   "Remover Personagem")
 (shell_band_rename
-   "Rename Band")
+   "Renomear Banda")
 (shell_change_profile_warning
    "A user sign-in change has caused the game to lose ownership of saves and achievements. As a result, the game will be restarted.")
 (shell_charcreator_cancel
-   "Are you sure you want to abandon this character?")
+   "Você tem certeza que deseja abandonar este(a) personagem?")
 (shell_charcreator_confirm
-   "Are you sure you want to create this character?")
+   "Você tem certeza que deseja criar este(a) personagem?")
 #ifdef HX_PS3
 (shell_charcreator_name_ip_fmt
-   "The name \q%s\q is not allowed for you to use.  You can use this name locally, but it will not be visible on the leaderboards until it is changed.")
+   "O nome \q%s\q não pode ser usado.  Você pode usar este nome apenas localmente, mas ele não será visível nos Ranques até você mudá-lo.")
 #endif
 #ifdef HX_XBOX
 (shell_charcreator_name_ip_fmt
-   "The name \q%s\q is not allowed for you to use.  You can use this name locally, but it will not be visible on Xbox LIVE until it is changed.")
+   "O nome \q%s\q não pode ser usado.  Você pode usar este nome apenas localmente, mas ele não será visível na Xbox LIVE até você mudá-lo.")
 #endif
 #ifdef HX_PC
 (shell_charcreator_name_ip_fmt
-   "The name \q%s\q is not allowed for you to use.  You can use this name locally, but it will not be visible on Xbox LIVE until it is changed.")
+   "O nome \q%s\q não pode ser usado.  Você pode usar este nome apenas localmente, mas ele não será visível na Xbox LIVE até você mudá-lo.")
 #endif
 (shell_charcreator_name_not_unique_fmt
-   "The name \q%s\q is already being used.  Please choose another.")
+   "O nome \q%s\q já está sendo usado.  Por favor, escolha outro nome.")
 #ifdef HX_PS3
 (shell_charcreator_name_profane_fmt
-   "The name \q%s\q is not what most would describe as \qclassy.\q  You can use this name locally, but it will not be visible on the leaderboards until it is changed.")
+   "O nome \q%s\q não pode ser usado pois contêm palavras de baixo calão.  Você pode usar este nome apenas localmente, mas ele não será visível nos Ranques até você mudá-lo.")
 #endif
 #ifdef HX_XBOX
 (shell_charcreator_name_profane_fmt
-   "The name \q%s\q is not what most would describe as \qclassy.\q  You can use this name locally, but it will not be visible on Xbox LIVE until it is changed.")
+   "O nome \q%s\q não pode ser usado pois contêm palavras de baixo calão.  Você pode usar este nome apenas localmente, mas ele não será visível na Xbox LIVE até você mudá-lo.")
 #endif
 #ifdef HX_PC
 (shell_charcreator_name_profane_fmt
-   "The name \q%s\q is not what most would describe as \qclassy.\q  You can use this name locally, but it will not be visible on Xbox LIVE until it is changed.")
+   "O nome \q%s\q não pode ser usado pois contêm palavras de baixo calão.  Você pode usar este nome apenas localmente, mas ele não será visível na Xbox LIVE até você mudá-lo.")
 #endif
 (shell_charcreator_no_name
-   "You must name your character before it can be created.")
+   "Você deve nomear seu(ua) personagem antes que ele(a) possa ser criado(a).")
 (shell_chardelete_cancel
-   "Are you sure you want to delete this character?")
+   "Você tem certeza que deseja deletar este(a) personagem?")
 (shell_char_delete
-   "Delete")
+   "Deletar")
 (shell_char_leave_band
-   "Leave Band")
+   "Abandonar Banda")
 (shell_char_name_not_unique
-   "You already have a character who goes by that name! Please choose another name.")
+   "Você já tem um(a) personagem com este nome! Por favor, escolha outro nome.")
 (shell_char_options_title
-   "Do what to this character?")
+   "O que deseja fazer com este(a) personagem?")
 (shell_char_rename
-   "Rename")
+   "Renomear")
 (shell_choose_difficulty
    "ESCOLHER DIFICULDADE")
 (shell_choose_guitar_part
    "Escolher Instrumento")
 (shell_createband_no_name
-   "You must name your band before it can be created.")
+   "Você deve nomear sua banda antes que ela possa ser criada.")
 (shell_delete_patch
-   "Are you sure you want to delete this patch?")
+   "Você tem certeza que deseja deletar este Patch?")
 (shell_enter_name
    "Enter Name")
 (shell_eyebrow_color
-   "Choose Color")
+   "Escolher Cor")
 (shell_eye_color
-   "Choose Eye Color")
+   "Escolher Cor dos Olhos")
 (shell_hair_salon
-   "Hair Salon")
+   "Cabelereiro")
 (shell_my_closet
-   "My Closet")
+   "Meu Closet")
 (shell_network_busy
-   "Communicating with the Rock Central game servers...")
+   "Comunicando com os servidores do Rock Central...")
 (shell_new_patch
    "Criar Nova Arte")
 (shell_no_patch
@@ -22683,9 +22683,9 @@
 (shell_vocalstyle
    "Vocal Style")
 (shell_waiting_for
-   "Waiting For...")
+   "Esperando por...")
 (shell_waiting_for_leader
-   "Waiting for Leader...")
+   "Esperando pelo(a) líder...")
 (shiny_loading_text
    "CARREGANDO")
 (shirtcorset_solid
@@ -22787,9 +22787,9 @@
 (skipped_pct_fmt
    "Skipped at %i%%")
 (skip_next_song
-   "NEXT SONG")
+   "PRÓXIMA MÚSICA")
 (skip_song
-   "Skip Song")
+   "Pular Música")
 (skirtpants_plaid
    "Mini Grunge")
 (skirtpants_plaid_desc
@@ -22891,7 +22891,7 @@
 (solid_solo
    "Good Solo!")
 (solo
-   "SOLO QUICKPLAY")
+   "JOGO RÁPIDO SOLO")
 (solo_buttoned_solo_stat_tracker_contribution
    "Soloed %0.0f%% of notes.")
 (solo_no_server_warning
@@ -22901,11 +22901,11 @@
 (solo_score
    "PONTUAÇÃO SOLO")
 (solo_vocalist_needs_mic
-   "No microphone has been detected. Please connect a microphone to play this game mode as a vocalist.")
+   "Nenhum microfone foi detectado. Por favor, conecte um microfone para jogar este jogo como vocalista.")
 (solo_win_text
    "You've crushed what most people flee from. Enjoy your new golden instrument next time you play!")
 (song
-   "Song")
+   "Música")
 (songresults_header_continued
    "%s (%i)")
 (songresults_nodata
@@ -22915,35 +22915,35 @@
 (song_artist_fmt_number
    "%i. %s <alt>%s</alt>")
 (song_complete
-   "SONG COMPLETE!")
+   "MÚSICA CONCLUÍDA!")
 (song_details_view_leaderboard
-   "View Leaderboard")
+   "Ver Ranques")
 (song_failed
-   "SONG FAILED!")
+   "MÚSICA FALHADA!")
 (song_information
-   "Song Information")
+   "Informação da Música")
 (song_info_cache_button_cancel
-   "Continue without Rock Band 3 Song Cache")
+   "Continuar sem Cache de Músicas do Rock Band 3")
 (song_info_cache_button_corrupt_overwrite
-   "Overwrite")
+   "Sobrescrever")
 (song_info_cache_button_create
-   "Choose storage device")
+   "Escolher Dispositivo de Armazenamento")
 (song_info_cache_corrupt
-   "The Rock Band Song Cache file is corrupt. Rock Band 3 may take longer to find downloaded content without a Song Cache.  Would you like to overwrite the existing corrupted file with a new file?")
+   "O arquivo de Cache de Músicas do Rock Band 3 está corrompido. O Rock Band 3 pode demorar mais para encontrar músicas baixadas sem um Cache.  Gostaria de sobrescrever o atual arquivo corrompido por um novo?")
 (song_info_cache_create
-   "No Rock Band Song Cache was found. Rock Band 3 uses the Rock Band Song Cache to speed up the loading of downloaded song packs. Would you like to create this data?")
+   "Não foi encontrado nenhum arquivo de Cache de Músicas do Rock Band 3. O Rock Band 3 utiliza o Cache de Músicas para acelerar o carregamento de músicas baixadas. Gostaria de criar este arquivo de Cache?")
 (song_info_cache_loading
-   "Loading Rock Band 3 Song Cache...")
+   "Carregando Cache de Músicas do Rock Band 3...")
 (song_info_cache_missing
-   "The selected storage device has become unavailable.  If you would like to create a Rock Band 3 Song Cache, please select a storage device.")
+   "O dispositivo de armazenamento selecionado está indisponível.  Se você quiser criar um arquivo de Cache de Músicas, por favor selecione um dispositivo de armazenamento.")
 (song_info_cache_name
-   "Rock Band 3 Song Cache")
+   "Cache de Músicas do Rock Band 3")
 (song_info_cache_saving
-   "Saving Rock Band 3 Song Cache...")
+   "Salvando Cache de Músicas do Rock Band 3...")
 (song_info_cache_saving_long
-   "Saving Rock Band 3 Song Cache.  Please don't turn off your console.")
+   "Salvando Cache de Músicas do Rock Band 3.  Por favor, não deslique seu console.")
 (song_info_cache_search
-   "Searching for Rock Band 3 Song Cache...")
+   "Procurando pelo Cache de Músicas do Rock Band 3...")
 (song_length_1_short
    "Músicas Curtas")
 (song_length_2_medium
@@ -22955,14 +22955,14 @@
 (song_length_fmt
    "{int::minutes}:{int:02:seconds}")
 (song_mgr_full_warning_fmt
-   "Sorry, Rock Band is limited to a max of %d songs available in-game, which you have reached. Until you get back below this limit, some songs may not load. You can remove the songs that Rock Band has already loaded by going to the Music Library and selecting song details on the song you wish to remove.  If you later wish to restore a removed song, you can always re-download from the Music Store (you do not have to re-purchase a song you have already purchased).")
+   "Desculpe, Rock Band tem um limite de músicas baixadas de %d músicas dentro do jogo, no qual você chegou. Até você diminuir sua quantidade de músicas, algumas músicas podem não carregar. Você pode deletar músicas já carregadas no jogo diretamente indo nos detalhes da música que tu deseja deletar na Biblioteca de Músicas.  Se você quiser restaurar uma música deletada mais tarde, você pode baixar a música novamente na Music Store (você não precisa comprar novamente músicas que você já comprou).")
 #ifdef HX_XBOX
 (song_mgr_full_warning_fmt_xbox
-   "Sorry, Rock Band is limited to a max of %d songs available in-game, which you have reached. Until you get back below this limit, some songs may not load. You can remove the songs that Rock Band has already loaded by going to the Music Library and selecting song details on the song you wish to remove.  You can also remove any song, pack, or album from the Xbox Dashboard.  If you later wish to restore a removed song, you can always re-download from the Music Store (you do not have to re-purchase a song you have already purchased).")
+   "Desculpe, Rock Band tem um limite de músicas baixadas de %d músicas dentro do jogo, no qual você chegou. Até você diminuir sua quantidade de músicas, algumas músicas podem não carregar. Você pode deletar músicas já carregadas no jogo diretamente indo nos detalhes da música que tu deseja deletar na Biblioteca de Músicas.  Você também pode remover qualquer música, pack, ou álbum no Dashboard do Xbox.  Se você quiser restaurar uma música deletada mais tarde, você pode baixar a música novamente na Music Store (você não precisa comprar novamente músicas que você já comprou).")
 #endif
 #ifdef HX_PC
 (song_mgr_full_warning_fmt_xbox
-   "Sorry, Rock Band is limited to a max of %d songs available in-game, which you have reached. Until you get back below this limit, some songs may not load. You can remove the songs that Rock Band has already loaded by going to the Music Library and selecting song details on the song you wish to remove.  You can also remove any song, pack, or album from the Xbox Dashboard.  If you later wish to restore a removed song, you can always re-download from the Music Store (you do not have to re-purchase a song you have already purchased).")
+   "Desculpe, Rock Band tem um limite de músicas baixadas de %d músicas dentro do jogo, no qual você chegou. Até você diminuir sua quantidade de músicas, algumas músicas podem não carregar. Você pode deletar músicas já carregadas no jogo diretamente indo nos detalhes da música que tu deseja deletar na Biblioteca de Músicas.  Você também pode remover qualquer música, pack, ou álbum no Dashboard do Xbox.  Se você quiser restaurar uma música deletada mais tarde, você pode baixar a música novamente na Music Store (você não precisa comprar novamente músicas que você já comprou).")
 #endif
 (song_select
    "Selecionar Música")
@@ -23889,7 +23889,7 @@
 (tamb_rating_5
    "DEDICADO")
 (tamb_rating_6
-   "INCRÍVEL")
+   "INCRÍVEL!")
 (tanktopscarf_unionjack
    "Negative Union")
 (tanktopscarf_unionjack_desc
@@ -23943,25 +23943,25 @@
 (tatteredshoe_homeless_desc
    "These tattered trainers go really well with ramen noodles, fingerless gloves, and apartments that smell like nail polish remover.")
 (tattoo_left_arm
-   "Left Arm")
+   "Braço Esquerdo")
 (tattoo_left_leg_back
-   "Left Leg (Back)")
+   "Perna Esquerda (Atrás)")
 (tattoo_left_leg_front
-   "Left Leg (Front)")
+   "Perna Esquerda (Frente)")
 (tattoo_left_shoulder
-   "Left Shoulder")
+   "Ombro Esquerdo")
 (tattoo_right_arm
-   "Right Arm")
+   "Braço Direito")
 (tattoo_right_leg_back
-   "Right Leg (Back)")
+   "Perna Direita (Atrás)")
 (tattoo_right_leg_front
-   "Right Leg (Front)")
+   "Perna Direita (Frente)")
 (tattoo_right_shoulder
-   "Right Shoulder")
+   "Ombro Direito")
 (tattoo_torso_back
-   "Back")
+   "Costas")
 (tattoo_torso_front
-   "Chest")
+   "Peitoral")
 (tc90
    "Fender<sup>TM</sup> TC-90 Thinline")
 (tc90_desc
