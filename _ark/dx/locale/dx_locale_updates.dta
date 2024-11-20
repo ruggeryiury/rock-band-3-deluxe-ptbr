@@ -1756,13 +1756,13 @@
 (print_objects
    "Print Screen Objects")
 (debug_warning
-   "Do not touch anything in here unless you know what you're doing or you were told to.")
+   "Não toque em nada ao menos que você saiba o que está fazendo ou foi instruído para ser feito.")
 (os_iunderstand
-   "I Understand")
+   "OK")
 (os_takemeback
-   "Take Me Back")
+   "Voltar")
 (os_debug_mode
-   "Debug Mode: ON")
+   "Modo Depuração: ON")
 (os_currentsong_desc
    "Habilite/desabilite várias informações aonde é mostrado o nome da música dentro do jogo")
 (os_prefix_disable
@@ -1774,9 +1774,9 @@
 (os_author_finder_off
    "Author Finder: OFF")
 (os_author_finder_on_desc
-   "Toggles a variety of extra options for the song title text display")
+   "Habilita uma variedade de opções extras para a visualização do texto do título da música")
 (os_author_finder_off_desc
-   "Toggles a variety of extra options for the song title text display")
+   "Habilita uma variedade de opções extras para a visualização do texto do título da música")
 (os_song_title_on
    "Nome da Música: ON")
 (os_song_title_off
@@ -1824,41 +1824,41 @@
 (os_logging_disable_all
    "[Desabilitar Todos]")
 (os_logging_essential_on
-   "Essential: ON")
+   "Essencial: ON")
 (os_logging_essential_off
-   "Essential: OFF")
+   "Essencial: OFF")
 (os_logging_default_on
-   "Default: ON")
+   "Padrão: ON")
 (os_logging_default_off
-   "Default: OFF")
+   "Padrão: OFF")
 (os_logging_info_on
    "Info: ON")
 (os_logging_info_off
    "Info: OFF")
 (os_logging_insane_on
-   "Insane: ON")
+   "Insano: ON")
 (os_logging_insane_off
-   "Insane: OFF")
+   "Insano: OFF")
 (os_logging_beatmatch_on
    "Beatmatch: ON")
 (os_logging_beatmatch_off
    "Beatmatch: OFF")
 (os_logging_countdown_on
-   "Countdown: ON")
+   "Cont. Regressiva: ON")
 (os_logging_countdown_off
-   "Countdown: OFF")
+   "Cont. Regressiva: OFF")
 (os_stats_disable
-   "Extra Info: YES")
+   "Info. Extra: YES")
 (os_stats_enable
-   "Extra Info: NO")
+   "Info. Extra: NO")
 (os_bpm_on
    "BPM da Música: ON")
 (os_bpm_off
    "BPM da Música: OFF")
 (os_bpm_on_desc
-   "Toggles visibility of the current tempo of a song")
+   "Habilita a visibilidade do tempo de duração da música")
 (os_bpm_off_desc
-   "Toggles visibility of the current tempo of a song")
+   "Habilita a visibilidade do tempo de duração da música")
 (os_all_item
    "Todos os Items")
 (os_speed_control
@@ -1868,9 +1868,9 @@
 (os_section
    "Cabeçalho da Sessão")
 (os_ingame
-   "Quickplay HUD")
+   "HUD Jogo Rápido")
 (os_ingame_desc
-   "Standard gameplay elements")
+   "Elementos padrões do jogo")
 (os_mtv_desc
    "Visibilidade e informações extras no texto de nome da música")
 (os_score_desc
@@ -1896,15 +1896,15 @@
 (os_dx_swap_gender_on
    "Swap Cosmetics: ON")
 (reboot_to_apply
-   "Reboot the game to apply changes")
+   "Reinicie o jogo para aplicar as alterações")
 (generate_updates_dta
-   "Generate YARG Updates DTA")
+   "Gerar Updates pro YARG")
 (songs_updates_generated
-   "YARG Updates Generated")
+   "Updates pro YARG gerados")
 (save_track_theme
-   "Type your theme name here.")
+   "Digite o nome do seu tema aqui.")
 (save_track_theme_desc
-   "Please don't use any spaces or special characters in your name.")
+   "Por favor, não use espaço ou caracteres especiais no seu nome.")
 (pos_interval_0 "Intervalo Posição: 0.01")
 (pos_interval_1 "Intervalo Posição: 0.10")
 (pos_interval_2 "Intervalo Posição: 0.5")
@@ -1945,9 +1945,9 @@
 ;Custom Band Goals
 #ifdef HX_WII
 (acc_dlc_harddrivefiller
-   "SD Filler")
+   "Enchedor de Cartão SD")
 (acc_dlc_harddrivefiller_desc
-   "You would have filled an average-sized SD card with songs by now! After playing them all, contact @deliciousbees on Twitter for a thank you prize!")
+   "Você já teria enchido um cartão SD (de tamanho considerável) com as músicas que tu já tem! Depois de jogar todas elas, entre em contato com o usuário @deliciousbees no Twitter/X para um presente de agradecimento!")
 #endif
 (acc_dx_coverband
    "Banda Cover")
@@ -1958,29 +1958,29 @@
 (acc_dx_hourglass_desc
    "5 <alt>*</alt> Hourglass Part II since Steph FC'd it first")
 (acc_dx_strumsaga
-   "The Strum Saga")
+   "A Saga da Palhetada")
 (acc_dx_strumsaga_desc
-   "Try not to get carpal tunnel as you 5 star the following songs on Expert Guitar.")
+   "Tente não desenvolver uma síndrome do túnel do carpo tentando conquistar 5 <alt>*</alt> nas seguintes músicas na Guitarra na dificuldade Expert.")
 (acc_dx_strumsaga_rbn
-   "The Networked Strum Saga")
+   "A Saga da Palhetada: RBN")
 (acc_dx_strumsaga_rbn_desc
-   "5 <alt>*</alt> these sadistic unofficial charts on Expert Guitar, to make sure it's not just Harmonix that is capable of hate.")
+   "Conquiste 5 <alt>*</alt> nestas músicas sádicas da Rock Band Network na Guitarra na dificuldade Expert, para você ter certeza que não só a Harmonix é capaz de sentir ódio pelos jogadores.")
 (acc_dx_infected
-   "Infected Nations")
+   "Nações Infectadas")
 (acc_dx_infected_desc
    "Become pure Evile as you 5 <alt>*</alt> the entire Infected Nations album on Expert")
 (acc_dx_beginning
-   "Getting Ready To Rokk")
+   "Pronto pra Arrasar")
 (acc_dx_beginning_desc
-   "Earn 5 <alt>*</alt> on these songs from the start of Guitar Hero and Rock Band.")
+   "Conquiste 5 <alt>*</alt> nestas músicas do começo do Guitar Hero e Rock Band.")
 (acc_dx_panicswitch
    "Sem Pânico!..")
 (acc_dx_panicswitch_desc
    "Jogue a música \qPanic Switch\q com uma banda completa.")
 (acc_dx_chinesedemo
-   "November Rain")
+   "Chuva de Novembro")
 (acc_dx_chinesedemo_desc
-   "Play the entire \qChinese Democracy\q album.")
+   "Jogue todas as músicas do álbum \qChinese Democracy\q, do Guns n' Roses.")
 (acc_dx_moonites
    "Revenge of the Moonities")
 (acc_dx_moonites_desc
@@ -1994,7 +1994,7 @@
 (acc_dx_thegame_desc
    "Acerte 100% das notas na música \qThe Game\q\n((O JOGO)).")
 (acc_dx_brony
-   "Brony.")
+   "Fã Número 1 de Pôneis")
 (acc_dx_brony_desc
    "Beat every song relating to My Little Pony.")
 (acc_dx_imagine
@@ -2008,11 +2008,11 @@
 (acc_dx_spongebob
    "Vive no Abacaxi e Mora do Mar")
 (acc_dx_spongebob_desc
-   "Conquiste 5 <alt>*</alt> em todas as músicas do BobEsponja CalçaQuadrada.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas do Bob Esponja Calça Quadrada.")
 (acc_dx_southpark
-   "...meet some friends of mine!")
+   "O KENNY MORREU!!!")
 (acc_dx_southpark_desc
-   "Earn 5 <alt>*</alt> on every song from South Park.")
+   "Conquiste 5 <alt>*</alt> em cada música do South Park.")
 (acc_dx_hugh
    "Hugh.")
 (acc_dx_hugh_desc
@@ -2024,21 +2024,21 @@
 (acc_dx_bangcamaro
    "Banging in the Camaro")
 (acc_dx_bangcamaro_desc
-   "Earn at least 4 <alt>*</alt>  on every Bang Camaro song.")
+   "Conquiste pelo menos 4 <alt>*</alt>  em cada música da banda Bang Camaro.")
 (acc_dx_eurovision
    "Eurovision 2006")
 (acc_dx_eurovision_desc
-   "Earn 5 <alt>=</alt> with the song \qHard Rock Hallelujah\q.")
+   "Conquiste 5 <alt>=</alt> na música \qHard Rock Hallelujah\q.")
 (acc_dx_fatkid
-   "Not Bad")
+   "Nada Mal")
 (acc_dx_fatkid_desc
-   "Earn 5 <alt>*</alt> on \qFat Kid\q by \qNothing More\q.")
+   "Conquiste 5 <alt>*</alt> na música \qFat Kid\q, da banda \qNothing More\q.")
 (acc_dx_box
    "O Que Há Dentro da Caixa?")
 (acc_dx_box_desc
    "Conquiste 5 <alt>*</alt> em cada música com a palavra \qbox\q (caixa) no título.")
 (acc_dx_smashmouth
-   ".Banda da Música do Shrek")
+   "Banda da Música do Shrek")
 (acc_dx_smashmouth_desc
    "Conquiste 5 <alt>*</alt> em todas as músicas da banda Smash Mouth.")
 (acc_dx_stoner
@@ -2054,7 +2054,7 @@
 (acc_dx_rb3devkit_desc
    "Conquiste 5 <alt>=</alt> em todas as músicas protótipos encontradas no Development Kit do Rock Band 3 para o Wii!")
 (acc_dx_guitarssuck
-   "Guitars Really Suck?")
+   "Não às Guitarras Elétricas!")
 (acc_dx_guitarssuck_desc
    "Conquiste 5 <alt>=</alt> na música \qGuitars SUCK\q em qualquer instrumento que não seja a Guitarra.")
 (acc_dx_original
@@ -2090,9 +2090,9 @@
 (acc_dx_greenstar_desc
    "Conquiste 5 <alt>=</alt> na música \qGreen Grass and High Tides\q na dificuldade Expert.")
 (acc_dx_memes
-   "You've been trolled")
+   "Você Foi Trollado!")
 (acc_dx_memes_desc
-   "Earn 5 <alt>*</alt> on meme songs.")
+   "Conquiste 5 <alt>*</alt> nestas músicas de meme.")
 (acc_dx_bloodsugar
    "Pink Sweet Sugar Marshmallow")
 (acc_dx_bloodsugar_desc
@@ -2114,9 +2114,9 @@
 (acc_dx_2112_desc
    "Earn 5 <alt>*</alt> on \q2112\q.")
 (acc_dx_a_final_encore
-   "A Final Encore")
+   "Relembre os Clássicos")
 (acc_dx_a_final_encore_desc
-   "Earn 5 <alt>*</alt> on these various classic songs on Expert.")
+   "Conquiste 5 <alt>*</alt> nestes clássicos na dificuldade Expert.")
 (acc_dx_americanpie
    "The Day That Music Died")
 (acc_dx_americanpie_desc
@@ -2127,13 +2127,13 @@
 (acc_dx_constantmotion_desc
    "FC up to Guitar Solo D on Expert")
 (acc_dx_xbox
-   "Xbox Supremacy")
+   "Supremacia do Xbox")
 (acc_dx_xbox_desc
-   "Earn 5 <alt>*</alt> the 360-exclusive Guitar Hero II songs.")
+   "Conquiste 5 <alt>*</alt> nestas músicas exclusivas do Guitar Hero II do Xbox 360.")
 (acc_dx_kingofmetal
-   "King of Metal")
+   "Rei do Metal")
 (acc_dx_kingofmetal_desc
-   "Earn 5 <alt>*</alt> these classic Metal Songs on Expert Guitar.")
+   "Conquiste 5 <alt>*</alt> nestas músicas clássicas do Metal na Guitarra na dificuldade Expert.")
 (acc_dx_tweezer
    "Tio Ebenezer")
 (acc_dx_tweezer_desc
@@ -2151,9 +2151,9 @@
 (acc_dx_eastjesus_desc
    "Gold Star \qEast Jesus Nowhere\q on Expert Guitar.")
 (acc_dx_ttfaf
-   "Fireproof")
+   "À Prova de Fogo")
 (acc_dx_ttfaf_desc
-   "Beat \qThrough the Fire and Flames\q  on Expert Guitar.")
+   "Toque a música \qThrough the Fire and Flames\q na Guitarra na dificuldade Expert.")
 ;Custom Bass Goals
 (acc_dx_carl
    "The Carl Award")
@@ -2189,12 +2189,12 @@
 (acc_dx_brainpowerprokey
    "Super Sprøde")
 (acc_dx_brainpowerprokey_desc
-   "Get 98% or higher on \qBrainpower\q.")
+   "Acerte 98% das notas ou mais na música \qBrainpower\q em qualquer instrumento.")
 ;Custom Vox Goals
 (acc_dx_slayqueen
    "Slay Queen")
 (acc_dx_slayqueen_desc
-   "Conquer the Stage and Earn 5 <alt>*</alt> on these Vocal hits.")
+   "Conquiste o palco conquistando 5 <alt>*</alt> nestes hits no vocal.")
 (acc_dx_gaybar
    "Not Luna.")
 (acc_dx_gaybar_desc
@@ -2208,13 +2208,13 @@
 (acc_dx_queenofsouth_desc
    "Dominate your Local Karaoke bar with these Female led Country hits.")
 (acc_dx_sex
-   "SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! SEX! ")
+   "SEXO! SEXO! SEXO! SEXO!")
 (acc_dx_sex_desc
-   "Get an Expert FC on \qSEX\q.")
+   "Acerte 100% das notas na música \qSEX\q em qualquer instrumento na dificuldade Expert.")
 (acc_dx_trynottolaugh
-   "Silly Songs for Silly Singers")
+   "Músicas Toscas para Cantores(as) Toscos(as)")
 (acc_dx_trynottolaugh_desc
-   "Try not to laugh as you 5 <alt>*</alt> on each of these songs on Vocals.")
+   "Tente não rir enquanto você conquista 5 <alt>*</alt> em cada uma destas músicas no Vocal Solo.")
 (acc_dx_walk
    "Jonnie Walker")
 (acc_dx_walk_desc
@@ -2233,14 +2233,14 @@
    "Rock Band Country Track Pack Volume 2")
 (acc_dx_CTP2_desc
    "Earn at least 2 <alt>*</alt> on all 21 songs in the Rock Band Country Track Pack Volume 2.")
-(you_lost "You lost the game")
+(you_lost "Você Perdeu")
 #ifdef RB3E ;rb3enhanced specific modifiers
-(mod_black_background_desc "Disables the in-game venue")
-(mod_force_hopos_desc "Makes every note a HOPO")
-(mod_mirror_mode_desc "Lefty mode without being a lefty!")
-(mod_color_shuffle_desc "Randomizes the colors of gems!")
-(mod_gem_shuffle_desc "Completely random notes!")
-(mod_double_bass_desc "Enables double bass pedal on drums charts")
+(mod_black_background_desc "Desabilita as cenas 3D e o palco dentro do jogo")
+(mod_force_hopos_desc "Todas as notas viram HOPO")
+(mod_mirror_mode_desc "Modo Canhoto sem ser canhoto!")
+(mod_color_shuffle_desc "Randomiza as cores das notas!")
+(mod_gem_shuffle_desc "Notas completamente aleatórias")
+(mod_double_bass_desc "Habilita o pedal duplo nas charts de Bateria")
 (os_reboot "Reiniciar Jogo")
 (os_reboot_desc "Reinicia completamente o jogo.")
 (reboot_warning "Você tem certeza que deseja reiniciar o jogo?")
@@ -2273,9 +2273,9 @@
 (dx_play_a_show
    "Play a Show")
 (dx_play_a_show_info
-   "Vote on which songs to play!\nVoting ends when all players have voted!")
+   "Vote em quais músicas você irá jogar!\nA votação acaba quando todos(as) os(as) jogadores(as) votarem!")
 (play_a_show_welcome_text
-   "Welcome to Play a Show!\nGrab your axe and give the crowd a great opener!")
+   "Bem-vindo(a) ao Modo Play a Show!\nAfine seus instrumentos e escolha uma música pra esquentar a platéia!")
 (dx_play_a_show_setlist_count
    "\nRepertório: %i Música")
 (dx_play_a_show_setlist_counts
@@ -2287,21 +2287,21 @@
 (play_a_show_waiting
    "Aguardando")
 (play_a_show_submitting
-   "Submitting")
+   "Enviando Resultados")
 (play_a_show_lock_in
    "Locking in")
 (play_a_show_refreshing
-   "Options Refreshing")
+   "Atualizando Opções")
 (play_a_show_refreshed
-   "Options Refreshed")
+   "Opções Atualizadas")
 (play_a_show_refresh
    "Atualizar Opções")
 (play_a_show_missing_inst
-   "this song is missing one of your instruments:")
+   "Esta música falta um dos seus instrumentos:")
 (play_a_show_bandvote
    "Voto da Banda:")
 (play_a_show_pressstart
-   "Pressione <alt>s</alt>\npara arrasar!")
+   "Pressione <alt>s</alt>\npara começar!")
 (play_a_show_genre
    "Uma música do gênero: %s")
 (play_a_show_year
@@ -2319,7 +2319,7 @@
 (play_a_show_author
    "Uma música charteada por %s")
 (play_a_show_album
-   "A song from %s <alt>%s</alt>")
+   "Uma música do álbum %s <alt>%s</alt>")
 (play_a_show_really_long
    "Uma música BEM longa")
 (play_a_show_long

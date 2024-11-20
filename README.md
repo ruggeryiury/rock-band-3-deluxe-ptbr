@@ -12,7 +12,6 @@
 
 - [About](#about)
 - [Download](#download)
-- [Progress Overall](#progress-overall)
 
 ## About
 
@@ -22,12 +21,4 @@ If you don't know how to build Rock Band 3 Deluxe patch, check the Download sect
 
 ## Download
 
-You can download a manually-build `.pkg` file of Rock Band 3 Deluxe patch with built-in translation [here](https://drive.google.com/file/d/1C2B6k_aH3neda6rMpV0BygtdB5Kc_SZL/view?usp=sharing). This translation is using the [this commit version](https://github.com/hmxmilohax/rock-band-3-deluxe/commit/98dd0d72b5292afac8c127156f81a103e86ef993)
-
-## Progress Overall
-
-- All menus are almost 100% translated!
-- Deluxe options is ~60% translated.
-- Goals translation has already started. About 5% completed.
-- The Character Editor items and the Road Challenges hasn't been started yet.
-- The Game Credits is about 3% translated
+You can download a manually-build `.pkg` file of Rock Band 3 Deluxe patch with built-in translation [here](https://drive.google.com/file/d/1M4-TTWoHFPaH_Dns3WzZwNuLL0xXdu1a/view?usp=sharing). This translation is using the [this dev commit version](https://github.com/hmxmilohax/rock-band-3-deluxe/commit/4b4616b6751c8dc503f2eddd912fd2eef401ca70)

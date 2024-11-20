@@ -4649,7 +4649,7 @@
 (back_off
    "para trás!")
 (bad_solo
-   "Okay Solo")
+   "Solo Ruim")
 (band
    "Banda")
 (bandfirstname_1
@@ -8575,11 +8575,11 @@
 (event_abandon
    "Abandon Gig")
 (event_failed
-   "EVENT FAILED")
+   "EVENTO FALHADO")
 (event_n_of_n
-   "Song %d of %d")
+   "Música %d de %d")
 (exit
-   "exit")
+   "sair")
 (experimental
    "Experimental")
 (expert
@@ -8589,7 +8589,7 @@
 (extras
    "EXTRAS")
 (extra_managefriends
-   "manage friends")
+   "gerenciar amigos(as)")
 (eyebrows
    "Sobrancelhas")
 (eyecolor
@@ -8649,7 +8649,7 @@
 (facetype_male_wingman
    "Wingman")
 (face_maker_change_brows
-   "Eyebrows")
+   "Sobrancelhas")
 (face_maker_change_cheeks
    "Bochechas")
 (face_maker_change_chin
@@ -8659,67 +8659,67 @@
 (face_maker_change_eyes
    "Olhos")
 (face_maker_change_jaw
-   "Mendíbula")
+   "Mandíbula")
 (face_maker_change_mouth
    "Boca")
 (face_maker_change_nose
    "Nariz")
 (face_maker_choose_cheeks
-   "Choose Cheeks")
+   "Escolher Bochechas")
 (face_maker_choose_chin
-   "Choose Chin")
+   "Escolher Queixo")
 (face_maker_choose_eyebrows
-   "Choose Eyebrows")
+   "Escolher Sobrancelhas")
 (face_maker_choose_eyes
-   "Choose Eyes")
+   "Escolher Olhos")
 (face_maker_choose_mouth
-   "Choose Mouth")
+   "Escolher Boca")
 (face_maker_choose_nose
-   "Choose Nose")
+   "Escolher Nariz")
 (face_maker_done
-   "Done")
+   "Feito")
 (face_maker_finished
-   "Finished")
+   "Terminado")
 (face_maker_modify_chin
-   "Modify Chin")
+   "Modificar Queixo")
 (face_maker_modify_eyebrows
-   "Modify Eyebrows")
+   "Modificar Sobrancelhas")
 (face_maker_modify_eyes
-   "Modify Eyes")
+   "Modificar Olhos")
 (face_maker_modify_jaw
-   "Modify Jaw")
+   "Modificar Mandíbula")
 (face_maker_modify_mouth
-   "Modify Mouth")
+   "Modificar Boca")
 (face_maker_modify_nose
-   "Modify Nose")
+   "Modificar Nariz")
 (face_maker_randomize
    "Randomizar")
 (face_maker_rotate_eyes
-   "Rotate Eyes")
+   "Girar Olhos")
 (face_maker_title
-   "Face Maker")
+   "Criador de Face")
 (fade
    "Fade")
 (failed
-   "FAILED")
+   "FALHOU")
 (failed_feedback_failed
-   "Failed!")
+   "Falhou!")
 (failed_feedback_saved
-   "Saved!")
+   "Salvo!")
 (failed_pct_fmt
-   "Failed at %i%%")
+   "Falhado com %i%%")
 (failed_solo
-   "Messy Solo")
+   "Péssimo Solo")
 (fail_add_header
-   "There are no available songs in this category. Make your friends buy more songs!")
+   "Não há músicas disponíveis nesta categoria. Faça seus amigos comprar mais músicas!")
 (fail_add_header_too_big
-   "This category has too many songs to play all at once!")
+   "Esta categoria tem muitas músicas para jogar de uma vez!")
 (fake_game_lose
-   "I would like to lose")
+   "I gostaria de perder")
 (fake_game_title
-   "You are playing a reasonably fun game right now.")
+   "Você está jogando um jogo relativamente engraçado agorinha.")
 (fake_game_win
-   "I would like to win")
+   "Eu gostaria de ganhar")
 (falconbass
    "Gretsch<sup>TM</sup> G6136LSB White Falcon<sup>TM</sup> Long Scale Hollow-Body Bass")
 (falconbass_desc
@@ -8731,9 +8731,9 @@
 (fans
    "fãs")
 (fan_limitreached
-   "You're too awesome!")
+   "Você é muito incrível!")
 (fan_limit_reached
-   "Congratulations!")
+   "Parabéns!")
 (fast_part
    "Parte rápida")
 (fast_picking
@@ -8755,7 +8755,7 @@
 (featured_artists
    "Featured Artists")
 (female
-   "Female")
+   "Feminino")
 (femalebra_cotton
    "Shirtless")
 (femalebra_cotton_desc
@@ -12511,7 +12511,7 @@
 (main_menu_waiting_on_leader
    "Esperando pelo(a) %s para continuar...")
 (main_menu_welcome
-   "Welcome to Rock Band 3!  Your band is ready to begin its career. You can customize its name and appearance now, or you can skip right to the action instead (you can always go back to customize later).")
+   "Bem-vindo(a) ao Rock Band 3!  Sua banda está pronta para começar sua carreira. Você pode personalizar o nome dela e a sua aparência agora, ou você pode ir direto para a ação (você pode voltar e personalizar sua banda sempre que quiser).")
 (main_playerprofile_button
    "Minha Banda")
 (main_riff
@@ -12543,7 +12543,7 @@
 (malcolm_desc
    "This stark and stripped-down guitar is as cool as its namesake. To emulate the man himself, try playing it straight through mid-size amps with the gain set low, then play really, really well.")
 (male
-   "Male")
+   "Masculino")
 (malebellbottoms_denim
    "Loon Pants")
 (malebellbottoms_denim_desc
@@ -14008,28 +14008,28 @@
    "If you go around wearing stupid CLOTHES all the time, no one will ever fully appreciate your carefully-honed physique.")
 #ifdef HX_XBOX
 (manage_band_no_profile
-   "Please sign into a gamer profile to manage your band.")
+   "Por favor, se conecte a um perfil para gerenciar sua banda.")
 #endif
 #ifdef HX_PS3
 (manage_band_no_profile
-   "Please sign into a profile to manage your band.")
+   "Por favor, se conecte a um perfil para gerenciar sua banda.")
 #endif
 #ifdef HX_WII
 (manage_band_no_profile
-   "Please sign into a profile to manage your band.")
+   "Por favor, se conecte a um perfil para gerenciar sua banda.")
 #endif
 #ifdef HX_PC
 (manage_band_no_profile
-   "Please sign into a gamer profile to manage your band.")
+   "Por favor, se conecte a um perfil para gerenciar sua banda.")
 #endif
 (manage_band_title
    "Personalizar Banda")
 (manage_friends
-   "Manage Friends")
+   "Gerenciar Amigos(as)")
 (manage_staff
-   "MANAGE STAFF")
+   "Gerenciar Staffs")
 (manual_lag_instructions
-   "Set the Lag Compensation by pressing Left or Right on the D-pad, then choose NEXT to confirm the setting.")
+   "Ajuste a Compensação de Latência pressionando Esquerda ou Direita do seu D-pad, e depois selecionando PRÓXIMO para confirmar a configuração.")
 (maple
    "Natural Maple")
 (marine
@@ -15129,7 +15129,7 @@
 (ok
    "OK")
 (okay_solo
-   "Solid Solo")
+   "Solo OK")
 (oldies
    "Oldies")
 (oldschoolhiphop
@@ -22891,7 +22891,7 @@
 (solid_solo
    "Good Solo!")
 (solo
-   "JOGO RÁPIDO SOLO")
+   "JOGO RÁPIDO")
 (solo_buttoned_solo_stat_tracker_contribution
    "Soloed %0.0f%% of notes.")
 (solo_no_server_warning
