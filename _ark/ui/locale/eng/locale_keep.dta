@@ -8303,7 +8303,7 @@
 (endgame_player_noteshit_fmt
    "%d%%")
 (endgame_song_failed
-   "Música Falida")
+   "Você Perdeu")
 (endgame_tie
    "TIE!")
 (endgame_winner
@@ -11503,19 +11503,19 @@
 (inspirational
    "Inspiracional")
 (instarank_friend_beat
-   "You beat %s's <alt>%s</alt> score!")
+   "Você bateu a pontuação do(a) %s! <alt>%s</alt>")
 (instarank_friend_beat_and_more
-   "You beat the <alt>%s</alt> scores of %s and %i other friends!")
+   "Você bateu a pontuação <alt>%s</alt> do(a) %s e de outros(as) %i amigos(as)!")
 (instarank_highscore
    "High score!")
 (instarank_highscore_band
-   "Band High Score")
+   "High Score da Banda")
 (instarank_highscore_percentile
    "Você conquistou o ranque top %i%% no Leaderboard! <alt>%s</alt>")
 (instarank_highscore_rank
    "Você conquistou o ranque #%s no Leaderboard! <alt>%s</alt>")
 (instarank_highscore_solo
-   "Solo High Score")
+   "High Score Solo")
 (instarank_nofriend_beat
    "")
 (instarank_percentile
@@ -11529,19 +11529,19 @@
 (instarank_rank
    "(# %s)")
 (instarank_rival_close
-   "Get %s more points to beat %s's <alt>%s</alt> score!")
+   "Consiga mais %s pontos para bater a pontuação do(a) %s! <alt>%s</alt>")
 (instarank_rival_percentile
-   "Get %s more points to reach the top %i%% of the <alt>%s</alt> leaderboard!")
+   "Consiga mais %s pontos para alcançar o Top %i% no ranque! <alt>%s</alt>")
 (instarank_rival_rank
-   "Get %s more points to reach #%s on the <alt>%s</alt> leaderboard!")
+   "Consiga mais %s pontos para alcançar o #%s do ranque! <alt>%s</alt>")
 (instarank_rival_topscore
-   "Top <alt>%s</alt> score worldwide!")
+   "Pontuação Top <alt>%s</alt> no ranque mundial!")
 (instruments
    "Instrumentos")
 (instrument_basic
-   "básico")
+   "BÁSICO")
 (instrument_pro
-   "pro")
+   "PRO")
 (instrument_specific
    "RESULTADOS")
 (intro
@@ -11605,7 +11605,7 @@
 (invite_subject
    "Rock Band 3")
 (iron
-   "Iron")
+   "Ferro")
 (ironmaidenarmor_metal
    "Titanium Maiden Armor")
 (ironmaidenarmor_metal_desc
@@ -11789,7 +11789,7 @@
 (kick_it
    "Kick It!")
 (kick_player
-   "Kick Player")
+   "Expulsar Jogador(a)")
 (kilt_plaid
    "Kilty as Charged")
 (kilt_plaid_desc
@@ -14059,7 +14059,7 @@
 (matchmaker_female
    "feminino")
 (matchmaker_find_bandmates
-   "Encontrar Jogadores")
+   "Encontrar Jogadores(as)")
 (matchmaker_gamertag_list
    "")
 (matchmaker_gamertag_pad_num_fmt
@@ -14069,15 +14069,15 @@
 (matchmaker_invite
    "Convidar Amigos")
 (matchmaker_invite_join_band
-   "Juntar à Banda")
+   "Juntar-se à Banda")
 (matchmaker_invite_join_game
-   "Juntar ao Jogo")
+   "Juntar-se ao Jogo")
 (matchmaker_join_in
    "Entrar")
 (matchmaker_join_remote_searching
    "Buscando...")
 (matchmaker_kick
-   "Expulsar Jogador")
+   "Expulsar Jogador(a)")
 (matchmaker_leader
    "LÍDER")
 #ifdef HX_PS3
@@ -14135,41 +14135,41 @@
 (mb4_desc
    "With a sleek, contoured body and thunderous sound, the Squier<sup>TM</sup> MB-4 comes packed with more attitude than your singer on a Saturday morning.")
 (mc_autosave_disabled
-   "Autosave has been disabled. In order to re-enable it, press START to go to the menu, select \qOptions\q and then \qSystem Settings.\q")
+   "A função de Autosave foi desabilitada. Para reabilitá-la, pressione START para abrir ao menu, selecione \qOpções\q, e depois selecione \qOpções do Sistema\q.")
 (mc_auto_load_complete
-   "Loading complete.")
+   "Carregamento concluído.")
 (mc_auto_load_corrupt
-   "Loading %s's Rock Band 3 saved game failed because the save file is corrupt. Would you like to overwrite the existing corrupted file with a new file, or would you like to proceed with autosave disabled?")
+   "Não foi possível carregar o arquivo de dados salvos do perfil \q%s\q porque o arquivo está corrompido. Gostaria de sobrescrever este arquivo com os dados corrompidos por um novo arquivo, ou gostaria de proceder com Autosave desabilitado?")
 (mc_auto_load_looking
-   "Looking for save data...")
+   "Procurando por dados salvos...")
 #ifdef HX_XBOX
 (mc_auto_load_multiple_saves_found_fmt
-   "Multiple save games have been found for gamer profile %s on controller %d.  Please choose a storage device to load from (or to save to if you choose a device with nothing on it).  If you cancel, you may play the game but your progress will not automatically save.")
+   "Múltiplos arquivos de dados salvos foram encontrados para o perfil \q%s\q no controle %d.  Por favor, escolha um dispositivo de armazenamento para carregar os dados (ou salvar se você tiver um dispositivo sem um arquivo de dados salvos).  Se você cancelar, você pode jogar o jogo novamente, mas seu progresso não será salvo automaticamente.")
 #endif
 #ifdef HX_PC
 (mc_auto_load_multiple_saves_found_fmt
-   "Multiple save games have been found for gamer profile %s on controller %d.  Please choose a storage device to load from (or to save to if you choose a device with nothing on it).  If you cancel, you may play the game but your progress will not automatically save.")
+   "Múltiplos arquivos de dados salvos foram encontrados para o perfil \q%s\q no controle %d.  Por favor, escolha um dispositivo de armazenamento para carregar os dados (ou salvar se você tiver um dispositivo sem um arquivo de dados salvos).  Se você cancelar, você pode jogar o jogo novamente, mas seu progresso não será salvo automaticamente.")
 #endif
 (mc_auto_load_newer_version
-   "Loading saved game failed because the save file was created with a newer version of the game.  Would you like to destroy this file and replace it with a new, empty one?")
+   "Não foi possível carregar o arquivo de dados salvos porque este arquivo foi criado numa versão mais atualizada do jogo.  Gostaria de apagar este arquivo de dados salvos e substituí-lo por um novo?")
 #ifdef HX_XBOX
 (mc_auto_load_newer_version_fmt
-   "Loading saved game failed for gamer profile %s on controller %d because the save file was created with a newer version of the game.  Would you like to destroy this file and replace it with a new, empty one?")
+   "Não foi possível carregar o arquivo de dados salvos do perfil \q%s\q no controle %d porque este arquivo foi criado numa versão mais atualizada do jogo.  Gostaria de apagar este arquivo e substituí-lo por um novo?")
 #endif
 #ifdef HX_PS3
 (mc_auto_load_newer_version_fmt
-   "Loading saved game failed because the save file was created with a newer version of the game.  Would you like to destroy this file and replace it with a new, empty one?")
+   "Não foi possível carregar o arquivo de dados salvos porque este arquivo foi criado numa versão mais atualizada do jogo.  Gostaria de apagar este arquivo de dados salvos e substituí-lo por um novo?")
 #endif
 #ifdef HX_WII
 (mc_auto_load_newer_version_fmt
-   "Loading saved game failed because the save file was created with a newer version of the game.  Would you like to destroy this file and replace it with a new, empty one?")
+   "Não foi possível carregar o arquivo de dados salvos porque este arquivo foi criado numa versão mais atualizada do jogo.  Gostaria de apagar este arquivo de dados salvos e substituí-lo por um novo?")
 #endif
 #ifdef HX_PC
 (mc_auto_load_newer_version_fmt
-   "Loading saved game failed for gamer profile %s on controller %d because the save file was created with a newer version of the game.  Would you like to destroy this file and replace it with a new, empty one?")
+   "Não foi possível carregar o arquivo de dados salvos do perfil \q%s\q no controle %d porque este arquivo foi criado numa versão mais atualizada do jogo.  Gostaria de apagar este arquivo e substituí-lo por um novo?")
 #endif
 (mc_auto_load_not_owner
-   "Load failed because you are not the owner of this save file. Overwrite save file?")
+   "Não foi possível carregar o arquivo de dados salvos porque você não é o(a) dono(a) deste arquivo. Gostaria de sobrescrever este arquivo de dados salvos?")
 #ifdef HX_XBOX
 (mc_auto_load_no_save_found_fmt
    "No Rock Band 3 save data has been found for gamer profile %s on controller %d. To save your progress, choose a storage device on which we will create your save game file. If you cancel, you may play the game but your progress will not automatically save.")
@@ -14205,36 +14205,36 @@
    "Loading saved game failed for gamer profile %s on controller %d because the save file version is obsolete. Would you like to destroy this file and replace it with a new, empty one?")
 #endif
 (mc_auto_load_start
-   "Looking for storage device...")
+   "Procurando por dispositivos de armazenamento...")
 (mc_auto_warning
-   "This game saves data automatically at certain points. While the HDD access indicator is flashing, data is being saved. Do not switch off the power when the HDD access indicator is flashing.")
+   "Este jogo salva dados automaticamente em certos pontos. Enquanto o indicador de uso do HDD estiver piscando, dados estão sendo salvos. Não deslique seu console enquanto o indicador de uso do HDD estiver piscando.")
 (mc_button_cancel
    "Cancelar")
 (mc_button_choose_device
-   "Select a Device")
+   "Selecionar um Dispositivo")
 (mc_button_continue
    "Continuar")
 (mc_button_continue_no_save
-   "Continue Without Saving")
+   "Continuar Sem Salvar")
 (mc_button_create_data
-   "Create Data")
+   "Criar Arquivo de Dados Salvos")
 (mc_button_delete_saves
-   "Delete Existing Data")
+   "Deletar Dados Salvos Existentes")
 (mc_button_disable_autosave
-   "Disable Autosave")
+   "Desabilitar Autosave")
 (mc_button_no
    "Não")
 (mc_button_overwrite
-   "Overwrite With New File")
+   "Substituir Por Novo Arquivo")
 (mc_button_retry
-   "Retry")
+   "Tentar De Novo")
 (mc_button_yes
    "Sim")
 (mc_load_device_missing_fmt
    "The selected storage device has become unavailable.  In order to load  saved game for gamer profile %s on controller %d, please select a storage device.")
 #ifdef HX_PS3
 (mc_load_failed
-   "Rock Band 3 was unable to load your data.")
+   "O Rock Band 3 não conseguiu carregar seus dados salvos.")
 #endif
 #ifdef HX_XBOX
 (mc_load_failed
@@ -14245,9 +14245,9 @@
    "Loading has failed for an unknown reason.  Selected storage device is no longer available.")
 #endif
 (mc_manual_load
-   "Loading")
+   "Carregando")
 (mc_manual_load_complete
-   "Loading complete.")
+   "Carregamento concluído.")
 (mc_manual_load_confirm
    "Loading data off of a storage device other than the one you last saved to may cause your current progress to be erased.  Are you sure you want to continue?")
 (mc_manual_load_confirm_unsaved
@@ -14271,63 +14271,63 @@
    "No Rock Band 3 data exists on the selected device.")
 #endif
 (mc_manual_load_no_selection
-   "In order to load, you must select a storage device.")
+   "Para carregar dados salvos, você precisa selecionar um dispositivo de armazenamento.")
 (mc_manual_load_start
-   "Looking for storage device for loading...")
+   "Procurando por um dispositivo de armazenamento para carregar dados salvos...")
 (mc_manual_load_storage_missing
-   "Selected storage device cannot be found.  Loading failed.")
+   "O dispositivo de armazenamento selecionado não pôde ser encontrado.  Não foi possível carregar dados salvos.")
 (mc_manual_save_no_selection
-   "In order to save, you must select a storage device.")
+   "Para salvar seus dados, você precisa selecionar um dispositivo de armazenamento.")
 (mc_manual_save_start
-   "Looking for storage device for saving...")
+   "Procurando por um dispositivo de armazenamento para salvar dados...")
 (mc_profile_title
    "Gamertag:")
 (mc_save
-   "Saving...")
+   "Salvando...")
 (mc_save_confirm_overwrite
-   "Save file already exists.  Overwrite?")
+   "O arquivo de dados salvos já existe.  Deseja substituí-lo?")
 (mc_save_device_missing_fmt
    "The storage device used by gamer profile %s on controller %d has been removed since the last save.  If you wish to save your progress, you will need to select another storage device.  If you cancel, you may play the game, but will be unable to save your progress.")
 (mc_save_disabled_by_cheat
    "Saving is currently disabled due to an enabled Game Modifier.  Please turn off all modifiers that disable saving in order to re-enable the saving feature.")
 #ifdef HX_PS3
 (mc_save_failed
-   "Rock Band 3 was unable to save your data. Autosave has been disabled.")
+   "O Rock Band 3 não conseguiu salvar seus dados. A função de Autosave foi desabilitada.")
 #endif
 #ifdef HX_XBOX
 (mc_save_failed
-   "Saving has failed for an unknown reason.  Selected storage device is no longer available.")
+   "Um erro desconhecido ocorreu ao tentar salvar seus dados.  O dispositivo de armazenamento escolhido não estará mais disponível.")
 #endif
 #ifdef HX_PC
 (mc_save_failed
-   "Saving has failed for an unknown reason.  Selected storage device is no longer available.")
+   "Um erro desconhecido ocorreu ao tentar salvar seus dados.  O dispositivo de armazenamento escolhido não estará mais disponível.")
 #endif
 #ifdef HX_PS3
 (mc_save_long
-   "Saving content.  Please don't turn off your system.")
+   "Salvando conteúdo.  Por favor, não desligue seu sistema.")
 #endif
 #ifdef HX_XBOX
 (mc_save_long
-   "Saving content.  Please don't turn off your Xbox 360 console.")
+   "Salvando conteúdo.  Por favor, não desligue seu Xbox 360.")
 #endif
 #ifdef HX_PC
 (mc_save_long
-   "Saving content.  Please don't turn off your Xbox 360 console.")
+   "Salvando conteúdo.  Por favor, não desligue seu Xbox 360.")
 #endif
 #ifdef HX_PS3
 (mc_save_not_enough_space
-   "There is insufficient space on the hard disk drive to save data; %d KB more required. Please delete some existing data and try again, or continue without saving.")
+   "Não há espaço suficiente no HDD para salvar os dados (são necessários %dKB). Por favor, delete algum dado existente e tente novamente, ou continue sem salvar.")
 #endif
 #ifdef HX_XBOX
 (mc_save_not_enough_space
-   "There is not enough free space on the selected storage device.")
+   "Não há espaço suficiente no dispositivo de armazenamento escolhido.")
 #endif
 #ifdef HX_PC
 (mc_save_not_enough_space
-   "There is not enough free space on the selected storage device.")
+   "Não há espaço suficiente no dispositivo de armazenamento escolhido.")
 #endif
 (mc_save_preparing
-   "Preparing to save...")
+   "Preparando para salvar...")
 (md431ii_resource
    "Sennheiser MD 431 II")
 (md431ii_resource_desc
@@ -14371,7 +14371,7 @@
 (message_leaderboard_summary_percentile
    "You're currently in the top %s percent of people on \q%s.\q Nice work!")
 (message_motd
-   "Connecting to the Rock Central game servers...")
+   "Conectando-se aos servidores do Rock Central...")
 #ifdef HX_XBOX
 (message_motd_noconnection
    "Connect to Xbox LIVE to get more songs and information about Rock Band 3!")
@@ -14565,9 +14565,9 @@
 (missing_vocals
    "Vocais")
 (ml_length
-   "Length:")
+   "Duração:")
 (ml_review
-   "Review:")
+   "Resenha:")
 (ml_store_purchase_error
    "There was a problem completing your purchase.  Please try again later.")
 #ifdef HX_XBOX
@@ -14591,11 +14591,11 @@
 (mm_cannot_continue
    "A remote player is not ready to continue.")
 (mm_confirm_back_msg
-   "Are you sure you want to leave and abandon your session?")
+   "Você tem certeza que desejar sair e abandonar sua sessão?")
 (mm_hb_fmp
    "Encontrar Mais Jogadores")
 (mm_hb_fmp_cancel
-   "Cancel Find")
+   "Cancelar Pesquisa")
 (mm_hb_net_options
    "Opções Multiplayer")
 (mm_need_a_profile_band_guest_msg
@@ -14622,11 +14622,11 @@
 #endif
 #ifdef HX_XBOX
 (mm_net_option3
-   "View gamer card")
+   "Ver Card do(a) Jogador(a)")
 #endif
 #ifdef HX_PC
 (mm_net_option3
-   "View gamer card")
+   "Ver Card do(a) Jogador(a)")
 #endif
 (modavengerboots_leather
    "Kinky Boots")
@@ -14691,7 +14691,7 @@
 (modifier_saving_feature
    "Salvando")
 (modifier_unlocked_fmt
-   "Modifier Unlocked:\n%s")
+   "Modificador Desbloqueado:\n%s")
 (modify_game
    "modify game")
 (modify_layer
@@ -14713,11 +14713,11 @@
 (mod_awesome_obtain
    "")
 (mod_choose_venue
-   "Selec. Palco")
+   "Selecionar Palco")
 (mod_choose_venue_desc
-   "Selecione um palco para jogar noo modo Jogo Rápido.")
+   "Selecione um palco para jogar no modo Jogo Rápido.")
 (mod_chord_numbers
-   "Numerar Acordes")
+   "Numeração de Acordes")
 (mod_demomode
    "Stage Mode")
 (mod_demomode_desc
@@ -22277,7 +22277,7 @@
 (score_detail_band
    "Banda")
 (score_detail_coda
-   "BRE")
+   "Final Triunfante")
 (score_detail_harmony
    "Harmonia")
 (score_detail_overdrive
@@ -22297,13 +22297,13 @@
 (score_detail_tambourine
    "Tamborim")
 (score_harmony1
-   "HARMONY 1 ONLY")
+   "HARMONIA 1")
 (score_harmony2
-   "HARMONY 2 ONLY")
+   "HARMONIA 2")
 (score_lead
-   "LEAD ONLY")
+   "VOCAL PRINCIPAL")
 (score_lead_and_harmonies
-   "LEAD AND HARMONIES")
+   "VOCAL PRINCIPAL & HARMS")
 (scratch_break_1
    "Scratch break 1")
 (scratch_break_2

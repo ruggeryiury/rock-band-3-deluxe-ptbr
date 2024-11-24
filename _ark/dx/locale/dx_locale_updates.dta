@@ -2370,12 +2370,12 @@
 (confirm_quit_online
    "Você perderá todo progresso não salvo se você continuar. Você tem certeza que quer continuar?")
 (passive_message_remote_user_left
-   "%s foi desconectado!")
+   "%s saiu da sessão!")
 (tour_event_songs_next
    "Música %d de %d\nPróxima Música: %s\n")
 (dx_time_remaining_both "%s / %s")
 (dx_time_remaining_one "%s")
-(dx_note_streak "%i Streak de Notas!")
+(dx_note_streak "%i Notas Consecutivas!")
 (dx_indv_combo "%i")
 (dx_overdrive_ready "Pronto pro Overdrive!")
 (dx_overdrive_report "%.02f%%")
