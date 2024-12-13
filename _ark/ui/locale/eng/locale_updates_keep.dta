@@ -87,19 +87,19 @@
 (audition_main_network_transfer_error
    "Status da Rede: Erro de transferência, recuperando...")
 (audition_main_loaded_song_none
-   "Status da Música: esperando para transferir...")
+   "Status da Música: Esperando para transferir...")
 (audition_main_loaded_song_transfer_fmt
    "Status da Música: %.0f%% transferido...")
 (audition_main_loaded_song_validating
-   "Status da Música: validando os dados da música...")
+   "Status da Música: Validando os dados da música...")
 (audition_main_loaded_song_error
-   "Status da Música: erro durante validação de dados da música!")
+   "Status da Música: Erro durante validação de dados da música!")
 (audition_main_loaded_song_success
-   "Status da Música: os dados da música são válidos.")
+   "Status da Música: Os dados da música são válidos.")
 (audition_main_loaded_song_loaded
-   "Status da Música: a música está pronta para ser testada.")
+   "Status da Música: A música está pronta para ser testada.")
 (audition_main_validating_failed
-   "Os dados da música transferida são inválidos.  Você irá retornar ao menu principal.")
+   "Os dados da música transferida são inválidos.  Você irá retornar ao Menu Principal.")
 (audition_option_venue
    "Palco")
 (audition_option_nodrumfill
