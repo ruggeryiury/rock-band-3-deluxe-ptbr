@@ -1,10 +1,10 @@
 #include dx_version.dta
 #ifdef RB3E
 (main_menu_welcome
-   "Bem-vindo(a) ao Rock Band 3 Deluxe + RB3Enhanced!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe e RB3Enhanced são MODs gratuítos, se você pagou por estes MODs, você foi vítima de um golpe!")
+   "Bem-vindo ao Rock Band 3 Deluxe + RB3Enhanced!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe e RB3Enhanced são MODs gratuítos, se você pagou por estes MODs, você foi vítima de um golpe!")
 #else
 (main_menu_welcome
-   "Bem-vindo(a) ao Rock Band 3 Deluxe!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe é um MOD desenvolvido pelo grupo MiloHax, se você pagou por estes MODs, você foi vítima de um golpe!")
+   "Bem-vindo ao Rock Band 3 Deluxe!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe é um MOD desenvolvido pelo grupo MiloHax, se você pagou por estes MODs, você foi vítima de um golpe!")
 #endif
 (relative_writes_warn
    "AVISO\n\nRock Band 3 Deluxe não poderá salvar apropriadamente suas configurações porque a opção de escrever arquivos relativos ao caminho do seu PC está desabilitado no Xenia.\n\nVá no arquivo de configuração do Xenia (xenia-canary.config.toml) e mude o valor da chave 'allow_game_relative_writes' para TRUE (verdadeiro).")
@@ -100,7 +100,7 @@
 (platform_wii_rb3e "Plataforma Detectada: Wii com RB3Enhanced")
 (platform_dolphin_rb3e "Plataforma Detectada: Dolphin com RB3Enhanced")
 (platform_unknown "Plataforma Detectada: Desconhecida")
-(unknown "Desconhecido(a)")
+(unknown "Desconhecido")
 (pro_keys "Teclado PRO")
 ; Menu backgrounds
 (song_transitions "Transições de Música")
@@ -265,19 +265,19 @@
    "Clipe 7")
 
 (dx_freeplay "Free Play")
-(dx_freeplay_desc "Modo Free Play:\nEscolha uma música, e começe a jogar de imediato!")
+(dx_freeplay_desc "Modo Free Play:\nEscolha uma música, e comece a jogar de imediato!")
 (dx_play_a_show_desc "Modo Play a Show:\nComece com uma música para a platéia, e então a banda vota em músicas para construir um repertório!")
 
 (os_event_options "Opções Modo Evento")
 
-(dx_event_mode_welcome_msg "Bem-vindo(a) ao Modo Evento!\n\nCertas coisas foram desabilitadas e mudadas para otimizar a experiência em festas e eventos públicos.\n\nQual a boa?\n\n")
+(dx_event_mode_welcome_msg "Bem-vindo ao Modo Evento!\n\nCertas coisas foram desabilitadas e mudadas para otimizar a experiência em festas e eventos públicos.\n\nQual a boa?\n\n")
 (dx_event_set_party "Festa ou Baguncinha")
 (dx_event_set_club "Clube, Bar, Quiosque, etc.")
 (dx_event_set_convention "Convenção ou Eventos com Palco")
 (dx_event_mode_disable "[Desativar Modo Evento]")
 
 (dx_event_club_lbl "Rock Band 3 Deluxe é um MOD feito por fãs do jogo.\nDê uma olhada no site rb3dx.milohax.org\nou em nosso servidor do Discord: discord.gg/milohax")
-(dx_welcome_to "Bem-vindo(a) ao ")
+(dx_welcome_to "Bem-vindo ao ")
 (dx_event_convention_lbl "!\n\nRock Band 3 Deluxe é um MOD feito por fãs do jogo.\nDê uma olhada no site rb3dx.milohax.org\nou em nosso servidor do Discord: discord.gg/milohax")
 
 
@@ -549,13 +549,13 @@
 (os_all_off "[Desabilitar Todos os Textos]")
 (os_all_off_desc "Desabilita todos os elementos de texto do Deluxe")
 (os_highway_text "Texto na Pista")
-(os_highway_text_desc "Informações adicionais mostradas na pista do(a) jogador(a)")
-(os_highway_username "Nome do(a) Jogador(a)")
-(os_highway_username_desc "Mostra o nome do(a) jogador(a) na pista")
+(os_highway_text_desc "Informações adicionais mostradas na pista do jogador")
+(os_highway_username "Nome do Jogador")
+(os_highway_username_desc "Mostra o nome do jogador na pista")
 (os_highway_overdrive "Overdrive")
 (os_highway_overdrive_desc "Mostra a porcentagem de Overdrive disponível na pista")
 (os_highway_streak "Combo de Notas")
-(os_highway_streak_desc "Mostra a quantidade de notas acertadas consecutivamente do(a) jogador(a) na pista")
+(os_highway_streak_desc "Mostra a quantidade de notas acertadas consecutivamente do jogador na pista")
 
 (judge_bad "RUIM")
 (judge_good "OK")
@@ -563,15 +563,15 @@
 (judge_perfect "PERFEITO")
 
 (os_highway_perfects "Julgamentos")
-(os_highway_perfects_desc "Mostra o nível de precisão das notas acertadas do(a) jogador(a) na pista")
-(os_highway_username_on "Nome Jogador(a): ON")
-(os_highway_username_on_desc "O nome do(a) jogador(a) será mostrado na pista")
-(os_highway_username_off "Nome Jogador(a): OFF")
-(os_highway_username_off_desc "O nome do(a) jogador(a) não será mostrado na pista")
+(os_highway_perfects_desc "Mostra o nível de precisão das notas acertadas do jogador na pista")
+(os_highway_username_on "Nome Jogador: ON")
+(os_highway_username_on_desc "O nome do jogador será mostrado na pista")
+(os_highway_username_off "Nome Jogador: OFF")
+(os_highway_username_off_desc "O nome do jogador não será mostrado na pista")
 (os_highway_username_inst_on "Ícon. Instr.: ON")
-(os_highway_username_inst_on_desc "O Ícone do Instrumento do(a) jogador(a) está habilitado")
+(os_highway_username_inst_on_desc "O Ícone do Instrumento do jogador está habilitado")
 (os_highway_username_inst_off "Ícon. Instr.: OFF")
-(os_highway_username_inst_off_desc "O Ícone do Instrumento do(a) jogador(a) está desabilitado")
+(os_highway_username_inst_off_desc "O Ícone do Instrumento do jogador está desabilitado")
 (os_highway_username_sp_inst_on "Ícone no Single Pl.: ON")
 (os_highway_username_sp_inst_on_desc "Ícone do Instrumento adicionado no Single PlayerInstrument Icon added in Single Player")
 (os_highway_username_sp_inst_off "Ícone no Single Pl.: OFF")
@@ -581,13 +581,13 @@
 (os_highway_overdrive_off "Overdrive: OFF")
 (os_highway_overdrive_off_desc "A porcentagem de Overdrive disponível não será mostrado na pista")
 (os_highway_streak_on "Combo de Notas: ON")
-(os_highway_streak_on_desc "A quantidade de notas acertadas consecutivamente do(a) jogador(a) será mostrado na pista")
+(os_highway_streak_on_desc "A quantidade de notas acertadas consecutivamente do jogador será mostrado na pista")
 (os_highway_streak_off "Combo de Notas: OFF")
-(os_highway_streak_off_desc "A quantidade de notas acertadas consecutivamente do(a) jogador(a) não será mostrado na pista")
+(os_highway_streak_off_desc "A quantidade de notas acertadas consecutivamente do jogador não será mostrado na pista")
 (os_highway_streak_gh3_delay_on "Combo de Notas GH3: ON")
-(os_highway_streak_gh3_delay_on_desc "O combo de notas acertadas consecutivamente do(a) jogador(a) não será mostrado na pista até acertar 25 notas")
+(os_highway_streak_gh3_delay_on_desc "O combo de notas acertadas consecutivamente do jogador não será mostrado na pista até acertar 25 notas")
 (os_highway_streak_gh3_delay_off "Combo de Notas GH3: OFF")
-(os_highway_streak_gh3_delay_off_desc "O combo de notas acertadas consecutivamente do(a) jogador(a) será mostrado desde a primeira nota acertada")
+(os_highway_streak_gh3_delay_off_desc "O combo de notas acertadas consecutivamente do jogador será mostrado desde a primeira nota acertada")
 
 (os_perfects_indicator_on "Perfeitos: ON")
 (os_perfects_indicator_on_desc "O jogo irá notificar quando você acertar com precisão perfeita")
@@ -628,11 +628,11 @@
 (os_you_rock_off "\qVocê ARRASOU!\q: OFF")
 (os_you_rock_off_desc "Nunca mostrar a mensagem \qVocê ARRASOU!\q no fim da música")
 (os_fc_both "Indicador FC: TODOS")
-(os_fc_both_desc "Mostra ambos os indicadores de Banda (Anel) e do(a) Jogador(a) (Brilho)")
+(os_fc_both_desc "Mostra ambos os indicadores de Banda (Anel) e do Jogador (Brilho)")
 (os_fc_ring "Indicador FC: ANEL")
 (os_fc_ring_desc "Apenas mostrar o indicador de Banda (Anel)")
 (os_fc_glow "Indicador FC: BRILHO")
-(os_fc_glow_desc "Apenas mostrar o indicador do(a) jogador(a) (Brilho)")
+(os_fc_glow_desc "Apenas mostrar o indicador do jogador (Brilho)")
 (os_fc_off "Indicador FC: OFF")
 (os_fc_off_desc "Nunca mostrar os indicadores de FC")
 #ifdef HX_WII
@@ -651,29 +651,29 @@
 (os_icons_rb4 "Ícones Instrumentos: RB4")
 (os_icons_rb4_desc "Muda os ícones dos insrumentos utilizado pelo jogo")
 (os_menu_theme "Tema do Menu...")
-(os_menu_theme_desc "Muda o tema no menu do(a) jogador(a)")
+(os_menu_theme_desc "Muda o tema no menu do jogador")
 (os_menu_color "Cor da Faixa...")
-(os_menu_color_desc "Muda a cor da faixa no menu do(a) jogador(a)")
-(os_player_icons_on "Ícones Jogador(a): ON")
-(os_player_icons_on_desc "Mostra seu ícone no menu do(a) jogador(a)")
-(os_player_icons_off "Ícones Jogador(a): OFF")
-(os_player_icons_off_desc "Esconde seu ícone no menu do(a) jogador(a)")
+(os_menu_color_desc "Muda a cor da faixa no menu do jogador")
+(os_player_icons_on "Ícones Jogador: ON")
+(os_player_icons_on_desc "Mostra seu ícone no menu do jogador")
+(os_player_icons_off "Ícones Jogador: OFF")
+(os_player_icons_off_desc "Esconde seu ícone no menu do jogador")
 #ifdef HX_XBOX
-(os_menu_color_ps3_desc "Alterar a cor da faixa do menu do(a) jogador(a). Não exibe se não estiver conectado em um perfil")
+(os_menu_color_ps3_desc "Alterar a cor da faixa do menu do jogador. Não exibe se não estiver conectado em um perfil")
 #else
-(os_menu_color_ps3_desc "Alterar a cor da faixa do menu do(a) jogador(a)")
+(os_menu_color_ps3_desc "Alterar a cor da faixa do menu do jogador")
 #endif
 (os_menu_color_xbox "Cor: Xbox")
 #ifdef HX_XBOX
-(os_menu_color_xbox_desc "Alterar a cor da faixa do menu do(a) jogador(a). Não exibe se não estiver conectado em um perfil")
+(os_menu_color_xbox_desc "Alterar a cor da faixa do menu do jogador. Não exibe se não estiver conectado em um perfil")
 #else
-(os_menu_color_xbox_desc "Alterar a cor da faixa do menu do(a) jogador(a)")
+(os_menu_color_xbox_desc "Alterar a cor da faixa do menu do jogador")
 #endif
 (os_menu_color_wii "Cor: Wii")
 #ifdef HX_XBOX
-(os_menu_color_wii_desc "Alterar a cor da faixa do menu do(a) jogador(a). Não exibe se não estiver conectado em um perfil")
+(os_menu_color_wii_desc "Alterar a cor da faixa do menu do jogador. Não exibe se não estiver conectado em um perfil")
 #else
-(os_menu_color_wii_desc "Alterar a cor da faixa do menu do(a) jogador(a)")
+(os_menu_color_wii_desc "Alterar a cor da faixa do menu do jogador")
 #endif
 (os_rb3_menu_theme "Rock Band 3")
 (os_rb3_menu_theme_desc "O tema original do menu do Rock Band 3")
@@ -818,7 +818,7 @@
    "Comunicando com os servidores...")
 ;
 (hint_career_desc
-   "Bem-vindo(a) ao Modo Carreira do Rock Band 3 Deluxe!\n\nSeu progresso como musicista é metido por objetivos. Quanto melhor você tocar um instrumento, você irá conquistar mais objetivos deste instrumento. Conquistar objetivos é uma conquista e tanto! Estas conquistas lhe trará mais fãs, mais vestimentas, e até mesmo um meio de transporte melhor para você viajar por aí tocando sua música!")
+   "Bem-vindo ao Modo Carreira do Rock Band 3 Deluxe!\n\nSeu progresso como musicista é metido por objetivos. Quanto melhor você tocar um instrumento, você irá conquistar mais objetivos deste instrumento. Conquistar objetivos é uma conquista e tanto! Estas conquistas lhe trará mais fãs, mais vestimentas, e até mesmo um meio de transporte melhor para você viajar por aí tocando sua música!")
 (vocal_parts_0 "Sem Vocais")
 (by_recent "Por Aquisição")
 (overshell_rb3esettings "Opções Deluxe")
@@ -830,7 +830,7 @@
 (settings_save "As Opções Deluxe e os Modificadores adicionais foram salvos com sucesso!")
 (settings_error "Ocorreu um erro ao tentar salvas suas configurações. Por favor, certifique-se que a opção de escrever arquivos relativos ao caminho do seu PC está habilitado no Xenia.")
 (os_writesettings "[Salvar Configs.]")
-(os_welcome_msg "Bem-vindo(a) ")
+(os_welcome_msg "Bem-vindo ")
 (os_fps "O FPS do Palco foi definido em %d\n\n(Acima de 30 FPS não é recomendado jogando em consoles)")
 (os_speed "A Velocidade da Música foi definida em %d%%")
 (os_speed_deny "A Velocidade da Música não pode ser mudada no meio da música.")
@@ -841,16 +841,16 @@
 (os_allow_lower_ang_off "Abaixar Âng. Multiplayer: OFF")
 (os_allow_lower_ang_on "Abaixar Âng. Multiplayer: ON")
 (os_noang "[Resetar]")
-(os_p1 "Jogador(a) 1")
-(os_p2 "Jogador(a) 2")
-(os_p3 "Jogador(a) 3")
-(os_p4 "Jogador(a) 4")
+(os_p1 "Jogador 1")
+(os_p2 "Jogador 2")
+(os_p3 "Jogador 3")
+(os_p4 "Jogador 4")
 (os_angmult "Ângulo Multiplicador")
 (os_angleset "O Ângulo da Pista foi definido em ~%d%%")
-(os_angleset1 "O Ângulo da Pista foi definido em ~%d%% (Jogador(a) 1)")
-(os_angleset2 "O Ângulo da Pista foi definido em ~%d%% (Jogador(a) 2)")
-(os_angleset3 "O Ângulo da Pista foi definido em ~%d%% (Jogador(a) 3)")
-(os_angleset4 "O Ângulo da Pista foi definido em ~%d%% (Jogador(a) 4)")
+(os_angleset1 "O Ângulo da Pista foi definido em ~%d%% (Jogador 1)")
+(os_angleset2 "O Ângulo da Pista foi definido em ~%d%% (Jogador 2)")
+(os_angleset3 "O Ângulo da Pista foi definido em ~%d%% (Jogador 3)")
+(os_angleset4 "O Ângulo da Pista foi definido em ~%d%% (Jogador 4)")
 (os_reload "Recarregar BG")
 (os_reload_desc "Recarrega o BG do Menu Principal")
 (os_reload_deny "Você não pode recarregar o BG durante o jogo.")
@@ -1055,7 +1055,7 @@
 (mod_dx_left_right_jump "Dpad Songlist Shortcuts")
 (mod_dx_left_right_jump_desc "Allows Left and Right on the dpad to jump up and down to the next section respectively")
 (mod_remote_texture_sync "Sincron. Texturas Online")
-(mod_remote_texture_sync_desc "Mostra o tema único das pistas de cada jogador(a) em sessões online")
+(mod_remote_texture_sync_desc "Mostra o tema único das pistas de cada jogador em sessões online")
 (os_gems "Notas")
 (os_sustains "Sustains")
 (os_setguitarcol "Cores da Guitarra")
@@ -1178,7 +1178,7 @@
 (mod_mhx_color_shuffle "Altern. Cor das Notas")
 (mod_dx_showbpm "Show Song BPM")
 (chmode_warning "O Modo Bêbado afrouxa a hitbox das notas. Pontuações não serão salvas e uma mensagem aparecerá na Tela de Resultados da música se você habilitar este modo.")
-(os_venue_select_warn "A Seleção de Palco só vai fazer efeito se você for o(a) host da sala.")
+(os_venue_select_warn "A Seleção de Palco só vai fazer efeito se você for o host da sala.")
 (breakneck_warning
   "Por favor, desabilite outros modificadores de velocidade (como a Velocidade Suicída) antes de habilitar esta opção.")
 (autoplay_warning
@@ -1364,7 +1364,7 @@
 (load_track_theme
    "Tema das Pistas")
 (load_track_theme_desc
-   "Coloque o nome do Tema que você desejar carregar")
+   "Insira o nome do Tema que você desejar carregar")
 (os_dont_overwrite_default
    "Por favor, escolha outro nome sem ser \qDefault\q")
 
@@ -2300,13 +2300,13 @@
 (mapped_button_15 "Dpad: Esquerda")
 (localize_it "Hello! ¡Hola! Bonjour! Hallo! Ciao!\nVocê sabe falar em outro idioma?\nVocê gostaria de traduzir o RB3 Deluxe para seu idioma nativo?\nJunte-se ao Discord do grupo MiloHax para ajudar na luta contra a opressão linguística inglesa!\nIdiomas suportados pelo Rock Band 3: Espanhol, Francês, Alemão, Italiano.")
 (dx_play_a_show_welcome
-   "Bem-vindo(a) ao Modo Play a Show!")
+   "Bem-vindo ao Modo Play a Show!")
 (dx_play_a_show
    "Play a Show")
 (dx_play_a_show_info
    "Vote em quais músicas você irá jogar!\nA votação acaba quando todos(as) os(as) jogadores(as) votarem!")
 (play_a_show_welcome_text
-   "Bem-vindo(a) ao Modo Play a Show!\nAfine seus instrumentos e escolha uma música pra esquentar a platéia!")
+   "Bem-vindo ao Modo Play a Show!\nAfine seus instrumentos e escolha uma música pra esquentar a platéia!")
 (dx_play_a_show_setlist_count
    "\nRepertório: %i Música")
 (dx_play_a_show_setlist_counts
@@ -2372,7 +2372,7 @@
 (overshell_confirm_leaveashow
    "Você tem certeza que deseja sair do Modo Play a Show?\nSeu repertório será perdido!")
 (dx_play_a_show_intro
-   "Bem-vindo(a) ao Modo Play a Show!\n\nComeçe escolhendo a música de abertura para seu repertório.\nDepois da música de abertura, você e sua banda votará juntos, moldando seu repertório por uma série de opções.\n\nDica: Agora é sua change de selecionar os filtros pelo botão [Select].")
+   "Bem-vindo ao Modo Play a Show!\n\nComece escolhendo a música de abertura para seu repertório.\nDepois da música de abertura, você e sua banda votará juntos, moldando seu repertório por uma série de opções.\n\nDica: Agora é sua change de selecionar os filtros pelo botão [Select].")
 (meta_now_playing
    "<alt>Músical Atual:</alt> %s")
 (press_to_play
@@ -2422,7 +2422,7 @@
 (dx_splash_3
    "Você é especial!")
 (dx_splash_4
-   "Bem-vindo(a) ao futuro do Rock Band 3!")
+   "Bem-vindo ao futuro do Rock Band 3!")
 (dx_splash_5
    "Deluxe?! Que LUXO!!!")
 (dx_splash_6
@@ -2483,7 +2483,7 @@
 (dx_splash_33
    "Um absuuuurdo de lindo")
 (dx_splash_34
-   "Oi, solteiro(a)???")
+   "Oi, solteiro???")
 (dx_splash_35
    "Acredite ou não, tem custom do Hino do Brasil pra baixar!")
 (dx_splash_36
