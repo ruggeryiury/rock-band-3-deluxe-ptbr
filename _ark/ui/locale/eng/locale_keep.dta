@@ -8356,15 +8356,15 @@
    "O título que você colocou é considerado como impróprio. Por favor, mude-o para continuar.")
 #ifdef HX_PS3
 (error_cannot_accept_invite
-   "Você não pode aceitar convites porque um Modificador do jogo está desabilitando o modo online.")
+   "Você não pode aceitar convites porque um modificador do jogo está desabilitando o modo online.")
 #endif
 #ifdef HX_XBOX
 (error_cannot_accept_invite
-   "Você não pode aceitar convites porque um Modificador do jogo está desabilitando o modo online do Xbox LIVE.")
+   "Você não pode aceitar convites porque um modificador do jogo está desabilitando o modo online do Xbox LIVE.")
 #endif
 #ifdef HX_PC
 (error_cannot_accept_invite
-   "Você não pode aceitar convites porque um Modificador do jogo está desabilitando o modo online do Xbox LIVE.")
+   "Você não pode aceitar convites porque um modificador do jogo está desabilitando o modo online do Xbox LIVE.")
 #endif
 (error_cannot_choose_char_while_editing
    "Você não pode mudar personagens no momento.")
@@ -8386,15 +8386,15 @@
 #endif
 #ifdef HX_PS3
 (error_cheating
-   "Desculpe, você tem algum Modificador do jogo habilitado que desabilita jogatinas online. Você não pode acessar recursos online enquanto este Modificador do jogo não for desabilitado.")
+   "Desculpe, você tem algum modificador do jogo habilitado que desabilita jogatinas online. Você não pode acessar recursos online enquanto este modificador do jogo não for desabilitado.")
 #endif
 #ifdef HX_XBOX
 (error_cheating
-   "Desculpe, você tem algum Modificador do jogo habilitado que desabilita jogatinas online pelo Xbox LIVE. Você não pode acessar recursos online do Xbox LIVE enquanto este Modificador do jogo não for desabilitado.")
+   "Desculpe, você tem algum modificador do jogo habilitado que desabilita jogatinas online pelo Xbox LIVE. Você não pode acessar recursos online do Xbox LIVE enquanto este modificador do jogo não for desabilitado.")
 #endif
 #ifdef HX_PC
 (error_cheating
-   "Desculpe, você tem algum Modificador do jogo habilitado que desabilita jogatinas online pelo Xbox LIVE. Você não pode acessar recursos online do Xbox LIVE enquanto este Modificador do jogo não for desabilitado.")
+   "Desculpe, você tem algum modificador do jogo habilitado que desabilita jogatinas online pelo Xbox LIVE. Você não pode acessar recursos online do Xbox LIVE enquanto este modificador do jogo não for desabilitado.")
 #endif
 (error_confirm_remote_exit
    "Abandonar esta área do jogo fará você se desconectar. Tem certeza que deseja continuar?")
@@ -14653,7 +14653,7 @@
 (modernsuit_cotton_desc
    "You get up at seven and go to work at nine. You've got no time for living, but at least you're looking fine!")
 (modifer_mode_denied
-   "Este modo está desabilitado por causa de algum modificador(es).")
+   "Este modo está desabilitado por causa de algum(s) modificador(es) habilitado(s).")
 #ifdef HX_PS3
 (modifier_achievements_feature
    "Troféis")
@@ -14705,7 +14705,7 @@
 (modsuitjacket_sharkskin_desc
    "This tailored suit tells the world that you are a modern hombre who has a retirement account and uses expensive body wash.")
 (mod_auto_vocals
-   "Modo Todos Intrumentos")
+   "Modo All Instruments")
 (mod_awesome
    "Detecção de Pessoa Incrível")
 (mod_awesome_desc
@@ -15334,30 +15334,30 @@
    "O Modo Online está desabilitado na sua conta da PlayStation®Network devido às restrições de controle parental.")
 #ifdef HX_XBOX
 (overshell_auto_vocals_confirm
-   "O \qModo Todos Intrumentos\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online pelo Xbox LIVE. Você tem certeza que quer continuar?")
+   "O \qModo All Instruments\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online pelo Xbox LIVE. Você tem certeza que quer continuar?")
 #endif
 #ifdef HX_PS3
 (overshell_auto_vocals_confirm
-   "O \qModo Todos Intrumentos\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online. Você tem certeza que quer continuar?")
+   "O \qModo All Instruments\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online. Você tem certeza que quer continuar?")
 #endif
 #ifdef HX_WII
 (overshell_auto_vocals_confirm
-   "O \qModo Todos Intrumentos\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online. Você tem certeza que quer continuar?")
+   "O \qModo All Instruments\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online. Você tem certeza que quer continuar?")
 #endif
 #ifdef HX_PC
 (overshell_auto_vocals_confirm
-   "O \qModo Todos Intrumentos\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online pelo Xbox LIVE. Você tem certeza que quer continuar?")
+   "O \qModo All Instruments\q pertime que todos os cinco instrumentos apareçam na tela juntos!\n\nHabilitar este modo habilitará a trilha do vocal automaticamente (sem controle, como se fosse um modo de karaokê, pois o modo requer que você desconecte o controle do vocalista), e irá desabilitar o modo online pelo Xbox LIVE. Você tem certeza que quer continuar?")
 #endif
 (overshell_auto_vocals_denial_generic
-   "Desculpe, você não pode ativar o Modo Todos Intrumentos neste momento.")
+   "Desculpe, você não pode ativar o Modo All Instruments neste momento.")
 (overshell_auto_vocals_denial_in_game
-   "Desculpe, você não pode ativar o Modo Todos Intrumentos por aqui. Por favor, tente novamente quando você deixar o palco.")
+   "Desculpe, você não pode ativar o Modo All Instruments por aqui. Por favor, tente novamente quando você deixar o palco.")
 (overshell_auto_vocals_denial_lone_vocalist
-   "Desculpe, você precisa de mais de um vocalista para ativar o Modo Todos Intrumentos.")
+   "Desculpe, você precisa de mais de um vocalista para ativar o Modo All Instruments.")
 (overshell_auto_vocals_denial_non_vocalist
-   "Desculpe, você não pode desabilitar o Modo Todos Intrumentos enquanto uma banda completa estiver nesta sessão. Tente desconectar o slot do terceiro jogador e tente novamente.")
+   "Desculpe, você não pode desabilitar o Modo All Instruments enquanto uma banda completa estiver nesta sessão. Tente desconectar o slot do terceiro jogador e tente novamente.")
 (overshell_auto_vocals_denial_widescreen
-   "Desculpe, o Modo Todos Intrumentos só está disponível em TVs Widescreen.")
+   "Desculpe, o Modo All Instruments só está disponível em TVs Widescreen.")
 (overshell_av_settings
    "Opções do Sistema")
 (overshell_bass
@@ -15668,19 +15668,19 @@
 #endif
 #ifdef HX_XBOX
 (overshell_register_online_denial_auto_vocals
-   "Desculpe, você não pode jogar pelo Xbox LIVE enquanto o Modo Todos Intrumentos estiver habilitado")
+   "Desculpe, você não pode jogar pelo Xbox LIVE enquanto o Modo All Instruments estiver habilitado")
 #endif
 #ifdef HX_PS3
 (overshell_register_online_denial_auto_vocals
-   "Desculpe, você não pode jogar online enquanto o Modo Todos Intrumentos estiver habilitado")
+   "Desculpe, você não pode jogar online enquanto o Modo All Instruments estiver habilitado")
 #endif
 #ifdef HX_WII
 (overshell_register_online_denial_auto_vocals
-   "Desculpe, você não pode jogar online enquanto o Modo Todos Intrumentos estiver habilitado")
+   "Desculpe, você não pode jogar online enquanto o Modo All Instruments estiver habilitado")
 #endif
 #ifdef HX_PC
 (overshell_register_online_denial_auto_vocals
-   "Desculpe, você não pode jogar pelo Xbox LIVE enquanto o Modo Todos Intrumentos estiver habilitado")
+   "Desculpe, você não pode jogar pelo Xbox LIVE enquanto o Modo All Instruments estiver habilitado")
 #endif
 (overshell_relearn_chords
    "Relearn Chords")
@@ -15693,7 +15693,7 @@
 (overshell_return
    "Retornar")
 (overshell_righty_flip
-   "RIGHTY MODE")
+   "MODO DESTRO")
 (overshell_score_warning
    "Your score won't count for this song unless you restart.")
 (overshell_second_time_rg
@@ -15719,17 +15719,17 @@
 (overshell_skip_song
    "Pular Música")
 (overshell_song_difficulty
-   "Dificul. da Música")
+   "Dificuldade da Música")
 (overshell_song_options_in_game
-   "Song Options")
+   "Opções da Música")
 (overshell_swap_profile
-   "Swap to %s")
+   "Trocar pro Perfil %s")
 (overshell_synapse
    "AUTO-TUNE")
 (overshell_system_options
    "Opções de Jogo")
 (overshell_toggle_no_fail_denial
-   "Only the leader can change the No Fail setting.")
+   "Apenas o líder pode mudar a configuração do Modo No-Fail.")
 (overshell_vocals_mode_scrolling
    "LETRAS ROLANTES")
 (overshell_vocals_mode_static
@@ -21789,7 +21789,7 @@
 (real_guitar
    "Guitarra PRO")
 (real_guitar_pad_lost
-   "pro guitar controller")
+   "controlador de guitarra pro")
 (real_keys
    "Teclado PRO")
 (recently_acquired
@@ -21813,7 +21813,7 @@
 (record_label
    "Record Label")
 (record_label_band_name
-   "Band Name")
+   "Nome da Banda")
 (record_label_confirm_delete
    "Are you sure you want to remove yourself from %s?")
 (record_label_connection_required
@@ -21839,17 +21839,17 @@
 (record_label_signed
    "Signed")
 (record_label_signed_members
-   "Active Members (%d / %d)")
+   "Membros Ativos (%d / %d)")
 (record_label_status
    "Status")
 (record_label_unsigned
    "Not signed to a record label")
 (record_label_unsigned_label
-   "Unsigned")
+   "Sem Assinatura")
 (red
    "normal")
 (redeem_code
-   "Redeem Code")
+   "Resgatar Código")
 (reggaeska
    "Reggae/Ska")
 (rehersal
@@ -21907,9 +21907,9 @@
 (remote_status_waiting_tour_find_players
    "Esperando para Encontrar Mais Jogadores(as) para o Road Challenges")
 (rename_band_vk_desc
-   "Entre com o nome da sua nova banda")
+   "Insira o nome da sua nova banda")
 (rename_char_vk_desc
-   "Entre com o nome do seu novo personagem")
+   "Insira o nome do seu novo personagem")
 (rename_label
    "Renomear Label")
 (rennboots_leather

@@ -106,7 +106,7 @@
 (song_transitions "Transições de Música")
 (career_transitions "Transições da Carreira")
 (other_transitions "Outras Transições")
-(sv4_array "BG da Biblioteca de Mus.")
+(sv4_array "BG Biblioteca de Músicas")
 (sv7_array "BG do Menu Principal")
 (shuffle_all "Embaralhar Todos")
 (sv2_a "Loja de Música")
@@ -296,7 +296,7 @@
 (os_set_speeds_desc "Alterne a velocidade das notas de cada pista individualmente e a velocidade da música tocada")
 (os_track_speeds_desc "Alterne a velocidade das notas de cada pista individualmente")
 (os_venue_options "Opções de Palco")
-(os_venue_options_desc "Mude o palco utilizado no BG das músicas, dos menus, e outras configurações relacionadas")
+(os_venue_options_desc "Mude o palco utilizado no Background das músicas, dos menus, e outras configurações relacionadas")
 (os_track_theme "Tema da Pista")
 (os_track_theme_desc "Personalize ao seu gosto o visual do jogo")
 (os_graphics "Gráficos")
@@ -331,8 +331,8 @@
 (os_fastermode_on "Modo Aceleração: ON")
 (os_fastermode_off "Modo Aceleração: OFF")
 (os_max_speed "- Vel. Máxima: %d% +")
-(os_song_rings_on "Ícones Diff.: Anéis")
-(os_song_rings_off "Ícones Diff.: Bolinhas")
+(os_song_rings_on "Ícones Dificul: Anéis")
+(os_song_rings_off "Ícones Dificul: Bolinhas")
 (os_song_rings_on_desc "Use anéis como ícones (estilo YARG)")
 (os_song_rings_off_desc "Use bolinhas como ícones (padrão RB3)")
 
@@ -351,10 +351,10 @@
 (os_high_score_off_desc "Notificar quando você bater sua pontuação salva no Single Player")
 (high_song_count_warn "High song counts, especially with multiple players, have been known to cause instability issues after prolonged play-time. It is recommended to:\nStick to music video venues\nTurn off song transition cutscenes\nAvoid very long, 10 min+ songs\nOr lower your song count\nYou have been warned.\n\nTo disable this warning go to Deluxe Settings > Advanced > Functional Options > High Song Count Warning")
 ;venue options
-(os_menu_backgrounds "BG dos Menus...")
-(os_menu_backgrounds_desc "Mude os BGs dos menus")
+(os_menu_backgrounds "Fundo dos Menus...")
+(os_menu_backgrounds_desc "Mude o Background dos menus")
 (os_venue "Selecionar Palco...")
-(os_venue_desc "Escolha aonde você vai botar pra quebrar ou fique focado com nenhum BG")
+(os_venue_desc "Escolha aonde você vai botar pra quebrar ou fique focado com nenhum plano de fundo")
 (os_venue_desc_report "Palco Atual Selecionado:\n%s")
 (os_venue_intro_on "Intro Palco: ON")
 (os_venue_intro_on_desc "Mostra a cena dos personagens se preparando no começo das músicas")
@@ -374,9 +374,9 @@
 (os_char_swap_off_desc "Continue com a mesmo membros de banda depois de qualquer música")
 ;menu backgrounds
 (os_nobg_on "[Desabilitar Todos]")
-(os_nobg_on_desc "Backgrounds totalmente vazios nos menus")
+(os_nobg_on_desc "Background totalmente vazio nos menus")
 (os_nobg_off "[Habilitar Todos]")
-(os_nobg_off_desc "Reabilite os BGs dos menus")
+(os_nobg_off_desc "Reabilite o Background dos menus")
 (os_main_menu "Menu Principal")
 (os_main_menu_desc "Backgrounds para o menu principal")
 (os_song_select "Biblio. de Música")
@@ -452,9 +452,9 @@
 (os_audio_instsfx_off "SFX Seleção: OFF")
 (os_audio_instsfx_off_desc "Habilita/desabilita o som de seleção de qualquer opção nos menus")
 (os_jurgen_sound_on "Insultos do Jurgen: ON")
-(os_jurgen_sound_on_desc "Habilita/desabilita os insultos do Jurgen quando você consegue uma pontuação ruim na Tela de Resultados")
+(os_jurgen_sound_on_desc "Habilita/desabilita o SFX de insultos do Jurgen quando você consegue uma pontuação ruim na Tela de Resultados")
 (os_jurgen_sound_off "Insultos do Jurgen: OFF")
-(os_jurgen_sound_off_desc "Habilita/desabilita os insultos do Jurgen quando você consegue uma pontuação ruim na Tela de Resultados")
+(os_jurgen_sound_off_desc "Habilita/desabilita o SFX de insultos do Jurgen quando você consegue uma pontuação ruim na Tela de Resultados")
 (os_cyclefx "Alternar SFX Guitarra")
 (os_cyclefx_desc "Alterna entre diferentes efeitos sonoros na guitarra quando ativa o Overdrive.")
 (os_cyclefx_wah "Efeito: Wah-Wah")
@@ -491,10 +491,10 @@
 (os_debug_desc "Não toque em nada deste menu ao menos que você saiba o que está fazendo")
 ;ingame hud
 (os_mtv "Nome da Música...")
-(os_mtv_vis_default "Visib.: PADRÃO")
-(os_mtv_vis_always "Visib.: SEMPRE")
-(os_mtv_vis_never "Visib.: NUNCA")
-(os_mtv_vis_delayed "Visib.: C/ DELAY")
+(os_mtv_vis_default "Visibilidade: PADRÃO")
+(os_mtv_vis_always "Visibilidade: SEMPRE")
+(os_mtv_vis_never "Visibilidade: NUNCA")
+(os_mtv_vis_delayed "Visibilidade: C/ DELAY")
 (os_mtv_vis_always_desc "O nome da música fica fixado até o fim da música")
 (os_mtv_vis_never_desc "O nome da música nunca será mostrado, nem no começo da música")
 (os_mtv_vis_default_desc "O comportamento padrão para o nome da música dentro do jogo, aparecendo e sumindo")
@@ -524,8 +524,8 @@
 (os_song_timer_desc "Opções relacionadas ao Timer da Música")
 (os_song_progress "Barra de Progresso...")
 (os_song_progress_desc "Opções relacionadas à Barra de Progresso da Música")
-(os_total_time_on "Duração Mús.: MOSTRAR")
-(os_total_time_off "Duração Mús.: ESCONDER")
+(os_total_time_on "Duração Música: MOSTRAR")
+(os_total_time_off "Duração Música: ESCONDER")
 (os_streak_counter_single "Con. Notas: SINGLE")
 (os_streak_counter_single_desc "Mostra o Contador de Acertos apenas no modo Single Player")
 (os_streak_counter_multi "Con. Notas: BANDA")
@@ -568,13 +568,13 @@
 (os_highway_username_on_desc "O nome do jogador será mostrado na pista")
 (os_highway_username_off "Nome Jogador: OFF")
 (os_highway_username_off_desc "O nome do jogador não será mostrado na pista")
-(os_highway_username_inst_on "Ícon. Instr.: ON")
+(os_highway_username_inst_on "Ícone Instr: ON")
 (os_highway_username_inst_on_desc "O Ícone do Instrumento do jogador está habilitado")
-(os_highway_username_inst_off "Ícon. Instr.: OFF")
+(os_highway_username_inst_off "Ícone Instr: OFF")
 (os_highway_username_inst_off_desc "O Ícone do Instrumento do jogador está desabilitado")
-(os_highway_username_sp_inst_on "Ícone no Single Pl.: ON")
+(os_highway_username_sp_inst_on "Ícone no Single Player: ON")
 (os_highway_username_sp_inst_on_desc "Ícone do Instrumento adicionado no Single PlayerInstrument Icon added in Single Player")
-(os_highway_username_sp_inst_off "Ícone no Single Pl.: OFF")
+(os_highway_username_sp_inst_off "Ícone no Single Player: OFF")
 (os_highway_username_sp_inst_off_desc "Ícone do Instrumento não adicionado no Single Player")
 (os_highway_overdrive_on "Overdrive: ON")
 (os_highway_overdrive_on_desc "A porcentagem de Overdrive disponível será mostrado na pista")
@@ -721,9 +721,9 @@
 (os_splash_on_desc "Exibe a tela do título do jogo ao iniciar-lo")
 (os_splash_off "Tela do Título: OFF")
 (os_splash_off_desc "Nunca exibir a tela do título do jogo ao iniciar-lo")
-(os_confirm_songcount_on "Aviso Muitas Mús.: ON")
+(os_confirm_songcount_on "Aviso Muitas Músicas: ON")
 (os_confirm_songcount_on_desc "Exibe um aviso se você tiver mais que ~4500 músicas")
-(os_confirm_songcount_off "Aviso Muitas Mús.: OFF")
+(os_confirm_songcount_off "Aviso Muitas Músicas: OFF")
 (os_confirm_songcount_off_desc "Nunca exibir um aviso se você tiver mais que ~4500 músicas")
 
 (dx_warn_sdmode
@@ -852,8 +852,8 @@
 (os_angleset3 "O Ângulo da Pista foi definido em ~%d%% (Jogador 3)")
 (os_angleset4 "O Ângulo da Pista foi definido em ~%d%% (Jogador 4)")
 (os_reload "Recarregar BG")
-(os_reload_desc "Recarrega o BG do Menu Principal")
-(os_reload_deny "Você não pode recarregar o BG durante o jogo.")
+(os_reload_desc "Recarrega o Background do Menu Principal")
+(os_reload_deny "Você não pode recarregar o Background durante o jogo.")
 (os_saver_deny "Você não pode habilitar o Modo Print durante o jogo.")
 (os_menubg "BG do Menu")
 (os_menubg_wii "BG do Menu")
@@ -868,7 +868,7 @@
 (os_yesbg "ON")
 (os_blnk " ")
 (dx_choose_profile "ESCOLHER PROFILE")
-(music_store "Modo Play A Show")
+(music_store "Play A Show")
 (os_bg2 "Loja de Música")
 (os_bg4 "Tour de Van")
 (os_bg5 "Sala de Prática")
@@ -887,11 +887,11 @@
 (os_fretmsg3 "A cor da Casa da Nota foi definida para: Amarelo")
 (os_fretmsg4 "A cor da Casa da Nota foi definida para: Azul")
 (os_fretmsg5 "A cor da Casa da Nota foi definida para: Laranja")
-(os_susmsg1 "A cor do Sustain foi definida para: Verde")
-(os_susmsg2 "A cor do Sustain foi definida para: Vermelho)
-(os_susmsg3 "A cor do Sustain foi definida para: Amarelo")
-(os_susmsg4 "A cor do Sustain foi definida para: Azul")
-(os_susmsg5 "A cor do Sustain foi definida para: Laranja")
+(os_susmsg1 "A cor do Sustento foi definida para: Verde")
+(os_susmsg2 "A cor do Sustento foi definida para: Vermelho)
+(os_susmsg3 "A cor do Sustento foi definida para: Amarelo")
+(os_susmsg4 "A cor do Sustento foi definida para: Azul")
+(os_susmsg5 "A cor do Sustento foi definida para: Laranja")
 (os_cymmsg1 "A cor da Nota do Chimbal foi definida para: Verde")
 (os_cymmsg2 "A cor da Nota do Chimbal foi definida para: Vermelho)
 (os_cymmsg3 "A cor da Nota do Chimbal foi definida para: Amarelo")
@@ -924,17 +924,17 @@
 (os_smash3 "Smasher 3")
 (os_smash4 "Smasher 4")
 (os_fretcol "Frets")
-(os_suscol "Sustains")
+(os_suscol "Sustentos")
 (os_fret1 "Fret 1")
 (os_fret2 "Fret 2")
 (os_fret3 "Fret 3")
 (os_fret4 "Fret 4")
 (os_fret5 "Fret 5")
-(os_sus1 "Sustain 1")
-(os_sus2 "Sustain 2")
-(os_sus3 "Sustain 3")
-(os_sus4 "Sustain 4")
-(os_sus5 "Sustain 5")
+(os_sus1 "Sustento 1")
+(os_sus2 "Sustento 2")
+(os_sus3 "Sustento 3")
+(os_sus4 "Sustento 4")
+(os_sus5 "Sustento 5")
 (os_spds "Selecionar Velocidades")
 (os_spds_desc "Modifique a velocidade da músicas, das pistas, e o FPS do palco")
 (os_tweaks "Ajustes")
@@ -956,7 +956,7 @@
 (os_scrsvr_desc "Remove toda a interface de usuário do Menu Principal")
 (os_scrsvr "Modo Print")
 (os_setcol "Cores")
-(os_setcol_desc "Ajuste a cor da strikeline, das notas, dos sustains e mais")
+(os_setcol_desc "Ajuste a cor da strikeline, das notas, dos Sustentos e mais")
 (realtime_customize_desc "Carregue uma música para personalizar do tema da pista em tempo real")
 (customizer_warn "Ao fazer isto, você irá abandonar a sessão atual. Continuar mesmo assim?")
 (print_hmx "Printar Milos Usados")
@@ -1009,11 +1009,11 @@
 (rb4_static "Estáticas")
 (os_animmsg "Notas Animadas não serão própriamente revertidas até você selecionar \qNotas\q, salvar as configurações, e reiniciar o jogo. Você tem certeza que deseja continuar?")
 (os_animsmshmsg "Strikelines Animadas não serão própriamente revertidas até você selecionar \qNotas\q, salvar as configurações, e reiniciar o jogo. Você tem certeza que deseja continuar?")
-(os_sus "Sustains")
+(os_sus "Sustentos")
 (os_rb3sus "Rock Band 3")
 (os_rb4sus "Rock Band 4")
 (os_rb2sus "Rock Band 2")
-(os_nosus "[Sem Sustains]")
+(os_nosus "[Sem Sustentos]")
 (gdrb "Green Day: Rock Band")
 (tbrb "The Beatles: Rock Band")
 (yarg "YARG")
@@ -1057,7 +1057,7 @@
 (mod_remote_texture_sync "Sincron. Texturas Online")
 (mod_remote_texture_sync_desc "Mostra o tema único das pistas de cada jogador em sessões online")
 (os_gems "Notas")
-(os_sustains "Sustains")
+(os_sustains "Sustentos")
 (os_setguitarcol "Cores da Guitarra")
 (os_setdrumcol "Cores da Bateria")
 (os_setprotarcol "Notas da Guitarra PRO")
@@ -1112,9 +1112,9 @@
    "Ambiente Biblio. Músicas")
 (mod_nocrowd
    "Sem Áudio da Platéia")
-(mod_nosustain "Sem Linhas de Sustain")
-(mod_rb2sustain "Linhas de Sustain do RB2")
-(mod_rb4sustain "Linhas de Sustain do RB4")
+(mod_nosustain "Sem Linhas de Sustento")
+(mod_rb2sustain "Linhas de Sustento do RB2")
+(mod_rb4sustain "Linhas de Sustento do RB4")
 (mod_ghdrums
    "Bateria do GH > Protar")
 (mod_video
@@ -1167,16 +1167,16 @@
 (mod_precision "Modo Precisão")
 (mod_perfection "Modo Perfeição")
 (mod_chmode "Modo Bêbado")
-(mod_nopart "Sem Ef. Partículas")
-(mod_noflares "No Flares")
-(mod_nojurgen "No Jurgen Sound")
-(mod_flames "Smoke is Flames")
-(mod_black_background "Black Background")
-(mod_force_hopos "Force HOPOs")
-(mod_mirror_mode "Mirror Mode (Guitar Only)")
-(mod_color_shuffle "Altern. Cor das Notas")
-(mod_mhx_color_shuffle "Altern. Cor das Notas")
-(mod_dx_showbpm "Show Song BPM")
+(mod_nopart "Sem EFX Partículas")
+(mod_noflares "Sem Flares")
+(mod_nojurgen "Sem SFX do Jurgen")
+(mod_flames "Fumaça -> Fogos")
+(mod_black_background "BG Preto")
+(mod_force_hopos "Forçar HOPOs")
+(mod_mirror_mode "Modo Espelhado (Apenas Guitarra)")
+(mod_color_shuffle "Alternar Cor das Notas")
+(mod_mhx_color_shuffle "Alternar Cor das Notas")
+(mod_dx_showbpm "Mostrar BPM da Música")
 (chmode_warning "O Modo Bêbado afrouxa a hitbox das notas. Pontuações não serão salvas e uma mensagem aparecerá na Tela de Resultados da música se você habilitar este modo.")
 (os_venue_select_warn "A Seleção de Palco só vai fazer efeito se você for o host da sala.")
 (breakneck_warning
@@ -1186,19 +1186,19 @@
 (postfx_warning
   "Os efeitos de Pós-Processamento não serão afetados completamente até você carregar uma nova cena/palco/menu. Deseja retornar ao Menu Principal agora?")
 (fakejuke_warning
-  "This modifer allows for easy Performance Mode and venue showcases. Saving will be disabled until you restart if you enable this.")
+  "Este modificador permite a visualização dos personagens, suas animações e o palco. Se você habilitar este modificador, seu progresso no jogo não será salvo até você reiniciar o jogo.")
 (screensaver_warning
-  "This will hide everything and display the menu background. All unsaved progress will be lost and you won't be able to interact with the game until you restart. Are you sure?")
+  "Este modificador esconderá toda a interface de usuário do jogo para mostrar o Background do menu. Você não conseguirá interagir com o jogo até você reiniciá-lo. Tem certeza que deseja continuar?")
 (author_warning
-  "This modifer is intended to be used for chart authors. Combine this with RPCS3 controller mapping to use all instruments mode.")
+  "Este modificador foi criado para ser utilizado por charters. Combine este modificador com o mapeamento de controles do RPCS3 para utilizar o Modo All Instruments.")
 (himem_warning
-   "This option does not work on retail hardware and WILL crash on boot if you try anyway. Continue?")
+   "Esta opção não funciona em qualquer console físico (sem ser em emuladores) e IRÁ TRAVAR na inicialização se você tentar mesmo assim. Continuar?")
 (swap_gender_warning
-   "This option will allow you to equip cosmetic items not originally supported on the current body type. Requires Reboot. Continue?")
+   "Esta opção permite que você equipe itens, roupas, e cosméticos que, originalmente, não tem suporte usando seu tipo de corpo atual. A reinicialização do jogo é obrigatória para as alterações funcionarem. Continuar?")
 (saving_disabled
-   "Progressos não serão salvos até o fim desta sessão")
+   "Seu progresso no jogo não será salvo até o fim desta sessão")
 (modifier_song_load
-   "This modifier will not take effect until you back out start a new song. Back out now?")
+   "Este modificador não terá efeito até você voltar ao Menu Principal e escolher uma nova música. Voltar ao Menu Principal agora?")
 (nice_solo
    "69 hehehe")
 (choke_solo
@@ -1252,43 +1252,43 @@
    "Feminino")
 ; practice speeds
 (practice_speed_1
-   "Vel.: 95%")
+   "Velocidade: 95%")
 (practice_speed_2
-   "Vel.: 90%")
+   "Velocidade: 90%")
 (practice_speed_3
-   "Vel.: 85%")
+   "Velocidade: 85%")
 (practice_speed_4
-   "Vel.: 80%")
+   "Velocidade: 80%")
 (practice_speed_5
-   "Vel.: 75%")
+   "Velocidade: 75%")
 (practice_speed_6
-   "Vel.: 70%")
+   "Velocidade: 70%")
 (practice_speed_7
-   "Vel.: 65%")
+   "Velocidade: 65%")
 (practice_speed_8
-   "Vel.: 60%")
+   "Velocidade: 60%")
 (practice_speed_9
-   "Vel.: 55%")
+   "Velocidade: 55%")
 (practice_speed_10
-   "Vel.: 50%")
+   "Velocidade: 50%")
 (practice_speed_11
-   "Vel.: 45%")
+   "Velocidade: 45%")
 (practice_speed_12
-   "Vel.: 40%")
+   "Velocidade: 40%")
 (practice_speed_13
-   "Vel.: 35%")
+   "Velocidade: 35%")
 (practice_speed_14
-   "Vel.: 30%")
+   "Velocidade: 30%")
 (practice_speed_15
-   "Vel.: 25%")
+   "Velocidade: 25%")
 (practice_speed_16
-   "Vel.: 20%")
+   "Velocidade: 20%")
 (practice_speed_17
-   "Vel.: 15%")
+   "Velocidade: 15%")
 (practice_speed_18
-   "Vel.: 10%")
+   "Velocidade: 10%")
 (practice_speed_19
-   "Vel.: 5%")
+   "Velocidade: 5%")
 (award_flawless
    "Full Combo")
 (full_combo_short
@@ -1312,7 +1312,7 @@
 (os_faster
    "Aceleração")
 (os_sngspdcap
-   "Vel. Máxima")
+   "Velocidade Máxima")
 (os_allhw
    "Todos os Instrumentos")
 (os_guitarhw
@@ -1608,15 +1608,15 @@
 (os_force_remote_vox_off "Notas do Vocal: ON")
 (os_force_remote_vox_off_desc "Ativa a visualização dos tubos das notas nas pistas dos vocais. Desativar vai fazer aparecer apenas a letra da música (como no Modo Online)")
 (os_force_remote_vox_on_desc "Ativa a visualização dos tubos das notas nas pistas dos vocais. Desativar vai fazer aparecer apenas a letra da música (como no Modo Online)")
-(os_dim_remote_players_on "Escurecer Tril. Online: ON")
-(os_dim_remote_players_off "Escurecer Tril. Online: OFF")
+(os_dim_remote_players_on "Escurecer Trilha Online: ON")
+(os_dim_remote_players_off "Escurecer Trilha Online: OFF")
 (os_dim_remote_players_on_desc "Escurecer as pistas de jogadores(as) online")
 (os_dim_remote_players_off_desc "Manter iluminado as pistas de jogadores(as) online")
 (os_time_remaining_up "Timer: TEMPO PASSADO")
 (os_time_remaining_down "Timer: TEMPO RESTANTE")
 (os_time_remaining_off "Timer: OFF")
-(os_time_remaining_on_top_on "Pos. Timer: Acima")
-(os_time_remaining_on_top_off "Pos. Timer: Abaixo")
+(os_time_remaining_on_top_on "Posição Timer: Acima")
+(os_time_remaining_on_top_off "Posição Timer: Abaixo")
 (os_time_remaining_on_top_on_desc "Mostra o Timer da Música a cima da caixa de pontuação (exceto se um vocalista estiver ativo)")
 (os_time_remaining_on_top_off_desc "Mostra o Timer da Música abaixo do Contador de Acertos")
 (os_time_remaining_up_desc "O Timer contará do começo ao fim da música")
@@ -1647,7 +1647,7 @@
 (os_countdown_warn "Note: Pausing mid run will throw off the countdown.")
 (dx_none "[Nenhum]")
 (goul-nug_fc "[Padrão]")
-(overshell_dx_bot_settings "Config. Autoplay")
+(overshell_dx_bot_settings "Config Autoplay")
 (os_dx_bot_skill "Precisão")
 (os_dx_auto_endgame_on "Auto Next: Yes")
 (os_auto_endurance_selected "Auto Song: Selection")
@@ -1759,10 +1759,10 @@
 (mod_chmode_desc "Afrouxa drasticamente a Hitbox")
 (mod_blackmenu "Sem BGs no menu")
 (mod_blackmenu_desc "Desabilita o BG nos menus para melhorar a performance")
-(mod_highlight_key "Sinal. Tom Teclado PRO")
+(mod_highlight_key "Sinalizar Tom Teclado PRO")
 (mod_highlight_key_desc "Ilumina a pista das notas que são da escala da música tocada")
 (os_other "Outras Configs.")
-(os_other_desc "Configs. Adic. do Deluxe")
+(os_other_desc "Configs. Adicionais Deluxe")
 (os_popup_settings "Opções de Modais")
 (os_popup_settings_desc "Opções para os Modais e Avisos")
 (mod_auto_kick_desc "Sua bateria não tem o pedal do bumbo? Sem problemas!")
@@ -1833,9 +1833,9 @@
 (os_sub_genre_off
    "Sub-Gênero: OFF")
 (os_source_on
-   "Fonte da Mús.: ON")
+   "Fonte da Música: ON")
 (os_source_off
-   "Fonte da Mús: OFF")
+   "Fonte da Música: OFF")
 (os_section_on
    "Sessão: ON")
 (os_section_off
@@ -1875,13 +1875,13 @@
 (os_logging_beatmatch_off
    "Beatmatch: OFF")
 (os_logging_countdown_on
-   "Cont. Regressiva: ON")
+   "Contagem Regressiva: ON")
 (os_logging_countdown_off
-   "Cont. Regressiva: OFF")
+   "Contagem Regressiva: OFF")
 (os_stats_disable
-   "Info. Extra: YES")
+   "Info Extra: YES")
 (os_stats_enable
-   "Info. Extra: NO")
+   "Info Extra: NO")
 (os_bpm_on
    "BPM da Música: ON")
 (os_bpm_off
@@ -1895,7 +1895,7 @@
 (os_speed_control
    "Controle de Vel.")
 (os_score_percent
-   "Porcen. Acertos")
+   "Porcentagem de Acertos")
 (os_section
    "Cabeçalho da Sessão")
 (os_ingame
@@ -1907,25 +1907,25 @@
 (os_score_desc
    "Posição da pontuação e das estrelas conquistas na tela")
 (os_scoreboard_pos
-   "Pos. Pontuação")
+   "Posição Pontuação")
 (os_star_display_pos
-   "Pos. Estrelas")
+   "Posição Estrelas")
 (os_mtv_delay_on
-   "Delay: YES")
+   "Atraso: YES")
 (os_mtv_delay_off
-   "Delay: NO")
+   "Atraso: NO")
 (os_mtv_delay_on_desc
-   "Adds the career delay before showing song title information like in tour mode")
+   "Adiciona o atraso do Modo Carreira antes de mostrar a informação do nome da música")
 (os_mtv_delay_off_desc
-   "Adds the career delay before showing song title information like in tour mode")
+   "Não adiciona o atraso do Modo Carreira antes de mostrar a informação do nome da música")
 (os_dx_himem_off
    "Large Heap: OFF")
 (os_dx_himem_on
    "Large Heap: ON")
 (os_dx_swap_gender_off
-   "Swap Cosmetics: OFF")
+   "Inv. Gênero Itens: OFF")
 (os_dx_swap_gender_on
-   "Swap Cosmetics: ON")
+   "Inv. Gênero Itens: ON")
 (reboot_to_apply
    "Reinicie o jogo para aplicar as alterações")
 (generate_updates_dta
@@ -1933,7 +1933,7 @@
 (songs_updates_generated
    "Updates pro YARG gerados")
 (save_track_theme
-   "Digite o nome do seu tema aqui.")
+   "Insina o nome do seu tema aqui.")
 (save_track_theme_desc
    "Por favor, não use espaço ou caracteres especiais no seu nome.")
 (pos_interval_0 "Intervalo Posição: 0.01")
@@ -1976,7 +1976,7 @@
 ;Custom Band Goals
 #ifdef HX_WII
 (acc_dlc_harddrivefiller
-   "Enchedor de Cartão SD")
+   "Populador de Cartão SD")
 (acc_dlc_harddrivefiller_desc
    "Você já teria enchido um cartão SD (de tamanho considerável) com as músicas que tu já tem! Depois de jogar todas elas, entre em contato com o usuário @deliciousbees no Twitter/X para um presente de agradecimento!")
 #endif
@@ -1985,9 +1985,9 @@
 (acc_dx_coverband_desc
    "Conquiste 5 <alt>*</alt> em cada música oficial do grupo WaveGroup.")
 (acc_dx_hourglass
-   "Feeling like StephGH1")
+   "Se Sentindo Como o StephGH1")
 (acc_dx_hourglass_desc
-   "5 <alt>*</alt> Hourglass Part II since Steph FC'd it first")
+   "Conquiste 5 <alt>*</alt> na música \qHourglass Part II\q, já que o jogador StephGH1 foi o primeiro a conseguir FC nela.")
 (acc_dx_strumsaga
    "A Saga da Palhetada")
 (acc_dx_strumsaga_desc
@@ -2029,7 +2029,7 @@
 (acc_dx_brony_desc
    "Beat every song relating to My Little Pony.")
 (acc_dx_imagine
-   "Sério, Imagine TODAS as Pessoas...")
+   "Imagine TODAS as Pessoas")
 (acc_dx_imagine_desc
    "Conquiste 5 <alt>*</alt> em todas as músicas do álbum \qImagine\q, do John Lennon.")
 (acc_dx_speedingticket
@@ -2041,7 +2041,7 @@
 (acc_dx_spongebob_desc
    "Conquiste 5 <alt>*</alt> em todas as músicas do Bob Esponja Calça Quadrada.")
 (acc_dx_southpark
-   "O KENNY MORREU!!!")
+   "MATARAM O KENNY!!!")
 (acc_dx_southpark_desc
    "Conquiste 5 <alt>*</alt> em cada música do South Park.")
 (acc_dx_hugh
@@ -2055,7 +2055,7 @@
 (acc_dx_bangcamaro
    "Banging in the Camaro")
 (acc_dx_bangcamaro_desc
-   "Conquiste pelo menos 4 <alt>*</alt>  em cada música da banda Bang Camaro.")
+   "Conquiste pelo menos 4 <alt>*</alt> em cada música da banda Bang Camaro.")
 (acc_dx_eurovision
    "Eurovision 2006")
 (acc_dx_eurovision_desc
@@ -2069,13 +2069,13 @@
 (acc_dx_box_desc
    "Conquiste 5 <alt>*</alt> em cada música com a palavra \qbox\q (caixa) no título.")
 (acc_dx_smashmouth
-   "Banda da Música do Shrek")
+   "Aquela Banda da Música do Shrek")
 (acc_dx_smashmouth_desc
    "Conquiste 5 <alt>*</alt> em todas as músicas da banda Smash Mouth.")
 (acc_dx_stoner
-   "Smoke Sesh")
+   "Conquista de Fumante")
 (acc_dx_stoner_desc
-   "Earn 5 <alt>*</alt> on the songs on every stoner's iPod Nano")
+   "Conquiste 5 <alt>*</alt> nestas músicas de fumante (não disse de quê).")
 (acc_dx_rb1wii
    "Privilégios da Nintendo")
 (acc_dx_rb1wii_desc
@@ -2091,7 +2091,7 @@
 (acc_dx_original
    "Objetivo das Músicas Originais")
 (acc_dx_original_desc
-   "Conquiste 5 <alt>*</alt> em todas as músicas \qOriginal version\q na dificuldade Expert.")
+   "Conquiste 5 <alt>*</alt> em todas as músicas \qOriginal Version\q na dificuldade Expert.")
 (acc_dx_feelgood
    "Se Sinta Bem")
 (acc_dx_feelgood_desc
@@ -2125,9 +2125,9 @@
 (acc_dx_memes_desc
    "Conquiste 5 <alt>*</alt> nestas músicas de meme.")
 (acc_dx_bloodsugar
-   "Pink Sweet Sugar Marshmallow")
+   "Sangue Açucar Sexo Magia")
 (acc_dx_bloodsugar_desc
-   "Play the entire \qBlood Sugar Sex Magik\q album.")
+   "Toque todas as músicas do álbum \qBlood Sugar Sex Magik\q.")
 (acc_dx_4kingsofmetal
    "Os 4 Reis do Metal")
 (acc_dx_4kingsofmetal_desc
@@ -2141,22 +2141,22 @@
 (acc_dx_sixsixsix_desc
    "Consiga um Streak de Notas de 666 ou mais na música\q666\q.")
 (acc_dx_2112
-   "It Doesn't Fit The Plan")
+   "Não se Enquadra no Plano")
 (acc_dx_2112_desc
-   "Earn 5 <alt>*</alt> on \q2112\q.")
+   "Conquiste 5 <alt>*</alt> na música \q2112\q.")
 (acc_dx_a_final_encore
    "Relembre os Clássicos")
 (acc_dx_a_final_encore_desc
    "Conquiste 5 <alt>*</alt> nestes clássicos na dificuldade Expert.")
 (acc_dx_americanpie
-   "The Day That Music Died")
+   "O Dia que a Música Morreu")
 (acc_dx_americanpie_desc
-   "Give one last goodbye as you 100% \qAmerican Pie\q")
+   "Acerte 100% das notas na música \qAmerican Pie\q e se despeça.")
 ;Custom Guitar Goals
 (acc_dx_constantmotion
-   "Constant Lotion")
+   "Movimentação Constante")
 (acc_dx_constantmotion_desc
-   "FC up to Guitar Solo D on Expert")
+   "Acerte 100% das notas do solo de Guitarra na música \qConstant Motion\q na dificuldade Expert.")
 (acc_dx_xbox
    "Supremacia do Xbox")
 (acc_dx_xbox_desc
@@ -2170,52 +2170,52 @@
 (acc_dx_tweezer_desc
    "Acerte 95% ou mais na música \qTweezer\q na Guitarra na dificuldade Expert.")
 (acc_dx_gamewithzombies
-   "Y0U C0MP1ETED A GAM3 W1TH Z0MB1ES 1N IT !!!1")
+   "V0CÊ C0MPL3T0U UM J0G0 C0M ZUMB1S N3L3 !!!1")
 (acc_dx_gamewithzombies_desc
-   "100% \qI MAED A GAM3 W1TH Z0MB1ES 1N IT !!!1\q  on Expert Guitar.")
+   "Acerte 100% das notas na música \qI MAED A GAM3 W1TH Z0MB1ES 1N IT !!!1\q na Guitarra na dificuldade Expert.")
 (acc_dx_guitarssuckguitar
-   "Do Guitars Actually Suck?")
+   "Talvez um Sim às Guitarras Elétricas?!")
 (acc_dx_guitarssuckguitar_desc
-   "Earn 5 <alt>*</alt> on \qGuitars SUCK\q on Expert Guitar.")
+   "Conquiste 5 <alt>*</alt> na música \qGuitars SUCK\q na Guitarra na dificuldade Expert.")
 (acc_dx_eastjesus
-   "Billie Joe \qArm-Strong\q (Literally)")
+   "Aonde Está Jesus Cristo?")
 (acc_dx_eastjesus_desc
-   "Gold Star \qEast Jesus Nowhere\q on Expert Guitar.")
+   "Conquiste 5 <alt>=</alt> na música \qEast Jesus Nowhere\q na Guitarra na dificuldade Expert.")
 (acc_dx_ttfaf
    "À Prova de Fogo")
 (acc_dx_ttfaf_desc
    "Toque a música \qThrough the Fire and Flames\q na Guitarra na dificuldade Expert.")
 ;Custom Bass Goals
 (acc_dx_carl
-   "The Carl Award")
+   "Mais que um Baixo")
 (acc_dx_carl_desc
-   "100% \qMore Than a Feeling\q on Expert Bass.")
+   "Acerte 100% das notas na música \qMore Than a Feeling\q no Baixo na dificuldade Expert.")
 (acc_dx_thiefinnightbass
-   "The Bass in the Night")
+   "O Baixo da Noite")
 (acc_dx_thiefinnightbass_desc
-   "Earn 5 <alt>*</alt> on \qThe Thief in the Night - Part II\q on Expert Bass.")
+   "Conquiste 5 <alt>*</alt> na música \qThe Thief in the Night - Part II\q no Baixo na dificuldade Expert.")
 ;Custom Pro Drum Goals
 (acc_dx_dontmessaround
-   "Don't Mess Around")
+   "Sem Brincadeiras")
 (acc_dx_dontmessaround_desc
-   "Earn 4 <alt>*</alt> on \qBlack Magic Woman\q on Expert Pro Drums.")
+   "Conquiste 4 <alt>*</alt> ou mais na música \qBlack Magic Woman\q na Bateria PRO na dificuldade Expert.")
 (acc_dx_treacherywilldiepro
-   "Legs Of Steel")
+   "Pernas de Aço")
 (acc_dx_treacherywilldiepro_desc
-   "Earn 5 <alt>*</alt> on \qYour Treachery Will Die with You\q with 2x Bass Pedal on Expert.")
+   "Conquiste 5 <alt>*</alt> na música \qYour Treachery Will Die with You\q na versão com Pedal Duplo na dificuldade Expert.")
 (acc_dx_slipknotpro
-   "I'm Really Joey Jordison. Number 1.")
+   "Joey Jordison de Coração PRO")
 (acc_dx_slipknotpro_desc
-   "Earn 5 <alt>*</alt> stars on every Slipknot songs with Pro Drums.")
+   "Conquiste 5 <alt>*</alt> em cada música da banda Slipknot na Bateria PRO.")
 ;Custom Drum Goals
 (acc_dx_treacherywilldie
-   "Your Treachery Must Die with You")
+   "Sua Traição Morrerá Com Você")
 (acc_dx_treacherywilldie_desc
-   "Get 5 <alt>*</alt> on \qYour Treachery Will Die with You\q on Expert.")
+   "Conquiste 5 <alt>*</alt> na música \qYour Treachery Will Die with You\q na dificuldade Expert.")
 (acc_dx_slipknot
-   "I'm Joey Jordison. Number 1.")
+   "Joey Jordison de Coração")
 (acc_dx_slipknot_desc
-   "Earn 5 <alt>*</alt> stars on every Slipknot songs with Drums.")
+   "Conquiste 5 <alt>*</alt> em cada música do Slipknot na Bateria.")
 ;Custom Pro Key Goals
 (acc_dx_brainpowerprokey
    "Super Sprøde")
@@ -2227,43 +2227,43 @@
 (acc_dx_slayqueen_desc
    "Conquiste o palco conquistando 5 <alt>*</alt> nestes hits no vocal.")
 (acc_dx_gaybar
-   "Not Luna.")
+   "Não é a Luna")
 (acc_dx_gaybar_desc
-   "Get 5 <alt>*</alt> on \qGay Bar\q Expert Vocals.")
+   "Conquiste 5 <alt>*</alt> na música \qGay Bar\q no Vocal Solo na dificuldade Expert.")
 (acc_dx_nookie
    "Do it for the Nookie")
 (acc_dx_nookie_desc
-   "Get 5 <alt>*</alt> on \qNookie\q Expert Vocals.")
+   "Conquiste 5 <alt>*</alt> na música \qNookie\q no Vocal Solo na dificuldade Expert.")
 (acc_dx_queenofsouth
-   "Queen of the South")
+   "Rainha Conversadora")
 (acc_dx_queenofsouth_desc
-   "Dominate your Local Karaoke bar with these Female led Country hits.")
+   "Domine seu karaokê local com estes hits do Country cantado por mulheres.")
 (acc_dx_sex
    "SEXO! SEXO! SEXO! SEXO!")
 (acc_dx_sex_desc
    "Acerte 100% das notas na música \qSEX\q em qualquer instrumento na dificuldade Expert.")
 (acc_dx_trynottolaugh
-   "Músicas Toscas para Cantores(as) Toscos(as)")
+   "Músicas Toscas para Cantores Toscos")
 (acc_dx_trynottolaugh_desc
    "Tente não rir enquanto você conquista 5 <alt>*</alt> em cada uma destas músicas no Vocal Solo.")
 (acc_dx_walk
-   "Jonnie Walker")
+   "Músicas pra Cardio")
 (acc_dx_walk_desc
-   "Do some exercise while you play and 5 <alt>*</alt> on these walking songs.")
+   "Faça um exercício enquanto você toca e conquista 5 <alt>*</alt> nestas músicas.")
 ;Custom Harms Goals
 (acc_dx_beegees
-   "What you doing on your back?")
+   "O Que Você Está Fazendo Com Suas Costas?")
 (acc_dx_beegees_desc
-   "Get <alt>=</alt> stars on \qYou Should Be Dancing\q with Expert Harmonies.")
+   "Conquiste 5 <alt>=</alt> na música \qYou Should Be Dancing\q nas Harmonias na dificuldade Expert.")
 ;Custom Track Pack Goals
 (acc_dx_trackpack1
    "Rock Band Track Pack Volume 1")
 (acc_dx_trackpack1_desc
-   "Earn at least 2 <alt>*</alt> on all 20 songs in the Rock Band Track Pack Volume 1.")
+   "Conquiste pelo menos 2 <alt>*</alt> em todas as 20 músicas do Rock Band Track Pack Volume 1.")
 (acc_dx_CTP2
    "Rock Band Country Track Pack Volume 2")
 (acc_dx_CTP2_desc
-   "Earn at least 2 <alt>*</alt> on all 21 songs in the Rock Band Country Track Pack Volume 2.")
+   "Conquiste pelo menos 2 <alt>*</alt> em todas as 21 músicas do Rock Band Track Pack Volume 2.")
 (you_lost "Você Perdeu")
 #ifdef RB3E ;rb3enhanced specific modifiers
 (mod_black_background_desc "Desabilita as cenas 3D e o palco dentro do jogo")
@@ -2348,7 +2348,7 @@
 (play_a_show_diff_an
    "Uma música na dificuldade: %s")
 (play_a_show_author
-   "Uma música charteada por %s")
+   "Uma música charteada pelo(a) %s")
 (play_a_show_album
    "Uma música do álbum %s <alt>%s</alt>")
 (play_a_show_really_long
