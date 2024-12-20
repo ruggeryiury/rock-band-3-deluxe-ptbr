@@ -28,8 +28,6 @@ This project is a complete fan translation of the Rock Band 3 Deluxe title to br
 
 If you don't know how to build Rock Band 3 Deluxe patch, check the [Download](#download) section below to use a manually-build version of Rock Band 3 Deluxe patch with built-in translation.
 
-This translation is up-to-date with the following Rock Band 3 Deluxe development commit: [Commit b483be1 (fix judgments on ps3/360, add debug option)](https://github.com/hmxmilohax/rock-band-3-deluxe/commit/b483be1cb61029e16c522d44cc0f4e10afdd3879).
-
 ## Installation
 
 Please follow the instructions for your console on the [Official Rock Band 3 Deluxe website](https://rb3dx.milohax.org/install.html).
