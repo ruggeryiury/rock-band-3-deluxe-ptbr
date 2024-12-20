@@ -379,7 +379,7 @@
 (os_nobg_off_desc "Reabilite o Background dos menus")
 (os_main_menu "Menu Principal")
 (os_main_menu_desc "Backgrounds para o menu principal")
-(os_song_select "Biblio. de Música")
+(os_song_select "Biblioteca de Música")
 (os_song_select_desc "Backgrounds para o Biblioteca de Músicas")
 (os_load_song "Trans. de Músicas")
 (os_load_song_desc "Transições indo de uma música para outra")
@@ -561,6 +561,7 @@
 (judge_good "OK")
 (judge_great "ÓTIMO")
 (judge_perfect "PERFEITO")
+(judge_invalid "INVÁLIDO")
 
 (os_highway_perfects "Julgamentos")
 (os_highway_perfects_desc "Mostra o nível de precisão das notas acertadas do jogador na pista")
@@ -974,6 +975,10 @@
 (os_voxnotes "Notas do Vocal")
 (os_voxod "Overdrive do Vocal")
 (os_voxarrow "Flexas do Vocal")
+
+(song_search "Pesquisa de Músicas")
+(song_search_desc "Pesquise pelo Nome da Música ou Shortname")
+(song_search_title "Nome da Música")
 
 ;track themes
 (os_thmreset "[Resetar]")
@@ -1545,6 +1550,7 @@
 (os_fontstainless_ext_blk "Stainless Ext BLK")
 (os_fontstainless_ext_reg "Stainless Ext Regular")
 (os_kerning "Kerning")
+(os_alignment "Alinhamento")
 (os_zspace "Z")
 (os_screenel "HUD Elements")
 (os_screenel_desc "Finer control of in-game on-screen elements")
@@ -1569,12 +1575,20 @@
 (os_default "[Padrão]")
 (author "Charter")
 (section "Sessão")
+(section_string "Sessão: %s")
+(year_string "%i")
+(bpm_report "BPM: %.02f")
 (time_remaining "Tempo Restante")
 (strings_author "PRO Guitarra/Baixo")
+(autoplay_enabled "AUTOPLAY")
+(speed_string "%s (%i%%)")
+(speed_string_mode "%s | %s (%i%%)")
+(song_string "%s | %s")
 (keys_author "Teclado/Teclado PRO")
 (album "Álbum")
 (year "Ano")
 (key_of "Tom em")
+(keyof_string "Tom em: %s")
 
 ; New Genres
 (bigband "Big Band")
@@ -1784,6 +1798,10 @@
    "Time Remain Dbg: ON")
 (os_time_remain_dbg_off
    "Time Remain Dbg: OFF")
+(os_judgment_dbg_on
+   "Debug Julgamentos: ON")
+(os_judgment_dbg_off
+   "Debug Julgamentos: OFF")
 (print_objects
    "Print Screen Objects")
 (debug_warning

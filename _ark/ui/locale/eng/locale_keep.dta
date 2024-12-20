@@ -15533,11 +15533,11 @@
 (overshell_end_game
    "Terminar Música")
 (overshell_enter_calibration
-   "Calibrar seu sistema? Qualquer processo não salvo será perdido.")
+   "Você tem certeza que deseja calibrar seu sistema? Qualquer processo não salvo será perdido.")
 (overshell_enter_charactercreator
-   "Enter Character Creator? Any unsaved progress will be lost.")
+   "Você tem certeza que deseja entrar no Criador de Personagems? Qualquer processo não salvo será perdido.")
 (overshell_enter_credits
-   "View the Credits? Any unsaved progress will be lost.")
+   "Você tem certeza que deseja ver os Créditos? Qualquer processo não salvo será perdido.")
 (overshell_expert
    "Expert")
 (overshell_extras
@@ -15613,11 +15613,11 @@
 (overshell_overscan
    "Overscan")
 (overshell_parental_controls
-   "Control. Parentais")
+   "Controles Parentais")
 (overshell_practice_new_section
    "Praticar Nova Sessão")
 (overshell_quit
-   "Voltar à Biblio. de Músicas")
+   "Voltar à Biblioteca de Músicas")
 (overshell_quit_campaign
    "Voltar aos Objetivos")
 (overshell_quit_freestyle
@@ -16001,7 +16001,7 @@
 (pause_hb_returntogame
    "Retornar ao Jogo")
 (pause_quit
-   "Voltar à Biblio. de Músicas")
+   "Voltar à Biblioteca de Músicas")
 (pause_restart
    "RECOMEÇAR")
 (pause_resume
@@ -21697,17 +21697,17 @@
 (quickplay_band_statistics
    "Quickplay Band Statistics")
 (quiet_intro
-   "Quiet intro")
+   "Intro Quieta")
 (quiet_part
-   "Quiet part")
+   "Parte Quieta")
 (quiet_part_1
-   "Quiet part 1")
+   "Parte Quieta 1")
 (quiet_part_2
-   "Quiet part 2")
+   "Parte Quieta 2")
 (quiet_verse
-   "Quiet verse")
+   "Verso Quieto")
 (quit
-   "Voltar à Biblio. de Músicas")
+   "Voltar à Biblioteca de Músicas")
 (radias_resource
    "Korg RADIAS")
 (radias_resource_desc
@@ -21757,13 +21757,13 @@
    "ranked match")
 #endif
 (rank_nodata
-   "No Data")
+   "Sem Dados")
 (rank_ranked
-   "Ranked")
+   "Com Ranking")
 (rank_sort_wait
    "Este filtro não é suportado pelo servidor, escolha outra opção!")
 (rank_unranked
-   "Unranked")
+   "Sem Ranking")
 (rap
    "Rap")
 (rating_1
@@ -21811,39 +21811,39 @@
 (recordlabelsecondname_4
    "Gold")
 (record_label
-   "Record Label")
+   "Gravadora")
 (record_label_band_name
    "Nome da Banda")
 (record_label_confirm_delete
-   "Are you sure you want to remove yourself from %s?")
+   "Você tem certeza de que deseja remover-se da gravadora %s?")
 (record_label_connection_required
-   "You must be connected to the Rock Central game servers to use this feature.")
+   "Você deve estar conectado aos servidores do Rock Central para usar este recurso.")
 (record_label_create_new
    "Create New Label")
 (record_label_default_name
-   "%s's Record Label")
+   "Gravadora do %s")
 (record_label_delete_invite
-   "Delete Invitation to Label")
+   "Excluir Convite para Gravadora")
 (record_label_invited
-   "Invited to Label")
+   "Convidado para Gravadora")
 (record_label_pending
-   "Pending")
+   "Pendente")
 (record_label_registering
-   "Registering Record Label with the Rock Central game servers...")
+   "Registrando a gravadora nos servidores do Rock Central...")
 (record_label_registering_complete
-   "Congratulations! Your record label has been created.")
+   "Parabéns! Sua gravadora foi criada.")
 (record_label_registering_failed
-   "Unable to create the record label at this time. Please try again in a few minutes.")
+   "Não foi possível criar esta Gravadora no momento. Tente novamente em alguns minutos.")
 (record_label_required
-   "You must select a record label to view its details.")
+   "Você deve selecionar uma gravadora para ver seus detalhes.")
 (record_label_signed
-   "Signed")
+   "Assinado")
 (record_label_signed_members
    "Membros Ativos (%d / %d)")
 (record_label_status
    "Status")
 (record_label_unsigned
-   "Not signed to a record label")
+   "Não assinado com uma gravadora")
 (record_label_unsigned_label
    "Sem Assinatura")
 (red
@@ -21997,13 +21997,13 @@
 (rg_chordbook_d_string
    "D string")
 (rg_chordbook_finger_1
-   "Index Finger)")
+   "Dedo Indicador)")
 (rg_chordbook_finger_2
-   "Middle Finger)")
+   "Dedo Médio)")
 (rg_chordbook_finger_3
-   "Ring Finger)")
+   "Dedo Anelar)")
 (rg_chordbook_finger_4
-   "Pinky Finger)")
+   "Dedo Mindinho)")
 (rg_chordbook_g_short
    "G")
 (rg_chordbook_g_string
@@ -22019,17 +22019,17 @@
 (rg_chordbook_low_e_string
    "low E string")
 (rg_chordbook_skip
-   "Skip Chordbook")
+   "Pular Livro de Acordes")
 (rg_chordbook_skip_verify
-   "Are you sure you want to skip the chordbook?")
+   "Você tem certeza de que deseja pular o Livro de Acordes?")
 (rg_chordbook_step_barre
    "Barre the {ordinal:ms:fret_num} fret from the {string:low_string} to the {string:high_string}")
 (rg_chordbook_step_finger
    "Hold the {ordinal:ms:fret_num} fret on the {string:low_string}")
 (rg_chordbook_step_strum
-   "Strum covered strings")
+   "Toque as cordas cobertas")
 (rg_chordbook_strum
-   "Strum )")
+   "Palhete )")
 (rg_complex_chords
    "Advanced Chords and Alternate Tuning")
 (rg_finger_exercises
@@ -22071,43 +22071,43 @@
 (rinoboots_leather_desc
    "Three giant spikes endow these boots with monster maiming powers.")
 (rk_2_note_chords_arpeggios_1
-   "Popular 3-Note Chords and Arpeggios")
+   "Acordes e Arpeggios com 3 Notas Populares")
 (rk_2_note_chords_arpeggios_2
-   "More 3-Note Chords and Arpeggios")
+   "Mais Acordes e Arpeggios com 3 Notas")
 (rk_3_note_chords_arpeggios_1
-   "Popular 3-Note Chords and Arpeggios")
+   "Acordes e Arpeggios com 3 Notas Populares")
 (rk_3_note_chords_arpeggios_2
-   "More 3-Note Chords and Arpeggios")
+   "Mais Acordes e Arpeggios com 3 Notas")
 (rk_4_note_chords_arpeggios
    "Popular 4-Note Chords")
 (rk_advanced_gameplay
    "Advanced Track Techniques")
 (rk_advanced_techniques
-   "Advanced Techniques")
+   "Técnicas Avançadas")
 (rk_advance_moving_between_chords
    "Advanced Moving Within Chords")
 (rk_general_gameplay
    "Learning the Track")
 (rk_identifying_gems
-   "Simple Notes")
+   "Notas Simples")
 (rk_intervals_1
-   "Basic Intervals")
+   "Intervalos Básicos")
 (rk_major_scale
-   "The Major Scale")
+   "A Escala Maior")
 (rk_move_within_chords
-   "Moving Within Chords")
+   "Movendo-se Pelos Acordes")
 (rk_moving_between_chords
-   "Simple Chords")
+   "Acordes Simples")
 (rk_natural_minor_scale
-   "The Natural Minor Scale")
+   "A Escala Menor Natural")
 (rk_other_scales
-   "Advanced Scales")
+   "Escalas Avançadas")
 (rk_pentatonic_scale
-   "The Pentatonic Scale")
+   "A Escala Pentatônica")
 (rk_simple_scale_1
-   "Simple Scales")
+   "Escalas Simples")
 (rk_simple_scale_2
-   "More Simple Scales")
+   "Mais Escalas Simples")
 (rk_trills
    "Trills")
 (roadiejacket_satin
@@ -26047,31 +26047,31 @@
 (trainer_progtr_strumgems_3_info
    "The strings you should be strumming are indicated by the highlighted sections of the chord. Avoid strumming the non-highlighted sections.")
 (trainer_prokey_3note_chords_arpeggios_2_1
-   "More 3-Note Chords and Arpeggios #1")
+   "Mais Acordes e Arpeggios com 3 Notas #1")
 (trainer_prokey_3note_chords_arpeggios_2_1_info
    "Play these patterns using only your thumb, index finger, and pinky.")
 (trainer_prokey_3note_chords_arpeggios_2_2
-   "More 3-Note Chords and Arpeggios #2")
+   "Mais Acordes e Arpeggios com 3 Notas #2")
 (trainer_prokey_3note_chords_arpeggios_2_2_info
    "Play this progression using your thumb, middle finger, and pinky. Shift your hand down to the D to play the lower chords.")
 (trainer_prokey_3note_chords_arpeggios_2_3
-   "More 3-Note Chords and Arpeggios #3")
+   "Mais Acordes e Arpeggios com 3 Notas #3")
 (trainer_prokey_3note_chords_arpeggios_2_3_info
    "Play this arpeggio with your thumb, middle finger and pinky.")
 (trainer_prokey_3note_chords_arpeggios_2_4
-   "More 3-Note Chords and Arpeggios #4")
+   "Mais Acordes e Arpeggios com 3 Notas #4")
 (trainer_prokey_3note_chords_arpeggios_2_4_info
    "This is similar to the arpeggio in the previous lesson, but instead of playing arpeggios, you'll be playing chords. Play the chord with your thumb, middle finger, and pinky.")
 (trainer_prokey_3note_chords_arpeggios_2_5
-   "More 3-Note Chords and Arpeggios #5")
+   "Mais Acordes e Arpeggios com 3 Notas #5")
 (trainer_prokey_3note_chords_arpeggios_2_5_info
    "Try playing the chords with your thumb middle and pinky fingers. You may have to stretch in order to reach with your pinky.")
 (trainer_prokey_3note_chords_arpeggios_2_6
-   "More 3-Note Chords and Arpeggios #6")
+   "Mais Acordes e Arpeggios com 3 Notas #6")
 (trainer_prokey_3note_chords_arpeggios_2_6_info
    "This chord exercise combines many of the chords you've just learned.")
 (trainer_prokey_3note_chords_arpeggios_2_7
-   "More 3-Note Chords and Arpeggios #7")
+   "Mais Acordes e Arpeggios com 3 Notas #7")
 (trainer_prokey_3note_chords_arpeggios_2_7_info
    "Keep your thumb on the Bb and play through this chord progression using the intervals you just learned.")
 (trainer_prokey_3note_chords_arps_1_1
