@@ -1,1214 +1,433 @@
 #include dx_version.dta
-#ifdef RB3E
-(main_menu_welcome
-   "Bem-vindo ao Rock Band 3 Deluxe + RB3Enhanced!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe e RB3Enhanced são MODs gratuítos, se você pagou por estes MODs, você foi vítima de um golpe!")
-#else
-(main_menu_welcome
-   "Bem-vindo ao Rock Band 3 Deluxe!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe é um MOD desenvolvido pelo grupo MiloHax, se você pagou por estes MODs, você foi vítima de um golpe!")
-#endif
-(relative_writes_warn
-   "AVISO\n\nRock Band 3 Deluxe não poderá salvar apropriadamente suas configurações porque a opção de escrever arquivos relativos ao caminho do seu PC está desabilitado no Xenia.\n\nVá no arquivo de configuração do Xenia (xenia-canary.config.toml) e mude o valor da chave 'allow_game_relative_writes' para TRUE (verdadeiro).")
-(audition_no_rock_central
-   "O Modo Audition requer uma coneção com os servidores do jogo, mas os servidores não estão disponíveis no momento. Por favor, tente novamente mais tarde.")
-(dx_continue
-   "Let's Rock!")
-(dx_iunderstand
-   "Eu Entendo")
-(calibration_skip
-   "Continuar")
-(debug_mode_enabled_modal
-   "O Modo Debug está agora ativado!\n\nNo finalzinho das 'Opções Deluxe', você encontrará 'Opções Modo Debug'.\n\nNão toque em coisa alguma destas opções ao menos que você saiba o que está fazendo ou foi instruído sobre.\n\nO Modo Debug pode também ser desativado por lá mesmo.")
+
+; Additional extras
+(os_screensaver "Bloqueio de Tela")
+(overshell_freecam "Alternar Câmera")
+(overshell_freecam_desc "Alterna entre ajustes de Câmera Debug durante o jogo")
+(overshell_reboot "Reiniciar Jogo")
+(refresh_library "Recarregar Músicas")
 (report_song_location "Reportar Localização da Música")
-(cal_audio_desc_drum
-   "Este teste determina a quantidade de Latência no Áudio do seu sistema. Toda vez que você ouvir um tique, bata no pad verde.")
-(cal_audio_desc_guitar
-   "Este teste determina a quantidade de Latência no Áudio do seu sistema. Toda vez que você ouvir um tique, palhete.")
-#ifdef HX_PS3
-(cal_audio_desc_pad
-   "Este teste determina a quantidade de Latência no Áudio do seu sistema. Toda vez que você ouvir um tique, pressione o botão X.")
-#endif
-#ifdef HX_XBOX
-(cal_audio_desc_pad
-   "Este teste determina a quantidade de Latência no Áudio do seu sistema. Toda vez que você ouvir um tique, pressione o botão A.")
-#endif
-#ifdef HX_PC
-(cal_audio_desc_pad
-   "Este teste determina a quantidade de Latência no Áudio do seu sistema. Toda vez que você ouvir um tique, pressione o botão A.")
-#endif
-(dx_track_speed_locked "O Menu de Vel. Pista não pode ser acessado jogando online.")
-(dx_track_speed_desc "A Velocidade Suicída é equivamente à 150% de Velocidade da Pista")
-;server stuff
-;gocentral
-(go_overshell_register_online "Jogar no GoCentral")
-(go_overshell_online_options "Opções do GoCentral")
-(go_main_menu_finding "Encontrando jogadores do GoCentral...")
-(go_waiting_for_remote_players "Esperando por jogadores do GoCentral...")
-(go_band_chooser_find "Encontrar Jogadores do GoCentral")
-;(go_linking_code_success "%s, enter this code at the GoCentral website (gocentral.rocks) to link your account:")
-;live
-(live_overshell_register_online "Jogar no Xbox LIVE")
-(live_overshell_online_options "Opções Xbox LIVE")
-(live_main_menu_finding "Encontrando Jogadores do Xbox LIVE...")
-(live_waiting_for_remote_players "Esperando por jogadores do Xbox LIVE...")
-(live_band_chooser_find "Encontrar Jogadores do Xbox LIVE")
-;liveless
-(liveless_overshell_register_online "Jogar no Liveless")
-(liveless_overshell_online_options "Opções Liveless")
-(liveless_main_menu_finding "Encontrando Jogadores do Liveless...")
-(liveless_waiting_for_remote_players "Esperando por jogadores do Liveless...")
-(liveless_band_chooser_find "Encontrar Jogadores do Liveless")
-;overshell
-(os_server_online "Localidade do Servidor: \qOnline\q")
-(os_server_live "Localidade do Servidor: \qXbox LIVE\q")
-(os_server_liveless "Localidade do Servidor: \qLiveless\q")
-(os_server_online_desc "Muda o texto utilizado nos modos online")
-(os_server_live_desc "Muda o texto utilizado nos modos online")
-(os_server_liveless_desc "Muda o texto utilizado nos modos online")
 
-(stringify "%s")
-(inst_icon_guitar "<alt>G</alt>")
-(inst_icon_bass "<alt>B</alt>")
-(inst_icon_drum "<alt>D</alt>")
-(inst_icon_keys "<alt>K</alt>")
-(inst_icon_real_guitar "<alt>g</alt>")
-(inst_icon_real_bass "<alt>b</alt>")
-(inst_icon_real_drum "<alt>d</alt>")
-(inst_icon_real_keys "<alt>k</alt>")
-(inst_icon_vocals "<alt>V</alt>")
-(inst_icon_harm "<alt>3</alt>")
-(inst_icon_harm2 "<alt>2</alt>")
-(inst_icon_harm3 "<alt>3</alt>")
-(dx_highscore_best " Nova Melhor Pontuação Pessoal!")
-(dx_diff_0 "<alt>B</alt>")
-(dx_diff_1 "<alt>G</alt>")
-(dx_diff_2 "<alt>D</alt>")
-(dx_diff_3 "<alt>V</alt>")
-(dx_diff_4 "<alt>K</alt>")
-(dx_diff_5 "<alt>2</alt>")
-(dx_diff_6 "<alt>3</alt>")
-(dx_diff_7 "<alt>k</alt>")
-(song_progress_backer "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-(overshell_dx_quick_chat "Quick Chat +")
-(overshell_gamercard_users " ")
-(print_platform "Verificar Plataforma")
-(platform_ps3 "Plataforma Detectada: PlayStation 3")
-(platform_rpcs3 "Plataforma Detectada: RPCS3")
-(platform_xbox "Plataforma Detectada: Xbox 360")
-(platform_xbox_rb3e "Plataforma Detectada: Xbox 360 com RB3Enhanced")
-(platform_xenia_rb3e "Plataforma Detectada: Xenia com RB3Enhanced")
-(platform_wii "Plataforma Detectada: Wii")
-(platform_wii_rb3e "Plataforma Detectada: Wii com RB3Enhanced")
-(platform_dolphin_rb3e "Plataforma Detectada: Dolphin com RB3Enhanced")
-(platform_unknown "Plataforma Detectada: Desconhecida")
-(unknown "Desconhecido")
-(pro_keys "Teclado PRO")
-; Menu backgrounds
-(song_transitions "Transições de Música")
-(career_transitions "Transições da Carreira")
-(other_transitions "Outras Transições")
-(sv4_array "BG Biblioteca de Músicas")
-(sv7_array "BG do Menu Principal")
-(shuffle_all "Embaralhar Todos")
-(sv2_a "Loja de Música")
-(sv3_a "Baboon Nest")
-(sv3_b "Deserto Abandonado")
-(sv4_a "Viagem de Van")
-(sv4_b "Viagem de Ônibus")
-(sv4_c "Viagem de Jatinho")
-(sv4_d "Metrô")
-(sv4_e "Viagem de Limosine")
-(sv5_a "Espaço de Prática")
-(sv7_a "Trilhos do Trem")
-(sv7_b "Sacada")
-(sv7_c "Stoop Stairs")
-(sv8_a "Splash Screen")
-(sv8_a_dx "Tela do Deluxe")
-(tv1_a "Loja de Música")
-(tv3_a "Transição de Música 1")
-(tv3_b "Transição de Música 2")
-(tv3_c "Transição de Música 3")
-(tv3_d "Transição de Música 4")
-(tv3_e "Transição de Música 5")
-(tv3_f "Transição de Música 6")
-(tv4_a "Trans. do Metrô")
-(tv4_b "Trans. da Van")
-(tv4_c "Trans. do Ônibus")
-(tv4_d "Trans. Jatinho 1")
-(tv4_e "Trans. Jatinho 2")
-(tv5_a "Trans. Empacotando")
-(tv6_a "Trans. do Beco")
-(tv11_a "Trans. do Táxi")
-; Venues
-(random
-   "[Aleátorio]")
-(arena_venues
-   "Palcos Arena")
-(arena_01
-   "Wilshire Forum")
-(arena_02
-   "The Rockacabana")
-(arena_03
-   "Gorilla Dome")
-(arena_04
-   "Dynamite Palace")
-(arena_06
-   "Penfold Dome")
-(arena_07
-   "Das Krapfentheater")
-(arena_10
-   "Echo Hangar")
-(arena_11
-   "The Manor")
-(arena_12
-   "Abazan Arena")
-(big_venues
-   "Palco Clube Grande")
-(big_club_01
-   "Ramp Arts")
-(big_club_02
-   "Orion Lounge")
-(big_club_04
-   "The Quarter Hole")
-(big_club_05
-   "The Snake Pit")
-(big_club_06
-   "The Establishment")
-(big_club_07
-   "Gas Works Tavern")
-(big_club_08
-   "Saville Row")
-(big_club_09
-   "Roche De Planète")
-(big_club_10
-   "Klub Weisbrot")
-(big_club_11
-   "Mjolnir Lodge")
-(big_club_12
-   "Discoteca di Luce")
-(big_club_13
-   "Teatro Fantasma")
-(big_club_14
-   "Gasolina")
-(big_club_15
-   "Chronos Club")
-(big_club_17
-   "The Bison Room")
-(festival_venues
-   "Palcos Festivais")
-(festival_01
-   "Sydney, Austrália")
-(festival_02
-   "San Diego, CA")
-(small_venues
-   "Palcos Clubes Pequenos")
-(small_club_01
-   "Charles Pub")
-(small_club_02
-   "The Wall")
-(small_club_03
-   "Heebie Jeebie's")
-(small_club_04
-   "El Ocho")
-(small_club_05
-   "Jimmy Astros")
-(small_club_06
-   "De Magische Tuin")
-(small_club_10
-   "Stockholm Syndrome")
-(small_club_11
-   "Alice's Free Love Cafe")
-(small_club_13
-   "Cheap Shot Records")
-(small_club_14
-   "Sweaty's BBQ")
-(small_club_15
-   "18 W. 7th St.")
-(tour_city_arcade
-   "The Quarter Hole")
-(tour_city_bigclub
-   "a Big Club")
-(tour_city_boston
-   "Boston, MA")
-(tour_city_cafe
-   "a Café")
-(tour_city_glasgow
-   "Glasgow, Escócia")
-(tour_city_hartford
-   "Hartford, CT")
-(tour_city_lasvegas
-   "Las Vegas, NV")
-(tour_city_localdive
-   "Weeknight show, Cranky Bill's Dive Bar")
-(tour_city_paris
-   "Paris, França")
-(tour_city_providence
-   "Providence, RI")
-(tour_city_seattle
-   "Seattle, WA")
-(tour_city_shanghai
-   "Xangai, China")
-(venues_video
-   "Palcos de Clipes")
-(video_01
-   "Clipe 1")
-(video_02
-   "Clipe 2")
-(video_03
-   "Clipe 3")
-(video_04
-   "Clipe 4")
-(video_05
-   "Clipe 5")
-(video_06
-   "Clipe 6")
-(video_07
-   "Clipe 7")
+; Audio & SFX
+(dx_none "[Nenhum]")
+(goul-nug_fc "[Padrão]")
+(os_audio_ambience_off "SFX Ambiente: OFF")
+(os_audio_ambience_off_desc "Habilita/desabilita o efeito sonoro de ambiente na Biblio. de Músicas")
+(os_audio_ambience_on "SFX Ambiente: ON")
+(os_audio_ambience_on_desc "Habilita/desabilita o efeito sonoro de ambiente na Biblio. de Músicas")
+(os_audio_instsfx_off "SFX Seleção: OFF")
+(os_audio_instsfx_off_desc "Habilita/desabilita o som de seleção de qualquer opção nos menus")
+(os_audio_instsfx_on "SFX Seleção: ON")
+(os_audio_instsfx_on_desc "Habilita/desabilita o som de seleção de qualquer opção nos menus")
+(os_audio_sfx "Áudio e SFX")
+(os_audio_sfx_desc "Opções relacionadas ao áudio do jogo para os mais engomados")
+(os_cyclefx "Alternar SFX Guitarra")
+(os_cyclefx_chorus "Efeito: Chorus")
+(os_cyclefx_chorus_desc "O efeito da guitarra foi trocado para\nCHORUS")
+(os_cyclefx_delay "Efeito: Eco")
+(os_cyclefx_delay_desc "O efeito da guitarra foi trocado para\nECO")
+(os_cyclefx_desc "Alterna entre diferentes efeitos sonoros na guitarra quando ativa o Overdrive.")
+(os_cyclefx_do_nothing "Efeito: Padrão")
+(os_cyclefx_do_nothing_desc "O efeito da guitarra irá se comportar de modo padrão")
+(os_cyclefx_flanger "Efeito: Flanger")
+(os_cyclefx_flanger_desc "O efeito da guitarra foi trocado para\nFLANGER")
+(os_cyclefx_none "Efeito: Nenhum")
+(os_cyclefx_none_desc "O efeito da guitarra foi\DESABILITADO")
+(os_cyclefx_wah "Efeito: Wah-Wah")
+(os_cyclefx_wah_desc "O efeito da guitarra foi trocado para\nWAH-WAH")
+(os_fcaudio "SFX de FC...")
+(os_fcaudio_desc "Seleciona qual som vai tocar quando você conseguir fazer FC numa música")
+(os_jurgen_sound_off "Insultos do Jurgen: OFF")
+(os_jurgen_sound_off_desc "Habilita/desabilita o SFX de insultos do Jurgen quando você consegue uma pontuação ruim na Tela de Resultados")
+(os_jurgen_sound_on "Insultos do Jurgen: ON")
+(os_jurgen_sound_on_desc "Habilita/desabilita o SFX de insultos do Jurgen quando você consegue uma pontuação ruim na Tela de Resultados")
+(os_nice_sound_off "69% Nice: OFF")
+(os_nice_sound_on "69% Nice: ON")
+(os_scroll_sound_off "SFX Rolagem: OFF")
+(os_scroll_sound_off_desc "Habilita/desabilita o som de rolagem das listas em qualquer menu")
+(os_scroll_sound_on "SFX Rolagem: ON")
+(os_scroll_sound_on_desc "Habilita/desabilita o som de rolagem das listas em qualquer menu")
+(os_toggle_synth "Som do Instrumento PRO")
+(os_toggle_synth_desc "Habilita/desabilita o playback do sintetizador quando você utilizar um Teclado pro Guitarra PRO")
+(os_whammy_fx_off "SFX Whammy: OFF")
+(os_whammy_fx_off_desc "Habilita/desabilita o efeito da barra de Whammy")
+(os_whammy_fx_on "SFX Whammy: ON")
+(os_whammy_fx_on_desc "Habilita/desabilita o efeito da barra de Whammy")
 
+; Autoplay
+(os_auto_endurance_off "Auto Song: No")
+(os_auto_endurance_random "Auto Song: Random")
+(os_auto_endurance_selected "Auto Song: Selection")
+(os_dx_auto_endgame_off "Auto Next: No")
+(os_dx_auto_endgame_on "Auto Next: Yes")
+(os_dx_bot_1_off "Player 1: No")
+(os_dx_bot_2_off "Player 2: No")
+(os_dx_bot_3_off "Player 3: No")
+(os_dx_bot_4_off "Player 4: No")
+(os_dx_bot_5_off "Player 5: No")
+(os_dx_bot_1_on "Player 1: Yes")
+(os_dx_bot_2_on "Player 2: Yes")
+(os_dx_bot_3_on "Player 3: Yes")
+(os_dx_bot_4_on "Player 4: Yes")
+(os_dx_bot_5_on "Player 5: Yes")
+(os_dx_bot_skill "Precisão")
+(os_dx_bot_overdrive_drain "Overdrive: Drain")
+(os_dx_bot_overdrive_off "Overdrive: No")
+(os_dx_bot_overdrive_on "Overdrive: Yes")
+(overshell_dx_bot_settings "Config Autoplay")
+
+; Calibration
+(os_calibrate_audio "A: %d")
+(os_calibrate_audio_setting "-  A: %d  +")
+(os_calibrate_video "V: %d")
+(os_calibrate_video_setting "-  V: %d  +")
+(os_exit_cal_one "Pressione START para")
+(os_exit_cal_two "sair deste menu")
+
+; Custom Band Goals
+(acc_dx_2112 "Não se Enquadra no Plano")
+(acc_dx_2112_desc "Conquiste 5 <alt>*</alt> na música \q2112\q.")
+(acc_dx_4kingsofmetal "Os 4 Reis do Metal")
+(acc_dx_4kingsofmetal_desc "Conquiste 5 <alt>*</alt> em todas as músicas das bandas: \qMetallica\q, \qMegadeth\q, \qAnthrax\q, e \qSlayer\q.")
+(acc_dx_a_final_encore "Relembre os Clássicos")
+(acc_dx_a_final_encore_desc "Conquiste 5 <alt>*</alt> nestes clássicos na dificuldade Expert.")
+(acc_dx_americanpie "O Dia que a Música Morreu")
+(acc_dx_americanpie_desc "Acerte 100% das notas na música \qAmerican Pie\q e se despeça.")
+(acc_dx_bangcamaro "Banging in the Camaro")
+(acc_dx_bangcamaro_desc "Conquiste pelo menos 4 <alt>*</alt> em cada música da banda Bang Camaro.")
+(acc_dx_beginning "Pronto pra Arrasar")
+(acc_dx_beginning_desc "Conquiste 5 <alt>*</alt> nestas músicas do começo do Guitar Hero e Rock Band.")
+(acc_dx_blacksabbath "O Nascimento do Metal")
+(acc_dx_blacksabbath_desc "Conquiste 5 <alt>*</alt> em todas as músicas do Black Sabbath na dificuldade Expert.")
+(acc_dx_bloodsugar "Sangue Açucar Sexo Magia")
+(acc_dx_bloodsugar_desc "Toque todas as músicas do álbum \qBlood Sugar Sex Magik\q.")
+(acc_dx_box "O Que Há Dentro da Caixa?")
+(acc_dx_box_desc "Conquiste 5 <alt>*</alt> em cada música com a palavra \qbox\q (caixa) no título.")
+(acc_dx_brony "Fã Número 1 de Pôneis")
+(acc_dx_brony_desc "Beat every song relating to My Little Pony.")
+(acc_dx_carlathf "Awsome! Friggin' Awesome!")
+(acc_dx_carlathf_desc "Make Carl Brutananadilewski proud by rocking out and getting 5 <alt>*</alt> on The Setlist of Ultimate Ultimateness!")
+(acc_dx_chinesedemo "Chuva de Novembro")
+(acc_dx_chinesedemo_desc "Jogue todas as músicas do álbum \qChinese Democracy\q, do Guns n' Roses.")
+(acc_dx_coverband "Banda Cover")
+(acc_dx_coverband_desc "Conquiste 5 <alt>*</alt> em cada música oficial do grupo WaveGroup.")
+(acc_dx_deluxe "De-luxe")
+(acc_dx_deluxe_desc "Conquiste 5 <alt>*</alt> na música \qDe-Luxe\q.")
+(acc_dx_dragonforce "Lendas do Power Metal")
+(acc_dx_dragonforce_desc "Conquiste 5 <alt>*</alt> em todas as músicas da banda DragonForce.")
+(acc_dx_eurovision "Eurovision 2006")
+(acc_dx_eurovision_desc "Conquiste 5 <alt>=</alt> na música \qHard Rock Hallelujah\q.")
+(acc_dx_fatkid "Nada Mal")
+(acc_dx_fatkid_desc "Conquiste 5 <alt>*</alt> na música \qFat Kid\q, da banda \qNothing More\q.")
+(acc_dx_feelgood "Se Sinta Bem")
+(acc_dx_feelgood_desc "Abraçe seu Mick Mars interior e conquiste 5 <alt>*</alt> em todas as músicas do álbum \qDr. Feelgood\q.")
+(acc_dx_greenstar "A Estrela Verde!")
+(acc_dx_greenstar_desc "Conquiste 5 <alt>=</alt> na música \qGreen Grass and High Tides\q na dificuldade Expert.")
+(acc_dx_guitarssuck "Não às Guitarras Elétricas!")
+(acc_dx_guitarssuck_desc "Conquiste 5 <alt>=</alt> na música \qGuitars SUCK\q em qualquer instrumento que não seja a Guitarra.")
+#ifdef HX_WII
+(acc_dlc_harddrivefiller "Populador de Cartão SD")
+(acc_dlc_harddrivefiller_desc "Você já teria enchido um cartão SD (de tamanho considerável) com as músicas que tu já tem! Depois de jogar todas elas, entre em contato com o usuário @deliciousbees no Twitter/X para um presente de agradecimento!")
+#endif
+(acc_dx_hourglass "Se Sentindo Como o StephGH1")
+(acc_dx_hourglass_desc "Conquiste 5 <alt>*</alt> na música \qHourglass Part II\q, já que o jogador StephGH1 foi o primeiro a conseguir FC nela.")
+(acc_dx_hugh "Hugh.")
+(acc_dx_hugh_desc "Earn 5 <alt>=</alt> on these favorite songs of everybody's favorite rabble rousing rascal.")
+(acc_dx_imagine "Imagine TODAS as Pessoas")
+(acc_dx_imagine_desc "Conquiste 5 <alt>*</alt> em todas as músicas do álbum \qImagine\q, do John Lennon.")
+(acc_dx_infected "Nações Infectadas")
+(acc_dx_infected_desc "Become pure Evile as you 5 <alt>*</alt> the entire Infected Nations album on Expert")
+(acc_dx_ironmaiden "Dama de Ferro")
+(acc_dx_ironmaiden_desc "Conquiste 5 <alt>*</alt> em todas as músicas da banda Iron Maiden.")
+(acc_dx_memes "Você Foi Trollado!")
+(acc_dx_memes_desc "Conquiste 5 <alt>*</alt> nestas músicas de meme.")
+(acc_dx_moonites "Revenge of the Moonities")
+(acc_dx_moonites_desc "Rock out to the Foreigner songs used by the Moonities to wreak havoc against the Aqua Teens in Aqua Teen Hunger Force Sunday Nights at 11 on Adult Swim")
+(acc_dx_original "Objetivo das Músicas Originais")
+(acc_dx_original_desc "Conquiste 5 <alt>*</alt> em todas as músicas \qOriginal Version\q na dificuldade Expert.")
+(acc_dx_panicswitch "Sem Pânico!..")
+(acc_dx_panicswitch_desc "Jogue a música \qPanic Switch\q com uma banda completa.")
+(acc_dx_peacesells "Compre Sua Paz!")
+(acc_dx_peacesells_desc "Conquiste 5 <alt>*</alt> em todas as músicas do álbum \qPeace Sells... but Who's Buying?\q.")
+(acc_dx_proskater "Skatista Profisional")
+(acc_dx_proskater_desc "Jogue todas as 19 músicas que aparecem como trilha sonora na franquia \qTony Hawk\q.")
+(acc_dx_rb1wii "Privilégios da Nintendo")
+(acc_dx_rb1wii_desc "Acerte 100% das notas em todas as músicas exclusivas do Rock Band original no Wii.")
+(acc_dx_rb3devkit "O Valor de um Protótipo")
+(acc_dx_rb3devkit_desc "Conquiste 5 <alt>=</alt> em todas as músicas protótipos encontradas no Development Kit do Rock Band 3 para o Wii!")
+(acc_dx_rbnmegamix "Promovendo Novas Músicas")
+(acc_dx_rbnmegamix_desc "Complete a música \qRock Band Network Megamix 01\q.")
+(acc_dx_sixsixsix "O Número da Besta")
+(acc_dx_sixsixsix_desc "Consiga um Streak de Notas de 666 ou mais na música\q666\q.")
+(acc_dx_smashmouth "Aquela Banda da Música do Shrek")
+(acc_dx_smashmouth_desc "Conquiste 5 <alt>*</alt> em todas as músicas da banda Smash Mouth.")
+(acc_dx_southpark "MATARAM O KENNY!!!")
+(acc_dx_southpark_desc "Conquiste 5 <alt>*</alt> em cada música do South Park.")
+(acc_dx_speedingticket "Speeding Ticket")
+(acc_dx_speedingticket_desc "Earn 5 <alt>*</alt> on these slammin' tracks (and make sure to obey local speed regulations)!")
+(acc_dx_spongebob "Vive no Abacaxi e Mora do Mar")
+(acc_dx_spongebob_desc "Conquiste 5 <alt>*</alt> em todas as músicas do Bob Esponja Calça Quadrada.")
+(acc_dx_stoner "Conquista de Fumante")
+(acc_dx_stoner_desc "Conquiste 5 <alt>*</alt> nestas músicas de fumante (não disse de quê).")
+(acc_dx_strumsaga "A Saga da Palhetada")
+(acc_dx_strumsaga_desc "Tente não desenvolver uma síndrome do túnel do carpo tentando conquistar 5 <alt>*</alt> nas seguintes músicas na Guitarra na dificuldade Expert.")
+(acc_dx_strumsaga_rbn "A Saga da Palhetada: RBN")
+(acc_dx_strumsaga_rbn_desc "Conquiste 5 <alt>*</alt> nestas músicas sádicas da Rock Band Network na Guitarra na dificuldade Expert, para você ter certeza que não só a Harmonix é capaz de sentir ódio pelos jogadores.")
+(acc_dx_thegame "Você Acabou de Perder...")
+(acc_dx_thegame_desc "Acerte 100% das notas na música \qThe Game\q\n((O JOGO)).")
+
+; Custom Bass Goals
+(acc_dx_thiefinnightbass "O Baixo da Noite")
+(acc_dx_thiefinnightbass_desc "Conquiste 5 <alt>*</alt> na música \qThe Thief in the Night - Part II\q no Baixo na dificuldade Expert.")
+
+; Custom Drum Goals
+(acc_dx_slipknotpro "Joey Jordison de Coração PRO")
+(acc_dx_slipknot_desc "Conquiste 5 <alt>*</alt> em cada música do Slipknot na Bateria.")
+(acc_dx_treacherywilldiepro "Pernas de Aço")
+(acc_dx_treacherywilldie_desc "Conquiste 5 <alt>*</alt> na música \qYour Treachery Will Die with You\q na dificuldade Expert.")
+
+; Custom Goal Category Locale
+(acc_cat_band_dx "Objetivos Deluxe")
+(acc_cat_band_trackpack "Track Packs")
+(acc_cat_bass_dx "Objetivos Deluxe")
+(acc_cat_drums_dx "Objetivos Deluxe")
+(acc_cat_guitar_dx "Objetivos Deluxe")
+(acc_cat_harmonyvox_dx "Objetivos Deluxe")
+(acc_cat_prodrums_dx "Objetivos Deluxe")
+(acc_cat_prokeys_dx "Objetivos Deluxe")
+(acc_cat_vox_dx "Objetivos Deluxe")
+
+; Custom Guitar Goals
+(acc_dx_constantmotion "Movimentação Constante")
+(acc_dx_constantmotion_desc "Acerte 100% das notas do solo de Guitarra na música \qConstant Motion\q na dificuldade Expert.")
+(acc_dx_eastjesus "Aonde Está Jesus Cristo?")
+(acc_dx_eastjesus_desc "Conquiste 5 <alt>=</alt> na música \qEast Jesus Nowhere\q na Guitarra na dificuldade Expert.")
+(acc_dx_gamewithzombies "V0CÊ C0MPL3T0U UM J0G0 C0M ZUMB1S N3L3 !!!1")
+(acc_dx_gamewithzombies_desc "Acerte 100% das notas na música \qI MAED A GAM3 W1TH Z0MB1ES 1N IT !!!1\q na Guitarra na dificuldade Expert.")
+(acc_dx_guitarssuckguitar "Talvez um Sim às Guitarras Elétricas?!")
+(acc_dx_guitarssuckguitar_desc "Conquiste 5 <alt>*</alt> na música \qGuitars SUCK\q na Guitarra na dificuldade Expert.")
+(acc_dx_kingofmetal "Rei do Metal")
+(acc_dx_kingofmetal_desc "Conquiste 5 <alt>*</alt> nestas músicas clássicas do Metal na Guitarra na dificuldade Expert.")
+
+
+(acc_dx_ttfaf "À Prova de Fogo")
+(acc_dx_ttfaf_desc "Toque a música \qThrough the Fire and Flames\q na Guitarra na dificuldade Expert.")
+(acc_dx_tweezer "Tio Ebenezer")
+(acc_dx_tweezer_desc "Acerte 95% ou mais na música \qTweezer\q na Guitarra na dificuldade Expert.")
+(acc_dx_xbox "Supremacia do Xbox")
+(acc_dx_xbox_desc "Conquiste 5 <alt>*</alt> nestas músicas exclusivas do Guitar Hero II do Xbox 360.")
+
+; Custom Harms Goals
+(acc_dx_beegees "O Que Você Está Fazendo Com Suas Costas?")
+(acc_dx_beegees_desc "Conquiste 5 <alt>=</alt> na música \qYou Should Be Dancing\q nas Harmonias na dificuldade Expert.")
+
+; Custom Modifiers
+(enable_popup_help_desc "Modais serão mostrados dentro do jogo para ajudar novos jogadores\nEx.: Lembrar bateiristas de usar o pedal do bumbo")
+(mod_auto_kick "Auto Kick")
+(mod_auto_kick_desc "Sua bateria não tem o pedal do bumbo? Sem problemas!")
+(mod_auto_play "Autoplay")
+(mod_auto_play_desc "Habilita o Autoplay (perfeito para testar charts!)")
+(mod_awesome_desc "Deixe MiloHax saber que você realmente é incrível!")
+(mod_brutalmode "Modo Brutal")
+(mod_brutalmode_desc "Ajusta dinâmicamente a visualização das notas enquanto você joga")
+(mod_calibration "Modo Calibragem")
+(mod_calibration_desc "Hitbox extremamente precisa para ajudar na calibragem!")
+(mod_chmode_short "Modo Bêbado")
+(mod_chmode_desc "Afrouxa drasticamente a Hitbox")
+(mod_chord_numbers_desc "Mostra a casa de todas as cordas num acorde na Guitarra/Baixo PRO")
+(mod_doublespeed_1.25x "Vel. Suicída 1.25x")
+(mod_drum_fills_desc "Ative o Overdrive com viradas de bateria")
+(mod_drum_surface_navigation_desc "Navegue os menus com os pads da bateria")
+(mod_dx_no_overdrive "Desativar Overdrive")
+(mod_dx_no_overdrive_desc "Desabilita o Overdrive dentro do jogo")
+(mod_fakejuke "Modo Jukebox")
+(mod_fakejuke_desc "Observe sua banda arrasar no palco!")
+(mod_fastermode "Modo Aceleração")
+(mod_fastermode_desc "Faz a música acelerar a cada vez que tu acerta uma nota!")
+(mod_fastermode_topspeed "Top Speed")
+(mod_highlight_key "Sinalizar Tom Teclado PRO")
+(mod_highlight_key_desc "Ilumina a pista das notas que são da escala da música tocada")
+(modifier_song_load "Este modificador não terá efeito até você voltar ao Menu Principal e escolher uma nova música. Voltar ao Menu Principal agora?")
+(mod_independent_track_speeds_desc "Previne que a velocidade das pistas sincronize com a dificuldade mais baixa")
+(mod_mhx_color_shuffle "Alternar Cor das Notas")
+(mod_mhx_color_shuffle_desc "Randomiza as cores das notas!")
+(mod_miss_sounds_desc "Toca um efeito sonoro quando você erra uma nota")
+(mod_nobre "Sem Finais Triunfantes")
+(mod_nolanes "Sem Lanes")
+(mod_nolanes_desc "Desabilita Lanes dentro do jogo")
+(mod_nopause "Party Play")
+(mod_nopause_desc "Previne que a música pare de tocar quando você pausa dentro do jogo")
+(mod_perfection "Modo Perfeição")
+(mod_perfection_desc "Recomeça a música ou sessão quando você erra uma nota ou dá overstrumming/ghost note")
+(mod_practiceoverdrive "Overdrive no Modo Prática")
+(mod_practiceoverdrive_desc "Habilita o Overdrive no Modo Prática")
+(mod_precision "Modo Precisão")
+(mod_precision_desc "Aperta a Hitbox e força você a jogar mais precisamente!")
+(mod_rb4lanes "Lanes do RB4")
+(mod_rb4lanes_desc "Deixa a Hitbox das Lanes mais frouxas como no Rock Band 4")
+(mod_remote_texture_sync "Sincron. Texturas Online")
+(mod_remote_texture_sync_desc "Mostra o tema único das pistas de cada jogador em sessões online")
+(mod_static_fills "Auto-Ativação na Bateria")
+(mod_static_fills_desc "Ativa automaticamente o Overdrive na Bateria")
+(mod_synced_track_speeds "Sincron. Vel. das Dificuldades")
+(mod_synced_track_speeds_desc "Todas as pistas terão a velocidade da dificuldade Expert, não importa qual dificuldade tu jogará")
+(os_reboot "Reiniciar Jogo")
+(os_reboot_desc "Reinicie completamente o jogo")
+#ifdef RB3E ; RB3Enhanced specific modifiers
+(mod_black_background "BG Preto")
+(mod_black_background_desc "Desabilita as cenas 3D e o palco dentro do jogo")
+(mod_color_shuffle "Alternar Cor das Notas")
+(mod_color_shuffle_desc "Randomiza as cores das notas!")
+(mod_double_bass_desc "Habilita o pedal duplo nas charts de Bateria")
+(mod_force_hopos "Forçar HOPOs")
+(mod_force_hopos_desc "Todas as notas viram HOPO")
+(mod_gem_shuffle_desc "Notas completamente aleatórias")
+(mod_mirror_mode "Modo Espelhado (Apenas Guitarra)")
+(mod_mirror_mode_desc "Modo Canhoto sem ser canhoto!")
+(os_reboot "Reiniciar Jogo")
+(os_reboot_desc "Reinicie completamente o jogo")
+#endif
+
+; Custom Pro Drum Goals
+(acc_dx_dontmessaround "Sem Brincadeiras")
+(acc_dx_dontmessaround_desc "Conquiste 4 <alt>*</alt> ou mais na música \qBlack Magic Woman\q na Bateria PRO na dificuldade Expert.")
+(acc_dx_slipknotpro "Joey Jordison de Coração PRO")
+(acc_dx_slipknotpro_desc "Conquiste 5 <alt>*</alt> em cada música da banda Slipknot na Bateria PRO.")
+(acc_dx_treacherywilldiepro "Pernas de Aço")
+(acc_dx_treacherywilldiepro_desc "Conquiste 5 <alt>*</alt> na música \qYour Treachery Will Die with You\q na versão com Pedal Duplo na dificuldade Expert.")
+
+; Custom Pro Key Goals
+(acc_dx_brainpowerprokey "Super Sprøde")
+(acc_dx_brainpowerprokey_desc "Acerte 98% das notas ou mais na música \qBrainpower\q em qualquer instrumento.")
+
+; Custom Track Pack Goals
+(acc_dx_CTP2 "Rock Band Country Track Pack Volume 2")
+(acc_dx_CTP2_desc "Conquiste pelo menos 2 <alt>*</alt> em todas as 21 músicas do Rock Band Track Pack Volume 2.")
+(acc_dx_trackpack1 "Rock Band Track Pack Volume 1")
+(acc_dx_trackpack1_desc "Conquiste pelo menos 2 <alt>*</alt> em todas as 20 músicas do Rock Band Track Pack Volume 1.")
+
+; Custom Vocals Goals
+(acc_dx_gaybar "Não é a Luna")
+(acc_dx_gaybar_desc "Conquiste 5 <alt>*</alt> na música \qGay Bar\q no Vocal Solo na dificuldade Expert.")
+(acc_dx_nookie "Do it for the Nookie")
+(acc_dx_nookie_desc "Conquiste 5 <alt>*</alt> na música \qNookie\q no Vocal Solo na dificuldade Expert.")
+(acc_dx_queenofsouth "Rainha Conversadora")
+(acc_dx_queenofsouth_desc "Domine seu karaokê local com estes hits do Country cantado por mulheres.")
+(acc_dx_sex "SEXO! SEXO! SEXO! SEXO!")
+(acc_dx_sex_desc "Acerte 100% das notas na música \qSEX\q em qualquer instrumento na dificuldade Expert.")
+(acc_dx_slayqueen "Slay Queen")
+(acc_dx_slayqueen_desc "Conquiste o palco conquistando 5 <alt>*</alt> nestes hits no vocal.")
+(acc_dx_trynottolaugh "Músicas Toscas para Cantores Toscos")
+(acc_dx_trynottolaugh_desc "Tente não rir enquanto você conquista 5 <alt>*</alt> em cada uma destas músicas no Vocal Solo.")
+(acc_dx_walk "Músicas pra Cardio")
+(acc_dx_walk_desc "Faça um exercício enquanto você toca e conquista 5 <alt>*</alt> nestas músicas.")
+
+; Debug
+(debug_mode_enabled_modal "O Modo Debug está agora ativado!\n\nNo finalzinho das 'Opções Deluxe', você encontrará 'Opções Modo Debug'.\n\nNão toque em coisa alguma destas opções ao menos que você saiba o que está fazendo ou foi instruído sobre.\n\nO Modo Debug pode também ser desativado por lá mesmo.")
+(do_script "Run ace.dta")
+(generate_updates_dta "Gerar Updates pro YARG")
+(os_debug "Menu Debug")
+(os_debug_desc "Não toque em nada deste menu ao menos que você saiba o que está fazendo")
+(os_debug_mode "Modo Depuração: ON")
+(os_dumproot2 "Dump Root Array 2")
+(os_dumproot2 "Dump Root Array 2")
+(os_dx_himem_off "Large Heap: OFF")
+(os_dx_himem_on "Large Heap: ON")
+(os_dx_swap_gender_off "Inv. Gênero Itens: OFF")
+(os_dx_swap_gender_on "Inv. Gênero Itens: ON")
+(os_judgment_dbg_off "Debug Julgamentos: OFF")
+(os_judgment_dbg_on "Debug Julgamentos: ON")
+(os_time_remain_dbg_off "Time Remain Dbg: OFF")
+(os_time_remain_dbg_on "Time Remain Dbg: ON")
+(os_uptime "RB3DX Uptime")
+(print_hmx "Printar Milos Usados")
+(print_objects "Print Screen Objects")
+(rootarray_dumped "Current root array dumped to game folder.")
+(rootarray_dumped2 "Current root array dumped to individual array DTAs in game folder.")
+(songs_updates_generated "Updates pro YARG gerados")
+
+; Deluxe notifications
+(audition_no_rock_central "O Modo Audition requer uma coneção com os servidores do jogo, mas os servidores não estão disponíveis no momento. Por favor, tente novamente mais tarde.")
+(dx_continue "Let's Rock!")
+(dx_iunderstand "Eu Entendo")
+(localize_it "Hello! ¡Hola! Bonjour! Hallo! Ciao!\nVocê sabe falar em outro idioma?\nVocê gostaria de traduzir o RB3 Deluxe para seu idioma nativo?\nJunte-se ao Discord do grupo MiloHax para ajudar na luta contra a opressão linguística inglesa!\nIdiomas suportados pelo Rock Band 3: Espanhol, Francês, Alemão, Italiano.")
+(no_track_theme_found "Ocorreu um erro ao tentar carregar o Tema das Pistas do disco!")
+(os_iunderstand "OK")
+(os_takemeback "Voltar")
+(saving_disabled "Seu progresso no jogo não será salvo até o fim desta sessão")
+(settings_save "As Opções Deluxe e os Modificadores adicionais foram salvos com sucesso!")
+(track_theme_failed_writing "Ocorreu um erro ao tentar salvar o Tema das Pistas do disco!")
+(track_theme_successfully_loaded "Tema de pistas aplicado!")
+(track_theme_successfully_written "Tema das Pistas salva com sucesso!")
+(you_lost "Você Perdeu")
+
+; Event mode
+(dx_event_club_lbl "Rock Band 3 Deluxe é um MOD feito por fãs do jogo.\nDê uma olhada no site rb3dx.milohax.org\nou em nosso servidor do Discord: discord.gg/milohax")
+(dx_event_convention_lbl "!\n\nRock Band 3 Deluxe é um MOD feito por fãs do jogo.\nDê uma olhada no site rb3dx.milohax.org\nou em nosso servidor do Discord: discord.gg/milohax")
+(dx_event_mode_disable "[Desativar Modo Evento]")
+(dx_event_mode_welcome_msg "Bem-vindo ao Modo Evento!\n\nCertas coisas foram desabilitadas e mudadas para otimizar a experiência em festas e eventos públicos.\n\nQual a boa?\n\n")
+(os_event_options "Opções Modo Evento")
+(dx_event_set_club "Clube, Bar, Quiosque, etc.")
+(dx_event_set_convention "Convenção ou Eventos com Palco")
+(dx_event_set_party "Festa ou Baguncinha")
 (dx_freeplay "Free Play")
 (dx_freeplay_desc "Modo Free Play:\nEscolha uma música, e comece a jogar de imediato!")
 (dx_play_a_show_desc "Modo Play a Show:\nComece com uma música para a platéia, e então a banda vota em músicas para construir um repertório!")
-
-(os_event_options "Opções Modo Evento")
-
-(dx_event_mode_welcome_msg "Bem-vindo ao Modo Evento!\n\nCertas coisas foram desabilitadas e mudadas para otimizar a experiência em festas e eventos públicos.\n\nQual a boa?\n\n")
-(dx_event_set_party "Festa ou Baguncinha")
-(dx_event_set_club "Clube, Bar, Quiosque, etc.")
-(dx_event_set_convention "Convenção ou Eventos com Palco")
-(dx_event_mode_disable "[Desativar Modo Evento]")
-
-(dx_event_club_lbl "Rock Band 3 Deluxe é um MOD feito por fãs do jogo.\nDê uma olhada no site rb3dx.milohax.org\nou em nosso servidor do Discord: discord.gg/milohax")
 (dx_welcome_to "Bem-vindo ao ")
-(dx_event_convention_lbl "!\n\nRock Band 3 Deluxe é um MOD feito por fãs do jogo.\nDê uma olhada no site rb3dx.milohax.org\nou em nosso servidor do Discord: discord.gg/milohax")
-
-
 (dx_you_rock_msg "Você ARRASOU!")
 (dx_you_rock_club_msg "Você ARRASOU,\n")
 (dx_you_rock_convention_msg "Obrigado por jogar,\n")
 
-;new overshell
-(os_blnk " ")
-(press_to_load_meta "Segure <alt>b</alt> para carregar informações")
-;additional extras
-(os_cycle_camera "Altern. Câmera")
-(os_screensaver "Bloqueio de Tela")
-;deluxe settings
-(os_set_speeds "Alternar Veloc.")
-(os_set_speeds_desc "Alterne a velocidade das notas de cada pista individualmente e a velocidade da música tocada")
-(os_track_speeds_desc "Alterne a velocidade das notas de cada pista individualmente")
-(os_venue_options "Opções de Palco")
-(os_venue_options_desc "Mude o palco utilizado no Background das músicas, dos menus, e outras configurações relacionadas")
-(os_track_theme "Tema da Pista")
-(os_track_theme_desc "Personalize ao seu gosto o visual do jogo")
-(os_graphics "Gráficos")
-(os_graphics_desc "Controle processamentos gráficos específicos e de câmera")
-(os_audio_sfx "Áudio e SFX")
-(os_audio_sfx_desc "Opções relacionadas ao áudio do jogo para os mais engomados")
+; Functional options
+(os_additional_parts_off "Non-Standard Parts: OFF")
+(os_additional_parts_off_desc "Shows the default instruments during part selection\n(On by default Online)")
+(os_additional_parts_on "Non-Standard Parts: ON")
+(os_additional_parts_on_desc "Shows extra instruments during part selection\n(On by default Online)")
 (os_advanced "Advançado")
 (os_advanced_desc "Opções super específicas das quais um jogador casual talvez não precise mexer")
-(os_reboot "Reiniciar Jogo")
-(os_reboot_desc "Reinicie completamente o jogo")
-;set speeds
-(os_track_speeds "Vel. das Pistas")
-(os_acceleration_mode "Modo Aceleração")
-(os_song_speed "- Vel. da Música: %d% +")
-;track speeds
-(all_instruments "- Todos os Instrum. +")
-(os_trkspd_guitar "- Guitarra: %d% +")
-(os_trkspd_bass "- Baixo: %d% +")
-(os_trkspd_drum "- Bateria: %d% +")
-(os_trkspd_keys "- Teclado: %d% +")
-(os_trkspd_real_keys "- Teclado PRO: %d% +")
-(os_trkspd_real_guitar "- Guitarra PRO: %d% +")
-(os_trkspd_real_bass "- Baixo PRO: %d% +")
-;calibration
-(os_calibrate_video "V: %d")
-(os_calibrate_audio "A: %d")
-(os_calibrate_video_setting "-  V: %d  +")
-(os_calibrate_audio_setting "-  A: %d  +")
-(os_exit_cal_one "Pressione START para")
-(os_exit_cal_two "sair deste menu")
-;acceleration mode
-(os_fastermode_on "Modo Aceleração: ON")
-(os_fastermode_off "Modo Aceleração: OFF")
-(os_max_speed "- Vel. Máxima: %d% +")
-(os_song_rings_on "Ícones Dificul: Anéis")
-(os_song_rings_off "Ícones Dificul: Bolinhas")
-(os_song_rings_on_desc "Use anéis como ícones (estilo YARG)")
-(os_song_rings_off_desc "Use bolinhas como ícones (padrão RB3)")
-
-(os_more_info_toggle_on "Seg. Azul Metadados: ON")
-(os_more_info_toggle_off "Seg. Azul Metadados: OFF")
-(os_more_info_toggle_on_desc "Nunca carregar metadados extendidos na Biblioteca de Músicas ao menos que clique no botão azul")
-#ifdef HX_PS3
-(os_more_info_toggle_off_desc "Carrega automaticamente metadatos extendidos na Biblio. de Músicas (pode causar lag jogando em console)")
-#else
-(os_more_info_toggle_off_desc "Carrega automaticamente metadatos extendidos na Biblio. de Músicas (pode causar lag no Menu)")
-#endif
-
-(os_high_score_on "Aviso de Highscore Solo: ON")
-(os_high_score_off "Aviso de Highscore Solo: OFF")
-(os_high_score_on_desc "Notificar quando você bater sua pontuação salva no Single Player")
-(os_high_score_off_desc "Notificar quando você bater sua pontuação salva no Single Player")
-(high_song_count_warn "High song counts, especially with multiple players, have been known to cause instability issues after prolonged play-time. It is recommended to:\nStick to music video venues\nTurn off song transition cutscenes\nAvoid very long, 10 min+ songs\nOr lower your song count\nYou have been warned.\n\nTo disable this warning go to Deluxe Settings > Advanced > Functional Options > High Song Count Warning")
-;venue options
-(os_menu_backgrounds "Fundo dos Menus...")
-(os_menu_backgrounds_desc "Mude o Background dos menus")
-(os_venue "Selecionar Palco...")
-(os_venue_desc "Escolha aonde você vai botar pra quebrar ou fique focado com nenhum plano de fundo")
-(os_venue_desc_report "Palco Atual Selecionado:\n%s")
-(os_venue_intro_on "Intro Palco: ON")
-(os_venue_intro_on_desc "Mostra a cena dos personagens se preparando no começo das músicas")
-(os_venue_intro_off "Intro Palco: OFF")
-(os_venue_intro_off_desc "Pula a cena dos personagens se preparando no começo das músicas\n(desabilitado no Modo Online)")
-(os_enablemv_on "Clipes de Música: ON")
-(os_enablemv_on_desc "Permite que Clipes de Música (um tipo de palco) apareça na rotatividade de palco dentro do jogo")
-(os_enablemv_off "Clipes de Música: OFF")
-(os_enablemv_off_desc "Clipes de Música não aparecerão na rotatividade de palco dentro do jogo")
-(os_venue_swap_on "Alternar Palcos: ON")
-(os_venue_swap_off "Alternar Palcos: OFF")
-(os_venue_swap_on_desc "Agende um palco novo depois de qualquer música no meio do repertório")
-(os_venue_swap_off_desc "Termine um show no mesmo palco que tu começou tocando um repertório")
-(os_char_swap_on "Alter. Membros: ON")
-(os_char_swap_off "Alter. Membros: OFF")
-(os_char_swap_on_desc "Arrume novos membros de banda diferente depois de qualquer música no meio do repertório")
-(os_char_swap_off_desc "Continue com a mesmo membros de banda depois de qualquer música")
-;menu backgrounds
-(os_nobg_on "[Desabilitar Todos]")
-(os_nobg_on_desc "Background totalmente vazio nos menus")
-(os_nobg_off "[Habilitar Todos]")
-(os_nobg_off_desc "Reabilite o Background dos menus")
-(os_main_menu "Menu Principal")
-(os_main_menu_desc "Backgrounds para o menu principal")
-(os_song_select "Biblioteca de Música")
-(os_song_select_desc "Backgrounds para o Biblioteca de Músicas")
-(os_load_song "Trans. de Músicas")
-(os_load_song_desc "Transições indo de uma música para outra")
-;track theme
-(leave_customizer "[Deixar o Customizer]")
-(realtime_customize "[Entrar no Customizer]")
-(restart_customizer "[Recomeçar Música]")
-;graphics
-(os_venuefps_60 "FPS: 60")
-(os_venuefps_60_desc "Aumenta o FPS dos palcos para 60 (não recomendado jogando em consoles)")
-(os_venuefps_30 "FPS: 30")
-(os_venuefps_30_desc "Trava o FPS dos palcos em 30 (padrão)")
-(os_vsync_on "Vsync: ON")
-(os_vsync_on_desc "Vsync está atualmente ativado, o framerate do jogo está travado no 60FPS (padrão).")
-(os_vsync_off "Vsync: OFF")
-(os_vsync_off_desc "O framerate do jogo está destravado. Habilite o VSync do RPCS3 para travar na taxa de atualização da sua tela.")
-(60fps_warning "AVISO\n\nPalcos em 60FPS NÃO SÃO RECOMENDADOS jogando em consoles!")
-(os_force_high_lod_on "Niv. Detalhe: Alto")
-(os_force_high_lod_on_desc "Força o nível mais alto de detalhe dos personagens (não recomendado jogando em consoles)")
-(os_force_high_lod_off "Niv. Detalhe: Normal")
-(os_force_high_lod_off_desc "Utiliza o nível de detalhe padrão para os personagens")
-(highlod_warning "AVISO\n\nNível alto de detalhes NÃO É RECOMENDADO jogando em consoles!")
-(os_postfx_on "[Desabilite Todos]")
-(os_postfx_on_desc "Desabilita todos os Pós-Processamentos e filtros visuais, dando o jogo uma cara bem limpa")
-(os_postfx_off "[Habilite Todos]")
-(os_postfx_off_desc "Reabilita todos os Pós-Processamentos e filtros visuais")
-(os_blur_on "Motion Blur: ON")
-(os_blur_on_desc "Habilita/desabilita o efeito de Motion Blur (efeito de desfoque nos movimentos dos personagens)")
-(os_blur_off "Motion Blur: OFF")
-(os_blur_off_desc "Habilita/desabilita o efeito de Motion Blur (efeito de desfoque nos movimentos dos personagens)")
-(os_camera_shake_on "Camera Shake: ON")
-#ifdef HX_PS3
-(os_camera_shake_on_desc "Habilita/desabilita o efeito de mexida da câmera, recomendado caso você jogue acima de 60FPS")
-#else
-(os_camera_shake_on_desc "Habilita/desabilita o efeito de mexida da câmera")
-#endif
-(os_camera_shake_off "Camera Shake: OFF")
-#ifdef HX_PS3
-(os_camera_shake_off_desc "Habilita/desabilita o efeito de mexida da câmera")
-#else
-(os_camera_shake_off_desc "Habilita/desabilita o efeito de mexida da câmera, recomendado caso você jogue acima de 60FPS")
-#endif
-(os_camera_blur_on "Profun. Campo: ON")
-(os_camera_blur_on_desc "Habilita/desabilita o efeito de profundidade de campo visual")
-(os_camera_blur_off "Profun. Campo: OFF")
-(os_camera_blur_off_desc "Habilita/desabilita o efeito de profundidade de campo visual")
-(os_noise_on "Granulação: ON")
-(os_noise_on_desc "Habilita/desabilita o efeito de granulação (ruído visual). Habilitar esse efeito vai impactar no bitrate de sua gravação/streaming")
-(os_noise_off "Granulação: OFF")
-(os_noise_off_desc "Habilita/desabilita o efeito de granulação (ruído visual). Habilitar esse efeito vai impactar no bitrate de sua gravação/streaming")
-(os_cycleaspect "Altern. Proporção")
-(os_cycleaspect_desc "Alterna por diferentes proporções de vídeo")
-;audio & sfx
-(os_fcaudio "SFX de FC...")
-(os_fcaudio_desc "Seleciona qual som vai tocar quando você conseguir fazer FC numa música")
-(os_audio_ambience_on "SFX Ambiente: ON")
-(os_audio_ambience_on_desc "Habilita/desabilita o efeito sonoro de ambiente na Biblio. de Músicas")
-(os_audio_ambience_off "SFX Ambiente: OFF")
-(os_audio_ambience_off_desc "Habilita/desabilita o efeito sonoro de ambiente na Biblio. de Músicas")
-(os_scroll_sound_on "SFX Rolagem: ON")
-(os_scroll_sound_on_desc "Habilita/desabilita o som de rolagem das listas em qualquer menu")
-(os_scroll_sound_off "SFX Rolagem: OFF")
-(os_scroll_sound_off_desc "Habilita/desabilita o som de rolagem das listas em qualquer menu")
-(os_whammy_fx_on "SFX Whammy: ON")
-(os_whammy_fx_on_desc "Habilita/desabilita o efeito da barra de Whammy")
-(os_whammy_fx_off "SFX Whammy: OFF")
-(os_whammy_fx_off_desc "Habilita/desabilita o efeito da barra de Whammy")
-(os_audio_instsfx_on "SFX Seleção: ON")
-(os_audio_instsfx_on_desc "Habilita/desabilita o som de seleção de qualquer opção nos menus")
-(os_audio_instsfx_off "SFX Seleção: OFF")
-(os_audio_instsfx_off_desc "Habilita/desabilita o som de seleção de qualquer opção nos menus")
-(os_jurgen_sound_on "Insultos do Jurgen: ON")
-(os_jurgen_sound_on_desc "Habilita/desabilita o SFX de insultos do Jurgen quando você consegue uma pontuação ruim na Tela de Resultados")
-(os_jurgen_sound_off "Insultos do Jurgen: OFF")
-(os_jurgen_sound_off_desc "Habilita/desabilita o SFX de insultos do Jurgen quando você consegue uma pontuação ruim na Tela de Resultados")
-(os_cyclefx "Alternar SFX Guitarra")
-(os_cyclefx_desc "Alterna entre diferentes efeitos sonoros na guitarra quando ativa o Overdrive.")
-(os_cyclefx_wah "Efeito: Wah-Wah")
-(os_cyclefx_wah_desc "O efeito da guitarra foi trocado para\nWAH-WAH")
-(os_cyclefx_flanger "Efeito: Flanger")
-(os_cyclefx_flanger_desc "O efeito da guitarra foi trocado para\nFLANGER")
-(os_cyclefx_delay "Efeito: Eco")
-(os_cyclefx_delay_desc "O efeito da guitarra foi trocado para\nECO")
-(os_cyclefx_chorus "Efeito: Chorus")
-(os_cyclefx_chorus_desc "O efeito da guitarra foi trocado para\nCHORUS")
-(os_cyclefx_none "Efeito: Nenhum")
-(os_cyclefx_do_nothing "Efeito: Padrão")
-(os_cyclefx_do_nothing_desc "O efeito da guitarra irá se comportar de modo padrão")
-(os_cyclefx_none_desc "O efeito da guitarra foi\DESABILITADO")
-(os_toggle_synth "Som do Instrumento PRO")
-(os_toggle_synth_desc "Habilita/desabilita o playback do sintetizador quando você utilizar um Teclado pro Guitarra PRO")
-;advanced
-(os_ingame_hud "Interface do Jogo")
-(os_ingame_hud_desc "Controle cada aspecto da interface de usuário do jogo")
-(os_track_hud "HUD das Pistas")
-(os_track_hud_desc "Controle opções específicas do HUD das Pistas")
-(os_popups "Popups das Pistas...")
-(os_popups_desc "Funcionalidades adicionais que aparecem em cima da pista")
-(os_menu_options "Opções de Menu")
-(os_menu_options_desc "Personalize o visual dos menus com texturas personalizadas")
-(os_quick_chat "Atalhos do Quick Chat")
-(os_quick_chat_desc "Alterne os atalhos do chat de mensagens na sua jogatina online")
-(os_selectchatpreset_desc "Dica: Você pode usar o direcional direito enquanto estiver em cima da opção de Quick Chat para acessar a lista completa")
-(os_functional_options "Opções Funcionais")
-(os_functional_options_desc "Opções que muda como você interage com o jogo")
-(os_controller "Controles")
-(os_controller_desc "Remapeie o tipo do seu instrumento ou controle para máxima compatibilidade")
-(os_debug "Menu Debug")
-(os_debug_desc "Não toque em nada deste menu ao menos que você saiba o que está fazendo")
-;ingame hud
-(os_mtv "Nome da Música...")
-(os_mtv_vis_default "Visibilidade: PADRÃO")
-(os_mtv_vis_always "Visibilidade: SEMPRE")
-(os_mtv_vis_never "Visibilidade: NUNCA")
-(os_mtv_vis_delayed "Visibilidade: C/ DELAY")
-(os_mtv_vis_always_desc "O nome da música fica fixado até o fim da música")
-(os_mtv_vis_never_desc "O nome da música nunca será mostrado, nem no começo da música")
-(os_mtv_vis_default_desc "O comportamento padrão para o nome da música dentro do jogo, aparecendo e sumindo")
-(os_mtv_vis_delayed_desc "Um delay é colocado antes de aparecer o nome da música, como em Road Challenges")
-(os_pos "Posição...")
-(os_pos_desc "Mova os elementos pela tela. Melhor testar dentro do jogo")
-(os_col "Cor...")
-(os_col_desc "Ajusta a cor dos elementos")
-(os_text_options "Opções de Texto...")
-(os_text_options_desc "Várias opções específicas de texto")
-(os_font "Fonte: ")
-(os_currentsong "Informações Mostradas...")
-(os_vis_on "Med. Platéria: ON")
-(os_vis_on_desc "Mostra o Medidor de Platéia")
-(os_vis_off "Med. Platéria: OFF")
-(os_vis_off_desc "Esconde o Medidor de Platéia")
-(os_vis_disabled "Med. Platéria: OFF")
-(os_vis_disabled_desc "Hide and disable the crowd meter, enabling crowd sing-alongs on at all times")
-(os_fail_flash_on "Flash de Falha: ON")
-(os_fail_flash_on_desc "A pista vai ficar dando flashes vermelhos quando você performar ruim")
-(os_fail_flash_off "Flash de Falha: OFF")
-(os_fail_flash_off_desc "A pista não vai ficar dando flashes vermelhos quando você performar ruim")
-(os_score "Pontuação/Estrelas...")
-(os_solo_box_pos "Porcem. Solo...")
-(os_solo_box_pos_desc "Posição da caixa que mostra a poncentagem de notas acertadas durante um solo")
-(os_song_timer "Timer da Música...")
-(os_song_timer_desc "Opções relacionadas ao Timer da Música")
-(os_song_progress "Barra de Progresso...")
-(os_song_progress_desc "Opções relacionadas à Barra de Progresso da Música")
-(os_total_time_on "Duração Música: MOSTRAR")
-(os_total_time_off "Duração Música: ESCONDER")
-(os_streak_counter_single "Con. Notas: SINGLE")
-(os_streak_counter_single_desc "Mostra o Contador de Acertos apenas no modo Single Player")
-(os_streak_counter_multi "Con. Notas: BANDA")
-(os_streak_counter_multi_desc "Mostra o Contador de Acertos em ambos Single Player e Multiplayer")
-(os_streak_counter_off "Con. Notas: OFF")
-(os_streak_counter_off_desc "Nunca mostrar a caixa do Contador de Acertos")
-(os_note_streak_on "Aviso Notas Acertadas: ON")
-(os_note_streak_on_desc "Mostrar mensagens de notas acertadas (50, 100, e a cada 100 notas acertadas, similar ao Guitar Hero e YARG)")
-(os_note_streak_off "Aviso Notas Acertadas: OFF")
-(os_note_streak_off_desc "Nunca mostrar mensagens de notas acertadas")
-(os_od_ready_on "Pronto pro Overdrive: ON")
-(os_od_ready_on_desc "Mostrar a mensagem \qPronto pro Overdrive!\q quando a barra de Overdrive tiver energia pra ser ativada (similar ao Guitar Hero e YARG)")
-(os_od_ready_off "Pronto pro Overdrive: OFF")
-(os_od_ready_off_desc "Nunca mostrar mensagens de \qPronto pro Overdrive!\q")
-(os_diff_on "Diff. nos Ícones: ON")
-(os_diff_on_desc "Mostrar a dificuldade da música em cada instrumento quando a música começar (similar ao Rock Band 4)")
-(os_diff_off "Diff. nos Ícones: OFF")
-(os_diff_off_desc "Nunca mostrar a dificuldade da música em cada instrumento quando a música começar")
-(os_all_on "[Habilitar Todos os Textos]")
-(os_all_on_desc "Habilita todos os elementos de texto do Deluxe")
-(os_all_off "[Desabilitar Todos os Textos]")
-(os_all_off_desc "Desabilita todos os elementos de texto do Deluxe")
-(os_highway_text "Texto na Pista")
-(os_highway_text_desc "Informações adicionais mostradas na pista do jogador")
-(os_highway_username "Nome do Jogador")
-(os_highway_username_desc "Mostra o nome do jogador na pista")
-(os_highway_overdrive "Overdrive")
-(os_highway_overdrive_desc "Mostra a porcentagem de Overdrive disponível na pista")
-(os_highway_streak "Combo de Notas")
-(os_highway_streak_desc "Mostra a quantidade de notas acertadas consecutivamente do jogador na pista")
-
-(judge_bad "RUIM")
-(judge_good "OK")
-(judge_great "ÓTIMO")
-(judge_perfect "PERFEITO")
-(judge_invalid "INVÁLIDO")
-
-(os_highway_perfects "Julgamentos")
-(os_highway_perfects_desc "Mostra o nível de precisão das notas acertadas do jogador na pista")
-(os_highway_username_on "Nome Jogador: ON")
-(os_highway_username_on_desc "O nome do jogador será mostrado na pista")
-(os_highway_username_off "Nome Jogador: OFF")
-(os_highway_username_off_desc "O nome do jogador não será mostrado na pista")
-(os_highway_username_inst_on "Ícone Instr: ON")
-(os_highway_username_inst_on_desc "O Ícone do Instrumento do jogador está habilitado")
-(os_highway_username_inst_off "Ícone Instr: OFF")
-(os_highway_username_inst_off_desc "O Ícone do Instrumento do jogador está desabilitado")
-(os_highway_username_sp_inst_on "Ícone no Single Player: ON")
-(os_highway_username_sp_inst_on_desc "Ícone do Instrumento adicionado no Single PlayerInstrument Icon added in Single Player")
-(os_highway_username_sp_inst_off "Ícone no Single Player: OFF")
-(os_highway_username_sp_inst_off_desc "Ícone do Instrumento não adicionado no Single Player")
-(os_highway_overdrive_on "Overdrive: ON")
-(os_highway_overdrive_on_desc "A porcentagem de Overdrive disponível será mostrado na pista")
-(os_highway_overdrive_off "Overdrive: OFF")
-(os_highway_overdrive_off_desc "A porcentagem de Overdrive disponível não será mostrado na pista")
-(os_highway_streak_on "Combo de Notas: ON")
-(os_highway_streak_on_desc "A quantidade de notas acertadas consecutivamente do jogador será mostrado na pista")
-(os_highway_streak_off "Combo de Notas: OFF")
-(os_highway_streak_off_desc "A quantidade de notas acertadas consecutivamente do jogador não será mostrado na pista")
-(os_highway_streak_gh3_delay_on "Combo de Notas GH3: ON")
-(os_highway_streak_gh3_delay_on_desc "O combo de notas acertadas consecutivamente do jogador não será mostrado na pista até acertar 25 notas")
-(os_highway_streak_gh3_delay_off "Combo de Notas GH3: OFF")
-(os_highway_streak_gh3_delay_off_desc "O combo de notas acertadas consecutivamente do jogador será mostrado desde a primeira nota acertada")
-
-(os_perfects_indicator_on "Perfeitos: ON")
-(os_perfects_indicator_on_desc "O jogo irá notificar quando você acertar com precisão perfeita")
-(os_perfects_indicator_off "Perfeitos: OFF")
-(os_perfects_indicator_off_desc "O jogo não irá notificar quando você acertar com precisão perfeita")
-
-(os_perfects_ctr_on "Contador de Perfeitos: ON")
-(os_perfects_ctr_on_desc "O jogo irá mostrar quantas notas foram acertadas perfeitamente")
-(os_perfects_ctr_off "Contador de Perfeitos: OFF")
-(os_perfects_ctr_off_desc "O jogo não irá mostrar quantas notas foram acertadas perfeitamente")
-
-(os_detailed_hit_on "Acertos Detalhados: ON")
-(os_detailed_hit_on_desc "Notificações detalhadas (Ruim, OK, Ótimo, e Perfeito) serão mostradas em cada nota acertada")
-(os_detailed_hit_off "Acertos Detalhados: OFF")
-(os_detailed_hit_off_desc "Notificações detalhadas (Ruim, OK, Ótimo, e Perfeito) não serão mostradas em cada nota acertada")
-
-(os_hit_timing_on "Timing dos Acertos: ON")
-(os_hit_timing_on_desc "O jogo irá mostrar se teu acerto foi adiantado ou atrasado")
-(os_hit_timing_off "Timing dos Acertos: OFF")
-(os_hit_timing_off_desc "O jogo não irá mostrar se teu acerto foi adiantado ou atrasado")
-
-(os_countdown_on "Countdown: ON")
-(os_countdown_on_desc "Mostrar um countdown para as próximas notas durante paradas longas (similar ao Clone Hero e Rock Band 4)")
-(os_countdown_off "Countdown: OFF")
-(os_countdown_off_desc "Nunca mostrar um countdown para as próximas notas durante paradas longas")
-(os_hide_on_countdown_single "Esconder Pista: SOLO")
-(os_hide_on_countdown_single_desc "As Pistas vão sumir durante paradas longas jogando solo")
-(os_hide_on_countdown_multi "Esconder Pista: BANDA")
-(os_hide_on_countdown_multi_desc "As Pistas de todos os(as) jogadores(as) vão sumir durante paradas longas")
-(os_hide_on_countdown_off "Esconder Pista: OFF")
-(os_hide_on_countdown_off_desc "As Pistas não vão sumir durante pararad longas")
-(os_end_song_feedback_on "Feedback Final: ON")
-(os_end_song_feedback_on_desc "Mostra quantas notas você errou ou deu overstrum, ou se você fez FC no fim da música")
-(os_end_song_feedback_off "Feedback Final: OFF")
-(os_end_song_feedback_off_desc "Nunca mostrar quantas notas você errou ou deu overstrum, ou se você fez FC no fim da música")
-(os_you_rock_on "\qVocê ARRASOU!\q: ON")
-(os_you_rock_on_desc "Mostra a mensagem \qVocê ARRASOU!\q no fim da música, similar ao Guitar Hero")
-(os_you_rock_off "\qVocê ARRASOU!\q: OFF")
-(os_you_rock_off_desc "Nunca mostrar a mensagem \qVocê ARRASOU!\q no fim da música")
-(os_fc_both "Indicador FC: TODOS")
-(os_fc_both_desc "Mostra ambos os indicadores de Banda (Anel) e do Jogador (Brilho)")
-(os_fc_ring "Indicador FC: ANEL")
-(os_fc_ring_desc "Apenas mostrar o indicador de Banda (Anel)")
-(os_fc_glow "Indicador FC: BRILHO")
-(os_fc_glow_desc "Apenas mostrar o indicador do jogador (Brilho)")
-(os_fc_off "Indicador FC: OFF")
-(os_fc_off_desc "Nunca mostrar os indicadores de FC")
-#ifdef HX_WII
-(os_wii_fc_glow_on "Indicador FC: ON")
-(os_wii_fc_glow_on_desc "Mostra um brilho no anel do Multiplicador")
-(os_wii_fc_glow_off "Indicador FC: OFF")
-(os_wii_fc_glow_off_desc "Nunca mostrar o indicador de FC")
-#endif
-(os_practice_hud "Interface Modo Prática...")
-(os_practice_hud_desc "Controla a interface geral do Modo Prática")
-(os_trackconfig "Câmera das Pistas...")
-(os_trackconfig_desc "Controle o visual e escala das pistas")
-;menu options
-(os_icons_rb3 "Ícones Instrumentos: RB3")
-(os_icons_rb3_desc "Muda os ícones dos insrumentos utilizado pelo jogo")
-(os_icons_rb4 "Ícones Instrumentos: RB4")
-(os_icons_rb4_desc "Muda os ícones dos insrumentos utilizado pelo jogo")
-(os_menu_theme "Tema do Menu...")
-(os_menu_theme_desc "Muda o tema no menu do jogador")
-(os_menu_color "Cor da Faixa...")
-(os_menu_color_desc "Muda a cor da faixa no menu do jogador")
-(os_player_icons_on "Ícones Jogador: ON")
-(os_player_icons_on_desc "Mostra seu ícone no menu do jogador")
-(os_player_icons_off "Ícones Jogador: OFF")
-(os_player_icons_off_desc "Esconde seu ícone no menu do jogador")
-#ifdef HX_XBOX
-(os_menu_color_ps3_desc "Alterar a cor da faixa do menu do jogador. Não exibe se não estiver conectado em um perfil")
-#else
-(os_menu_color_ps3_desc "Alterar a cor da faixa do menu do jogador")
-#endif
-(os_menu_color_xbox "Cor: Xbox")
-#ifdef HX_XBOX
-(os_menu_color_xbox_desc "Alterar a cor da faixa do menu do jogador. Não exibe se não estiver conectado em um perfil")
-#else
-(os_menu_color_xbox_desc "Alterar a cor da faixa do menu do jogador")
-#endif
-(os_menu_color_wii "Cor: Wii")
-#ifdef HX_XBOX
-(os_menu_color_wii_desc "Alterar a cor da faixa do menu do jogador. Não exibe se não estiver conectado em um perfil")
-#else
-(os_menu_color_wii_desc "Alterar a cor da faixa do menu do jogador")
-#endif
-(os_rb3_menu_theme "Rock Band 3")
-(os_rb3_menu_theme_desc "O tema original do menu do Rock Band 3")
-(os_rb4_menu_theme "Rock Band 4")
-(os_rb4_menu_theme_desc "O tema do menu do Rock Band 4")
-(os_rivals_menu_theme "Rock Band Rivals")
-(os_rivals_menu_theme_desc "O tema do menu do Rock Band 4 Rivals")
-(os_reset_color "[Resetar]")
-(os_menu_color_r "- R: %d%% +")
-(os_menu_color_g "- G: %d%% +")
-(os_menu_color_b "- B: %d%% +")
-;functional options
-(os_prompt_save_on "Confirm. Alterações DX: ON")
-(os_prompt_save_off "Confirm. Alterações DX: OFF")
-(os_prompt_save_on_desc "Confirma se você quer salvar as Opções Deluxe ao sair do menu")
-(os_prompt_save_off_desc "Sempre salvar as Opções Deluxe ao sair do menu se desativado")
-(os_dx_mic_od_1 "Sens. Ativ. Mic: 1")
-(os_dx_mic_od_2 "Sens. Ativ. Mic: 2")
-(os_dx_mic_od_3 "Sens. Ativ. Mic: 3")
-(os_dx_mic_od_4 "Sens. Ativ. Mic: 4")
-(os_dx_mic_od_5 "Sens. Ativ. Mic: 5")
-(os_dx_mic_od_unknown "Sens. Ativ. Mic: ???")
-(os_dx_mic_od_unknown_desc "Doideira, por favor, mude-me")
-(os_dx_mic_od_1_desc "O microfone está na menor sensibilidade para ativar o Overdrive")
-(os_dx_mic_od_2_desc "O microfone está na sensibilidade baixa para ativar o Overdrive")
-(os_dx_mic_od_3_desc "O microfone está na sensibilidade média para ativar o Overdrive")
-(os_dx_mic_od_4_desc "O microfone está na sensibilidade alta para ativar o Overdrive")
-(os_dx_mic_od_5_desc "O microfone está na maior sensibilidade para ativar o Overdrive")
-(os_songdelay_on "Atraso ao Carregar: ON")
-(os_songdelay_off "Atraso ao Carregar: OFF")
-#ifdef HX_PS3
-(os_songdelay_on_desc "Adiciona 2 segundos no carregamento antes da música começar, conserta um bug do RPCS3 quando habilitado")
-(os_songdelay_off_desc "Adiciona 2 segundos no carregamento antes da música começar, conserta um bug do RPCS3 quando ativo")
-#else
-(os_songdelay_on_desc "Adiciona 2 segundos no carregamento antes da música começar, conserta um bug do RPCS3 quando ativo mas não é necessário no Xbox")
-(os_songdelay_off_desc "Adiciona 2 segundos no carregamento antes da música começar, conserta um bug do RPCS3 quando ativo mas não é necessário no Xbox")
-#endif
-(os_intro_deluxe "Vídeo Intro: DELUXE")
-(os_intro_deluxe_desc "Exibe o vídeo inicial do Rock Band 3 Deluxe")
-(os_intro_vanilla "Vídeo Intro: PADRÃO")
-(os_intro_vanilla_desc "Exibe o vídeo inicial padrão do Rock Band 3")
-(os_intro_off "Vídeo Intro: OFF")
-(os_intro_off_desc "Nunca exibir o vídeo inicial ao iniciar-lo")
-(os_splash_on "Tela do Título: ON")
-(os_splash_on_desc "Exibe a tela do título do jogo ao iniciar-lo")
-(os_splash_off "Tela do Título: OFF")
-(os_splash_off_desc "Nunca exibir a tela do título do jogo ao iniciar-lo")
-(os_confirm_songcount_on "Aviso Muitas Músicas: ON")
-(os_confirm_songcount_on_desc "Exibe um aviso se você tiver mais que ~4500 músicas")
 (os_confirm_songcount_off "Aviso Muitas Músicas: OFF")
 (os_confirm_songcount_off_desc "Nunca exibir um aviso se você tiver mais que ~4500 músicas")
-
-(dx_warn_sdmode
-   "AVISO:\n Rock Band 3 geralmente não permite ativar\no Modo SD Card quando a NAND está cheia.\nPorém, esse recurso pode ser útil no\nDolphin, para transferir músicas da\nNAND para o SD, sem outras ferramentas.\nTransferir conteúdo do NAND para o SD?\nSe não souber o que isso faz, aperte \qNÃO\q.")
-
-(overshell_freecam
- "Alternar Câmera")
-(overshell_freecam_desc
- "Alterna entre ajustes de Câmera Debug durante o jogo")
-(overshell_postproc "Pós-Processamento")
-(overshell_postproc_desc "Controla alguns ajustes de pós-processamento e câmera")
-(the20s
-   "Hits dos Anos 2020")
-(the2020s
-   "Anos 2020")
-;
+(os_confirm_songcount_on "Aviso Muitas Músicas: ON")
+(os_confirm_songcount_on_desc "Exibe um aviso se você tiver mais que ~4500 músicas")
+(os_dx_mic_od_1 "Sens. Ativ. Mic: 1")
+(os_dx_mic_od_1_desc "O microfone está na menor sensibilidade para ativar o Overdrive")
+(os_dx_mic_od_2 "Sens. Ativ. Mic: 2")
+(os_dx_mic_od_2_desc "O microfone está na sensibilidade baixa para ativar o Overdrive")
+(os_dx_mic_od_3 "Sens. Ativ. Mic: 3")
+(os_dx_mic_od_3_desc "O microfone está na sensibilidade média para ativar o Overdrive")
+(os_dx_mic_od_4 "Sens. Ativ. Mic: 4")
+(os_dx_mic_od_4_desc "O microfone está na sensibilidade alta para ativar o Overdrive")
+(os_dx_mic_od_5 "Sens. Ativ. Mic: 5")
+(os_dx_mic_od_5_desc "O microfone está na maior sensibilidade para ativar o Overdrive")
+(os_dx_mic_od_unknown "Sens. Ativ. Mic: ???")
+(os_dx_mic_od_unknown_desc "Doideira, por favor, mude-me")
+(os_functional_options "Opções Funcionais")
+(os_functional_options_desc "Opções que muda como você interage com o jogo")
+(os_intro_deluxe "Vídeo Intro: DELUXE")
+(os_intro_deluxe_desc "Exibe o vídeo inicial do Rock Band 3 Deluxe")
+(os_intro_off "Vídeo Intro: OFF")
+(os_intro_off_desc "Nunca exibir o vídeo inicial ao iniciar-lo")
+(os_intro_vanilla "Vídeo Intro: PADRÃO")
+(os_intro_vanilla_desc "Exibe o vídeo inicial padrão do Rock Band 3")
+(os_prompt_save_off "Confirm. Alterações DX: OFF")
+(os_prompt_save_off_desc "Sempre salvar as Opções Deluxe ao sair do menu se desativado")
+(os_prompt_save_on "Confirm. Alterações DX: ON")
+(os_prompt_save_on_desc "Confirma se você quer salvar as Opções Deluxe ao sair do menu")
+(os_songdelay_off "Atraso ao Carregar: OFF")
+(os_songdelay_on "Atraso ao Carregar: ON")
 #ifdef HX_PS3
-(community_no_server_warning
-   "Incapaz de conectar aos servidores. \n\nVocê não poderá acessar os Ranques Globals.  Continuar mesmo assim?")
+(os_songdelay_off_desc "Adiciona 2 segundos no carregamento antes da música começar, conserta um bug do RPCS3 quando habilitado")
+(os_songdelay_on_desc "Adiciona 2 segundos no carregamento antes da música começar, conserta um bug do RPCS3 quando habilitado")
+#else
+(os_songdelay_off_desc "Adiciona 2 segundos no carregamento antes da música começar, conserta um bug do RPCS3 quando habilitado, mas não é necessário no Xbox")
+(os_songdelay_on_desc "Adiciona 2 segundos no carregamento antes da música começar, conserta um bug do RPCS3 quando habilitado, mas não é necessário no Xbox")
 #endif
-#ifdef HX_XBOX
-(community_no_server_warning
-   "Incapaz de conectar aos servidores. \n\nVocê não poderá acessar os Rankings do Xbox LIVE.  Continuar mesmo assim?")
-#endif
-#ifdef HX_PC
-(community_no_server_warning
-   "Incapaz de conectar aos servidores. \n\nVocê não poderá acessar os Rankings do Xbox LIVE.  Continuar mesmo assim?")
-#endif
-(connecting_server
-   "Conectando aos servidores...")
-(error_lost_server
-   "Você perdeu a conexão com os servidores.")
-(lb_error
-   "Não conectado aos servidores. Tente novamente mais tarde.")
-(leaderboards_not_available_rock_central
-   "Você só poderá ver os rankings locais enquanto desconectado ou offline.")
-(leaderboard_connection_error
-   "Falha ao conectar com os servidores.")
-(linking_code_connect_error
-   "Você deve estar conectado aos servidores para ver o código de conexão de conta.")
-#ifdef HX_XBOX
-(motd_not_signed_in
-   "Você deve estar conectado ao Xbox LIVE e registrado para conectar aos servidores.")
-#endif
-#ifdef HX_PC
-(motd_not_signed_in
-   "Você deve estar conectado ao Xbox LIVE e registrado para conectar aos servidores.")
-#endif
-(motd_no_rock_central
-   "Tentando se conectar aos servidores...")
-(motd_online_disabled
-   "Não é possível se conectar aos servidores enquanto modificadores estão ativos.")
-#ifdef HX_XBOX
-(net_setlists_connect
-   "Você deve estar conectado a um perfil com Xbox LIVE e conectado aos servidores para obter repertórios adicionais.")
-#endif
-#ifdef HX_PS3
-(net_setlists_connect
-   "Você deve estar conectado aos servidores para obter repertórios adicionais.")
-#endif
-#ifdef HX_WII
-(net_setlists_connect
-   "Você deve estar conectado aos servidores para obter repertórios adicionais.")
-#endif
-#ifdef HX_PC
-(net_setlists_connect
-   "Você deve estar conectado a um perfil com Xbox LIVE e conectado aos servidores para obter repertórios adicionais.")
-#endif
-(net_setlists_error
-   "Houve um problema ao obter repertórios dos servidores. Tente novamente mais tarde.")
-(net_setlists_getting
-   "Obtendo repertórios dos servidores...")
-(overshell_auto_sign_in_rock_central
-   "Conectando aos servidores...")
-(record_label_connection_required
-   "Você deve estar conectado aos servidores para utilizar este recurso.")
-(record_label_registering
-   "Registrando Label da Gravadora com os servidores...")
-(shell_network_busy
-   "Comunicando com os servidores...")
-(solo_no_server_warning
-   "Ocorreu um erro ao tentar se conectar aos servidores do jogo.\n\nVocê não conseguirá enviar suas pontuações para o Ranque Global.  Continuar mesmo assim?")
-(tour_choose_band_online_no_rockcentral
-   "Contactando os servidores...")
-(upload_error_server_down
-   "Os servidores do jogo parecem estar indisponíveis no momento. O Rock Band 3 Deluxe tentará fazer upload novamente automaticamente durante um próximo Autosave.")
-(upload_error_start_fmt
-   "Foi encontrado %d erros durante o upload para os servidores.")
-(upload_error_start_single
-   "Ocorreu um problema com o upload para os servidores.")
-(upload_uploading
-   "Comunicando com os servidores...")
-;
-(hint_career_desc
-   "Bem-vindo ao Modo Carreira do Rock Band 3 Deluxe!\n\nSeu progresso como musicista é metido por objetivos. Quanto melhor você tocar um instrumento, você irá conquistar mais objetivos deste instrumento. Conquistar objetivos é uma conquista e tanto! Estas conquistas lhe trará mais fãs, mais vestimentas, e até mesmo um meio de transporte melhor para você viajar por aí tocando sua música!")
-(vocal_parts_0 "Sem Vocais")
-(by_recent "Por Aquisição")
-(overshell_rb3esettings "Opções Deluxe")
-(trackspeed_msg "VEL. NOTA: %d%%")
-(speed_msg "VEL. MÚSICA: %d%%")
-(speedcap_msg "VEL. MAX DA MÚSICA: %d%%")
-(fps_msg "FPS DO PALCO: %dFPS")
-(settings_warning "Um arquivo de configuração dx.dta já existe. Você deve apagar este arquivo primeiro antes de salvar suas novas configurações.")
-(settings_save "As Opções Deluxe e os Modificadores adicionais foram salvos com sucesso!")
-(settings_error "Ocorreu um erro ao tentar salvas suas configurações. Por favor, certifique-se que a opção de escrever arquivos relativos ao caminho do seu PC está habilitado no Xenia.")
-(os_writesettings "[Salvar Configs.]")
-(os_welcome_msg "Bem-vindo ")
-(os_fps "O FPS do Palco foi definido em %d\n\n(Acima de 30 FPS não é recomendado jogando em consoles)")
-(os_speed "A Velocidade da Música foi definida em %d%%")
-(os_speed_deny "A Velocidade da Música não pode ser mudada no meio da música.")
-(os_speedcap "A Velocidade Máxima da Música foi definida em %d%%")
-(os_tspeed "A Velocidade das Notas foi definida em %d%%")
-(os_angle "Ângulo das Pistas...")
-(os_angle_desc "Ajusta o ângulo da pista para os modos Single Player")
-(os_allow_lower_ang_off "Abaixar Âng. Multiplayer: OFF")
-(os_allow_lower_ang_on "Abaixar Âng. Multiplayer: ON")
-(os_noang "[Resetar]")
-(os_p1 "Jogador 1")
-(os_p2 "Jogador 2")
-(os_p3 "Jogador 3")
-(os_p4 "Jogador 4")
-(os_angmult "Ângulo Multiplicador")
-(os_angleset "O Ângulo da Pista foi definido em ~%d%%")
-(os_angleset1 "O Ângulo da Pista foi definido em ~%d%% (Jogador 1)")
-(os_angleset2 "O Ângulo da Pista foi definido em ~%d%% (Jogador 2)")
-(os_angleset3 "O Ângulo da Pista foi definido em ~%d%% (Jogador 3)")
-(os_angleset4 "O Ângulo da Pista foi definido em ~%d%% (Jogador 4)")
-(os_reload "Recarregar BG")
-(os_reload_desc "Recarrega o Background do Menu Principal")
-(os_reload_deny "Você não pode recarregar o Background durante o jogo.")
-(os_saver_deny "Você não pode habilitar o Modo Print durante o jogo.")
-(os_menubg "BG do Menu")
-(os_menubg_wii "BG do Menu")
-(os_bg8 "RB3 Deluxe")
-(os_bg3 "Original")
-(os_star_gold_fill_on "Progresso E. Dourada: ON")
-(os_star_gold_fill_off "Progresso E. Dourada: OFF")
-(os_star_gold_fill_on_desc "O progresso para conquistar estrelas douradas será mostrado na tela!")
-(os_star_gold_fill_off_desc "O progresso para conquistar estrelas douradas não será mostrado na tela!")
-(os_none "[Nenhum]")
-(os_nobg_wii "OFF")
-(os_yesbg "ON")
-(os_blnk " ")
-(dx_choose_profile "ESCOLHER PROFILE")
-(music_store "Play A Show")
-(os_bg2 "Loja de Música")
-(os_bg4 "Tour de Van")
-(os_bg5 "Sala de Prática")
-(os_bg7 "a sala de prática mais legal do planeta")
-(os_bgwarn "Esta opção não fará efeito até você salvar e reiniciar o jogo.")
-(os_gemmsg1 "A cor da Nota foi definida para: Verde")
-(os_gemmsg2 "A cor da Nota foi definida para: Vermelho")
-(os_gemmsg3 "A cor da Nota foi definida para: Amarelo")
-(os_gemmsg4 "A cor da Nota foi definida para: Azul")
-(os_gemmsg5 "A cor da Nota foi definida para: Laranja")
-(os_gemmsg6 "A cor da Nota foi definida para: Overdrive")
-(os_kickmsg1 "A cor da Nota do Bumbo foi definida para: Verde")
-(os_kickmsg2 "A cor da Nota do Bumbo foi definida para: Overdrive")
-(os_fretmsg1 "A cor da Casa da Nota foi definida para: Verde")
-(os_fretmsg2 "A cor da Casa da Nota foi definida para: Vermelho")
-(os_fretmsg3 "A cor da Casa da Nota foi definida para: Amarelo")
-(os_fretmsg4 "A cor da Casa da Nota foi definida para: Azul")
-(os_fretmsg5 "A cor da Casa da Nota foi definida para: Laranja")
-(os_susmsg1 "A cor do Sustento foi definida para: Verde")
-(os_susmsg2 "A cor do Sustento foi definida para: Vermelho)
-(os_susmsg3 "A cor do Sustento foi definida para: Amarelo")
-(os_susmsg4 "A cor do Sustento foi definida para: Azul")
-(os_susmsg5 "A cor do Sustento foi definida para: Laranja")
-(os_cymmsg1 "A cor da Nota do Chimbal foi definida para: Verde")
-(os_cymmsg2 "A cor da Nota do Chimbal foi definida para: Vermelho)
-(os_cymmsg3 "A cor da Nota do Chimbal foi definida para: Amarelo")
-(os_cymmsg4 "A cor da Nota do Chimbal foi definida para: Azul")
-(os_cymmsg5 "A cor da Nota do Chimbal foi definida para: Overdrive")
-(os_smashermsg1 "A cor do Smasher foi definida para: Verde")
-(os_smashermsg2 "A cor do Smasher foi definida para: Vermelho)
-(os_smashermsg3 "A cor do Smasher foi definida para: Amarelo")
-(os_smashermsg4 "A cor do Smasher foi definida para: Azul")
-(os_kColorWarn "Estes seletores de cor NÃO AFETAM as cores do Teclado PRO, apenas o Teclado Básico.")
-(ingame_warning "Esta configuração não funciona dentro do jogo. Por favor, modifique esta opção this setting does not work ingame. please use the options from the \qingame settings\q menu.")
-(os_on "ON")
-(os_off "OFF")
-(no_fail_enabled "Modo No Fail Habilitado")
-(os_gemcol "Notas")
-(os_cymcol "Pratos")
-(os_smashcol "Strikeline")
-(os_cym1 "Prato 1")
-(os_cym2 "Prato 2")
-(os_cym3 "Prato 3")
-(os_cym3lh "Prato 3 (Canhoto)")
-(os_gem1 "Nota 1")
-(os_gem2 "Nota 2")
-(os_gem3 "Nota 3")
-(os_gem4 "Nota 4")
-(os_gem5 "Nota 5")
-(os_kick "Nota do Bumbo")
-(os_smash1 "Smasher 1")
-(os_smash2 "Smasher 2")
-(os_smash3 "Smasher 3")
-(os_smash4 "Smasher 4")
-(os_fretcol "Frets")
-(os_suscol "Sustentos")
-(os_fret1 "Fret 1")
-(os_fret2 "Fret 2")
-(os_fret3 "Fret 3")
-(os_fret4 "Fret 4")
-(os_fret5 "Fret 5")
-(os_sus1 "Sustento 1")
-(os_sus2 "Sustento 2")
-(os_sus3 "Sustento 3")
-(os_sus4 "Sustento 4")
-(os_sus5 "Sustento 5")
-(os_spds "Selecionar Velocidades")
-(os_spds_desc "Modifique a velocidade da músicas, das pistas, e o FPS do palco")
-(os_tweaks "Ajustes")
-(os_tweaks_desc "Vários ajustes em elementos dentro e fora do jogo")
-(os_venuefps "FPS do Palco")
-(os_trkspd "Vel. Nota")
-(os_sngspd "Vel. Música")
-(os_trk_pitch "- PITCH: %d +")
-(os_trk_fov "- FOV: %d +")
-(os_trk_x "- X: %d +")
-(os_trk_y "- Y: %d +")
-(os_trk_z "- Z: %d +")
-(os_venuesel "Selecione o Palco")
-(os_fretboard "Pista")
-(os_spotlight "Streak")
-(os_emissive "Overdrive")
-(os_shading "Shading Padrão")
-(os_keyboard "Teclado")
-(os_scrsvr_desc "Remove toda a interface de usuário do Menu Principal")
-(os_scrsvr "Modo Print")
-(os_setcol "Cores")
-(os_setcol_desc "Ajuste a cor da strikeline, das notas, dos Sustentos e mais")
-(realtime_customize_desc "Carregue uma música para personalizar do tema da pista em tempo real")
-(customizer_warn "Ao fazer isto, você irá abandonar a sessão atual. Continuar mesmo assim?")
-(print_hmx "Printar Milos Usados")
-(os_videoconfirm "BGs de Vídeo não são estáveis. Não pause enquanto estiver jogando uma música com BG de Vídeo. Não utilize a opção de \qRecomeçar\q música enquanto estiver jogando uma música com BG de Vídeo. Consulte o README (Leia-me) do repositório do Rock Band 3 Deluxe para aprender mais sobre BG de Vídeo.")
-(os_trkthm "Tema da Pista")
-(os_thm "Aparência")
-(os_thm_desc "Personalize o Deluxe com seu próprio estilo visual")
-(os_cam "Câmera")
-(os_cam_desc "Ajuste Pós-Processamentos ou outros aspectos das cenas 3D")
-(os_theme "Tema da Pista")
-(os_theme_desc "Personalize a aparência a pista com texturas customizadas")
-(os_flares "Flares")
-(os_particles "Partículas")
-(os_voxhw "Pista do Vocal")
-(os_voxnotes "Notas do Vocal")
-(os_voxod "Overdrive do Vocal")
-(os_voxarrow "Flexas do Vocal")
+(os_splash_off "Tela do Título: OFF")
+(os_splash_off_desc "Nunca exibir a tela do título do jogo ao iniciar-lo")
+(os_splash_on "Tela do Título: ON")
+(os_splash_on_desc "Exibe a tela do título do jogo ao iniciar-lo")
 
-(song_search "Pesquisa de Músicas")
-(song_search_desc "Pesquise pelo Nome da Música ou Shortname")
-(song_search_title "Nome da Música")
-
-;track themes
-(os_thmreset "[Resetar]")
-(os_rb3thm "[Padrão]")
-(os_rb4thm "Rock Band 4")
-(os_rb2thm "Rock Band 2")
-(os_rb2dxthm "Rock Band 2 DX")
-(os_tbrbthm "The Beatles: Rock Band")
-(os_rb4legacythm "RB4 (Legacy)")
-(os_yargthm "YARG")
-(os_settex "[Personalizar]")
-(os_thm_cherrycola "Cherry Cola")
-(os_thm_chill "Chill")
-(os_thm_outrun "Outrun")
-(os_thm_sakura "Sakura")
-(dx_mtv_1 "%s")
-(dx_mtv_2 "%s\n%s")
-(dx_mtv_3 "%s\n%s\n%s")
-(dx_mtv_4 "%s\n%s\n%s\n%s")
-(dx_mtv_5 "%s\n%s\n%s\n%s\n%s")
-(dx_mtv_6 "%s\n%s\n%s\n%s\n%s\n%s")
-(dx_mtv_7 "%s\n%s\n%s\n%s\n%s\n%s\n%s")
-(dx_mtv_8 "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s")
-(dx_mtv_9 "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s")
-(theme_save_warning "Você gostaria de salvar este tema das pistas para sessões futuras?")
-
-(os_uithm "Tema do HUD")
-(os_osthm "Tema do Menu")
-(os_osthm_desc "Personalize a aparência dos menus com texturas customizadas")
-(os_resetmsg "Esta opção irá resetar todas as texturas para o padrão. Se você já jogou uma música nesta sessão, esta opção não causará efeito até você salvar as configurações e reiniciar o jogo. Continuar?")
-(os_rb4animmsg "Selecione o Tipo da Nota\n\n(Notas Animadas não serão própriamente revertidas até você mudar o tema, salvar as configurações, e reiniciar o jogo.)")
-(rb4_animated "Animadas")
-(rb4_static "Estáticas")
-(os_animmsg "Notas Animadas não serão própriamente revertidas até você selecionar \qNotas\q, salvar as configurações, e reiniciar o jogo. Você tem certeza que deseja continuar?")
-(os_animsmshmsg "Strikelines Animadas não serão própriamente revertidas até você selecionar \qNotas\q, salvar as configurações, e reiniciar o jogo. Você tem certeza que deseja continuar?")
-(os_sus "Sustentos")
-(os_rb3sus "Rock Band 3")
-(os_rb4sus "Rock Band 4")
-(os_rb2sus "Rock Band 2")
-(os_nosus "[Sem Sustentos]")
-(gdrb "Green Day: Rock Band")
-(tbrb "The Beatles: Rock Band")
-(yarg "YARG")
-(25_percent "25%")
-(50_percent "50%")
-(75_percent "75%")
-(acidrain "Acid Rain")
-(metallicpurple "Metallic Purple")
-(rb2dx "Rock Band 2 DX")
-(rb3legacy "RB3 (Legacy)")
-(rb4legacy "RB4 (Legacy)")
-(rb4legacyalt "RB4 (Legacy, Alt)")
-(plastic "RB4 (LysiX)")
-(cursors "Mouse Cursors")
-(rivals "RB4 (Rivals)")
-(rb4_true "RB4 (True Port)")
-(rb4_3p "RB4 (3 Player)")
-(rb4_3p_1 "RB4 (3 Player) (1)")
-(rb4_3p_2 "RB4 (3 Player) (2)")
-(noflm "[Sem Efx. Chamas]")
-(mod_videobg "BG de Vídeo")
-(mod_fakejuke "Modo Jukebox")
-(mod_xboxos "Xbox")
-(mod_rb2ui "Rock Band 2")
-(mod_rb2trk "Rock Band 2")
-(mod_rb4ui "Rock Band 4")
-(mod_rb4trk "Rock Band 4")
-(mod_brutalmode "Modo Brutal")
-(mod_brutalmode_desc "Ajusta dinâmicamente a visualização das notas enquanto você joga")
-(mod_nobre "Sem Finais Triunfantes")
-(mod_practiceoverdrive "Overdrive no Modo Prática")
-(mod_nolanes "Sem Lanes")
-(mod_rb4lanes "Lanes do RB4")
-(mod_noblur "Sem Motion Blur")
-(mod_nocrust "Sem Granulação/Ruído")
-(mod_starlightsmashers "Galaxy")
-(mod_shinysmashers "Shiny")
-(mod_animatedgems "Notas Animadas")
-(mod_dx_left_right_jump "Dpad Songlist Shortcuts")
-(mod_dx_left_right_jump_desc "Allows Left and Right on the dpad to jump up and down to the next section respectively")
-(mod_remote_texture_sync "Sincron. Texturas Online")
-(mod_remote_texture_sync_desc "Mostra o tema único das pistas de cada jogador em sessões online")
-(os_gems "Notas")
-(os_sustains "Sustentos")
-(os_setguitarcol "Cores da Guitarra")
-(os_setdrumcol "Cores da Bateria")
-(os_setprotarcol "Notas da Guitarra PRO")
-(os_smashers "Strikeline")
-(os_toms "Toms")
-(os_cymbals "Chimbais")
-(os_animatedsmashers "Animated Strikeline")
-(os_rails "Track Rails")
-(os_lanes "Lanes")
-(os_bre "Finais Triunfantes")
-(os_beat_lines "Beat Lines")
-(os_score_box "Caixa de Pontuação")
-(os_stars "Estrelas")
-(os_font "Fontes")
-(os_solo_box "Caixa de Solo")
-(_none "[Nenhum]")
-(os_odbar "Barra de Overdrive")
-(os_multiring "Anéis do Multiplicador")
-(os_crowdmeter "Medidor de Platéia")
-(os_audiomenu "Áudio & SFX")
-(os_audiomenu_desc "Fine tune your sound and the audio you hear")
-(os_chatsettings "Quick Chat")
-(os_animation "Notas Animadas")
-(os_animatedsmasher "Animated Strikeline")
-(os_animatedhighway "Animated Highway")
-(os_animatedgem "Notas Animadas")
-(os_ctrlmenu "Controle")
-(os_ctrlmenu_desc "Remapeie o tipo do instrumento ou controle utilizado para melhor compatibilidade")
-(os_instrumentswap "Mudar Tipo do Instrum.")
-(os_instrumentswap_desc "Permite que você troque o tipo deste controle para jogar Guitarra/Baixo/Teclado online, trocando para uma Bateria/Vocal falsa, ou conquistar objetivos em outro instrumento")
-(os_pad_mapping "Remapear Controles do Pad")
-(os_pad_mapping_desc "Esta opção é útil caso você esteja utilizando um instrumento de outro console")
-(os_pad_mapping_select_desc "Selecione os controles que você gostaria de remapear")
-(os_pad "Pad (Padrão)")
-(os_rbguitar "Guitarra do Rock Band")
-(os_ghguitar "Guitarra do Guitar Hero")
-(os_rbdrums "Bateria do Rock Band 1")
-(os_rb2drums "Bateria do Rock Band 2")
-(os_ghdrums "Bateria do Guitar Hero")
-(os_instreset "[Resetar Tipo do Instrum.]")
-(os_instreset_desc "Reverte todos os controles para o padrão")
-(os_instrumentswap_menu_guitar_desc "Selecionar novo Tipo de Instrum.\nGuitarra -> ...")
-(os_instrumentswap_menu_keys_desc "Selecionar novo Tipo de Instrum.\nTeclado -> ...")
-(os_instrumentswap_menu_vocals_desc "Selecionar novo Tipo de Instrum.\nVocal -> ...")
-(mod_animatedhighway "Pistas Animadas")
-(mod_ps3os "PS3")
-(mod_wiios "Wii")
-(mod_static_fills
-   "Auto-Ativação na Bateria")
-(mod_dx_no_overdrive "Desativar Overdrive")
-(mod_songselectnoise
-   "Ambiente Biblio. Músicas")
-(mod_nocrowd
-   "Sem Áudio da Platéia")
-(mod_nosustain "Sem Linhas de Sustento")
-(mod_rb2sustain "Linhas de Sustento do RB2")
-(mod_rb4sustain "Linhas de Sustento do RB4")
-(mod_ghdrums
-   "Bateria do GH > Protar")
-(mod_video
-   "BGs de Vídeo")
-(mod_rrdrums
-   "Bateria do RR > Teclado")
-(os_logging
-   "Log de Eventos")
-(mod_dx_logging_desc
-   "Salva log de eventos no disco para depurações")
-(mod_current_song_logging
-   "Habilitar currentsong.txt")
-(mod_current_song_logging_desc
-   "Escreve as informações da música atual no disco para usar no OBS")
-(mod_no_crowd_meter
-   "Sem Medidor de Platéia")
-(mod_no_crowd_meter_desc
-   "Esconde o Medidor de Platéia durante o jogo.")
-(mod_no_mtv_overlay
-   "Sem Título da Música")
-(mod_no_mtv_overlay_desc
-   "Esconde o Título da Música durante o jogo.")
-(mod_no_scoreboard
-   "Sem Caixa de Pontuação")
-(mod_no_scoreboard_desc
-   "Esconde a Caixa de Pontuação durante o jogo.")
-(mod_padguitar
-   "Controle > Guitarra")
-(mod_auto_play
-   "Autoplay")
-(mod_chmode_short "Modo Bêbado")
-(mod_auto_kick
-   "Auto Kick")
-(mod_black_bg
-   "Fundo Preto")
-(mod_noflames
-   "Sem Efeito de Flames")
-(mod_songtitle
-   "Título da Mús. Visível")
-(mod_songtitlestats
-   "Info. Detalhadas da Música")
-(mod_doublespeed_1.25x
-   "Vel. Suicída 1.25x")
-(mod_doublespeed "Velocidade Suicída")
-(mod_synced_track_speeds "Sincron. Vel. das Dificuldades")
-(mod_stopcrashing "Disable Custom Textures")
-(os_rb3os "Rock Band 3")
-(mod_rb4os "Rock Band 4")
-(mod_rivalsos "Rock Band Rivals")
-(mod_precision "Modo Precisão")
-(mod_perfection "Modo Perfeição")
-(mod_chmode "Modo Bêbado")
-(mod_nopart "Sem EFX Partículas")
-(mod_noflares "Sem Flares")
-(mod_nojurgen "Sem SFX do Jurgen")
-(mod_flames "Fumaça -> Fogos")
-(mod_black_background "BG Preto")
-(mod_force_hopos "Forçar HOPOs")
-(mod_mirror_mode "Modo Espelhado (Apenas Guitarra)")
-(mod_color_shuffle "Alternar Cor das Notas")
-(mod_mhx_color_shuffle "Alternar Cor das Notas")
-(mod_dx_showbpm "Mostrar BPM da Música")
-(chmode_warning "O Modo Bêbado afrouxa a hitbox das notas. Pontuações não serão salvas e uma mensagem aparecerá na Tela de Resultados da música se você habilitar este modo.")
-(os_venue_select_warn "A Seleção de Palco só vai fazer efeito se você for o host da sala.")
-(breakneck_warning
-  "Por favor, desabilite outros modificadores de velocidade (como a Velocidade Suicída) antes de habilitar esta opção.")
-(autoplay_warning
-  "Este modificador tem como propósito para gravar demonstrações de charts. Você não poderá salvar o jogo até você reiniciar o jogo.")
-(postfx_warning
-  "Os efeitos de Pós-Processamento não serão afetados completamente até você carregar uma nova cena/palco/menu. Deseja retornar ao Menu Principal agora?")
-(fakejuke_warning
-  "Este modificador permite a visualização dos personagens, suas animações e o palco. Se você habilitar este modificador, seu progresso no jogo não será salvo até você reiniciar o jogo.")
-(screensaver_warning
-  "Este modificador esconderá toda a interface de usuário do jogo para mostrar o Background do menu. Você não conseguirá interagir com o jogo até você reiniciá-lo. Tem certeza que deseja continuar?")
-(author_warning
-  "Este modificador foi criado para ser utilizado por charters. Combine este modificador com o mapeamento de controles do RPCS3 para utilizar o Modo All Instruments.")
-(himem_warning
-   "Esta opção não funciona em qualquer console físico (sem ser em emuladores) e IRÁ TRAVAR na inicialização se você tentar mesmo assim. Continuar?")
-(swap_gender_warning
-   "Esta opção permite que você equipe itens, roupas, e cosméticos que, originalmente, não tem suporte usando seu tipo de corpo atual. A reinicialização do jogo é obrigatória para as alterações funcionarem. Continuar?")
-(saving_disabled
-   "Seu progresso no jogo não será salvo até o fim desta sessão")
-(modifier_song_load
-   "Este modificador não terá efeito até você voltar ao Menu Principal e escolher uma nova música. Voltar ao Menu Principal agora?")
-(nice_solo
-   "69 hehehe")
-(choke_solo
-   "Quase ein!")
-; prefab names
+; GoD Prefab Names
 (prefab_altbass "Sonic Edge")
 (prefab_altdrums "Rhythm Pulse")
 (prefab_altguitar "Electric Blaze")
@@ -1246,137 +465,60 @@
 (prefab_suitsdrums "Classy Beats")
 (prefab_suitsguitar "Sophisicated Strummer")
 (prefab_suitsvox "Elegant Voice")
-; character creator
-(create_char_gender
-   "CORPO")
-(matchmaker_choose_gender
-   "Selecione o Tipo do Corpo")
-(male
-   "Masculino")
-(female
-   "Feminino")
-; practice speeds
-(practice_speed_1
-   "Velocidade: 95%")
-(practice_speed_2
-   "Velocidade: 90%")
-(practice_speed_3
-   "Velocidade: 85%")
-(practice_speed_4
-   "Velocidade: 80%")
-(practice_speed_5
-   "Velocidade: 75%")
-(practice_speed_6
-   "Velocidade: 70%")
-(practice_speed_7
-   "Velocidade: 65%")
-(practice_speed_8
-   "Velocidade: 60%")
-(practice_speed_9
-   "Velocidade: 55%")
-(practice_speed_10
-   "Velocidade: 50%")
-(practice_speed_11
-   "Velocidade: 45%")
-(practice_speed_12
-   "Velocidade: 40%")
-(practice_speed_13
-   "Velocidade: 35%")
-(practice_speed_14
-   "Velocidade: 30%")
-(practice_speed_15
-   "Velocidade: 25%")
-(practice_speed_16
-   "Velocidade: 20%")
-(practice_speed_17
-   "Velocidade: 15%")
-(practice_speed_18
-   "Velocidade: 10%")
-(practice_speed_19
-   "Velocidade: 5%")
-(award_flawless
-   "Full Combo")
-(full_combo_short
-   "FC")
-(mod_fcclip
-   "Sem Sons Final da Música")
-(mod_fastermode
-   "Modo Aceleração")
-(mod_fastermode_topspeed
-   "Top Speed")
-(os_enabled
-   "Habilitado")
-(os_disabled
-   "Desabilitado")
-(os_enable
-   "Habilitar")
-(os_disable
-   "Desabilitar")
-(os_fastermode
-   "Modo Aceleração")
-(os_faster
-   "Aceleração")
-(os_sngspdcap
-   "Velocidade Máxima")
-(os_allhw
-   "Todos os Instrumentos")
-(os_guitarhw
-   "Guitarra")
-(os_basshw
-   "Baixo")
-(os_drumshw
-   "Bateria")
-(os_keyshw
-   "Teclado")
-(os_allstrk
-   "Todos os Instrumentos")
-(os_guitarstrk
-   "Guitarra")
-(os_bassstrk
-   "Baixo")
-(os_drumsstrk
-   "Bateria")
-(os_keysstrk
-   "Teclado")
-(os_allod
-   "Todos os Instrumentos")
-(os_guitarod
-   "Guitarra")
-(os_bassod
-   "Baixo")
-(os_drumsod
-   "Bateria")
-(os_keysod
-   "Teclado")
-(os_keysod
-   "Teclado")
-(load_theme
-   "[Carregar Tema]")
-(save_theme
-   "[Salvar Tema]")
-(track_theme_overwrite_warning
-   "Já existe um Tema com esse nome.\nSobrescrever?")
-(os_overwrite
-   "Sobrescrever Tema")
-(track_theme_successfully_loaded
-   "Tema de pistas aplicado!")
-(no_track_theme_found
-   "Ocorreu um erro ao tentar carregar o Tema das Pistas do disco!")
-(track_theme_successfully_written
-   "Tema das Pistas salva com sucesso!")
-(track_theme_failed_writing
-   "Ocorreu um erro ao tentar salvar o Tema das Pistas do disco!")
-(load_track_theme
-   "Tema das Pistas")
-(load_track_theme_desc
-   "Insira o nome do Tema que você desejar carregar")
-(os_dont_overwrite_default
-   "Por favor, escolha outro nome sem ser \qDefault\q")
 
+; Graphics
+(fps_msg "FPS DO PALCO: %dFPS")
+(os_blur_off "Motion Blur: OFF")
+(os_blur_off_desc "Habilita/desabilita o efeito de Motion Blur (efeito de desfoque nos movimentos dos personagens)")
+(os_blur_on "Motion Blur: ON")
+(os_blur_on_desc "Habilita/desabilita o efeito de Motion Blur (efeito de desfoque nos movimentos dos personagens)")
+(os_camera_shake_on "Mexida da Câmera: ON")
+(os_cam_desc "Ajuste Pós-Processamentos ou outros aspectos das cenas 3D")
+(os_camera_blur_off "Profun. Campo: OFF")
+(os_camera_blur_off_desc "Habilita/desabilita o efeito de profundidade de campo visual")
+(os_camera_blur_on "Profun. Campo: ON")
+(os_camera_blur_on_desc "Habilita/desabilita o efeito de profundidade de campo visual")
+(os_camera_shake_off "Mexida da Câmera: OFF")
+#ifdef HX_PS3
+(os_camera_shake_off_desc "Habilita/desabilita o efeito de mexida da câmera, recomendado caso você jogue acima de 60FPS")
+#else
+(os_camera_shake_off_desc "Habilita/desabilita o efeito de mexida da câmera")
+#endif
+(os_camera_shake_on "Mexida da Câmera: ON")
+#ifdef HX_PS3
+(os_camera_shake_on_desc "Habilita/desabilita o efeito de mexida da câmera, recomendado caso você jogue acima de 60FPS")
+#else
+(os_camera_shake_on_desc "Habilita/desabilita o efeito de mexida da câmera")
+#endif
+(os_cycleaspect "Altern. Proporção")
+(os_cycleaspect_desc "Alterna por diferentes proporções de vídeo")
+(os_force_high_lod_off "Niv. Detalhe: Normal")
+(os_force_high_lod_off_desc "Utiliza o nível de detalhe padrão para os personagens")
+(os_force_high_lod_on "Niv. Detalhe: Alto")
+(os_force_high_lod_on_desc "Força o nível mais alto de detalhe dos personagens (não recomendado jogando em consoles)")
+(os_graphics "Gráficos")
+(os_graphics_desc "Controle processamentos gráficos específicos e de câmera")
+(os_noise_off "Granulação: OFF")
+(os_noise_off_desc "Habilita/desabilita o efeito de granulação (ruído visual). Habilitar esse efeito vai impactar no bitrate de sua gravação/streaming")
+(os_noise_on "Granulação: ON")
+(os_noise_on_desc "Habilita/desabilita o efeito de granulação (ruído visual). Habilitar esse efeito vai impactar no bitrate de sua gravação/streaming")
+(os_postfx_off "[Habilite Todos]")
+(os_postfx_off_desc "Reabilita todos os Pós-Processamentos e filtros visuais")
+(os_postfx_on "[Desabilite Todos]")
+(os_postfx_on_desc "Desabilita todos os Pós-Processamentos e filtros visuais, dando o jogo uma cara bem limpa")
+(os_venuefps_60 "FPS: 60")
+(os_venuefps_30 "FPS: 30")
+(os_venuefps_30_desc "Trava o FPS dos palcos em 30 (padrão)")
+(os_venuefps_60 "FPS: 60")
+(os_venuefps_60_desc "Aumenta o FPS dos palcos para 60 (não recomendado jogando em consoles)")
+(os_vsync_off "Vsync: OFF")
+(os_vsync_off_desc "O framerate do jogo está destravado. Habilite o VSync do RPCS3 para travar na taxa de atualização da sua tela.")
+(os_vsync_on "Vsync: ON")
+(os_vsync_on_desc "Vsync está atualmente ativado, o framerate do jogo está travado no 60FPS (padrão).")
+(overshell_postproc "Pós-Processamento")
+(overshell_postproc_desc "Controla alguns ajustes de pós-processamento e câmera")
 
-;custom textures
-
-;highways
+; Highways
 (_1_black_highway "[Pista Preta]")
 (_1_transparent "[Transparente]")
 (_2_rb3_guitar "RB3 Guitar")
@@ -1405,91 +547,564 @@
 (z50_percent "50%")
 (z75_percent "75%")
 
+; In-Game HUD
+(dx_diff_0 "<alt>B</alt>")
+(dx_diff_1 "<alt>G</alt>")
+(dx_diff_2 "<alt>D</alt>")
+(dx_diff_3 "<alt>V</alt>")
+(dx_diff_4 "<alt>K</alt>")
+(dx_diff_5 "<alt>2</alt>")
+(dx_diff_6 "<alt>3</alt>")
+(dx_diff_7 "<alt>k</alt>")
+(dx_mtv_1 "%s")
+(dx_mtv_2 "%s\n%s")
+(dx_mtv_3 "%s\n%s\n%s")
+(dx_mtv_4 "%s\n%s\n%s\n%s")
+(dx_mtv_5 "%s\n%s\n%s\n%s\n%s")
+(dx_mtv_6 "%s\n%s\n%s\n%s\n%s\n%s")
+(dx_mtv_7 "%s\n%s\n%s\n%s\n%s\n%s\n%s")
+(dx_mtv_8 "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s")
+(dx_mtv_9 "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s")
+(os_100 "+100")
+(os_100 "+100")
+(os_25 "+25")
+(os_50 "+50")
+(os_100 "+100")
+(os_album_off "Álbum: OFF")
+(os_album_on "Álbum: ON")
+(os_alignment "Alinhamento")
+(os_all_item "Todos os Items")
+(os_all_off "[Desabilitar Todos os Textos]")
+(os_all_off_desc "Desabilita todos os elementos de texto do Deluxe")
+(os_all_on "[Habilitar Todos os Textos]")
+(os_all_on_desc "Habilita todos os elementos de texto do Deluxe")
+(os_artist_off "Artista/Banda: OFF")
+(os_artist_on "Artista/Banda: ON")
+(os_author_finder_off "Author Finder: OFF")
+(os_author_finder_off_desc "Habilita uma variedade de opções extras para a visualização do texto do título da música")
+(os_author_finder_on "Author Finder: ON")
+(os_author_finder_on_desc "Habilita uma variedade de opções extras para a visualização do texto do título da música")
+(os_author_off "Charter: OFF")
+(os_author_on "Charter: ON")
+(os_bar_bre_off "Finais Triunfantes: OFF")
+(os_bar_bre_off_desc "Mostra as sessões de Finais Triunfantes na barra de progresso da música")
+(os_bar_bre_on "Finais Triunfantes: ON")
+(os_bar_bre_on_desc "Mostra as sessões de Finais Triunfantes na barra de progresso da música")
+(os_bar_icon_off "Instrumento: OFF")
+(os_bar_icon_off_desc "Mostra o instrumento tocado na barra de progresso da música")
+(os_bar_icon_on "Instrumento: ON")
+(os_bar_icon_on_desc "Mostra o instrumento tocado na barra de progresso da música")
+(os_bar_overdrive_off "Sessões Overdrive: OFF")
+(os_bar_overdrive_off_desc "Mostra as sessões de Overdrive na barra de progresso da música")
+(os_bar_overdrive_on "Sessões Overdrive: ON")
+(os_bar_overdrive_on_desc "Mostra as sessões de Overdrive na barra de progresso da música")
+(os_bar_solo_off "Sessões Solo: OFF")
+(os_bar_solo_off_desc "Mostra as sessões de solo na barra de progresso da música")
+(os_bar_solo_on "Sessões Solo: ON")
+(os_bar_solo_on_desc "Mostra as sessões de solo na barra de progresso da música")
+(os_bar_time_off "Barra de Progresso: OFF")
+(os_bar_time_off_desc "Mostra uma barra de progresso para o tempo restante da música")
+(os_bar_time_on "Barra de Progresso: ON")
+(os_bar_time_on_desc "Mostra uma barra de progresso para o tempo restante da música")
+(os_bpm_off "BPM da Música: OFF")
+(os_bpm_off_desc "Habilita a visibilidade do tempo de duração da música")
+(os_bpm_on "BPM da Música: ON")
+(os_bpm_on_desc "Habilita a visibilidade do tempo de duração da música")
+(os_col "Cor...")
+(os_col_desc "Ajusta a cor dos elementos")
+(os_countdown_off "Countdown: OFF")
+(os_countdown_off_desc "Nunca mostrar um countdown para as próximas notas durante paradas longas")
+(os_countdown_on "Countdown: ON")
+(os_countdown_on_desc "Mostrar um countdown para as próximas notas durante paradas longas (similar ao Clone Hero e Rock Band 4)")
+(os_crowdmeter "Medidor de Platéia")
+(os_currentsong "Informações Mostradas...")
+(os_currentsong_desc "Habilite/desabilite várias informações aonde é mostrado o nome da música dentro do jogo")
+(os_detailed_hit_off "Acertos Detalhados: OFF")
+(os_detailed_hit_off_desc "Notificações detalhadas (Ruim, OK, Ótimo, e Perfeito) não serão mostradas em cada nota acertada")
+(os_detailed_hit_on "Acertos Detalhados: ON")
+(os_detailed_hit_on_desc "Notificações detalhadas (Ruim, OK, Ótimo, e Perfeito) serão mostradas em cada nota acertada")
+(os_diff_off "Diff. nos Ícones: OFF")
+(os_diff_off_desc "Nunca mostrar a dificuldade da música em cada instrumento quando a música começar")
+(os_diff_on "Diff. nos Ícones: ON")
+(os_diff_on_desc "Mostrar a dificuldade da música em cada instrumento quando a música começar (similar ao Rock Band 4)")
+(os_dim_remote_players_off "Escurecer Trilha Online: OFF")
+(os_dim_remote_players_off_desc "Manter iluminado as pistas de jogadores(as) online")
+(os_dim_remote_players_on "Escurecer Trilha Online: ON")
+(os_dim_remote_players_on_desc "Escurecer as pistas de jogadores(as) online")
+(os_end_song_feedback_off "Feedback Final: OFF")
+(os_end_song_feedback_off_desc "Nunca mostrar quantas notas você errou ou deu overstrum, ou se você fez FC no fim da música")
+(os_end_song_feedback_on "Feedback Final: ON")
+(os_end_song_feedback_on_desc "Mostra quantas notas você errou ou deu overstrum, ou se você fez FC no fim da música")
+(os_fail_flash_off "Flash de Falha: OFF")
+(os_fail_flash_off_desc "A pista não vai ficar dando flashes vermelhos quando você performar ruim")
+(os_fail_flash_on "Flash de Falha: ON")
+(os_fail_flash_on_desc "A pista vai ficar dando flashes vermelhos quando você performar ruim")
+(os_fc_both "Indicador FC: TODOS")
+(os_fc_both_desc "Mostra ambos os indicadores de Banda (Anel) e do Jogador (Brilho)")
+(os_fc_glow "Indicador FC: BRILHO")
+(os_fc_glow_desc "Apenas mostrar o indicador do jogador (Brilho)")
+(os_fc_off "Indicador FC: OFF")
+(os_fc_off_desc "Nunca mostrar os indicadores de FC")
+(os_fc_ring "Indicador FC: ANEL")
+(os_fc_ring_desc "Apenas mostrar o indicador de Banda (Anel)")
+(os_font "Fonte: ")
+(os_fontdefault "Fonte Padrão")
+(os_fontgangly "Gangly")
+(os_fonthamilton "Hamilton")
+(os_fontmonospace_numbers_shadow "Monospace")
+(os_fontpentatonic "Pentatonic")
+(os_fontpentatonic_bold "Pentatonic Bold")
+(os_fontpentatonic_boldsmall "Pentatonic Bold Small")
+(os_fontpentatonic_display "Pentatonic Display")
+(os_fontpentatonic_outline "Pentatonic Outline")
+(os_fontpentatonic_regularcond "Pentatonic Regular Cond")
+(os_fontpentatonic_regularsmall "Pentatonic Regular Small")
+(os_fontpentatonic_mononumerals "Pentatonic Mononumerals")
+(os_fontrats "Rats")
+(os_fontrelayblack "Relay Black")
+(os_font_size "Tamanho da Fonte")
+(os_fontstainless "Stainless")
+(os_fontstainless_ext_blk "Stainless Ext BLK")
+(os_fontstainless_ext_reg "Stainless Ext Regular")
+(os_force_remote_vox_off "Notas do Vocal: ON")
+(os_force_remote_vox_off_desc "Ativa a visualização dos tubos das notas nas pistas dos vocais. Desativar vai fazer aparecer apenas a letra da música (como no Modo Online)")
+(os_force_remote_vox_on "Notas do Vocal: OFF") ;reversed because remote turns off pitch visibility
+(os_force_remote_vox_on_desc "Ativa a visualização dos tubos das notas nas pistas dos vocais. Desativar vai fazer aparecer apenas a letra da música (como no Modo Online)")
+(os_genre_off "Gênero: OFF")
+(os_genre_on "Gênero: ON")
+(os_hide_on_countdown_multi "Esconder Pista: BANDA")
+(os_hide_on_countdown_multi_desc "As Pistas de todos os(as) jogadores(as) vão sumir durante paradas longas")
+(os_hide_on_countdown_off "Esconder Pista: OFF")
+(os_hide_on_countdown_off_desc "As Pistas não vão sumir durante pararad longas")
+(os_hide_on_countdown_single "Esconder Pista: SOLO")
+(os_hide_on_countdown_single_desc "As Pistas vão sumir durante paradas longas jogando solo")
+(os_high_score_off "Aviso de Highscore Solo: OFF")
+(os_high_score_off_desc "Notificar quando você bater sua pontuação salva no Single Player")
+(os_high_score_on "Aviso de Highscore Solo: ON")
+(os_high_score_on_desc "Notificar quando você bater sua pontuação salva no Single Player")
+(os_highway_overdrive "Overdrive")
+(os_highway_overdrive_desc "Mostra a porcentagem de Overdrive disponível na pista")
+(os_highway_overdrive_off "Overdrive: OFF")
+(os_highway_overdrive_off_desc "A porcentagem de Overdrive disponível não será mostrado na pista")
+(os_highway_overdrive_on "Overdrive: ON")
+(os_highway_overdrive_on_desc "A porcentagem de Overdrive disponível será mostrado na pista")
+(os_highway_perfects "Julgamentos")
+(os_highway_perfects_desc "Mostra o nível de precisão das notas acertadas do jogador na pista")
+(os_highway_streak "Combo de Notas")
+(os_highway_streak_desc "Mostra a quantidade de notas acertadas consecutivamente do jogador na pista")
+(os_highway_streak_gh3_delay_off "Combo de Notas GH3: OFF")
+(os_highway_streak_gh3_delay_off_desc "O combo de notas acertadas consecutivamente do jogador será mostrado desde a primeira nota acertada")
+(os_highway_streak_gh3_delay_on "Combo de Notas GH3: ON")
+(os_highway_streak_gh3_delay_on_desc "O combo de notas acertadas consecutivamente do jogador não será mostrado na pista até acertar 25 notas")
+(os_highway_streak_off "Combo de Notas: OFF")
+(os_highway_streak_off_desc "A quantidade de notas acertadas consecutivamente do jogador não será mostrado na pista")
+(os_highway_streak_on "Combo de Notas: ON")
+(os_highway_streak_on_desc "A quantidade de notas acertadas consecutivamente do jogador será mostrado na pista")
+(os_highway_text "Texto na Pista")
+(os_highway_text_desc "Informações adicionais mostradas na pista do jogador")
+(os_highway_username "Nome do Jogador")
+(os_highway_username_desc "Mostra o nome do jogador na pista")
+(os_highway_username_inst_off "Ícone Instr: OFF")
+(os_highway_username_inst_off_desc "O Ícone do Instrumento do jogador está desabilitado")
+(os_highway_username_inst_on "Ícone Instr: ON")
+(os_highway_username_inst_on_desc "O Ícone do Instrumento do jogador está habilitado")
+(os_highway_username_off "Nome Jogador: OFF")
+(os_highway_username_off_desc "O nome do jogador não será mostrado na pista")
+(os_highway_username_on "Nome Jogador: ON")
+(os_highway_username_on_desc "O nome do jogador será mostrado na pista")
+(os_highway_username_sp_inst_off "Ícone no Single Player: OFF")
+(os_highway_username_sp_inst_off_desc "Ícone do Instrumento não adicionado no Single Player")
+(os_highway_username_sp_inst_on "Ícone no Single Player: ON")
+(os_highway_username_sp_inst_on_desc "Ícone do Instrumento adicionado no Single PlayerInstrument Icon added in Single Player")
+(os_hit_timing_off "Timing dos Acertos: OFF")
+(os_hit_timing_off_desc "O jogo não irá mostrar se teu acerto foi adiantado ou atrasado")
+(os_hit_timing_on "Timing dos Acertos: ON")
+(os_hit_timing_on_desc "O jogo irá mostrar se teu acerto foi adiantado ou atrasado")
+(os_horizontal "X")
+(os_ingame_hud "Interface do Jogo")
+(os_ingame_desc "Elementos padrões do jogo")
+(os_ingame_hud "Interface do Jogo")
+(os_ingame_hud_desc "Controle cada aspecto da interface de usuário do jogo")
+(os_kerning "Kerning")
+(os_minus1 "-1")
+(os_minus10 "-10")
+(os_minus25 "-25")
+(os_minus50 "-50")
+(os_minus100 "-100")
+(os_mtv "Nome da Música...")
+(os_mtv_delay_off "Atraso: NO")
+(os_mtv_delay_off_desc "Não adiciona o atraso do Modo Carreira antes de mostrar a informação do nome da música")
+(os_mtv_delay_on "Atraso: YES")
+(os_mtv_delay_on_desc "Adiciona o atraso do Modo Carreira antes de mostrar a informação do nome da música")
+(os_mtv_desc "Visibilidade e informações extras no texto de nome da música")
+(os_mtv_vis_always "Visibilidade: SEMPRE")
+(os_mtv_vis_always_desc "O nome da música fica fixado até o fim da música")
+(os_mtv_vis_default "Visibilidade: PADRÃO")
+(os_mtv_vis_default_desc "O comportamento padrão para o nome da música dentro do jogo, aparecendo e sumindo")
+(os_mtv_vis_delayed "Visibilidade: C/ DELAY")
+(os_mtv_vis_delayed_desc "Um delay é colocado antes de aparecer o nome da música, como em Road Challenges")
+(os_mtv_vis_never "Visibilidade: NUNCA")
+(os_mtv_vis_never_desc "O nome da música nunca será mostrado, nem no começo da música")
+(os_note_streak_off "Aviso Notas Acertadas: OFF")
+(os_note_streak_off_desc "Nunca mostrar mensagens de notas acertadas")
+(os_note_streak_on "Aviso Notas Acertadas: ON")
+(os_note_streak_on_desc "Mostrar mensagens de notas acertadas (50, 100, e a cada 100 notas acertadas, similar ao Guitar Hero e YARG)")
+(os_od_ready_off "Pronto pro Overdrive: OFF")
+(os_od_ready_off_desc "Nunca mostrar mensagens de \qPronto pro Overdrive!\q")
+(os_od_ready_on "Pronto pro Overdrive: ON")
+(os_od_ready_on_desc "Mostrar a mensagem \qPronto pro Overdrive!\q quando a barra de Overdrive tiver energia pra ser ativada (similar ao Guitar Hero e YARG)")
+(os_perfects_ctr_off "Contador de Perfeitos: OFF")
+(os_perfects_ctr_off_desc "O jogo não irá mostrar quantas notas foram acertadas perfeitamente")
+(os_perfects_ctr_on "Contador de Perfeitos: ON")
+(os_perfects_ctr_on_desc "O jogo irá mostrar quantas notas foram acertadas perfeitamente")
+(os_perfects_indicator_off "Perfeitos: OFF")
+(os_perfects_indicator_off_desc "O jogo não irá notificar quando você acertar com precisão perfeita")
+(os_perfects_indicator_on "Perfeitos: ON")
+(os_perfects_indicator_on_desc "O jogo irá notificar quando você acertar com precisão perfeita")
+(os_popups "Popups das Pistas...")
+(os_popups_desc "Funcionalidades adicionais que aparecem em cima da pista")
+(os_postfx_on "[Desabilite Todos]")
+(os_pos_desc "Mova os elementos pela tela. Melhor testar dentro do jogo")
+(os_practice_hud "Interface Modo Prática...")
+(os_practice_hud_desc "Controla a interface geral do Modo Prática")
+(os_prefix_disable "Prefix's: YES")
+(os_prefix_enable "Prefix's: NO")
+(os_reset_color "[Resetar]")
+(os_score "Pontuação/Estrelas...")
+(os_scoreboard_pos "Posição Pontuação")
+(os_score_desc "Posição da pontuação e das estrelas conquistas na tela")
+(os_score_percent "Porcentagem de Acertos")
+(os_screenel "HUD Elements")
+(os_screenel_desc "Finer control of in-game on-screen elements")
+(os_section_on "Sessão: ON")
+(os_section_off "Sessão: OFF")
+(os_section_on "Sessão: ON")
+(os_solo_box_pos "Porcem. Solo...")
+(os_solo_box_pos_desc "Posição da caixa que mostra a poncentagem de notas acertadas durante um solo")
+(os_song_key_off "Tom da Música: OFF")
+(os_song_key_on "Tom da Música: ON")
+(os_song_progress "Barra de Progresso...")
+(os_song_progress_desc "Opções relacionadas à Barra de Progresso da Música")
+(os_song_timer "Timer da Música...")
+(os_song_timer_desc "Opções relacionadas ao Timer da Música")
+(os_song_title_off "Nome da Música: OFF")
+(os_song_title_on "Nome da Música: ON")
+(os_source_off "Fonte da Música: OFF")
+(os_source_on "Fonte da Música: ON")
+(os_star_display_pos "Posição Estrelas")
+(os_star_gold_fill_off "Progresso E. Dourada: OFF")
+(os_star_gold_fill_off_desc "O progresso para conquistar estrelas douradas não será mostrado na tela!")
+(os_star_gold_fill_on "Progresso E. Dourada: ON")
+(os_star_gold_fill_on_desc "O progresso para conquistar estrelas douradas será mostrado na tela!")
+(os_stats_disable "Info Extra: YES")
+(os_stats_enable "Info Extra: NO")
+(os_streak_counter_multi "Con. Notas: BANDA")
+(os_streak_counter_multi_desc "Mostra o Contador de Acertos em ambos Single Player e Multiplayer")
+(os_streak_counter_off "Con. Notas: OFF")
+(os_streak_counter_off_desc "Nunca mostrar a caixa do Contador de Acertos")
+(os_streak_counter_single "Con. Notas: SINGLE")
+(os_streak_counter_single_desc "Mostra o Contador de Acertos apenas no modo Single Player")
+(os_sub_genre_off "Sub-Gênero: OFF")
+(os_sub_genre_on "Sub-Gênero: ON")
+(os_text_options "Opções de Texto...")
+(os_text_options_desc "Várias opções específicas de texto")
+(os_time_remaining_down "Timer: TEMPO RESTANTE")
+(os_time_remaining_down_desc "O Timer regridirá até zerar a contagem")
+(os_time_remaining_off "Timer: OFF")
+(os_time_remaining_off_desc "O Timer será desabilitado no jogo")
+(os_time_remaining_on_top_off "Posição Timer: Abaixo")
+(os_time_remaining_on_top_off_desc "Mostra o Timer da Música abaixo do Contador de Acertos")
+(os_time_remaining_on_top_on "Posição Timer: Acima")
+(os_time_remaining_on_top_on_desc "Mostra o Timer da Música a cima da caixa de pontuação (exceto se um vocalista estiver ativo)")
+(os_time_remaining_up "Timer: TEMPO PASSADO")
+(os_time_remaining_up_desc "O Timer contará do começo ao fim da música")
+(os_total_time_off "Duração Música: ESCONDER")
+(os_total_time_off_desc "Esconde o tempo total da música no Timer dentro do jogo")
+(os_total_time_on "Duração Música: MOSTRAR")
+(os_total_time_on_desc "Mostra o tempo total da música no Timer dentro do jogo")
+(os_trackconfig "Câmera das Pistas...")
+(os_trackconfig_desc "Controle o visual e escala das pistas")
+(os_track_hud "HUD das Pistas")
+(os_track_hud_desc "Controle opções específicas do HUD das Pistas")
+(os_trk_fov "- FOV: %d +")
+(os_trk_pitch "- PITCH: %d +")
+(os_trk_x "- X: %d +")
+(os_trk_y "- Y: %d +")
+(os_trk_z "- Z: %d +")
+(os_tweaks "Ajustes")
+(os_tweaks_desc "Vários ajustes em elementos dentro e fora do jogo")
+(os_vertical "Y")
+(os_vis_disabled "Med. Platéria: OFF")
+(os_vis_disabled_desc "Hide and disable the crowd meter, enabling crowd sing-alongs on at all times")
+(os_vis_off "Med. Platéria: OFF")
+(os_vis_off_desc "Esconde o Medidor de Platéia")
+(os_vis_on "Med. Platéria: ON")
+(os_vis_on_desc "Mostra o Medidor de Platéia")
+#ifdef HX_WII
+(os_wii_fc_glow_off "Indicador FC: OFF")
+(os_wii_fc_glow_off_desc "Nunca mostrar o indicador de FC")
+(os_wii_fc_glow_on "Indicador FC: ON")
+(os_wii_fc_glow_on_desc "Mostra um brilho no anel do Multiplicador")
+#endif
+(os_year_off "Ano: OFF")
+(os_year_on "Ano: ON")
+(os_yearonline_off "Ano (em Linha): OFF")
+(os_yearonline_on "Ano (em Linha): ON")
+(os_you_rock_off "\qVocê ARRASOU!\q: OFF")
+(os_you_rock_off_desc "Nunca mostrar a mensagem \qVocê ARRASOU!\q no fim da música")
+(os_you_rock_on "\qVocê ARRASOU!\q: ON")
+(os_you_rock_on_desc "Mostra a mensagem \qVocê ARRASOU!\q no fim da música, similar ao Guitar Hero")
+(os_zspace "Z")
 
-;streaks
+; In-game text
+(album "Álbum")
+(author_warning "Este modificador foi criado para ser utilizado por charters. Combine este modificador com o mapeamento de controles do RPCS3 para utilizar o Modo All Instruments.")
+(autoplay_enabled "AUTOPLAY")
+(award_flawless "Full Combo")
+(bpm_report "BPM: %.02f")
+(choke_solo "Quase ein!")
+(dx_highscore_best " Nova Melhor Pontuação Pessoal!")
+(dx_indv_combo "%i")
+(dx_note_streak "Combo de %i Notas!")
+(dx_overdrive_ready "Pronto pro Overdrive!")
+(dx_overdrive_report "%.02f%%")
+(dx_points "PONTOS")
+(dx_time_remaining_both "%s / %s")
+(dx_time_remaining_one "%s")
+(final_percent "%s%")
+(full_combo_short "FC")
+(get_ready "Se\nPrepare!")
+(inst_icon_bass "<alt>B</alt>")
+(inst_icon_drum "<alt>D</alt>")
+(inst_icon_guitar "<alt>G</alt>")
+(inst_icon_harm2 "<alt>2</alt>")
+(inst_icon_harm3 "<alt>3</alt>")
+(inst_icon_keys "<alt>K</alt>")
+(inst_icon_real_bass "<alt>b</alt>")
+(inst_icon_real_drum "<alt>d</alt>")
+(inst_icon_real_guitar "<alt>g</alt>")
+(inst_icon_real_keys "<alt>k</alt>")
+(inst_icon_vocals "<alt>V</alt>")
+(judge_bad "RUIM")
+(judge_good "OK")
+(judge_great "ÓTIMO")
+(judge_perfect "PERFEITO")
+(judge_invalid "INVÁLIDO")
+(key_of "Tom em")
+(keyof_string "Tom em: %s")
+(keys_author "Teclado/Teclado PRO")
+(nice_solo "69 hehehe")
+(overstrums "+%s")
+(section "Sessão")
+(section_string "Sessão: %s")
+(solo_countdown "%s")
+(song_progress_backer "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+(song_string "%s | %s")
+(speed_string "%s (%i%%)")
+(speed_string_mode "%s | %s (%i%%)")
+(stringify "%s")
+(strings_author "PRO Guitarra/Baixo")
+(time_remaining "Tempo Restante")
+(tour_event_songs_next "Música %d de %d\nPróxima Música: %s\n")
+(year_string "%i")
+(year_string "%i")
 
+; Intervals
+(interval_0 "Intervalo: 0.01")
+(interval_1 "Intervalo: 0.10")
+(interval_2 "Intervalo: 0.5")
+(interval_3 "Intervalo: 1")
+(interval_4 "Intervalo: 5")
+(interval_5 "Intervalo: 10")
+(interval_6 "Intervalo: 50")
+(interval_7 "Intervalo: 100")
+(pos_interval_0 "Intervalo Posição: 0.01")
+(pos_interval_1 "Intervalo Posição: 0.10")
+(pos_interval_2 "Intervalo Posição: 0.5")
+(pos_interval_3 "Intervalo Posição: 1")
+(pos_interval_4 "Intervalo Posição: 5")
+(pos_interval_5 "Intervalo Posição: 10")
+(pos_interval_6 "Intervalo Posição: 50")
+(pos_interval_7 "Intervalo Posição: 100")
+
+; Logging
+(mod_dx_logging_desc "Salva log de eventos no disco para depurações")
+(os_logging "Log de Eventos")
+(os_logging_beatmatch_off "Beatmatch: OFF")
+(os_logging_beatmatch_on "Beatmatch: ON")
+(os_logging_countdown_off "Contagem Regressiva: OFF")
+(os_logging_countdown_on "Contagem Regressiva: ON")
+(os_logging_default_off "Padrão: OFF")
+(os_logging_default_on "Padrão: ON")
+(os_logging_disable_all "[Desabilitar Todos]")
+(os_logging_essential_off "Essencial: OFF")
+(os_logging_essential_on "Essencial: ON")
+(os_logging_info_off "Info: OFF")
+(os_logging_info_on "Info: ON")
+(os_logging_insane_off "Insano: OFF")
+(os_logging_insane_on "Insano: ON")
+
+; Menu backgrounds
+(career_transitions "Transições da Carreira")
+(meta_now_playing "<alt>Músical Atual:</alt> %s")
+(os_bg2 "Loja de Música")
+(os_bg3 "Original")
+(os_bg4 "Tour de Van")
+(os_bg5 "Sala de Prática")
+(os_bg7 "a sala de prática mais legal do planeta")
+(os_bg8 "RB3 Deluxe")
+(os_load_song "Trans. de Músicas")
+(os_load_song_desc "Transições indo de uma música para outra")
+(os_main_menu "Menu Principal")
+(os_main_menu_desc "Backgrounds para o menu principal")
+(os_nobg_off "[Habilitar Todos]")
+(os_nobg_off_desc "Reabilite o Background dos menus")
+(os_nobg_on "[Desabilitar Todos]")
+(os_nobg_on_desc "Background totalmente vazio nos menus")
+(os_none "[Nenhum]")
+(os_reload "Recarregar BG")
+(os_reload_deny "Você não pode recarregar o Background durante o jogo.")
+(os_reload_desc "Recarrega o Background do Menu Principal")
+(os_song_select "Biblioteca de Música")
+(os_song_select_desc "Backgrounds para o Biblioteca de Músicas")
+(other_transitions "Outras Transições")
+(press_to_play "Pressione <alt>o</alt> para %s")
+(shuffle_all "Embaralhar Todos")
+(song_transitions "Transições de Música")
+(sv2_a "Loja de Música")
+(sv3_a "Baboon Nest")
+(sv3_b "Deserto Abandonado")
+(sv4_array "BG Biblioteca de Músicas")
+(sv4_array "BG Biblioteca de Músicas")
+(sv4_b "Viagem de Ônibus")
+(sv4_c "Viagem de Jatinho")
+(sv4_d "Metrô")
+(sv4_e "Viagem de Limosine")
+(sv5_a "Espaço de Prática")
+(sv7_array "BG do Menu Principal")
+(sv7_array "BG do Menu Principal")
+(sv7_b "Sacada")
+(sv7_c "Stoop Stairs")
+(sv8_a "Splash Screen")
+(sv8_a_dx "Tela do Deluxe")
+(tv1_a "Loja de Música")
+(tv3_a "Transição de Música 1")
+(tv3_b "Transição de Música 2")
+(tv3_c "Transição de Música 3")
+(tv3_d "Transição de Música 4")
+(tv3_e "Transição de Música 5")
+(tv3_f "Transição de Música 6")
+(tv4_a "Trans. do Metrô")
+(tv4_b "Trans. da Van")
+(tv4_c "Trans. do Ônibus")
+(tv4_d "Trans. Jatinho 1")
+(tv4_e "Trans. Jatinho 2")
+(tv5_a "Trans. Empacotando")
+(tv6_a "Trans. do Beco")
+(tv11_a "Trans. do Táxi")
+
+; Menu options
+(no_fail_enabled "Modo No Fail Habilitado")
+(os_icons_rb3 "Ícones Instrumentos: RB3")
+(os_icons_rb3_desc "Muda os ícones dos insrumentos utilizado pelo jogo")
+(os_icons_rb4 "Ícones Instrumentos: RB4")
+(os_icons_rb4_desc "Muda os ícones dos insrumentos utilizado pelo jogo")
+(os_menu_color_b "- B: %d%% +")
+(os_menu_color_g "- G: %d%% +")
+(os_menu_color_r "- R: %d%% +")
+(os_menu_color "Cor da Faixa...")
+(os_menu_color_desc "Muda a cor da faixa no menu do jogador")
+(os_menu_options "Opções de Menu")
+(os_menu_options_desc "Personalize o visual dos menus com texturas personalizadas")
+(os_menu_theme "Tema do Menu...")
+(os_menu_theme_desc "Muda o tema no menu do jogador")
+(os_player_icons_off "Ícones Jogador: OFF")
+(os_player_icons_off_desc "Esconde seu ícone no menu do jogador")
+(os_player_icons_on "Ícones Jogador: ON")
+(os_player_icons_on_desc "Mostra seu ícone no menu do jogador")
+(os_quick_chat "Atalhos do Quick Chat")
+(os_quick_chat_desc "Alterne os atalhos do chat de mensagens na sua jogatina online")
+(os_rb3_menu_theme "Rock Band 3")
+(os_rb3_menu_theme_desc "O tema original do menu do Rock Band 3")
+(os_rb4_menu_theme "Rock Band 4")
+(os_rb4_menu_theme_desc "O tema do menu do Rock Band 4")
+(os_reset_color "[Resetar]")
+(os_rivals_menu_theme "Rock Band Rivals")
+(os_rivals_menu_theme_desc "O tema do menu do Rock Band 4 Rivals")
+(os_selectchatpreset_desc "Dica: Você pode usar o direcional direito enquanto estiver em cima da opção de Quick Chat para acessar a lista completa")
+(os_welcome_msg "Bem-vindo ")
+(overshell_dx_quick_chat "Quick Chat +")
+(overshell_rb3esettings "Opções Deluxe")
+
+; New Genres
+(axebr "Axé")
+(bigband "Big Band")
+(blackmetal "Black Metal")
+(bossanova "Bossa Nova")
+(bregatechnobrega "Brega/Techno Brega")
+(forro "Forró")
+(funkbr "Funk Brasileiro")
+(deathmetal "Death Metal")
+(dubstep "Dubstep")
+(funkmelody "Funk Melody")
+(gospel "Gospel")
+(hairmetal "Hair Metal")
+(hardcorepunk "Hardcore Punk")
+(metalcore "Metalcore")
+(mpb "MPB")
+(pagode "Pagode")
+(poppunk "Pop Punk")
+(posthardcore "Post-Hardcore")
+(psychobilly "Psychobilly")
+(raprock "Rap-Rock")
+(samba "Samba")
+(sertanejo "Sertanejo")
+(sertanejo_universitario "Sertanejo Universitário")
+(skapunk "Ska Punk")
+(speedmetal "Speed Metal")
+(subgenre_axebr "Axé")
+(subgenre_bossanova "Bossa Nova")
+(subgenre_brega "Brega")
+(subgenre_technobrega "Techno Brega")
+(subgenre_forro "Forró")
+(subgenre_funkbr "Funk Brasileiro")
+(subgenre_funkmelody "Funk Melody")
+(subgenre_gospel "Gospel")
+(subgenre_mpb "MPB")
+(subgenre_pagode "Pagode")
+(subgenre_samba "Samba")
+(subgenre_sertanejo "Sertanejo")
+(subgenre_sertanejo_universitario "Sertanejo Universitário")
+(surfrock "Surf Rock")
+(trap "Trap")
+
+; New song select screen
+(dx_setlist_infinite "O Repertório Ultimate")
+(dx_setlist_infinite_desc "Quase 16 horas de música... 16 HORAS!!!")
+(os_blnk " ")
+(os_more_info_toggle_off "Seg. Azul Metadados: OFF")
+#ifdef HX_PS3
+(os_more_info_toggle_off_desc "Carrega automaticamente metadatos extendidos na Biblio. de Músicas (pode causar lag jogando em console)")
+#else
+(os_more_info_toggle_off_desc "Carrega automaticamente metadatos extendidos na Biblio. de Músicas (pode causar lag no Menu)")
+#endif
+(os_more_info_toggle_on "Seg. Azul Metadados: ON")
+(os_more_info_toggle_on_desc "Nunca carregar metadados extendidos na Biblioteca de Músicas ao menos que clique no botão azul")
+(os_song_rings_off "Ícones Dificul: Bolinhas")
+(os_song_rings_off_desc "Use bolinhas como ícones (padrão RB3)")
+(os_song_rings_on "Ícones Dificul: Anéis")
+(os_song_rings_on_desc "Use anéis como ícones (estilo YARG)")
+(overshell_real_guitar_22 "Guitarra PRO 22")
+(overshell_real_bass_22 "Baixo PRO 22")
+(press_to_load_meta "Segure <alt>b</alt> para carregar informações")
+(song_search "Pesquisa de Músicas")
+(song_search_desc "Pesquise pelo Nome da Música ou Shortname")
+(song_search_title "Nome da Música")
+(the2020s "Anos 2020")
+
+; Overdrive
 (_1_none "[Nenhum]")
-
 (_1_rb3_guitarbass "RB3 Guitar/Bass")
-(_rb3_drums "RB3 Drums")
-(_rb3_keys "RB3 Keys")
-(_rb3_prokeys "RB3 Pro Keys")
-(_rb3_unused "RB3 Unused")
-
-(_srb2 "Rock Band 2")
-(_srlrb "LEGO Rock Band")
-
-(_vrb4 "Rock Band 4")
-(_vrb4_rivals "RB4 Rivals")
-(_vrb4alt "RB4 Alt")
-
-(_vyarg "YARG")
-(_wtbrb "The Beatles Rock Band")
-
-(rb3_1guitarbass_aqua "RB3 Guitar/Bass Aqua")
-(rb3_1guitarbass_black "RB3 Guitar/Bass Black")
-(rb3_1guitarbass_blue "RB3 Guitar/Bass Blue")
-(rb3_1guitarbass_green "RB3 Guitar/Bass Green")
-(rb3_1guitarbass_orange "RB3 Guitar/Bass Orange")
-(rb3_1guitarbass_pink "RB3 Guitar/Bass Pink")
-(rb3_1guitarbass_purple "RB3 Guitar/Bass Purple")
-(rb3_1guitarbass_red "RB3 Guitar/Bass Red")
-(rb3_1guitarbass_white "RB3 Guitar/Bass White")
-(rb3_1guitarbass_yellow "RB3 Guitar/Bass Yellow")
-
-(rb3_drums_aqua "RB3 Drums Aqua")
-(rb3_drums_black "RB3 Drums Black")
-(rb3_drums_blue "RB3 Drums Blue")
-(rb3_drums_green "RB3 Drums Green")
-(rb3_drums_orange "RB3 Drums Orange")
-(rb3_drums_pink "RB3 Drums Pink")
-(rb3_drums_purple "RB3 Drums Purple")
-(rb3_drums_red "RB3 Drums Red")
-(rb3_drums_white "RB3 Drums White")
-(rb3_drums_yellow "RB3 Drums Yellow")
-
-(rb3_keys_aqua "RB3 Keys Aqua")
-(rb3_keys_black "RB3 Keys Black")
-(rb3_keys_blue "RB3 Keys Blue")
-(rb3_keys_green "RB3 Keys Green")
-(rb3_keys_orange "RB3 Keys Orange")
-(rb3_keys_pink "RB3 Keys Pink")
-(rb3_keys_purple "RB3 Keys Purple")
-(rb3_keys_red "RB3 Keys Red")
-(rb3_keys_white "RB3 Keys White")
-(rb3_keys_yellow "RB3 Keys Yellow")
-
-(rb3_unused_aqua "RB3 Unused Aqua")
-(rb3_unused_black "RB3 Unused Black")
-(rb3_unused_blue "RB3 Unused Blue")
-(rb3_unused_green "RB3 Unused Green")
-(rb3_unused_orange "RB3 Unused Orange")
-(rb3_unused_pink "RB3 Unused Pink")
-(rb3_unused_purple "RB3 Unused Purple")
-(rb3_unused_red "RB3 Unused Red")
-(rb3_unused_white "RB3 Unused White")
-(rb3_unused_yellow "RB3 Unused Yellow")
-
-(rb4alt_aqua "RB4 Alt Aqua")
-(rb4alt_black "RB4 Alt Black")
-(rb4alt_darkblue "RB4 Alt Dark Blue")
-(rb4alt_green "RB4 Alt Green")
-(rb4alt_orange "RB4 Alt Orange")
-(rb4alt_pink "RB4 Alt Pink")
-(rb4alt_pink2 "RB4 Alt Pink 2")
-(rb4alt_purple "RB4 Alt Purple")
-(rb4alt_red "RB4 Alt Red")
-(rb4alt_white "RB4 Alt White")
-(rb4alt_yellow "RB4 Alt Yellow")
-
-(rb4aquafusion "RB4 Fusion")
-(rb4aquagoth "RB4 Goth")
-
-
-;overdrive
-
-(_1_none "[Nenhum]")
-(_1_rb3_guitar "RB3 Guitar")
 (_rb3_bass "RB3 Bass")
 (_rb3_drums "RB3 Drums")
 (_rb3_keys "RB3 Keys")
@@ -1513,793 +1128,87 @@
 (rb4_beta_bass "RB4 Beta Bass")
 (rb4_beta_drums "RB4 Beta Drums")
 
-;end custom textures
+; Platforms
+(platform_dolphin_rb3e "Plataforma Detectada: Dolphin com RB3Enhanced")
+(platform_ps3 "Plataforma Detectada: PlayStation 3")
+(platform_rpcs3 "Plataforma Detectada: RPCS3")
+(platform_xbox "Plataforma Detectada: Xbox 360")
+(platform_xbox_rb3e "Plataforma Detectada: Xbox 360 com RB3Enhanced")
+(platform_xenia_rb3e "Plataforma Detectada: Xenia com RB3Enhanced")
+(platform_wii "Plataforma Detectada: Wii")
+(platform_wii_rb3e "Plataforma Detectada: Wii com RB3Enhanced")
+(platform_unknown "Plataforma Detectada: Desconhecida")
+(print_platform "Verificar Plataforma")
+(unknown "Desconhecido")
 
-(dx_appearancemenu_desc "This menu grants you control over the look of the game")
-(dx_deluxeobjects_desc "This menu grants you control over Rock Band 3 Deluxe Unique HUD elements")
-(dx_screenelements_desc "This menu grants you finer control over different HUD elements")
-(os_100 "+100")
-(os_50 "+50")
-(os_25 "+25")
-(os_10 "+10")
-(os_1 "+1")
-(os_reset "[Resetar]")
-(os_minus1 "-1")
-(os_minus10 "-10")
-(os_minus25 "-25")
-(os_minus50 "-50")
-(os_minus100 "-100")
-(os_horizontal "X")
-(os_vertical "Y")
-(os_font_size "Tamanho da Fonte")
-(os_fontdefault "Fonte Padrão")
-(os_fontgangly "Gangly")
-(os_fonthamilton "Hamilton")
-(os_fontmonospace_numbers_shadow "Monospace")
-(os_fontpentatonic "Pentatonic")
-(os_fontpentatonic_bold "Pentatonic Bold")
-(os_fontpentatonic_boldsmall "Pentatonic Bold Small")
-(os_fontpentatonic_display "Pentatonic Display")
-(os_fontpentatonic_outline "Pentatonic Outline")
-(os_fontpentatonic_regularcond "Pentatonic Regular Cond")
-(os_fontpentatonic_regularsmall "Pentatonic Regular Small")
-(os_fontpentatonic_mononumerals "Pentatonic Mononumerals")
-(os_fontrats "Rats")
-(os_fontrelayblack "Relay Black")
-(os_fontstainless "Stainless")
-(os_fontstainless_ext_blk "Stainless Ext BLK")
-(os_fontstainless_ext_reg "Stainless Ext Regular")
-(os_kerning "Kerning")
-(os_alignment "Alinhamento")
-(os_zspace "Z")
-(os_screenel "HUD Elements")
-(os_screenel_desc "Finer control of in-game on-screen elements")
-(os_crowdmeter "Crowd Meter")
-(os_eltex "Textura")
-(os_eltexs "Texturas")
-(mod_nosfx "No Instrument SFX")
-(mod_calibration "Modo Calibragem")
-(brutal_warning "Este modificador ajusta dinâmicamente a visualização das notas enquanto você joga. Continuar?")
-(calibration_warning "Este modificador vai apertar drasticamente a hitbox, permitindo que você calibre precisamente suas configurações de calibragem. Continuar?")
-(precision_warning "Este modificador vai apertar a hitbox, forçando você a jogar com mais precisão, afetando o gameplay. Continuar?")
-(os_pause "Pause")
-(mod_nopause "Party Play")
-(save_warning "Gostaria de salvar estas configurações para sessões futuras?")
-(os_save "Salvar")
-(os_dontsave "Não Salvar")
-(os_emissivecolor "overdrive")
-(os_color_r "R")
-(os_color_g "G")
-(os_color_b "B")
-(color_msg "Cor Atual:\n")
-(os_default "[Padrão]")
-(author "Charter")
-(section "Sessão")
-(section_string "Sessão: %s")
-(year_string "%i")
-(bpm_report "BPM: %.02f")
-(time_remaining "Tempo Restante")
-(strings_author "PRO Guitarra/Baixo")
-(autoplay_enabled "AUTOPLAY")
-(speed_string "%s (%i%%)")
-(speed_string_mode "%s | %s (%i%%)")
-(song_string "%s | %s")
-(keys_author "Teclado/Teclado PRO")
-(album "Álbum")
-(year "Ano")
-(key_of "Tom em")
-(keyof_string "Tom em: %s")
+; Play a Show
+(dx_play_a_show_desc "Modo Play a Show:\nComece com uma música para a platéia, e então a banda vota em músicas para construir um repertório!")
+(dx_play_a_show_info "Vote em quais músicas você irá jogar!\nA votação acaba quando todos(as) os(as) jogadores(as) votarem!")
+(dx_play_a_show_intro "Bem-vindo ao Modo Play a Show!\n\nComece escolhendo a música de abertura para seu repertório.\nDepois da música de abertura, você e sua banda votará juntos, moldando seu repertório por uma série de opções.\n\nDica: Agora é sua change de selecionar os filtros pelo botão [Select].")
+(dx_play_a_show_setlist_count "\nRepertório: %i Música")
+(dx_play_a_show_setlist_counts "\nRepertório: %i Músicas")
+(dx_play_a_show_welcome "Bem-vindo ao Modo Play a Show!")
+(overshell_confirm_leaveashow "Você tem certeza que deseja sair do Modo Play a Show?\nSeu repertório será perdido!")
+(play_a_show_album "Uma música do álbum %s <alt>%s</alt>")
+(play_a_show_artist "Uma música do artista/banda: %s")
+(play_a_show_author "Uma música charteada pelo(a) %s")
+(play_a_show_bandvote "Voto da Banda:")
+(play_a_show_community "Uma música da comunidade")
+(play_a_show_diff "Uma música na dificuldade: %s")
+(play_a_show_diff_an "Uma música na dificuldade: %s")
+(play_a_show_fast "Uma música rápida")
+(play_a_show_genre "Uma música do gênero: %s")
+(play_a_show_get_songs "Obtendo Músicas")
+(play_a_show_lock_in "Locking in")
+(play_a_show_long "Uma música longa")
+(play_a_show_med "Uma música completamente aleatória")
+(play_a_show_missing_inst "Esta música falta um dos seus instrumentos:")
+(play_a_show_pick_songs "Escolhendo Músicas")
+(play_a_show_pressstart "Pressione <alt>s</alt>\npara começar!")
+(play_a_show_really_long "Uma música BEM longa")
+(play_a_show_really_short "Uma música BEM curta")
+(play_a_show_refreshing "Atualizando Opções")
+(play_a_show_refreshed "Opções Atualizadas")
+(play_a_show_refreshing "Atualizando Opções")
+(play_a_show_short "Uma música curta")
+(play_a_show_slow "Uma música devagar")
+(play_a_show_source "Uma música do: %s")
+(play_a_show_submitting "Enviando Resultados")
+(play_a_show_waiting "Aguardando")
+(play_a_show_welcome_text "Bem-vindo ao Modo Play a Show!\nAfine seus instrumentos e escolha uma música pra esquentar a platéia!")
+(play_a_show_woman "Uma música com uma vocalista feminina")
+(play_a_show_year "Uma música de %i")
+(play_a_show_year_decade "Uma música de uma década: %is")
+(play_one "Votar 1")
+(play_two "Votar 2")
+(play_three "Votar 3")
+(play_four "Votar 4")
+(play_five "Votar 5")
+(play_six "Votar 6")
+(play_show "Jogar!")
 
-; New Genres
-(bigband "Big Band")
-(blackmetal "Black Metal")
-(deathmetal "Death Metal")
-(dubstep "Dubstep")
-(hairmetal "Hair Metal")
-(hardcorepunk "Hardcore Punk")
-(metalcore "Metalcore")
-(poppunk "Pop Punk")
-(posthardcore "Post-Hardcore")
-(psychobilly "Psychobilly")
-(raprock "Rap-Rock")
-(skapunk "Ska Punk")
-(speedmetal "Speed Metal")
-(surfrock "Surf Rock")
-(trap "Trap")
+; Practice speeds
+(practice_speed_1 "Velocidade: 95%")
+(practice_speed_2 "Velocidade: 90%")
+(practice_speed_3 "Velocidade: 85%")
+(practice_speed_4 "Velocidade: 80%")
+(practice_speed_5 "Velocidade: 75%")
+(practice_speed_6 "Velocidade: 70%")
+(practice_speed_7 "Velocidade: 65%")
+(practice_speed_8 "Velocidade: 60%")
+(practice_speed_9 "Velocidade: 55%")
+(practice_speed_10 "Velocidade: 50%")
+(practice_speed_11 "Velocidade: 45%")
+(practice_speed_12 "Velocidade: 40%")
+(practice_speed_13 "Velocidade: 35%")
+(practice_speed_14 "Velocidade: 30%")
+(practice_speed_15 "Velocidade: 25%")
+(practice_speed_16 "Velocidade: 20%")
+(practice_speed_17 "Velocidade: 15%")
+(practice_speed_18 "Velocidade: 10%")
+(practice_speed_19 "Velocidade: 5%")
 
-(os_nice_sound_on "69% Nice: ON")
-(os_nice_sound_off "69% Nice: OFF")
-(os_dx_objects "Deluxe HUD")
-(os_dx_objects_desc "Rock Band 3 Deluxe additional HUD display elements")
-(os_dx_trackobjects "Deluxe Track")
-(os_dx_trackobjects_desc "Rock Band 3 Deluxe additional track display elements")
-(os_startup "Startup")
-(milohax_raw "MiloHax")
-(os_startup_desc "Rock Band 3 Deluxe boot-up options for intro movie and splash screen")
-(os_joinmilohax "Join MiloHax!")
-(os_joinmilohax_desc "Shows a QR code invite to the MiloHax Discord")
-(os_force_remote_vox_on "Notas do Vocal: OFF") ;reversed because remote turns off pitch visibility
-(os_force_remote_vox_off "Notas do Vocal: ON")
-(os_force_remote_vox_off_desc "Ativa a visualização dos tubos das notas nas pistas dos vocais. Desativar vai fazer aparecer apenas a letra da música (como no Modo Online)")
-(os_force_remote_vox_on_desc "Ativa a visualização dos tubos das notas nas pistas dos vocais. Desativar vai fazer aparecer apenas a letra da música (como no Modo Online)")
-(os_dim_remote_players_on "Escurecer Trilha Online: ON")
-(os_dim_remote_players_off "Escurecer Trilha Online: OFF")
-(os_dim_remote_players_on_desc "Escurecer as pistas de jogadores(as) online")
-(os_dim_remote_players_off_desc "Manter iluminado as pistas de jogadores(as) online")
-(os_time_remaining_up "Timer: TEMPO PASSADO")
-(os_time_remaining_down "Timer: TEMPO RESTANTE")
-(os_time_remaining_off "Timer: OFF")
-(os_time_remaining_on_top_on "Posição Timer: Acima")
-(os_time_remaining_on_top_off "Posição Timer: Abaixo")
-(os_time_remaining_on_top_on_desc "Mostra o Timer da Música a cima da caixa de pontuação (exceto se um vocalista estiver ativo)")
-(os_time_remaining_on_top_off_desc "Mostra o Timer da Música abaixo do Contador de Acertos")
-(os_time_remaining_up_desc "O Timer contará do começo ao fim da música")
-(os_time_remaining_down_desc "O Timer regridirá até zerar a contagem")
-(os_time_remaining_off_desc "O Timer será desabilitado no jogo")
-(os_total_time_on_desc "Mostra o tempo total da música no Timer dentro do jogo")
-(os_total_time_off_desc "Esconde o tempo total da música no Timer dentro do jogo")
-(os_bar_time_on "Barra de Progresso: ON")
-(os_bar_time_off "Barra de Progresso: OFF")
-(os_bar_time_on_desc "Mostra uma barra de progresso para o tempo restante da música")
-(os_bar_time_off_desc "Mostra uma barra de progresso para o tempo restante da música")
-(os_bar_overdrive_on "Sessões Overdrive: ON")
-(os_bar_overdrive_off "Sessões Overdrive: OFF")
-(os_bar_overdrive_on_desc "Mostra as sessões de Overdrive na barra de progresso da música")
-(os_bar_overdrive_off_desc "Mostra as sessões de Overdrive na barra de progresso da música")
-(os_bar_solo_on "Sessões Solo: ON")
-(os_bar_solo_off "Sessões Solo: OFF")
-(os_bar_solo_on_desc "Mostra as sessões de solo na barra de progresso da música")
-(os_bar_solo_off_desc "Mostra as sessões de solo na barra de progresso da música")
-(os_bar_bre_on "Finais Triunfantes: ON")
-(os_bar_bre_off "Finais Triunfantes: OFF")
-(os_bar_bre_on_desc "Mostra as sessões de Finais Triunfantes na barra de progresso da música")
-(os_bar_bre_off_desc "Mostra as sessões de Finais Triunfantes na barra de progresso da música")
-(os_bar_icon_on "Instrumento: ON")
-(os_bar_icon_off "Instrumento: OFF")
-(os_bar_icon_on_desc "Mostra o instrumento tocado na barra de progresso da música")
-(os_bar_icon_off_desc "Mostra o instrumento tocado na barra de progresso da música")
-(os_countdown_warn "Note: Pausing mid run will throw off the countdown.")
-(dx_none "[Nenhum]")
-(goul-nug_fc "[Padrão]")
-(overshell_dx_bot_settings "Config Autoplay")
-(os_dx_bot_skill "Precisão")
-(os_dx_auto_endgame_on "Auto Next: Yes")
-(os_auto_endurance_selected "Auto Song: Selection")
-(os_auto_endurance_random "Auto Song: Random")
-(os_dx_bot_1_on "Player 1: Yes")
-(os_dx_bot_2_on "Player 2: Yes")
-(os_dx_bot_3_on "Player 3: Yes")
-(os_dx_bot_4_on "Player 4: Yes")
-(os_dx_bot_5_on "Player 5: Yes")
-(os_dx_auto_endgame_off "Auto Next: No")
-(os_auto_endurance_off "Auto Song: No")
-(os_dx_bot_1_off "Player 1: No")
-(os_dx_bot_2_off "Player 2: No")
-(os_dx_bot_3_off "Player 3: No")
-(os_dx_bot_4_off "Player 4: No")
-(os_dx_bot_5_off "Player 5: No")
-(os_dx_bot_overdrive_on "Overdrive: Yes")
-(os_dx_bot_overdrive_off "Overdrive: No")
-(os_dx_bot_overdrive_drain "Overdrive: Drain")
-
-(overshell_real_guitar_22 "Guitarra PRO 22")
-(overshell_real_bass_22 "Baixo PRO 22")
-
-
-;color selector options
-(os_dx_1_green "1: Verde")
-(os_dx_1_red "1: Vermelho")
-(os_dx_1_yellow "1: Amarelo")
-(os_dx_1_blue "1: Azul")
-(os_dx_1_orange "1: Laranja")
-(os_dx_1_purple "1: Roxo")
-(os_dx_2_green "2: Verde")
-(os_dx_2_red "2: Vermelho")
-(os_dx_2_yellow "2: Amarelo")
-(os_dx_2_blue "2: Azul")
-(os_dx_2_orange "2: Laranja")
-(os_dx_2_purple "2: Roxo")
-(os_dx_3_green "3: Verde")
-(os_dx_3_red "3: Vermelho")
-(os_dx_3_yellow "3: Amarelo")
-(os_dx_3_blue "3: Azul")
-(os_dx_3_orange "3: Laranja")
-(os_dx_3_purple "3: Roxo")
-(os_dx_4_green "4: Verde")
-(os_dx_4_red "4: Vermelho")
-(os_dx_4_yellow "4: Amarelo")
-(os_dx_4_blue "4: Azul")
-(os_dx_4_orange "4: Laranja")
-(os_dx_4_purple "4: Roxo")
-(os_dx_5_green "5: Verde")
-(os_dx_5_red "5: Vermelho")
-(os_dx_5_yellow "5: Amarelo")
-(os_dx_5_blue "5: Azul")
-(os_dx_5_orange "5: Laranja")
-(os_dx_5_purple "5: Roxo")
-(os_dx_6_green "6: Verde")
-(os_dx_6_red "6: Vermelho")
-(os_dx_6_yellow "6: Amarelo")
-(os_dx_6_blue "6: Azul")
-(os_dx_6_orange "6: Laranja")
-(os_dx_6_purple "6: Roxo")
-
-;shading options
-(os_dx_hw_bass_shade_off "Pista do Baixo: OFF")
-(os_dx_hw_guitar_shade_off "Pista da Guitarra: OFF")
-(os_dx_hw_drum_shade_off "Pista da Bateria: OFF")
-(os_dx_hw_keys_shade_off "Pista do Teclado: OFF")
-(os_dx_od_bass_shade_off "Overdrive do Baixo: OFF")
-(os_dx_od_guitar_shade_off "Overdrive da Guitarra: OFF")
-(os_dx_od_drum_shade_off "Overdrive da Bateria: OFF")
-(os_dx_od_keys_shade_off "Overdrive do Teclado: OFF")
-(os_dx_hw_bass_shade_on "Pista do Baixo: ON")
-(os_dx_hw_guitar_shade_on "Pista da Guitarra: ON")
-(os_dx_hw_drum_shade_on "Pista da Bateria: ON")
-(os_dx_hw_keys_shade_on "Pista do Teclado: ON")
-(os_dx_od_bass_shade_on "Overdrive do Baixo: ON")
-(os_dx_od_guitar_shade_on "Overdrive da Guitarra: ON")
-(os_dx_od_drum_shade_on "Overdrive da Bateria: ON")
-(os_dx_od_keys_shade_on "Overdrive do Teclado: ON")
-
-;modifier descriptions
-(mod_drum_surface_navigation_desc "Navegue os menus com os pads da bateria")
-(mod_drum_fills_desc "Ative o Overdrive com viradas de bateria")
-(mod_independent_track_speeds_desc "Previne que a velocidade das pistas sincronize com a dificuldade mais baixa")
-(mod_synced_track_speeds_desc "Todas as pistas terão a velocidade da dificuldade Expert, não importa qual dificuldade tu jogará")
-(enable_popup_help_desc "Modais serão mostrados dentro do jogo para ajudar novos jogadores\nEx.: Lembrar bateiristas de usar o pedal do bumbo")
-(mod_chord_numbers_desc "Mostra a casa de todas as cordas num acorde na Guitarra/Baixo PRO")
-(mod_miss_sounds_desc "Toca um efeito sonoro quando você erra uma nota")
-(mod_awesome_desc "Deixe MiloHax saber que você realmente é incrível!")
-(mod_songtitle_desc "Deixa o nome da música na tela o tempo todo dentro do jogo")
-(mod_songtitlestats_desc "Adiciona informações adicionais junto ao texto do nome da música no jogo (Ano/Álbum da Música)")
-(mod_dx_showbpm_desc "Mostra o BPM da música em tempo real junto ao texto do nome da música no jogo")
-(mod_static_fills_desc "Ativa automaticamente o Overdrive na Bateria")
-(mod_noblur_desc "Remove o efeito de Motion Blur das animações do palco")
-(mod_nocrust_desc "Remove o efeitos de granulação (ruído visual) das animações do palco")
-(mod_mhx_color_shuffle_desc "Randomiza as cores das notas!")
-(mod_songselectnoise_desc "Toca os sons de ambiente na tela de seleção de músicas")
-(mod_fcclip_desc "Desabilita o efeito sonoro que toca quando você conseque FC na música")
-(mod_nojurgen_desc "Desabilita o efeito sonoro que toca quando você conseque baixa pontuação na música")
-(mod_nopause_desc "Previne que a música pare de tocar quando você pausa dentro do jogo")
-(mod_practiceoverdrive_desc "Habilita o Overdrive no Modo Prática")
-(mod_dx_no_overdrive_desc "Desabilita o Overdrive dentro do jogo")
-(mod_nolanes_desc "Desabilita Lanes dentro do jogo")
-(mod_rb4lanes_desc "Deixa a Hitbox das Lanes mais frouxas como no Rock Band 4")
-(mod_calibration_desc "Hitbox extremamente precisa para ajudar na calibragem!")
-(mod_precision_desc "Aperta a Hitbox e força você a jogar mais precisamente!")
-(mod_perfection_desc "Recomeça a música ou sessão quando você erra uma nota ou dá overstrumming/ghost note")
-(mod_fastermode_desc "Faz a música acelerar a cada vez que tu acerta uma nota!")
-(mod_chmode_desc "Afrouxa drasticamente a Hitbox")
-(mod_blackmenu "Sem BGs no menu")
-(mod_blackmenu_desc "Desabilita o BG nos menus para melhorar a performance")
-(mod_highlight_key "Sinalizar Tom Teclado PRO")
-(mod_highlight_key_desc "Ilumina a pista das notas que são da escala da música tocada")
-(os_other "Outras Configs.")
-(os_other_desc "Configs. Adicionais Deluxe")
-(os_popup_settings "Opções de Modais")
-(os_popup_settings_desc "Opções para os Modais e Avisos")
-(mod_auto_kick_desc "Sua bateria não tem o pedal do bumbo? Sem problemas!")
-(mod_fakejuke_desc "Observe sua banda arrasar no palco!")
-(mod_auto_play_desc "Habilita o Autoplay (perfeito para testar charts!)")
-(os_additional_parts_on "Non-Standard Parts: ON")
-(os_additional_parts_off "Non-Standard Parts: OFF")
-(os_additional_parts_on_desc "Shows extra instruments during part selection\n(On by default Online)")
-(os_additional_parts_off_desc "Shows the default instruments during part selection\n(On by default Online)")
-(rootarray_dumped "Current root array dumped to game folder.")
-(rootarray_dumped2 "Current root array dumped to individual array DTAs in game folder.")
-(do_script "Run ace.dta")
-(os_uptime "RB3DX Uptime")
-(os_dumproot2
-   "Dump Root Array 2")
-(os_dumproot
-   "Dump Root Array")
-(os_time_remain_dbg_on
-   "Time Remain Dbg: ON")
-(os_time_remain_dbg_off
-   "Time Remain Dbg: OFF")
-(os_judgment_dbg_on
-   "Debug Julgamentos: ON")
-(os_judgment_dbg_off
-   "Debug Julgamentos: OFF")
-(print_objects
-   "Print Screen Objects")
-(debug_warning
-   "Não toque em nada ao menos que você saiba o que está fazendo ou foi instruído para ser feito.")
-(os_iunderstand
-   "OK")
-(os_takemeback
-   "Voltar")
-(os_debug_mode
-   "Modo Depuração: ON")
-(os_currentsong_desc
-   "Habilite/desabilite várias informações aonde é mostrado o nome da música dentro do jogo")
-(os_prefix_disable
-   "Prefix's: YES")
-(os_prefix_enable
-   "Prefix's: NO")
-(os_author_finder_on
-   "Author Finder: ON")
-(os_author_finder_off
-   "Author Finder: OFF")
-(os_author_finder_on_desc
-   "Habilita uma variedade de opções extras para a visualização do texto do título da música")
-(os_author_finder_off_desc
-   "Habilita uma variedade de opções extras para a visualização do texto do título da música")
-(os_song_title_on
-   "Nome da Música: ON")
-(os_song_title_off
-   "Nome da Música: OFF")
-(os_artist_on
-   "Artista/Banda: ON")
-(os_artist_off
-   "Artista/Banda: OFF")
-(os_yearonline_on
-   "Ano (em Linha): ON")
-(os_yearonline_off
-   "Ano (em Linha): OFF")
-(os_album_on
-   "Álbum: ON")
-(os_album_off
-   "Álbum: OFF")
-(os_genre_on
-   "Gênero: ON")
-(os_genre_off
-   "Gênero: OFF")
-(os_sub_genre_on
-   "Sub-Gênero: ON")
-(os_sub_genre_off
-   "Sub-Gênero: OFF")
-(os_source_on
-   "Fonte da Música: ON")
-(os_source_off
-   "Fonte da Música: OFF")
-(os_section_on
-   "Sessão: ON")
-(os_section_off
-   "Sessão: OFF")
-(os_song_key_on
-   "Tom da Música: ON")
-(os_song_key_off
-   "Tom da Música: OFF")
-(os_author_on
-   "Charter: ON")
-(os_author_off
-   "Charter: OFF")
-(os_year_on
-   "Ano: ON")
-(os_year_off
-   "Ano: OFF")
-(os_logging_disable_all
-   "[Desabilitar Todos]")
-(os_logging_essential_on
-   "Essencial: ON")
-(os_logging_essential_off
-   "Essencial: OFF")
-(os_logging_default_on
-   "Padrão: ON")
-(os_logging_default_off
-   "Padrão: OFF")
-(os_logging_info_on
-   "Info: ON")
-(os_logging_info_off
-   "Info: OFF")
-(os_logging_insane_on
-   "Insano: ON")
-(os_logging_insane_off
-   "Insano: OFF")
-(os_logging_beatmatch_on
-   "Beatmatch: ON")
-(os_logging_beatmatch_off
-   "Beatmatch: OFF")
-(os_logging_countdown_on
-   "Contagem Regressiva: ON")
-(os_logging_countdown_off
-   "Contagem Regressiva: OFF")
-(os_stats_disable
-   "Info Extra: YES")
-(os_stats_enable
-   "Info Extra: NO")
-(os_bpm_on
-   "BPM da Música: ON")
-(os_bpm_off
-   "BPM da Música: OFF")
-(os_bpm_on_desc
-   "Habilita a visibilidade do tempo de duração da música")
-(os_bpm_off_desc
-   "Habilita a visibilidade do tempo de duração da música")
-(os_all_item
-   "Todos os Items")
-(os_speed_control
-   "Controle de Vel.")
-(os_score_percent
-   "Porcentagem de Acertos")
-(os_section
-   "Cabeçalho da Sessão")
-(os_ingame
-   "HUD Jogo Rápido")
-(os_ingame_desc
-   "Elementos padrões do jogo")
-(os_mtv_desc
-   "Visibilidade e informações extras no texto de nome da música")
-(os_score_desc
-   "Posição da pontuação e das estrelas conquistas na tela")
-(os_scoreboard_pos
-   "Posição Pontuação")
-(os_star_display_pos
-   "Posição Estrelas")
-(os_mtv_delay_on
-   "Atraso: YES")
-(os_mtv_delay_off
-   "Atraso: NO")
-(os_mtv_delay_on_desc
-   "Adiciona o atraso do Modo Carreira antes de mostrar a informação do nome da música")
-(os_mtv_delay_off_desc
-   "Não adiciona o atraso do Modo Carreira antes de mostrar a informação do nome da música")
-(os_dx_himem_off
-   "Large Heap: OFF")
-(os_dx_himem_on
-   "Large Heap: ON")
-(os_dx_swap_gender_off
-   "Inv. Gênero Itens: OFF")
-(os_dx_swap_gender_on
-   "Inv. Gênero Itens: ON")
-(reboot_to_apply
-   "Reinicie o jogo para aplicar as alterações")
-(generate_updates_dta
-   "Gerar Updates pro YARG")
-(songs_updates_generated
-   "Updates pro YARG gerados")
-(save_track_theme
-   "Insina o nome do seu tema aqui.")
-(save_track_theme_desc
-   "Por favor, não use espaço ou caracteres especiais no seu nome.")
-(pos_interval_0 "Intervalo Posição: 0.01")
-(pos_interval_1 "Intervalo Posição: 0.10")
-(pos_interval_2 "Intervalo Posição: 0.5")
-(pos_interval_3 "Intervalo Posição: 1")
-(pos_interval_4 "Intervalo Posição: 5")
-(pos_interval_5 "Intervalo Posição: 10")
-(pos_interval_6 "Intervalo Posição: 50")
-(pos_interval_7 "Intervalo Posição: 100")
-(interval_0 "Intervalo: 0.01")
-(interval_1 "Intervalo: 0.10")
-(interval_2 "Intervalo: 0.5")
-(interval_3 "Intervalo: 1")
-(interval_4 "Intervalo: 5")
-(interval_5 "Intervalo: 10")
-(interval_6 "Intervalo: 50")
-(interval_7 "Intervalo: 100")
-; Custom Goal Category Locale
-(acc_cat_guitar_dx
-   "Objetivos Deluxe")
-(acc_cat_bass_dx
-   "Objetivos Deluxe")
-(acc_cat_band_dx
-   "Objetivos Deluxe")
-(acc_cat_vox_dx
-   "Objetivos Deluxe")
-(acc_cat_drums_dx
-   "Objetivos Deluxe")
-(acc_cat_prodrums_dx
-   "Objetivos Deluxe")
-(acc_cat_prokeys_dx
-   "Objetivos Deluxe")
-(acc_cat_prokeys_dx
-   "Objetivos Deluxe")
-(acc_cat_harmonyvox_dx
-   "Objetivos Deluxe")
-(acc_cat_band_trackpack
-   "Track Packs")
-;Custom Band Goals
-#ifdef HX_WII
-(acc_dlc_harddrivefiller
-   "Populador de Cartão SD")
-(acc_dlc_harddrivefiller_desc
-   "Você já teria enchido um cartão SD (de tamanho considerável) com as músicas que tu já tem! Depois de jogar todas elas, entre em contato com o usuário @deliciousbees no Twitter/X para um presente de agradecimento!")
-#endif
-(acc_dx_coverband
-   "Banda Cover")
-(acc_dx_coverband_desc
-   "Conquiste 5 <alt>*</alt> em cada música oficial do grupo WaveGroup.")
-(acc_dx_hourglass
-   "Se Sentindo Como o StephGH1")
-(acc_dx_hourglass_desc
-   "Conquiste 5 <alt>*</alt> na música \qHourglass Part II\q, já que o jogador StephGH1 foi o primeiro a conseguir FC nela.")
-(acc_dx_strumsaga
-   "A Saga da Palhetada")
-(acc_dx_strumsaga_desc
-   "Tente não desenvolver uma síndrome do túnel do carpo tentando conquistar 5 <alt>*</alt> nas seguintes músicas na Guitarra na dificuldade Expert.")
-(acc_dx_strumsaga_rbn
-   "A Saga da Palhetada: RBN")
-(acc_dx_strumsaga_rbn_desc
-   "Conquiste 5 <alt>*</alt> nestas músicas sádicas da Rock Band Network na Guitarra na dificuldade Expert, para você ter certeza que não só a Harmonix é capaz de sentir ódio pelos jogadores.")
-(acc_dx_infected
-   "Nações Infectadas")
-(acc_dx_infected_desc
-   "Become pure Evile as you 5 <alt>*</alt> the entire Infected Nations album on Expert")
-(acc_dx_beginning
-   "Pronto pra Arrasar")
-(acc_dx_beginning_desc
-   "Conquiste 5 <alt>*</alt> nestas músicas do começo do Guitar Hero e Rock Band.")
-(acc_dx_panicswitch
-   "Sem Pânico!..")
-(acc_dx_panicswitch_desc
-   "Jogue a música \qPanic Switch\q com uma banda completa.")
-(acc_dx_chinesedemo
-   "Chuva de Novembro")
-(acc_dx_chinesedemo_desc
-   "Jogue todas as músicas do álbum \qChinese Democracy\q, do Guns n' Roses.")
-(acc_dx_moonites
-   "Revenge of the Moonities")
-(acc_dx_moonites_desc
-   "Rock out to the Foreigner songs used by the Moonities to wreak havoc against the Aqua Teens in Aqua Teen Hunger Force Sunday Nights at 11 on Adult Swim")
-(acc_dx_carlathf
-   "Awsome! Friggin' Awesome!")
-(acc_dx_carlathf_desc
-   "Make Carl Brutananadilewski proud by rocking out and getting 5 <alt>*</alt> on The Setlist of Ultimate Ultimateness!")
-(acc_dx_thegame
-   "Você Acabou de Perder...")
-(acc_dx_thegame_desc
-   "Acerte 100% das notas na música \qThe Game\q\n((O JOGO)).")
-(acc_dx_brony
-   "Fã Número 1 de Pôneis")
-(acc_dx_brony_desc
-   "Beat every song relating to My Little Pony.")
-(acc_dx_imagine
-   "Imagine TODAS as Pessoas")
-(acc_dx_imagine_desc
-   "Conquiste 5 <alt>*</alt> em todas as músicas do álbum \qImagine\q, do John Lennon.")
-(acc_dx_speedingticket
-   "Speeding Ticket")
-(acc_dx_speedingticket_desc
-   "Earn 5 <alt>*</alt> on these slammin' tracks (and make sure to obey local speed regulations)!")
-(acc_dx_spongebob
-   "Vive no Abacaxi e Mora do Mar")
-(acc_dx_spongebob_desc
-   "Conquiste 5 <alt>*</alt> em todas as músicas do Bob Esponja Calça Quadrada.")
-(acc_dx_southpark
-   "MATARAM O KENNY!!!")
-(acc_dx_southpark_desc
-   "Conquiste 5 <alt>*</alt> em cada música do South Park.")
-(acc_dx_hugh
-   "Hugh.")
-(acc_dx_hugh_desc
-   "Earn 5 <alt>=</alt> on these favorite songs of everybody's favorite rabble rousing rascal.")
-(acc_dx_deluxe
-   "De-luxe")
-(acc_dx_deluxe_desc
-   "Conquiste 5 <alt>*</alt> na música \qDe-Luxe\q.")
-(acc_dx_bangcamaro
-   "Banging in the Camaro")
-(acc_dx_bangcamaro_desc
-   "Conquiste pelo menos 4 <alt>*</alt> em cada música da banda Bang Camaro.")
-(acc_dx_eurovision
-   "Eurovision 2006")
-(acc_dx_eurovision_desc
-   "Conquiste 5 <alt>=</alt> na música \qHard Rock Hallelujah\q.")
-(acc_dx_fatkid
-   "Nada Mal")
-(acc_dx_fatkid_desc
-   "Conquiste 5 <alt>*</alt> na música \qFat Kid\q, da banda \qNothing More\q.")
-(acc_dx_box
-   "O Que Há Dentro da Caixa?")
-(acc_dx_box_desc
-   "Conquiste 5 <alt>*</alt> em cada música com a palavra \qbox\q (caixa) no título.")
-(acc_dx_smashmouth
-   "Aquela Banda da Música do Shrek")
-(acc_dx_smashmouth_desc
-   "Conquiste 5 <alt>*</alt> em todas as músicas da banda Smash Mouth.")
-(acc_dx_stoner
-   "Conquista de Fumante")
-(acc_dx_stoner_desc
-   "Conquiste 5 <alt>*</alt> nestas músicas de fumante (não disse de quê).")
-(acc_dx_rb1wii
-   "Privilégios da Nintendo")
-(acc_dx_rb1wii_desc
-   "Acerte 100% das notas em todas as músicas exclusivas do Rock Band original no Wii.")
-(acc_dx_rb3devkit
-   "O Valor de um Protótipo")
-(acc_dx_rb3devkit_desc
-   "Conquiste 5 <alt>=</alt> em todas as músicas protótipos encontradas no Development Kit do Rock Band 3 para o Wii!")
-(acc_dx_guitarssuck
-   "Não às Guitarras Elétricas!")
-(acc_dx_guitarssuck_desc
-   "Conquiste 5 <alt>=</alt> na música \qGuitars SUCK\q em qualquer instrumento que não seja a Guitarra.")
-(acc_dx_original
-   "Objetivo das Músicas Originais")
-(acc_dx_original_desc
-   "Conquiste 5 <alt>*</alt> em todas as músicas \qOriginal Version\q na dificuldade Expert.")
-(acc_dx_feelgood
-   "Se Sinta Bem")
-(acc_dx_feelgood_desc
-   "Abraçe seu Mick Mars interior e conquiste 5 <alt>*</alt> em todas as músicas do álbum \qDr. Feelgood\q.")
-(acc_dx_blacksabbath
-   "O Nascimento do Metal")
-(acc_dx_blacksabbath_desc
-   "Conquiste 5 <alt>*</alt> em todas as músicas do Black Sabbath na dificuldade Expert.")
-(acc_dx_proskater
-   "Skatista Profisional")
-(acc_dx_proskater_desc
-   "Jogue todas as 19 músicas que aparecem como trilha sonora na franquia \qTony Hawk\q.")
-(acc_dx_ironmaiden
-   "Dama de Ferro")
-(acc_dx_ironmaiden_desc
-   "Conquiste 5 <alt>*</alt> em todas as músicas da banda Iron Maiden.")
-(acc_dx_peacesells
-   "Compre Sua Paz!")
-(acc_dx_peacesells_desc
-   "Conquiste 5 <alt>*</alt> em todas as músicas do álbum \qPeace Sells... but Who's Buying?\q.")
-(acc_dx_dragonforce
-   "Lendas do Power Metal")
-(acc_dx_dragonforce_desc
-   "Conquiste 5 <alt>*</alt> em todas as músicas da banda DragonForce.")
-(acc_dx_greenstar
-   "A Estrela Verde!")
-(acc_dx_greenstar_desc
-   "Conquiste 5 <alt>=</alt> na música \qGreen Grass and High Tides\q na dificuldade Expert.")
-(acc_dx_memes
-   "Você Foi Trollado!")
-(acc_dx_memes_desc
-   "Conquiste 5 <alt>*</alt> nestas músicas de meme.")
-(acc_dx_bloodsugar
-   "Sangue Açucar Sexo Magia")
-(acc_dx_bloodsugar_desc
-   "Toque todas as músicas do álbum \qBlood Sugar Sex Magik\q.")
-(acc_dx_4kingsofmetal
-   "Os 4 Reis do Metal")
-(acc_dx_4kingsofmetal_desc
-   "Conquiste 5 <alt>*</alt> em todas as músicas das bandas: \qMetallica\q, \qMegadeth\q, \qAnthrax\q, e \qSlayer\q.")
-(acc_dx_rbnmegamix
-   "Promovendo Novas Músicas")
-(acc_dx_rbnmegamix_desc
-   "Complete a música \qRock Band Network Megamix 01\q.")
-(acc_dx_sixsixsix
-   "O Número da Besta")
-(acc_dx_sixsixsix_desc
-   "Consiga um Streak de Notas de 666 ou mais na música\q666\q.")
-(acc_dx_2112
-   "Não se Enquadra no Plano")
-(acc_dx_2112_desc
-   "Conquiste 5 <alt>*</alt> na música \q2112\q.")
-(acc_dx_a_final_encore
-   "Relembre os Clássicos")
-(acc_dx_a_final_encore_desc
-   "Conquiste 5 <alt>*</alt> nestes clássicos na dificuldade Expert.")
-(acc_dx_americanpie
-   "O Dia que a Música Morreu")
-(acc_dx_americanpie_desc
-   "Acerte 100% das notas na música \qAmerican Pie\q e se despeça.")
-;Custom Guitar Goals
-(acc_dx_constantmotion
-   "Movimentação Constante")
-(acc_dx_constantmotion_desc
-   "Acerte 100% das notas do solo de Guitarra na música \qConstant Motion\q na dificuldade Expert.")
-(acc_dx_xbox
-   "Supremacia do Xbox")
-(acc_dx_xbox_desc
-   "Conquiste 5 <alt>*</alt> nestas músicas exclusivas do Guitar Hero II do Xbox 360.")
-(acc_dx_kingofmetal
-   "Rei do Metal")
-(acc_dx_kingofmetal_desc
-   "Conquiste 5 <alt>*</alt> nestas músicas clássicas do Metal na Guitarra na dificuldade Expert.")
-(acc_dx_tweezer
-   "Tio Ebenezer")
-(acc_dx_tweezer_desc
-   "Acerte 95% ou mais na música \qTweezer\q na Guitarra na dificuldade Expert.")
-(acc_dx_gamewithzombies
-   "V0CÊ C0MPL3T0U UM J0G0 C0M ZUMB1S N3L3 !!!1")
-(acc_dx_gamewithzombies_desc
-   "Acerte 100% das notas na música \qI MAED A GAM3 W1TH Z0MB1ES 1N IT !!!1\q na Guitarra na dificuldade Expert.")
-(acc_dx_guitarssuckguitar
-   "Talvez um Sim às Guitarras Elétricas?!")
-(acc_dx_guitarssuckguitar_desc
-   "Conquiste 5 <alt>*</alt> na música \qGuitars SUCK\q na Guitarra na dificuldade Expert.")
-(acc_dx_eastjesus
-   "Aonde Está Jesus Cristo?")
-(acc_dx_eastjesus_desc
-   "Conquiste 5 <alt>=</alt> na música \qEast Jesus Nowhere\q na Guitarra na dificuldade Expert.")
-(acc_dx_ttfaf
-   "À Prova de Fogo")
-(acc_dx_ttfaf_desc
-   "Toque a música \qThrough the Fire and Flames\q na Guitarra na dificuldade Expert.")
-;Custom Bass Goals
-(acc_dx_carl
-   "Mais que um Baixo")
-(acc_dx_carl_desc
-   "Acerte 100% das notas na música \qMore Than a Feeling\q no Baixo na dificuldade Expert.")
-(acc_dx_thiefinnightbass
-   "O Baixo da Noite")
-(acc_dx_thiefinnightbass_desc
-   "Conquiste 5 <alt>*</alt> na música \qThe Thief in the Night - Part II\q no Baixo na dificuldade Expert.")
-;Custom Pro Drum Goals
-(acc_dx_dontmessaround
-   "Sem Brincadeiras")
-(acc_dx_dontmessaround_desc
-   "Conquiste 4 <alt>*</alt> ou mais na música \qBlack Magic Woman\q na Bateria PRO na dificuldade Expert.")
-(acc_dx_treacherywilldiepro
-   "Pernas de Aço")
-(acc_dx_treacherywilldiepro_desc
-   "Conquiste 5 <alt>*</alt> na música \qYour Treachery Will Die with You\q na versão com Pedal Duplo na dificuldade Expert.")
-(acc_dx_slipknotpro
-   "Joey Jordison de Coração PRO")
-(acc_dx_slipknotpro_desc
-   "Conquiste 5 <alt>*</alt> em cada música da banda Slipknot na Bateria PRO.")
-;Custom Drum Goals
-(acc_dx_treacherywilldie
-   "Sua Traição Morrerá Com Você")
-(acc_dx_treacherywilldie_desc
-   "Conquiste 5 <alt>*</alt> na música \qYour Treachery Will Die with You\q na dificuldade Expert.")
-(acc_dx_slipknot
-   "Joey Jordison de Coração")
-(acc_dx_slipknot_desc
-   "Conquiste 5 <alt>*</alt> em cada música do Slipknot na Bateria.")
-;Custom Pro Key Goals
-(acc_dx_brainpowerprokey
-   "Super Sprøde")
-(acc_dx_brainpowerprokey_desc
-   "Acerte 98% das notas ou mais na música \qBrainpower\q em qualquer instrumento.")
-;Custom Vox Goals
-(acc_dx_slayqueen
-   "Slay Queen")
-(acc_dx_slayqueen_desc
-   "Conquiste o palco conquistando 5 <alt>*</alt> nestes hits no vocal.")
-(acc_dx_gaybar
-   "Não é a Luna")
-(acc_dx_gaybar_desc
-   "Conquiste 5 <alt>*</alt> na música \qGay Bar\q no Vocal Solo na dificuldade Expert.")
-(acc_dx_nookie
-   "Do it for the Nookie")
-(acc_dx_nookie_desc
-   "Conquiste 5 <alt>*</alt> na música \qNookie\q no Vocal Solo na dificuldade Expert.")
-(acc_dx_queenofsouth
-   "Rainha Conversadora")
-(acc_dx_queenofsouth_desc
-   "Domine seu karaokê local com estes hits do Country cantado por mulheres.")
-(acc_dx_sex
-   "SEXO! SEXO! SEXO! SEXO!")
-(acc_dx_sex_desc
-   "Acerte 100% das notas na música \qSEX\q em qualquer instrumento na dificuldade Expert.")
-(acc_dx_trynottolaugh
-   "Músicas Toscas para Cantores Toscos")
-(acc_dx_trynottolaugh_desc
-   "Tente não rir enquanto você conquista 5 <alt>*</alt> em cada uma destas músicas no Vocal Solo.")
-(acc_dx_walk
-   "Músicas pra Cardio")
-(acc_dx_walk_desc
-   "Faça um exercício enquanto você toca e conquista 5 <alt>*</alt> nestas músicas.")
-;Custom Harms Goals
-(acc_dx_beegees
-   "O Que Você Está Fazendo Com Suas Costas?")
-(acc_dx_beegees_desc
-   "Conquiste 5 <alt>=</alt> na música \qYou Should Be Dancing\q nas Harmonias na dificuldade Expert.")
-;Custom Track Pack Goals
-(acc_dx_trackpack1
-   "Rock Band Track Pack Volume 1")
-(acc_dx_trackpack1_desc
-   "Conquiste pelo menos 2 <alt>*</alt> em todas as 20 músicas do Rock Band Track Pack Volume 1.")
-(acc_dx_CTP2
-   "Rock Band Country Track Pack Volume 2")
-(acc_dx_CTP2_desc
-   "Conquiste pelo menos 2 <alt>*</alt> em todas as 21 músicas do Rock Band Track Pack Volume 2.")
-(you_lost "Você Perdeu")
-#ifdef RB3E ;rb3enhanced specific modifiers
-(mod_black_background_desc "Desabilita as cenas 3D e o palco dentro do jogo")
-(mod_force_hopos_desc "Todas as notas viram HOPO")
-(mod_mirror_mode_desc "Modo Canhoto sem ser canhoto!")
-(mod_color_shuffle_desc "Randomiza as cores das notas!")
-(mod_gem_shuffle_desc "Notas completamente aleatórias")
-(mod_double_bass_desc "Habilita o pedal duplo nas charts de Bateria")
-(os_reboot "Reiniciar Jogo")
-(os_reboot_desc "Reinicia completamente o jogo.")
-(reboot_warning "Você tem certeza que deseja reiniciar o jogo?")
-#endif
-(overshell_reboot "Reiniciar Jogo")
-(reboot_theme_warning_rb3e "O tema padrão não irá carregar apropriadamente se você já jogou uma música até você reiniciar o jogo.\nDeseja reiniciar o jogo agora?")
-(reboot_theme_warning "O tema padrão não irá carregar apropriadamente se você já jogou uma música até você reiniciar o jogo.\nÉ recomendado reiniciar o jogo.")
-(refresh_library "Recarregar Músicas")
-(os_button_remapper "Remapear Controle")
-(os_button_remapper_desc "Remapeie os botões para jogar no Controle")
+; Remapping
 (mapped_button_0 "L2/LT")
 (mapped_button_1 "R2/RT")
 (mapped_button_2 "L1/LB")
@@ -2316,480 +1225,493 @@
 (mapped_button_13 "Dpad: Direita")
 (mapped_button_14 "Dpad: Baixo")
 (mapped_button_15 "Dpad: Esquerda")
-(localize_it "Hello! ¡Hola! Bonjour! Hallo! Ciao!\nVocê sabe falar em outro idioma?\nVocê gostaria de traduzir o RB3 Deluxe para seu idioma nativo?\nJunte-se ao Discord do grupo MiloHax para ajudar na luta contra a opressão linguística inglesa!\nIdiomas suportados pelo Rock Band 3: Espanhol, Francês, Alemão, Italiano.")
-(dx_play_a_show_welcome
-   "Bem-vindo ao Modo Play a Show!")
-(dx_play_a_show
-   "Play a Show")
-(dx_play_a_show_info
-   "Vote em quais músicas você irá jogar!\nA votação acaba quando todos(as) os(as) jogadores(as) votarem!")
-(play_a_show_welcome_text
-   "Bem-vindo ao Modo Play a Show!\nAfine seus instrumentos e escolha uma música pra esquentar a platéia!")
-(dx_play_a_show_setlist_count
-   "\nRepertório: %i Música")
-(dx_play_a_show_setlist_counts
-   "\nRepertório: %i Músicas")
-(play_a_show_get_songs
-   "Obtendo Músicas")
-(play_a_show_pick_songs
-   "Escolhendo Músicas")
-(play_a_show_waiting
-   "Aguardando")
-(play_a_show_submitting
-   "Enviando Resultados")
-(play_a_show_lock_in
-   "Locking in")
-(play_a_show_refreshing
-   "Atualizando Opções")
-(play_a_show_refreshed
-   "Opções Atualizadas")
-(play_a_show_refresh
-   "Atualizar Opções")
-(play_a_show_missing_inst
-   "Esta música falta um dos seus instrumentos:")
-(play_a_show_bandvote
-   "Voto da Banda:")
-(play_a_show_pressstart
-   "Pressione <alt>s</alt>\npara começar!")
-(play_a_show_genre
-   "Uma música do gênero: %s")
-(play_a_show_year
-   "Uma música de %i")
-(play_a_show_year_decade
-   "Uma música de uma década: %is")
-(play_a_show_source
-   "Uma música do: %s")
-(play_a_show_artist
-   "Uma música do artista/banda: %s")
-(play_a_show_diff
-   "Uma música na dificuldade: %s")
-(play_a_show_diff_an
-   "Uma música na dificuldade: %s")
-(play_a_show_author
-   "Uma música charteada pelo(a) %s")
-(play_a_show_album
-   "Uma música do álbum %s <alt>%s</alt>")
-(play_a_show_really_long
-   "Uma música BEM longa")
-(play_a_show_long
-   "Uma música longa")
-(play_a_show_short
-   "Uma música curta")
-(play_a_show_really_short
-   "Uma música BEM curta")
-(play_a_show_slow
-   "Uma música devagar")
-(play_a_show_med
-   "Uma música completamente aleatória")
-(play_a_show_fast
-   "Uma música rápida")
-(play_a_show_woman
-   "Uma música com uma vocalista feminina")
-(play_a_show_community
-   "Uma música da comunidade")
-(overshell_confirm_leaveashow
-   "Você tem certeza que deseja sair do Modo Play a Show?\nSeu repertório será perdido!")
-(dx_play_a_show_intro
-   "Bem-vindo ao Modo Play a Show!\n\nComece escolhendo a música de abertura para seu repertório.\nDepois da música de abertura, você e sua banda votará juntos, moldando seu repertório por uma série de opções.\n\nDica: Agora é sua change de selecionar os filtros pelo botão [Select].")
-(meta_now_playing
-   "<alt>Músical Atual:</alt> %s")
-(press_to_play
-   "Pressione <alt>o</alt> para %s")
-(play_one "Votar 1")
-(play_two "Votar 2")
-(play_three "Votar 3")
-(play_four "Votar 4")
-(play_five "Votar 5")
-(play_six "Votar 6")
-(play_show "Jogar!")
-(mini_leaderboards_title_friends
-   "Rankings Online")
-(get_ready
-   "Se\nPrepare!")
-(dx_points
-   "PONTOS")
-(solo_countdown
-   "%s")
-(overstrums
-   "+%s")
-(final_percent
-   "%s%")
-(esprit_stop_desc
-   "This traffic-stopping guitar is sure to catch attention from the audience. Thanks for playing Rock Band 3 Deluxe!")
-(confirm_quit_online
-   "Você perderá todo progresso não salvo se você continuar. Você tem certeza que quer continuar?")
-(passive_message_remote_user_left
-   "%s saiu da sessão!")
-(tour_event_songs_next
-   "Música %d de %d\nPróxima Música: %s\n")
-(dx_time_remaining_both "%s / %s")
-(dx_time_remaining_one "%s")
-(dx_note_streak "Combo de %i Notas!")
-(dx_indv_combo "%i")
-(dx_overdrive_ready "Pronto pro Overdrive!")
-(dx_overdrive_report "%.02f%%")
-(dx_setlist_infinite "O Repertório Ultimate")
-(dx_setlist_infinite_desc "Quase 16 horas de música... 16 HORAS!!!")
-(setlist_rb1endless_desc "Agora você pode jogar o repertório do Rock Band original. Seu nome estará em nossas orações!")
-(setlist_rb2endless_desc "Já que você diz que gosta tanto do repertório do jogo, que tal tocar TODAS AS MÚSICAS DELE DE UMA VEZ SÓ, EIN?!")
-;Splash Text
-(dx_splash_1
-   "Troque as pilhas do seu instrumento (se for de pilha)!")
-(dx_splash_2
-   "Beba bastante água!")
-(dx_splash_3
-   "Você é especial!")
-(dx_splash_4
-   "Bem-vindo ao futuro do Rock Band 3!")
-(dx_splash_5
-   "Deluxe?! Que LUXO!!!")
-(dx_splash_6
-   "Eu sei que no final das contas tu pensa nela...")
-(dx_splash_7
-   "BORAAAAAA")
-(dx_splash_8
-   "Traduzido em PTBR por Ruggy ;)")
-(dx_splash_9
-   "Sempre faça backup dos seus arquivos!")
-(dx_splash_10
-   "O criador desta tradução está desempregado :(")
-(dx_splash_11
-   "Fazer MOD do The Beatles Rock Band??? Putz...")
-(dx_splash_12
-   "Para de palhetar a guitarra a toa!!!")
-(dx_splash_13
-   "Simples assim!")
-(dx_splash_14
-   "Um crime foi ocorrido nas ruas da cidade do jogo!")
-(dx_splash_15
-   "Se tu joga GHWT:DE na bateria... Sinto muito...")
-(dx_splash_16
-   "Tu pode desativar esta tela e ir direto pro menu, sabia?")
-(dx_splash_17
-   "Experimente o Modo Bêbado, porém BEEEEM bêbado")
-(dx_splash_18
-   "Rock Band Blitz é legalzinho também...")
-(dx_splash_19
-   "Cavalo dado não se olha os dentes")
-(dx_splash_20
-   "A cidade do jogo foi inspirada em NYC... Gotham foi inspirada em NYC...")
-(dx_splash_21
-   "Mantenha o foco!!!")
-(dx_splash_22
-   "Afinal, tu já fuçou as confirações desse MOD?")
-(dx_splash_23
-   "Sinto saudades da Hebe Camargo e seus selinhos")
-(dx_splash_24
-   "Não, mano, isso não é o YARG...")
-(dx_splash_25
-   "Já bebeu água hoje?")
+(os_button_remapper "Remapear Controle")
+(os_button_remapper_desc "Remapeie os botões para jogar no Controle")
+(os_controller "Controles")
+(os_controller_desc "Remapeie o tipo do seu instrumento ou controle para máxima compatibilidade")
+(os_ghdrums "Bateria do Guitar Hero")
+(os_ghguitar "Guitarra do Guitar Hero")
+(os_instreset "[Resetar Tipo do Instrum.]")
+(os_instreset_desc "Reverte todos os controles para o padrão")
+(os_instrumentswap "Mudar Tipo do Instrum.")
+(os_instrumentswap_desc "Permite que você troque o tipo deste controle para jogar Guitarra/Baixo/Teclado online, trocando para uma Bateria/Vocal falsa, ou conquistar objetivos em outro instrumento")
+(os_instrumentswap_menu_guitar_desc "Selecionar novo Tipo de Instrum.\nGuitarra -> ...")
+(os_instrumentswap_menu_keys_desc "Selecionar novo Tipo de Instrum.\nTeclado -> ...")
+(os_instrumentswap_menu_vocals_desc "Selecionar novo Tipo de Instrum.\nVocal -> ...")
+(os_pad_mapping "Remapear Controles do Pad")
+(os_pad_mapping "Remapear Controles do Pad")
+(os_pad_mapping_desc "Esta opção é útil caso você esteja utilizando um instrumento de outro console")
+(os_pad_mapping_select_desc "Selecione os controles que você gostaria de remapear")
+(os_rb2drums "Bateria do Rock Band 2")
+(os_rbdrums "Bateria do Rock Band 1")
+(os_rbguitar "Guitarra do Rock Band")
 
-(dx_splash_26
-   "Você nem sequer jogou todas as músicas que tu tem baixadas!")
-(dx_splash_27
-   "Usar o Onyx pra converter músicas salva vidas!!!")
-(dx_splash_28
-   "Grita AGORA, que eu sei que tu quer gritar... GRITA!!!")
-(dx_splash_29
-   "DELUXE mano, DELUXE!!!")
-(dx_splash_30
-   "Espero que tu tenha um bom dia/tarde/noite")
-(dx_splash_31
-   "Se você está lendo isso: Sinta-se abraçado")
-(dx_splash_32
-   "Amar só a Deus, ein!!!")
-(dx_splash_33
-   "Um absuuuurdo de lindo")
-(dx_splash_34
-   "Oi, solteiro???")
-(dx_splash_35
-   "Acredite ou não, tem custom do Hino do Brasil pra baixar!")
-(dx_splash_36
-   "DELXUE!")
-(dx_splash_37
-   "Se fosse pelo interesse da burgesia, esta tradução não existiria!")
-(dx_splash_38
-   "Se fosse pelo interesse da burgesia, este MOD não existiria!")
-(dx_splash_39
-   "Discord do tradutor: @therogerland")
-(dx_splash_40
-   "Instagram do tradutor: @ruggeryiury")
-(dx_splash_41
-   "MPB agora é um gênero musical disponível pro jogo!")
-(dx_splash_42
-   "Mais Amor, Menos Guerras!!!")
-(dx_splash_43
-   "A vida é curta: Ame e ame MUITO!")
-(dx_splash_44
-   "Não fume vape!")
-(dx_splash_45
-   "Não se esqueça de calibrar!!!")
-(dx_splash_46
-   "Amar é um deserto e teus temores!")
-(dx_splash_47
-   "Quando puder, sente-se ao lado do seu pet e toque violão!")
-(dx_splash_48
-   "Não sei mais o que dizer pra você")
-(dx_splash_49
-   "SÉRIO, JÁ BEBEU ÁGUA HOJE???")
-(dx_splash_50
-   "Me agradeça depois")
-(dx_splash_51
-   "Meia noite eu te conto um segredo!...")
-(dx_splash_52
-   "Overcharting é mó idiotice")
-(dx_splash_53
-   "Fim da Escala 6x1 JÁ!!!")
-(dx_splash_54
-   "Isso ta longe de ser o Guitar Hero...")
-(dx_splash_55
-   "Saudades do inglês? Infelizmente não aceitamos devoluções!")
-(dx_splash_56
-   "Palhetar sempre pra baixo é um vício a ser quebrado!")
-(dx_splash_57
-   "Quem cala, concente!")
-(dx_splash_58
-   "Link RPCN do tradutor: Ruggy (R MAIÚSCULO!!!)")
-(dx_splash_59
-   "Será que ainda veremos o Brasil sair do Hexa?")
-(dx_splash_60
-   "Copa do Mundo tá logo alí!")
-(dx_splash_61
-   "Time é o Vasco da Gama...")
-(dx_splash_62
-   "Tossir por 3 anos não é normal")
-(dx_splash_63
-   "Meu sonho de infância era ser bom na máquina de dança!")
-(dx_splash_64
-   "Algumas frases que você vai ler por aqui rimam, sabia?")
-(dx_splash_65
-   "Nada a declarar...")
-(dx_splash_66
-   "Pressione START (ou B no Xbox) (ou X no PS3) (ou Verde na Guitarra)")
-(dx_splash_67
-   "Índio forte cueca fraca índio peida cueca rasga")
-(dx_splash_68
-   "Hora de tomar um banho, você não acha?")
-(dx_splash_69
-   "Espero de coração que tu não precise acordar cedo amanhã!")
-(dx_splash_70
-   "Nem tudo é um competição...")
-(dx_splash_71
-   "Melhor que jogar LOL, sem sombra de dúvidas")
-(dx_splash_72
-   "Delete a pasta System32 do seu PC!")
-(dx_splash_73
-   "Não delete a pasta System32 do seu PC!")
-(dx_splash_74
-   "Pensando pensamentos...")
-(dx_splash_75
-   "Pare de comer miojo!!!")
-(dx_splash_76
-   "Você não devia estar na igreja?!")
-(dx_splash_77
-   "O criador desta tradução foi morto numa dessas vilelas!")
-(dx_splash_78
-   "GRYBO")
-(dx_splash_79
-   "As músicas do Guitar Flash foram pegas dessa franquia!!!")
-(dx_splash_80
-   "Uma hora esse jogo vai travar!")
-(dx_splash_81
-   "Esta tradução está disponível de graça!!! Cuidado com golpes!!!")
-(dx_splash_82
-   "Só os Clássicos!")
-(dx_splash_83
-   "Cuidado pra não jogar a baqueta longe!")
-(dx_splash_84
-   "Já parou pra pensar na vida útil da sua guitarra?")
-(dx_splash_85
-   "Ter ouvido absoluto é uma doideira, acredite!")
-(dx_splash_86
-   "Por que tão sério, mano???")
-(dx_splash_87
-   "Deitado eternamente em seio esplêndido")
-(dx_splash_88
-   "Com sono me deito, com sono me levanto")
-(dx_splash_89
-   "É tipo o LEGO Rock Band, mas sem o LEGO")
-(dx_splash_90
-   "É tipo o The Beatles Rock Band, mas sem os The Beatles")
-(dx_splash_91
-   "Todo dia acorda um otário e um malandro!")
-(dx_splash_92
-   "Provavelmente tem episódio novo de One Piece!")
-(dx_splash_93
-   "Preferir jogar LOL que o Deluxe é mal caratismo")
-(dx_splash_94
-   "Um vírus foi detectado!!!")
-(dx_splash_95
-   "To vendo você pela webcam!!!")
-(dx_splash_96
-   "Só o Orkut tem interação completa com esse jogo!")
-(dx_splash_97
-   "Bora fazer e acontecer!")
-(dx_splash_98
-   "Banda de Rock 3!")
-(dx_splash_99
-   "Open source!")
-(dx_splash_100
-   "Cuidado com a cantoria de madrugada!")
+; Server Locale
+(go_overshell_register_online "Jogar no GoCentral")
+(go_overshell_online_options "Opções do GoCentral")
+(go_main_menu_finding "Encontrando jogadores do GoCentral...")
+(go_waiting_for_remote_players "Esperando por jogadores do GoCentral...")
+(go_band_chooser_find "Encontrar Jogadores do GoCentral")
 
-(dx_splash_101
-   "Use fone de ouvido!")
-(dx_splash_102
-   "O mundo está realmente acabando...")
-(dx_splash_103
-   "Não venha encher o saco!")
-(dx_splash_104
-   "Insira uma frase aleatória aqui")
-(dx_splash_105
-   "Sei não, ein...")
-(dx_splash_106
-   "Cultura para as massas!")
-(dx_splash_107
-   "Essa tradução foi feita por um comunista")
-(dx_splash_108
-   "O rato roeu a roupa do Rei de Roma")
-(dx_splash_109
-   "Três pratos de trigo para três tigres tristes")
-(dx_splash_110
-   "Essa tradução foi feita por um gay")
-(dx_splash_111
-   "Baixe todas as DLC!!!")
-(dx_splash_112
-   "De boa na lagoa")
-(dx_splash_113
-   "Fora Bolsonaro!")
-(dx_splash_114
-   "Sebo nas canelas!")
-(dx_splash_115
-   "Rinite sinusite faringite labirintite conjutivite")
-(dx_splash_116
-   "Mó doideira!")
-(dx_splash_117
-   "Juntando o útil ao agradável")
-(dx_splash_118
-   "Segura as pontas!")
-(dx_splash_119
-   "Olá, tenho 27 anos... Bem... Teria se eu não tivesse morrido...")
-(dx_splash_120
-   "Pague sua conta de internet!")
+(live_overshell_register_online "Jogar no Xbox LIVE")
+(live_overshell_online_options "Opções Xbox LIVE")
+(live_main_menu_finding "Encontrando Jogadores do Xbox LIVE...")
+(live_waiting_for_remote_players "Esperando por jogadores do Xbox LIVE...")
+(live_band_chooser_find "Encontrar Jogadores do Xbox LIVE")
+(liveless_overshell_register_online "Jogar no Liveless")
+(liveless_overshell_online_options "Opções Liveless")
+(liveless_main_menu_finding "Encontrando Jogadores do Liveless...")
+(liveless_waiting_for_remote_players "Esperando por jogadores do Liveless...")
+(liveless_band_chooser_find "Encontrar Jogadores do Liveless")
+(os_server_online "Localidade do Servidor: \qOnline\q")
+(os_server_live "Localidade do Servidor: \qXbox LIVE\q")
+(os_server_liveless "Localidade do Servidor: \qLiveless\q")
+(os_server_online_desc "Muda o texto utilizado nos modos online")
+(os_server_live_desc "Muda o texto utilizado nos modos online")
+(os_server_liveless_desc "Muda o texto utilizado nos modos online")
 
-#ifdef HX_XBOX
-(dx_splash_121
-   "Erro fatal interceptado!")
+; Set Speeds
+(all_instruments "- Todos os Instrum. +")
+(dx_track_speed_desc "A Velocidade Suicída é equivamente à 150% de Velocidade da Pista")
+(dx_track_speed_locked "O Menu de Vel. Pista não pode ser acessado jogando online.")
+(os_acceleration_mode "Modo Aceleração")
+(os_fastermode_on "Modo Aceleração: ON")
+(os_fastermode_on "Modo Aceleração: ON")
+(os_fastermode_on "Modo Aceleração: ON")
+(os_fastermode_off "Modo Aceleração: OFF")
+(os_max_speed "- Vel. Máxima: %d% +")
+(os_set_speeds "Alternar Veloc.")
+(os_set_speeds_desc "Alterne a velocidade das notas de cada pista individualmente e a velocidade da música tocada")
+(os_song_speed "- Vel. da Música: %d% +")
+(os_spds "Selecionar Velocidades")
+(os_spds_desc "Modifique a velocidade da músicas, das pistas, e o FPS do palco")
+(os_speed_control "Controle de Vel.")
+(os_track_speeds_desc "Alterne a velocidade das notas de cada pista individualmente")
+(os_track_speeds_desc "Alterne a velocidade das notas de cada pista individualmente")
+(os_trkspd_guitar "- Guitarra: %d% +")
+(os_trkspd_bass "- Baixo: %d% +")
+(os_trkspd_drum "- Bateria: %d% +")
+(os_trkspd_guitar "- Guitarra: %d% +")
+(os_trkspd_keys "- Teclado: %d% +")
+(os_trkspd_real_bass "- Baixo PRO: %d% +")
+(os_trkspd_real_guitar "- Guitarra PRO: %d% +")
+(os_trkspd_real_keys "- Teclado PRO: %d% +")
+(speed_msg "VEL. MÚSICA: %d%%")
+(speedcap_msg "VEL. MAX DA MÚSICA: %d%%")
+(trackspeed_msg "VEL. NOTA: %d%%")
+
+; Streaks
+(_1_none "[Nenhum]")
+(_1_rb3_guitarbass "RB3 Guitar/Bass")
+(_rb3_drums "RB3 Drums")
+(_rb3_keys "RB3 Keys")
+(_rb3_prokeys "RB3 Pro Keys")
+(_rb3_unused "RB3 Unused")
+(_srb2 "Rock Band 2")
+(_srlrb "LEGO Rock Band")
+(_vrb4 "Rock Band 4")
+(_vrb4_rivals "RB4 Rivals")
+(_vrb4alt "RB4 Alt")
+(_vyarg "YARG")
+(_wtbrb "The Beatles Rock Band")
+(rb3_1guitarbass_aqua "RB3 Guitar/Bass Aqua")
+(rb3_1guitarbass_black "RB3 Guitar/Bass Black")
+(rb3_1guitarbass_blue "RB3 Guitar/Bass Blue")
+(rb3_1guitarbass_green "RB3 Guitar/Bass Green")
+(rb3_1guitarbass_orange "RB3 Guitar/Bass Orange")
+(rb3_1guitarbass_pink "RB3 Guitar/Bass Pink")
+(rb3_1guitarbass_purple "RB3 Guitar/Bass Purple")
+(rb3_1guitarbass_red "RB3 Guitar/Bass Red")
+(rb3_1guitarbass_white "RB3 Guitar/Bass White")
+(rb3_1guitarbass_yellow "RB3 Guitar/Bass Yellow")
+(rb3_drums_aqua "RB3 Drums Aqua")
+(rb3_drums_black "RB3 Drums Black")
+(rb3_drums_blue "RB3 Drums Blue")
+(rb3_drums_green "RB3 Drums Green")
+(rb3_drums_orange "RB3 Drums Orange")
+(rb3_drums_pink "RB3 Drums Pink")
+(rb3_drums_purple "RB3 Drums Purple")
+(rb3_drums_red "RB3 Drums Red")
+(rb3_drums_white "RB3 Drums White")
+(rb3_drums_yellow "RB3 Drums Yellow")
+(rb3_keys_aqua "RB3 Keys Aqua")
+(rb3_keys_black "RB3 Keys Black")
+(rb3_keys_blue "RB3 Keys Blue")
+(rb3_keys_green "RB3 Keys Green")
+(rb3_keys_orange "RB3 Keys Orange")
+(rb3_keys_pink "RB3 Keys Pink")
+(rb3_keys_purple "RB3 Keys Purple")
+(rb3_keys_red "RB3 Keys Red")
+(rb3_keys_white "RB3 Keys White")
+(rb3_keys_yellow "RB3 Keys Yellow")
+(rb3_unused_aqua "RB3 Unused Aqua")
+(rb3_unused_black "RB3 Unused Black")
+(rb3_unused_blue "RB3 Unused Blue")
+(rb3_unused_green "RB3 Unused Green")
+(rb3_unused_orange "RB3 Unused Orange")
+(rb3_unused_pink "RB3 Unused Pink")
+(rb3_unused_purple "RB3 Unused Purple")
+(rb3_unused_red "RB3 Unused Red")
+(rb3_unused_white "RB3 Unused White")
+(rb3_unused_yellow "RB3 Unused Yellow")
+(rb4alt_aqua "RB4 Alt Aqua")
+(rb4alt_black "RB4 Alt Black")
+(rb4alt_darkblue "RB4 Alt Dark Blue")
+(rb4alt_green "RB4 Alt Green")
+(rb4alt_orange "RB4 Alt Orange")
+(rb4alt_pink "RB4 Alt Pink")
+(rb4alt_pink2 "RB4 Alt Pink 2")
+(rb4alt_purple "RB4 Alt Purple")
+(rb4alt_red "RB4 Alt Red")
+(rb4alt_white "RB4 Alt White")
+(rb4alt_yellow "RB4 Alt Yellow")
+(rb4aquafusion "RB4 Fusion")
+(rb4aquagoth "RB4 Goth")
+
+; Track themes
+(_none "[Nenhum]")
+(color_msg "Cor Atual:\n")
+(leave_customizer "[Deixar o Customizer]")
+(load_theme "[Carregar Tema]")
+(load_track_theme "Tema das Pistas")
+(load_track_theme_desc "Insira o nome do Tema que você desejar carregar")
+(os_allow_lower_ang_off "Abaixar Âng. Multiplayer: OFF")
+(os_allow_lower_ang_on "Abaixar Âng. Multiplayer: ON")
+(os_angmult "Ângulo Multiplicador")
+(os_angle "Ângulo das Pistas...")
+(os_angle_desc "Ajusta o ângulo da pista para os modos Single Player")
+(os_angleset "O Ângulo da Pista foi definido em ~%d%%")
+(os_angleset1 "O Ângulo da Pista foi definido em ~%d%% (Jogador 1)")
+(os_angleset2 "O Ângulo da Pista foi definido em ~%d%% (Jogador 2)")
+(os_angleset3 "O Ângulo da Pista foi definido em ~%d%% (Jogador 3)")
+(os_angleset4 "O Ângulo da Pista foi definido em ~%d%% (Jogador 4)")
+(os_beat_lines "Beat Lines")
+(os_bre "Finais Triunfantes")
+(os_color_b "B")
+(os_color_g "G")
+(os_color_r "R")
+(os_cymbals "Chimbais")
+(os_default "[Padrão]")
+(os_dont_overwrite_default "Por favor, escolha outro nome sem ser \qDefault\q")
+(os_dontsave "Não Salvar")
+(os_dx_1_blue "1: Azul")
+(os_dx_1_green "1: Verde")
+(os_dx_1_orange "1: Laranja")
+(os_dx_1_purple "1: Roxo")
+(os_dx_1_red "1: Vermelho")
+(os_dx_1_yellow "1: Amarelo")
+(os_dx_2_blue "2: Azul")
+(os_dx_2_green "2: Verde")
+(os_dx_2_orange "2: Laranja")
+(os_dx_2_purple "2: Roxo")
+(os_dx_2_red "2: Vermelho")
+(os_dx_2_yellow "2: Amarelo")
+(os_dx_3_blue "3: Azul")
+(os_dx_3_green "3: Verde")
+(os_dx_3_orange "3: Laranja")
+(os_dx_3_purple "3: Roxo")
+(os_dx_3_red "3: Vermelho")
+(os_dx_3_yellow "3: Amarelo")
+(os_dx_4_blue "4: Azul")
+(os_dx_4_green "4: Verde")
+(os_dx_4_orange "4: Laranja")
+(os_dx_4_purple "4: Roxo")
+(os_dx_4_red "4: Vermelho")
+(os_dx_4_yellow "4: Amarelo")
+(os_dx_5_blue "5: Azul")
+(os_dx_5_green "5: Verde")
+(os_dx_5_orange "5: Laranja")
+(os_dx_5_purple "5: Roxo")
+(os_dx_5_red "5: Vermelho")
+(os_dx_5_yellow "5: Amarelo")
+(os_dx_6_blue "6: Azul")
+(os_dx_6_green "6: Verde")
+(os_dx_6_orange "6: Laranja")
+(os_dx_6_purple "6: Roxo")
+(os_dx_6_red "6: Vermelho")
+(os_dx_6_yellow "6: Amarelo")
+(os_dx_hw_bass_shade_off "Pista do Baixo: OFF")
+(os_dx_hw_drum_shade_off "Pista da Bateria: OFF")
+(os_dx_hw_guitar_shade_off "Pista da Guitarra: OFF")
+(os_dx_hw_keys_shade_off "Pista do Teclado: OFF")
+(os_dx_od_bass_shade_off "Overdrive do Baixo: OFF")
+(os_dx_od_drum_shade_off "Overdrive da Bateria: OFF")
+(os_dx_od_guitar_shade_off "Overdrive da Guitarra: OFF")
+(os_dx_od_keys_shade_off "Overdrive do Teclado: OFF")
+(os_dx_hw_bass_shade_on "Pista do Baixo: ON")
+(os_dx_hw_drum_shade_on "Pista da Bateria: ON")
+(os_dx_hw_guitar_shade_on "Pista da Guitarra: ON")
+(os_dx_hw_keys_shade_on "Pista do Teclado: ON")
+(os_dx_od_bass_shade_on "Overdrive do Baixo: ON")
+(os_dx_od_drum_shade_on "Overdrive da Bateria: ON")
+(os_dx_od_guitar_shade_on "Overdrive da Guitarra: ON")
+(os_dx_od_keys_shade_on "Overdrive do Teclado: ON")
+(os_emissive "Overdrive")
+(os_emissivecolor "overdrive")
+(os_flares "Flares")
+(os_font "Fonte: ")
+(os_fretboard "Pista")
+(os_gems "Notas")
+(os_keyboard "Teclado")
+(os_lanes "Lanes")
+(os_multiring "Anéis do Multiplicador")
+(os_noang "[Resetar]")
+(os_nosus "[Sem Sustentos]")
+(os_odbar "Barra de Overdrive")
+(os_overwrite "Sobrescrever Tema")
+(os_particles "Partículas")
+(os_pause "Pause")
+(os_rails "Track Rails")
+(os_rb2sus "Rock Band 2")
+(os_rb3sus "Rock Band 3")
+(os_rb4sus "Rock Band 4")
+(os_resetmsg "Esta opção irá resetar todas as texturas para o padrão. Se você já jogou uma música nesta sessão, esta opção não causará efeito até você salvar as configurações e reiniciar o jogo. Continuar?")
+(os_saver_deny "Você não pode habilitar o Modo Print durante o jogo.")
+(os_score_box "Caixa de Pontuação")
+(os_setcol "Cores")
+(os_setcol_desc "Ajuste a cor da strikeline, das notas, dos Sustentos e mais")
+(os_setdrumcol "Cores da Bateria")
+(os_setguitarcol "Cores da Guitarra")
+(os_setprotarcol "Notas da Guitarra PRO")
+(os_settex "[Personalizar]")
+(os_shading "Shading Padrão")
+(os_smashers "Strikeline")
+(os_solo_box_pos "Porcem. Solo...")
+(os_spotlight "Streak")
+(os_stars "Estrelas")
+(os_susmsg1 "A cor do Sustento foi definida para: Verde")
+(os_sustains "Sustentos")
+(os_toms "Toms")
+(os_track_theme "Tema da Pista")
+(os_track_theme_desc "Personalize ao seu gosto o visual do jogo")
+(os_trkthm "Tema da Pista")
+(os_voxarrow "Flexas do Vocal")
+(os_voxhw "Pista do Vocal")
+(os_voxnotes "Notas do Vocal")
+(os_voxod "Overdrive do Vocal")
+(realtime_customize "[Entrar no Customizer]")
+(restart_customizer "[Recomeçar Música]")
+(save_theme "[Salvar Tema]")
+(save_track_theme "Insina o nome do seu tema aqui.")
+(save_track_theme_desc "Por favor, não use espaço ou caracteres especiais no seu nome.")
+
+; Vanilla text modifications
+
+(by_recent "Por Aquisição")
+(cal_audio_desc_drum "Este teste determina a quantidade de Latência no Áudio do seu sistema. Toda vez que você ouvir um tique, bata no pad verde.")
+(cal_audio_desc_guitar "Este teste determina a quantidade de Latência no Áudio do seu sistema. Toda vez que você ouvir um tique, palhete.")
+#ifdef HX_PS3
+(cal_audio_desc_pad "Este teste determina a quantidade de Latência no Áudio do seu sistema. Toda vez que você ouvir um tique, pressione o botão X.")
 #endif
-#ifdef HX_WII
-(dx_splash_121
-   "Invalid write to 0x00000004, PC = 0x80412538")
+#ifdef HX_XBOX
+(cal_audio_desc_pad "Este teste determina a quantidade de Latência no Áudio do seu sistema. Toda vez que você ouvir um tique, pressione o botão A.")
+#endif
+#ifdef HX_PC
+(cal_audio_desc_pad "Este teste determina a quantidade de Latência no Áudio do seu sistema. Toda vez que você ouvir um tique, pressione o botão A.")
+#endif
+(calibration_skip "Continuar")
+#ifdef HX_PS3
+(community_no_server_warning "Incapaz de conectar aos servidores do GoCentral. \n\nVocê não poderá acessar os Rankings Globais.  Continuar mesmo assim?")
+#endif
+#ifdef HX_XBOX
+(community_no_server_warning "Incapaz de conectar aos servidores do GoCentral. \n\nVocê não poderá acessar os Rankings Globais.  Continuar mesmo assim?")
+#endif
+#ifdef HX_PC
+(community_no_server_warning "Incapaz de conectar aos servidores do GoCentral. \n\nVocê não poderá acessar os Rankings Globais.  Continuar mesmo assim?")
+#endif
+(confirm_quit_online "Você perderá todo progresso não salvo se você continuar. Você tem certeza que quer continuar?")
+(connecting_server "Conectando aos servidores...")
+(create_char_gender "CORPO")
+
+(dx_choose_profile "ESCOLHER PROFILE")
+(error_lost_server "Você perdeu a conexão com os servidores.")
+(esprit_stop_desc "This traffic-stopping guitar is sure to catch attention from the audience. Thanks for playing Rock Band 3 Deluxe!")
+(female "Feminino")
+(hint_career_desc "Bem-vindo ao Modo Carreira do Rock Band 3 Deluxe!\n\nSeu progresso como musicista é metido por objetivos. Quanto melhor você tocar um instrumento, você irá conquistar mais objetivos deste instrumento. Conquistar objetivos é uma conquista e tanto! Estas conquistas lhe trará mais fãs, mais vestimentas, e até mesmo um meio de transporte melhor para você viajar por aí tocando sua música!")
+(lb_error "Não conectado aos servidores. Tente novamente mais tarde.")
+(leaderboard_connection_error "Falha ao conectar com os servidores.")
+(leaderboards_not_available_rock_central "Você só poderá ver os rankings locais enquanto desconectado ou offline.")
+(linking_code_connect_error "Você deve estar conectado aos servidores para ver o código de conexão de conta.")
+#ifdef RB3E
+(main_menu_welcome "Bem-vindo ao Rock Band 3 Deluxe + RB3Enhanced!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe e RB3Enhanced são MODs gratuítos, se você pagou por estes MODs, você foi vítima de um golpe!")
+#else
+(main_menu_welcome "Bem-vindo ao Rock Band 3 Deluxe!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe é um MOD desenvolvido pelo grupo MiloHax, se você pagou por estes MODs, você foi vítima de um golpe!")
+#endif
+(male "Masculino")
+(matchmaker_choose_gender "Selecione o Tipo do Corpo")
+(mini_leaderboards_title_friends "Rankings Online")
+#ifdef HX_XBOX
+(motd_not_signed_in "Você deve estar conectado ao Liveless para conectar aos servidores do GoCentral.")
+#endif
+#ifdef HX_PC
+(motd_not_signed_in "Você deve estar conectado ao Liveless para conectar aos servidores do GoCentral.")
+#endif
+(motd_no_rock_central "Tentando se conectar aos servidores...")
+(motd_online_disabled "Não é possível se conectar aos servidores enquanto modificadores estão ativos.")
+(music_store "Play A Show")
+#ifdef HX_XBOX
+(net_setlists_connect "Você deve estar conectado aos servidores do GoCentral para obter repertórios adicionais.")
 #endif
 #ifdef HX_PS3
-(dx_splash_121
-   "Unmapped memory!")
+(net_setlists_connect "Você deve estar conectado aos servidores do GoCentral para obter repertórios adicionais.")
 #endif
-(dx_splash_122
-   "Não olha pra trás, SÉRIO!!!!!!!!!!!!")
-(dx_splash_123
-   "Peida não!")
-(dx_splash_124
-   "Vai saber, né...")
-(dx_splash_125
-   "Não atenda seu celular, sério!")
-(dx_splash_126
-   "Esquizofrenia Paranóide")
-(dx_splash_127
-   "Ó do borogodó")
-(dx_splash_128
-   "Respeita a história do movimento LGBTQIA+!")
-(dx_splash_129
-   "Ame o próximo como amas a sí mesmo!")
-(dx_splash_130
-   "Entraremos em contato em breve!")
-(dx_splash_131
-   "github.com/ruggeryiury/rock-band-3-deluxe-ptbr")
-(dx_splash_132
-   "Os SEIOS do Sílvio Santos!!!")
-(dx_splash_133
-   "Olha só que legal...")
-(dx_splash_134
-   "ABCDEFGHIJKLMNOPQRSTUVWXYZ!")
-(dx_splash_135
-   "Que tal um beijo da boca, ein?")
-(dx_splash_136
-   "QWERTYUIOP ASDFGHJKL ZXCVBNM")
-(dx_splash_137
-   "Pimba na bulimba!")
-(dx_splash_138
-   "VERSÃO PARA DESENVOLVEDOR APENAS! PROIBIDO DISTRIBUIR AO PÚBLICO!")
-(dx_splash_139
-   "Se você não gosta de viado, não jogue essa tradução")
-(dx_splash_140
-   "Se você não gosta de comunista, não jogue essa tradução")
-(dx_splash_141
-   "Vai um cafézinho???")
-(dx_splash_142
-   "Hora de brincar!")
-(dx_splash_143
-   "Delicioso na medida certa!")
+#ifdef HX_WII
+(net_setlists_connect "Você deve estar conectado aos servidores do GoCentral para obter repertórios adicionais.")
+#endif
+#ifdef HX_PC
+(net_setlists_connect "Você deve estar conectado aos servidores do GoCentral para obter repertórios adicionais.")
+#endif
+(net_setlists_error "Houve um problema ao obter repertórios dos servidores. Tente novamente mais tarde.")
+(net_setlists_getting "Obtendo repertórios dos servidores...")
+(overshell_auto_sign_in_rock_central "Conectando aos servidores...")
+(overshell_gamercard_users " ")
+(passive_message_remote_user_left "%s saiu da sessão!")
+(pro_keys "Teclado PRO")
+(record_label_connection_required "Você deve estar conectado aos servidores para utilizar este recurso.")
+(record_label_registering "Registrando Label da Gravadora com os servidores...")
+(setlist_rb1endless_desc "Agora você pode jogar o repertório do Rock Band original. Seu nome estará em nossas orações!")
+(setlist_rb2endless_desc "Já que você diz que gosta tanto do repertório do jogo, que tal tocar TODAS AS MÚSICAS DELE DE UMA VEZ SÓ, EIN?!")
+(shell_network_busy "Comunicando com os servidores...")
+(solo_no_server_warning "Ocorreu um erro ao tentar se conectar aos servidores do jogo.\n\nVocê não conseguirá enviar suas pontuações para o Ranque Global.  Continuar mesmo assim?")
+(tour_choose_band_online_no_rockcentral "Contactando os servidores...")
+(upload_error_server_down "Os servidores do jogo parecem estar indisponíveis no momento. O Rock Band 3 Deluxe tentará fazer upload novamente automaticamente durante um próximo Autosave.")
+(upload_error_start_fmt "Foi encontrado %d erros durante o upload para os servidores.")
+(upload_error_start_single "Ocorreu um problema com o upload para os servidores.")
+(upload_uploading "Comunicando com os servidores...")
+(vocal_parts_0 "Sem Vocais")
 
-; Brazilian Genres
-(axebr
-   "Axé")
-(bossanova
-   "Bossa Nova")
-(bregatechnobrega
-   "Brega/Techno Brega")
-(forro
-   "Forró")
-(funkbr
-   "Funk Brasileiro")
-(funkmelody
-   "Funk Melody")
-(gospel
-   "Gospel")
-(mpb
-   "MPB")
-(pagode
-   "Pagode")
-(samba
-   "Samba")
-(sertanejo
-   "Sertanejo")
-(sertanejo_universitario
-   "Sertanejo Universitário")
-(subgenre_axebr
-   "Axé")
-(subgenre_bossanova
-   "Bossa Nova")
-(subgenre_brega
-   "Brega")
-(subgenre_technobrega
-   "Techno Brega")
-(subgenre_forro
-   "Forró")
-(subgenre_funkbr
-   "Funk Brasileiro")
-(subgenre_funkmelody
-   "Funk Melody")
-(subgenre_gospel
-   "Gospel")
-(subgenre_mpb
-   "MPB")
-(subgenre_pagode
-   "Pagode")
-(subgenre_samba
-   "Samba")
-(subgenre_sertanejo
-   "Sertanejo")
-(subgenre_sertanejo_universitario
-   "Sertanejo Universitário")
+; Venue options
+(os_char_swap_off "Alter. Membros: OFF")
+(os_char_swap_off_desc "Continue com a mesmo membros de banda depois de qualquer música")
+(os_char_swap_on "Alter. Membros: ON")
+(os_char_swap_on_desc "Arrume novos membros de banda diferente depois de qualquer música no meio do repertório")
+(os_enablemv_off "Clipes de Música: OFF")
+(os_enablemv_off_desc "Clipes de Música não aparecerão na rotatividade de palco dentro do jogo")
+(os_enablemv_on "Clipes de Música: ON")
+(os_enablemv_on_desc "Permite que Clipes de Música (um tipo de palco) apareça na rotatividade de palco dentro do jogo")
+(os_menu_backgrounds "Fundo dos Menus...")
+(os_menu_backgrounds_desc "Mude o Background dos menus")
+(os_venue_options "Opções de Palco")
+(os_venue_desc "Escolha aonde você vai botar pra quebrar ou fique focado com nenhum plano de fundo")
+(os_venue_desc_report "Palco Atual Selecionado:\n%s")
+(os_venue_intro_off "Intro Palco: OFF")
+(os_venue_intro_off_desc "Pula a cena dos personagens se preparando no começo das músicas\n(desabilitado no Modo Online)")
+(os_venue_intro_on "Intro Palco: ON")
+(os_venue_intro_on_desc "Mostra a cena dos personagens se preparando no começo das músicas")
+(os_venue_options "Opções de Palco")
+(os_venue_options_desc "Mude o palco utilizado no Background das músicas, dos menus, e outras configurações relacionadas")
+(os_venuesel "Selecione o Palco")
+(os_venue_swap_off "Alternar Palcos: OFF")
+(os_venue_swap_off_desc "Termine um show no mesmo palco que tu começou tocando um repertório")
+(os_venue_swap_on "Alternar Palcos: ON")
+(os_venue_swap_on_desc "Agende um palco novo depois de qualquer música no meio do repertório")
+
+; Venues
+(arena_01 "Wilshire Forum")
+(arena_02 "The Rockacabana")
+(arena_03 "Gorilla Dome")
+(arena_04 "Dynamite Palace")
+(arena_06 "Penfold Dome")
+(arena_07 "Das Krapfentheater")
+(arena_10 "Echo Hangar")
+(arena_11 "The Manor")
+(arena_12 "Abazan Arena")
+(arena_venues "Palcos Arena")
+(big_club_01 "Ramp Arts")
+(big_club_02 "Orion Lounge")
+(big_club_04 "The Quarter Hole")
+(big_club_05 "The Snake Pit")
+(big_club_06 "The Establishment")
+(big_club_07 "Gas Works Tavern")
+(big_club_08 "Saville Row")
+(big_club_09 "Roche De Planète")
+(big_club_10 "Klub Weisbrot")
+(big_club_11 "Mjolnir Lodge")
+(big_club_12 "Discoteca di Luce")
+(big_club_13 "Teatro Fantasma")
+(big_club_14 "Gasolina")
+(big_club_15 "Chronos Club")
+(big_club_17 "The Bison Room")
+(big_venues "Palco Clube Grande")
+(festival_01 "Sydney, Austrália")
+(festival_02 "San Diego, CA")
+(festival_venues "Palcos Festivais")
+(random "[Aleátorio]")
+(small_club_01 "Charles Pub")
+(small_club_02 "The Wall")
+(small_club_03 "Heebie Jeebie's")
+(small_club_04 "El Ocho")
+(small_club_05 "Jimmy Astros")
+(small_club_06 "De Magische Tuin")
+(small_club_10 "Stockholm Syndrome")
+(small_club_11 "Alice's Free Love Cafe")
+(small_club_13 "Cheap Shot Records")
+(small_club_14 "Sweaty's BBQ")
+(small_club_15 "18 W. 7th St.")
+(small_venues "Palcos Clubes Pequenos")
+(tour_city_arcade "The Quarter Hole")
+(tour_city_bigclub "a Big Club")
+(tour_city_boston "Boston, MA")
+(tour_city_cafe "a Café")
+(tour_city_glasgow "Glasgow, Escócia")
+(tour_city_hartford "Hartford, CT")
+(tour_city_lasvegas "Las Vegas, NV")
+(tour_city_localdive "Weeknight show, Cranky Bill's Dive Bar")
+(tour_city_paris "Paris, França")
+(tour_city_providence "Providence, RI")
+(tour_city_seattle "Seattle, WA")
+(tour_city_shanghai "Xangai, China")
+(venues_video "Palcos de Clipes")
+(video_01 "Clipe 1")
+(video_02 "Clipe 2")
+(video_03 "Clipe 3")
+(video_04 "Clipe 4")
+(video_05 "Clipe 5")
+(video_06 "Clipe 6")
+(video_07 "Clipe 7")
+
+; Warnings
+(60fps_warning "AVISO\n\nPalcos em 60FPS NÃO SÃO RECOMENDADOS jogando em consoles!")
+(author_warning "Este modificador foi criado para ser utilizado por charters. Combine este modificador com o mapeamento de controles do RPCS3 para utilizar o Modo All Instruments.")
+(autoplay_warning "Este modificador tem como propósito para gravar demonstrações de charts. Você não poderá salvar o jogo até você reiniciar o jogo.")
+(breakneck_warning "Por favor, desabilite outros modificadores de velocidade (como a Velocidade Suicída) antes de habilitar esta opção.")
+(brutal_warning "Este modificador ajusta dinâmicamente a visualização das notas enquanto você joga. Continuar?")
+(calibration_warning "Este modificador vai apertar drasticamente a hitbox, permitindo que você calibre precisamente suas configurações de calibragem. Continuar?")
+(chmode_warning "O Modo Bêbado afrouxa a hitbox das notas. Pontuações não serão salvas e uma mensagem aparecerá na Tela de Resultados da música se você habilitar este modo.")
+(customizer_warn "Ao fazer isto, você irá abandonar a sessão atual. Continuar mesmo assim?")
+(debug_warning "Não toque em nada ao menos que você saiba o que está fazendo ou foi instruído para ser feito.")
+(dx_warn_sdmode "AVISO:\n Rock Band 3 geralmente não permite ativar\no Modo SD Card quando a NAND está cheia.\nPorém, esse recurso pode ser útil no\nDolphin, para transferir músicas da\nNAND para o SD, sem outras ferramentas.\nTransferir conteúdo do NAND para o SD?\nSe não souber o que isso faz, aperte \qNÃO\q.")
+(fakejuke_warning "Este modificador permite a visualização dos personagens, suas animações e o palco. Se você habilitar este modificador, seu progresso no jogo não será salvo até você reiniciar o jogo.")
+(highlod_warning "AVISO\n\nNível alto de detalhes NÃO É RECOMENDADO jogando em consoles!")
+(high_song_count_warn "High song counts, especially with multiple players, have been known to cause instability issues after prolonged play-time. It is recommended to:\nStick to music video venues\nTurn off song transition cutscenes\nAvoid very long, 10 min+ songs\nOr lower your song count\nYou have been warned.\n\nTo disable this warning go to Deluxe Settings > Advanced > Functional Options > High Song Count Warning")
+(himem_warning "Esta opção não funciona em qualquer console físico (sem ser em emuladores) e IRÁ TRAVAR na inicialização se você tentar mesmo assim. Continuar?")
+(ingame_warning "Esta configuração não funciona dentro do jogo. Por favor, modifique esta opção this setting does not work ingame. please use the options from the \qingame settings\q menu.")
+(os_bgwarn "Esta opção não fará efeito até você salvar e reiniciar o jogo.")
+(os_countdown_warn "Note: Pausing mid run will throw off the countdown.")
+(os_kColorWarn "Estes seletores de cor NÃO AFETAM as cores do Teclado PRO, apenas o Teclado Básico.")
+(os_venue_select_warn "A Seleção de Palco só vai fazer efeito se você for o host da sala.")
+(postfx_warning "Os efeitos de Pós-Processamento não serão afetados completamente até você carregar uma nova cena/palco/menu. Deseja retornar ao Menu Principal agora?")
+(precision_warning "Este modificador vai apertar a hitbox, forçando você a jogar com mais precisão, afetando o gameplay. Continuar?")
+(reboot_theme_warning_rb3e "O tema padrão não irá carregar apropriadamente se você já jogou uma música até você reiniciar o jogo.\nDeseja reiniciar o jogo agora?")
+(reboot_theme_warning_rb3e "O tema padrão não irá carregar apropriadamente se você já jogou uma música até você reiniciar o jogo.\nDeseja reiniciar o jogo agora?")
+(reboot_to_apply "Reinicie o jogo para aplicar as alterações")
+(reboot_warning "Você tem certeza que deseja reiniciar o jogo?")
+(relative_writes_warn "AVISO\n\nRock Band 3 Deluxe não poderá salvar apropriadamente suas configurações porque a opção de escrever arquivos relativos ao caminho do seu PC está desabilitado no Xenia.\n\nVá no arquivo de configuração do Xenia (xenia-canary.config.toml) e mude o valor da chave 'allow_game_relative_writes' para TRUE (verdadeiro).")
+(save_warning "Gostaria de salvar estas configurações para sessões futuras?")
+(screensaver_warning "Este modificador esconderá toda a interface de usuário do jogo para mostrar o Background do menu. Você não conseguirá interagir com o jogo até você reiniciá-lo. Tem certeza que deseja continuar?")
+(settings_error "Ocorreu um erro ao tentar salvas suas configurações. Por favor, certifique-se que a opção de escrever arquivos relativos ao caminho do seu PC está habilitado no Xenia.")
+(settings_warning "Um arquivo de configuração dx.dta já existe. Você deve apagar este arquivo primeiro antes de salvar suas novas configurações.")
+(swap_gender_warning "Esta opção permite que você equipe itens, roupas, e cosméticos que, originalmente, não tem suporte usando seu tipo de corpo atual. A reinicialização do jogo é obrigatória para as alterações funcionarem. Continuar?")
+(theme_save_warning "Você gostaria de salvar este tema das pistas para sessões futuras?")
+(track_theme_overwrite_warning "Já existe um Tema com esse nome.\nSobrescrever?")
+
 
 ;ALWAYS KEEP THIS LAST SO IT LOADS ON TOP OF EVERYTHING ELSE
-;user added locale strings
 #include dx_locale_sources.dta
 #include dx_locale_updates_assets.dta
 #include dx_locale_key_signatures.dta
 #include dx_locale_sections.dta
+#include dx_locale_tips.dta
+;user added locale strings
 #include dx_locale_sources_user.dta
 #include dx_locale_updates_user.dta
