@@ -94,7 +94,7 @@
 #endif
 (accomplishment_secret_title "Secreto")
 (accomplishment_songs_title "Temas de Carreira")
-(accuracy_focus_tracker_progress "<alt>%s</alt> acertou a sessão!")
+(accuracy_focus_tracker_progress "<alt>%s</alt> arrasou na sessão!")
 (accuracy_tracker_label "Medidor de precisão")
 (acc_3starprobass "3 <alt>*</alt> Baixo PRO")
 (acc_3starprobass_desc "Conquiste pelo menos 3 <alt>*</alt> em qualquer música no Baixo PRO.")
@@ -2556,8 +2556,8 @@
 (band_profile_member "Membro")
 (band_profile_sub "Sub")
 (band_profile_total_score "Pontuação Total: %s")
-(band_profile_vk_motto_desc "Enter a greeting message for your label")
-(band_profile_vk_motto_title "Create Greeting Message")
+(band_profile_vk_motto_desc "Insira uma mensagem de saudação para sua Label")
+(band_profile_vk_motto_title "Criar Mensagem de Saudação")
 (band_quickplay "jogo rápido de banda")
 (band_song "Banda Pela Música")
 (band_user_provider_empty "[nenhum]")
@@ -4164,7 +4164,7 @@
 (drum_trainer_fill_43 "8T, 1 Hand and Foot")
 (drum_trainer_fill_44 "Tricky Triples")
 (drum_trainer_fill_45 "Triples Around the Set")
-(drum_trainer_fraction_format "%d of %d")
+(drum_trainer_fraction_format "%d de %d")
 (drum_trainer_freestyle "Freestyle Mode")
 (drum_trainer_freestyle_greeting_header "Welcome to Freestyle Mode")
 #ifdef HX_PS3
@@ -4332,22 +4332,22 @@
 (error_ethernet_unplugged "Você perdeu a conexão com o Xbox LIVE.  Certifique-se de que o cabo Ethernet esteja conectado.  Você não poderá acessar recursos online do Xbox LIVE até entrar novamente.")
 #endif
 #ifdef HX_XBOX
-(error_find_players_with_auto_vocals "Sorry, you can't find Xbox LIVE players while All Instruments Mode is on.")
+(error_find_players_with_auto_vocals "Desculpe, você não pode encontrar jogadores pela Xbox LIVE enquanto o Modo All Instruments estiver habilitado.")
 #endif
 #ifdef HX_PS3
-(error_find_players_with_auto_vocals "Sorry, you can't find online players while All Instruments Mode is on.")
+(error_find_players_with_auto_vocals "Desculpe, você não pode encontrar jogadores online enquanto o Modo All Instruments estiver habilitado.")
 #endif
 #ifdef HX_WII
-(error_find_players_with_auto_vocals "Sorry, you can't find online players while All Instruments Mode is on.")
+(error_find_players_with_auto_vocals "Desculpe, você não pode encontrar jogadores online enquanto o Modo All Instruments estiver habilitado.")
 #endif
 #ifdef HX_PC
-(error_find_players_with_auto_vocals "Sorry, you can't find Xbox LIVE players while All Instruments Mode is on.")
+(error_find_players_with_auto_vocals "Desculpe, você não pode encontrar jogadores pela Xbox LIVE enquanto o Modo All Instruments estiver habilitado.")
 #endif
 (error_invite_expired "Não foi possível conectar com a sessão.  Este convite pode estar expirado.")
 (error_invite_no_friends "Você não tem amigos(as) para convidar.")
 (error_kicked "Você foi expulso da sessão.")
-(error_local_user_signed_out "An important gamer profile has signed out! Sorry, but you can't continue without that gamer profile in this mode.")
-(error_lose_practice_no_part "Cannot practice this song on a part that it does not have.")
+(error_local_user_signed_out "Um perfil de jogador importante saiu da sessão! Desculpe, mas você não pode continuar sem esse perfil de jogador neste modo.")
+(error_lose_practice_no_part "Você não pode praticar esta música num instrumento que ela não tem parte.")
 #ifdef HX_XBOX
 (error_lost_connection "You have lost connection to Xbox LIVE. You will be unable to access any features of Xbox LIVE until you sign in again.")
 #endif
@@ -4358,7 +4358,7 @@
 (error_lost_connection "You have lost connection to Xbox LIVE. You will be unable to access any features of Xbox LIVE until you sign in again.")
 #endif
 (error_lost_leaderboards "You have lost connection to the leaderboards.  You will now be returned to your leaderboards access point.")
-(error_lost_server "You have lost contact with the Rock Central game servers.")
+(error_lost_server "Você perdeu a conexão com os servidores do Rock Central.")
 (error_lost_song_data "The song data you were accessing has become unavailable, and the game cannot proceed without it. Your game session has restarted.")
 (error_matchmaking_pad_lost "Please reconnect %s's %s controller as controller #%i.")
 (error_matchmaking_pad_lost_none "Please reconnect %s's controller as controller #%i.")
@@ -4390,8 +4390,8 @@
 #ifdef HX_PC
 (error_setlist_description_profane "The description you've input is not what most would describe as \qclassy.\q You can still view it locally, but it will not be visible on Xbox LIVE until you change it.")
 #endif
-(error_setlist_limit_reached "You've created too many setlists.  Delete one before you attempt to create another.")
-(error_setlist_title_empty "You must input a name.")
+(error_setlist_limit_reached "Você já criou muitos repertórios.  Delete um repertório antes de tentar criar outro.")
+(error_setlist_title_empty "Você deve inserir um nome.")
 #ifdef HX_XBOX
 (error_setlist_title_profane "The title you've input is not what most would describe as \qclassy.\q You can still view it locally, but it will not be visible on Xbox LIVE until you change it.")
 #endif
@@ -5421,24 +5421,24 @@
 (floppyboots_leather "Mud Stompers")
 (floppyboots_leather_desc "Wade through seas of sweaty fans or just stomp your way through festival mud pits in these well-worn leather boots.")
 (fmp_back "VOLTAR")
-(fmp_continue "PLAY WITH CURRENT LINEUP")
+(fmp_continue "JOGAR COM A FORMAÇÃO ATUAL")
 #ifdef HX_XBOX
-(fmp_tip "Tip: If you want to play with a specific person on your friends list, press START to bring up your menu, select \qPlay on Xbox LIVE,\q then \qXbox LIVE Options,\q then \qInvite Friends.\q")
+(fmp_tip "Dica: Se você quiser jogar com uma pessoa específica da sua lista de amigos, pressione START para abrir seu menu, selecione \qJogar pelo Xbox LIVE\q, depois \qOpções Xbox LIVE\q, e depois \qConvidar Amigos\q.")
 #endif
 #ifdef HX_PS3
-(fmp_tip "Tip: If you want to play with a specific person on your friends list, press the START button to bring up the menu, select \qPlay Online,\q then \qOnline Options,\q then \qInvite Friends.\q")
+(fmp_tip "Dica: Se você quiser jogar com uma pessoa específica da sua lista de amigos, pressione START para abrir seu menu, selecione \qJogar Online\q, depois \qOpções Online\q, e depois \qConvidar Amigos\q.")
 #endif
 #ifdef HX_WII
-(fmp_tip "Tip: If you want to play with a specific person on your friends list, press the + button to bring up the menu, select \qPlay Online,\q then \qOnline Options,\q then \qInvite Friends.\q")
+(fmp_tip "Dica: Se você quiser jogar com uma pessoa específica da sua lista de amigos, pressione START para abrir seu menu, selecione \qJogar Online\q, depois \qOpções Online\q, e depois \qConvidar Amigos\q.")
 #endif
 #ifdef HX_PC
-(fmp_tip "Tip: If you want to play with a specific person on your friends list, press START to bring up your menu, select \qPlay on Xbox LIVE,\q then \qXbox LIVE Options,\q then \qInvite Friends.\q")
+(fmp_tip "Dica: Se você quiser jogar com uma pessoa específica da sua lista de amigos, pressione START para abrir seu menu, selecione \qJogar pelo Xbox LIVE\q, depois \qOpções Xbox LIVE\q, e depois \qConvidar Amigos\q.")
 #endif
 (focus_tracker_in_focus "%s player is in the hotseat!")
 (folkrock "Folk Rock")
 (football_future "Futuristic Footballer")
 (football_future_desc "These avant-garde athletic pants will look best in 2077 while you play \qFutureball\q in front of thousands of beeping robots in a colosseum on Planet Graeebo. Or, you know, on stage.")
-(foreplay_intro "Foreplay intro")
+(foreplay_intro "Intro de Foreplay")
 (forfeit "forfeit")
 (formalvest_cotton "Vested Interest")
 (formalvest_cotton_desc "The balance in your bank account won't be the ONLY thing accruing interest when you don this slick, professional look.")
@@ -5963,16 +5963,16 @@
 (invalid_song "Você não pode jogar esta música até que todos os jogadores da sua sessão a tenha também!")
 (invalid_version "Para jogar esta música, você precisa da atualização mais recente do Rock Band 3. Por favor, certifique-se que você baixou todos as atualizações deste título.")
 #ifdef HX_XBOX
-(invite_body "Pressione START para abrir o menu, escolha 'Jogar pelo Xbox LIVE', e então 'Opções Xbox LIVE', e então 'Verificar Convites' para conectar ao seus amigos.")
+(invite_body "Pressione START para abrir o menu, escolha 'Jogar pelo Xbox LIVE', e então 'Opções Xbox LIVE', e então 'Checar Convites' para conectar ao seus amigos.")
 #endif
 #ifdef HX_PS3
-(invite_body "Pressione START para abrir o menu, escolha 'Jogar Online', e então 'Opções Online', e então then 'Verificar Convites' para conectar ao seus amigos.")
+(invite_body "Pressione START para abrir o menu, escolha 'Jogar Online', e então 'Opções Online', e então then 'Checar Convites' para conectar ao seus amigos.")
 #endif
 #ifdef HX_WII
-(invite_body "Pressione + para abrir o menu, escolha 'Jogar Online', e então 'Opções Online', e então then 'Verificar Convites' para conectar ao seus amigos.")
+(invite_body "Pressione + para abrir o menu, escolha 'Jogar Online', e então 'Opções Online', e então then 'Checar Convites' para conectar ao seus amigos.")
 #endif
 #ifdef HX_PC
-(invite_body "Pressione START para abrir o menu, escolha 'Jogar pelo Xbox LIVE', e então 'Opções Xbox LIVE', e então 'Verificar Convites' para conectar ao seus amigos.")
+(invite_body "Pressione START para abrir o menu, escolha 'Jogar pelo Xbox LIVE', e então 'Opções Xbox LIVE', e então 'Checar Convites' para conectar ao seus amigos.")
 #endif
 (invite_friend "Convidar Amigos")
 (invite_subject "Rock Band 3")
@@ -7241,7 +7241,7 @@
 (matchmaker_invite "Convidar Amigos")
 (matchmaker_invite_join_band "Juntar-se à Banda")
 (matchmaker_invite_join_game "Juntar-se ao Jogo")
-(matchmaker_join_in "Entrar")
+(matchmaker_join_in "Junte-se Agora!")
 (matchmaker_join_remote_searching "Buscando...")
 (matchmaker_kick "Expulsar Jogador")
 (matchmaker_leader "LÍDER")
@@ -11273,7 +11273,7 @@
 (release "Release")
 (remote_not_ready "Um jogador remoto ainda está se juntando à sessão.")
 (remote_status_campaign "Vendo seus Objetivos")
-(remote_status_campaign_rankings "Vendo os Ranques")
+(remote_status_campaign_rankings "Vendo os Rankings")
 (remote_status_campaign_songs "Vendo o Progresso da Música")
 (remote_status_choose_char "Escolhendo Personagem")
 (remote_status_customize_band "Personalizando sua Banda")
@@ -11666,7 +11666,7 @@
 (shell_charcreator_cancel "Você tem certeza que deseja abandonar este personagem?")
 (shell_charcreator_confirm "Você tem certeza que deseja criar este personagem?")
 #ifdef HX_PS3
-(shell_charcreator_name_ip_fmt "O nome \q%s\q não pode ser usado.  Você pode usar este nome apenas localmente, mas ele não será visível nos Ranques até você mudá-lo.")
+(shell_charcreator_name_ip_fmt "O nome \q%s\q não pode ser usado.  Você pode usar este nome apenas localmente, mas ele não será visível nos Rankings até você mudá-lo.")
 #endif
 #ifdef HX_XBOX
 (shell_charcreator_name_ip_fmt "O nome \q%s\q não pode ser usado.  Você pode usar este nome apenas localmente, mas ele não será visível no Xbox LIVE até você mudá-lo.")
@@ -11676,7 +11676,7 @@
 #endif
 (shell_charcreator_name_not_unique_fmt "O nome \q%s\q já está sendo usado.  Por favor, escolha outro nome.")
 #ifdef HX_PS3
-(shell_charcreator_name_profane_fmt "O nome \q%s\q não pode ser usado pois contêm palavras de baixo calão.  Você pode usar este nome apenas localmente, mas ele não será visível nos Ranques até você mudá-lo.")
+(shell_charcreator_name_profane_fmt "O nome \q%s\q não pode ser usado pois contêm palavras de baixo calão.  Você pode usar este nome apenas localmente, mas ele não será visível nos Rankings até você mudá-lo.")
 #endif
 #ifdef HX_XBOX
 (shell_charcreator_name_profane_fmt "O nome \q%s\q não pode ser usado pois contêm palavras de baixo calão.  Você pode usar este nome apenas localmente, mas ele não será visível no Xbox LIVE até você mudá-lo.")
@@ -12420,12 +12420,12 @@
 (temp_scoreplaceholder "0/500")
 (the00s "Hits dos anos 1900")
 (the10s "Hits dos anos 10")
-(the1960s "Década de 60")
-(the1970s "Década de 70")
-(the1980s "Década de 80")
-(the1990s "Década de 90")
-(the2000s "Anos 2000")
-(the2010s "Anos 2010")
+(the1960s "Década de 1960")
+(the1970s "Década de 1970")
+(the1980s "Década de 1980")
+(the1990s "Década de 1990")
+(the2000s "Década de 2000")
+(the2010s "Década de 2010")
 (the20s "Hits dos anos 20")
 (the60s "Hits dos anos 60")
 (the70s "Hits dos anos 70")
@@ -13913,22 +13913,22 @@
 (upload_button_view_next "Ver Próximo Erro")
 (upload_button_view_prev "Ver Erro Anterior")
 #ifdef HX_PS3
-(upload_error_band_motto_ip "\q%s\q's greeting message is not allowed, and will not be viewable online unless it is changed.")
+(upload_error_band_motto_ip "A descrição \q%s\q não é aceita, e ela não será visível online até você mudá-lo.")
 #endif
 #ifdef HX_XBOX
-(upload_error_band_motto_ip "\q%s\q's greeting message is not allowed, and will not be viewable on Xbox LIVE unless it is changed.")
+(upload_error_band_motto_ip "A descrição \q%s\q não é aceita, e ela não será visível no Xbox LIVE até você mudá-lo.")
 #endif
 #ifdef HX_PC
-(upload_error_band_motto_ip "\q%s\q's greeting message is not allowed, and will not be viewable on Xbox LIVE unless it is changed.")
+(upload_error_band_motto_ip "A descrição \q%s\q não é aceita, e ela não será visível no Xbox LIVE até você mudá-lo.")
 #endif
 #ifdef HX_PS3
-(upload_error_band_motto_profane "\q%s\q's greeting message is not what most would describe as \qclassy,\q and will not be visible on the leaderboards unless it is changed.")
+(upload_error_band_motto_profane "A descrição \q%s\q contêm palavras de baixo calão e ela não será visível nos Rankings até você mudá-lo.")
 #endif
 #ifdef HX_XBOX
-(upload_error_band_motto_profane "\q%s\q's greeting message is not what most would describe as \qclassy,\q and will not be viewable on Xbox LIVE unless it is changed.")
+(upload_error_band_motto_profane "A descrição \q%s\q contêm palavras de baixo calão e ela não será visível no Xbox LIVE até você mudá-lo.")
 #endif
 #ifdef HX_PC
-(upload_error_band_motto_profane "\q%s\q's greeting message is not what most would describe as \qclassy,\q and will not be viewable on Xbox LIVE unless it is changed.")
+(upload_error_band_motto_profane "A descrição \q%s\q contêm palavras de baixo calão e ela não será visível no Xbox LIVE até você mudá-lo.")
 #endif
 #ifdef HX_PS3
 (upload_error_band_name_dup "\q%s\q has already been taken, and will not be used online to identify your band.")
@@ -13994,7 +13994,7 @@
 #ifdef HX_PC
 (upload_error_char_name_profane "The name \q%s\q is not what most would describe as \qclassy,\q and will not be viewable on Xbox LIVE unless it is changed.")
 #endif
-(upload_error_next_fmt "Error %d of %d: %s")
+(upload_error_next_fmt "Erro %d de %d: %s")
 (upload_error_record_label_dup "Your record label name %s is already taken.")
 (upload_error_record_label_ip "The record label name %s is private.")
 (upload_error_record_label_profane "Your record label name %s is profane.")
@@ -14003,7 +14003,7 @@
 (upload_error_server_down "The Rock Central game servers appear to be unavailable. Rock Band 3 will attempt to upload again automatically during a later autosave.")
 (upload_error_start_fmt "There were %d errors during the upload to the Rock Central game servers.")
 (upload_error_start_single "There was a problem with the upload to the Rock Central game servers.")
-(upload_uploading "Communicating with the Rock Central game servers...")
+(upload_uploading "Comunicando-se com os servidores do Rock Central...")
 (uppcollar_denim "Denim Demon")
 (uppcollar_denim_desc "Looking hot in the \qDenim Demon\q is a lot easier than saying it five times fast.")
 (upstrum_percent_stat_tracker_contribution "Upstrummed %0.0f%% of notes.")

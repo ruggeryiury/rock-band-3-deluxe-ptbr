@@ -1,7 +1,7 @@
 # add_devbuild.py
 import sys
 
-commit = '275d66e'
+commit = '299b76f'
 version = f"1.1.0-nightly+{commit}"
 
 path = sys.argv[1]
