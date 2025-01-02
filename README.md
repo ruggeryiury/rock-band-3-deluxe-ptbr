@@ -17,7 +17,7 @@
 
 <div align='center' style='border: 1px #6f6 solid;border-radius: 1rem;margin-top:1rem;margin-bottom:1rem;padding:1rem;padding-bottom:1.5rem'>
 <h1 style='margin:0'>THIS TRANSLATION IS IN-DATE WITH THE FOLLOWING RB3DX DEVELOP COMMIT</h1>
-<a href='https://github.com/hmxmilohax/rock-band-3-deluxe/commit/275d66ef67f2f260a4f173b84c6b9d77dca1094b' style='background-color: #6f6;color:#222;padding-left:1rem;padding-right:1rem;padding-top:0.5rem;padding-bottom:0.5rem;border-radius:0.25rem;font-weight:bold'>Commit 299b76f - fix 2x on-disc songs</a>
+<a href='https://github.com/hmxmilohax/rock-band-3-deluxe/commit/cba335abc53099fdaf3b4b1dd5599cf9e20efa42' style='background-color: #6f6;color:#222;padding-left:1rem;padding-right:1rem;padding-top:0.5rem;padding-bottom:0.5rem;border-radius:0.25rem;font-weight:bold'>Commit `cba335a` - add nix flake for building on nixos</a>
 </div>
 
 ## About
