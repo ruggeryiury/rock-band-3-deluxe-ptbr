@@ -7,7 +7,7 @@
 </div>
 
 <div align=center>
-<img src='https://img.shields.io/github/last-commit/ruggeryiury/rock-band-3-deluxe-ptbr?color=%23DDD&style=for-the-badge' /> <img src='https://img.shields.io/github/repo-size/ruggeryiury/rock-band-3-deluxe-ptbr?style=for-the-badge' /> <img src='https://img.shields.io/github/issues/ruggeryiury/rock-band-3-deluxe-ptbr?style=for-the-badge' />
+<img src='https://img.shields.io/github/last-commit/ruggeryiury/rock-band-3-deluxe-ptbr?color=%23DDD&style=for-the-badge' /> <img src='https://img.shields.io/github/repo-size/ruggeryiury/rock-band-3-deluxe-ptbr?style=for-the-badge' />
 </div>
 
 - [About](#about)
@@ -17,7 +17,7 @@
 
 <div align='center' style='border: 1px #6f6 solid;border-radius: 1rem;margin-top:1rem;margin-bottom:1rem;padding:1rem;padding-bottom:1.5rem'>
 <h1 style='margin:0'>THIS TRANSLATION IS IN-DATE WITH THE FOLLOWING RB3DX DEVELOP COMMIT</h1>
-<a href='https://github.com/hmxmilohax/rock-band-3-deluxe/commit/cba335abc53099fdaf3b4b1dd5599cf9e20efa42' style='background-color: #6f6;color:#222;padding-left:1rem;padding-right:1rem;padding-top:0.5rem;padding-bottom:0.5rem;border-radius:0.25rem;font-weight:bold'>Commit `cba335a` - add nix flake for building on nixos</a>
+<a href='https://github.com/hmxmilohax/rock-band-3-deluxe/commit/e7a205da88764e70a6fa52aeb460182884efaee8' style='background-color: #6f6;color:#222;padding-left:1rem;padding-right:1rem;padding-top:0.5rem;padding-bottom:0.5rem;border-radius:0.25rem;font-weight:bold'>Commit `e7a205d` - fix oopsy</a>
 </div>
 
 ## About
