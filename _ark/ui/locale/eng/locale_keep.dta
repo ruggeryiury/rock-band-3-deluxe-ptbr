@@ -3894,7 +3894,7 @@
 #ifdef HX_PC
 (delete_song_no_online "Músicas não podem ser apagadas enquanto você estiver numa sessão do Xbox LIVE.")
 #endif
-(deleting_content_fmt "Por favor, aguarde... Apagando arquivos que contêm %i músicas.")
+(deleting_content_fmt "Por favor, aguarde... Apagando conteúdos que contêm %i músicas.")
 (delta "Delta")
 (demonarmor_lace "Demons & Lace Top")
 (demonarmor_lace_desc "Think you've got to get that demon off your back? Don't worry, this one doubles as a backpack!")

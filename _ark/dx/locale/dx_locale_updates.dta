@@ -383,7 +383,7 @@
 (os_additional_parts_off_desc "Shows the default instruments during part selection\n(On by default Online)")
 (os_additional_parts_on "Non-Standard Parts: ON")
 (os_additional_parts_on_desc "Shows extra instruments during part selection\n(On by default Online)")
-(os_advanced "Advançado")
+(os_advanced "Avançado")
 (os_advanced_desc "Opções super específicas das quais um jogador casual talvez não precise mexer")
 (os_confirm_songcount_off "Aviso Muitas Músicas: OFF")
 (os_confirm_songcount_off_desc "Nunca exibir um aviso se você tiver mais que ~4500 músicas")
@@ -474,9 +474,9 @@
 (os_blur_on_desc "Habilita/desabilita o efeito de Motion Blur (efeito de desfoque nos movimentos dos personagens)")
 (os_cam "Câmera")
 (os_cam_desc "Ajuste Pós-Processamentos ou outros aspectos das cenas 3D")
-(os_camera_blur_off "Profun. Campo: OFF")
+(os_camera_blur_off "Profundidade de Campo: OFF")
 (os_camera_blur_off_desc "Habilita/desabilita o efeito de profundidade de campo visual")
-(os_camera_blur_on "Profun. Campo: ON")
+(os_camera_blur_on "Profundidade de Campo: ON")
 (os_camera_blur_on_desc "Habilita/desabilita o efeito de profundidade de campo visual")
 (os_camera_shake_off "Mexida da Câmera: OFF")
 #ifdef HX_PS3
@@ -490,11 +490,11 @@
 #else
 (os_camera_shake_on_desc "Habilita/desabilita o efeito de mexida da câmera")
 #endif
-(os_cycleaspect "Altern. Proporção")
+(os_cycleaspect "Alternar Proporção")
 (os_cycleaspect_desc "Alterna por diferentes proporções de vídeo")
-(os_force_high_lod_off "Niv. Detalhe: Normal")
+(os_force_high_lod_off "Nível de Detalhe: NORMAL")
 (os_force_high_lod_off_desc "Utiliza o nível de detalhe padrão para os personagens")
-(os_force_high_lod_on "Niv. Detalhe: Alto")
+(os_force_high_lod_on "Nível de Detalhe: ALTO")
 (os_force_high_lod_on_desc "Força o nível mais alto de detalhe dos personagens (não recomendado jogando em consoles)")
 (os_graphics "Gráficos")
 (os_graphics_desc "Controle processamentos gráficos específicos e de câmera")
@@ -502,6 +502,10 @@
 (os_noise_off_desc "Habilita/desabilita o efeito de granulação (ruído visual). Habilitar esse efeito vai impactar no bitrate de sua gravação/streaming")
 (os_noise_on "Granulação: ON")
 (os_noise_on_desc "Habilita/desabilita o efeito de granulação (ruído visual). Habilitar esse efeito vai impactar no bitrate de sua gravação/streaming")
+(os_venue_lights_on "Iluminação do Palco: ON")
+(os_venue_lights_on_desc "Habilita/desabilita os efeitos de iluminação do palco. Desabilite se você tem histórico de epilepsia")
+(os_venue_lights_off "Iluminação do Palco: OFF")
+(os_venue_lights_off_desc "Habilita/desabilita os efeitos de iluminação do palco. Desabilite se você tem histórico de epilepsia")
 (os_postfx_off "[Habilite Todos]")
 (os_postfx_off_desc "Reabilita todos os Pós-Processamentos e filtros visuais")
 (os_postfx_on "[Desabilite Todos]")
@@ -839,7 +843,7 @@
 (os_tweaks_desc "Vários ajustes em elementos dentro e fora do jogo")
 (os_vertical "Y")
 (os_vis_disabled "Med. Platéria: OFF")
-(os_vis_disabled_desc "Hide and disable the crowd meter, enabling crowd sing-alongs on at all times")
+(os_vis_disabled_desc "Esconde e desabilita o Medidor de Platéia. A platéia cantará junto com a música durante toda a música.")
 (os_vis_off "Med. Platéria: OFF")
 (os_vis_off_desc "Esconde o Medidor de Platéia")
 (os_vis_on "Med. Platéria: ON")
@@ -1290,7 +1294,7 @@
 (os_spds "Selecionar Velocidades")
 (os_spds_desc "Modifique a velocidade da músicas, das pistas, e o FPS do palco")
 (os_speed_control "Controle de Vel.")
-(os_track_speeds "Vel. das Pistas")
+(os_track_speeds "Velocidade das Pistas")
 (os_track_speeds_desc "Alterne a velocidade das notas de cada pista individualmente")
 (os_trkspd "Vel. Nota")
 (os_trkspd_bass "- Baixo: %d% +")
@@ -1577,6 +1581,7 @@
 (record_label_registering "Registrando Label da Gravadora com os servidores...")
 (setlist_rb1endless_desc "Agora você pode jogar o repertório do Rock Band original. Seu nome estará em nossas orações!")
 (setlist_rb2endless_desc "Já que você diz que gosta tanto do repertório do jogo, que tal tocar TODAS AS MÚSICAS DELE DE UMA VEZ SÓ, EIN?!")
+(setlist_lrbendless_desc "Dizem que se você terminar este repertório, você se transformará numa miniatura LEGO!... Bem, isso é só um rumor, mas adoraríamos ver se isso é verdade!")
 (shell_network_busy "Comunicando com os servidores...")
 (solo_no_server_warning "Ocorreu um erro ao tentar se conectar aos servidores do jogo.\n\nVocê não conseguirá enviar suas pontuações para o Ranque Global.  Continuar mesmo assim?")
 (tour_choose_band_online_no_rockcentral "Contactando os servidores...")
@@ -1712,6 +1717,7 @@
 (track_theme_overwrite_warning "Já existe um Tema com esse nome.\nSobrescrever?")
 
 
+(deleting_content_fmt "Por favor, aguarde... Apagando conteúdos que contêm %i músicas.")
 ;ALWAYS KEEP THIS LAST SO IT LOADS ON TOP OF EVERYTHING ELSE
 #include dx_locale_sources.dta
 #include dx_locale_updates_assets.dta
