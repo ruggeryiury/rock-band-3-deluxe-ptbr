@@ -1592,10 +1592,10 @@
 (vocal_parts_0 "Sem Vocais")
 
 ; Venue options
-(os_char_swap_off "Alter. Membros: OFF")
-(os_char_swap_off_desc "Continue com a mesmo membros de banda depois de qualquer música")
-(os_char_swap_on "Alter. Membros: ON")
-(os_char_swap_on_desc "Arrume novos membros de banda diferente depois de qualquer música no meio do repertório")
+(os_random_backup_band_off "Membros Aleatórios: OFF")
+(os_random_backup_band_off_desc "Continue com os mesmos membros de banda depois de cada música")
+(os_random_backup_band_on "Membros Aleatórios: ON")
+(os_random_backup_band_on_desc "Arrume novos membros de banda toda vez que terminar uma música")
 (os_enablemv_off "Clipes de Música: OFF")
 (os_enablemv_off_desc "Clipes de Música não aparecerão na rotatividade de palco dentro do jogo")
 (os_enablemv_on "Clipes de Música: ON")
