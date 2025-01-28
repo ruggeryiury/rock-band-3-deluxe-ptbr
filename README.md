@@ -16,7 +16,7 @@
 
 <div align='center' style='border: 1px #6f6 solid;border-radius: 1rem;margin-top:1rem;margin-bottom:1rem;padding:1rem;padding-bottom:1.5rem'>
 <h1 style='margin:0'>THIS TRANSLATION IS IN-DATE WITH THE FOLLOWING RB3DX DEVELOP COMMIT</h1>
-<a href='https://github.com/hmxmilohax/rock-band-3-deluxe/commit/a0e8fac5445b5506bb551c8fd95503d440d6eddc' style='background-color: #6f6;color:#222;padding-left:1rem;padding-right:1rem;padding-top:0.5rem;padding-bottom:0.5rem;border-radius:0.25rem;font-weight:bold'>Commit `1f82bd3` - Revert "actually fix mics"</a>
+<a href='https://github.com/hmxmilohax/rock-band-3-deluxe/commit/bed5ce0472711b424efd3b37e298e3db6acd7a23' style='background-color: #6f6;color:#222;padding-left:1rem;padding-right:1rem;padding-top:0.5rem;padding-bottom:0.5rem;border-radius:0.25rem;font-weight:bold'>Commit `bed5ce0` - Give GoD prefabs actual human names</a>
 </div>
 
 ## About
