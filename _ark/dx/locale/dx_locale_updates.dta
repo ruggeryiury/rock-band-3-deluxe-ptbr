@@ -362,6 +362,8 @@
 (you_lost "Você Perdeu")
 (dx_missing_tele_patch "E aí, jogador, fala comigo...\n\nVocê notou que certos intrumentos e certas opções de personalização de personagens ficam dando uns glitches visuais, saindo do lugar? Isso agora foi corrigido!\n\nVisite \qrb3dx.milohax.org/downloads\q e desça na página até achar \qTeleporting Glitch Fix Patch\q e siga as instruções (que estão em inglês).\n\nQualquer coisa, pergunte para Ruggy no Discord oficial do MiloHax.")
 (dx_remove_tele_patch "E aí, jogador, fala comigo...\n\nPercebemos que você está com o Patch que corrige os glitches visuais dos instrumentos e certas opções de personalização de personagens de saírem do lugar instalado...\nPois bem, este patch infelizmente causa problemas jogando no console real, sendo um patch específico para jogadores do emulador RPCS3. Junte-se ao Discord do MiloHax (discord.gg/milohax) e peça assistência no servidor para remover o patch.")
+(dx_missing_tele2_patch "Hey, there has been an update to the instrument teleportation patch.\nIt is HIGHLY recommended to reinstall.\nApologies for the inconvience.\n\nVisit rb3dx.milohax.org/downloads and scroll down to \qTeleporting Glitch Fix Patch\q")
+(dx_missing_highmem "E aí, jogador, fala comigo... Hey, we see you are playing on RPCS3, but aren't using the extended memory patch!\n\nIt is EXTREMELY recommended to install, or you will experience frequent crashes.\n\nVisit rb3pc.milohax.org/adv_himem for more info!")
 
 ; Event mode
 (dx_event_club_lbl "Rock Band 3 Deluxe é um MOD feito por fãs do jogo.\nDê uma olhada no site rb3dx.milohax.org\nou em nosso servidor do Discord: discord.gg/milohax")
