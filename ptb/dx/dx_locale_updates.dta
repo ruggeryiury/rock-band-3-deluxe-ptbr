@@ -1598,7 +1598,7 @@
 (confirm_quit_online "Você perderá todo progresso não salvo se você continuar. Você tem certeza que quer continuar?")
 (connecting_server "Conectando-se aos servidores...")
 (create_char_gender "CORPO")
-
+(delete_song "Deletar Pack de Músicas")
 (dx_choose_profile "ESCOLHER PERFIL")
 #ifdef RB3E
 (dx_main_menu_welcome "Bem-vindo ao Rock Band 3 Deluxe + RB3Enhanced!\n\nDê uma olhada nas 'Opções Deluxe' no seu menu, lá você poderá personalizar cada aspecto do jogo ao seu gosto!\n\nRock Band 3 Deluxe e RB3Enhanced são MODs gratuítos, se você pagou por estes MODs, você foi vítima de um golpe!")
@@ -1614,9 +1614,9 @@
 (leaderboards_not_available_rock_central "Você só poderá ver os rankings locais enquanto desconectado ou offline.")
 (linking_code_connect_error "Você deve estar conectado aos servidores para ver o código de conexão de conta.")
 #ifdef HX_PS3
- (loading_additional_content "Carregando Conteúdos Instalado...")
- #endif
- (loading_additional_progress "%s de %s Carregados")
+(loading_additional_content "Carregando Packs Instalados...")
+#endif
+(loading_additional_progress "%s de %s Carregados")
 (male "Masculino")
 (matchmaker_choose_gender "Selecione o Tipo do Corpo")
 (mini_leaderboards_title_friends "Rankings Online")
