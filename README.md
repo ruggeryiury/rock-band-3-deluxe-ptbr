@@ -16,7 +16,7 @@
 
 <div align='center' style='border: 1px #6f6 solid;border-radius: 1rem;margin-top:1rem;margin-bottom:1rem;padding:1rem;padding-bottom:1.5rem'>
 <h1 style='margin:0'>THIS TRANSLATION IS IN-DATE WITH THE FOLLOWING RB3DX DEVELOP COMMIT</h1>
-<a href='https://github.com/hmxmilohax/rock-band-3-deluxe/commit/bed5ce0472711b424efd3b37e298e3db6acd7a23' style='background-color: #6f6;color:#222;padding-left:1rem;padding-right:1rem;padding-top:0.5rem;padding-bottom:0.5rem;border-radius:0.25rem;font-weight:bold'>Commit `797d40b` - Venue fixes for my upgrades (#1108)</a>
+<a href='https://github.com/hmxmilohax/rock-band-3-deluxe/commit/cb029006c7b6c6e619eea558df5eee422b539571' style='background-color: #6f6;color:#222;padding-left:1rem;padding-right:1rem;padding-top:0.5rem;padding-bottom:0.5rem;border-radius:0.25rem;font-weight:bold'>Commit `cb02900` - Fix incorrect desc locale</a>
 </div>
 
 ## About
